@@ -27,6 +27,18 @@ jobs:
         run: python3 content/render.py
       - name: Verify archived content
         run: python3 scripts/verify_migration.py
+      - name: Back up source and history
+        run: |
+          mkdir -p backup
+          git fetch --unshallow || git fetch --all
+          git bundle create backup/history.bundle --all
+          tar -czf backup/source.tar.gz content dist migration scripts DUAL_DEPLOYMENT.md
+      - name: Upload independent backup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-backup-${{ github.sha }}
+          path: backup/
+          retention-days: 90
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
