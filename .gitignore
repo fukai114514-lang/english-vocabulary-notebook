@@ -1,0 +1,8 @@
+
+# Local credentials and build caches
+.env
+.env.*
+!.env.example
+.netlify/
+__pycache__/
+*.pyc

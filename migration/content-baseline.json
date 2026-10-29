@@ -1,0 +1,19 @@
+{
+  "content/app.css": "ea954621cc359c92f916918b136f74e96497e7a191e2ebfbacbd239ab78a1725",
+  "content/app.js": "ef064395850ba428e5596f109c297a1e86ee33f56d65907ea1a5913383d3eca5",
+  "content/base.html": "ea2678688b1b14536081eaea00c5ef30032c6216e55c04f9aeef121c23f7d823",
+  "content/comparisons.txt": "731414b5f48097678d0f540d71b5d45df26b3d53a5c9b403f5c1fcae340a2641",
+  "content/english-captions.txt": "f3fcfa46a914422684810593ceff67244af75c0b29c4948b45fd26570737c3da",
+  "content/nap.py": "3b02c6fc89fae4d770b2d1c7d40b60f1f3b1668e9d40c8c2b185b0b1c719dcca",
+  "content/nap_article.json": "a3360a1ee6c82f898f1e72e79ed21c1bd5188150866bb3cd663daea20fe5393a",
+  "content/polysemy.py": "932f7aa02f05f6e11fae3580529c2f267f256d9bf1a437f76306b668701af522",
+  "content/polysemy.txt": "b54a31f4bd3f8fda5fdb4da34a18a79a1fa9bfb179465c649cac441f305e0396",
+  "content/pronunciation.css": "be77bffb295fddc9a471f29839c03e47cdc570cffce39717524f4295aedfac5f",
+  "content/pronunciation.js": "3587b375130a5c761752192dd6e6da6c47ed73bab0de27468d5a7ab2c0e96d2f",
+  "content/render.py": "ebaa864555391dfacf92228d087445c8d741e4db12124b38790bbe05c0d463ef",
+  "content/selection-notes.txt": "1a52994ed8a0df6e4b33c6a0d3260abda66ff7cb3f1fcd2a764d35159cfcbb3d",
+  "content/vocabulary.json": "09de7296d9cb402ee5df1e263e25ce2c04515819b4b28d4f2e0cb6a3289b8d18",
+  "dist/index.html": "8bcd49d8d7614cacdbbad0462a2ab0b04e5279baf3d4d470d71aa6ec5a9015fd",
+  "dist/polysemy.json": "2112bf07664d4f8a626d12bdcfba5c01473be10caf51317f650f2b55abc876ec",
+  "dist/vocabulary.json": "3ef09c40692ff9c411242ae157f26e7406750c3c7331a8f0b04c97c14c046110"
+}

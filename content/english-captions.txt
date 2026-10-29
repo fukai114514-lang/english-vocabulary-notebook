@@ -1,0 +1,272 @@
+insert|To put something inside or between other things.
+plug|To connect a device to a socket, or fill a hole.
+expensive|Costing a lot of money.
+prohibitive|So expensive that it prevents people from buying or doing something.
+penalize|To impose a penalty or put someone at a disadvantage.
+punish|To make someone suffer a penalty for doing something wrong.
+drop|To fall, let something fall, or decrease in amount; a small amount of liquid.
+drip|To fall or flow in small, separate drops.
+profit|Money left after costs are paid; to gain an advantage.
+interest|Money paid for borrowing or saving money; a desire to know more.
+benefit|An advantage or helpful effect; to help or gain from something.
+spin|To turn around quickly; also to make thread or present a particular version of events.
+revolve|To turn around a central point or axis; to have something as the main focus.
+rotate|To turn around an axis or take turns in a regular order.
+vapor|The gas form of a substance that can also be liquid or solid.
+steam|Water in its gas form, also used for the visible mist above hot water; to cook with steam.
+argument|Reasons supporting an opinion, or an angry disagreement.
+point|A particular idea, opinion, or important detail in a discussion.
+argumentation|The process of developing and presenting reasons for a position.
+disorder|A lack of order, or a condition affecting normal functioning.
+disturbance|Something that interrupts peace, order, or normal activity.
+exclaim|To speak suddenly and loudly because of strong emotion.
+yell|To make a loud cry or speak very loudly.
+shout|To speak or call out in a loud voice.
+transcript|A written record of speech, or an official record of academic results.
+counterpart|A person or thing with a similar role in another place or situation.
+jam|To become stuck or crowded so that movement is difficult.
+block|To prevent movement, access, or progress by putting something in the way.
+appoint|To officially choose someone for a role or set a time or place.
+arrange|To plan something or put things in a particular order.
+smell|To notice an odor with your nose; an odor itself.
+odor|A particular smell, often a strong or unpleasant one.
+institute|An organization for specialized work or study; to introduce a system or practice.
+institution|An established organization, social system, or custom.
+analytic|Using analysis; often used in technical or academic terms.
+analytical|Examining things carefully by considering their parts and relationships.
+intrude|To enter or interfere where you are not welcome or invited.
+invade|To enter by force or spread into a place in large numbers.
+paw|The foot of an animal such as a cat or dog; to touch or scratch with it.
+claw|A sharp, curved animal nail or a pincer; to scratch or grip with claws.
+comment|An opinion or remark; to express an opinion about something.
+commentary|A spoken or written explanation or discussion of events.
+tube|A hollow cylinder or a container shaped like one.
+pipe|A tube used to carry liquid or gas; to transport something through pipes.
+luggage|Bags and cases used when travelling.
+baggage|Travel bags and cases; also emotional burdens from past experiences.
+jealous|Unhappy about someone else's advantages, or afraid of losing someone's affection.
+envious|Wishing you had something that another person has.
+nutrient|A substance that living things need to grow and stay healthy.
+nutrition|The process of taking in and using food, or the nourishment food provides.
+curl|A curved or spiral shape; to form such a shape.
+curve|A smoothly bending line or shape; to bend smoothly.
+pollution|The contamination of the environment by harmful substances or effects.
+pollutant|A substance that causes pollution.
+negative|Expressing refusal, opposition, or an unfavorable view or effect.
+passive|Accepting what happens without taking an active role.
+affect|To influence or change someone or something.
+effect|A result or consequence; as a verb, to bring something about.
+smash|To break violently into pieces or hit with great force.
+break|To separate into pieces, stop functioning, or interrupt; a short rest.
+crash|To collide violently or suddenly stop working.
+crush|To press something so hard that it breaks or loses its shape.
+wreck|To damage something severely; something badly damaged or destroyed.
+destroy|To damage something so completely that it cannot be used or restored easily.
+damage|Harm that reduces value or usefulness; to cause such harm.
+ruin|To spoil something severely; destruction or the remains of a destroyed building.
+allege|To say something is true, especially wrongdoing, without having proved it.
+claim|To state that something is true or demand something as your right.
+delegate|A representative; to give someone responsibility or authority to act.
+deputy|Someone who assists a leader and can act in their place.
+gracious|Polite, kind, and generous, especially toward others in social situations.
+kind|Caring about others and wanting to help them.
+raise|To lift something, increase it, or bring a topic to attention.
+rise|To move upward or increase without a direct object.
+arise|To happen, appear, or come into existence.
+cosmic|Relating to the universe.
+universal|Applying to everyone or everything in a particular scope.
+astronomical|Relating to astronomy; also extremely large in amount.
+immense|Extremely large in size, amount, or degree.
+huge|Very large in size, amount, or degree.
+enormous|Extremely large or great.
+vast|Extremely large in area, extent, or quantity.
+tenacious|Holding firmly to something and refusing to give up.
+persistent|Continuing for a long time or continuing despite difficulty.
+persevering|Continuing to work toward a goal despite difficulties.
+stubborn|Unwilling to change your mind, or difficult to remove or deal with.
+determined|Firmly decided and strongly committed to doing something.
+instalment|One of several payments or parts released over time; British spelling.
+installment|One of several payments or parts released over time; American spelling.
+payment|The act of paying, or an amount of money paid.
+deposit|Money paid in advance or as security, or money put into a bank; to put something somewhere.
+loan|Money or something else borrowed temporarily; to lend.
+bearing|Direction or position, relevance to something, or a person's manner.
+direction|The way something moves or points; guidance on what to do.
+adore|To love or like someone or something very much.
+worship|To show religious devotion or very strong admiration.
+approximately|Close to an amount or value, but not exactly.
+roughly|Approximately; also without precision or with force.
+freight|Goods transported in bulk, their transport, or its cost; to transport goods.
+cargo|Goods carried by a ship, aircraft, or other vehicle.
+stove|An appliance used for cooking or heating a room.
+furnace|An enclosed structure producing high heat for industry or building heating.
+accurate|Correct and close to the true facts or value.
+precise|Exact, detailed, and clearly expressed or measured.
+argue|To give reasons for a view or disagree with someone verbally.
+dispute|To question whether something is true or valid; a disagreement.
+quarrel|An angry disagreement, often about a personal matter; to argue angrily.
+debate|To discuss opposing views, often in a structured way.
+wish|To want something, often something unreal or unlikely; to express a good desire for someone.
+hope|To want something to happen and think it may be possible.
+exchange|To give and receive things, ideas, or information in return.
+swap|To exchange one thing for another, often directly between two people.
+considerate|Careful about other people's feelings and needs.
+thoughtful|Showing care for others or thinking carefully about something.
+condense|To make something shorter or more concentrated, or change gas into liquid.
+compress|To press into less space or reduce the size of data.
+motive|A reason for a particular action.
+motivation|The desire or drive to act, or the reasons behind an action.
+relevant|Directly connected to the matter being considered.
+related|Connected in some way, or belonging to the same family.
+hasten|To make something happen sooner or act without delay.
+harry|To repeatedly trouble, pressure, or attack someone.
+owing to|Because of a particular cause or reason.
+due to|Because of or caused by something.
+quote|To repeat someone's exact words or state a price.
+cite|To mention a source, example, or fact as support.
+allocate|To assign resources to a particular person or purpose.
+distribute|To give things out or spread them over an area.
+protest|To express strong disagreement or objection; an act of opposition.
+defy|To openly refuse to obey, or resist explanation or expectation.
+locate|To find the position of something or establish it in a place.
+situate|To place something in a location or a particular context.
+presence|Being in a place or existing there; also a noticeable personal quality.
+existence|The state of being real or alive, or a way of living.
+absence|The state of not being present or of something being missing.
+peril|Serious danger.
+danger|The possibility of harm or a situation that may cause it.
+risk|The possibility of an unwanted outcome; to expose someone or something to it.
+hazard|A source of potential harm or danger.
+contract|A binding agreement; as a verb, to make an agreement, become smaller, or catch an illness.
+infect|To cause a person or organism to acquire an infection.
+bill|A statement of money owed for goods or services.
+receipt|A record confirming payment; also the act of receiving something.
+invoice|A detailed business bill requesting payment; to issue such a bill.
+check|To examine; also a written bank payment order or, in American English, a restaurant bill.
+gear|Equipment for an activity, or a toothed wheel or speed setting in a machine.
+equipment|The tools or items needed for an activity.
+device|An object or piece of equipment designed for a particular purpose.
+dangle|To hang loosely, often swinging back and forth.
+hang|To be supported from above, or attach something so it is supported from above.
+staff|The people employed by an organization; to provide workers for it.
+personnel|The people working for an organization; also matters involving employees.
+develop|To grow, improve, or bring something into being over time.
+advance|To move forward, make progress, or put forward an idea.
+evidence|Facts or information that help show whether something is true.
+proof|Evidence or reasoning sufficient to establish that something is true.
+surgeon|A doctor trained to perform operations.
+physician|A medical doctor, especially one who treats illnesses without surgery.
+capable|Having the ability or potential to do something.
+competent|Having sufficient skill or knowledge to do something properly.
+emergent|Newly appearing or beginning to develop.
+pressing|Urgent and needing attention soon.
+drastically|To a great extent, especially when describing a major change.
+extremely|To a very high degree.
+mark|A score or visible sign; to assess work or make a sign.
+grade|A level, school year, or assessment result; to classify or assess.
+unwilling|Not wanting or not agreeing to do something.
+reluctant|Not eager to do something, often because of doubts or objections.
+hesitant|Slow to act or speak because you are uncertain.
+hesitated|Paused before acting or speaking because of uncertainty; past form of hesitate.
+complicate|To make something harder to understand or deal with.
+complicated|Having details or difficulties that make something hard to understand.
+complex|Having many connected parts; also a group of related buildings or facilities.
+compliment|An expression of admiration or approval; to give one.
+complement|Something that completes or improves another thing; to combine well with it.
+praise|To express approval or admiration; words of approval.
+flatter|To praise someone, often excessively, or make them look more attractive.
+admire|To respect someone or look at something with pleasure.
+appreciate|To recognize value, feel grateful, or understand a situation fully.
+confront|To deal directly with a difficulty or challenge someone face to face.
+face|To deal with or be presented with something; the front of the head.
+suppose|To think something is likely or assume something for discussion.
+speculate|To form ideas without enough evidence, or invest for uncertain profit.
+prejudice|An unfair judgment made without sufficient knowledge; to bias or harm.
+discriminate|To treat people unfairly based on group identity, or recognize differences.
+clip|A fastener or short extract; to fasten, cut, or hit something briefly, often at an edge.
+bump|A small raised area or a light collision; to hit something accidentally.
+vessel|A ship, a container, or a tube carrying fluid in the body.
+cabin|A small simple house, or a compartment in a ship or aircraft.
+slender|Thin and graceful; also small or limited in amount.
+slim|Attractively thin; also small in probability; to lose weight.
+skinny|Very thin, often in a way considered unattractive or unhealthy.
+span|The distance or time between two limits; to extend across them.
+range|The limits, variety, or extent of something; to vary between limits.
+ballot|A voting paper or a voting process, usually secret; to hold a vote.
+vote|A formal expression of choice; to express that choice in a decision.
+intent|An aim or intention; as an adjective, focused or firmly determined.
+intention|Something you plan or mean to do.
+purpose|The reason something is done or the use it is designed for.
+summit|The top of a mountain or a meeting of leaders.
+peak|A mountain top or highest level; to reach the highest point.
+neglect|To fail to give necessary care or attention; such a failure.
+oversight|An accidental omission or mistake; also supervision.
+associate|To connect ideas or people; a colleague; sometimes a lower-ranking title.
+vice|In job titles, a prefix indicating a deputy or second-in-command.
+mix|To combine things, which may remain distinguishable; a combination.
+blend|To combine smoothly into a unified mixture.
+constitute|To make up something, count as something, or formally establish it.
+construct|To build something by putting parts together.
+brutal|Extremely violent, harsh, or direct.
+cruel|Causing suffering without caring, or deliberately causing it.
+obliged|Required to do something; also grateful for a favor.
+obligated|Bound by a duty, promise, or rule to do something.
+pact|A serious agreement between people, groups, or countries.
+agreement|A shared decision, arrangement, or state of having the same opinion.
+crew|A team working together, especially on a ship, aircraft, or production.
+stuff|Things or material in general; to fill something tightly.
+prompt|To cause action or give a cue; quick to act; a cue or instruction.
+urge|To strongly encourage action; a strong desire to do something.
+encourage|To give confidence or support, or make something more likely.
+borrow|To take something temporarily with the intention of returning it.
+lend|To let someone use something temporarily with the expectation of its return.
+spend|To use money, time, or effort on something.
+cost|To require money, time, or sacrifice; the amount required.
+take|In time expressions, to require a particular amount of time.
+pay|To give money for something or settle a debt; wages.
+remember|To keep something in your memory or bring it back to mind.
+remind|To make someone remember or think of something.
+recall|To bring something back to mind; also to officially request its return.
+adapt|To adjust to new conditions or change something for a new use.
+adopt|To begin using an idea or method, or legally take a child into your family.
+economic|Relating to the economy or the study of economics.
+economical|Using money, fuel, or other resources carefully and without waste.
+ensure|To make certain that something happens or is true.
+assure|To tell someone confidently that something is true so they feel less worried.
+insure|To arrange or provide financial protection against specified risks.
+efficient|Achieving a result with little wasted time, energy, or resources.
+effective|Producing the intended result; also officially in force.
+accept|To willingly take, agree to, or recognize something.
+receive|To get something that is sent, given, or provided.
+likely|Expected to happen or probably true.
+possible|Able to happen or be done, without saying it is likely.
+probable|Likely to happen or be true.
+organized|Able to plan things neatly and effectively; also arranged in a structured way.
+organizational|Relating to how an organization or activity is structured, managed, or coordinated.
+assign|To give someone a task or role, or designate something for a particular use.
+property|Something owned, especially land or buildings; also a characteristic of a thing.
+asset|Something valuable or useful, especially a resource with economic value.
+contest|A competition; as a verb, to compete for something or formally challenge a claim or decision.
+compete|To try to win or succeed against others in an event, activity, or market.
+trash|Unwanted material to be thrown away; also worthless content; to discard or criticize harshly.
+junk|Unwanted or low-value things, especially old objects; to throw them away.
+garbage|Waste, often household or food waste; also ideas or statements considered worthless.
+strain|Pressure or excessive effort; an injury from overstretching; a biological variety; to exert effort or filter liquid.
+renew|To extend a period of validity, start again, or restore strength or freshness.
+renovate|To repair and improve an old building or room.
+rouse|To wake someone, make them active, or stir a strong feeling.
+wake|To stop sleeping or cause someone to stop sleeping.
+awake|Not asleep; as a verb, to stop sleeping or become aware.
+fireplace|A space built into a room where a fire can burn, usually connected to a chimney.
+wheel|A circular part that turns on an axle; to move something on wheels, or turn and move in a curve or circle.
+foresee|To realize in advance that a future event or problem may occur.
+forecast|To estimate a future condition or trend, often using available data; the estimate itself.
+predict|To say what you think will happen in the future.
+compute|To work out a result by following mathematical steps, especially with a computer.
+calculate|To find a number or amount by using mathematics or careful reasoning.
+dive|To enter water, swim underwater, move down quickly, or fall sharply in value.
+plunge|To move or fall suddenly and forcefully into something, or decrease sharply.
+nation|A large community sharing history or identity; also a country considered as a political community.
+country|A territory regarded as a distinct political or geographical unit; also rural land outside towns.
+relentless|Continuing with great intensity or determination without easing or stopping.
+approximate|Close to the actual value but not exact; as a verb, to estimate or come close to something.
