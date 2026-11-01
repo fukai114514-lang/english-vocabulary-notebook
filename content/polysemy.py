@@ -1,4 +1,5 @@
 """Build the separate screenshot vocabulary Part without changing old groups."""
+import hashlib
 import html
 import json
 from pathlib import Path
@@ -21,6 +22,16 @@ def load_entries():
     assert [e['word'] for e in entries] == expected
     assert len(set(expected)) == len(entries) == 62
     assert all(e['notes'] and len(e['senses']) >= 2 for e in entries)
+    metadata=json.loads((ROOT/'content/polysemy-metadata.json').read_text())
+    for entry in entries:
+        m=metadata[entry['word']]
+        entry['reviewStatus']=m['reviewStatus']
+        entry['orderingBasis']=m['orderingBasis']
+        entry['references']=m['references']
+        for sense in entry['senses']:
+            key=hashlib.sha256(json.dumps(sense,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
+            assert key in m['senses'], ('Unmapped sense; review required',entry['word'])
+            sense.update(m['senses'][key])
     return entries
 
 def add_part(page):
@@ -33,9 +44,9 @@ def add_part(page):
         word = entry['word']
         speech = variants.get(word, [('朗读', word)])
         buttons = ''.join('<button type="button" class="speak" data-word="'+esc(phrase, quote=True)+'" aria-label="朗读 '+esc(word+' '+label, quote=True)+'" aria-pressed="false">▷ '+esc(label)+'</button>' for label, phrase in speech)
-        senses = ''.join('<article class="sense"><h3><span class="sense-number">'+str(n)+'</span> <span lang="en" class="pos">'+esc(s['partOfSpeech'])+'</span> '+esc(s['meaningZh'])+'</h3><p class="definition" lang="en">'+esc(s['definitionEn'])+'</p><div class="example"><div class="en" lang="en">'+esc(s['example']['en'])+'</div><div class="zh">'+esc(s['example']['zh'])+'</div></div></article>' for n,s in enumerate(entry['senses'],1))
+        senses = ''.join('<article class="sense" id="'+esc(s['id'], quote=True)+'"><h3><span class="sense-number">'+str(n)+'</span> <span lang="en" class="pos">'+esc(s['partOfSpeech'])+'</span> '+esc(s['meaningZh'])+'</h3><p class="definition" lang="en">'+esc(s['definitionEn'])+'</p><div class="example"><div class="en" lang="en">'+esc(s['example']['en'])+'</div><div class="zh">'+esc(s['example']['zh'])+'</div></div></article>' for n,s in enumerate(entry['senses'],1))
         cards.append('<details class="poly-entry" id="poly-'+word+'"><summary><span class="num">P'+str(i).zfill(2)+'</span>'+word+' <span class="sense-count">'+str(len(entry['senses']))+' 义项</span></summary><div class="body"><div class="word-card-header"><h2 lang="en">'+word+'</h2><div class="pronunciation-options">'+buttons+'</div></div>'+senses+'<aside class="selection"><h2>搭配、语法与易错点</h2><p>'+esc(entry['notes'])+'</p></aside></div></details>')
-    heading = '<div id="poly-heading" class="part-heading"><div class="eyebrow">PART · POLYSEMY</div><h2>多义词详解 · 截图收藏</h2><p>62 个单词 · '+str(sum(len(e['senses']) for e in entries))+' 个主要义项 · 各词义项按现代通用英语中的常见程度大致排列</p><p class="sub">两页重叠词已合并；与旧词组中重复的单词仍在本 Part 集中详解。收录常见义及部分专业用法；专业、正式或口语用法已标注。朗读使用设备语音，多音词提供语境短句。</p></div>'
+    heading = '<div id="poly-heading" class="part-heading"><div class="eyebrow">PART · POLYSEMY</div><h2>多义词详解 · 截图收藏</h2><p>62 个单词 · '+str(sum(len(e['senses']) for e in entries))+' 个主要义项 · 常见义项与扩展用法，支持逐项查阅</p><p class="sub">两页重叠词已合并；与旧词组中重复的单词仍在本 Part 集中详解。收录常见义及部分专业用法；专业、正式或口语用法已标注。朗读使用设备语音，多音词提供语境短句。</p></div>'
     page = page.replace('</section><footer>', heading+''.join(cards)+'</section><footer>', 1)
     page = page.replace('<section id="list">', '<section id="list"><div id="original-heading" class="part-heading"><div class="eyebrow">ORIGINAL PARTS</div><h2>原有词汇辨析 · 113 组</h2></div>', 1)
     page = page.replace('<div class="tools">', '<nav class="part-tabs" aria-label="选择词汇 Part"><button data-part="all" aria-pressed="true">全部内容</button><button data-part="original" aria-pressed="false">原有辨析 · 113组</button><button data-part="poly" aria-pressed="false">新 Part · 多义词62词</button></nav><div class="tools">', 1)

@@ -12,15 +12,15 @@ page_path = ROOT / 'dist/index.html'
 page = page_path.read_text()
 
 article = ''.join(f'<p class="nap-paragraph" id="nap-{letter}"><strong>[{letter}]</strong> {e(text)}</p>' for letter, text in data['paragraphs'].items())
-translation = ''.join(f'<p class="nap-paragraph"><strong>[{letter}]</strong> {e(text)}</p>' for letter, text in data['translationZh'].items())
-words = ''.join(f'<details class="nap-entry"><summary><span lang="en">{e(word)}</span> · {e(zh)}</summary><div class="body"><p lang="en" class="definition">{e(definition)}</p><p><b>原文搭配 / 常见搭配：</b>{e(collocation)}</p></div></details>' for word, zh, definition, collocation in data['vocabulary'])
-phrases = ''.join(f'<li><span lang="en">{e(phrase)}</span><span>{e(zh)}</span></li>' for phrase, zh in data['phrases'])
+translation = ''.join(f'<p class="nap-paragraph" id="nap-zh-{letter}"><strong>[{letter}]</strong> {e(text)}</p>' for letter, text in data['translationZh'].items())
+words = ''.join(f'<details class="nap-entry" id="nap-word-{n}"><summary><span lang="en">{e(word)}</span> · {e(zh)}</summary><div class="body"><p lang="en" class="definition">{e(definition)}</p><p><b>原文搭配 / 常见搭配：</b>{e(collocation)}</p></div></details>' for n,(word, zh, definition, collocation) in enumerate(data['vocabulary']))
+phrases = ''.join(f'<li id="nap-phrase-{n}"><span lang="en">{e(phrase)}</span><span>{e(zh)}</span></li>' for n,(phrase, zh) in enumerate(data['phrases']))
 section = (f'<section id="nap-part" class="nap-part"><div class="part-heading"><div class="eyebrow">PART · READING</div>'
            f'<h2>{e(data["title"])}</h2><p>A—T 段原文 · {len(data["vocabulary"])} 个词汇 · {len(data["phrases"])} 个短语</p>'
            '<p class="sub">阅读原文按图片转录。O 段的 “at the at the” 是纸面重复，按原样保留；图片中的中文注释和手写批注未录入。</p></div>'
            '<div class="nap-jump"><a href="#nap-text">原文</a><a href="#nap-translation">译文</a><a href="#nap-words">词汇</a><a href="#nap-phrases">短语</a></div>'
            f'<div id="nap-text" class="nap-paper"><h3>原文 · A—T</h3>{article}</div>'
-           f'<div id="nap-translation" class="nap-paper" lang="zh-CN"><h3>全文译文 · A—T</h3>{translation}</div>'
+           f'<div id="nap-translation" class="nap-paper" lang="zh-CN"><h3>全文译文 · A—T</h3><p>译文待人工复核。</p>{translation}</div>'
            f'<div id="nap-words"><h3>词汇 · 英文释义</h3>{words}</div>'
            f'<div id="nap-phrases"><h3>短语 · 中文释义</h3><ul class="nap-phrases">{phrases}</ul></div></section>')
 assert '<section id="nap-part"' not in page
@@ -37,10 +37,10 @@ page = page.replace('</style>', css + '</style>', 1)
 # Restore the correct Part before revealing a direct hash target.
 page = page.replace('</body>', """<script>
 function restoreReferenceAnchor(){
-  const id=decodeURIComponent(location.hash.slice(1));
+  let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return;}
   const target=document.getElementById(id);
   if(!target)return;
-  const part=id.startsWith('nap-')?'nap':id.startsWith('poly-')?'poly':id.startsWith('group-')?'original':null;
+  const part=id.startsWith('nap-')?'nap':(id.startsWith('poly-')||id.startsWith('sense-'))?'poly':(id.startsWith('group-')||id==='original-heading')?'original':null;
   if(!part)return;
   document.querySelector('[data-part="'+part+'"]').click();
   const detail=target.closest('details');if(detail)detail.open=true;

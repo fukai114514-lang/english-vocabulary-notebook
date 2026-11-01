@@ -23,7 +23,8 @@ for i,old in enumerate(blocks,1):
  table='<h2>逐词对比</h2><p class="table-hint">手机可左右滑动表格，横向比较用法与例句。</p><div class="table-scroll" tabindex="0" role="region" aria-label="'+html.escape(title,quote=True)+' 对比表"><table><caption>'+html.escape(title)+' · 用法对照</caption><thead><tr><th scope="col">单词 / 表达</th><th scope="col">词性、含义与侧重点</th><th scope="col">常见搭配 / 句型</th><th scope="col">中英例句</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>'
  note='<div class="selection"><h2>怎么选？易错点在哪？</h2><p>'+html.escape(notes[i])+'</p></div>'
  cards='<div class="word-cards">'+''.join('<article class="word-card"><div class="word-card-header"><h3 lang="en">'+html.escape(r[0])+'</h3><button type="button" class="speak" data-word="'+html.escape(r[0],quote=True)+'" aria-label="朗读 '+html.escape(r[0],quote=True)+'" aria-pressed="false">▷ 朗读</button></div><p class="word-caption" lang="en">'+html.escape(captions[r[0]])+'</p></article>' for r in groups[i])+'</div>'
- new=old.replace('<div class="body">','<div class="body">'+cards+table,1)
+ anchored=old if re.search(r'<details[^>]*\bid=',old) else old.replace('<details', '<details id="group-'+str(i).zfill(3)+'"',1)
+ new=anchored.replace('<div class="body">','<div class="body">'+cards+table,1)
  # Keep all original explanations/examples and add the group-specific decision note.
  new=new[:-len('</div></details>')]+note+'</div></details>'
  new=re.sub(r' <span class="badge">新增详解</span>','',new)
@@ -85,3 +86,7 @@ part['title'] = '一词多义'
 part_path.write_text(json.dumps(part, ensure_ascii=False, indent=2)+'\n')
 catalog['parts'][0]['title'] = '一词多义'
 (root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+
+(root/'dist/nap_article.json').write_bytes((root/'content/nap_article.json').read_bytes())
+from search import build as build_search
+build_search()
