@@ -64,3 +64,24 @@ for g in catalog['groups']:
 catalog['parts'] = [polysemy_part]
 (root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'groups':len(groups),'word_rows':sum(map(len,groups.values())),'tables':s.count('<table>'),'selection_notes':s.count('class="selection"')},ensure_ascii=False))
+
+# Keep the published reference interface focused on learning content.
+page_path = root / 'dist/index.html'
+page = page_path.read_text()
+page = re.sub(r'<p class="sub">点击词组展开。.*?</p>', '<p class="sub">点击词组展开释义与例句，支持英文单词和中文关键词搜索。</p>', page, count=1)
+page = re.sub(r'<footer>.*?</footer>', '<footer><p>点击词条查看英文释义、常用搭配与双语例句。</p></footer>', page, flags=re.S)
+page = page.replace('此组由原第77组拆出，词条与例句保留。', '')
+page = re.sub(r'<p class="sub">两页重叠词已合并；.*?</p>', '<p class="sub">收录常见义及部分专业用法，并提供英文释义、双语例句与发音。</p>', page)
+page = re.sub(r'<p class="sub">阅读原文按图片转录。.*?</p>', '', page)
+for before, after in [('原有词汇辨析','词汇辨析'),('原有辨析','词汇辨析'),('多义词详解 · 截图收藏','一词多义'),('新 Part · 多义词62词','一词多义 · 62词'),('新 Part · 午睡文章','阅读文章'),('ORIGINAL PARTS','PART 01 · WORD COMPARISONS'),('PART · POLYSEMY','PART 02 · WORD MEANINGS'),('PART · READING','PART 03 · READING')]:
+ page = page.replace(before, after)
+# Retain the existing element for script compatibility while removing the update filter from the interface.
+page = page.replace('<button id="recent"', '<button style="display:none" tabindex="-1" id="recent"')
+page = page.replace('近期修订的 15 组','词汇筛选')
+page_path.write_text(page)
+part_path = root / 'dist/polysemy.json'
+part = json.loads(part_path.read_text())
+part['title'] = '一词多义'
+part_path.write_text(json.dumps(part, ensure_ascii=False, indent=2)+'\n')
+catalog['parts'][0]['title'] = '一词多义'
+(root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')

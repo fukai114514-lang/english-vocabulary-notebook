@@ -1,6 +1,6 @@
 {
   "id": "polysemy-20261028",
-  "title": "多义词详解 · 截图收藏",
+  "title": "一词多义",
   "date": "2026-10-28",
   "entries": [
     {
@@ -26,21 +26,21 @@
           }
         },
         {
+          "partOfSpeech": "v.",
+          "meaningZh": "将……归功于；认为具有",
+          "definitionEn": "To recognize someone as responsible for something or possessing a quality.",
+          "example": {
+            "en": "He is credited with inventing the device.",
+            "zh": "这项装置的发明被归功于他。"
+          }
+        },
+        {
           "partOfSpeech": "n.",
           "meaningZh": "学分",
           "definitionEn": "A unit awarded for completing an academic course.",
           "example": {
             "en": "This course is worth three credits.",
             "zh": "这门课程计三个学分。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "账户贷记金额；可用余额",
-          "definitionEn": "An amount added to an account or available to spend.",
-          "example": {
-            "en": "There is a credit of twenty dollars on your account.",
-            "zh": "你的账户上有二十美元的贷记余额。"
           }
         },
         {
@@ -53,12 +53,12 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "将……归功于；认为具有",
-          "definitionEn": "To recognize someone as responsible for something or possessing a quality.",
+          "partOfSpeech": "n.",
+          "meaningZh": "账户贷记金额；可用余额",
+          "definitionEn": "An amount added to an account or available to spend.",
           "example": {
-            "en": "He is credited with inventing the device.",
-            "zh": "这项装置的发明被归功于他。"
+            "en": "There is a credit of twenty dollars on your account.",
+            "zh": "你的账户上有二十美元的贷记余额。"
           }
         },
         {
@@ -161,21 +161,12 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "猛摔；猛撞",
-          "definitionEn": "To throw or strike something violently against a surface.",
+          "partOfSpeech": "n.",
+          "meaningZh": "破折号",
+          "definitionEn": "A punctuation mark used to separate or interrupt parts of a sentence.",
           "example": {
-            "en": "Waves dashed against the rocks.",
-            "zh": "海浪猛烈撞击着岩石。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "使希望等破灭",
-          "definitionEn": "To destroy someone's hopes or expectations.",
-          "example": {
-            "en": "The cancellation dashed our hopes of travelling.",
-            "zh": "行程取消使我们出游的希望破灭了。"
+            "en": "Use a dash to introduce the explanation.",
+            "zh": "用破折号引出解释。"
           }
         },
         {
@@ -188,12 +179,21 @@
           }
         },
         {
-          "partOfSpeech": "n.",
-          "meaningZh": "破折号",
-          "definitionEn": "A punctuation mark used to separate or interrupt parts of a sentence.",
+          "partOfSpeech": "v.",
+          "meaningZh": "使希望等破灭",
+          "definitionEn": "To destroy someone's hopes or expectations.",
           "example": {
-            "en": "Use a dash to introduce the explanation.",
-            "zh": "用破折号引出解释。"
+            "en": "The cancellation dashed our hopes of travelling.",
+            "zh": "行程取消使我们出游的希望破灭了。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "猛摔；猛撞",
+          "definitionEn": "To throw or strike something violently against a surface.",
+          "example": {
+            "en": "Waves dashed against the rocks.",
+            "zh": "海浪猛烈撞击着岩石。"
           }
         },
         {
@@ -278,6 +278,15 @@
           }
         },
         {
+          "partOfSpeech": "n.",
+          "meaningZh": "苍蝇",
+          "definitionEn": "A small flying insect.",
+          "example": {
+            "en": "A fly landed on the window.",
+            "zh": "一只苍蝇落在窗户上。"
+          }
+        },
+        {
           "partOfSpeech": "v.",
           "meaningZh": "使飞起；悬挂或飘扬旗帜",
           "definitionEn": "To cause something to move or remain in the air.",
@@ -306,11 +315,11 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "苍蝇",
-          "definitionEn": "A small flying insect.",
+          "meaningZh": "裤子前面的开口或门襟",
+          "definitionEn": "The opening at the front of a pair of trousers.",
           "example": {
-            "en": "A fly landed on the window.",
-            "zh": "一只苍蝇落在窗户上。"
+            "en": "Your fly is open.",
+            "zh": "你的裤子门襟开了。"
           }
         },
         {
@@ -320,15 +329,6 @@
           "example": {
             "en": "They were forced to fly the country.",
             "zh": "他们被迫逃离那个国家。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "裤子前面的开口或门襟",
-          "definitionEn": "The opening at the front of a pair of trousers.",
-          "example": {
-            "en": "Your fly is open.",
-            "zh": "你的裤子门襟开了。"
           }
         }
       ]
@@ -389,6 +389,15 @@
           }
         },
         {
+          "partOfSpeech": "n.",
+          "meaningZh": "一滴；少量",
+          "definitionEn": "A small rounded amount of liquid.",
+          "example": {
+            "en": "A drop of rain fell on my hand.",
+            "zh": "一滴雨落在我手上。"
+          }
+        },
+        {
           "partOfSpeech": "v.",
           "meaningZh": "放弃；取消；停止讨论",
           "definitionEn": "To stop doing, including, or discussing something.",
@@ -404,15 +413,6 @@
           "example": {
             "en": "Could you drop me at the station?",
             "zh": "你能把我送到车站吗？"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "一滴；少量",
-          "definitionEn": "A small rounded amount of liquid.",
-          "example": {
-            "en": "A drop of rain fell on my hand.",
-            "zh": "一滴雨落在我手上。"
           }
         },
         {
@@ -483,11 +483,11 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "听清；理解；注意到",
-          "definitionEn": "To hear, understand, or notice something.",
+          "meaningZh": "感染；染上",
+          "definitionEn": "To become infected with an illness.",
           "example": {
-            "en": "I did not catch your name.",
-            "zh": "我没听清你的名字。"
+            "en": "She caught a cold last week.",
+            "zh": "她上周感冒了。"
           }
         },
         {
@@ -501,20 +501,20 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "感染；染上",
-          "definitionEn": "To become infected with an illness.",
+          "meaningZh": "听清；理解；注意到",
+          "definitionEn": "To hear, understand, or notice something.",
           "example": {
-            "en": "She caught a cold last week.",
-            "zh": "她上周感冒了。"
+            "en": "I did not catch your name.",
+            "zh": "我没听清你的名字。"
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "钩住；夹住；卡住",
-          "definitionEn": "To become trapped or attached accidentally.",
+          "partOfSpeech": "n.",
+          "meaningZh": "隐藏的问题；不利条件",
+          "definitionEn": "A hidden disadvantage or condition that makes an offer less attractive.",
           "example": {
-            "en": "My sleeve caught on a nail.",
-            "zh": "我的袖子被钉子钩住了。"
+            "en": "The offer sounds good, but what is the catch?",
+            "zh": "这个提议听起来不错，但有什么隐藏条件？"
           }
         },
         {
@@ -527,12 +527,12 @@
           }
         },
         {
-          "partOfSpeech": "n.",
-          "meaningZh": "隐藏的问题；不利条件",
-          "definitionEn": "A hidden disadvantage or condition that makes an offer less attractive.",
+          "partOfSpeech": "v.",
+          "meaningZh": "钩住；夹住；卡住",
+          "definitionEn": "To become trapped or attached accidentally.",
           "example": {
-            "en": "The offer sounds good, but what is the catch?",
-            "zh": "这个提议听起来不错，但有什么隐藏条件？"
+            "en": "My sleeve caught on a nail.",
+            "zh": "我的袖子被钉子钩住了。"
           }
         },
         {
@@ -552,20 +552,20 @@
       "senses": [
         {
           "partOfSpeech": "adv.",
-          "meaningZh": "刚刚；刚才",
-          "definitionEn": "A very short time before now or another time.",
-          "example": {
-            "en": "I have just finished my homework.",
-            "zh": "我刚做完作业。"
-          }
-        },
-        {
-          "partOfSpeech": "adv.",
           "meaningZh": "仅仅；只是",
           "definitionEn": "Only or simply.",
           "example": {
             "en": "I just want some water.",
             "zh": "我只想喝点水。"
+          }
+        },
+        {
+          "partOfSpeech": "adv.",
+          "meaningZh": "刚刚；刚才",
+          "definitionEn": "A very short time before now or another time.",
+          "example": {
+            "en": "I have just finished my homework.",
+            "zh": "我刚做完作业。"
           }
         },
         {
@@ -579,20 +579,20 @@
         },
         {
           "partOfSpeech": "adv.",
-          "meaningZh": "勉强；差一点才",
-          "definitionEn": "By a very small margin.",
-          "example": {
-            "en": "We just managed to catch the bus.",
-            "zh": "我们勉强赶上了公交车。"
-          }
-        },
-        {
-          "partOfSpeech": "adv.",
           "meaningZh": "实在；简直（加强语气）",
           "definitionEn": "Used to emphasize a statement or request.",
           "example": {
             "en": "The view is just amazing.",
             "zh": "景色简直太棒了。"
+          }
+        },
+        {
+          "partOfSpeech": "adv.",
+          "meaningZh": "勉强；差一点才",
+          "definitionEn": "By a very small margin.",
+          "example": {
+            "en": "We just managed to catch the bus.",
+            "zh": "我们勉强赶上了公交车。"
           }
         },
         {
@@ -621,15 +621,6 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "猛地移动或使处于某位置",
-          "definitionEn": "To move something suddenly or forcefully.",
-          "example": {
-            "en": "She threw her arms around him.",
-            "zh": "她一下子张开双臂抱住了他。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
           "meaningZh": "使突然陷入某种状态",
           "definitionEn": "To cause someone or something to enter a difficult state.",
           "example": {
@@ -639,20 +630,29 @@
         },
         {
           "partOfSpeech": "v. 非正式",
-          "meaningZh": "使困惑；使慌乱",
-          "definitionEn": "To confuse or upset someone unexpectedly.",
-          "example": {
-            "en": "The unexpected question threw me.",
-            "zh": "那个意外的问题让我乱了阵脚。"
-          }
-        },
-        {
-          "partOfSpeech": "v. 非正式",
           "meaningZh": "举办聚会",
           "definitionEn": "To organize a party.",
           "example": {
             "en": "They threw a party for her birthday.",
             "zh": "他们为她举办了生日聚会。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "猛地移动或使处于某位置",
+          "definitionEn": "To move something suddenly or forcefully.",
+          "example": {
+            "en": "She threw her arms around him.",
+            "zh": "她一下子张开双臂抱住了他。"
+          }
+        },
+        {
+          "partOfSpeech": "v. 非正式",
+          "meaningZh": "使困惑；使慌乱",
+          "definitionEn": "To confuse or upset someone unexpectedly.",
+          "example": {
+            "en": "The unexpected question threw me.",
+            "zh": "那个意外的问题让我乱了阵脚。"
           }
         },
         {
@@ -680,21 +680,21 @@
           }
         },
         {
+          "partOfSpeech": "v.",
+          "meaningZh": "指向；指示",
+          "definitionEn": "To direct a finger or object toward something.",
+          "example": {
+            "en": "She pointed to the exit.",
+            "zh": "她指了指出口。"
+          }
+        },
+        {
           "partOfSpeech": "n.",
           "meaningZh": "地点；时刻；阶段",
           "definitionEn": "A particular place, moment, or stage.",
           "example": {
             "en": "We have reached a turning point.",
             "zh": "我们已经到了一个转折点。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "尖端；尖头",
-          "definitionEn": "The sharp end of an object.",
-          "example": {
-            "en": "The point of the needle is bent.",
-            "zh": "针尖弯了。"
           }
         },
         {
@@ -708,20 +708,20 @@
         },
         {
           "partOfSpeech": "n.",
+          "meaningZh": "尖端；尖头",
+          "definitionEn": "The sharp end of an object.",
+          "example": {
+            "en": "The point of the needle is bent.",
+            "zh": "针尖弯了。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
           "meaningZh": "小数点；几何中的点",
           "definitionEn": "A decimal mark or an exact position with no size.",
           "example": {
             "en": "The answer is three point five.",
             "zh": "答案是三点五。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "指向；指示",
-          "definitionEn": "To direct a finger or object toward something.",
-          "example": {
-            "en": "She pointed to the exit.",
-            "zh": "她指了指出口。"
           }
         },
         {
@@ -741,15 +741,6 @@
       "senses": [
         {
           "partOfSpeech": "adj./det.",
-          "meaningZh": "最后的；仅剩的",
-          "definitionEn": "Coming after all others, or the only one remaining.",
-          "example": {
-            "en": "This is the last ticket.",
-            "zh": "这是最后一张票。"
-          }
-        },
-        {
-          "partOfSpeech": "adj./det.",
           "meaningZh": "最近过去的；上一个的",
           "definitionEn": "Most recent before the present one.",
           "example": {
@@ -758,12 +749,12 @@
           }
         },
         {
-          "partOfSpeech": "adv.",
-          "meaningZh": "最后；最近一次",
-          "definitionEn": "After everyone else, or on the most recent occasion.",
+          "partOfSpeech": "adj./det.",
+          "meaningZh": "最后的；仅剩的",
+          "definitionEn": "Coming after all others, or the only one remaining.",
           "example": {
-            "en": "When did you last see him?",
-            "zh": "你上次见他是什么时候？"
+            "en": "This is the last ticket.",
+            "zh": "这是最后一张票。"
           }
         },
         {
@@ -776,12 +767,12 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "耐用；够用",
-          "definitionEn": "To remain usable or sufficient.",
+          "partOfSpeech": "adv.",
+          "meaningZh": "最后；最近一次",
+          "definitionEn": "After everyone else, or on the most recent occasion.",
           "example": {
-            "en": "This food should last us three days.",
-            "zh": "这些食物应该够我们吃三天。"
+            "en": "When did you last see him?",
+            "zh": "你上次见他是什么时候？"
           }
         },
         {
@@ -791,6 +782,15 @@
           "example": {
             "en": "She was the last to leave.",
             "zh": "她最后一个离开。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "耐用；够用",
+          "definitionEn": "To remain usable or sufficient.",
+          "example": {
+            "en": "This food should last us three days.",
+            "zh": "这些食物应该够我们吃三天。"
           }
         }
       ]
@@ -852,15 +852,6 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "递给；传递",
-          "definitionEn": "To give something to another person.",
-          "example": {
-            "en": "Please pass me the salt.",
-            "zh": "请把盐递给我。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
           "meaningZh": "通过考试、检查或法案",
           "definitionEn": "To succeed in a test, or formally approve something.",
           "example": {
@@ -870,11 +861,38 @@
         },
         {
           "partOfSpeech": "v.",
+          "meaningZh": "递给；传递",
+          "definitionEn": "To give something to another person.",
+          "example": {
+            "en": "Please pass me the salt.",
+            "zh": "请把盐递给我。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
           "meaningZh": "时间流逝；度过",
           "definitionEn": "For time to go by, or to spend time.",
           "example": {
             "en": "We played cards to pass the time.",
             "zh": "我们打牌来消磨时间。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "通行证；票证",
+          "definitionEn": "A document giving permission to enter or travel.",
+          "example": {
+            "en": "You need a visitor's pass to enter.",
+            "zh": "你需要访客通行证才能进入。"
+          }
+        },
+        {
+          "partOfSpeech": "n. 体育",
+          "meaningZh": "传球",
+          "definitionEn": "An act of sending a ball to another player.",
+          "example": {
+            "en": "Her accurate pass created a scoring chance.",
+            "zh": "她精准的传球创造了一次得分机会。"
           }
         },
         {
@@ -897,29 +915,11 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "通行证；票证",
-          "definitionEn": "A document giving permission to enter or travel.",
-          "example": {
-            "en": "You need a visitor's pass to enter.",
-            "zh": "你需要访客通行证才能进入。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "山口；山间通道",
           "definitionEn": "A route through or over mountains.",
           "example": {
             "en": "The mountain pass is closed in winter.",
             "zh": "这个山口冬季封闭。"
-          }
-        },
-        {
-          "partOfSpeech": "n. 体育",
-          "meaningZh": "传球",
-          "definitionEn": "An act of sending a ball to another player.",
-          "example": {
-            "en": "Her accurate pass created a scoring chance.",
-            "zh": "她精准的传球创造了一次得分机会。"
           }
         }
       ]
@@ -928,15 +928,6 @@
       "word": "over",
       "notes": "over 不总表示垂直正上方；above 更侧重位置较高。over and over 反复；all over 到处、结束；think over 仔细考虑；get over 克服、康复。",
       "senses": [
-        {
-          "partOfSpeech": "prep./adv.",
-          "meaningZh": "在……上方；越过",
-          "definitionEn": "Above something or moving across it.",
-          "example": {
-            "en": "The bird flew over the wall.",
-            "zh": "鸟飞过了墙。"
-          }
-        },
         {
           "partOfSpeech": "prep.",
           "meaningZh": "超过；多于",
@@ -947,12 +938,21 @@
           }
         },
         {
-          "partOfSpeech": "prep.",
-          "meaningZh": "在……期间；贯穿一段时间",
-          "definitionEn": "During a period of time.",
+          "partOfSpeech": "prep./adv.",
+          "meaningZh": "在……上方；越过",
+          "definitionEn": "Above something or moving across it.",
           "example": {
-            "en": "We discussed it over lunch.",
-            "zh": "我们午饭时讨论了这件事。"
+            "en": "The bird flew over the wall.",
+            "zh": "鸟飞过了墙。"
+          }
+        },
+        {
+          "partOfSpeech": "adj./adv.",
+          "meaningZh": "结束的；完结",
+          "definitionEn": "Finished or no longer happening.",
+          "example": {
+            "en": "The exam is over.",
+            "zh": "考试结束了。"
           }
         },
         {
@@ -962,6 +962,15 @@
           "example": {
             "en": "They argued over money.",
             "zh": "他们为钱争吵。"
+          }
+        },
+        {
+          "partOfSpeech": "prep.",
+          "meaningZh": "在……期间；贯穿一段时间",
+          "definitionEn": "During a period of time.",
+          "example": {
+            "en": "We discussed it over lunch.",
+            "zh": "我们午饭时讨论了这件事。"
           }
         },
         {
@@ -981,15 +990,6 @@
             "en": "Please start over.",
             "zh": "请重新开始。"
           }
-        },
-        {
-          "partOfSpeech": "adj./adv.",
-          "meaningZh": "结束的；完结",
-          "definitionEn": "Finished or no longer happening.",
-          "example": {
-            "en": "The exam is over.",
-            "zh": "考试结束了。"
-          }
         }
       ]
     },
@@ -1007,12 +1007,12 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "违背；违反",
-          "definitionEn": "To fail to obey a rule, promise, or agreement.",
+          "partOfSpeech": "n.",
+          "meaningZh": "休息；短暂中断",
+          "definitionEn": "A short pause in work or another activity.",
           "example": {
-            "en": "He broke his promise.",
-            "zh": "他违背了诺言。"
+            "en": "Let's take a ten-minute break.",
+            "zh": "我们休息十分钟吧。"
           }
         },
         {
@@ -1026,11 +1026,11 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "消息传开；公开新闻",
-          "definitionEn": "For news to become known, or to make it known.",
+          "meaningZh": "违背；违反",
+          "definitionEn": "To fail to obey a rule, promise, or agreement.",
           "example": {
-            "en": "The story broke this morning.",
-            "zh": "这件事今天早上传开了。"
+            "en": "He broke his promise.",
+            "zh": "他违背了诺言。"
           }
         },
         {
@@ -1043,12 +1043,12 @@
           }
         },
         {
-          "partOfSpeech": "n.",
-          "meaningZh": "休息；短暂中断",
-          "definitionEn": "A short pause in work or another activity.",
+          "partOfSpeech": "v.",
+          "meaningZh": "消息传开；公开新闻",
+          "definitionEn": "For news to become known, or to make it known.",
           "example": {
-            "en": "Let's take a ten-minute break.",
-            "zh": "我们休息十分钟吧。"
+            "en": "The story broke this morning.",
+            "zh": "这件事今天早上传开了。"
           }
         },
         {
@@ -1086,20 +1086,20 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "少量品尝；体验",
-          "definitionEn": "A small sample or brief experience.",
-          "example": {
-            "en": "The trip gave me a taste of independence.",
-            "zh": "这次旅行让我初尝独立的滋味。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "喜好；审美；品味",
           "definitionEn": "A person's preferences or judgment about quality and style.",
           "example": {
             "en": "She has excellent taste in music.",
             "zh": "她的音乐品味很好。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "少量品尝；体验",
+          "definitionEn": "A small sample or brief experience.",
+          "example": {
+            "en": "The trip gave me a taste of independence.",
+            "zh": "这次旅行让我初尝独立的滋味。"
           }
         },
         {
@@ -1136,24 +1136,6 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "反对；违背",
-          "definitionEn": "To oppose or disobey someone.",
-          "example": {
-            "en": "You should not cross her when she is angry.",
-            "zh": "她生气时，你最好别跟她作对。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "使杂交",
-          "definitionEn": "To breed plants or animals of different types together.",
-          "example": {
-            "en": "They crossed two varieties of rose.",
-            "zh": "他们将两个品种的玫瑰进行了杂交。"
-          }
-        },
-        {
           "partOfSpeech": "n.",
           "meaningZh": "十字形；十字架；杂交品种",
           "definitionEn": "A shape made by intersecting lines, or a mixed breed.",
@@ -1169,6 +1151,24 @@
           "example": {
             "en": "She was cross with me for being late.",
             "zh": "她因为我迟到而生我的气。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "反对；违背",
+          "definitionEn": "To oppose or disobey someone.",
+          "example": {
+            "en": "You should not cross her when she is angry.",
+            "zh": "她生气时，你最好别跟她作对。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "使杂交",
+          "definitionEn": "To breed plants or animals of different types together.",
+          "example": {
+            "en": "They crossed two varieties of rose.",
+            "zh": "他们将两个品种的玫瑰进行了杂交。"
           }
         }
       ]
@@ -1197,20 +1197,20 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "梭子；羽毛球（较少见，通常 shuttlecock）",
-          "definitionEn": "A weaving tool carrying thread, or a shuttlecock.",
-          "example": {
-            "en": "The shuttle carries thread across the loom.",
-            "zh": "梭子把线送过织布机。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "航天飞机（space shuttle）",
           "definitionEn": "A spacecraft designed for repeated journeys between Earth and space.",
           "example": {
             "en": "The space shuttle returned safely.",
             "zh": "航天飞机安全返回了。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "梭子；羽毛球（较少见，通常 shuttlecock）",
+          "definitionEn": "A weaving tool carrying thread, or a shuttlecock.",
+          "example": {
+            "en": "The shuttle carries thread across the loom.",
+            "zh": "梭子把线送过织布机。"
           }
         }
       ]
@@ -1230,24 +1230,6 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "位于；处在某位置或状态",
-          "definitionEn": "To be situated somewhere or remain in a state.",
-          "example": {
-            "en": "The village lies beside a river.",
-            "zh": "村庄位于一条河边。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "在于；存在于",
-          "definitionEn": "To have its basis or cause in something.",
-          "example": {
-            "en": "The problem lies in the lack of practice.",
-            "zh": "问题在于缺少练习。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
           "meaningZh": "说谎",
           "definitionEn": "To deliberately say something untrue.",
           "example": {
@@ -1262,6 +1244,24 @@
           "example": {
             "en": "He told a lie to avoid trouble.",
             "zh": "他为避免麻烦撒了谎。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "位于；处在某位置或状态",
+          "definitionEn": "To be situated somewhere or remain in a state.",
+          "example": {
+            "en": "The village lies beside a river.",
+            "zh": "村庄位于一条河边。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "在于；存在于",
+          "definitionEn": "To have its basis or cause in something.",
+          "example": {
+            "en": "The problem lies in the lack of practice.",
+            "zh": "问题在于缺少练习。"
           }
         },
         {
@@ -1358,21 +1358,21 @@
           }
         },
         {
-          "partOfSpeech": "n.",
-          "meaningZh": "一批；一组；全部某类东西",
-          "definitionEn": "A group or quantity considered together.",
-          "example": {
-            "en": "This lot of books belongs upstairs.",
-            "zh": "这批书应该放在楼上。"
-          }
-        },
-        {
           "partOfSpeech": "n. 尤其美式",
           "meaningZh": "地块；场地",
           "definitionEn": "An area of land used for a particular purpose.",
           "example": {
             "en": "There is a parking lot behind the bank.",
             "zh": "银行后面有一个停车场。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "一批；一组；全部某类东西",
+          "definitionEn": "A group or quantity considered together.",
+          "example": {
+            "en": "This lot of books belongs upstairs.",
+            "zh": "这批书应该放在楼上。"
           }
         },
         {
@@ -1418,12 +1418,12 @@
           }
         },
         {
-          "partOfSpeech": "n.",
-          "meaningZh": "标签；号码单；工单",
-          "definitionEn": "A label or numbered record used to identify or track something.",
+          "partOfSpeech": "v.",
+          "meaningZh": "开罚单；出票或贴标签",
+          "definitionEn": "To issue a ticket or attach a ticket to something.",
           "example": {
-            "en": "Please open a support ticket.",
-            "zh": "请提交一张客服工单。"
+            "en": "Cars parked here will be ticketed.",
+            "zh": "停在这里的车辆会被开罚单。"
           }
         },
         {
@@ -1445,12 +1445,12 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "开罚单；出票或贴标签",
-          "definitionEn": "To issue a ticket or attach a ticket to something.",
+          "partOfSpeech": "n.",
+          "meaningZh": "标签；号码单；工单",
+          "definitionEn": "A label or numbered record used to identify or track something.",
           "example": {
-            "en": "Cars parked here will be ticketed.",
-            "zh": "停在这里的车辆会被开罚单。"
+            "en": "Please open a support ticket.",
+            "zh": "请提交一张客服工单。"
           }
         }
       ]
@@ -1478,6 +1478,15 @@
           }
         },
         {
+          "partOfSpeech": "n.",
+          "meaningZh": "击打；打击",
+          "definitionEn": "A hit or a sudden harmful event.",
+          "example": {
+            "en": "The news was a serious blow to the team.",
+            "zh": "这个消息给团队造成了沉重打击。"
+          }
+        },
+        {
           "partOfSpeech": "v.",
           "meaningZh": "爆炸；熔断",
           "definitionEn": "To explode or stop working because of excess current.",
@@ -1493,15 +1502,6 @@
           "example": {
             "en": "He blew all his savings on a car.",
             "zh": "他把全部积蓄都花在一辆车上了。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "击打；打击",
-          "definitionEn": "A hit or a sudden harmful event.",
-          "example": {
-            "en": "The news was a serious blow to the team.",
-            "zh": "这个消息给团队造成了沉重打击。"
           }
         },
         {
@@ -1581,29 +1581,11 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "布料；织物",
-          "definitionEn": "Cloth used for clothes or other items.",
-          "example": {
-            "en": "This material is soft and light.",
-            "zh": "这种布料柔软轻薄。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "资料；素材；学习材料",
           "definitionEn": "Information or content used for study or creative work.",
           "example": {
             "en": "The teacher uploaded the reading materials.",
             "zh": "老师上传了阅读资料。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "具备某种潜质的人",
-          "definitionEn": "A person considered suitable for a particular role.",
-          "example": {
-            "en": "She is clearly leadership material.",
-            "zh": "她显然是当领导的料。"
           }
         },
         {
@@ -1616,12 +1598,30 @@
           }
         },
         {
+          "partOfSpeech": "n.",
+          "meaningZh": "布料；织物",
+          "definitionEn": "Cloth used for clothes or other items.",
+          "example": {
+            "en": "This material is soft and light.",
+            "zh": "这种布料柔软轻薄。"
+          }
+        },
+        {
           "partOfSpeech": "adj. 正式",
           "meaningZh": "重要的；实质性的",
           "definitionEn": "Significant enough to affect a decision or situation.",
           "example": {
             "en": "The change made no material difference.",
             "zh": "这个变化没有造成实质性差别。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "具备某种潜质的人",
+          "definitionEn": "A person considered suitable for a particular role.",
+          "example": {
+            "en": "She is clearly leadership material.",
+            "zh": "她显然是当领导的料。"
           }
         }
       ]
@@ -1701,15 +1701,6 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "报纸",
-          "definitionEn": "A newspaper.",
-          "example": {
-            "en": "I read the paper every morning.",
-            "zh": "我每天早上读报。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "论文；学术文章",
           "definitionEn": "A piece of academic writing or research.",
           "example": {
@@ -1719,11 +1710,11 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "试卷；考卷；考试科目",
-          "definitionEn": "An examination or the written questions or answers in it.",
+          "meaningZh": "报纸",
+          "definitionEn": "A newspaper.",
           "example": {
-            "en": "The maths paper was difficult.",
-            "zh": "数学试卷很难。"
+            "en": "I read the paper every morning.",
+            "zh": "我每天早上读报。"
           }
         },
         {
@@ -1733,6 +1724,15 @@
           "example": {
             "en": "The officer checked our papers.",
             "zh": "那名官员检查了我们的证件。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "试卷；考卷；考试科目",
+          "definitionEn": "An examination or the written questions or answers in it.",
+          "example": {
+            "en": "The maths paper was difficult.",
+            "zh": "数学试卷很难。"
           }
         },
         {
@@ -1946,15 +1946,6 @@
       "notes": "used 作“二手的”读 /juːzd/；used to（过去常常）通常 /ˈjuːst tə/；be/get used to 后接名词或 doing；be used to do 表“被用来做”，结构不同。",
       "senses": [
         {
-          "partOfSpeech": "adj.",
-          "meaningZh": "用过的；二手的",
-          "definitionEn": "Previously owned or used by someone.",
-          "example": {
-            "en": "He bought a used car.",
-            "zh": "他买了一辆二手车。"
-          }
-        },
-        {
           "partOfSpeech": "v. 过去式/过去分词",
           "meaningZh": "使用了；被使用",
           "definitionEn": "The past tense and past participle of use.",
@@ -1983,6 +1974,15 @@
         },
         {
           "partOfSpeech": "adj.",
+          "meaningZh": "用过的；二手的",
+          "definitionEn": "Previously owned or used by someone.",
+          "example": {
+            "en": "He bought a used car.",
+            "zh": "他买了一辆二手车。"
+          }
+        },
+        {
+          "partOfSpeech": "adj.",
           "meaningZh": "被利用的；被当作工具的",
           "definitionEn": "Made to feel exploited by someone.",
           "example": {
@@ -1996,24 +1996,6 @@
       "word": "zoom",
       "notes": "zoom in/out 放大/缩小视图；zoom in on 聚焦或详细查看；Zoom 大写也可为软件品牌。zoom lens 变焦镜头。",
       "senses": [
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "疾驰；迅速移动",
-          "definitionEn": "To move very quickly.",
-          "example": {
-            "en": "A motorbike zoomed past us.",
-            "zh": "一辆摩托车从我们身边疾驰而过。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "急剧增长；猛涨",
-          "definitionEn": "To rise or increase rapidly.",
-          "example": {
-            "en": "Sales zoomed after the launch.",
-            "zh": "产品推出后销量猛增。"
-          }
-        },
         {
           "partOfSpeech": "v.",
           "meaningZh": "变焦；放大或缩小画面",
@@ -2030,6 +2012,24 @@
           "example": {
             "en": "The camera has a powerful optical zoom.",
             "zh": "这台相机具有强大的光学变焦功能。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "疾驰；迅速移动",
+          "definitionEn": "To move very quickly.",
+          "example": {
+            "en": "A motorbike zoomed past us.",
+            "zh": "一辆摩托车从我们身边疾驰而过。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "急剧增长；猛涨",
+          "definitionEn": "To rise or increase rapidly.",
+          "example": {
+            "en": "Sales zoomed after the launch.",
+            "zh": "产品推出后销量猛增。"
           }
         }
       ]
@@ -2108,6 +2108,15 @@
           }
         },
         {
+          "partOfSpeech": "v.",
+          "meaningZh": "认为；估计；计算",
+          "definitionEn": "To think, estimate, or calculate.",
+          "example": {
+            "en": "I figured that he would arrive late.",
+            "zh": "我估计他会迟到。"
+          }
+        },
+        {
           "partOfSpeech": "n.",
           "meaningZh": "人物；重要人物",
           "definitionEn": "A person, especially someone notable.",
@@ -2145,15 +2154,6 @@
         },
         {
           "partOfSpeech": "v.",
-          "meaningZh": "认为；估计；计算",
-          "definitionEn": "To think, estimate, or calculate.",
-          "example": {
-            "en": "I figured that he would arrive late.",
-            "zh": "我估计他会迟到。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
           "meaningZh": "出现；占有重要地位",
           "definitionEn": "To appear or have a role in something.",
           "example": {
@@ -2178,20 +2178,20 @@
         },
         {
           "partOfSpeech": "adj.",
-          "meaningZh": "饱的",
-          "definitionEn": "Having eaten enough food.",
-          "example": {
-            "en": "I am full, thank you.",
-            "zh": "我吃饱了，谢谢。"
-          }
-        },
-        {
-          "partOfSpeech": "adj.",
           "meaningZh": "完整的；全部的",
           "definitionEn": "Complete, with nothing missing.",
           "example": {
             "en": "Please give your full name.",
             "zh": "请填写你的全名。"
+          }
+        },
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "饱的",
+          "definitionEn": "Having eaten enough food.",
+          "example": {
+            "en": "I am full, thank you.",
+            "zh": "我吃饱了，谢谢。"
           }
         },
         {
@@ -2264,21 +2264,21 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "借调；临时派遣",
-          "definitionEn": "To transfer an employee temporarily to another position.",
-          "example": {
-            "en": "She was seconded to the research team.",
-            "zh": "她被借调到研究团队。"
-          }
-        },
-        {
           "partOfSpeech": "n. 常用复数",
           "meaningZh": "添的一份食物；次品",
           "definitionEn": "An additional helping of food, or goods of imperfect quality.",
           "example": {
             "en": "Anyone who wants seconds can help themselves.",
             "zh": "想再添一份的人可以自取。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "借调；临时派遣",
+          "definitionEn": "To transfer an employee temporarily to another position.",
+          "example": {
+            "en": "She was seconded to the research team.",
+            "zh": "她被借调到研究团队。"
           }
         }
       ]
@@ -2306,6 +2306,15 @@
           }
         },
         {
+          "partOfSpeech": "v.",
+          "meaningZh": "签名；签署；签约",
+          "definitionEn": "To write a name on a document or enter an agreement.",
+          "example": {
+            "en": "Please sign at the bottom of the form.",
+            "zh": "请在表格底部签名。"
+          }
+        },
+        {
           "partOfSpeech": "n.",
           "meaningZh": "符号；手势",
           "definitionEn": "A written mark or movement conveying meaning.",
@@ -2321,15 +2330,6 @@
           "example": {
             "en": "What is your star sign?",
             "zh": "你是什么星座？"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "签名；签署；签约",
-          "definitionEn": "To write a name on a document or enter an agreement.",
-          "example": {
-            "en": "Please sign at the bottom of the form.",
-            "zh": "请在表格底部签名。"
           }
         },
         {
@@ -2441,12 +2441,12 @@
       "notes": "due to + 名词/doing 表原因；be due to do 预计或按安排将做；be due for 应当得到、该进行。be due to illness 是“因病”，be due to arrive 是“预计到达”。",
       "senses": [
         {
-          "partOfSpeech": "adj.",
-          "meaningZh": "到期应付的；应交的",
-          "definitionEn": "Required to be paid or submitted by a particular time.",
+          "partOfSpeech": "adj. 短语",
+          "meaningZh": "由……引起的",
+          "definitionEn": "Caused by something, used with to.",
           "example": {
-            "en": "The assignment is due on Friday.",
-            "zh": "作业周五截止。"
+            "en": "The delay was due to heavy traffic.",
+            "zh": "延误是交通拥堵造成的。"
           }
         },
         {
@@ -2460,20 +2460,20 @@
         },
         {
           "partOfSpeech": "adj.",
+          "meaningZh": "到期应付的；应交的",
+          "definitionEn": "Required to be paid or submitted by a particular time.",
+          "example": {
+            "en": "The assignment is due on Friday.",
+            "zh": "作业周五截止。"
+          }
+        },
+        {
+          "partOfSpeech": "adj.",
           "meaningZh": "应得的；适当的",
           "definitionEn": "Deserved or appropriate in the circumstances.",
           "example": {
             "en": "Give her the respect that is due to her.",
             "zh": "给予她应得的尊重。"
-          }
-        },
-        {
-          "partOfSpeech": "adj. 短语",
-          "meaningZh": "由……引起的",
-          "definitionEn": "Caused by something, used with to.",
-          "example": {
-            "en": "The delay was due to heavy traffic.",
-            "zh": "延误是交通拥堵造成的。"
           }
         },
         {
@@ -2519,21 +2519,21 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "起伏；飘动",
-          "definitionEn": "To move in a flowing up-and-down motion.",
-          "example": {
-            "en": "Flags waved in the wind.",
-            "zh": "旗帜在风中飘扬。"
-          }
-        },
-        {
           "partOfSpeech": "n.",
           "meaningZh": "一阵；一批；浪潮",
           "definitionEn": "A sudden increase or movement affecting many people.",
           "example": {
             "en": "A wave of excitement spread through the crowd.",
             "zh": "一阵兴奋传遍了人群。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "起伏；飘动",
+          "definitionEn": "To move in a flowing up-and-down motion.",
+          "example": {
+            "en": "Flags waved in the wind.",
+            "zh": "旗帜在风中飘扬。"
           }
         },
         {
@@ -2682,20 +2682,20 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "附属装置；配件",
-          "definitionEn": "An extra part fitted to a tool or machine.",
-          "example": {
-            "en": "The vacuum cleaner has a brush attachment.",
-            "zh": "吸尘器配有一个刷头附件。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "依恋；感情联系",
           "definitionEn": "A strong emotional bond with someone or something.",
           "example": {
             "en": "She has a deep attachment to her hometown.",
             "zh": "她对家乡有深厚的感情。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "附属装置；配件",
+          "definitionEn": "An extra part fitted to a tool or machine.",
+          "example": {
+            "en": "The vacuum cleaner has a brush attachment.",
+            "zh": "吸尘器配有一个刷头附件。"
           }
         },
         {
@@ -2750,6 +2750,15 @@
           }
         },
         {
+          "partOfSpeech": "v.",
+          "meaningZh": "突然出现；源自",
+          "definitionEn": "To appear quickly or originate from something.",
+          "example": {
+            "en": "New shops sprang up near the station.",
+            "zh": "车站附近迅速出现了许多新商店。"
+          }
+        },
+        {
           "partOfSpeech": "n.",
           "meaningZh": "泉；泉水源头",
           "definitionEn": "A place where water naturally flows from the ground.",
@@ -2765,15 +2774,6 @@
           "example": {
             "en": "The cat sprang onto the wall.",
             "zh": "猫一下跳到了墙上。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "突然出现；源自",
-          "definitionEn": "To appear quickly or originate from something.",
-          "example": {
-            "en": "New shops sprang up near the station.",
-            "zh": "车站附近迅速出现了许多新商店。"
           }
         },
         {
@@ -2810,6 +2810,15 @@
           }
         },
         {
+          "partOfSpeech": "adj./adv. /laɪv/",
+          "meaningZh": "现场直播的；现场演出的；实时地",
+          "definitionEn": "Broadcast, performed, or transmitted as it happens.",
+          "example": {
+            "en": "The concert will be broadcast live.",
+            "zh": "音乐会将进行现场直播。"
+          }
+        },
+        {
           "partOfSpeech": "v. /lɪv/",
           "meaningZh": "靠……为生；继续存在",
           "definitionEn": "To support oneself or continue to exist in memory or effect.",
@@ -2828,15 +2837,6 @@
           }
         },
         {
-          "partOfSpeech": "adj./adv. /laɪv/",
-          "meaningZh": "现场直播的；现场演出的；实时地",
-          "definitionEn": "Broadcast, performed, or transmitted as it happens.",
-          "example": {
-            "en": "The concert will be broadcast live.",
-            "zh": "音乐会将进行现场直播。"
-          }
-        },
-        {
           "partOfSpeech": "adj. /laɪv/",
           "meaningZh": "带电的",
           "definitionEn": "Carrying an electric current.",
@@ -2847,20 +2847,20 @@
         },
         {
           "partOfSpeech": "adj. /laɪv/",
-          "meaningZh": "实弹的；未爆的",
-          "definitionEn": "Containing an explosive charge that can still be fired or detonated.",
-          "example": {
-            "en": "The soldiers trained with live ammunition.",
-            "zh": "士兵使用实弹进行训练。"
-          }
-        },
-        {
-          "partOfSpeech": "adj. /laɪv/",
           "meaningZh": "当前有效的；仍待处理的",
           "definitionEn": "Currently operating, available, or under active consideration.",
           "example": {
             "en": "This is still a live issue for the committee.",
             "zh": "这仍是委员会正在处理的问题。"
+          }
+        },
+        {
+          "partOfSpeech": "adj. /laɪv/",
+          "meaningZh": "实弹的；未爆的",
+          "definitionEn": "Containing an explosive charge that can still be fired or detonated.",
+          "example": {
+            "en": "The soldiers trained with live ammunition.",
+            "zh": "士兵使用实弹进行训练。"
           }
         }
       ]
@@ -2912,15 +2912,6 @@
       "notes": "a buck 非正式“一美元”；pass the buck 推卸责任；buck the trend 逆势而行；buck up 振作起来。雄鹿常见，雌鹿常称 doe。",
       "senses": [
         {
-          "partOfSpeech": "n.",
-          "meaningZh": "雄鹿；某些动物的雄性",
-          "definitionEn": "A male deer, rabbit, or certain other animals.",
-          "example": {
-            "en": "A buck stood at the edge of the forest.",
-            "zh": "一只雄鹿站在森林边缘。"
-          }
-        },
-        {
           "partOfSpeech": "n. 非正式",
           "meaningZh": "美元；某些国家的一元钱",
           "definitionEn": "A dollar, especially in informal speech.",
@@ -2930,12 +2921,21 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "尥蹶子；猛然弓背跃起",
-          "definitionEn": "For an animal to jump with its back arched and hind legs kicking.",
+          "partOfSpeech": "n.",
+          "meaningZh": "雄鹿；某些动物的雄性",
+          "definitionEn": "A male deer, rabbit, or certain other animals.",
           "example": {
-            "en": "The horse bucked and threw the rider.",
-            "zh": "马尥起蹶子，把骑手摔了下来。"
+            "en": "A buck stood at the edge of the forest.",
+            "zh": "一只雄鹿站在森林边缘。"
+          }
+        },
+        {
+          "partOfSpeech": "n. 固定表达",
+          "meaningZh": "责任（pass the buck 等）",
+          "definitionEn": "Responsibility, especially in expressions about avoiding it.",
+          "example": {
+            "en": "Stop passing the buck and make a decision.",
+            "zh": "别再推卸责任了，做个决定吧。"
           }
         },
         {
@@ -2948,12 +2948,12 @@
           }
         },
         {
-          "partOfSpeech": "n. 固定表达",
-          "meaningZh": "责任（pass the buck 等）",
-          "definitionEn": "Responsibility, especially in expressions about avoiding it.",
+          "partOfSpeech": "v.",
+          "meaningZh": "尥蹶子；猛然弓背跃起",
+          "definitionEn": "For an animal to jump with its back arched and hind legs kicking.",
           "example": {
-            "en": "Stop passing the buck and make a decision.",
-            "zh": "别再推卸责任了，做个决定吧。"
+            "en": "The horse bucked and threw the rider.",
+            "zh": "马尥起蹶子，把骑手摔了下来。"
           }
         }
       ]
@@ -2973,20 +2973,20 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "心像；脑海中的画面",
-          "definitionEn": "A picture formed in the mind.",
-          "example": {
-            "en": "The story created a vivid image in my mind.",
-            "zh": "这个故事在我脑海中形成了生动的画面。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "形象；公众印象",
           "definitionEn": "The general impression others have of a person or organization.",
           "example": {
             "en": "The company wants to improve its image.",
             "zh": "公司希望改善自身形象。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "心像；脑海中的画面",
+          "definitionEn": "A picture formed in the mind.",
+          "example": {
+            "en": "The story created a vivid image in my mind.",
+            "zh": "这个故事在我脑海中形成了生动的画面。"
           }
         },
         {
@@ -3074,6 +3074,15 @@
           }
         },
         {
+          "partOfSpeech": "n.",
+          "meaningZh": "品种；菌株；类型",
+          "definitionEn": "A variety of an organism or a particular type.",
+          "example": {
+            "en": "Researchers identified a new strain of the virus.",
+            "zh": "研究人员识别出一种新的病毒株。"
+          }
+        },
+        {
           "partOfSpeech": "v.",
           "meaningZh": "竭力；用力拉；使紧张",
           "definitionEn": "To make a great effort or stretch something tightly.",
@@ -3089,15 +3098,6 @@
           "example": {
             "en": "Strain the soup before serving.",
             "zh": "上桌前把汤过滤一下。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
-          "meaningZh": "品种；菌株；类型",
-          "definitionEn": "A variety of an organism or a particular type.",
-          "example": {
-            "en": "Researchers identified a new strain of the virus.",
-            "zh": "研究人员识别出一种新的病毒株。"
           }
         },
         {
@@ -3135,15 +3135,6 @@
         },
         {
           "partOfSpeech": "adj.",
-          "meaningZh": "有义务的；受约束的",
-          "definitionEn": "Required by duty, law, or an agreement.",
-          "example": {
-            "en": "We are bound by the contract.",
-            "zh": "我们受合同约束。"
-          }
-        },
-        {
-          "partOfSpeech": "adj.",
           "meaningZh": "开往；前往某地的",
           "definitionEn": "Travelling toward a particular destination.",
           "example": {
@@ -3161,12 +3152,12 @@
           }
         },
         {
-          "partOfSpeech": "v./n.",
-          "meaningZh": "跳跃；跃步",
-          "definitionEn": "To move with large jumps; a long jump.",
+          "partOfSpeech": "adj.",
+          "meaningZh": "有义务的；受约束的",
+          "definitionEn": "Required by duty, law, or an agreement.",
           "example": {
-            "en": "The dog bounded across the field.",
-            "zh": "狗蹦跳着穿过田野。"
+            "en": "We are bound by the contract.",
+            "zh": "我们受合同约束。"
           }
         },
         {
@@ -3176,6 +3167,15 @@
           "example": {
             "en": "His enthusiasm knows no bounds.",
             "zh": "他的热情无穷无尽。"
+          }
+        },
+        {
+          "partOfSpeech": "v./n.",
+          "meaningZh": "跳跃；跃步",
+          "definitionEn": "To move with large jumps; a long jump.",
+          "example": {
+            "en": "The dog bounded across the field.",
+            "zh": "狗蹦跳着穿过田野。"
           }
         },
         {
@@ -3204,15 +3204,6 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "一伙；一群",
-          "definitionEn": "A group of people sharing an activity or purpose.",
-          "example": {
-            "en": "A band of volunteers cleaned the beach.",
-            "zh": "一群志愿者清理了海滩。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "带；环；条带",
           "definitionEn": "A strip or loop of material.",
           "example": {
@@ -3222,11 +3213,11 @@
         },
         {
           "partOfSpeech": "n.",
-          "meaningZh": "色带；条纹",
-          "definitionEn": "A stripe of colour or contrasting material.",
+          "meaningZh": "一伙；一群",
+          "definitionEn": "A group of people sharing an activity or purpose.",
           "example": {
-            "en": "The snake has yellow bands.",
-            "zh": "这条蛇身上有黄色条纹。"
+            "en": "A band of volunteers cleaned the beach.",
+            "zh": "一群志愿者清理了海滩。"
           }
         },
         {
@@ -3236,6 +3227,15 @@
           "example": {
             "en": "The job falls within a higher pay band.",
             "zh": "这份工作属于较高的薪酬等级。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "色带；条纹",
+          "definitionEn": "A stripe of colour or contrasting material.",
+          "example": {
+            "en": "The snake has yellow bands.",
+            "zh": "这条蛇身上有黄色条纹。"
           }
         },
         {
@@ -3350,21 +3350,21 @@
           }
         },
         {
-          "partOfSpeech": "v.",
-          "meaningZh": "倾向于",
-          "definitionEn": "To be inclined toward an opinion or choice.",
-          "example": {
-            "en": "I lean towards the cheaper option.",
-            "zh": "我倾向于较便宜的方案。"
-          }
-        },
-        {
           "partOfSpeech": "v. 短语",
           "meaningZh": "依靠；对……施压",
           "definitionEn": "To depend on someone or pressure them, used with on.",
           "example": {
             "en": "You can lean on your friends for support.",
             "zh": "你可以依靠朋友获得支持。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "倾向于",
+          "definitionEn": "To be inclined toward an opinion or choice.",
+          "example": {
+            "en": "I lean towards the cheaper option.",
+            "zh": "我倾向于较便宜的方案。"
           }
         },
         {
@@ -3411,24 +3411,6 @@
       "senses": [
         {
           "partOfSpeech": "n.",
-          "meaningZh": "邮政；邮件",
-          "definitionEn": "The system of sending letters or the letters delivered.",
-          "example": {
-            "en": "The parcel arrived in the morning post.",
-            "zh": "包裹随早上的邮件送到了。"
-          }
-        },
-        {
-          "partOfSpeech": "v.",
-          "meaningZh": "邮寄；发布",
-          "definitionEn": "To send by mail or publish information publicly.",
-          "example": {
-            "en": "She posted a message online.",
-            "zh": "她在网上发布了一条消息。"
-          }
-        },
-        {
-          "partOfSpeech": "n.",
           "meaningZh": "帖子；发布的内容",
           "definitionEn": "An item published on a website or social platform.",
           "example": {
@@ -3443,6 +3425,24 @@
           "example": {
             "en": "He accepted a teaching post.",
             "zh": "他接受了一个教师职位。"
+          }
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "邮政；邮件",
+          "definitionEn": "The system of sending letters or the letters delivered.",
+          "example": {
+            "en": "The parcel arrived in the morning post.",
+            "zh": "包裹随早上的邮件送到了。"
+          }
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "邮寄；发布",
+          "definitionEn": "To send by mail or publish information publicly.",
+          "example": {
+            "en": "She posted a message online.",
+            "zh": "她在网上发布了一条消息。"
           }
         },
         {
