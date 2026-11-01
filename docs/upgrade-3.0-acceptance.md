@@ -53,3 +53,7 @@ cf2c78c4a131d4a689228e195b3c09a0ee4a647b fix: reconcile audited Sites changes wi
 2fbee31019393f6def65122e9ade002393d5764b fix: preserve part navigation and lookup focus across hash changes
 c2faec4d5f91791e3e7faf42775b63f4d7c88dda fix: return from dictionary references to the originating article paragraph
 ```
+
+## Sites 浏览器补充核验
+
+本轮只读打开旧地址 https://vocab-notebook-20261021.abloomfawn22.chatgpt.site/ 后，浏览器实际重定向到 https://vocab-notebook-20261021.fukai114514.chatgpt.site/ 并成功显示原项目。点击阅读Part后DOM确认原文20段、译文20段且可见。说明旧地址当前可在该浏览器中通过重定向访问；本次未改变地址。此浏览器检查不能替代此前失败的公开资源SHA校验。
