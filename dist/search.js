@@ -6,7 +6,7 @@
  const status=document.createElement('p');status.setAttribute('role','status');results.append(status);
  const groups=document.createElement('div');results.append(groups);document.querySelector('.tools').after(results);
  q.setAttribute('aria-label','全站搜索');q.placeholder='搜索单词、中文、例句或文章';q.setAttribute('aria-controls','search-results');
- let records=[],loaded=false;
+ let records=[],loaded=false,revealing=false;
  const norm=s=>String(s).toLowerCase().trim();
  // Explicit limited rules. Irregular spellings are curated; no claim of full lemmatization.
  const irregular={slept:'sleep',sleeping:'sleep',naps:'nap',napping:'nap',napped:'nap',credits:'credit',credited:'credit',crediting:'credit'};
@@ -45,7 +45,7 @@
  function reveal(target){
   resetQuery();const el=document.getElementById(target);if(!el)return;
   const part=el.closest('#nap-part')?'nap':el.closest('.poly-entry')?'poly':'original';
-  document.querySelector('[data-part="'+part+'"]').click();
+  revealing=true;document.querySelector('[data-part="'+part+'"]').click();revealing=false;
   for(let node=el;node;node=node.parentElement){if(node.tagName==='DETAILS')node.open=true;}
   if(location.hash!=='#'+target)location.hash=target;
   el.setAttribute('tabindex','-1');el.focus({preventScroll:true});el.scrollIntoView({block:'start'});
@@ -70,10 +70,12 @@
  }
  q.addEventListener('input',search);
  q.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){const link=groups.querySelector('a');if(link){e.preventDefault();link.focus()}}if(e.key==='Escape')resetQuery()});
- document.querySelectorAll('[data-part]').forEach(b=>b.addEventListener('click',e=>{
-  if(q.value){resetQuery();b.click()}
+ document.querySelectorAll('[data-part]').forEach(b=>b.addEventListener('click',()=>{
+  if(q.value)resetQuery();
+  if(revealing)return;
   const card=document.querySelector('#lookup-card');if(card?.open)card.close();
-  if(e.isTrusted){const targets={all:'original-heading',original:'original-heading',poly:'poly-heading',nap:'nap-part'};const target=targets[b.dataset.part];if(target&&location.hash!=='#'+target)location.hash=target;}
+  const targets={all:'list',original:'original-heading',poly:'poly-heading',nap:'nap-part'};
+  const target=targets[b.dataset.part];if(target&&location.hash!=='#'+target)location.hash=target;
  }));
  window.addEventListener('hashchange',()=>{if(q.value)resetQuery();});
  fetch('./search-index.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{records=data.records;loaded=true;search();setupLookup()}).catch(()=>{results.hidden=false;status.textContent='搜索索引加载失败，请刷新；仍可按 Part 查阅。'});

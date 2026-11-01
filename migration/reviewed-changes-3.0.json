@@ -1,6 +1,6 @@
 {
   "content/nap.py": {
-    "sha256": "11ae900f8139de3d08151b643f5e8c6e7f7f3e9fbf64dc6dae7cbbff59e6b392",
+    "sha256": "fad104635edec4879af0e59fe52b83d1899b1518ab2ce942c339c66106e9eaa2",
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/nap_article.json": {
@@ -20,7 +20,7 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "dist/index.html": {
-    "sha256": "26088a88272ebda6c152958991bf303babbef01e2903f1e6eea91303a1543e61",
+    "sha256": "a3f473145e001ddb3410dec49eb16849fb9a48c3a42e3287c4f9529ba3568814",
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "dist/polysemy.json": {

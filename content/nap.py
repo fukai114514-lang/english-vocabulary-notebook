@@ -40,11 +40,12 @@ function restoreReferenceAnchor(){
   let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return;}
   const target=document.getElementById(id);
   if(!target)return;
-  const part=id.startsWith('nap-')?'nap':(id.startsWith('poly-')||id.startsWith('sense-'))?'poly':(id.startsWith('group-')||id==='original-heading')?'original':null;
-  if(!part)return;
-  document.querySelector('[data-part="'+part+'"]').click();
+  const targetPart=id==='list'?'all':id.startsWith('nap-')?'nap':(id.startsWith('poly-')||id.startsWith('sense-'))?'poly':(id.startsWith('group-')||id==='original-heading')?'original':null;
+  if(!targetPart)return;
+  part=targetPart;recentOnly=false;recent.setAttribute('aria-pressed','false');
+  document.querySelectorAll('[data-part]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.part===part)));filter();
   const detail=target.closest('details');if(detail)detail.open=true;
-  requestAnimationFrame(()=>target.scrollIntoView());
+  target.scrollIntoView();
 }
 window.addEventListener('hashchange',restoreReferenceAnchor);
 restoreReferenceAnchor();
