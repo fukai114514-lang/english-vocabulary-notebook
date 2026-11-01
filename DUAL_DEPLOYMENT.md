@@ -26,3 +26,28 @@ GitHub main 自动部署 B。A 使用 Sites 自身源仓库；当前接口不提
 ## 首次审计 2026-10-29
 
 GitHub初始提交 b9f17846c5766778cceada72fb6d26e64b77d06b；A审计源提交 d5acfc0932f1701277557ad47a05c61b26a3faf6，线上版本14。两者词汇和文章数据一致；GitHub迁移版本多了跨Part锚点恢复脚本，A 尚无此脚本。因此初始状态不能宣称功能完全一致。已有 Pages 工作流运行成功；不新增重复工作流。
+
+## 3.0 候选版发布门槛（2026-11-01）
+
+当前改动仅位于 upgrade/3.0-safe-20261101；未合并 main、未发布任一站。Sites 原项目已到17版，源 SHA 8ddc834b79351c69582a83f17b7dd65855703792；其独有排序、译文、标题与界面增量已先回收至功能分支。官方当前 live URL 为 https://vocab-notebook-20261021.fukai114514.chatgpt.site，旧文档地址不在本次主动更改范围内。两种地址的公开资源读取均403，不代表源码不可获取；不能声称两站线上一致。
+
+发布前执行：
+
+```sh
+python3 content/render.py
+python3 scripts/verify_migration.py
+python3 scripts/verify_upgrade.py
+node --check content/search.js
+node scripts/test_search.cjs
+git diff --exit-code -- dist
+```
+
+保留 migration/content-baseline.json 原始哈希。reviewed-changes-3.0.json 仅列明确审阅的8个既有文件新哈希；verify_preservation.py 同时逐字段锁定原 groups/words、按多重集锁定全部原义项、逐字段锁定原文章。未来修改必须新增具体差异证据，不能把 baseline、快照或审阅清单当作消除失败的按钮。
+
+CI validate.yml 在PR/功能分支运行；pages.yml 保持唯一生产工作流，新增索引检查、完整备份范围和上线资源SHA检查。建议管理员在 main 设置至少一个PR审核与 `integrity` 必要检查；本次没有配置该设置的原生工具，没有更改仓库保护状态。合并前应完成移动端交互与内容复核，并记录验收结论。
+
+上线后先确认 GitHub workflow 的 SHA，再运行 `python3 scripts/check_deployment.py https://fukai114514-lang.github.io/english-vocabulary-notebook/`，在浏览器检查搜索、锚点、发音与阅读。保存完整SHA及外部备份。任何失败停止 Sites 发布。
+
+Sites 同步仍为官方工具驱动的受控手动流程，不是 GitHub 自动同步。发布前重新读取最新源码和版本；只将审核提交的内容和构建产物合入原项目，保留原 .openai/hosting.json、项目身份和历史。若出现新差异先对账。verify_sites.py 现在比较 dist 中所有文件，包括文章数据、搜索索引与JS/CSS；403如实记为未验证。
+
+回滚：功能分支可关闭PR，生产站完全不变。若之后合并且上线失败，在 main 正常 revert 该合并并重新部署，禁止 reset/force push。Sites 只部署原项目上一正常保存版本；禁止同时覆盖两站。

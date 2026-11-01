@@ -7,9 +7,13 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 baseline = json.loads((ROOT / 'migration/content-baseline.json').read_text())
+reviewed = json.loads((ROOT / 'migration/reviewed-changes-3.0.json').read_text()) if (ROOT / 'migration/reviewed-changes-3.0.json').exists() else {}
 changed = [name for name, digest in baseline.items()
-           if not (ROOT / name).is_file() or hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != digest]
+           if not (ROOT / name).is_file() or hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != reviewed.get(name, {}).get('sha256', digest)]
 assert not changed, f'Content changed: {changed}. Review content diff before explicitly refreshing baseline.'
+if reviewed:
+    from verify_preservation import verify
+    verify()
 page = (ROOT / 'dist/index.html').read_text()
 catalog = json.loads((ROOT / 'dist/vocabulary.json').read_text())
 poly = json.loads((ROOT / 'dist/polysemy.json').read_text())

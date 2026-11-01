@@ -23,7 +23,8 @@ for i,old in enumerate(blocks,1):
  table='<h2>逐词对比</h2><p class="table-hint">手机可左右滑动表格，横向比较用法与例句。</p><div class="table-scroll" tabindex="0" role="region" aria-label="'+html.escape(title,quote=True)+' 对比表"><table><caption>'+html.escape(title)+' · 用法对照</caption><thead><tr><th scope="col">单词 / 表达</th><th scope="col">词性、含义与侧重点</th><th scope="col">常见搭配 / 句型</th><th scope="col">中英例句</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>'
  note='<div class="selection"><h2>怎么选？易错点在哪？</h2><p>'+html.escape(notes[i])+'</p></div>'
  cards='<div class="word-cards">'+''.join('<article class="word-card"><div class="word-card-header"><h3 lang="en">'+html.escape(r[0])+'</h3><button type="button" class="speak" data-word="'+html.escape(r[0],quote=True)+'" aria-label="朗读 '+html.escape(r[0],quote=True)+'" aria-pressed="false">▷ 朗读</button></div><p class="word-caption" lang="en">'+html.escape(captions[r[0]])+'</p></article>' for r in groups[i])+'</div>'
- new=old.replace('<div class="body">','<div class="body">'+cards+table,1)
+ anchored=old if re.search(r'<details[^>]*\bid=',old) else old.replace('<details', '<details id="group-'+str(i).zfill(3)+'"',1)
+ new=anchored.replace('<div class="body">','<div class="body">'+cards+table,1)
  # Keep all original explanations/examples and add the group-specific decision note.
  new=new[:-len('</div></details>')]+note+'</div></details>'
  new=re.sub(r' <span class="badge">新增详解</span>','',new)
@@ -64,3 +65,28 @@ for g in catalog['groups']:
 catalog['parts'] = [polysemy_part]
 (root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'groups':len(groups),'word_rows':sum(map(len,groups.values())),'tables':s.count('<table>'),'selection_notes':s.count('class="selection"')},ensure_ascii=False))
+
+# Keep the published reference interface focused on learning content.
+page_path = root / 'dist/index.html'
+page = page_path.read_text()
+page = re.sub(r'<p class="sub">点击词组展开。.*?</p>', '<p class="sub">点击词组展开释义与例句，支持英文单词和中文关键词搜索。</p>', page, count=1)
+page = re.sub(r'<footer>.*?</footer>', '<footer><p>点击词条查看英文释义、常用搭配与双语例句。</p></footer>', page, flags=re.S)
+page = page.replace('此组由原第77组拆出，词条与例句保留。', '')
+page = re.sub(r'<p class="sub">两页重叠词已合并；.*?</p>', '<p class="sub">收录常见义及部分专业用法，并提供英文释义、双语例句与发音。</p>', page)
+page = re.sub(r'<p class="sub">阅读原文按图片转录。.*?</p>', '', page)
+for before, after in [('原有词汇辨析','词汇辨析'),('原有辨析','词汇辨析'),('多义词详解 · 截图收藏','一词多义'),('新 Part · 多义词62词','一词多义 · 62词'),('新 Part · 午睡文章','阅读文章'),('ORIGINAL PARTS','PART 01 · WORD COMPARISONS'),('PART · POLYSEMY','PART 02 · WORD MEANINGS'),('PART · READING','PART 03 · READING')]:
+ page = page.replace(before, after)
+# Retain the existing element for script compatibility while removing the update filter from the interface.
+page = page.replace('<button id="recent"', '<button style="display:none" tabindex="-1" id="recent"')
+page = page.replace('近期修订的 15 组','词汇筛选')
+page_path.write_text(page)
+part_path = root / 'dist/polysemy.json'
+part = json.loads(part_path.read_text())
+part['title'] = '一词多义'
+part_path.write_text(json.dumps(part, ensure_ascii=False, indent=2)+'\n')
+catalog['parts'][0]['title'] = '一词多义'
+(root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+
+(root/'dist/nap_article.json').write_bytes((root/'content/nap_article.json').read_bytes())
+from search import build as build_search
+build_search()

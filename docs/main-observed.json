@@ -1,0 +1,99 @@
+{
+  "name": "main",
+  "commit": {
+    "sha": "dd2382c26778e48e67c856c21b501d724e49a061",
+    "node_id": "C_kwDOVbqbqdoAKGRkMjM4MmMyNjc3OGU0OGU2N2M4NTZjMjFiNTAxZDcyNGU0OWEwNjE",
+    "commit": {
+      "author": {
+        "name": "fukai114514-lang",
+        "email": "fukai114514@gmail.com",
+        "date": "2026-10-29T11:50:05Z"
+      },
+      "committer": {
+        "name": "fukai114514-lang",
+        "email": "fukai114514@gmail.com",
+        "date": "2026-10-29T11:50:05Z"
+      },
+      "message": "Record verified staged dual-site release and verification limits",
+      "tree": {
+        "sha": "1e259d9648f77ccc84ec275d475dc82110780c0c",
+        "url": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/git/trees/1e259d9648f77ccc84ec275d475dc82110780c0c"
+      },
+      "url": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/git/commits/dd2382c26778e48e67c856c21b501d724e49a061",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/commits/dd2382c26778e48e67c856c21b501d724e49a061",
+    "html_url": "https://github.com/fukai114514-lang/english-vocabulary-notebook/commit/dd2382c26778e48e67c856c21b501d724e49a061",
+    "comments_url": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/commits/dd2382c26778e48e67c856c21b501d724e49a061/comments",
+    "author": {
+      "login": "fukai114514-lang",
+      "id": 331652597,
+      "node_id": "U_kgDOE8Sd9Q",
+      "avatar_url": "https://avatars.githubusercontent.com/u/331652597?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fukai114514-lang",
+      "html_url": "https://github.com/fukai114514-lang",
+      "followers_url": "https://api.github.com/users/fukai114514-lang/followers",
+      "following_url": "https://api.github.com/users/fukai114514-lang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fukai114514-lang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fukai114514-lang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fukai114514-lang/subscriptions",
+      "organizations_url": "https://api.github.com/users/fukai114514-lang/orgs",
+      "repos_url": "https://api.github.com/users/fukai114514-lang/repos",
+      "events_url": "https://api.github.com/users/fukai114514-lang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fukai114514-lang/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "fukai114514-lang",
+      "id": 331652597,
+      "node_id": "U_kgDOE8Sd9Q",
+      "avatar_url": "https://avatars.githubusercontent.com/u/331652597?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fukai114514-lang",
+      "html_url": "https://github.com/fukai114514-lang",
+      "followers_url": "https://api.github.com/users/fukai114514-lang/followers",
+      "following_url": "https://api.github.com/users/fukai114514-lang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fukai114514-lang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fukai114514-lang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fukai114514-lang/subscriptions",
+      "organizations_url": "https://api.github.com/users/fukai114514-lang/orgs",
+      "repos_url": "https://api.github.com/users/fukai114514-lang/repos",
+      "events_url": "https://api.github.com/users/fukai114514-lang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fukai114514-lang/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4dee6c1ea844c7be066af53d26970c26b6ec857d",
+        "url": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/commits/4dee6c1ea844c7be066af53d26970c26b6ec857d",
+        "html_url": "https://github.com/fukai114514-lang/english-vocabulary-notebook/commit/4dee6c1ea844c7be066af53d26970c26b6ec857d"
+      }
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/branches/main",
+    "html": "https://github.com/fukai114514-lang/english-vocabulary-notebook/tree/main"
+  },
+  "protected": false,
+  "protection": {
+    "enabled": false,
+    "required_status_checks": {
+      "enforcement_level": "off",
+      "contexts": [],
+      "checks": []
+    }
+  },
+  "protection_url": "https://api.github.com/repos/fukai114514-lang/english-vocabulary-notebook/branches/main/protection"
+}

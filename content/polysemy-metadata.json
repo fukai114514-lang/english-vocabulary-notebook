@@ -1,0 +1,3252 @@
+{
+  "credit": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "02825ebe77769017165a35be429fcd5ca68f37ae98dc7b7044091afb5dc262b9": {
+        "id": "sense-credit-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e5b0f0711e945909d79819ef7f369ab9bfa64a0cc28700c04cb18f62b4a6aa2b": {
+        "id": "sense-credit-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f54f2a24fa1b9ce68bd45dc66259d31c98e509be22eafcad5a1d16c43f0ff1f8": {
+        "id": "sense-credit-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8b3432def3c56b55f0cb5210347ae29d286a3be6945965b291bfe13c7a704f2f": {
+        "id": "sense-credit-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "fac9e2ec95805ab8e126c4efb77c28f27de30f1903a42d32427528446c977316": {
+        "id": "sense-credit-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f0b7e639a39b41505a635c8817ffba7f16ae9fbf0dec58a8ea71a78544e66d34": {
+        "id": "sense-credit-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f87c1a7f5abf1a110f2090945438bc55a087bd601edf828992756e11d30d4f0d": {
+        "id": "sense-credit-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d97c5f6d6d0498f3cbeb23ecc988ee313a4ea5a29f001960fd311d707139336a": {
+        "id": "sense-credit-08",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "aggressive": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "e35a983974d150f5849c8302829deeee76e0b25d3152583c70c36c3d6bf84b6f": {
+        "id": "sense-aggressive-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d2d5de577248ba699b0a05614f7e5e69837ea19466c6580860371c70f79f5668": {
+        "id": "sense-aggressive-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d5cb559fcadc7a2e0893750536fb73ce263492616d1cae60128a5e7826783cdd": {
+        "id": "sense-aggressive-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "acquaintance": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "becd52686849612ba7ed9c893c9029abcb5eab74c796b098aedd60541eff3176": {
+        "id": "sense-acquaintance-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1846936f35ce86604182a0636bcadd17b3263e5301d019112bc0abdeb1fd8bc0": {
+        "id": "sense-acquaintance-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6f0642ce49913f03722d5811e0285d2d31d507a0dd19f28d76b683b2853007dc": {
+        "id": "sense-acquaintance-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "dash": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "26fa2a6f4104ca3ee66afe3122b01d765a5e0f0022453222a128887d11c142fc": {
+        "id": "sense-dash-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6f7eea86d7fb556a855237fd4406499335c621dbe395700484fe4501be491b1b": {
+        "id": "sense-dash-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "572ba085a5d16fcd3a9659baa0c86c38c3bf3925375cf17185f30160c77dfbdb": {
+        "id": "sense-dash-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "43859c4849f4f3eed850f2e0271be3bd51a650615b95ac7ad794b6202c13761d": {
+        "id": "sense-dash-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6fcb4e640cbd64f35a2e5b77d1e5e601dd21e213b090d98209c5aeed9597c4ee": {
+        "id": "sense-dash-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4ad99736bda4eae50f95f0d5414e99ce2080d9778c352b9c69ea2223d6e0fe5f": {
+        "id": "sense-dash-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "recourse": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "ab24399384164652757fd90b49a643c1a91eb6dc3121bb019586cb9feff6b632": {
+        "id": "sense-recourse-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "add241d71faa19ff63f57f97b81ebe6c9e213b7b3efa0ae23a149afd3efa201f": {
+        "id": "sense-recourse-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "discourse": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "98c22fd473ad615d4f3c6820dd54f57ecc3574960081787bf2629b028999fadc": {
+        "id": "sense-discourse-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4283d307c9b563e58227ff8534849f78d7339dd16f56ef12d1614fc80c9611b9": {
+        "id": "sense-discourse-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8581eb63ea56cc9a63a185518a7ee6d45d2628086fffc2d346e8f74ae293bbc0": {
+        "id": "sense-discourse-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "fly": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "069688c41fe1b3c1bd20549d2106c934e6eb218fcd936088a8c2f24dc6784a98": {
+        "id": "sense-fly-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "386b5e19470fcc5dc95556556497c9437c7ed5bcc4aebf52f837ec710ef44dd2": {
+        "id": "sense-fly-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ac82a03fc309acb077879e76db275421bef32154b4a51a8216b637ba0500c8c2": {
+        "id": "sense-fly-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "fd6aaaf458f5db451bec37888580effcd1841d46a816cdd083299951fe3e2533": {
+        "id": "sense-fly-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6b30e2d7456892e6ce4e668072a5acff7a58d64aa049486b06a1905a9c191295": {
+        "id": "sense-fly-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "772727bca489c189e57c2f9fb18e6b42343c35eb6a4cdea66ed2ecd05ff57788": {
+        "id": "sense-fly-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "97b3d9d447f8effd87e9c22b53807559c68a83fe6616d9b14c5f7d9c4058a4fe": {
+        "id": "sense-fly-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "itself": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "9dae3bd3f8b61de93b73cb37a1dcddeda6982e78078b5a51b1debd7db16dcc86": {
+        "id": "sense-itself-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "521a0e51e929f72474d9d7a0413edfb2308eecf41bac8415834f7f4ef688f4e9": {
+        "id": "sense-itself-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7698afc3f577573348ec01873f97b7b9519e07f99ec297b627f0a9f7b0f4db9f": {
+        "id": "sense-itself-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "drop": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "06f24b7a0f00962b89f856c4e702d6de121cdfb5d3817f86b9f2ce968c866d02": {
+        "id": "sense-drop-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "301ca4bd311b00ade05ec8ae4f4fd99882e33312c8e0682b14933ce1a7819cb9": {
+        "id": "sense-drop-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1a061c1274a2a681f85310cd377aef24231476ec8ff93ea04122c7bbe0205528": {
+        "id": "sense-drop-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "efdf447cfdc3ed1be7b6017d75a6f451b6f7f63f294205a9dcb1def7944ab982": {
+        "id": "sense-drop-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "829d5318110951d0ac6ad80b39c7a2d24b5abc7aaf13e956fb534a40953ff125": {
+        "id": "sense-drop-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8c22f553d10dc334ed971c47ff12b2f9e74618bb161ea730c3c7736305f2438f": {
+        "id": "sense-drop-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "glow": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "19d97b4dc3ad48e7d6095b9749a9a5b553dc32c9ea4eb8b1c8f0f02f057f1ea2": {
+        "id": "sense-glow-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "feb081a725ddafc308547137be9fd8ca569e2d20857f7d85984790b1c2d05ccc": {
+        "id": "sense-glow-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "41f16e31a726059030625ce97ee3af0d6f48377638ecc70e94bd04f932efcefc": {
+        "id": "sense-glow-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "catch": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "18ebc4857fe8522e94dbb7cead8b1fb1e61238420436855c21b0db2da29eab8e": {
+        "id": "sense-catch-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "cd8ad11d047fde786b95b8d2933da8e89b4079bc1a41d1ffe8a481d9b94a011b": {
+        "id": "sense-catch-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5cabc2ab15a244a7ebe17a0fa24bbf99416279553ebbb89675c24493eb6960cb": {
+        "id": "sense-catch-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0ee8d71204c8ad26a76f03aa3adc117685a76920ee5b66648e8ee7eadb21d0e7": {
+        "id": "sense-catch-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8ef78741fef3ebce3b91175c9bf12b44298b165c795e50ccd6fa6832440f037e": {
+        "id": "sense-catch-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4299a50ca89462b6b0004906dcc7af92c1117579b6f202632406358f0fd42a2d": {
+        "id": "sense-catch-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "65f1168e5d7a53263d3d37dd2cdf9bd7a9184230eb3c7990dfb53a4fbb26bd3e": {
+        "id": "sense-catch-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "fc0baa26f1254daad1e39eddde9e06d4135efe84e6319d9f04d77c2a20b7d786": {
+        "id": "sense-catch-08",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "217e3bfef5e954c5c556728f2c6d16bfe6548c2f9029d6cbe348c2b7969e97ab": {
+        "id": "sense-catch-09",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "just": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "9f40f27630c804e0bca2e349b0d85489900c06f6dc7568b2411def1edd802b16": {
+        "id": "sense-just-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "239b1e9919126cd66f03196cc8c8180f6e11b8f50135c6e633ca8934037d27fc": {
+        "id": "sense-just-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2ce9a22c8e8c65d08ccf6808e606a357644d1e338ea4d0dbd2efdf8fb7ccd7d3": {
+        "id": "sense-just-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9ae81b06765bf2e5b6d0014bedce41b050c01f26a18927d738653489379d5cd4": {
+        "id": "sense-just-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4eed66297ed7bd17f897cfabddee4fa90dcbb0cfe36d7d3c3252743d26dd9857": {
+        "id": "sense-just-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b8c6b847361181e4ca7a111a0816a3110d8d1a0c1bbf356cbf0db204127394d0": {
+        "id": "sense-just-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "throw": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "3c175a8e8be4d484a4f303700aa415f55b1c8e497904717a39bb1b819c1229b5": {
+        "id": "sense-throw-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f009df46a7650efb98e9ad665766a107f1bf92ac4d84a708b789407f9128735b": {
+        "id": "sense-throw-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "48e276aadf7bfc67cfdd710a82ef56e699d6734904b08bb081679142449bf892": {
+        "id": "sense-throw-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "702454c70a9c0614ee81bc07e621e1cf69f1e8471b63ba5dac91a25fd0ec8142": {
+        "id": "sense-throw-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6efccce7413cf1b3d8c4eaa7485a26d9d7f5aacd366401634bc64aba4a0ab22a": {
+        "id": "sense-throw-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9e281b824a5a0fffd2ac413b049c3c0e26f7fa6802a3cfe5005cd958e3795fbd": {
+        "id": "sense-throw-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "point": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "8ec2c0a0dbd8f27c7d08a36e56356a75f12a8f17da09c451ae9ce5fa2bf1b2f6": {
+        "id": "sense-point-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3ad5c62a8c1412d064868cc699dbc6553b998e473c1455553947aba1af28a661": {
+        "id": "sense-point-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "db7fe45b593587bce5b8dcd71432a1b30bc34b423b4de87e88148bbb8617d97d": {
+        "id": "sense-point-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "42e893e708d6f92e95bd4d5c9061c6adfc36095aec5b5f140a95444583e73da4": {
+        "id": "sense-point-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5ece62cece7a44ed36dce054c134b7a898b2b35655a110313c12ad119a9b4d4c": {
+        "id": "sense-point-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "26a97391da99c1c0d8550418772b58c2859a9ae67e38de749b02f29061711e86": {
+        "id": "sense-point-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7f8ea5b39a895d09d5f6b11bb8abebc83128709b0bd347f6217833222f6821c1": {
+        "id": "sense-point-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "last": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "a2e53b35add26df8e6483844c2cfbfc208064be9f2ca2be9ba56700d84db7c5a": {
+        "id": "sense-last-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b8e058c1b6b541ce2fd6c3e99d4e1aee484dbad9b605ee64d5724c1febc9936e": {
+        "id": "sense-last-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1effd17ee2d8a280fb5bb9c7e9a6cfe373a169b66560b549570ed68031eb6ca2": {
+        "id": "sense-last-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "fc9e8fdb80f9413a5d2dbbdb0a83f820057f2f84e2e8854e95e99099327f9cfa": {
+        "id": "sense-last-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "52c89f51e01eec69b2d74a916f32b07473d75f26e4f14fa215779d873861d3e7": {
+        "id": "sense-last-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5518158633a6d161b53ed18fe1a8be5a37d9bbceca0ed27a67af03060169ee6c": {
+        "id": "sense-last-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "page": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "f64defa902a9854a4c238a4cc0b4badcd6f5dd75bb0a369c60882f72d41e8fae": {
+        "id": "sense-page-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "94fec15035ebe5fe7ac0f6f1995478c7c3a7f8dd3d5253399e085bb885529c08": {
+        "id": "sense-page-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "532c38d037a41373d2a0e8da2ad46d087e1db9b8717437ebc43039044a8cefd6": {
+        "id": "sense-page-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "575774ed4aaa749c037b076e72e59bdaa4b572ce05687d460d3ca73fc17913b0": {
+        "id": "sense-page-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "pass": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "e547c2e689af471569343259eeab549a3e1127991b14660be335d9b29a18297b": {
+        "id": "sense-pass-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7b21b8dda6b28c2af3fc6d4971a00711b0613dab048c09210b1377294fc73e6c": {
+        "id": "sense-pass-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2ca6062d1595282599b69c7b5f1ce19c67784822cb31c7ad467bc59373395df8": {
+        "id": "sense-pass-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c23422fc5cdbf40b909e1f17170c5e3c1bca1f1e8ac6fd4a2339de501af6bb7f": {
+        "id": "sense-pass-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "fa1c467828576615c90a952185c00d2ca8dc107296e324cfd81b30146ab91db6": {
+        "id": "sense-pass-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "436fc27955dd6c47e37aa7b1a921c176c2a43cec5b171cc00fabe8f747f7eca6": {
+        "id": "sense-pass-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b59c30128dbf71cc9b1fd71f64c4cce77abd8c5556f503a5da6cfeb8047cc97c": {
+        "id": "sense-pass-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5addd71b0f074ef21a62aafb03e84a762453fc1a290748d902f4f061d17796a9": {
+        "id": "sense-pass-08",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b3ad157d881fc6bd44aa33d4292efbfbb6b4554d5533667898adb4cc97bca5c9": {
+        "id": "sense-pass-09",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "over": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "eb7d9ae2c6ad343b78ab88985f6bc06124be44a82e2f7f3634e8699659b70624": {
+        "id": "sense-over-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f64a42b37454ff1cc75e209512e3f82b225b0a1d9fc597b475157fd46af93674": {
+        "id": "sense-over-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1e5b7f38a22a3c22f5b2471a5a99ef9e8e532e9d705cf55bf5f58cfa30b850ef": {
+        "id": "sense-over-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "bc4d34e9a6264a6a888d9ef1931ca06eb84fa0a8fa105a2eb4daa489e642caad": {
+        "id": "sense-over-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a25f606d35f7a84323377cb5570223f49371bc1c29931f2cd1579da5495579b4": {
+        "id": "sense-over-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b01a4e58605131b7469ff09951c4ba40f018d26777459a0224fd4257200b0947": {
+        "id": "sense-over-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "669c024f2482449b086c1aa1cf84631931f8714a9448f327e5626ba4757bf49c": {
+        "id": "sense-over-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "break": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "bce9279fdd878f9d5fa5a2bb06e147725527fe22e267f417b22e57aefc54fe58": {
+        "id": "sense-break-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8db77bd646549c862fff2c8e92e2bf7253e025f55b0f9c23b6541f017462acee": {
+        "id": "sense-break-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d01685e6e07c4ece603747d8bf5404b44df09d2cacd1200e3c1ef5a5f86722e4": {
+        "id": "sense-break-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f51507f756162ddcab9c5175da24d1686d957a41984a1937666dcce8893999a5": {
+        "id": "sense-break-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c1e54a46c8ef4c54fa38df8c4d5fe240d02d9fa6b7c3d3ad24203a5cc0aec9b1": {
+        "id": "sense-break-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ffc6e36534948e5f4bcae0818040f12e57deb99c9575b5f78ca0ca62e7b34d07": {
+        "id": "sense-break-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b0b3215cbaae33f367fa11cf6e147b46a14aeb1c738911c6e5e73312738b7de9": {
+        "id": "sense-break-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "taste": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "c8780df8d0b6e25689029082bfaf7ab5e39f49ec944c02e60b8826f15679f666": {
+        "id": "sense-taste-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c3e7145337f951366c0c3dc6cc2fa232de8481aa5702dd1d62e883f09e0d24a4": {
+        "id": "sense-taste-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "14417edccbdbf764abb1d6689d9b2f97986bb4b0c57db91cfa13f5ce38c2016e": {
+        "id": "sense-taste-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7fd621788d29d423f12555f6f87bf5a0b89b98e42f6e84f10633c385d90219d6": {
+        "id": "sense-taste-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2ca0ec7c852c6f1036be4bfc0bb7b3a1eef7342e79a4d12f0c216b23dddefcbb": {
+        "id": "sense-taste-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "cross": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "27f3ab639d8eac7356f2bfbe6c79c4af55b3f448e009366c853ec9ea7add0da8": {
+        "id": "sense-cross-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "54d29fec199075f8cc430e23b0da8b746e0802fd5d7355b35f245560f56ff8b4": {
+        "id": "sense-cross-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b087f1c81dccb57977258a7b465e2e6164b051381e6eb4bfc60229363e8db35e": {
+        "id": "sense-cross-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b4f019934d4ff3ee064d282772942cf2beb9982fffbb560d002881d5ff4a5929": {
+        "id": "sense-cross-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e5e7a572e4c4a1e9137df1075e4532c24431dd596f78714f0c56ca3500bf9dae": {
+        "id": "sense-cross-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a76fa4a7a84d2175355a641890e649a222874fcaf518f57c35cf988030c19104": {
+        "id": "sense-cross-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "shuttle": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "5daea1d2ff08e3b4bd8cb2d7f6218e9651b497c33e66021883280a202461fb72": {
+        "id": "sense-shuttle-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c39298e1635848b4ffc6798fd2a8b3f51db5af1721a8d2c6f8aed7f49757d222": {
+        "id": "sense-shuttle-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ea34d192734e0ce100cbb05894e40ff34923ee883b36dee2fcdec3d968f9af47": {
+        "id": "sense-shuttle-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6d3fcc231241281b7ca0023075a9b199a5a2f7b7d277cb44108f32422c1d8ddc": {
+        "id": "sense-shuttle-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "lie": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "289f7485b394cc5b77e06e9f0c113f037f05dd705f925df35f224c2f9d95b235": {
+        "id": "sense-lie-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0df89c9ff87b3b8e0691383fd99bf5f0bab9522c2a78b2e12936debcb6d5627e": {
+        "id": "sense-lie-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "04277e3d2fda58d4582f92c76054acb072db589220d77e120def0647115fa3ec": {
+        "id": "sense-lie-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b6a5e1a548a0632a7403cd0f2fa09029148dd7312e24dfbb2336a70f6e77cd75": {
+        "id": "sense-lie-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c151329ed5f768ac453f6135d18af98a065e031f9dfd7ce760c57ee841847e15": {
+        "id": "sense-lie-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c5e89852c78e1be4b13aab2e39293b4a3a58e4d917e93d6b3ac16c310649969b": {
+        "id": "sense-lie-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "level": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "7cab23d5f3947b4c71c348df747b70d750843857fb4df2fdfccca5d6a4c05a92": {
+        "id": "sense-level-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0ccb3573a2cf030781e4b75409a053c17f6098720adaf9bfa3e667d414924bde": {
+        "id": "sense-level-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "abd1206ea4c5ec633f8fc30e448188ddf69013c6b19a5307b60cb744b4efb141": {
+        "id": "sense-level-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "616a61dc9d341712de192007844e0debe7e77422dca6d0db0d845166af30db11": {
+        "id": "sense-level-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b84a407289c33b5c0dda4f99481f4f7e84c72f6b4566786e76cf28bc813254d3": {
+        "id": "sense-level-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "82d6934a8bbe13f834d53718a69ac1abc5acecf0e0bb16d4c32b81734b16b9f7": {
+        "id": "sense-level-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "536325f36a1072a1f3dff4250ffb819cc916bb6c7832d8041dc8f13b62112435": {
+        "id": "sense-level-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "lot": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "432cf6f09a1c37e23cabf3957ad5d3315b4ee256acbea140a88636947719922a": {
+        "id": "sense-lot-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a8fdb1ad48dd7c938d994d0ac5b00d7d7030a9c68c0f76523fbed12dbb524b22": {
+        "id": "sense-lot-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "182c94e0c38431c857e1487ed059674abd51e375ebab18aa6a50a1592b4d5aee": {
+        "id": "sense-lot-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "09db169fe596d19332b3162ea8c771be08872c6450b53a68aa1b81df6b88b53f": {
+        "id": "sense-lot-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "eb682b933dce15c67df870e41677f089c124d74c485e1c9d7f56da6d560df100": {
+        "id": "sense-lot-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "ticket": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "2efc4164e714a06bd1b9fdb802ae798963586eb1ad11a94d9a7a53118961c2b4": {
+        "id": "sense-ticket-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c070605aefaebc619659bda7be94120587b489624e27b67ef31c1195bd33378d": {
+        "id": "sense-ticket-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3e2a0d8bea5231471b3ff379ee1802e9259643f77619bc711bacedb9ac30a705": {
+        "id": "sense-ticket-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e23b486d26d43e72638b8b54245c3c845911208aa9de27daa2f81bdd998ec4ea": {
+        "id": "sense-ticket-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "01cdde365e520309c03e046eb02b72882ef8489541492fdaa4bf32ca475b7083": {
+        "id": "sense-ticket-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1fba7d4363d754cbb7d50ace59443de72a9257ce995f991cba595ede698c2acc": {
+        "id": "sense-ticket-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "blow": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "a4a97d8d29af9f12a214de01f03ebeb315ea8df8223965c639e33d97f2ff3095": {
+        "id": "sense-blow-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8760e73915dc3e9ea6a1f6c2f1f8a3adc07acde2af400f163ac2f6b4b299969c": {
+        "id": "sense-blow-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1917f9a848b0bd32344d9a70d42bfa8940680546b673ab35f674502ec72f8ff2": {
+        "id": "sense-blow-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "50436d61e7f18356917ad09d4241894d5e6ffc6c12c64b5c5f41954c6477093f": {
+        "id": "sense-blow-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a5573cf47ba56dc7d736e925a9e9bf58d8dbcc2e95e11b738a2b25548a08b8d5": {
+        "id": "sense-blow-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9b8f8f6df9567eea8274d688a872aca72c2a9f73908597ac972e70797cf90941": {
+        "id": "sense-blow-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "dive": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "ae82767958502526cd162cdb6abbc64bc5d2be15328139be0a7995af732687fd": {
+        "id": "sense-dive-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "39c2393128384e5fd2d60eab8b1808fb2792bcb450a9598fea9145463e43c496": {
+        "id": "sense-dive-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9ff1410d522d8ce0629fe49669d1efb4144accf10e328a6b77d938ed8d7315a0": {
+        "id": "sense-dive-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f3bff397a65d11f8bc6670d0464c947308e3835be781f720334819e099c4df1b": {
+        "id": "sense-dive-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "310b246cf4ce24bee0c845b788516ab6baad208bf6b5b8c104d4e405ce03acad": {
+        "id": "sense-dive-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "material": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "8d53f4b7aea0bc1c48873421b8b94a4c9d3ab6e5792b60dc967082e12b9bf515": {
+        "id": "sense-material-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a0d80c665c6641147cd2ee1c3db3c02500e110514a24b9cffab82379f76f62b2": {
+        "id": "sense-material-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3de2bb865dc237efd9335bab5b1e89945f8ef527a4ad22c63e15804d6e35a054": {
+        "id": "sense-material-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6fd7a077f93b098d57840924ef12acf665eca463673c585fb581608798cce2e9": {
+        "id": "sense-material-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "870e3cad29b7e65b05b07f85406c50833c75fa016c0a49c35b32e573881e398d": {
+        "id": "sense-material-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "bb3e6ad3da343c2a2397b57786516e5ed76e6de45b4f110dbb9c551d9619a3b4": {
+        "id": "sense-material-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "reserve": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "65e305d2c3795d3a8c51adb1fb0f90418f9721be2ee135f4c74d95ebc3c20450": {
+        "id": "sense-reserve-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b271f9eb0bc2b835ca32de7f28ce5343b8305755d9d6bcd85807cd61b4b17d49": {
+        "id": "sense-reserve-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6b3935a4e15ebd9e699b3b5c698f3a76a9e3d88e2b4532234e7bf4a6270add7e": {
+        "id": "sense-reserve-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f93f51680d904ec0150c2869fed6cceeb507593064f14034199064811618205e": {
+        "id": "sense-reserve-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "54bb05271fbe832b91588bf6adb2834ef36f8536ca3f2d554375b38b82faca05": {
+        "id": "sense-reserve-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "cd928e6d796717db6f87a0c22cce28f47b798f5cb5d5bf1dfb3cbee8a20ac653": {
+        "id": "sense-reserve-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "paper": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "412c9ee3209ded4bdd1a091cdbde4a23519dfb584bb616255d9e0f9ecac93a16": {
+        "id": "sense-paper-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b6fd65176dca9deb4ec811cdf42a90e75005d0225438a454021c8d3bd121bbef": {
+        "id": "sense-paper-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2e9532218b7861f836db3bb263cdb8dbd88dc91914cb7ff339829ea774aea050": {
+        "id": "sense-paper-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "319a5d6fb24b2fe25dabaa71377069acb1c87ad4c1095b7f636d7909ac4a9067": {
+        "id": "sense-paper-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "67b6938f6aa770f3d74cd28665ebdc52b0f3d84b162dc62cefe1ece8f5c2a4a7": {
+        "id": "sense-paper-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1290cfecd09fe070f6c046d69992fbf88344e230418e40b2c5f3e20e5e9bea24": {
+        "id": "sense-paper-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "practice": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "800fdc61c9aab4434ee61094ff2b266e452a82543086cfb6a4f1d4dee9d75989": {
+        "id": "sense-practice-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "08dbd695b7171882847a081c2661f739131fbecdbdf368641a50c395c68ee095": {
+        "id": "sense-practice-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "77b779e911edd6845d2002a85dfef691a6bed260fa274b4c145877835230439e": {
+        "id": "sense-practice-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9889e6086fb02af8e9e5bc1fe351fed90b9e0628455c08fcc1c07a18ae75e5ab": {
+        "id": "sense-practice-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "bd66df6fd3cabd8976335f102767dfa5f3e44f0893361c34f33240f374e869ea": {
+        "id": "sense-practice-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "539c4d48f4a1a75a636e1e5cee7a6074a3d345b0ded4b06a89ad1208ce14591b": {
+        "id": "sense-practice-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "port": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "70ffae7a7a50e8b4df6236d7c8a6c8548294c8a8a6b96735a9df038e81e26dae": {
+        "id": "sense-port-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "68c062a58f1701d93d1246804b2197a5bab5cfe8d5f20f257c90086f61d5b4b1": {
+        "id": "sense-port-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "66de9d26f89fdf7c99903be2559b0de16cca24f446ee6020203af627a07e7637": {
+        "id": "sense-port-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ed5959f936bdec8cf5fb7de49806a835a74b7f2427d278ac8b0d9871f60c1b07": {
+        "id": "sense-port-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "717c97d49e6371357b9f4617fd35924ada522574571fcf3c24c2a2981c0319e1": {
+        "id": "sense-port-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "junior": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "6ccb56413240b400cf9fcf6f5134c31466e0afa9bd7c47fffab6fa6275abe0ba": {
+        "id": "sense-junior-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f48a61db05f02e14c796b488c823f660a568611b68c6980dc57bb27ad60672a2": {
+        "id": "sense-junior-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "17400c8e2c549f6023cc17d4caf094c74926f4e5bbf305cfea777ee240a2f13d": {
+        "id": "sense-junior-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a58599e06d9ca713a140680c5b7968effff7c48cd34b30e1c9d843ed9059e369": {
+        "id": "sense-junior-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "consider": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "05f57e8df35474c37f340254627425b72dc50a7d9c9bef0c22a6d36c52294f10": {
+        "id": "sense-consider-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "71859850841e4efd15925d28d16bd5eb4f92798e5e159579532b9b6b8508fe5c": {
+        "id": "sense-consider-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "52d9118d0e300851159a5def30ad91b21f67f90ed28dd8e52534f3a4f5044248": {
+        "id": "sense-consider-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5e80486d64a6fc58ebb7abdce5464488b8165cad3d25897783046291b3b1c9d5": {
+        "id": "sense-consider-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "used": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "2db9389481a28d9b09fb8009e93128733de3e241d7227a7d6a65c3ff67ace7d6": {
+        "id": "sense-used-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4dc1120df8d674ab12d3721da609e0429b20afdb5d3689af34ce93a836c2d3cf": {
+        "id": "sense-used-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1175dcbbd4a0cb885d9e0e4388fd7a4b91e2c99e2127b754497543d3b444e66d": {
+        "id": "sense-used-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e98358ce01c034310593c71ccde0835a728b7d2ed4447987a6958bcf2cce7441": {
+        "id": "sense-used-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8ad6ff899ec98775b85fcf1d78b1b8b79f0a3a28ac92c05c095db5c2762f0273": {
+        "id": "sense-used-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "zoom": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "b4c7d3537f697b191ec832f20a3292db21a80bfae7633bc4938f8b0d10cec9fb": {
+        "id": "sense-zoom-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6e6709548ba733c3104671c8c88ff5036a3c12d006ad8126f907a930a8f18d6a": {
+        "id": "sense-zoom-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "02d3d2c9c3b1f74316d0c0aa0d5b2e291d1002f060945cef988b9ad23de483b3": {
+        "id": "sense-zoom-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "93a59c92dd3aaf2cdfe48303d084138bc7c9d7d3727ad9ba4477c835776da3d1": {
+        "id": "sense-zoom-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "cream": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "74501db37c46838269fb147d863c18453d20947232481140421d6ce2c25d4234": {
+        "id": "sense-cream-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "498ac410894ee47492a574c63dec3b7873882de5842759ccde01948364a36b61": {
+        "id": "sense-cream-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ac9b7b18ce8191c443c3d73b28a0cb1b3a219c66801c650d3287b2eb082622d7": {
+        "id": "sense-cream-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b62dd795177bda6088b5d7236e1ad67dfad4e6b07dea075a578bcd7d5ed3084c": {
+        "id": "sense-cream-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "50fc989f57444bbb9a951a655434620c57cb11da1a4d05448625cceed27a2c1f": {
+        "id": "sense-cream-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7997b9d6cc2b73b6b73f2145966ce6c706893ccc0c2f08c32e9bc4bbf9f1d4ad": {
+        "id": "sense-cream-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "figure": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "7afa024848bb06245f2f308ced596ca4477ebf480cde718ed3809392c7bdb5cc": {
+        "id": "sense-figure-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5ac09ce635b6a9f0752a6d5aeeda837497e07f38a97981ad3d1fbc3d234af5c4": {
+        "id": "sense-figure-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4d48fa5a1fb5062bf6ace600d63dc7642aec76e96ec59939ed620fa3f008ab03": {
+        "id": "sense-figure-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "74862e49c0cb909f1b98ea63b623d1bcb08a30c4a3e9748c05e57e9aff4a4b31": {
+        "id": "sense-figure-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7e4d8d537de4d8e822e12963b948c3e7554a14a4a2dc4502fb1a6e35f3dc9aea": {
+        "id": "sense-figure-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5965bf5a8a191f490f98fc53fa5618698daebebfa50cbb80fa5cffe611bbb38f": {
+        "id": "sense-figure-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c9384c1fcd9567082b25dc0471b95da0846bf9a55d7aa742c3c99d9534177dbf": {
+        "id": "sense-figure-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "full": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "d307f08504ec12cd19c07b82abb7d1b0e54a7d5bf5b666d8940c9809aa9e02a3": {
+        "id": "sense-full-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2afa22aa7a837cd926800e69bab50f30dcfc64ab47d57d34fd167b84cd05e28d": {
+        "id": "sense-full-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9a9496b4ff4a36063be998511968cae70ac3e1eee40234b09766111c8d93dc07": {
+        "id": "sense-full-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b6e480c33afc25a0fe7c291ce6f467e01f68cb8d4c64f71e122fafdcd2471c5b": {
+        "id": "sense-full-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4b83031c4498e2b1ddf0d9999efdf9ba8049b56dcfcb1cf5b4056a04b054bb86": {
+        "id": "sense-full-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ce2dad9c781839fa09dbc05bdbe56f1b259a1c34910bb379f6830d114cc9ce11": {
+        "id": "sense-full-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "second": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "7f262857d0e06d90ad707d3296a67b1431b439a9f84909d48a850ecd625f71a2": {
+        "id": "sense-second-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "644888423ad7109d3b77b5b3f8519b842a7ac98822e6fc8edb0a9b11a3661954": {
+        "id": "sense-second-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3261f13478deeb360642202af3f51b80da6cee0dec8631ceba3fb5f6df90aecf": {
+        "id": "sense-second-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "09f021e0c1acdc9a2b66d32d5b2c7e3712342a8e0d5e84e6944629d87ae3f2ab": {
+        "id": "sense-second-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f9a5c047e1b3170faf153a5c7ec144a3260992f73d789d5ff886eff971406ffb": {
+        "id": "sense-second-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "968325c62d4e3da33bac19c8442209f2c510314e22f0456a1f77caa9b095d3bb": {
+        "id": "sense-second-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "sign": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "d5902e4f0f26190b45b896515cb6ab8ff6d20d2c7a2ef344f86fd1a1bc938d43": {
+        "id": "sense-sign-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b0dca2bde544b5afade095b7a9372f9e55b065466079e3af6e305909d501c03c": {
+        "id": "sense-sign-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3de811fc0d6eaed7d95c0e16b940a3d998e18003ca93d7f9ca22b7fde6ba0d96": {
+        "id": "sense-sign-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a97cb87832d997a0ead0eded288968c6949f0a9e3fd0b1eda0d38a5317ee84ae": {
+        "id": "sense-sign-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "69082dcd1eb8f250e18001905c18cbe22aefad5b3e7aac6a32d4fc3222c1b511": {
+        "id": "sense-sign-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "35a999684091506e8b0f75a849ccb38d03cc606948c4f199ce13d0dc9250c06d": {
+        "id": "sense-sign-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "balance": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "16cd5161758c2027e25ca99a75b2664e21502072f5edafb9bc41a8ce3a854ab5": {
+        "id": "sense-balance-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6c3b66fe5b75a164b8a94819b840be87512ebebb3050b16c3c572c0235e40b63": {
+        "id": "sense-balance-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "65223285e70eefd99f12a503c3ed6c2e351fe8b264dad9fcd2a3701a43e0215a": {
+        "id": "sense-balance-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "275d3959284218fb2dc949f7b136812e64f522bd08835af19c738de4e6823d29": {
+        "id": "sense-balance-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1219866f8ad865784598f0c0b8f9d51f2f1e22a69998d0b92ed9944ac2668e10": {
+        "id": "sense-balance-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "stress": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "53af32b0b7823da8d9cb91036260060ffce4e3648568bb34a14da90af45b0ec7": {
+        "id": "sense-stress-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f808fdf81a36decccc80e3fb2e4fbd0ccb27f6e32dc1b504275fb658d1f0c218": {
+        "id": "sense-stress-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2d80946193766c776f59fb5fcf7b77de09d6e79eda5c237a480a0b19d539a824": {
+        "id": "sense-stress-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "30c6d858f892898aa58cc4a23cc6515dd01c4e82e137262c50a411843db51453": {
+        "id": "sense-stress-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "due": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "6c49b54938421abe21046670907e00d95b72772de7ddac5fd1c08acb1ce24a50": {
+        "id": "sense-due-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0155979fca4ed18d07acbe2273a49a183ad6c1b102cac3879327b85e32ccf527": {
+        "id": "sense-due-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8a279341a10fd9cd3b74a8dd2b7c4b5d476d6c152062fbb7e6ed352da97874f2": {
+        "id": "sense-due-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "287c7b3ddc60c598437a1c7c0a3359292de80338c7154dd2ab98b9fed8f64d13": {
+        "id": "sense-due-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a923cd66ffaba0c8c9a8e06686a8040f61e5fcfe7cbfc5f2f99f55e62628aa03": {
+        "id": "sense-due-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c2594809accb37dd3eb67c2bf4ce0a483b46e6615da892dbf9f4880b37cdc17f": {
+        "id": "sense-due-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "wave": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "eac03381bc76a3f1b3cc6fed955c6a95216db0006474839dd24d3c318875a37f": {
+        "id": "sense-wave-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c1c793592acc92716e833f6597fcab4b257106ee1737a1f071d2050acffaa81e": {
+        "id": "sense-wave-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "73effc742678bf20da6ee23683a43fc1a40fa76c74ffb28d038006d184676683": {
+        "id": "sense-wave-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2e01798602757f763195cd1529fda09c122e21fa8f334a01c40cdd7218d1a814": {
+        "id": "sense-wave-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0fba1d40c49fdbb8024705fb9c6c8a19a8aa100a1509d395a0ce8b5088afc3e9": {
+        "id": "sense-wave-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "rank": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "60b573dbf908efe8f4538fde69183e1e2f455ad2b9d5e66cabd472e3f7e40aa4": {
+        "id": "sense-rank-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6069d5c9cb343e1d294aa647f1d91ffe31b64c041ece698fd0478a40c61675f7": {
+        "id": "sense-rank-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0c1f148ce6bae3b868412ed4e7eeb0f7d16dfa6ff6e9b41ac48d1d153ab176a7": {
+        "id": "sense-rank-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5fdeabc0d4be0c70d2a1c624e5491ddf4661a432deea8bdb25c5520a7a0e2ef0": {
+        "id": "sense-rank-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "763bf399843ac1bcedfab559f2de8ec9cfdd282544b8d94779f2eae762bc5ab3": {
+        "id": "sense-rank-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "972d957e692fb907632ba9c4ad36ee27d35a08536794a3772e5bc8170bee670b": {
+        "id": "sense-rank-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "runner": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "e6f465d01c3d915a675186242a64694f81e8faf660a97f7a90dbccd0c22e9995": {
+        "id": "sense-runner-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e728d1aa21ff53b9593550052894ba3321df05a55455c463d3839c5e228792dc": {
+        "id": "sense-runner-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5c1000c0a6785367b180047129757ca86ef770c5c7bb272ef3f99cb6a2075622": {
+        "id": "sense-runner-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b129206683adaec7d4cf1523d2c846e33a897974162c4bae5b7c7ea8fbed0ae8": {
+        "id": "sense-runner-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8cce638e61ac3d10e35af10836288f8df06baa15645634e3fd05ec4c7b3e4356": {
+        "id": "sense-runner-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3c53fe269aafa6a365c7674854ddca5e58c4b97810e46de4105da76b4e33bdaa": {
+        "id": "sense-runner-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "attachment": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "fa85dcc0e6b0599410f0dbac627197b0bc354369c35550e082afdeb152163abd": {
+        "id": "sense-attachment-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7d69821f5bc43679caf966d934bddc60fa3356641c4ae06d5efe4ede2101a940": {
+        "id": "sense-attachment-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f14efd068c52ab8960f8480d49eac1aa1324dfc4bed43c6c6c565a4d47b92772": {
+        "id": "sense-attachment-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "58312195329c5627562795363e4f3443c073897ab77edf8d217a76506a69ed8b": {
+        "id": "sense-attachment-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d01e0dc40a883d8da57b0af4278bf5ba499999364679166d3bf2d7e51f400ca7": {
+        "id": "sense-attachment-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1034fd09718b1b01021909e64771f641a0671c57ec6817444eb039fe032d2cbb": {
+        "id": "sense-attachment-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "spring": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "967c465e1eb0511d60b438bba94144b701a5d973c4d38a80704817c877358a82": {
+        "id": "sense-spring-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "23c9fdfd251119588728957c1cee25cd6ed4f00d3b022af3db60b862769f5d60": {
+        "id": "sense-spring-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "bd19f914c04b403d31692b21959fcd1da8f07ab38ae513e7d06f0f0a8ccbffec": {
+        "id": "sense-spring-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "de6876182b80d22050a2bb416cad97f4356c0808f6c8ddcb1cd6732cfa0354fd": {
+        "id": "sense-spring-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "196b54fbdcfd835161bc900dd3ef0b6f79aa31068b7eba55088c2200a4aa2715": {
+        "id": "sense-spring-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ce33c55d0b9086efbb3b46498f0ed842dee9ccb595dd58516b63101f4a76077e": {
+        "id": "sense-spring-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "live": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "a9feb1c647beae38fb6f60da14e1279afb0d628c86f3bc40518907ad90f10e2f": {
+        "id": "sense-live-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "46a3a7e9a38c7df64eea66b6f76b4a0a5fa5fb0875ab08468a331ba8be865487": {
+        "id": "sense-live-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "be0dc4d04859b8aa5b77a0c09ff5089e60f903afc8e16b55b7e4aeb2bf11a354": {
+        "id": "sense-live-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d029e83391186cea2c9376eaf53c6c364e1cf6388f1a7fd57ab4c482cd5988c5": {
+        "id": "sense-live-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "dfce88fce030fc64fcbb96204553dea7a750ef09e65a63e6e6dbb2e730acad37": {
+        "id": "sense-live-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "01561eac9d99db9dc8d9c4aaf687af5f02360e8861c3f26db7df7d0099e6ec6a": {
+        "id": "sense-live-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "acb4e3e97eee6d2150477171c0ab4149bd3bdd4af678d698df73549139d7fe28": {
+        "id": "sense-live-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "42a476e23369615601b1761855a7eaa4f0042b25cb8a803ec3cecacdec9461a1": {
+        "id": "sense-live-08",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "fork": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "0e0d5b48b31289321d7217d99e0ee5f4ee814f01d2d7c4b24005559f0fcb6174": {
+        "id": "sense-fork-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9c753b058036d570482385ffe8c4e14a38b2b32f1663cda783a0e981c5f4da16": {
+        "id": "sense-fork-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "73d42bf774f2e9d786a85126ebd9e2cfa94eda6ebf4adcbc956684af83125236": {
+        "id": "sense-fork-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "860a352e905886ee33ba2aec7de267878056ed86c8545cba907242922496c9ed": {
+        "id": "sense-fork-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "buck": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "8837a81dc8127dfa8a1adec46a8d9ab6d6670ad096924681401f12ebf0079962": {
+        "id": "sense-buck-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0637672b2699066b33e04ea26ebb5f6ecf632891c5fd8ef236d8bf747fb14641": {
+        "id": "sense-buck-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c1ce20240a1b80e617d19fcc9e18cb0876db57a7952a3b364305419529350f3c": {
+        "id": "sense-buck-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c978ebf28eec87e102fd501e9012ad9b58bf444280f62faedfffc6e605297007": {
+        "id": "sense-buck-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6b4cead5cc9d616ad6ff4406fd09f82ff263c0f5ee02f4dd7623b67f7af413ed": {
+        "id": "sense-buck-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "image": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "902b2a7af8a3c4982893a13dd12731896679e60437284340eb81a12058721025": {
+        "id": "sense-image-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3e4cab9104a3e1cc4b6337093759dfb2a903a8e7c7ab2e6c77db77e345a15327": {
+        "id": "sense-image-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "ae51dc682c47e177184e8403b68b6afb13299a5b26cb74ef009bfa5e142931af": {
+        "id": "sense-image-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c41c3729ba951b2b29e0e93e8aac0c441fe2b197d1f4eb524714fde7aa1a9733": {
+        "id": "sense-image-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "316102ba35490c576fddd933d137575f5e9082bdf6a6f8087163d8a9b253fd80": {
+        "id": "sense-image-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "universal": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "df5bb93304038d45a68aa03cbcb433a7bfc50b5023b8ebb41b1065407733e39c": {
+        "id": "sense-universal-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7568d354479ab9162674a62d68e87ad361bfb9a0cdb351268e1b5b7b6775a3e0": {
+        "id": "sense-universal-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "94121acb4bb85726056e5d40e38a32d686d7396c0ab1c7b5749016448e037822": {
+        "id": "sense-universal-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b423126715d28140ac4ba784187edda095106e65cdc9db8948cf948f9fdcd021": {
+        "id": "sense-universal-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "strain": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "fc441a4610b0f4279b2162c78085fa54e907866548f8f22f062ae90af5c4a75e": {
+        "id": "sense-strain-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "17c08e21b3742c21f9a962f71e1e213f10e94d3eec783c65825227fc29c12e23": {
+        "id": "sense-strain-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "896b1bf5e0aa96ecd55cfa928d2bb74f2aa1283638c36968bc0a77652f567ad1": {
+        "id": "sense-strain-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0102dcd511384d41818475fac8042e576ca53817dd0f3d6cbcf631ca84c61477": {
+        "id": "sense-strain-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "524b7c101eab0fa5237fce77c50309e2d16f4c96564675f7068b5656a8f61433": {
+        "id": "sense-strain-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "643a2e64b05e9341ad432c9ad977229a8ed4925b923414c3c433e3aad9b1ace7": {
+        "id": "sense-strain-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "dc3598153ed0b43fb918d5000b705629449dcdc76b9de313cc5038f467c0017b": {
+        "id": "sense-strain-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "bound": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "b43f15d999c98ca81ffd4d979be0ab78331068b7693eabd45c8ca01b82c733f8": {
+        "id": "sense-bound-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "7e8b69149099cb6572bda86c31b69b0c38091880e00467ac2c42eb81954dd876": {
+        "id": "sense-bound-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2ffc19b523f57c958e89227fe16a80441ec464f44a02a12e776207553d0b98aa": {
+        "id": "sense-bound-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e2b1c3fec9e03a6417911fb55f1a4bbcde0ef3d965e403037f50c0a8db38a254": {
+        "id": "sense-bound-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "9bf37118fc631e01479d43e3dff470283d8fd377d03a78b5ab35d0e8b61f87de": {
+        "id": "sense-bound-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "94019862abc72026789cb5746bc3ddfcad4609a1e3b777de475d7067efdd3890": {
+        "id": "sense-bound-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a5e332dc0328456258f42358af4ed760050c70031f337c4ff8c40457e3f1ade2": {
+        "id": "sense-bound-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "band": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "b529f0f8287ea4d67247c15fe185c8fb8918bccee0500cdc03a7cd155df2822a": {
+        "id": "sense-band-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2dbf7cb321ef74f07d195f914f4c5b7d6c5991e6ff9c2c74dda03da1341c06b3": {
+        "id": "sense-band-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4a0cdd9a8912df259bb29b37a5f9adf71c951b431975f9e530ab73ed0c056e30": {
+        "id": "sense-band-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1f7e09f3d100222438ed097cf78bb8dad591e102b26e3af2680b9b9e31575410": {
+        "id": "sense-band-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "24edc1c9a3b076c370279f4afd731249e0b05ccf3f1ea80fad8a2384ce744736": {
+        "id": "sense-band-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1d1ada417c55cc5fa09d986fb205773227a7d98a30c68be551eca445c53548b6": {
+        "id": "sense-band-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "line": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "17019e492993ce572135b39c935e9169927fb8a16896a6ffaf236c86d51c0982": {
+        "id": "sense-line-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4cd442f50447fed2cb1ff4e1d177333bfd47cf845f252c61e00e5a4db7ebdb4b": {
+        "id": "sense-line-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e4a8a42d719bc8d9674c9bdbe9e5ae1b5790d4741caa16376f423e20b7ca0b4a": {
+        "id": "sense-line-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0321522ebe85d1a4ebd546a5c93f49c933459566df6c0389483e8f9d4676c382": {
+        "id": "sense-line-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "63ab53e998c522b558df1f997f4d87e4327f095d14f8a228c92ed61e224840b1": {
+        "id": "sense-line-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e9ce868963c04308e701595b8e7dc36022ee4ff505e859ab4550295948f7bcc3": {
+        "id": "sense-line-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1ff852a77a275ee2649521cd808b4b033af79454ac13dacc0016552a0545542b": {
+        "id": "sense-line-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "76ef5d8097e5a7d8d0c3bd0384838d810a3750f5d4496007648285648dd54562": {
+        "id": "sense-line-08",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b1a900bdb0390afac6a73c1fcfca964417e4c83af00f041babd5bd467a147ac6": {
+        "id": "sense-line-09",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "lean": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "2cce9b2b3d060a59626142a9d541ecdce39f3eecb044b88e14b3af8e89c6e69c": {
+        "id": "sense-lean-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "993646cf4e893a6a1b977e0a70a07f0e16d40ce45e9fc921934f2c13ae830eea": {
+        "id": "sense-lean-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5ab3fca326bb6beb2343a9a8baaa7e91eb0f826567d1fa0c7c0aedda44b40533": {
+        "id": "sense-lean-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "450f8fc257d4634f081ee5c027f7d22cc24871d4cb94b95715cc50f4d0a66a0b": {
+        "id": "sense-lean-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "921e946d8caba28c6404db4108d8168495b7ffcd5ba13d6a8b1cf23b8c113085": {
+        "id": "sense-lean-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1132954a1354ed49b0aa48d966260f44c06932d9372d510013040a2af2d0d77e": {
+        "id": "sense-lean-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "2aa888239d47fdf52652c4bbd826bf78bdce2d96d9d8371b248184038394c25b": {
+        "id": "sense-lean-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "post": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "8eb0450935a4622d8ec129c3098f8f2d84583de215cbe9f7d56c4dfeb55009b8": {
+        "id": "sense-post-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d997462dbbd5b0f91752f55f07bac215c76eba43a524aab3fa8742084e18c3eb": {
+        "id": "sense-post-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "04759084532cc7eae4244c700abead48d09bd6ac61f1928c8afe07c29508983f": {
+        "id": "sense-post-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "706ba5d335bd326e4aa4b9eb4417bde5e40d95a2582b39ffce61eef7885c2d11": {
+        "id": "sense-post-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e1819fc588fea3f9a8851968398749d298c87c0bf7034ce678a843f7d493f042": {
+        "id": "sense-post-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "51fb18271eb037cc5ea63e15b47ecaaca996f30631050aec60ef108353d87c94": {
+        "id": "sense-post-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "02e1d761901c621c9f55a4853a75043c0121edccb63ca8d57311953adaad5a74": {
+        "id": "sense-post-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "quarter": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
+    "references": [],
+    "senses": {
+      "bf21596544c11be9f1bb16bbde82d3374cc87b200aff01cbf717c47388f5740b": {
+        "id": "sense-quarter-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f9b75999250c7cee8a4083f170cbe1a4e2f0e18ab0f3dc52de6056a77fb4c8be": {
+        "id": "sense-quarter-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "38b2f07f2219d150f90edf4bf95172b679124bbfd3a5ab376d20c60dbdd820b0": {
+        "id": "sense-quarter-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "854aed4cc4e72dc4fbbe20c5a318b80c3dfb7fb06eb5c980dd8d523cc2962bcb": {
+        "id": "sense-quarter-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "10d763921412038d2d2c382ef2b361d51ebfb2fd7cefce7f4019205e481cb456": {
+        "id": "sense-quarter-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "02c90f48d054f4c9ecd98d4cb2fb015304752da0a93be70610a9b4ae91113bb9": {
+        "id": "sense-quarter-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3c585ea1cbc9559a255963c51169f3a65fbd04f53ff41249c8af771ed00bfb49": {
+        "id": "sense-quarter-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  }
+}

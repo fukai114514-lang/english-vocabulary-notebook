@@ -1,0 +1,24 @@
+name: Validate reference content
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 content/render.py
+      - run: python3 scripts/verify_migration.py
+      - run: python3 scripts/verify_upgrade.py
+      - run: node --check content/search.js
+      - run: node scripts/test_search.cjs
+      - run: git diff --exit-code -- dist

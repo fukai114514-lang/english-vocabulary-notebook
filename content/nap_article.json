@@ -23,40 +23,360 @@
     "T": "So if you've made it this far and you're interested in giving workday naps a try (or just starting to nod off), here's a quick guide to the perfect nap: Find a quiet, unoccupied space where you won't be disturbed. Try to make your area as dim as possible (or invest in a sleep mask you can keep in the office). Earplugs might help, too. Aim for around 20 minutes. Any longer than that and you're likely to wake up with sleep inertia, which will leave you even groggier than before."
   },
   "vocabulary": [
-    ["nap", "小睡", "a short sleep, especially during the day", "take a nap; power nap"],
-    ["productivity", "生产效率", "the rate at which work is produced", "increase productivity"],
-    ["taboo", "禁忌", "a social custom that strongly discourages something", "a workplace taboo"],
-    ["assumption", "假设；想当然的看法", "something accepted as true without proof", "make an assumption"],
-    ["perception", "看法；感知", "the way something is understood or noticed", "public perception"],
-    ["aggregate", "总计的；合计", "formed by combining several amounts", "aggregate productivity"],
-    ["occupational", "职业的", "relating to a job or profession", "occupational health"],
-    ["psychological", "心理的", "relating to the mind and behavior", "psychological research"],
-    ["tremendous", "巨大的；极大的", "very great in amount or degree", "tremendous pressure"],
-    ["widespread", "普遍的；广泛的", "existing or happening in many places", "a widespread practice"],
-    ["luxury", "难得的便利；奢侈", "something pleasant that is not always available", "have the luxury of time"],
-    ["alertness", "警觉；清醒", "the state of being attentive and ready to respond", "improve alertness"],
-    ["perceptual", "感知的", "relating to the ability to notice things", "perceptual performance"],
-    ["deteriorate", "恶化；下降", "to become worse", "performance deteriorated"],
-    ["reverse", "扭转；逆转", "to change something to its opposite state", "reverse a decline"],
-    ["magnitude", "程度；大小", "the size or importance of something", "the magnitude of the benefit"],
-    ["specific", "特定的；具体的", "relating to one particular thing", "specific benefits"],
-    ["memorization", "记忆；背诵", "the process of learning something by heart", "help with memorization"],
-    ["creativity", "创造力", "the ability to produce new ideas", "improve creativity"],
-    ["associative", "联想的", "involving connections between ideas", "associative thinking"],
-    ["disparate", "迥异的", "very different from one another", "disparate ideas"],
-    ["aptitude", "才能；天资", "a natural ability to do or learn something", "aptitude for languages"],
-    ["inextricably", "密不可分地", "in a way that cannot be separated", "inextricably tied to"],
-    ["concentrated", "集中的；专注的", "done with sustained attention", "concentrated hours"],
-    ["engagement", "投入；参与", "the state of being involved in an activity", "employee engagement"],
-    ["preindustrial", "工业化前的", "existing before industrial development", "preindustrial societies"],
-    ["fatigue", "疲劳", "extreme tiredness", "daytime fatigue"],
-    ["optimal", "最佳的", "best or most effective", "optimal sleep"],
-    ["acclimate", "使适应", "to become used to a new situation", "acclimate your body to a schedule"],
-    ["regardless", "不管；无论", "without being affected by something", "regardless of the result"],
-    ["unoccupied", "空着的；无人使用的", "not being used by anyone", "an unoccupied space"],
-    ["inertia", "惰性；惯性", "a tendency to remain in the same state", "sleep inertia"]
+    [
+      "nap",
+      "小睡",
+      "a short sleep, especially during the day",
+      "take a nap; power nap"
+    ],
+    [
+      "productivity",
+      "生产效率",
+      "the rate at which work is produced",
+      "increase productivity"
+    ],
+    [
+      "taboo",
+      "禁忌",
+      "a social custom that strongly discourages something",
+      "a workplace taboo"
+    ],
+    [
+      "assumption",
+      "假设；想当然的看法",
+      "something accepted as true without proof",
+      "make an assumption"
+    ],
+    [
+      "perception",
+      "看法；感知",
+      "the way something is understood or noticed",
+      "public perception"
+    ],
+    [
+      "aggregate",
+      "总计的；合计",
+      "formed by combining several amounts",
+      "aggregate productivity"
+    ],
+    [
+      "occupational",
+      "职业的",
+      "relating to a job or profession",
+      "occupational health"
+    ],
+    [
+      "psychological",
+      "心理的",
+      "relating to the mind and behavior",
+      "psychological research"
+    ],
+    [
+      "tremendous",
+      "巨大的；极大的",
+      "very great in amount or degree",
+      "tremendous pressure"
+    ],
+    [
+      "widespread",
+      "普遍的；广泛的",
+      "existing or happening in many places",
+      "a widespread practice"
+    ],
+    [
+      "luxury",
+      "难得的便利；奢侈",
+      "something pleasant that is not always available",
+      "have the luxury of time"
+    ],
+    [
+      "alertness",
+      "警觉；清醒",
+      "the state of being attentive and ready to respond",
+      "improve alertness"
+    ],
+    [
+      "perceptual",
+      "感知的",
+      "relating to the ability to notice things",
+      "perceptual performance"
+    ],
+    [
+      "deteriorate",
+      "恶化；下降",
+      "to become worse",
+      "performance deteriorated"
+    ],
+    [
+      "reverse",
+      "扭转；逆转",
+      "to change something to its opposite state",
+      "reverse a decline"
+    ],
+    [
+      "magnitude",
+      "程度；大小",
+      "the size or importance of something",
+      "the magnitude of the benefit"
+    ],
+    [
+      "specific",
+      "特定的；具体的",
+      "relating to one particular thing",
+      "specific benefits"
+    ],
+    [
+      "memorization",
+      "记忆；背诵",
+      "the process of learning something by heart",
+      "help with memorization"
+    ],
+    [
+      "creativity",
+      "创造力",
+      "the ability to produce new ideas",
+      "improve creativity"
+    ],
+    [
+      "associative",
+      "联想的",
+      "involving connections between ideas",
+      "associative thinking"
+    ],
+    [
+      "disparate",
+      "迥异的",
+      "very different from one another",
+      "disparate ideas"
+    ],
+    [
+      "aptitude",
+      "才能；天资",
+      "a natural ability to do or learn something",
+      "aptitude for languages"
+    ],
+    [
+      "inextricably",
+      "密不可分地",
+      "in a way that cannot be separated",
+      "inextricably tied to"
+    ],
+    [
+      "concentrated",
+      "集中的；专注的",
+      "done with sustained attention",
+      "concentrated hours"
+    ],
+    [
+      "engagement",
+      "投入；参与",
+      "the state of being involved in an activity",
+      "employee engagement"
+    ],
+    [
+      "preindustrial",
+      "工业化前的",
+      "existing before industrial development",
+      "preindustrial societies"
+    ],
+    [
+      "fatigue",
+      "疲劳",
+      "extreme tiredness",
+      "daytime fatigue"
+    ],
+    [
+      "optimal",
+      "最佳的",
+      "best or most effective",
+      "optimal sleep"
+    ],
+    [
+      "acclimate",
+      "使适应",
+      "to become used to a new situation",
+      "acclimate your body to a schedule"
+    ],
+    [
+      "regardless",
+      "不管；无论",
+      "without being affected by something",
+      "regardless of the result"
+    ],
+    [
+      "unoccupied",
+      "空着的；无人使用的",
+      "not being used by anyone",
+      "an unoccupied space"
+    ],
+    [
+      "inertia",
+      "惰性；惯性",
+      "a tendency to remain in the same state",
+      "sleep inertia"
+    ]
   ],
   "phrases": [
-    ["on the clock", "在工作时间；上班时"], ["shut-eye", "睡眠；小睡"], ["sleep on the job", "上班时睡觉"], ["look down on", "轻视；看不起"], ["slack off", "偷懒；懈怠"], ["take a back seat to", "退居次要地位"], ["hamster wheel", "忙碌却原地打转的状态"], ["build the case for", "为……提出论据"], ["in pursuit of", "为了追求……"], ["stress out", "使压力过大"], ["work-life balance", "工作与生活平衡"], ["step away", "暂时离开"], ["duck out", "悄悄离开"], ["make your case to", "向……说明理由"], ["unplug early", "早点断开工作和电子设备"], ["steal away", "悄悄抽身"], ["power nap", "短时间恢复精力的小睡"], ["drag after lunch", "午饭后疲惫"], ["throughout the day", "一整天"], ["sleep cycle", "睡眠周期"], ["cut through the fog", "驱散昏沉"], ["creep in", "逐渐出现"], ["be tied to", "与……相关联"], ["be in denial", "拒绝承认现实"], ["wake up to the fact", "意识到事实"], ["all sorts of", "各种各样的"], ["sleep through the night", "一觉睡到天亮"], ["the Holy Grail", "梦寐以求的目标"], ["fill the tank", "补充能量；加满油（比喻）"], ["nod off", "打瞌睡"], ["aim for", "以……为目标"], ["invest in", "花钱购入；投入"], ["wake up with", "醒来时带着……"]
+    [
+      "on the clock",
+      "在工作时间；上班时"
+    ],
+    [
+      "shut-eye",
+      "睡眠；小睡"
+    ],
+    [
+      "sleep on the job",
+      "上班时睡觉"
+    ],
+    [
+      "look down on",
+      "轻视；看不起"
+    ],
+    [
+      "slack off",
+      "偷懒；懈怠"
+    ],
+    [
+      "take a back seat to",
+      "退居次要地位"
+    ],
+    [
+      "hamster wheel",
+      "忙碌却原地打转的状态"
+    ],
+    [
+      "build the case for",
+      "为……提出论据"
+    ],
+    [
+      "in pursuit of",
+      "为了追求……"
+    ],
+    [
+      "stress out",
+      "使压力过大"
+    ],
+    [
+      "work-life balance",
+      "工作与生活平衡"
+    ],
+    [
+      "step away",
+      "暂时离开"
+    ],
+    [
+      "duck out",
+      "悄悄离开"
+    ],
+    [
+      "make your case to",
+      "向……说明理由"
+    ],
+    [
+      "unplug early",
+      "早点断开工作和电子设备"
+    ],
+    [
+      "steal away",
+      "悄悄抽身"
+    ],
+    [
+      "power nap",
+      "短时间恢复精力的小睡"
+    ],
+    [
+      "drag after lunch",
+      "午饭后疲惫"
+    ],
+    [
+      "throughout the day",
+      "一整天"
+    ],
+    [
+      "sleep cycle",
+      "睡眠周期"
+    ],
+    [
+      "cut through the fog",
+      "驱散昏沉"
+    ],
+    [
+      "creep in",
+      "逐渐出现"
+    ],
+    [
+      "be tied to",
+      "与……相关联"
+    ],
+    [
+      "be in denial",
+      "拒绝承认现实"
+    ],
+    [
+      "wake up to the fact",
+      "意识到事实"
+    ],
+    [
+      "all sorts of",
+      "各种各样的"
+    ],
+    [
+      "sleep through the night",
+      "一觉睡到天亮"
+    ],
+    [
+      "the Holy Grail",
+      "梦寐以求的目标"
+    ],
+    [
+      "fill the tank",
+      "补充能量；加满油（比喻）"
+    ],
+    [
+      "nod off",
+      "打瞌睡"
+    ],
+    [
+      "aim for",
+      "以……为目标"
+    ],
+    [
+      "invest in",
+      "花钱购入；投入"
+    ],
+    [
+      "wake up with",
+      "醒来时带着……"
+    ]
+  ],
+  "translationZh": {
+    "A": "过去两周，我在工作时睡了三次午觉，在上班时间合计睡了大约一个小时。我对此既不羞愧，也没有犹豫。我感觉好极了，工作效率也体现了这一点。",
+    "B": "上班时睡觉是职场禁忌之一，就像离开办公桌去吃午饭或下午出去散步一样，我们从小被教导要对此抱有负面看法。如果有人下午两点在打盹，而我们其他人正忙着写备忘录、回复邮件，那一定说明他在偷懒。至少人们通常这样认为。",
+    "C": "休息和恢复精力，往往让位于看起来很有效率、表现得很忙碌。立即回复每封邮件，让自己像仓鼠一样在虚拟的跑轮上不停忙碌，比衡量较长一段时间内的整体工作效率更容易。但越来越多的职业与心理学研究正在证明，为了提高工作效率，人们需要充分休息。",
+    "D": "德勤旗下贝尔森研究机构的创始人兼负责人乔希·贝尔森说，由于员工压力过大，而且无法从一天的工作中恢复过来，公司正面临严重的效率问题。他说：“他们开始意识到，这是公司自身的问题，不能只对员工说：‘这里有一门工作与生活平衡的课程，自己去学怎么管理收件箱吧。’实际情况要复杂得多。”",
+    "E": "专家表示，当然，能在工作时午睡的情况远未普及。我们中很少有人能享有离开岗位、小睡半小时的条件。不过，午餐时间和喝咖啡的休息时间是暂时抽身的好机会。面对询问情况的老板，提高的工作效率和警觉性就是你说明午睡合理性所需的证据。",
+    "F": "在理想情况下，我们都可以通过早点结束工作、放下电子设备并好好睡一晚来解决这个问题。这里有一份教你如何做到这一点的指南。不过，退而求其次的办法，是在午饭后感到疲倦时，抽身去快速小睡一会儿，恢复精力。",
+    "G": "在发表于《自然神经科学》的一项研究中，研究人员一天内对受试者的感知表现进行了四次测试。每次测试中，他们的表现都会下降。但在测试之间小睡30分钟的受试者，表现不再继续下降；小睡60分钟的人，表现甚至有所回升。",
+    "H": "该研究的共同作者、加利福尼亚大学河滨分校心理学副教授萨拉·梅德尼克说：“如果午睡质量良好，它所带来的益处与整夜睡眠一样显著。”",
+    "I": "睡眠研究者、《小睡一下！改变你的人生》的作者梅德尼克博士说，白天午睡可以带来夜间睡眠的许多益处，而不同类型的午睡各有其特定作用。",
+    "J": "例如，梅德尼克博士说，20至60分钟的午睡可能有助于记忆和学习某些具体信息。这段时间刚好足以进入第二阶段睡眠，也就是非快速眼动睡眠。",
+    "K": "60分钟后，你开始进入快速眼动睡眠，它通常与我们夜间那种熟悉的、沉浸于梦境的深睡状态联系在一起。梅德尼克博士说，快速眼动睡眠可以改善创造力、感知处理能力和高度联想性的思维，让你能够把不同的想法联系起来。如果还想睡得更久，最佳选择是90分钟的午睡，这能让你经历一个完整的睡眠周期。",
+    "L": "不过，专家表示，任何午睡都有助于提高警觉性和感知能力，驱散白天逐渐出现的那种普遍的昏沉感。",
+    "M": "那么，我们究竟是怎样走到今天这一步，把工作能力与长时间、高度集中的工作密不可分地联系起来的？可以归因于技术，但眼光不要只局限于智能手机和笔记本电脑。真正的问题在于，技术使我们能够随时保持在线、随时回应工作。",
+    "N": "贝尔森先生说：“我们曾经历过一段人们拒绝承认问题、企业领导者也对此视而不见的时期。他们认为，只要给员工更多工具、更多邮件、更多Slack消息、更多交流，就可以假定员工自己能够想办法应付。我想，他们现在已经意识到，这是一个大问题，正在影响工作效率、投入程度、健康、安全、身心状态以及其他各种方面。”",
+    "O": "能够从下午休息中受益的并不只有办公室职员。2015年发表于《当代生物学》的一项研究，考察了坦桑尼亚、纳米比亚和玻利维亚三个前工业化狩猎采集社会人群的睡眠习惯。",
+    "P": "该研究的共同作者、加利福尼亚大学洛杉矶分校精神病学与生物行为科学教授、该校睡眠研究中心主任杰罗姆·西格尔说：“他们早晨很活跃，随后到树荫下安静地休息一阵，但一般不会睡午觉。之后他们再做一些事情，然后上床睡觉，一觉睡到天亮。”",
+    "Q": "不过，西格尔先生说：“真正解决白天困倦和疲劳的唯一办法，要从前一天晚上好好睡一觉开始。”充分休息最理想的状态，是保持规律的作息，每晚最好睡七到八个小时，专家认为这是最佳睡眠时长。",
+    "R": "西格尔先生说：“白天午睡确实能提高警觉性，但这并不像去加油站把油箱加满那么简单。”",
+    "S": "他还建议，临近傍晚时避免摄入咖啡因，每天早晨在大致相同的时间起床，即使你无法每晚都在同一时间入睡。无论前一晚睡了多久，这都有助于让身体适应固定的起床时间。",
+    "T": "如果你已经读到了这里，并且想尝试在工作日午睡，或者已经开始打瞌睡了，下面是一份理想午睡的简明指南。找一个安静、无人占用、不会受到打扰的地方。尽量让环境昏暗一些，也可以购买一个放在办公室的眼罩。耳塞可能也有帮助。把午睡时间控制在20分钟左右。睡得再久一些，醒来时就很可能出现睡眠惯性，让你比睡前还昏沉。"
+  },
+  "translationReviewStatus": "needs-human-review",
+  "editorialNotes": [
+    {
+      "paragraph": "O",
+      "note": "原文中的 at the at the 按转录资料保留，未静默纠正。"
+    }
   ]
 }

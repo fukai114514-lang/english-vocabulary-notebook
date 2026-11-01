@@ -1,0 +1,23 @@
+"""Independent semantic guard: compare against frozen pre-3.0 records."""
+from pathlib import Path
+from collections import Counter
+import json,html
+ROOT=Path(__file__).resolve().parents[1]
+def read(p):return json.loads((ROOT/p).read_text())
+def canonical(x):return json.dumps(x,sort_keys=True,ensure_ascii=False)
+def verify():
+ old=read('migration/original-vocabulary.json');new=read('dist/vocabulary.json')
+ assert old['groups']==new['groups'], 'Original groups/entries/IDs/memberships changed'
+ assert old['words']==new['words'], 'Original words changed'
+ oldp=read('migration/original-polysemy.json');newp=read('dist/polysemy.json')
+ assert [x['word'] for x in oldp['entries']]==[x['word'] for x in newp['entries']]
+ for a,b in zip(oldp['entries'],newp['entries']):
+  assert a['notes']==b['notes']
+  fields=['partOfSpeech','meaningZh','definitionEn','example']
+  assert Counter(canonical({k:s[k] for k in fields}) for s in a['senses'])==Counter(canonical({k:s[k] for k in fields}) for s in b['senses']),a['word']
+ oldn=read('migration/original-nap_article.json');newn=read('content/nap_article.json')
+ assert all(newn[k]==v for k,v in oldn.items()),'Original article data changed'
+ page=(ROOT/'dist/index.html').read_text()
+ for a in newn.get('translationZh',{}).values():assert html.escape(a) in page
+ print('PASS preservation: exact original groups/words; 352 sense records as multisets; all original article fields unchanged')
+if __name__=='__main__':verify()

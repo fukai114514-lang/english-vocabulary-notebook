@@ -2,10 +2,10 @@
 提示：on credit 赊购；give sb credit for 认可某人的贡献；to one's credit 值得赞扬的是；credit A to B 将A归功于B。credit card 信用卡，不等于 debit card 借记卡。
 n.|信用；赊购；信贷|Trust that allows someone to obtain goods or money and pay later.|We bought the furniture on credit.|我们赊购了这些家具。
 n.|赞扬；功劳；认可|Praise or recognition for an achievement.|She deserves credit for solving the problem.|解决这个问题的功劳应归于她。
-n.|学分|A unit awarded for completing an academic course.|This course is worth three credits.|这门课程计三个学分。
-n.|账户贷记金额；可用余额|An amount added to an account or available to spend.|There is a credit of twenty dollars on your account.|你的账户上有二十美元的贷记余额。
-n. 复数|片头或片尾演职员名单|A list naming the people who made a film or programme.|Her name appears in the closing credits.|她的名字出现在片尾演职员表中。
 v.|将……归功于；认为具有|To recognize someone as responsible for something or possessing a quality.|He is credited with inventing the device.|这项装置的发明被归功于他。
+n.|学分|A unit awarded for completing an academic course.|This course is worth three credits.|这门课程计三个学分。
+n. 复数|片头或片尾演职员名单|A list naming the people who made a film or programme.|Her name appears in the closing credits.|她的名字出现在片尾演职员表中。
+n.|账户贷记金额；可用余额|An amount added to an account or available to spend.|There is a credit of twenty dollars on your account.|你的账户上有二十美元的贷记余额。
 v.|把钱记入账户|To add an amount of money to an account.|The bank credited the refund to my account.|银行把退款记入了我的账户。
 v. 正式|相信；信以为真|To believe that something surprising is true.|I could hardly credit what I was hearing.|我几乎无法相信自己听到的话。
 # aggressive
@@ -21,10 +21,10 @@ n.|对某事的了解；熟悉|Knowledge of a subject gained through experience 
 # dash
 提示：a dash of 少量；dash off 匆匆写下或迅速离开；dash one's hopes 使希望破灭。破折号 dash 与连字符 hyphen 不同。
 v./n.|猛冲；奔跑；短跑|To move suddenly and quickly; a quick run.|We made a dash for the last bus.|我们冲向了末班公交车。
-v.|猛摔；猛撞|To throw or strike something violently against a surface.|Waves dashed against the rocks.|海浪猛烈撞击着岩石。
-v.|使希望等破灭|To destroy someone's hopes or expectations.|The cancellation dashed our hopes of travelling.|行程取消使我们出游的希望破灭了。
-n.|少量；少许|A small amount added to something.|Add a dash of milk to the tea.|往茶里加少许牛奶。
 n.|破折号|A punctuation mark used to separate or interrupt parts of a sentence.|Use a dash to introduce the explanation.|用破折号引出解释。
+n.|少量；少许|A small amount added to something.|Add a dash of milk to the tea.|往茶里加少许牛奶。
+v.|使希望等破灭|To destroy someone's hopes or expectations.|The cancellation dashed our hopes of travelling.|行程取消使我们出游的希望破灭了。
+v.|猛摔；猛撞|To throw or strike something violently against a surface.|Waves dashed against the rocks.|海浪猛烈撞击着岩石。
 n.|活力；气派|Energy, confidence, or stylish behaviour.|He played the role with great dash.|他把这个角色演得神采飞扬。
 # recourse
 提示：较正式，常为不可数名词。have recourse to 求助于；without recourse to 不借助；have no recourse but to do 除了做……别无办法。不要与 resource（资源）混淆。
@@ -38,12 +38,12 @@ v. 正式|详谈；论述|To speak or write at length about a subject.|She disco
 # fly
 提示：fly—flew—flown；fly to 飞往；fly a kite 放风筝；fly into a rage 勃然大怒；time flies 时间飞逝。苍蝇复数 flies。
 v.|飞；乘飞机；驾驶飞机|To move through the air, travel by plane, or control an aircraft.|We flew to Shanghai yesterday.|我们昨天乘飞机去了上海。
+n.|苍蝇|A small flying insect.|A fly landed on the window.|一只苍蝇落在窗户上。
 v.|使飞起；悬挂或飘扬旗帜|To cause something to move or remain in the air.|Children were flying kites in the park.|孩子们在公园里放风筝。
 v.|飞奔；迅速传开或消逝|To move, spread, or pass very quickly.|Time flies when you are having fun.|玩得开心时，时间过得飞快。
 v. 非正式|被接受；行得通|To be accepted or considered workable.|That excuse will not fly with the teacher.|老师不会接受那个借口。
-n.|苍蝇|A small flying insect.|A fly landed on the window.|一只苍蝇落在窗户上。
-v.|逃离；逃避（较文学化）|To flee from danger or an unpleasant situation.|They were forced to fly the country.|他们被迫逃离那个国家。
 n.|裤子前面的开口或门襟|The opening at the front of a pair of trousers.|Your fly is open.|你的裤子门襟开了。
+v.|逃离；逃避（较文学化）|To flee from danger or an unpleasant situation.|They were forced to fly the country.|他们被迫逃离那个国家。
 # itself
 提示：it 的反身形式。by itself 独自；自动地；in itself 本身；of itself 自发地。itself 强调单数事物，复数用 themselves。
 pron.|它自己（动作回指主语）|The reflexive form of it, referring back to the subject.|The cat washed itself.|猫给自己洗了脸。
@@ -53,9 +53,9 @@ pron. 短语|独自；自动；就本身而言|Used in phrases describing indepe
 提示：drop—dropped—dropped；drop in 顺便拜访；drop out (of) 退出或辍学；drop off 送下车、减少或睡着；drop by 顺便来访。
 v.|掉落；使落下|To fall or let something fall.|I dropped my phone on the floor.|我把手机掉在地板上了。
 v./n.|下降；减少；降幅|To become lower in amount or level; a decrease.|There was a sharp drop in prices.|价格大幅下降。
+n.|一滴；少量|A small rounded amount of liquid.|A drop of rain fell on my hand.|一滴雨落在我手上。
 v.|放弃；取消；停止讨论|To stop doing, including, or discussing something.|They dropped the plan because of the cost.|他们因费用问题放弃了计划。
 v.|让某人下车；送至某处|To take someone somewhere and leave them there.|Could you drop me at the station?|你能把我送到车站吗？
-n.|一滴；少量|A small rounded amount of liquid.|A drop of rain fell on my hand.|一滴雨落在我手上。
 n.|落差；陡降距离|A vertical distance down from a surface.|There is a steep drop beyond the wall.|墙外有一处很陡的落差。
 # glow
 提示：glow 指持续柔和的光，flash 指闪光，shine 范围更广。glow with pride 因自豪而容光焕发；a warm glow 温暖的光或满足感。
@@ -66,46 +66,46 @@ v./n.|洋溢喜悦；满足感|To show or feel strong pleasure or satisfaction.|
 提示：catch—caught—caught；catch up with 赶上；catch on 流行或理解；catch one's eye 引起注意；catch a cold 感冒；catch fire 着火。
 v.|接住；抓住；捕获|To stop and hold something moving, or capture someone or something.|She caught the ball with one hand.|她用一只手接住了球。
 v.|赶上交通工具或活动|To reach something in time.|Hurry or we will not catch the train.|快点，不然我们赶不上火车。
-v.|听清；理解；注意到|To hear, understand, or notice something.|I did not catch your name.|我没听清你的名字。
-v.|发现某人正在做某事|To discover someone doing something, often wrong.|He was caught cheating in the exam.|他考试作弊被发现了。
 v.|感染；染上|To become infected with an illness.|She caught a cold last week.|她上周感冒了。
-v.|钩住；夹住；卡住|To become trapped or attached accidentally.|My sleeve caught on a nail.|我的袖子被钉子钩住了。
-n.|接球；捕获物；捕获量|An act of catching or the things caught.|The fishermen brought in a good catch.|渔民带回了不少渔获。
+v.|发现某人正在做某事|To discover someone doing something, often wrong.|He was caught cheating in the exam.|他考试作弊被发现了。
+v.|听清；理解；注意到|To hear, understand, or notice something.|I did not catch your name.|我没听清你的名字。
 n.|隐藏的问题；不利条件|A hidden disadvantage or condition that makes an offer less attractive.|The offer sounds good, but what is the catch?|这个提议听起来不错，但有什么隐藏条件？
+n.|接球；捕获物；捕获量|An act of catching or the things caught.|The fishermen brought in a good catch.|渔民带回了不少渔获。
+v.|钩住；夹住；卡住|To become trapped or attached accidentally.|My sleeve caught on a nail.|我的袖子被钉子钩住了。
 n.|扣件；门窗搭扣|A small device used to fasten a door, window, or container.|The catch on the window is broken.|窗户上的搭扣坏了。
 # just
 提示：just now 刚才或此刻，按时态判断；just about 几乎；not just 不仅；just in case 以防万一。副词常放在所限定成分前。
-adv.|刚刚；刚才|A very short time before now or another time.|I have just finished my homework.|我刚做完作业。
 adv.|仅仅；只是|Only or simply.|I just want some water.|我只想喝点水。
+adv.|刚刚；刚才|A very short time before now or another time.|I have just finished my homework.|我刚做完作业。
 adv.|恰好；正好；完全|Exactly or precisely.|That is just what I needed.|那正是我需要的。
-adv.|勉强；差一点才|By a very small margin.|We just managed to catch the bus.|我们勉强赶上了公交车。
 adv.|实在；简直（加强语气）|Used to emphasize a statement or request.|The view is just amazing.|景色简直太棒了。
+adv.|勉强；差一点才|By a very small margin.|We just managed to catch the bus.|我们勉强赶上了公交车。
 adj.|公正的；正当的|Fair, morally right, or deserved.|They demanded a just decision.|他们要求一个公正的决定。
 # throw
 提示：throw—threw—thrown；throw away 扔掉；throw out 丢弃、逐出或提出；throw up 呕吐；throw oneself into 全身投入。
 v./n.|扔；投；投掷|To send something through the air with the hand; an act of doing so.|He threw the keys to me.|他把钥匙扔给了我。
-v.|猛地移动或使处于某位置|To move something suddenly or forcefully.|She threw her arms around him.|她一下子张开双臂抱住了他。
 v.|使突然陷入某种状态|To cause someone or something to enter a difficult state.|The news threw the team into confusion.|这个消息让团队陷入混乱。
-v. 非正式|使困惑；使慌乱|To confuse or upset someone unexpectedly.|The unexpected question threw me.|那个意外的问题让我乱了阵脚。
 v. 非正式|举办聚会|To organize a party.|They threw a party for her birthday.|他们为她举办了生日聚会。
+v.|猛地移动或使处于某位置|To move something suddenly or forcefully.|She threw her arms around him.|她一下子张开双臂抱住了他。
+v. 非正式|使困惑；使慌乱|To confuse or upset someone unexpectedly.|The unexpected question threw me.|那个意外的问题让我乱了阵脚。
 n.|沙发毯；盖毯|A loose decorative covering for furniture.|She put a soft throw over the sofa.|她在沙发上铺了一条柔软的盖毯。
 # point
 提示：point out 指出；point to 指向或表明；at this point 此时；on the point of doing 即将；there is no point in doing 做……没有意义。
 n.|要点；观点；目的|An idea, important detail, or purpose.|What is the main point of the article?|这篇文章的主要观点是什么？
-n.|地点；时刻；阶段|A particular place, moment, or stage.|We have reached a turning point.|我们已经到了一个转折点。
-n.|尖端；尖头|The sharp end of an object.|The point of the needle is bent.|针尖弯了。
-n.|分数；积分；计量单位点|A unit used in scoring or measurement.|Our team won by two points.|我们队以两分优势获胜。
-n.|小数点；几何中的点|A decimal mark or an exact position with no size.|The answer is three point five.|答案是三点五。
 v.|指向；指示|To direct a finger or object toward something.|She pointed to the exit.|她指了指出口。
+n.|地点；时刻；阶段|A particular place, moment, or stage.|We have reached a turning point.|我们已经到了一个转折点。
+n.|分数；积分；计量单位点|A unit used in scoring or measurement.|Our team won by two points.|我们队以两分优势获胜。
+n.|尖端；尖头|The sharp end of an object.|The point of the needle is bent.|针尖弯了。
+n.|小数点；几何中的点|A decimal mark or an exact position with no size.|The answer is three point five.|答案是三点五。
 v.|削尖；朝向|To give something a sharp end, or face in a direction.|The arrow points north.|箭头指向北方。
 # last
 提示：last year 去年，通常不加 the；the last year 可指过去一年或最后一年；at last 终于；last but not least 最后但同样重要。last 作“持续”不及物。
-adj./det.|最后的；仅剩的|Coming after all others, or the only one remaining.|This is the last ticket.|这是最后一张票。
 adj./det.|最近过去的；上一个的|Most recent before the present one.|I saw her last Friday.|我上周五见过她。
-adv.|最后；最近一次|After everyone else, or on the most recent occasion.|When did you last see him?|你上次见他是什么时候？
+adj./det.|最后的；仅剩的|Coming after all others, or the only one remaining.|This is the last ticket.|这是最后一张票。
 v.|持续；维持|To continue for a period of time.|The meeting lasted two hours.|会议持续了两个小时。
-v.|耐用；够用|To remain usable or sufficient.|This food should last us three days.|这些食物应该够我们吃三天。
+adv.|最后；最近一次|After everyone else, or on the most recent occasion.|When did you last see him?|你上次见他是什么时候？
 n./pron.|最后的人或事物；末尾|The final person, thing, or part.|She was the last to leave.|她最后一个离开。
+v.|耐用；够用|To remain usable or sufficient.|This food should last us three days.|这些食物应该够我们吃三天。
 # page
 提示：on page 10 在第10页；turn the page 翻页或开启新篇章；a web page 网页；page through 翻阅。page number 页码。
 n.|页；页面；网页|One side of a sheet in a book, or a screen-based document.|Read the passage on page ten.|阅读第十页上的文章。
@@ -115,60 +115,60 @@ n.|侍童；青年侍从|A young attendant serving a person or institution.|A pa
 # pass
 提示：pass—passed—passed，与 past（过去的、经过）区分；pass away 去世；pass out 昏倒；pass on 转交；pass by 经过。
 v.|经过；越过；超过|To move past or beyond someone or something.|We passed the library on the way.|我们在路上经过了图书馆。
-v.|递给；传递|To give something to another person.|Please pass me the salt.|请把盐递给我。
 v.|通过考试、检查或法案|To succeed in a test, or formally approve something.|She passed her driving test.|她通过了驾驶考试。
+v.|递给；传递|To give something to another person.|Please pass me the salt.|请把盐递给我。
 v.|时间流逝；度过|For time to go by, or to spend time.|We played cards to pass the time.|我们打牌来消磨时间。
+n.|通行证；票证|A document giving permission to enter or travel.|You need a visitor's pass to enter.|你需要访客通行证才能进入。
+n. 体育|传球|An act of sending a ball to another player.|Her accurate pass created a scoring chance.|她精准的传球创造了一次得分机会。
 v.|拒绝参与；暂不选择|To decline an opportunity or take no turn.|I will pass on dessert today.|我今天就不吃甜点了。
 v.|去世（委婉语）|To die, often used with away.|Her grandfather passed away peacefully.|她的祖父安详地去世了。
-n.|通行证；票证|A document giving permission to enter or travel.|You need a visitor's pass to enter.|你需要访客通行证才能进入。
 n.|山口；山间通道|A route through or over mountains.|The mountain pass is closed in winter.|这个山口冬季封闭。
-n. 体育|传球|An act of sending a ball to another player.|Her accurate pass created a scoring chance.|她精准的传球创造了一次得分机会。
 # over
 提示：over 不总表示垂直正上方；above 更侧重位置较高。over and over 反复；all over 到处、结束；think over 仔细考虑；get over 克服、康复。
-prep./adv.|在……上方；越过|Above something or moving across it.|The bird flew over the wall.|鸟飞过了墙。
 prep.|超过；多于|More than a stated number or amount.|There were over a hundred people.|有一百多人。
-prep.|在……期间；贯穿一段时间|During a period of time.|We discussed it over lunch.|我们午饭时讨论了这件事。
+prep./adv.|在……上方；越过|Above something or moving across it.|The bird flew over the wall.|鸟飞过了墙。
+adj./adv.|结束的；完结|Finished or no longer happening.|The exam is over.|考试结束了。
 prep.|关于；因为；对……有控制权|Concerning something, or expressing a cause or control.|They argued over money.|他们为钱争吵。
+prep.|在……期间；贯穿一段时间|During a period of time.|We discussed it over lunch.|我们午饭时讨论了这件事。
 adv.|翻转；从一边到另一边|Into a different position or onto the other side.|Turn the page over.|把这一页翻过来。
 adv.|再一次；重新|Again or from the beginning.|Please start over.|请重新开始。
-adj./adv.|结束的；完结|Finished or no longer happening.|The exam is over.|考试结束了。
 # break
 提示：break—broke—broken；break down 故障、崩溃或分解；break up 分手、解散；break into 闯入；break out 爆发；break through 突破。
 v.|打破；折断；破裂|To separate into pieces or damage something by force.|Be careful not to break the glass.|小心别打碎玻璃杯。
-v.|违背；违反|To fail to obey a rule, promise, or agreement.|He broke his promise.|他违背了诺言。
-v.|打断；中止；改变连续状态|To interrupt an activity or state.|Her laugh broke the silence.|她的笑声打破了沉默。
-v.|消息传开；公开新闻|For news to become known, or to make it known.|The story broke this morning.|这件事今天早上传开了。
-v.|破纪录；破解|To do better than a record or solve a code.|She broke the school record.|她打破了校纪录。
 n.|休息；短暂中断|A short pause in work or another activity.|Let's take a ten-minute break.|我们休息十分钟吧。
+v.|打断；中止；改变连续状态|To interrupt an activity or state.|Her laugh broke the silence.|她的笑声打破了沉默。
+v.|违背；违反|To fail to obey a rule, promise, or agreement.|He broke his promise.|他违背了诺言。
+v.|破纪录；破解|To do better than a record or solve a code.|She broke the school record.|她打破了校纪录。
+v.|消息传开；公开新闻|For news to become known, or to make it known.|The story broke this morning.|这件事今天早上传开了。
 n.|裂口；断裂；机会|A gap or fracture, or a fortunate opportunity.|Getting that role was her big break.|获得那个角色是她事业的重大转机。
 # taste
 提示：taste 作“尝起来”是系动词，接形容词：taste good；have a taste for 爱好；to one's taste 合口味；a taste of 初次体验。
 n.|味道；味觉|The flavour of something or the sense that detects it.|The soup has a salty taste.|这汤有咸味。
 v.|尝；尝起来|To test food with the mouth, or have a particular flavour.|The cake tastes delicious.|蛋糕尝起来很好吃。
-n.|少量品尝；体验|A small sample or brief experience.|The trip gave me a taste of independence.|这次旅行让我初尝独立的滋味。
 n.|喜好；审美；品味|A person's preferences or judgment about quality and style.|She has excellent taste in music.|她的音乐品味很好。
+n.|少量品尝；体验|A small sample or brief experience.|The trip gave me a taste of independence.|这次旅行让我初尝独立的滋味。
 v.|体验；领略|To experience something, often for the first time.|The young team tasted victory at last.|这支年轻队伍终于尝到了胜利的滋味。
 # cross
 提示：cross the road 是动词；go across the road 中 across 是介词。cross out 划掉；come across 偶遇；keep one's fingers crossed 祈求好运。
 v.|穿过；横渡；越过|To move from one side of something to the other.|Look both ways before you cross the road.|过马路前要左右看看。
 v.|交叉；使相交|To place things across each other.|He sat with his legs crossed.|他交叉双腿坐着。
-v.|反对；违背|To oppose or disobey someone.|You should not cross her when she is angry.|她生气时，你最好别跟她作对。
-v.|使杂交|To breed plants or animals of different types together.|They crossed two varieties of rose.|他们将两个品种的玫瑰进行了杂交。
 n.|十字形；十字架；杂交品种|A shape made by intersecting lines, or a mixed breed.|Put a cross next to the wrong answer.|在错误答案旁画一个叉。
 adj. 尤其英式|生气的；恼怒的|Annoyed or angry.|She was cross with me for being late.|她因为我迟到而生我的气。
+v.|反对；违背|To oppose or disobey someone.|You should not cross her when she is angry.|她生气时，你最好别跟她作对。
+v.|使杂交|To breed plants or animals of different types together.|They crossed two varieties of rose.|他们将两个品种的玫瑰进行了杂交。
 # shuttle
 提示：a shuttle bus 往返接驳车；space shuttle 航天飞机；shuttle between A and B 在两地间往返。
 n.|往返交通工具；接驳班车|A vehicle that repeatedly travels between two places.|A free shuttle runs to the airport.|有免费接驳车往返机场。
 v.|往返运送；穿梭|To move or transport people regularly between places.|Buses shuttle visitors between the two buildings.|公交车往返两栋楼运送访客。
-n.|梭子；羽毛球（较少见，通常 shuttlecock）|A weaving tool carrying thread, or a shuttlecock.|The shuttle carries thread across the loom.|梭子把线送过织布机。
 n.|航天飞机（space shuttle）|A spacecraft designed for repeated journeys between Earth and space.|The space shuttle returned safely.|航天飞机安全返回了。
+n.|梭子；羽毛球（较少见，通常 shuttlecock）|A weaving tool carrying thread, or a shuttlecock.|The shuttle carries thread across the loom.|梭子把线送过织布机。
 # lie
 提示：躺／位于：lie—lay—lain，lying；说谎：lie—lied—lied；另一个动词 lay（放置）—laid—laid，需要宾语。lie in 在于；lie down 躺下。
 v.|躺；平卧|To be or rest in a horizontal position.|He lay on the sofa all afternoon.|他整个下午都躺在沙发上。
-v.|位于；处在某位置或状态|To be situated somewhere or remain in a state.|The village lies beside a river.|村庄位于一条河边。
-v.|在于；存在于|To have its basis or cause in something.|The problem lies in the lack of practice.|问题在于缺少练习。
 v.|说谎|To deliberately say something untrue.|She lied about her age.|她谎报了自己的年龄。
 n.|谎言|A statement intended to deceive.|He told a lie to avoid trouble.|他为避免麻烦撒了谎。
+v.|位于；处在某位置或状态|To be situated somewhere or remain in a state.|The village lies beside a river.|村庄位于一条河边。
+v.|在于；存在于|To have its basis or cause in something.|The problem lies in the lack of practice.|问题在于缺少练习。
 n.|所处位置或地形情况|The position of something, especially a golf ball or the land.|The ball had a difficult lie in the rough.|球落在长草区一个很难打的位置。
 # level
 提示：at sea level 在海平面高度；a high level of 高水平的；level with 与……齐平、对……坦诚；level off 趋于稳定。
@@ -182,25 +182,25 @@ n.|水平仪|A tool used to check whether a surface is horizontal.|Use a level t
 # lot
 提示：a lot of 接可数复数或不可数名词；a lot 修饰动词或比较级；lots of 较口语。the lot 全部；draw lots 抽签。
 pron./adv.|大量；很；非常|A large amount or to a great degree.|I have learned a lot this term.|这学期我学到了很多。
-n.|一批；一组；全部某类东西|A group or quantity considered together.|This lot of books belongs upstairs.|这批书应该放在楼上。
 n. 尤其美式|地块；场地|An area of land used for a particular purpose.|There is a parking lot behind the bank.|银行后面有一个停车场。
+n.|一批；一组；全部某类东西|A group or quantity considered together.|This lot of books belongs upstairs.|这批书应该放在楼上。
 n.|命运；处境|Someone's situation or share in life.|She tried to improve her lot.|她努力改善自己的处境。
 n.|签；抽签所用物|An object used to make a random choice.|We drew lots to choose the first player.|我们抽签决定谁先开始。
 # ticket
 提示：a ticket to/for 票；a ticket to success 成功的途径；a parking ticket 违停罚单；a support ticket 客服工单。
 n.|票；入场券；车票|A document or electronic record giving a right to enter or travel.|I booked a train ticket online.|我在网上订了一张火车票。
 n.|罚单|An official notice requiring payment for an offence.|He got a ticket for speeding.|他因超速收到了一张罚单。
-n.|标签；号码单；工单|A label or numbered record used to identify or track something.|Please open a support ticket.|请提交一张客服工单。
+v.|开罚单；出票或贴标签|To issue a ticket or attach a ticket to something.|Cars parked here will be ticketed.|停在这里的车辆会被开罚单。
 n.|达到目的的途径|A means of obtaining something desirable.|Education can be a ticket to a better future.|教育可以成为通往更好未来的途径。
 n. 美式政治|候选人名单；政党竞选纲领|A party's candidates or the platform they stand on.|She ran on the same ticket as the governor.|她与州长候选人搭档竞选。
-v.|开罚单；出票或贴标签|To issue a ticket or attach a ticket to something.|Cars parked here will be ticketed.|停在这里的车辆会被开罚单。
+n.|标签；号码单；工单|A label or numbered record used to identify or track something.|Please open a support ticket.|请提交一张客服工单。
 # blow
 提示：blow—blew—blown；blow up 爆炸、充气或勃然大怒；blow out 吹灭；blow over 风波平息；blow one's nose 擤鼻涕。
 v.|吹；刮风；吹动|To move air or be moved by air.|The wind blew the door shut.|风把门吹关了。
 v.|吹气；吹奏|To force air out of the mouth or through an instrument.|She blew out the candles.|她吹灭了蜡烛。
+n.|击打；打击|A hit or a sudden harmful event.|The news was a serious blow to the team.|这个消息给团队造成了沉重打击。
 v.|爆炸；熔断|To explode or stop working because of excess current.|A fuse blew during the storm.|暴风雨期间一个保险丝熔断了。
 v. 非正式|浪费；搞砸|To waste money or ruin an opportunity.|He blew all his savings on a car.|他把全部积蓄都花在一辆车上了。
-n.|击打；打击|A hit or a sudden harmful event.|The news was a serious blow to the team.|这个消息给团队造成了沉重打击。
 n.|吹气；擤鼻动作|An act of blowing air or clearing the nose.|Give your nose a good blow.|好好擤一下鼻子。
 # dive
 提示：常规过去式 dived；美式也用 dove，过去分词通常 dived。dive into 投入、深入研究；take a dive 暴跌，也可在体育中指假摔或故意输。
@@ -212,11 +212,11 @@ n. 非正式|低档酒吧或场所|A cheap, unpleasant bar or similar place.|The
 # material
 提示：材料通常不可数；某些原材料、用品用 materials。material to 与……有重大关系。material 作形容词是“物质的”或“重要的”。
 n.|材料；原料|A substance used for making something.|The bridge is made of recycled material.|这座桥由再生材料制成。
-n.|布料；织物|Cloth used for clothes or other items.|This material is soft and light.|这种布料柔软轻薄。
 n.|资料；素材；学习材料|Information or content used for study or creative work.|The teacher uploaded the reading materials.|老师上传了阅读资料。
-n.|具备某种潜质的人|A person considered suitable for a particular role.|She is clearly leadership material.|她显然是当领导的料。
 adj.|物质的；实际生活的|Relating to physical things or possessions.|They value friendship more than material wealth.|他们看重友谊，胜过物质财富。
+n.|布料；织物|Cloth used for clothes or other items.|This material is soft and light.|这种布料柔软轻薄。
 adj. 正式|重要的；实质性的|Significant enough to affect a decision or situation.|The change made no material difference.|这个变化没有造成实质性差别。
+n.|具备某种潜质的人|A person considered suitable for a particular role.|She is clearly leadership material.|她显然是当领导的料。
 # reserve
 提示：reserve a room 预订房间；in reserve 留作备用；a nature reserve 自然保护区；without reserve 毫无保留。reserved 还可指拘谨的。
 v.|预订；保留|To arrange to keep something for future use.|I reserved a seat by the window.|我预订了一个靠窗座位。
@@ -228,10 +228,10 @@ n.|替补；后备军|A player or force available when needed.|He started the se
 # paper
 提示：纸张不可数：a piece/sheet of paper；论文、报纸、试卷可数：a paper。papers 还可指证件。on paper 在纸上或理论上。
 n.|纸；纸张|Thin sheets used for writing, printing, or wrapping.|Write your name on a piece of paper.|在一张纸上写下你的名字。
-n.|报纸|A newspaper.|I read the paper every morning.|我每天早上读报。
 n.|论文；学术文章|A piece of academic writing or research.|She published a paper on language learning.|她发表了一篇关于语言学习的论文。
-n.|试卷；考卷；考试科目|An examination or the written questions or answers in it.|The maths paper was difficult.|数学试卷很难。
+n.|报纸|A newspaper.|I read the paper every morning.|我每天早上读报。
 n. 复数|文件；证件|Official documents identifying someone or recording something.|The officer checked our papers.|那名官员检查了我们的证件。
+n.|试卷；考卷；考试科目|An examination or the written questions or answers in it.|The maths paper was difficult.|数学试卷很难。
 v.|贴墙纸；用纸覆盖|To cover a wall or surface with paper.|They papered the bedroom walls.|他们给卧室墙壁贴了墙纸。
 # practice
 提示：英式名词 practice，动词 practise；美式两者均 practice。practice doing 练习做；in practice 实际上；put into practice 付诸实践。
@@ -262,17 +262,17 @@ v.|顾及；体谅|To take someone's needs or a fact into account.|Please consid
 v.|审议；研究；论述|To examine a subject formally or in detail.|The committee will consider the proposal tomorrow.|委员会明天将审议该提案。
 # used
 提示：used 作“二手的”读 /juːzd/；used to（过去常常）通常 /ˈjuːst tə/；be/get used to 后接名词或 doing；be used to do 表“被用来做”，结构不同。
-adj.|用过的；二手的|Previously owned or used by someone.|He bought a used car.|他买了一辆二手车。
 v. 过去式/过去分词|使用了；被使用|The past tense and past participle of use.|This tool is used to cut metal.|这个工具被用来切割金属。
 modal 短语|过去常常（现在通常不再如此）|Used with to and a verb for past habits or states.|I used to walk to school.|我过去常步行上学。
 adj. 短语|习惯于|Familiar with something through experience.|I am used to getting up early.|我习惯早起。
+adj.|用过的；二手的|Previously owned or used by someone.|He bought a used car.|他买了一辆二手车。
 adj.|被利用的；被当作工具的|Made to feel exploited by someone.|After the deal, she felt used.|交易之后，她觉得自己被利用了。
 # zoom
 提示：zoom in/out 放大/缩小视图；zoom in on 聚焦或详细查看；Zoom 大写也可为软件品牌。zoom lens 变焦镜头。
-v.|疾驰；迅速移动|To move very quickly.|A motorbike zoomed past us.|一辆摩托车从我们身边疾驰而过。
-v.|急剧增长；猛涨|To rise or increase rapidly.|Sales zoomed after the launch.|产品推出后销量猛增。
 v.|变焦；放大或缩小画面|To change the apparent size of an image by adjusting the view.|Zoom in to read the small print.|放大画面来阅读小字。
 n.|变焦功能；快速移动|A change in image magnification or a rapid movement.|The camera has a powerful optical zoom.|这台相机具有强大的光学变焦功能。
+v.|疾驰；迅速移动|To move very quickly.|A motorbike zoomed past us.|一辆摩托车从我们身边疾驰而过。
+v.|急剧增长；猛涨|To rise or increase rapidly.|Sales zoomed after the launch.|产品推出后销量猛增。
 # cream
 提示：cream 奶油与 ice cream 冰淇淋区分；the cream of 精华；cream off 撇取上层、抽走最有价值部分；creamy 细腻柔滑的。
 n.|奶油；稀奶油|The rich fatty part of milk.|Would you like cream in your coffee?|你的咖啡要加奶油吗？
@@ -284,17 +284,17 @@ v. 非正式|轻松击败|To defeat someone very easily.|Their team got creamed 
 # figure
 提示：figure out 弄懂、算出；figure in 在……中起作用；public figure 公众人物；in round figures 用约数。figure 作“认为”较口语。
 n.|数字；数值|A number or numerical amount.|The final figure was higher than expected.|最终数值比预期更高。
+v.|认为；估计；计算|To think, estimate, or calculate.|I figured that he would arrive late.|我估计他会迟到。
 n.|人物；重要人物|A person, especially someone notable.|She is a leading figure in education.|她是教育界的重要人物。
 n.|身影；体形；轮廓|The shape of a person's body or a visible outline.|A dark figure stood at the gate.|一个黑色身影站在门口。
 n.|图表；插图；几何图形|A diagram, illustration, or shape.|Figure three shows the results.|图三展示了结果。
 n.|雕像；人形物|A representation of a person or animal.|A bronze figure stood in the square.|广场上矗立着一尊铜像。
-v.|认为；估计；计算|To think, estimate, or calculate.|I figured that he would arrive late.|我估计他会迟到。
 v.|出现；占有重要地位|To appear or have a role in something.|Cost figures heavily in our decision.|费用在我们的决定中占很大分量。
 # full
 提示：be full of 充满；in full 全部地；to the full 充分地；full-time 全职的；full stop 英式“句号”。full 作饱的可用于人。
 adj.|满的；装满的|Containing as much as possible.|The bus is full.|公交车满员了。
-adj.|饱的|Having eaten enough food.|I am full, thank you.|我吃饱了，谢谢。
 adj.|完整的；全部的|Complete, with nothing missing.|Please give your full name.|请填写你的全名。
+adj.|饱的|Having eaten enough food.|I am full, thank you.|我吃饱了，谢谢。
 adj.|最大程度的；充分的|At the greatest possible strength or extent.|The engine was running at full power.|发动机在全功率运行。
 adj.|丰满的；宽松的；浓郁的|Large or rounded in shape, loose in cut, or rich in sound or flavour.|The singer has a full, warm voice.|这位歌手的声音饱满温暖。
 adv.|正好；直接；充分地|Directly or completely, often in fixed expressions.|The light shone full in my face.|光直接照在我脸上。
@@ -304,15 +304,15 @@ det./adj./adv.|第二（的）；其次|Coming immediately after the first.|She 
 n.|秒；片刻|A unit of time equal to one sixtieth of a minute, or a short moment.|Wait a second, please.|请稍等片刻。
 adj.|另一个的；额外的|Another of the same kind or an additional one.|Could I have a second cup?|我可以再来一杯吗？
 v.|附议；支持动议|To formally support a proposal made by someone else.|I second the motion.|我附议这项动议。
-v.|借调；临时派遣|To transfer an employee temporarily to another position.|She was seconded to the research team.|她被借调到研究团队。
 n. 常用复数|添的一份食物；次品|An additional helping of food, or goods of imperfect quality.|Anyone who wants seconds can help themselves.|想再添一份的人可以自取。
+v.|借调；临时派遣|To transfer an employee temporarily to another position.|She was seconded to the research team.|她被借调到研究团队。
 # sign
 提示：a sign of ……的迹象；sign up (for) 报名；sign in/out 签到/签退；sign for 签收。signal 常强调传递信号，sign 还可指自然迹象。
 n.|迹象；征兆|Something showing that a condition exists or may develop.|There was no sign of rain.|没有要下雨的迹象。
 n.|标志；招牌；指示牌|A notice or symbol giving information.|Follow the signs to the exit.|沿着指示牌走向出口。
+v.|签名；签署；签约|To write a name on a document or enter an agreement.|Please sign at the bottom of the form.|请在表格底部签名。
 n.|符号；手势|A written mark or movement conveying meaning.|A plus sign means addition.|加号表示加法。
 n.|星座|One of the twelve divisions of the zodiac.|What is your star sign?|你是什么星座？
-v.|签名；签署；签约|To write a name on a document or enter an agreement.|Please sign at the bottom of the form.|请在表格底部签名。
 v.|打手势；用手语交流|To communicate with gestures or sign language.|She signed that we should wait.|她打手势示意我们等待。
 # balance
 提示：keep/lose one's balance 保持/失去平衡；on balance 总的来说；bank balance 银行余额；balance A against B 权衡；work-life balance 工作与生活平衡。
@@ -329,18 +329,18 @@ n./v.|重音；重读|Extra force given to a syllable or word.|The stress falls 
 n./v.|应力；施压|Force within a material caused by an external load; to subject it to force.|The bridge must withstand heavy stress.|这座桥必须承受很大的应力。
 # due
 提示：due to + 名词/doing 表原因；be due to do 预计或按安排将做；be due for 应当得到、该进行。be due to illness 是“因病”，be due to arrive 是“预计到达”。
-adj.|到期应付的；应交的|Required to be paid or submitted by a particular time.|The assignment is due on Friday.|作业周五截止。
-adj.|预定的；预计到达的|Expected or scheduled at a particular time.|The train is due to arrive at six.|火车预计六点到达。
-adj.|应得的；适当的|Deserved or appropriate in the circumstances.|Give her the respect that is due to her.|给予她应得的尊重。
 adj. 短语|由……引起的|Caused by something, used with to.|The delay was due to heavy traffic.|延误是交通拥堵造成的。
+adj.|预定的；预计到达的|Expected or scheduled at a particular time.|The train is due to arrive at six.|火车预计六点到达。
+adj.|到期应付的；应交的|Required to be paid or submitted by a particular time.|The assignment is due on Friday.|作业周五截止。
+adj.|应得的；适当的|Deserved or appropriate in the circumstances.|Give her the respect that is due to her.|给予她应得的尊重。
 n. 常用复数|应得之物；会费|Something deserved, or regular membership payments.|Members must pay their annual dues.|会员必须缴纳年费。
 adv.|正向某方向|Exactly in a compass direction.|The village lies due north of here.|村庄在这里的正北方。
 # wave
 提示：wave at/to 向……挥手；wave goodbye 挥手告别；a wave of 一波……；wave aside 对……置之不理。wave 与 waive（放弃权利）不同。
 n.|波浪；波；波动|A moving ridge of water or a disturbance carrying energy.|Large waves hit the shore.|巨浪拍打着海岸。
 v.|挥手；挥动|To move a hand or object back and forth.|She waved goodbye from the window.|她从窗口挥手告别。
-v.|起伏；飘动|To move in a flowing up-and-down motion.|Flags waved in the wind.|旗帜在风中飘扬。
 n.|一阵；一批；浪潮|A sudden increase or movement affecting many people.|A wave of excitement spread through the crowd.|一阵兴奋传遍了人群。
+v.|起伏；飘动|To move in a flowing up-and-down motion.|Flags waved in the wind.|旗帜在风中飘扬。
 n./v.|波浪卷；使卷曲|A curve in hair, or to make hair form curves.|Her hair falls in soft waves.|她的头发呈柔和的波浪状垂落。
 # rank
 提示：rank first 排第一；rank A above B 把A排在B之前；the rank and file 普通成员；a taxi rank 英式出租车候客点。
@@ -361,8 +361,8 @@ n.|滑行装置；抽屉滑轨|A support or track along which something slides.|
 # attachment
 提示：an email attachment 邮件附件；attachment to 对……的依恋；attachment theory 依恋理论。attach A to B 把A附在B上。
 n.|附件；附加文件|A file sent together with an electronic message.|Please open the attachment.|请打开附件。
-n.|附属装置；配件|An extra part fitted to a tool or machine.|The vacuum cleaner has a brush attachment.|吸尘器配有一个刷头附件。
 n.|依恋；感情联系|A strong emotional bond with someone or something.|She has a deep attachment to her hometown.|她对家乡有深厚的感情。
+n.|附属装置；配件|An extra part fitted to a tool or machine.|The vacuum cleaner has a brush attachment.|吸尘器配有一个刷头附件。
 n.|连接；附着；连接处|The act of fastening something or the place where it joins.|Check the attachment of the cable to the wall.|检查电缆与墙壁的固定连接。
 n.|临时派驻；借调|A temporary assignment to another department or organization.|He is on attachment to another department.|他正被临时派驻到另一个部门。
 n. 法律|财产扣押|A legal process of seizing property to secure or satisfy a claim.|The court ordered the attachment of the debtor's property.|法院下令扣押债务人的财产。
@@ -370,20 +370,20 @@ n. 法律|财产扣押|A legal process of seizing property to secure or satisfy 
 提示：spring—sprang—sprung；spring up 涌现；spring from 源于；spring into action 突然行动；spring a surprise on sb 让某人大吃一惊。
 n.|春天；春季|The season between winter and summer.|The trees blossom in spring.|树木在春天开花。
 n.|弹簧；发条|A coiled piece of metal that returns to its shape after pressure.|The mattress has broken springs.|床垫里的弹簧坏了。
+v.|突然出现；源自|To appear quickly or originate from something.|New shops sprang up near the station.|车站附近迅速出现了许多新商店。
 n.|泉；泉水源头|A place where water naturally flows from the ground.|The village gets water from a spring.|村庄从一眼泉中取水。
 v./n.|跳跃；弹起；弹性|To jump or move suddenly; a jump or the ability to bounce.|The cat sprang onto the wall.|猫一下跳到了墙上。
-v.|突然出现；源自|To appear quickly or originate from something.|New shops sprang up near the station.|车站附近迅速出现了许多新商店。
 v.|突然告知或出其不意地提出|To present something unexpected to someone.|They sprang a surprise test on us.|他们突然给我们来了一次测验。
 # live
 提示：动词 live /lɪv/，形容词/副词 live /laɪv/。live in 居住于；live on 靠……生活；live up to 不辜负；live a happy life 过幸福生活。
 v. /lɪv/|居住；生活|To have a home in a place or spend one's life in a way.|I live in Guangzhou.|我住在广州。
 v. /lɪv/|活着；存活|To be alive or remain alive.|Some trees live for hundreds of years.|有些树能活数百年。
+adj./adv. /laɪv/|现场直播的；现场演出的；实时地|Broadcast, performed, or transmitted as it happens.|The concert will be broadcast live.|音乐会将进行现场直播。
 v. /lɪv/|靠……为生；继续存在|To support oneself or continue to exist in memory or effect.|Her memory lives on.|人们一直怀念着她。
 adj. /laɪv/|活的；有生命的|Alive rather than dead.|The market sells live fish.|市场出售活鱼。
-adj./adv. /laɪv/|现场直播的；现场演出的；实时地|Broadcast, performed, or transmitted as it happens.|The concert will be broadcast live.|音乐会将进行现场直播。
 adj. /laɪv/|带电的|Carrying an electric current.|Do not touch the live wire.|不要碰那根带电的电线。
-adj. /laɪv/|实弹的；未爆的|Containing an explosive charge that can still be fired or detonated.|The soldiers trained with live ammunition.|士兵使用实弹进行训练。
 adj. /laɪv/|当前有效的；仍待处理的|Currently operating, available, or under active consideration.|This is still a live issue for the committee.|这仍是委员会正在处理的问题。
+adj. /laɪv/|实弹的；未爆的|Containing an explosive charge that can still be fired or detonated.|The soldiers trained with live ammunition.|士兵使用实弹进行训练。
 # fork
 提示：a knife and fork 刀叉；a fork in the road 岔路口；fork out 非正式“大笔掏钱”；代码 fork 指从现有项目分出独立开发副本。
 n.|餐叉；叉状工具|A tool with two or more pointed prongs.|Use a fork to eat the pasta.|用叉子吃意大利面。
@@ -392,16 +392,16 @@ v.|分叉；使成叉状|To divide into branches or separate routes.|The path fo
 n./v. 计算机|分支副本；派生开发|A separate version made from existing code; to create such a version.|They forked the project to add new features.|他们从项目分出副本，以开发新功能。
 # buck
 提示：a buck 非正式“一美元”；pass the buck 推卸责任；buck the trend 逆势而行；buck up 振作起来。雄鹿常见，雌鹿常称 doe。
-n.|雄鹿；某些动物的雄性|A male deer, rabbit, or certain other animals.|A buck stood at the edge of the forest.|一只雄鹿站在森林边缘。
 n. 非正式|美元；某些国家的一元钱|A dollar, especially in informal speech.|The ticket cost ten bucks.|票价是十美元。
-v.|尥蹶子；猛然弓背跃起|For an animal to jump with its back arched and hind legs kicking.|The horse bucked and threw the rider.|马尥起蹶子，把骑手摔了下来。
-v.|反抗；逆着趋势行事|To resist authority or go against a trend.|The shop bucked the trend and increased sales.|这家店逆势而上，销量增加了。
+n.|雄鹿；某些动物的雄性|A male deer, rabbit, or certain other animals.|A buck stood at the edge of the forest.|一只雄鹿站在森林边缘。
 n. 固定表达|责任（pass the buck 等）|Responsibility, especially in expressions about avoiding it.|Stop passing the buck and make a decision.|别再推卸责任了，做个决定吧。
+v.|反抗；逆着趋势行事|To resist authority or go against a trend.|The shop bucked the trend and increased sales.|这家店逆势而上，销量增加了。
+v.|尥蹶子；猛然弓背跃起|For an animal to jump with its back arched and hind legs kicking.|The horse bucked and threw the rider.|马尥起蹶子，把骑手摔了下来。
 # image
 提示：image of ……的图像或印象；public image 公众形象；mental image 脑海中的画面；be the image of 与……十分相像。image 不等同于 imagination 想象力。
 n.|图像；影像；映像|A visual representation, photograph, or reflected likeness.|The mirror produced a clear image.|镜子映出了清晰的影像。
-n.|心像；脑海中的画面|A picture formed in the mind.|The story created a vivid image in my mind.|这个故事在我脑海中形成了生动的画面。
 n.|形象；公众印象|The general impression others have of a person or organization.|The company wants to improve its image.|公司希望改善自身形象。
+n.|心像；脑海中的画面|A picture formed in the mind.|The story created a vivid image in my mind.|这个故事在我脑海中形成了生动的画面。
 n.|比喻意象|A word or description that creates a vivid comparison or picture.|The poem uses images of light and darkness.|这首诗运用了光明与黑暗的意象。
 v.|成像；制作映像|To produce a picture or digital copy of something.|The scanner images the inside of the body.|扫描仪对人体内部进行成像。
 # universal
@@ -414,27 +414,27 @@ n. 哲学等|普遍概念；共相|A general property or concept shared by parti
 提示：strain 与 stress 有重叠；材料力学中 stress 是应力，strain 是应变。strain a muscle 拉伤肌肉；put a strain on 给……造成负担。
 n.|负担；紧张；压力|Pressure that stretches someone's resources or endurance.|The extra work put a strain on her.|额外工作给她造成了负担。
 v./n.|拉伤；损伤|To injure a muscle by stretching it too much; such an injury.|He strained a muscle in his back.|他拉伤了背部肌肉。
+n.|品种；菌株；类型|A variety of an organism or a particular type.|Researchers identified a new strain of the virus.|研究人员识别出一种新的病毒株。
 v.|竭力；用力拉；使紧张|To make a great effort or stretch something tightly.|I strained to hear the announcement.|我竭力听清广播。
 v.|过滤；滤去|To separate liquid from solids using a filter.|Strain the soup before serving.|上桌前把汤过滤一下。
-n.|品种；菌株；类型|A variety of an organism or a particular type.|Researchers identified a new strain of the virus.|研究人员识别出一种新的病毒株。
 n. 常用复数|乐曲的旋律；片段|The sound of a tune or passage of music.|We heard the strains of a violin.|我们听到了小提琴的旋律。
 n. 技术|应变；相对形变量|Deformation measured relative to original size.|The gauge measures strain in the metal.|仪器测量金属中的应变。
 # bound
 提示：bound 有多个来源：bind—bound—bound（捆绑）；bound 作跳跃用规则变化 bounded；be bound to do 必定/很可能；be bound for 前往；be bound by 受约束。
 adj.|必定会；很可能会|Certain or very likely to do something, used with to.|You are bound to make mistakes at first.|你刚开始很可能会犯错。
-adj.|有义务的；受约束的|Required by duty, law, or an agreement.|We are bound by the contract.|我们受合同约束。
 adj.|开往；前往某地的|Travelling toward a particular destination.|This train is bound for Beijing.|这列火车开往北京。
 v. bind过去式/过去分词|捆绑；装订；使结合|Tied, fastened, or joined, as a form of bind.|The books were bound in leather.|这些书用皮革装订。
-v./n.|跳跃；跃步|To move with large jumps; a long jump.|The dog bounded across the field.|狗蹦跳着穿过田野。
+adj.|有义务的；受约束的|Required by duty, law, or an agreement.|We are bound by the contract.|我们受合同约束。
 n. 常用复数|界限；限度|A limit or boundary.|His enthusiasm knows no bounds.|他的热情无穷无尽。
+v./n.|跳跃；跃步|To move with large jumps; a long jump.|The dog bounded across the field.|狗蹦跳着穿过田野。
 v.|构成边界；限制范围|To form a boundary around something.|The garden is bounded by a low wall.|花园以一道矮墙为界。
 # band
 提示：a rock band 摇滚乐队；a band of 一群；a rubber band 橡皮筋；band together 联合起来；bandwidth 带宽。
 n.|乐队；乐团|A group of musicians who perform together.|She plays guitar in a band.|她在一个乐队里弹吉他。
-n.|一伙；一群|A group of people sharing an activity or purpose.|A band of volunteers cleaned the beach.|一群志愿者清理了海滩。
 n.|带；环；条带|A strip or loop of material.|She tied the papers with a rubber band.|她用橡皮筋捆住文件。
-n.|色带；条纹|A stripe of colour or contrasting material.|The snake has yellow bands.|这条蛇身上有黄色条纹。
+n.|一伙；一群|A group of people sharing an activity or purpose.|A band of volunteers cleaned the beach.|一群志愿者清理了海滩。
 n.|范围；频段；等级|A range of values, frequencies, or categories.|The job falls within a higher pay band.|这份工作属于较高的薪酬等级。
+n.|色带；条纹|A stripe of colour or contrasting material.|The snake has yellow bands.|这条蛇身上有黄色条纹。
 v.|用带捆扎；联合|To fasten with a band or join together as a group.|Local families banded together to help.|当地家庭联合起来提供帮助。
 # line
 提示：in line 排队；on the line 在线上、面临风险；in line with 与……一致；line up 排队；draw the line 划清界限；bottom line 底线或最终结果。
@@ -450,18 +450,18 @@ v.|给……加衬里；铺在内部|To cover the inside of something with a lay
 # lean
 提示：lean—leaned/leant；lean against 靠着；lean toward(s) 倾向于；lean on 倚靠、依赖，也可指施压。lean meat 瘦肉；lean management 精益管理。
 v.|倾斜；倚靠|To bend from an upright position or rest against something.|He leaned against the wall.|他倚靠着墙。
-v.|倾向于|To be inclined toward an opinion or choice.|I lean towards the cheaper option.|我倾向于较便宜的方案。
 v. 短语|依靠；对……施压|To depend on someone or pressure them, used with on.|You can lean on your friends for support.|你可以依靠朋友获得支持。
+v.|倾向于|To be inclined toward an opinion or choice.|I lean towards the cheaper option.|我倾向于较便宜的方案。
 adj.|瘦而结实的；脂肪少的|Thin and fit, or containing little fat.|Choose lean meat for this dish.|做这道菜要选瘦肉。
 adj.|精简高效的|Using only necessary resources and avoiding waste.|They run a lean organization.|他们管理着一个精简高效的组织。
 adj.|匮乏的；不景气的|Having little money, food, or other resources.|The family faced several lean years.|这家人度过了几年拮据的日子。
 n.|倾斜；倾向|An inclination in position or preference.|The tower has a noticeable lean.|这座塔明显倾斜。
 # post
 提示：post a letter 寄信（英式）；a job post 职位；post a message 发消息；keep sb posted 让某人随时了解情况；post-war 战后的（post- 前缀“之后”）。
-n.|邮政；邮件|The system of sending letters or the letters delivered.|The parcel arrived in the morning post.|包裹随早上的邮件送到了。
-v.|邮寄；发布|To send by mail or publish information publicly.|She posted a message online.|她在网上发布了一条消息。
 n.|帖子；发布的内容|An item published on a website or social platform.|I read your latest post.|我看了你最新的帖子。
 n.|职位；岗位；驻地|A job or a place where someone is assigned to work.|He accepted a teaching post.|他接受了一个教师职位。
+n.|邮政；邮件|The system of sending letters or the letters delivered.|The parcel arrived in the morning post.|包裹随早上的邮件送到了。
+v.|邮寄；发布|To send by mail or publish information publicly.|She posted a message online.|她在网上发布了一条消息。
 n.|柱；杆；门柱|An upright piece of wood or metal.|The ball hit the goalpost.|球击中了球门柱。
 v.|派驻；部署；张贴|To assign someone to a place or display a notice.|A guard was posted at the entrance.|入口处安排了一名警卫。
 v. 商业|公布业绩；记账|To report financial results or enter a transaction in an account.|The company posted a profit this year.|公司公布今年实现盈利。

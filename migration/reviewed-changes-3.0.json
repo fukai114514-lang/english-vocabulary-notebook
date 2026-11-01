@@ -1,0 +1,34 @@
+{
+  "content/nap.py": {
+    "sha256": "fad104635edec4879af0e59fe52b83d1899b1518ab2ce942c339c66106e9eaa2",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "content/nap_article.json": {
+    "sha256": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "content/polysemy.py": {
+    "sha256": "3bafc3ac321a783dc8a6ff67766a2b8a9b9952bc13436284687a1c6ce40c2b26",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "content/polysemy.txt": {
+    "sha256": "94b8d02ec2e02d448a630729f5835bb850b27c932b7bfd93ad4fefa187cac21d",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "content/render.py": {
+    "sha256": "9613bf678f9a480374e044c2b13e725d09d08fe958c1879128e2301cefcef943",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "dist/index.html": {
+    "sha256": "a3f473145e001ddb3410dec49eb16849fb9a48c3a42e3287c4f9529ba3568814",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "dist/polysemy.json": {
+    "sha256": "b9d722b9d4560820abe3202e608f9dc117f4c1594c48ebbb3da0c9a772cbbca1",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  },
+  "dist/vocabulary.json": {
+    "sha256": "0ad9c8f61c2f8bc76992d88e81ed6e88adb816194f85b57e8024aeed10da368f",
+    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "browser": "Chrome cloud browser",
+  "candidateViewport": {"width":1363,"height":936},
+  "mobileViewportTested": false,
+  "realIPhoneSafariTested": false,
+  "realAndroidTested": false,
+  "deviceAudioTested": false,
+  "queries": {"credit":8,"nap":15,"sleep":25,"学分":1,"power nap":3,"brutal":2,"CREDIT":8},
+  "specialAndHostileInput": "no matches, no execution observed",
+  "testedTargets": ["sense-credit-03","group-087","nap-word-0"],
+  "historyReturnObserved": "nap-E",
+  "polysemyExpandCount":62,
+  "polysemyCollapseCount":62,
+  "englishParagraphs":20,
+  "translationParagraphs":20,
+  "desktopHorizontalOverflow":false,
+  "sitesRecordedAddressRedirectsTo":"https://vocab-notebook-20261021.fukai114514.chatgpt.site/",
+  "sitesBrowserReadingParagraphs":20,
+  "sitesBrowserTranslationParagraphs":20,
+  "productionUpdated":false
+}

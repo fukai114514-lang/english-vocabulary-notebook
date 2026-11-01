@@ -1,0 +1,44 @@
+{
+  "pages": {
+    "index.html": {
+      "http": 200,
+      "url": "https://fukai114514-lang.github.io/english-vocabulary-notebook/index.html",
+      "sha256": "8bcd49d8d7614cacdbbad0462a2ab0b04e5279baf3d4d470d71aa6ec5a9015fd",
+      "matchesAuditedSource": true
+    },
+    "vocabulary.json": {
+      "http": 200,
+      "url": "https://fukai114514-lang.github.io/english-vocabulary-notebook/vocabulary.json",
+      "sha256": "3ef09c40692ff9c411242ae157f26e7406750c3c7331a8f0b04c97c14c046110",
+      "matchesAuditedSource": true
+    },
+    "polysemy.json": {
+      "http": 200,
+      "url": "https://fukai114514-lang.github.io/english-vocabulary-notebook/polysemy.json",
+      "sha256": "2112bf07664d4f8a626d12bdcfba5c01473be10caf51317f650f2b55abc876ec",
+      "matchesAuditedSource": true
+    }
+  },
+  "sites-recorded": {
+    "index.html": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "vocabulary.json": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "polysemy.json": {
+      "error": "HTTP Error 403: Forbidden"
+    }
+  },
+  "sites-current": {
+    "index.html": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "vocabulary.json": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "polysemy.json": {
+      "error": "HTTP Error 403: Forbidden"
+    }
+  }
+}
