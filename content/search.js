@@ -83,14 +83,15 @@
  function setupLookup(){
   const paper=document.querySelector('#nap-text'),dialog=document.createElement('dialog');dialog.id='lookup-card';dialog.setAttribute('aria-label','已收录词汇查阅');
   const close=document.createElement('button');close.textContent='关闭，返回原文';close.type='button';const body=document.createElement('div');dialog.append(close,body);document.body.append(dialog);let trigger;
-  function dismiss(){dialog.close();trigger?.focus({preventScroll:true});}close.onclick=dismiss;dialog.addEventListener('cancel',e=>{e.preventDefault();dismiss()});
+  function dismiss(){dialog.close();trigger?.focus({preventScroll:true});}close.onclick=dismiss;dialog.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();dismiss()}});dialog.addEventListener('cancel',e=>{e.preventDefault();dismiss()});
   const candidates=new Map();for(const row of records){if(['词汇辨析','多义词','阅读词汇'].includes(row.kind)&&/^[a-z]+$/i.test(row.title)){const key=norm(row.title);if(!candidates.has(key))candidates.set(key,[]);candidates.get(key).push(row)}}
+  function followReference(target){const paragraph=trigger?.closest('.nap-paragraph');if(paragraph)history.replaceState(null,'','#'+paragraph.id);dialog.close();reveal(target)}
   function lookup(button){
    trigger=button;body.replaceChildren();const title=document.createElement('h2');title.textContent=button.textContent;body.append(title);
    const rows=candidates.get(button.dataset.lookup)||[];const exactReading=rows.filter(r=>r.kind==='阅读词汇');const chosen=exactReading.length?exactReading:rows;
    const note=document.createElement('p');note.textContent=exactReading.length?'本文收录释义':'以下为已收录释义；语境义项尚未确认。';body.append(note);
-   for(const row of chosen){const p=document.createElement('p');p.textContent=Object.entries(row.fields).filter(([k])=>k!=='词条').map(([k,v])=>k+'：'+v).join(' · ');const link=document.createElement('a');link.href='#'+row.target;link.textContent='查看 '+row.kind;link.onclick=e=>{e.preventDefault();dialog.close();reveal(row.target)};body.append(p,link);}
-   for(const row of rows.filter(r=>!chosen.includes(r))){const link=document.createElement('a');link.href='#'+row.target;link.textContent='相关 '+row.kind+' · '+row.title;link.onclick=e=>{e.preventDefault();dialog.close();reveal(row.target)};body.append(link);}
+   for(const row of chosen){const p=document.createElement('p');p.textContent=Object.entries(row.fields).filter(([k])=>k!=='词条').map(([k,v])=>k+'：'+v).join(' · ');const link=document.createElement('a');link.href='#'+row.target;link.textContent='查看 '+row.kind;link.onclick=e=>{e.preventDefault();followReference(row.target)};body.append(p,link);}
+   for(const row of rows.filter(r=>!chosen.includes(r))){const link=document.createElement('a');link.href='#'+row.target;link.textContent='相关 '+row.kind+' · '+row.title;link.onclick=e=>{e.preventDefault();followReference(row.target)};body.append(link);}
    if(!dialog.open)dialog.show();close.focus({preventScroll:true});
   }
   for(const p of paper.querySelectorAll('.nap-paragraph')){
