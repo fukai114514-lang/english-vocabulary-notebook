@@ -11,7 +11,7 @@ args = parser.parse_args()
 report = {}
 for label, origin in [('A', args.a), ('B', args.b)]:
     report[label] = {}
-    for name in ['index.html', 'vocabulary.json', 'polysemy.json']:
+    for name in [p.name for p in sorted((ROOT/'dist').iterdir()) if p.is_file()]:
         try:
             with urlopen(Request(origin.rstrip('/') + '/' + name, headers={'Cache-Control': 'no-cache'}), timeout=30) as response:
                 actual = response.read()
