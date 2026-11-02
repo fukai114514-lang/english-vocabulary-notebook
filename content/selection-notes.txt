@@ -111,3 +111,7 @@
 111|跳水或潜水常用 dive；plunge 强调突然、猛烈地进入或下降，也可有意进行。两词都能描述价格急跌：Share prices dived/plunged. 不可把 dive 限定为受控运动，也不能把 plunge 限定为意外失控。plunge a room into darkness 是使房间突然陷入黑暗；dive into a task 是迅速投入任务。dive–dived–dived；美式过去式也常用 dove，过去分词通常仍用 dived。
 112|nation 与 country 在许多“国家”语境中重叠。nation 常突出人民的共同身份、历史或政治共同体；country 常突出领土、政府和地理实体。一个 nation 不一定对应一个独立 country；不要把 nation 简化为只能指民族。the country 还可表示乡村，in the country 不能直接换成 in the nation。 country 并非在所有名称中都意味着独立主权国家，例如 Scotland 常称为 a country，属于 the United Kingdom。共同语言或血缘不是 nation 在所有用法中的必要条件。
 113|船舶语境中，vessel 指整艘船，cabin 指船内供人居住或使用的舱室：a cabin on a vessel。它们是整体与内部空间的区别，不是两种船的名称。cabin 也可指飞机客舱或小木屋；vessel 还可指容器及血管，如 a blood vessel。此组由原第77组拆出，词条与例句保留。
+114|journalist 是新闻工作者的通称，既可采访，也可写稿、编辑或制作新闻；correspondent 通常负责特定地区、领域或事件的报道。多数新闻 correspondent 属于 journalist，但并非所有 journalist 都是 correspondent。correspondent 还可指通信者，需结合上下文判断。
+115|contempt 侧重认为某人或某事不值得尊重的轻蔑态度；scorn 常带更明显的鄙夷、嘲讽或不屑，但不能绝对区分为“内心”和“外在”。二者都可表达或隐藏，也没有固定的强度等级。contempt 常作不可数名词；scorn 还可作及物动词。注意 in contempt of court 是“藐视法庭”，scorn 不能直接替换。
+116|constant 强调持续、反复发生，或数值不变；consistent 强调前后表现稳定、遵循同一标准，或与某事相符。constant practice 强调经常练习，consistent practice 强调有规律地坚持。constant noise 可以反复出现，并不要求一秒不停；consistent 不表示结果永远完全一样。be consistent with 表示“与……一致”。
+117|wet 是最通用的“湿”，可指有水或被液体浸湿；moist 常指含适量水分，食物语境往往是正面的“湿润”；damp 通常指微湿，衣物、房间语境常带不舒服的感觉；humid 专指空气或气候中水汽较多。moist soil、damp soil 都自然，褒贬只是常见倾向，并非硬性规则；humid 不表示物体表面被水打湿。

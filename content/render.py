@@ -88,5 +88,10 @@ catalog['parts'][0]['title'] = '一词多义'
 (root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 
 (root/'dist/nap_article.json').write_bytes((root/'content/nap_article.json').read_bytes())
+# Use the catalog totals in headings, metadata and legacy filter text.
+page = (root/'dist/index.html').read_text()
+page = page.replace('113 组', str(len(groups))+' 组').replace('113组', str(len(groups))+'组').replace('277个词条', str(sum(map(len,groups.values())))+'个词条')
+page = page.replace('2026.10.27', '2026.11.02')
+(root/'dist/index.html').write_text(page)
 from search import build as build_search
 build_search()

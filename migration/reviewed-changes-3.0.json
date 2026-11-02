@@ -16,19 +16,39 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/render.py": {
-    "sha256": "9613bf678f9a480374e044c2b13e725d09d08fe958c1879128e2301cefcef943",
-    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+    "sha256": "2bc210fadc8ba53fc2abbff414ac26de2e5ff56a634129fe55feba11673b887c",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
   },
   "dist/index.html": {
-    "sha256": "a3f473145e001ddb3410dec49eb16849fb9a48c3a42e3287c4f9529ba3568814",
-    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+    "sha256": "cf0a21067698ab41847021a52d8fbfbb01b41811b524108c7e5ee4bee90ce33f",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
   },
   "dist/polysemy.json": {
     "sha256": "b9d722b9d4560820abe3202e608f9dc117f4c1594c48ebbb3da0c9a772cbbca1",
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "dist/vocabulary.json": {
-    "sha256": "0ad9c8f61c2f8bc76992d88e81ed6e88adb816194f85b57e8024aeed10da368f",
-    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+    "sha256": "41cb8654bc95d7a479b522c040af2e0a9c43efd0b2cff3913e48583fb59dfb18",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+  },
+  "content/base.html": {
+    "sha256": "e96125bbe518d8296862e97bf52714c4a25636b371b06b2791126575438009a9",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+  },
+  "content/comparisons.txt": {
+    "sha256": "0a661314c15ada617cf807486217dfe5ebe745c9fe84510cf93c2462961d153e",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+  },
+  "content/english-captions.txt": {
+    "sha256": "404211562affc26f6026a9975dbc6f679f8f12940da2d849f2adc543d0b5d88b",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+  },
+  "content/selection-notes.txt": {
+    "sha256": "960a220259349005ee2696fca37a5b781b593305820e6dcb71480ed32a5b5c19",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+  },
+  "content/vocabulary.json": {
+    "sha256": "09550ce2c3916a49f9f9cf904628c1e13400fc4cd1dea74f1710cf91fba6acac",
+    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
   }
 }

@@ -270,3 +270,13 @@ nation|A large community sharing history or identity; also a country considered 
 country|A territory regarded as a distinct political or geographical unit; also rural land outside towns.
 relentless|Continuing with great intensity or determination without easing or stopping.
 approximate|Close to the actual value but not exact; as a verb, to estimate or come close to something.
+correspondent|A journalist who reports for a news organization on a particular place or subject; also, a person who exchanges letters.
+journalist|A person whose job is to gather, write, edit, or present news.
+contempt|A strong feeling that someone or something is unworthy of respect.
+scorn|A feeling or expression of strong disrespect; as a verb, to reject or regard something with contempt.
+constant|Continuing or happening repeatedly, or remaining unchanged; as a noun, a fixed value.
+consistent|Always behaving or happening in a similar way, or agreeing with other facts or ideas.
+moist|Slightly wet, often in a pleasant or useful way.
+wet|Covered with or containing water or another liquid; as a verb, to make something wet.
+damp|Slightly wet, often in a way that feels unpleasant.
+humid|Containing a lot of water vapour, used especially of air or weather.
