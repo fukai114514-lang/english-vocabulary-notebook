@@ -18,9 +18,9 @@ page = (ROOT / 'dist/index.html').read_text()
 catalog = json.loads((ROOT / 'dist/vocabulary.json').read_text())
 poly = json.loads((ROOT / 'dist/polysemy.json').read_text())
 nap = json.loads((ROOT / 'content/nap_article.json').read_text())
-assert len(catalog['groups']) == 113
-assert len(catalog['words']) == 272
-assert sum(len(g['entries']) for g in catalog['groups']) == 277
+assert len(catalog['groups']) == 117
+assert len(catalog['words']) == 282
+assert sum(len(g['entries']) for g in catalog['groups']) == 287
 assert len(poly['entries']) == 62
 assert sum(len(e['senses']) for e in poly['entries']) == 352
 assert catalog['parts'] == [poly]
@@ -33,7 +33,7 @@ for letter, text in nap['paragraphs'].items():
     assert f'id="nap-{letter}"' in page and html.escape(text) in page, letter
 for row in nap['vocabulary'] + nap['phrases']:
     assert all(html.escape(text) in page for text in row)
-assert page.count('<table>') == 113
+assert page.count('<table>') == 117
 assert not re.search(r'(?:src|href)=["\x27]https?://', page)
 assert 'content/app.js' not in page  # Historical learning app is intentionally inactive.
-print('PASS: reviewed SHA-256 baseline; 113 groups, 277 entries, 272 unique IDs; 62 polysemy words/352 senses; 20 paragraphs, 32 words, 33 phrases.')
+print('PASS: reviewed SHA-256 baseline; 117 groups, 287 entries, 282 unique IDs; 62 polysemy words/352 senses; 20 paragraphs, 32 words, 33 phrases.')

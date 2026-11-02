@@ -388,3 +388,17 @@ country|n. 国家；乡村|通常指政治地理实体，也可指一个较大�
 # 113
 vessel|n. 船；容器；血管|较正式，具体类别靠修饰语判断|a cargo vessel; a blood vessel|The vessel carries cargo. → 这艘船运输货物。
 cabin|n. 小木屋；机舱；船舱|指小屋或运输工具中的封闭空间|a log cabin; cabin crew|We stayed in a cabin by the lake. → 我们住在湖边的小木屋里。
+# 114
+correspondent|n. 通讯记者；驻地／特派记者；通信者|强调为媒体报道特定地区、领域或事件，不一定驻外|a foreign correspondent; a war correspondent; a political correspondent|She works as a foreign correspondent in Tokyo. → 她在东京担任驻外记者。
+journalist|n. 记者；新闻工作者|新闻行业从业者的通称，范围较广，不限于现场采访|an investigative journalist; a freelance journalist; work as a journalist|The journalist investigated the company for six months. → 这名记者对该公司进行了六个月的调查。
+# 115
+contempt|n. 轻蔑；鄙视；藐视|认为对方低劣或不值得尊重；亦用于藐视法庭等法律表达|contempt for; treat sb with contempt; hold sb in contempt|He showed contempt for anyone who disagreed with him. → 他对任何不同意他的人都表现出轻蔑。
+scorn|n./v. 鄙夷；轻蔑；不屑于做|常带轻蔑的拒绝或嘲讽；可说 scorn an offer 和 scorn to do sth|scorn for; pour scorn on; scorn an offer; scorn to do sth|She poured scorn on the suggestion that she had cheated. → 她对关于她作弊的说法嗤之以鼻。
+# 116
+constant|adj. 持续的；频繁的；不变的；n. 常数|强调持续性、反复性或保持同一数值，具体含义取决于搭配|constant noise; constant interruptions; remain constant; a mathematical constant|Keep the temperature constant during the experiment. → 实验过程中要保持温度不变。
+consistent|adj. 一贯的；稳定的；相符的|强调不同时间、行为或信息之间没有矛盾，或稳定达到相近标准|consistent performance; consistent effort; be consistent with; consistent in|Her explanation is consistent with the evidence. → 她的解释与证据相符。
+# 117
+moist|adj. 湿润的；含水分的|常指适量水分，尤用于土壤、皮肤和食物，不等于浸湿|moist soil; moist skin; keep sth moist; a moist cake|Cover the cake to keep it moist. → 把蛋糕盖好，让它保持湿润。
+wet|adj. 湿的；被液体浸湿的；v. 弄湿|最通用，可说头发、衣服或路面有水，也可指多雨天气|wet hair; get wet; soaking wet; wet weather|My shoes got wet in the rain. → 我的鞋被雨淋湿了。
+damp|adj. 微湿的；潮湿的|通常只有少量水分，常用于衣服、墙壁或空气，往往令人不适|a damp towel; damp clothes; a damp room|The clothes are still damp. → 衣服还有点潮。
+humid|adj. 空气潮湿的；湿热的|强调空气水汽多，常用于天气和气候；不必然表示气温高|humid air; a humid climate; hot and humid|Summers here are hot and humid. → 这里夏天炎热潮湿。
