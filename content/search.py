@@ -30,6 +30,7 @@ def build():
  for n,row in enumerate(nap['vocabulary']):add('reading-word-'+str(n),'阅读词汇',row[0],'nap-word-'+str(n),dict(zip(['词条','释义','英文释义','搭配'],row)))
  for n,row in enumerate(nap['phrases']):add('reading-phrase-'+str(n),'短语',row[0],'nap-phrase-'+str(n),{'词条':row[0],'释义':row[1]})
  (ROOT/'dist/search-index.json').write_text(json.dumps({'schemaVersion':1,'records':rows},ensure_ascii=False,indent=2)+'\n')
+ (ROOT/'dist/article-dictionary.json').write_bytes((ROOT/'content/article-dictionary.json').read_bytes())
  for ext in ['js','css']:(ROOT/('dist/search.'+ext)).write_bytes((ROOT/('content/search.'+ext)).read_bytes())
  page=page.replace('</head>','<link rel="stylesheet" href="./search.css"></head>',1).replace('</body>','<script src="./search.js" defer></script></body>',1)
  (ROOT/'dist/index.html').write_text(page)
