@@ -74,7 +74,7 @@ page = re.sub(r'<footer>.*?</footer>', '<footer><p>点击词条查看英文释�
 page = page.replace('此组由原第77组拆出，词条与例句保留。', '')
 page = re.sub(r'<p class="sub">两页重叠词已合并；.*?</p>', '<p class="sub">收录常见义及部分专业用法，并提供英文释义、双语例句与发音。</p>', page)
 page = re.sub(r'<p class="sub">阅读原文按图片转录。.*?</p>', '', page)
-for before, after in [('原有词汇辨析','词汇辨析'),('原有辨析','词汇辨析'),('多义词详解 · 截图收藏','一词多义'),('新 Part · 多义词62词','一词多义 · 62词'),('新 Part · 午睡文章','阅读文章'),('ORIGINAL PARTS','PART 01 · WORD COMPARISONS'),('PART · POLYSEMY','PART 02 · WORD MEANINGS'),('PART · READING','PART 03 · READING')]:
+for before, after in [('原有词汇辨析','词汇辨析'),('原有辨析','词汇辨析'),('多义词详解 · 截图收藏','一词多义'),('新 Part · 多义词61词','一词多义 · 61词'),('新 Part · 午睡文章','阅读文章'),('ORIGINAL PARTS','PART 01 · WORD COMPARISONS'),('PART · POLYSEMY','PART 02 · WORD MEANINGS'),('PART · READING','PART 03 · READING')]:
  page = page.replace(before, after)
 # Retain the existing element for script compatibility while removing the update filter from the interface.
 page = page.replace('<button id="recent"', '<button style="display:none" tabindex="-1" id="recent"')

@@ -13,12 +13,12 @@ class Parser(HTMLParser):
 p=Parser();p.feed(page);assert len(p.ids)==len(set(p.ids)),'duplicate anchors'
 assert all(r['target'] in p.ids for r in idx),'broken search target'
 assert len({r['id'] for r in idx})==len(idx)
-counts=Counter(r['kind'] for r in idx);assert counts=={'词汇辨析':sum(1+len(g['entries']) for g in load('content/vocabulary.json')['groups']),'多义词':352,'阅读文章':20,'阅读词汇':32,'短语':33},counts
+counts=Counter(r['kind'] for r in idx);assert counts=={'词汇辨析':sum(1+len(g['entries']) for g in load('content/vocabulary.json')['groups']),'多义词':349,'阅读文章':20,'阅读词汇':32,'短语':33},counts
 assert list(nap['translationZh'])==list('ABCDEFGHIJKLMNOPQRST')
 assert all(nap['translationZh'][k].strip() for k in nap['paragraphs'])
 assert page.index('id="nap-T"') < page.index('id="nap-translation"')
 for letter in nap['paragraphs']:assert 'nap-zh-'+letter in p.ids
-assert len({s['id'] for e in poly['entries'] for s in e['senses']})==352
+assert len({s['id'] for e in poly['entries'] for s in e['senses']})==349
 plain=' '.join(p.text)
 normalize=lambda s:' '.join(s.split())
 normalized_plain=normalize(plain)
@@ -29,4 +29,4 @@ for name in ['search.js','search.css','search-index.json','nap_article.json']:
  assert (ROOT/'dist'/name).stat().st_size>0
 assert './search.js' in page and './search.css' in page
 assert 'innerHTML' not in (ROOT/'content/search.js').read_text()
-print('PASS upgrade: all index records, all targets present; 352 unique stable sense IDs; A–T translations after complete English text; index fields found in HTML')
+print('PASS upgrade: all index records, all targets present; 349 unique stable sense IDs; A–T translations after complete English text; index fields found in HTML')

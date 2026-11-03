@@ -5812,51 +5812,6 @@
       }
     },
     {
-      "id": "sense-itself-01",
-      "kind": "多义词",
-      "title": "itself",
-      "target": "sense-itself-01",
-      "fields": {
-        "词条": "itself",
-        "词性": "pron.",
-        "释义": "它自己（动作回指主语）",
-        "英文释义": "The reflexive form of it, referring back to the subject.",
-        "搭配": "it 的反身形式。by itself 独自；自动地；in itself 本身；of itself 自发地。itself 强调单数事物，复数用 themselves。",
-        "例句": "The cat washed itself.",
-        "例句译文": "猫给自己洗了脸。"
-      }
-    },
-    {
-      "id": "sense-itself-02",
-      "kind": "多义词",
-      "title": "itself",
-      "target": "sense-itself-02",
-      "fields": {
-        "词条": "itself",
-        "词性": "pron.",
-        "释义": "它本身（加强语气）",
-        "英文释义": "Used to emphasize a thing already mentioned.",
-        "搭配": "it 的反身形式。by itself 独自；自动地；in itself 本身；of itself 自发地。itself 强调单数事物，复数用 themselves。",
-        "例句": "The building itself is beautiful.",
-        "例句译文": "这座建筑本身就很漂亮。"
-      }
-    },
-    {
-      "id": "sense-itself-03",
-      "kind": "多义词",
-      "title": "itself",
-      "target": "sense-itself-03",
-      "fields": {
-        "词条": "itself",
-        "词性": "pron. 短语",
-        "释义": "独自；自动；就本身而言",
-        "英文释义": "Used in phrases describing independence or intrinsic qualities.",
-        "搭配": "it 的反身形式。by itself 独自；自动地；in itself 本身；of itself 自发地。itself 强调单数事物，复数用 themselves。",
-        "例句": "The door closed by itself.",
-        "例句译文": "门自己关上了。"
-      }
-    },
-    {
       "id": "sense-drop-01",
       "kind": "多义词",
       "title": "drop",

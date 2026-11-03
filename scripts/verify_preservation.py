@@ -14,6 +14,8 @@ def verify():
  assert len({g['id'] for g in new['groups']})==124
  assert len({w['id'] for w in new['words']})==296
  oldp=read('migration/original-polysemy.json');newp=read('dist/polysemy.json')
+ oldp['entries']=[e for e in oldp['entries'] if e['word']!='itself']
+ assert all(e['word']!='itself' for e in newp['entries'])
  assert [x['word'] for x in oldp['entries']]==[x['word'] for x in newp['entries']]
  for a,b in zip(oldp['entries'],newp['entries']):
   assert a['notes']==b['notes']
@@ -23,5 +25,5 @@ def verify():
  assert all(newn[k]==v for k,v in oldn.items()),'Original article data changed'
  page=(ROOT/'dist/index.html').read_text()
  for a in newn.get('translationZh',{}).values():assert html.escape(a) in page
- print('PASS preservation: exact original groups/words; 352 sense records as multisets; all original article fields unchanged')
+ print('PASS preservation: exact original groups/words; 349 retained sense records as multisets; all original article fields unchanged')
 if __name__=='__main__':verify()

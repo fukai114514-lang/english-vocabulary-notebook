@@ -17102,60 +17102,6 @@
           "references": []
         },
         {
-          "word": "itself",
-          "notes": "it 的反身形式。by itself 独自；自动地；in itself 本身；of itself 自发地。itself 强调单数事物，复数用 themselves。",
-          "senses": [
-            {
-              "partOfSpeech": "pron.",
-              "meaningZh": "它自己（动作回指主语）",
-              "definitionEn": "The reflexive form of it, referring back to the subject.",
-              "example": {
-                "en": "The cat washed itself.",
-                "zh": "猫给自己洗了脸。"
-              },
-              "id": "sense-itself-01",
-              "register": null,
-              "regionalUsage": null,
-              "collocations": [],
-              "usageWarning": null,
-              "reviewStatus": "needs-review"
-            },
-            {
-              "partOfSpeech": "pron.",
-              "meaningZh": "它本身（加强语气）",
-              "definitionEn": "Used to emphasize a thing already mentioned.",
-              "example": {
-                "en": "The building itself is beautiful.",
-                "zh": "这座建筑本身就很漂亮。"
-              },
-              "id": "sense-itself-02",
-              "register": null,
-              "regionalUsage": null,
-              "collocations": [],
-              "usageWarning": null,
-              "reviewStatus": "needs-review"
-            },
-            {
-              "partOfSpeech": "pron. 短语",
-              "meaningZh": "独自；自动；就本身而言",
-              "definitionEn": "Used in phrases describing independence or intrinsic qualities.",
-              "example": {
-                "en": "The door closed by itself.",
-                "zh": "门自己关上了。"
-              },
-              "id": "sense-itself-03",
-              "register": null,
-              "regionalUsage": null,
-              "collocations": [],
-              "usageWarning": null,
-              "reviewStatus": "needs-review"
-            }
-          ],
-          "reviewStatus": "needs-review",
-          "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
-          "references": []
-        },
-        {
           "word": "drop",
           "notes": "drop—dropped—dropped；drop in 顺便拜访；drop out (of) 退出或辍学；drop off 送下车、减少或睡着；drop by 顺便来访。",
           "senses": [

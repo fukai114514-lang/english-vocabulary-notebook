@@ -8,28 +8,28 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "3bafc3ac321a783dc8a6ff67766a2b8a9b9952bc13436284687a1c6ce40c2b26",
-    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+    "sha256": "f0e6f7d179e833aaec5e4fb0656643df49e4c3381d8ee3fb743324f732eddae0",
+    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "content/polysemy.txt": {
-    "sha256": "94b8d02ec2e02d448a630729f5835bb850b27c932b7bfd93ad4fefa187cac21d",
-    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+    "sha256": "4d22b6ca9967f10e3c25985ab00f643102091465491a0e6ff026ce4f3ba79a15",
+    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "content/render.py": {
-    "sha256": "c90605c5077f7e2b8fad7ccf41b166806079531a930dbd0be53126be56dc88ab",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "97bfa0bdd18893893a56a68b1844ed60feb783a3df78e58d5b43ea0500e68333",
+    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "dist/index.html": {
-    "sha256": "f8d2c30afac3ec1f815b17f82de81a986f8e6e0bab67b026dca992f15925c04b",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "26b22320896dd2552bd2e5cd45f9d1b7f7f4c486a04278bdd8af453cd83f766f",
+    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "dist/polysemy.json": {
-    "sha256": "b9d722b9d4560820abe3202e608f9dc117f4c1594c48ebbb3da0c9a772cbbca1",
-    "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
+    "sha256": "d28cc196c68ef58047067feeeaa8cba5e238a0fe4a787e84be2cbdae0496027f",
+    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "dist/vocabulary.json": {
-    "sha256": "305d4d344b0467b6e1475f9389897b8b777cddd274ff06e093603fa0755826ff",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "5f1b81f1f0dc2998c4cbc6a4fa5982cee85946a205817b04df4345fbdc3990b5",
+    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "content/base.html": {
     "sha256": "2bcac85bf7873cf6b4c4ef4e4a90b176f7cca8c27939b9ac6e0eae6f873ca1c8",

@@ -304,37 +304,6 @@
       }
     }
   },
-  "itself": {
-    "reviewStatus": "needs-review",
-    "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
-    "references": [],
-    "senses": {
-      "9dae3bd3f8b61de93b73cb37a1dcddeda6982e78078b5a51b1debd7db16dcc86": {
-        "id": "sense-itself-01",
-        "register": null,
-        "regionalUsage": null,
-        "collocations": [],
-        "usageWarning": null,
-        "reviewStatus": "needs-review"
-      },
-      "521a0e51e929f72474d9d7a0413edfb2308eecf41bac8415834f7f4ef688f4e9": {
-        "id": "sense-itself-02",
-        "register": null,
-        "regionalUsage": null,
-        "collocations": [],
-        "usageWarning": null,
-        "reviewStatus": "needs-review"
-      },
-      "7698afc3f577573348ec01873f97b7b9519e07f99ec297b627f0a9f7b0f4db9f": {
-        "id": "sense-itself-03",
-        "register": null,
-        "regionalUsage": null,
-        "collocations": [],
-        "usageWarning": null,
-        "reviewStatus": "needs-review"
-      }
-    }
-  },
   "drop": {
     "reviewStatus": "needs-review",
     "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
