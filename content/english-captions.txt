@@ -280,3 +280,17 @@ moist|Slightly wet, often in a pleasant or useful way.
 wet|Covered with or containing water or another liquid; as a verb, to make something wet.
 damp|Slightly wet, often in a way that feels unpleasant.
 humid|Containing a lot of water vapour, used especially of air or weather.
+entry|The act of entering, a submitted item, or an item in a record.
+entrance|A place where people enter, or the act of entering.
+charge|To formally accuse someone, ask a price, or supply electrical energy.
+sue|To bring a legal claim against a person or organization.
+accuse|To say that someone has done something wrong or illegal.
+wrap|To cover something by folding material around it; also a loose outer covering or garment.
+stole|A long narrow scarf worn over the shoulders; also the past tense of steal.
+eliminate|To remove something unwanted or exclude someone from further consideration or competition.
+delete|To remove written text or stored computer data.
+cabinet|A storage cupboard, often with doors or drawers; also a group of senior government ministers.
+closet|A cupboard or small enclosed space used especially for storing clothes.
+crave|To feel a very strong desire for something.
+desire|To want something, or a strong wish to have or do something.
+chip|A small electronic component, a small broken piece or mark, a snack, or a gaming token; as a verb, to break off a small piece.

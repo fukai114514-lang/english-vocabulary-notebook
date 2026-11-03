@@ -16,39 +16,39 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/render.py": {
-    "sha256": "2bc210fadc8ba53fc2abbff414ac26de2e5ff56a634129fe55feba11673b887c",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "c90605c5077f7e2b8fad7ccf41b166806079531a930dbd0be53126be56dc88ab",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "dist/index.html": {
-    "sha256": "cf0a21067698ab41847021a52d8fbfbb01b41811b524108c7e5ee4bee90ce33f",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "f8d2c30afac3ec1f815b17f82de81a986f8e6e0bab67b026dca992f15925c04b",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "dist/polysemy.json": {
     "sha256": "b9d722b9d4560820abe3202e608f9dc117f4c1594c48ebbb3da0c9a772cbbca1",
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "dist/vocabulary.json": {
-    "sha256": "41cb8654bc95d7a479b522c040af2e0a9c43efd0b2cff3913e48583fb59dfb18",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "305d4d344b0467b6e1475f9389897b8b777cddd274ff06e093603fa0755826ff",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "content/base.html": {
-    "sha256": "e96125bbe518d8296862e97bf52714c4a25636b371b06b2791126575438009a9",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "2bcac85bf7873cf6b4c4ef4e4a90b176f7cca8c27939b9ac6e0eae6f873ca1c8",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "content/comparisons.txt": {
-    "sha256": "0a661314c15ada617cf807486217dfe5ebe745c9fe84510cf93c2462961d153e",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "40f88456592c707981086ff8b24c95230cd37a29eb531ba18e4936f882a12abc",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "content/english-captions.txt": {
-    "sha256": "404211562affc26f6026a9975dbc6f679f8f12940da2d849f2adc543d0b5d88b",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "98dab910f0360ddb278c112b38bb24ac312524c9ed4f2d48b4edb3379ad9ba0f",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "content/selection-notes.txt": {
-    "sha256": "960a220259349005ee2696fca37a5b781b593305820e6dcb71480ed32a5b5c19",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "e6c71793981c2d2940f73684be473e582fb1b645af465de86fdd248ab2f96a2f",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   },
   "content/vocabulary.json": {
-    "sha256": "09550ce2c3916a49f9f9cf904628c1e13400fc4cd1dea74f1710cf91fba6acac",
-    "reason": "Append-only four recent comparisons (groups 114–117, ten words), dynamic display totals and rebuilt output. All original groups and words remain exactly equal to frozen snapshots; see releases/2026-11-02-recent-comparisons.md."
+    "sha256": "1bc156b5c16909b53d49c4d34c95446b05a3734ff2a56221679a44e062b1481a",
+    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
   }
 }

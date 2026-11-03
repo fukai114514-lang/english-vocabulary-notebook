@@ -9,10 +9,10 @@ def verify():
  old=read('migration/original-vocabulary.json');new=read('dist/vocabulary.json')
  assert old['groups']==new['groups'][:len(old['groups'])], 'Original groups/entries/IDs/memberships changed'
  assert old['words']==new['words'][:len(old['words'])], 'Original words changed'
- assert len(new['groups'])==117 and len(new['words'])==282
- assert [[w['lemma'] for w in new['words'] if w['id'] in g['wordIds']] for g in new['groups'][113:]] == [['correspondent','journalist'],['contempt','scorn'],['constant','consistent'],['moist','wet','damp','humid']]
- assert len({g['id'] for g in new['groups']})==117
- assert len({w['id'] for w in new['words']})==282
+ assert len(new['groups'])==124 and len(new['words'])==296
+ assert [[w['lemma'] for w in new['words'] if w['id'] in g['wordIds']] for g in new['groups'][113:117]] == [['correspondent','journalist'],['contempt','scorn'],['constant','consistent'],['moist','wet','damp','humid']]
+ assert len({g['id'] for g in new['groups']})==124
+ assert len({w['id'] for w in new['words']})==296
  oldp=read('migration/original-polysemy.json');newp=read('dist/polysemy.json')
  assert [x['word'] for x in oldp['entries']]==[x['word'] for x in newp['entries']]
  for a,b in zip(oldp['entries'],newp['entries']):

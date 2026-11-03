@@ -6070,6 +6070,327 @@
       ],
       "selectionNote": "wet 是最通用的“湿”，可指有水或被液体浸湿；moist 常指含适量水分，食物语境往往是正面的“湿润”；damp 通常指微湿，衣物、房间语境常带不舒服的感觉；humid 专指空气或气候中水汽较多。moist soil、damp soil 都自然，褒贬只是常见倾向，并非硬性规则；humid 不表示物体表面被水打湿。",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-118",
+      "number": 118,
+      "wordIds": [
+        "word-923fe53966c6cd93",
+        "word-3902eb874fcc6c8a"
+      ],
+      "entries": [
+        {
+          "wordId": "word-923fe53966c6cd93",
+          "meaningZh": "n. 进入；参赛作品；条目",
+          "definitionEn": "The act of entering, a submitted item, or an item in a record.",
+          "scenario": "强调进入行为、资格或记录，不专指门口",
+          "collocations": [
+            "entry to",
+            "an entry in a dictionary",
+            "an entry fee"
+          ],
+          "examples": [
+            {
+              "en": "Entry to the museum is free.",
+              "zh": "博物馆免费入场。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-3902eb874fcc6c8a",
+          "meaningZh": "n. 入口；进入",
+          "definitionEn": "A place where people enter, or the act of entering.",
+          "scenario": "常指可以走进去的入口，也可指进场动作",
+          "collocations": [
+            "the entrance to",
+            "make an entrance",
+            "an entrance exam"
+          ],
+          "examples": [
+            {
+              "en": "Meet me at the main entrance.",
+              "zh": "在正门口等我。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "entry 常强调进入的行为、资格、参赛作品或记录条目；entrance 常强调入口位置，也可表示进入的动作。入口说 the entrance to the building；准入说 entry to the building。entrance exam 是入学考试。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-119",
+      "number": 119,
+      "wordIds": [
+        "word-97488fbab3282166",
+        "word-0d015bafffbb48c3",
+        "word-603ec1f360e29852"
+      ],
+      "entries": [
+        {
+          "wordId": "word-97488fbab3282166",
+          "meaningZh": "v./n. 指控；收费；充电；费用",
+          "definitionEn": "To formally accuse someone, ask a price, or supply electrical energy.",
+          "scenario": "指控义常为正式指控；其他常用义包括收费和充电",
+          "collocations": [
+            "charge sb with sth",
+            "charge for",
+            "charge a battery"
+          ],
+          "examples": [
+            {
+              "en": "He was charged with theft.",
+              "zh": "他被正式指控盗窃。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-0d015bafffbb48c3",
+          "meaningZh": "v. 起诉；提起诉讼",
+          "definitionEn": "To bring a legal claim against a person or organization.",
+          "scenario": "强调向法院提起诉讼，常见于索赔等民事语境",
+          "collocations": [
+            "sue sb for damages",
+            "sue for breach of contract"
+          ],
+          "examples": [
+            {
+              "en": "She sued the company for damages.",
+              "zh": "她起诉该公司要求赔偿。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-603ec1f360e29852",
+          "meaningZh": "v. 指责；控告",
+          "definitionEn": "To say that someone has done something wrong or illegal.",
+          "scenario": "可用于日常指责或法律语境，本身不表示已正式起诉",
+          "collocations": [
+            "accuse sb of sth",
+            "accuse sb of doing sth"
+          ],
+          "examples": [
+            {
+              "en": "They accused him of lying.",
+              "zh": "他们指责他说谎。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "accuse sb of doing 是指责某人做了某事；charge sb with sth 常表示正式指控；sue sb for sth 是提起诉讼或要求赔偿。指控不等于定罪。三者句型不同，不要写 accuse sb for 或 charge sb of。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-120",
+      "number": 120,
+      "wordIds": [
+        "word-f0a289923ed634ac",
+        "word-8272f44ab327f350"
+      ],
+      "entries": [
+        {
+          "wordId": "word-f0a289923ed634ac",
+          "meaningZh": "v./n. 包裹；披肩；卷饼",
+          "definitionEn": "To cover something by folding material around it; also a loose outer covering or garment.",
+          "scenario": "动词强调用材料包住；名词可泛指披肩等裹身衣物",
+          "collocations": [
+            "wrap A in B",
+            "wrap B around A",
+            "a wrap"
+          ],
+          "examples": [
+            {
+              "en": "She wrapped a scarf around her neck.",
+              "zh": "她把围巾围在脖子上。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-8272f44ab327f350",
+          "meaningZh": "n. 长披肩；v. steal 的过去式",
+          "definitionEn": "A long narrow scarf worn over the shoulders; also the past tense of steal.",
+          "scenario": "名词常指搭在肩上的长条披肩；动词形式表示偷了",
+          "collocations": [
+            "a silk stole",
+            "wear a stole",
+            "steal–stole–stolen"
+          ],
+          "examples": [
+            {
+              "en": "She wore a silk stole over her dress.",
+              "zh": "她在连衣裙外披了一条丝绸长披肩。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "wrap 作动词表示包裹，也可作名词表示披肩；stole 作名词是长条披肩，比 wrap 更具体。stole 还可能是 steal 的过去式：Someone stole my bag.（有人偷了我的包。）",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-121",
+      "number": 121,
+      "wordIds": [
+        "word-0a60353a3fd8b779",
+        "word-6197595503f01ee2"
+      ],
+      "entries": [
+        {
+          "wordId": "word-0a60353a3fd8b779",
+          "meaningZh": "v. 消除；排除；淘汰",
+          "definitionEn": "To remove something unwanted or exclude someone from further consideration or competition.",
+          "scenario": "侧重去掉问题、可能性或比赛对手，使其不再起作用",
+          "collocations": [
+            "eliminate errors",
+            "eliminate a possibility",
+            "be eliminated from"
+          ],
+          "examples": [
+            {
+              "en": "We need to eliminate unnecessary costs.",
+              "zh": "我们需要削减不必要的开支。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-6197595503f01ee2",
+          "meaningZh": "v. 删除",
+          "definitionEn": "To remove written text or stored computer data.",
+          "scenario": "侧重删除文字、文件或数据，不保证数据无法恢复",
+          "collocations": [
+            "delete a file",
+            "delete a sentence",
+            "delete sth from"
+          ],
+          "examples": [
+            {
+              "en": "I deleted the duplicate file.",
+              "zh": "我删除了重复文件。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "eliminate 常用于消除错误、排除可能性和淘汰选手；delete 常用于删除文字或电子数据。删除一条错误信息可用 delete，消除系统性错误常用 eliminate；两者有重叠但不能处处互换。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-122",
+      "number": 122,
+      "wordIds": [
+        "word-a6e42a44e79e131a",
+        "word-784304f88c91dc66"
+      ],
+      "entries": [
+        {
+          "wordId": "word-a6e42a44e79e131a",
+          "meaningZh": "n. 储物柜；内阁",
+          "definitionEn": "A storage cupboard, often with doors or drawers; also a group of senior government ministers.",
+          "scenario": "常指有门、可带抽屉的储物柜；政治义指内阁",
+          "collocations": [
+            "a kitchen cabinet",
+            "a filing cabinet",
+            "the Cabinet"
+          ],
+          "examples": [
+            {
+              "en": "The plates are in the kitchen cabinet.",
+              "zh": "盘子在厨房的柜子里。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-784304f88c91dc66",
+          "meaningZh": "n. 壁橱；衣橱",
+          "definitionEn": "A cupboard or small enclosed space used especially for storing clothes.",
+          "scenario": "美式常指嵌入式储物空间或放衣服的小空间；英式常用 wardrobe 表示衣橱",
+          "collocations": [
+            "a clothes closet",
+            "a walk-in closet",
+            "closet space"
+          ],
+          "examples": [
+            {
+              "en": "She hung her coat in the closet.",
+              "zh": "她把外套挂进衣橱。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "cabinet 常指储物柜，不限于衣物；closet 在美式英语中常指壁橱或放衣服的储物空间。cabinet 另有内阁义；closet 不要求一定能走进去，能步入的叫 walk-in closet。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-123",
+      "number": 123,
+      "wordIds": [
+        "word-9cd0ed6852091b50",
+        "word-83fa74e70278e5b9"
+      ],
+      "entries": [
+        {
+          "wordId": "word-9cd0ed6852091b50",
+          "meaningZh": "v. 渴望；迫切想要",
+          "definitionEn": "To feel a very strong desire for something.",
+          "scenario": "表达强烈欲望，常用于食物、关注、认可；通常直接接宾语",
+          "collocations": [
+            "crave chocolate",
+            "crave attention",
+            "crave approval"
+          ],
+          "examples": [
+            {
+              "en": "I often crave chocolate after dinner.",
+              "zh": "晚饭后我常常特别想吃巧克力。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-83fa74e70278e5b9",
+          "meaningZh": "v./n. 渴望；愿望",
+          "definitionEn": "To want something, or a strong wish to have or do something.",
+          "scenario": "含义较宽，作动词往往比 want 正式；可接名词或不定式",
+          "collocations": [
+            "desire sth",
+            "desire to do",
+            "a desire for"
+          ],
+          "examples": [
+            {
+              "en": "She has a strong desire to learn.",
+              "zh": "她有强烈的学习愿望。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "crave 比一般的 desire 更强调强烈、迫切的欲望；desire 范围较广且作动词较正式。通常说 crave something，不必加 for；名词 craving 可用 a craving for。desire to do 表示渴望做某事。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-124",
+      "number": 124,
+      "wordIds": [
+        "word-d7cea7305a333d5c"
+      ],
+      "entries": [
+        {
+          "wordId": "word-d7cea7305a333d5c",
+          "meaningZh": "n./v. 芯片；碎片；缺口；薯条／薯片；筹码；使崩缺",
+          "definitionEn": "A small electronic component, a small broken piece or mark, a snack, or a gaming token; as a verb, to break off a small piece.",
+          "scenario": "按语境辨义：英式 chips 常指薯条，美式 chips 常指薄脆薯片",
+          "collocations": [
+            "a computer chip",
+            "a chip in the cup",
+            "potato chips",
+            "chip in"
+          ],
+          "examples": [
+            {
+              "en": "This phone uses a powerful chip.",
+              "zh": "这部手机使用了一枚性能强大的芯片。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "chip 常见义：a computer chip 芯片；wood chips 木屑；a chip in a cup 杯沿缺口；poker chips 扑克筹码。英式 fish and chips 中 chips 是薯条；美式 potato chips 通常是薯片，英式常称 crisps。chip in 可指凑钱或插话：We each chipped in five pounds.（我们每人凑了五英镑。）动词例：I chipped the plate.（我把盘子磕出了缺口。）",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -15711,6 +16032,495 @@
         "group-117"
       ],
       "source": "recent vocabulary comparisons 2026-11-02",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-923fe53966c6cd93",
+      "lemma": "entry",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 进入；参赛作品；条目",
+      "definitionEn": "The act of entering, a submitted item, or an item in a record.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调进入行为、资格或记录，不专指门口",
+      "collocations": [
+        "entry to",
+        "an entry in a dictionary",
+        "an entry fee"
+      ],
+      "examples": [
+        {
+          "en": "Entry to the museum is free.",
+          "zh": "博物馆免费入场。"
+        }
+      ],
+      "correctUsage": "Entry to the museum is free.",
+      "commonMistakes": "entry 常强调进入的行为、资格、参赛作品或记录条目；entrance 常强调入口位置，也可表示进入的动作。入口说 the entrance to the building；准入说 entry to the building。entrance exam 是入学考试。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-118"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-3902eb874fcc6c8a",
+      "lemma": "entrance",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 入口；进入",
+      "definitionEn": "A place where people enter, or the act of entering.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "常指可以走进去的入口，也可指进场动作",
+      "collocations": [
+        "the entrance to",
+        "make an entrance",
+        "an entrance exam"
+      ],
+      "examples": [
+        {
+          "en": "Meet me at the main entrance.",
+          "zh": "在正门口等我。"
+        }
+      ],
+      "correctUsage": "Meet me at the main entrance.",
+      "commonMistakes": "entry 常强调进入的行为、资格、参赛作品或记录条目；entrance 常强调入口位置，也可表示进入的动作。入口说 the entrance to the building；准入说 entry to the building。entrance exam 是入学考试。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-118"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-97488fbab3282166",
+      "lemma": "charge",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 指控；收费；充电；费用",
+      "definitionEn": "To formally accuse someone, ask a price, or supply electrical energy.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "指控义常为正式指控；其他常用义包括收费和充电",
+      "collocations": [
+        "charge sb with sth",
+        "charge for",
+        "charge a battery"
+      ],
+      "examples": [
+        {
+          "en": "He was charged with theft.",
+          "zh": "他被正式指控盗窃。"
+        }
+      ],
+      "correctUsage": "He was charged with theft.",
+      "commonMistakes": "accuse sb of doing 是指责某人做了某事；charge sb with sth 常表示正式指控；sue sb for sth 是提起诉讼或要求赔偿。指控不等于定罪。三者句型不同，不要写 accuse sb for 或 charge sb of。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-119"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-0d015bafffbb48c3",
+      "lemma": "sue",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 起诉；提起诉讼",
+      "definitionEn": "To bring a legal claim against a person or organization.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调向法院提起诉讼，常见于索赔等民事语境",
+      "collocations": [
+        "sue sb for damages",
+        "sue for breach of contract"
+      ],
+      "examples": [
+        {
+          "en": "She sued the company for damages.",
+          "zh": "她起诉该公司要求赔偿。"
+        }
+      ],
+      "correctUsage": "She sued the company for damages.",
+      "commonMistakes": "accuse sb of doing 是指责某人做了某事；charge sb with sth 常表示正式指控；sue sb for sth 是提起诉讼或要求赔偿。指控不等于定罪。三者句型不同，不要写 accuse sb for 或 charge sb of。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-119"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-603ec1f360e29852",
+      "lemma": "accuse",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 指责；控告",
+      "definitionEn": "To say that someone has done something wrong or illegal.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "可用于日常指责或法律语境，本身不表示已正式起诉",
+      "collocations": [
+        "accuse sb of sth",
+        "accuse sb of doing sth"
+      ],
+      "examples": [
+        {
+          "en": "They accused him of lying.",
+          "zh": "他们指责他说谎。"
+        }
+      ],
+      "correctUsage": "They accused him of lying.",
+      "commonMistakes": "accuse sb of doing 是指责某人做了某事；charge sb with sth 常表示正式指控；sue sb for sth 是提起诉讼或要求赔偿。指控不等于定罪。三者句型不同，不要写 accuse sb for 或 charge sb of。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-119"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-f0a289923ed634ac",
+      "lemma": "wrap",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 包裹；披肩；卷饼",
+      "definitionEn": "To cover something by folding material around it; also a loose outer covering or garment.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "动词强调用材料包住；名词可泛指披肩等裹身衣物",
+      "collocations": [
+        "wrap A in B",
+        "wrap B around A",
+        "a wrap"
+      ],
+      "examples": [
+        {
+          "en": "She wrapped a scarf around her neck.",
+          "zh": "她把围巾围在脖子上。"
+        }
+      ],
+      "correctUsage": "She wrapped a scarf around her neck.",
+      "commonMistakes": "wrap 作动词表示包裹，也可作名词表示披肩；stole 作名词是长条披肩，比 wrap 更具体。stole 还可能是 steal 的过去式：Someone stole my bag.（有人偷了我的包。）",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-120"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-8272f44ab327f350",
+      "lemma": "stole",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 长披肩；v. steal 的过去式",
+      "definitionEn": "A long narrow scarf worn over the shoulders; also the past tense of steal.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "名词常指搭在肩上的长条披肩；动词形式表示偷了",
+      "collocations": [
+        "a silk stole",
+        "wear a stole",
+        "steal–stole–stolen"
+      ],
+      "examples": [
+        {
+          "en": "She wore a silk stole over her dress.",
+          "zh": "她在连衣裙外披了一条丝绸长披肩。"
+        }
+      ],
+      "correctUsage": "She wore a silk stole over her dress.",
+      "commonMistakes": "wrap 作动词表示包裹，也可作名词表示披肩；stole 作名词是长条披肩，比 wrap 更具体。stole 还可能是 steal 的过去式：Someone stole my bag.（有人偷了我的包。）",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-120"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-0a60353a3fd8b779",
+      "lemma": "eliminate",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 消除；排除；淘汰",
+      "definitionEn": "To remove something unwanted or exclude someone from further consideration or competition.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "侧重去掉问题、可能性或比赛对手，使其不再起作用",
+      "collocations": [
+        "eliminate errors",
+        "eliminate a possibility",
+        "be eliminated from"
+      ],
+      "examples": [
+        {
+          "en": "We need to eliminate unnecessary costs.",
+          "zh": "我们需要削减不必要的开支。"
+        }
+      ],
+      "correctUsage": "We need to eliminate unnecessary costs.",
+      "commonMistakes": "eliminate 常用于消除错误、排除可能性和淘汰选手；delete 常用于删除文字或电子数据。删除一条错误信息可用 delete，消除系统性错误常用 eliminate；两者有重叠但不能处处互换。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-121"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-6197595503f01ee2",
+      "lemma": "delete",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 删除",
+      "definitionEn": "To remove written text or stored computer data.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "侧重删除文字、文件或数据，不保证数据无法恢复",
+      "collocations": [
+        "delete a file",
+        "delete a sentence",
+        "delete sth from"
+      ],
+      "examples": [
+        {
+          "en": "I deleted the duplicate file.",
+          "zh": "我删除了重复文件。"
+        }
+      ],
+      "correctUsage": "I deleted the duplicate file.",
+      "commonMistakes": "eliminate 常用于消除错误、排除可能性和淘汰选手；delete 常用于删除文字或电子数据。删除一条错误信息可用 delete，消除系统性错误常用 eliminate；两者有重叠但不能处处互换。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-121"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-a6e42a44e79e131a",
+      "lemma": "cabinet",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 储物柜；内阁",
+      "definitionEn": "A storage cupboard, often with doors or drawers; also a group of senior government ministers.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "常指有门、可带抽屉的储物柜；政治义指内阁",
+      "collocations": [
+        "a kitchen cabinet",
+        "a filing cabinet",
+        "the Cabinet"
+      ],
+      "examples": [
+        {
+          "en": "The plates are in the kitchen cabinet.",
+          "zh": "盘子在厨房的柜子里。"
+        }
+      ],
+      "correctUsage": "The plates are in the kitchen cabinet.",
+      "commonMistakes": "cabinet 常指储物柜，不限于衣物；closet 在美式英语中常指壁橱或放衣服的储物空间。cabinet 另有内阁义；closet 不要求一定能走进去，能步入的叫 walk-in closet。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-122"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-784304f88c91dc66",
+      "lemma": "closet",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 壁橱；衣橱",
+      "definitionEn": "A cupboard or small enclosed space used especially for storing clothes.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "美式常指嵌入式储物空间或放衣服的小空间；英式常用 wardrobe 表示衣橱",
+      "collocations": [
+        "a clothes closet",
+        "a walk-in closet",
+        "closet space"
+      ],
+      "examples": [
+        {
+          "en": "She hung her coat in the closet.",
+          "zh": "她把外套挂进衣橱。"
+        }
+      ],
+      "correctUsage": "She hung her coat in the closet.",
+      "commonMistakes": "cabinet 常指储物柜，不限于衣物；closet 在美式英语中常指壁橱或放衣服的储物空间。cabinet 另有内阁义；closet 不要求一定能走进去，能步入的叫 walk-in closet。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-122"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-9cd0ed6852091b50",
+      "lemma": "crave",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 渴望；迫切想要",
+      "definitionEn": "To feel a very strong desire for something.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "表达强烈欲望，常用于食物、关注、认可；通常直接接宾语",
+      "collocations": [
+        "crave chocolate",
+        "crave attention",
+        "crave approval"
+      ],
+      "examples": [
+        {
+          "en": "I often crave chocolate after dinner.",
+          "zh": "晚饭后我常常特别想吃巧克力。"
+        }
+      ],
+      "correctUsage": "I often crave chocolate after dinner.",
+      "commonMistakes": "crave 比一般的 desire 更强调强烈、迫切的欲望；desire 范围较广且作动词较正式。通常说 crave something，不必加 for；名词 craving 可用 a craving for。desire to do 表示渴望做某事。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-123"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-83fa74e70278e5b9",
+      "lemma": "desire",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 渴望；愿望",
+      "definitionEn": "To want something, or a strong wish to have or do something.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "含义较宽，作动词往往比 want 正式；可接名词或不定式",
+      "collocations": [
+        "desire sth",
+        "desire to do",
+        "a desire for"
+      ],
+      "examples": [
+        {
+          "en": "She has a strong desire to learn.",
+          "zh": "她有强烈的学习愿望。"
+        }
+      ],
+      "correctUsage": "She has a strong desire to learn.",
+      "commonMistakes": "crave 比一般的 desire 更强调强烈、迫切的欲望；desire 范围较广且作动词较正式。通常说 crave something，不必加 for；名词 craving 可用 a craving for。desire to do 表示渴望做某事。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-123"
+      ],
+      "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-d7cea7305a333d5c",
+      "lemma": "chip",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 芯片；碎片；缺口；薯条／薯片；筹码；使崩缺",
+      "definitionEn": "A small electronic component, a small broken piece or mark, a snack, or a gaming token; as a verb, to break off a small piece.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "按语境辨义：英式 chips 常指薯条，美式 chips 常指薄脆薯片",
+      "collocations": [
+        "a computer chip",
+        "a chip in the cup",
+        "potato chips",
+        "chip in"
+      ],
+      "examples": [
+        {
+          "en": "This phone uses a powerful chip.",
+          "zh": "这部手机使用了一枚性能强大的芯片。"
+        }
+      ],
+      "correctUsage": "This phone uses a powerful chip.",
+      "commonMistakes": "chip 常见义：a computer chip 芯片；wood chips 木屑；a chip in a cup 杯沿缺口；poker chips 扑克筹码。英式 fish and chips 中 chips 是薯条；美式 potato chips 通常是薯片，英式常称 crisps。chip in 可指凑钱或插话：We each chipped in five pounds.（我们每人凑了五英镑。）动词例：I chipped the plate.（我把盘子磕出了缺口。）",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-124"
+      ],
+      "source": "vocabulary update 2026-11-03",
       "reviewStatus": "reviewed"
     }
   ],

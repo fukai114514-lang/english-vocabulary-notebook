@@ -402,3 +402,24 @@ moist|adj. 湿润的；含水分的|常指适量水分，尤用于土壤、皮�
 wet|adj. 湿的；被液体浸湿的；v. 弄湿|最通用，可说头发、衣服或路面有水，也可指多雨天气|wet hair; get wet; soaking wet; wet weather|My shoes got wet in the rain. → 我的鞋被雨淋湿了。
 damp|adj. 微湿的；潮湿的|通常只有少量水分，常用于衣服、墙壁或空气，往往令人不适|a damp towel; damp clothes; a damp room|The clothes are still damp. → 衣服还有点潮。
 humid|adj. 空气潮湿的；湿热的|强调空气水汽多，常用于天气和气候；不必然表示气温高|humid air; a humid climate; hot and humid|Summers here are hot and humid. → 这里夏天炎热潮湿。
+# 118
+entry|n. 进入；参赛作品；条目|强调进入行为、资格或记录，不专指门口|entry to; an entry in a dictionary; an entry fee|Entry to the museum is free. → 博物馆免费入场。
+entrance|n. 入口；进入|常指可以走进去的入口，也可指进场动作|the entrance to; make an entrance; an entrance exam|Meet me at the main entrance. → 在正门口等我。
+# 119
+charge|v./n. 指控；收费；充电；费用|指控义常为正式指控；其他常用义包括收费和充电|charge sb with sth; charge for; charge a battery|He was charged with theft. → 他被正式指控盗窃。
+sue|v. 起诉；提起诉讼|强调向法院提起诉讼，常见于索赔等民事语境|sue sb for damages; sue for breach of contract|She sued the company for damages. → 她起诉该公司要求赔偿。
+accuse|v. 指责；控告|可用于日常指责或法律语境，本身不表示已正式起诉|accuse sb of sth; accuse sb of doing sth|They accused him of lying. → 他们指责他说谎。
+# 120
+wrap|v./n. 包裹；披肩；卷饼|动词强调用材料包住；名词可泛指披肩等裹身衣物|wrap A in B; wrap B around A; a wrap|She wrapped a scarf around her neck. → 她把围巾围在脖子上。
+stole|n. 长披肩；v. steal 的过去式|名词常指搭在肩上的长条披肩；动词形式表示偷了|a silk stole; wear a stole; steal–stole–stolen|She wore a silk stole over her dress. → 她在连衣裙外披了一条丝绸长披肩。
+# 121
+eliminate|v. 消除；排除；淘汰|侧重去掉问题、可能性或比赛对手，使其不再起作用|eliminate errors; eliminate a possibility; be eliminated from|We need to eliminate unnecessary costs. → 我们需要削减不必要的开支。
+delete|v. 删除|侧重删除文字、文件或数据，不保证数据无法恢复|delete a file; delete a sentence; delete sth from|I deleted the duplicate file. → 我删除了重复文件。
+# 122
+cabinet|n. 储物柜；内阁|常指有门、可带抽屉的储物柜；政治义指内阁|a kitchen cabinet; a filing cabinet; the Cabinet|The plates are in the kitchen cabinet. → 盘子在厨房的柜子里。
+closet|n. 壁橱；衣橱|美式常指嵌入式储物空间或放衣服的小空间；英式常用 wardrobe 表示衣橱|a clothes closet; a walk-in closet; closet space|She hung her coat in the closet. → 她把外套挂进衣橱。
+# 123
+crave|v. 渴望；迫切想要|表达强烈欲望，常用于食物、关注、认可；通常直接接宾语|crave chocolate; crave attention; crave approval|I often crave chocolate after dinner. → 晚饭后我常常特别想吃巧克力。
+desire|v./n. 渴望；愿望|含义较宽，作动词往往比 want 正式；可接名词或不定式|desire sth; desire to do; a desire for|She has a strong desire to learn. → 她有强烈的学习愿望。
+# 124
+chip|n./v. 芯片；碎片；缺口；薯条／薯片；筹码；使崩缺|按语境辨义：英式 chips 常指薯条，美式 chips 常指薄脆薯片|a computer chip; a chip in the cup; potato chips; chip in|This phone uses a powerful chip. → 这部手机使用了一枚性能强大的芯片。
