@@ -16,12 +16,12 @@
     "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "content/render.py": {
-    "sha256": "97bfa0bdd18893893a56a68b1844ed60feb783a3df78e58d5b43ea0500e68333",
-    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
+    "sha256": "f2a245e2d7ffadfc1b4082fb8822bf409496de15097756719331a3be343c9a74",
+    "reason": "User requested two uploaded reading articles; added 24 paragraphs and translations, navigation, search and dictionary. Existing content verified unchanged."
   },
   "dist/index.html": {
-    "sha256": "26b22320896dd2552bd2e5cd45f9d1b7f7f4c486a04278bdd8af453cd83f766f",
-    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
+    "sha256": "8ec6562beb7c74f622eacabe536a4829bda7958cf3176707d4a8b6e13fab6236",
+    "reason": "User requested two uploaded reading articles; added 24 paragraphs and translations, navigation, search and dictionary. Existing content verified unchanged."
   },
   "dist/polysemy.json": {
     "sha256": "d28cc196c68ef58047067feeeaa8cba5e238a0fe4a787e84be2cbdae0496027f",

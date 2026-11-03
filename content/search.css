@@ -7,7 +7,7 @@
 #search-results a{display:inline-block;min-height:32px;padding:4px 0}#search-results mark{border-radius:3px;padding:0 1px}
 @media(max-width:620px){#search{font-size:16px;min-height:44px}#lookup-card{max-height:40dvh;bottom:max(12px,env(safe-area-inset-bottom))}#lookup-card a{padding:8px 0;min-height:28px}}
 
-#nap-text .lookup-word,#nap-part .part-heading .lookup-word{appearance:none;border:0;border-radius:0;box-shadow:none;background:transparent;color:inherit;font:inherit;line-height:inherit;text-decoration:none;padding:0;margin:0;min-height:0;letter-spacing:inherit}
+#nap-part .lookup-word{appearance:none;border:0;border-radius:0;box-shadow:none;background:transparent;color:inherit;font:inherit;line-height:inherit;text-decoration:none;padding:0;margin:0;min-height:0;letter-spacing:inherit}
 
 /* Keep touch feedback on the letters, without the browser's tap overlay. */
 #nap-part .lookup-word, #lookup-card button {

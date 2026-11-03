@@ -99,7 +99,7 @@
    for(const row of rows.filter(r=>r.target&&!chosen.includes(r))){const link=document.createElement('a');link.href='#'+row.target;link.textContent='相关 '+row.kind+' · '+row.title;link.onclick=e=>{e.preventDefault();followReference(row.target)};body.append(link);}
    if(!dialog.open)dialog.show();dialog.scrollTop=0;close.focus({preventScroll:true});
   }
-  for(const p of [...paper.querySelectorAll('.nap-paragraph'),document.querySelector('#nap-part > .part-heading h2')].filter(Boolean)){
+  for(const p of [...document.querySelectorAll('#nap-text .nap-paragraph,.reading-text .nap-paragraph,.reading-title'),document.querySelector('#nap-part > .part-heading h2')].filter(Boolean)){
    const walker=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode()){if(!walker.currentNode.parentElement.closest('strong,button,a,script,style,select,textarea,input,nav,.tools,footer,#count,#search-results'))nodes.push(walker.currentNode)}
    for(const node of nodes){const text=node.textContent;const re=/(?:[A-Za-z]\.){2,}|[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;let m,at=0,changed=false;const fragment=document.createDocumentFragment();
     while((m=re.exec(text))){const token=norm(m[0]).replace(/’/g,"'");const key=variants(token).find(x=>candidates.has(x))||token;fragment.append(document.createTextNode(text.slice(at,m.index)));const b=document.createElement('button');b.className='lookup-word';b.type='button';b.textContent=m[0];b.dataset.lookup=key;b.setAttribute('aria-haspopup','dialog');b.setAttribute('aria-label','查看 '+m[0]+' 的中文意思和英文释义');b.onclick=e=>{e.preventDefault();e.stopPropagation();lookup(b)};fragment.append(b);at=m.index+m[0].length;changed=true;}

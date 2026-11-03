@@ -27,6 +27,8 @@ def build():
   for s in e['senses']:
    add(s['id'],'多义词',e['word'],s['id'],{'词条':e['word'],'词性':s['partOfSpeech'],'释义':s['meaningZh'],'英文释义':s['definitionEn'],'搭配':e['notes'],'例句':s['example']['en'],'例句译文':s['example']['zh']})
  for letter,text in nap['paragraphs'].items():add('article-'+letter,'阅读文章',nap['title']+' ['+letter+']','nap-'+letter,{'原文':text,'译文':nap.get('translationZh',{}).get(letter,'')})
+ for article in read('content/reading_articles.json'):
+  for letter,text in article['paragraphs'].items():add(article['id']+'-'+letter,'阅读文章',article['title']+' ['+letter+']',article['id']+'-'+letter,{'原文':text,'译文':article['translationZh'][letter]})
  for n,row in enumerate(nap['vocabulary']):add('reading-word-'+str(n),'阅读词汇',row[0],'nap-word-'+str(n),dict(zip(['词条','释义','英文释义','搭配'],row)))
  for n,row in enumerate(nap['phrases']):add('reading-phrase-'+str(n),'短语',row[0],'nap-phrase-'+str(n),{'词条':row[0],'释义':row[1]})
  (ROOT/'dist/search-index.json').write_text(json.dumps({'schemaVersion':1,'records':rows},ensure_ascii=False,indent=2)+'\n')

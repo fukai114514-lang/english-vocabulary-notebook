@@ -13,7 +13,7 @@ class Parser(HTMLParser):
 p=Parser();p.feed(page);assert len(p.ids)==len(set(p.ids)),'duplicate anchors'
 assert all(r['target'] in p.ids for r in idx),'broken search target'
 assert len({r['id'] for r in idx})==len(idx)
-counts=Counter(r['kind'] for r in idx);assert counts=={'词汇辨析':sum(1+len(g['entries']) for g in load('content/vocabulary.json')['groups']),'多义词':349,'阅读文章':20,'阅读词汇':32,'短语':33},counts
+counts=Counter(r['kind'] for r in idx);assert counts=={'词汇辨析':sum(1+len(g['entries']) for g in load('content/vocabulary.json')['groups']),'多义词':349,'阅读文章':44,'阅读词汇':32,'短语':33},counts
 assert list(nap['translationZh'])==list('ABCDEFGHIJKLMNOPQRST')
 assert all(nap['translationZh'][k].strip() for k in nap['paragraphs'])
 assert page.index('id="nap-T"') < page.index('id="nap-translation"')
