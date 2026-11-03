@@ -11,10 +11,24 @@ def add_readings():
   zh=''.join(f'<p class="nap-paragraph" id="{key}-zh-{n}"><strong>[{n}]</strong> {e(t)}</p>' for n,t in a['translationZh'].items())
   note='<p class="sub">F 段末句按所提供的纸面原文保留；该句语句残缺。</p>' if key=='motherhood' else ''
   sections.append(f'<article id="{key}-article"><h2 lang="en" class="reading-title">{e(a["title"])}</h2><p>{e(a["titleZh"])}</p><div class="nap-jump"><a href="#{key}-text">原文</a><a href="#{key}-translation">全文译文</a></div><div class="nap-paper reading-text" id="{key}-text" lang="en">{en}</div>{note}<div class="nap-paper" id="{key}-translation" lang="zh-CN"><h3>全文译文</h3>{zh}</div></article>')
- page=page.replace('<div id="nap-text"', '<div class="nap-jump" aria-label="阅读目录"><a href="#nap-text">午睡文章</a>'+''.join(f'<a href="#{a["id"]}-article">{e(a["titleZh"])}</a>' for a in articles)+'</div><div id="nap-text"',1)
- assert '</section><footer>' in page
- page=page.replace('</section><footer>',''.join(sections)+'</section><footer>',1)
- page=page.replace("id.startsWith('nap-')?'nap'", "(id.startsWith('nap-')||id.startsWith('motherhood-')||id.startsWith('vpn-privacy-'))?'nap'")
+ start=page.index('<section id="nap-part"')
+ end=page.index('</section><footer>',start)+len('</section>')
+ nap=page[start:end].split('>',1)[1].removesuffix('</section>')
+ nap_title=json.loads((ROOT/'content/nap_article.json').read_text())['title']
+ pages=[('nap',nap_title,nap)]+[(a['id'],a['title'],body) for a,body in zip(articles,sections)]
+ links=[]
+ style=page.split('<style>',1)[1].split('</style>',1)[0]
+ for slug,title,body in pages:
+  filename=slug+'.html'
+  links.append(f'<p><a href="{filename}">{e(title)}</a></p>')
+  document=(f'<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title>'
+            f'<style>{style}main{{max-width:800px;margin:auto;padding:18px}} #reader .lookup-word{{font:inherit;color:inherit;background:transparent;border:0;padding:0}}</style>'
+            '<link rel="stylesheet" href="./search.css"><main><a href="index.html#nap-part">← 阅读目录</a><p id="reader-status" role="status"></p>'
+            f'<section id="reader" class="nap-part">{body}</section><a href="index.html#nap-part">返回阅读目录</a></main><script src="./reader.js"></script></html>')
+  (ROOT/'dist'/filename).write_text(document)
+ directory='<section id="nap-part" class="nap-part"><h2>阅读目录</h2>'+''.join(links)+'</section>'
+ page=page[:start]+directory+page[end:]
  page=page.replace('午睡文章 · A—T 段 · 词汇与短语','阅读文章 · 3 篇')
  p.write_text(page)
- (ROOT/'dist/reading_articles.json').write_bytes((ROOT/'content/reading_articles.json').read_bytes())
+ for name in ['reader.js','reading_articles.json']:
+  (ROOT/'dist'/name).write_bytes((ROOT/'content'/name).read_bytes())

@@ -20,7 +20,7 @@
     "reason": "User requested two uploaded reading articles; added 24 paragraphs and translations, navigation, search and dictionary. Existing content verified unchanged."
   },
   "dist/index.html": {
-    "sha256": "8ec6562beb7c74f622eacabe536a4829bda7958cf3176707d4a8b6e13fab6236",
+    "sha256": "e09c72dea8650efdee1978678d482265e50e03f21e377075bf5ea85feef98a1e",
     "reason": "User requested two uploaded reading articles; added 24 paragraphs and translations, navigation, search and dictionary. Existing content verified unchanged."
   },
   "dist/polysemy.json": {

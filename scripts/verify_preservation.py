@@ -23,7 +23,7 @@ def verify():
   assert Counter(canonical({k:s[k] for k in fields}) for s in a['senses'])==Counter(canonical({k:s[k] for k in fields}) for s in b['senses']),a['word']
  oldn=read('migration/original-nap_article.json');newn=read('content/nap_article.json')
  assert all(newn[k]==v for k,v in oldn.items()),'Original article data changed'
- page=(ROOT/'dist/index.html').read_text()
+ page=''.join(f.read_text() for f in sorted((ROOT/'dist').glob('*.html')))
  for a in newn.get('translationZh',{}).values():assert html.escape(a) in page
  print('PASS preservation: exact original groups/words; 349 retained sense records as multisets; all original article fields unchanged')
 if __name__=='__main__':verify()

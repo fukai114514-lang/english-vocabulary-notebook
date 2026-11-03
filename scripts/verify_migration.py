@@ -14,7 +14,7 @@ assert not changed, f'Content changed: {changed}. Review content diff before exp
 if reviewed:
     from verify_preservation import verify
     verify()
-page = (ROOT / 'dist/index.html').read_text()
+page = ''.join(f.read_text() for f in sorted((ROOT/'dist').glob('*.html')))
 catalog = json.loads((ROOT / 'dist/vocabulary.json').read_text())
 poly = json.loads((ROOT / 'dist/polysemy.json').read_text())
 nap = json.loads((ROOT / 'content/nap_article.json').read_text())
