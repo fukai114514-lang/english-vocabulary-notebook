@@ -19,6 +19,13 @@ jobs:
       - run: python3 content/render.py
       - run: python3 scripts/verify_migration.py
       - run: python3 scripts/verify_upgrade.py
+      - name: Check reading data and reproducible output
+        run: |
+          python3 scripts/verify_article_dictionary.py
+          python3 scripts/verify_reading_context.py
+          node --check content/reader.js
+          git diff --exit-code -- dist
+          test -z "$(git ls-files --others --exclude-standard -- dist)"
       - run: node --check content/search.js
       - run: node scripts/test_search.cjs
       - run: git diff --exit-code -- dist

@@ -7,16 +7,28 @@
 #search-results a{display:inline-block;min-height:32px;padding:4px 0}#search-results mark{border-radius:3px;padding:0 1px}
 @media(max-width:620px){#search{font-size:16px;min-height:44px}#lookup-card{max-height:40dvh;bottom:max(12px,env(safe-area-inset-bottom))}#lookup-card a{padding:8px 0;min-height:28px}}
 
-#nap-part .lookup-word{appearance:none;border:0;border-radius:0;box-shadow:none;background:transparent;color:inherit;font:inherit;line-height:inherit;text-decoration:none;padding:0;margin:0;min-height:0;letter-spacing:inherit}
+#reader .lookup-word{appearance:none;border:0;border-radius:0;box-shadow:none;background:transparent;color:inherit;font:inherit;line-height:inherit;text-decoration:none;padding:0;margin:0;min-height:0;letter-spacing:inherit}
 
 /* Keep touch feedback on the letters, without the browser's tap overlay. */
-#nap-part .lookup-word, #lookup-card button {
+#reader .lookup-word, #lookup-card button {
   -webkit-tap-highlight-color: transparent;
 }
-#nap-part .lookup-word[aria-expanded="true"] {
+#reader .lookup-word[aria-expanded="true"] {
   color: #285b41;
 }
-#nap-part .lookup-word:focus-visible {
+#reader .lookup-word:focus-visible {
   outline: 2px solid #437454;
   outline-offset: 2px;
 }
+
+.reader-settings{display:inline-flex;float:right;gap:.5em;align-items:center;color:#405c49}
+.reader-settings select{font:inherit;padding:5px;border:1px solid #aabdae;border-radius:6px;background:#fff}
+#reader{clear:both}
+#reader .nap-paragraph,.para-translation p{font-size:var(--reader-size,17px);line-height:1.8}
+.para-translation{margin:-4px 0 1em;color:#355a44}
+.para-translation summary{font-size:14px;cursor:pointer;width:fit-content;padding:5px 0}
+.para-translation p{margin:0;padding:8px 12px;border-left:2px solid #aac4ab}
+#lookup-card h2{margin:.4em 0 .15em}#lookup-card .sense-note{color:#526858;font-size:.85em}
+#lookup-card details{margin-top:.8em}#lookup-card summary{cursor:pointer}
+@media print{.para-translation,.reader-settings{display:none}}
+#reader .lookup-word.phrase-active{color:#285b41;background:#e4f0df}

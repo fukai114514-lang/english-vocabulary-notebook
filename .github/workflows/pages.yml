@@ -29,6 +29,13 @@ jobs:
         run: python3 scripts/verify_migration.py
       - name: Verify 3.0 index and anchors
         run: python3 scripts/verify_upgrade.py
+      - name: Check reading data and reproducible output
+        run: |
+          python3 scripts/verify_article_dictionary.py
+          python3 scripts/verify_reading_context.py
+          node --check content/reader.js
+          git diff --exit-code -- dist
+          test -z "$(git ls-files --others --exclude-standard -- dist)"
       - name: Back up source and history
         run: |
           mkdir -p backup

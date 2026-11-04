@@ -6,7 +6,6 @@
  const status=document.createElement('p');status.setAttribute('role','status');results.append(status);
  const groups=document.createElement('div');results.append(groups);document.querySelector('.tools').after(results);
  q.setAttribute('aria-label','全站搜索');q.placeholder='搜索单词、中文、例句或文章';q.setAttribute('aria-controls','search-results');
- let articleDictionary={},dictionaryLoaded=false;
  let records=[],loaded=false,revealing=false,loadFailed=false;
  const norm=s=>String(s).toLowerCase().trim();
  // Explicit limited rules. Irregular spellings are curated; no claim of full lemmatization.
@@ -69,8 +68,8 @@
   const specificTargets=new Set(hits.filter(x=>!x.row.id.startsWith('comparison-body-')).map(x=>x.row.target));
   const visibleHits=hits.filter(x=>!x.row.id.startsWith('comparison-body-')||!specificTargets.has(x.row.target));
   status.textContent=visibleHits.length?visibleHits.length+' 条匹配记录':'没有找到匹配内容，请尝试其他关键词。';document.querySelector('#count').textContent='全站搜索 · '+visibleHits.length+' 条匹配记录';
-  for(const kind of ['词汇辨析','多义词','阅读文章','阅读词汇','短语']){
-   const subset=visibleHits.filter(x=>x.row.kind===kind);if(!subset.length)continue;
+  for(const kind of ['精确词条','词汇辨析','多义词','阅读文章','阅读词汇','短语']){
+   const subset=visibleHits.filter(x=>x.hit.type==='精确词条'?kind==='精确词条':x.row.kind===kind);if(!subset.length)continue;
    const section=document.createElement('section'),heading=document.createElement('h2');heading.textContent=kind+' · '+subset.length;section.append(heading);
    for(const {row,hit} of subset){
     const card=document.createElement('article'),link=document.createElement('a');link.href=readerURL(row.target)||'#'+row.target;mark(link,row.title,hit.term);link.onclick=e=>{e.preventDefault();reveal(row.target)};

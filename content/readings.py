@@ -16,15 +16,18 @@ def add_readings():
  nap=page[start:end].split('>',1)[1].removesuffix('</section>')
  nap_title=json.loads((ROOT/'content/nap_article.json').read_text())['title']
  pages=[('nap',nap_title,nap)]+[(a['id'],a['title'],body) for a,body in zip(articles,sections)]
+ contexts=json.loads((ROOT/"content/reading-context.json").read_text())
  links=[]
  style=page.split('<style>',1)[1].split('</style>',1)[0]
  for slug,title,body in pages:
   filename=slug+'.html'
   links.append(f'<p><a href="{filename}">{e(title)}</a></p>')
+  page_context={key:rows for key,rows in contexts.items() if key.startswith(slug+"-")}
+  embedded=json.dumps(page_context,ensure_ascii=False).replace("<","\\u003c")
   document=(f'<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title>'
-            f'<style>{style}main{{max-width:800px;margin:auto;padding:18px}} #reader .lookup-word{{font:inherit;color:inherit;background:transparent;border:0;padding:0}}</style>'
-            '<link rel="stylesheet" href="./search.css"><main><a href="index.html#nap-part">← 阅读目录</a><p id="reader-status" role="status"></p>'
-            f'<section id="reader" class="nap-part">{body}</section><a href="index.html#nap-part">返回阅读目录</a></main><script src="./reader.js"></script></html>')
+            f'<style>{style}main{{max-width:800px;margin:auto;padding:18px}}</style>'
+            '<link rel="stylesheet" href="./search.css"><main><a href="index.html#nap-part">← 阅读目录</a><label class="reader-settings">正文字号 <select id="reader-size"><option value="17">标准</option><option value="20">大</option><option value="23">特大</option></select></label><p id="reader-status" role="status"></p>'
+            f'<section id="reader" class="nap-part">{body}</section><a href="index.html#nap-part">返回阅读目录</a></main><script id="reading-context" type="application/json">{embedded}</script><script src="./reader.js"></script></html>')
   (ROOT/'dist'/filename).write_text(document)
  directory='<section id="nap-part" class="nap-part"><h2>阅读目录</h2>'+''.join(links)+'</section>'
  page=page[:start]+directory+page[end:]
