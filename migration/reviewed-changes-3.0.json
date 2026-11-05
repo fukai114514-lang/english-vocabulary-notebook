@@ -16,39 +16,39 @@
     "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "content/render.py": {
-    "sha256": "f2a245e2d7ffadfc1b4082fb8822bf409496de15097756719331a3be343c9a74",
-    "reason": "User requested two uploaded reading articles; added 24 paragraphs and translations, navigation, search and dictionary. Existing content verified unchanged."
+    "sha256": "e59f8929793680bf4e6982f7994a0fd4ed19d9564f32ff0034df1d7989373342",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "dist/index.html": {
-    "sha256": "e09c72dea8650efdee1978678d482265e50e03f21e377075bf5ea85feef98a1e",
-    "reason": "User requested two uploaded reading articles; added 24 paragraphs and translations, navigation, search and dictionary. Existing content verified unchanged."
+    "sha256": "7e05000c901d17b317b35dfea5321dfdf6751675ac2c1de7970c7e98994b60eb",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "dist/polysemy.json": {
     "sha256": "d28cc196c68ef58047067feeeaa8cba5e238a0fe4a787e84be2cbdae0496027f",
     "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
   },
   "dist/vocabulary.json": {
-    "sha256": "5f1b81f1f0dc2998c4cbc6a4fa5982cee85946a205817b04df4345fbdc3990b5",
-    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
+    "sha256": "9a18c2c4cd323f88fb51839f11d1812a5e58c6b1089f56e88db113cc6b65a388",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "content/base.html": {
-    "sha256": "2bcac85bf7873cf6b4c4ef4e4a90b176f7cca8c27939b9ac6e0eae6f873ca1c8",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "96a386ea9aefcd3e9b86be86410a39bf6e4a879516c309a17331425ecc7807eb",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "content/comparisons.txt": {
-    "sha256": "40f88456592c707981086ff8b24c95230cd37a29eb531ba18e4936f882a12abc",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "cb51282e7ae52ce86ecc6cd3a30cda27c5964656766c59ed1b078920eba30062",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "content/english-captions.txt": {
-    "sha256": "98dab910f0360ddb278c112b38bb24ac312524c9ed4f2d48b4edb3379ad9ba0f",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "b04be570b1d3617e24be29b0b4108381c385d3dba9011375ae58a2ea105faf6c",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "content/selection-notes.txt": {
-    "sha256": "e6c71793981c2d2940f73684be473e582fb1b645af465de86fdd248ab2f96a2f",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "e151e882082d97d71f9afd90b78e1d54b4e0fdaeed2827721cc1b907cb5bdf05",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   },
   "content/vocabulary.json": {
-    "sha256": "1bc156b5c16909b53d49c4d34c95446b05a3734ff2a56221679a44e062b1481a",
-    "reason": "Append groups 118–124; original records and article preserved; search and semantic checks pass."
+    "sha256": "0d82943ca89d26fce597284e0c0f13909b851e822c6e07ebed52d13aa303d262",
+    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
   }
 }

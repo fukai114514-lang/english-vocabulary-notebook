@@ -423,3 +423,37 @@ crave|v. 渴望；迫切想要|表达强烈欲望，常用于食物、关注、�
 desire|v./n. 渴望；愿望|含义较宽，作动词往往比 want 正式；可接名词或不定式|desire sth; desire to do; a desire for|She has a strong desire to learn. → 她有强烈的学习愿望。
 # 124
 chip|n./v. 芯片；碎片；缺口；薯条／薯片；筹码；使崩缺|按语境辨义：英式 chips 常指薯条，美式 chips 常指薄脆薯片|a computer chip; a chip in the cup; potato chips; chip in|This phone uses a powerful chip. → 这部手机使用了一枚性能强大的芯片。
+# 125
+frank|adj. 坦率的；直言的|强调诚实直接地说出真实想法|be frank with sb; to be frank|To be frank, I disagree with the plan. → 坦率地说，我不同意这个计划。
+outspoken|adj. 直言不讳的|强调公开而大胆地表达意见，尤其批评|outspoken about; an outspoken critic|She is outspoken about unfair treatment. → 她对不公平待遇直言不讳。
+# 126
+tuck|v. 塞入；掖好；把……收拢|常把松散部分塞到另一物下面或里面|tuck in a shirt; tuck sb in; tuck away|He tucked his shirt into his trousers. → 他把衬衫下摆塞进裤子里。
+# 127
+probe|v./n. 探查；追问；探测器|强调深入探问、试探或用仪器检查|probe into; probe for; a space probe|The reporter probed into the reasons for the delay. → 记者深入追问延误的原因。
+investigate|v. 调查；研究|范围较广，强调系统查明事实或原因|investigate a complaint; investigate why|The team investigated the cause of the failure. → 团队调查了失败的原因。
+# 128
+snap|v./n. 啪地折断；猛地合上；厉声说；快照|常带突然、快速、清脆的感觉|snap in half; snap at sb; snap a photo|The branch snapped in the wind. → 树枝在风中啪地折断了。
+# 129
+intrigue|v./n. 激起好奇；密谋；阴谋活动|动词最常见于引起兴趣或好奇；名词也指秘密谋划|be intrigued by; political intrigue|The unusual title intrigued me. → 这个不寻常的标题激起了我的好奇心。
+plot|n./v. 情节；阴谋；地块；密谋；绘图|故事结构、具体阴谋或筹划行为，含义取决于语境|the plot of a novel; plot against; plot a graph|The novel has a complicated plot. → 这部小说的情节很复杂。
+# 130
+crisp|adj. 脆的；清新的；清晰利落的|可形容食物，也可形容空气、声音、图像或动作|crisp lettuce; crisp air; a crisp image|The lettuce is fresh and crisp. → 生菜新鲜爽脆。
+crispy|adj. 酥脆的；脆皮的|主要形容食物表面或质地，常用于油炸或烘烤食品|crispy bacon; crispy skin|Bake until the skin is crispy. → 烤到表皮酥脆。
+# 131
+contrive|v. 设法做到；谋划；设计|常暗示费心安排或用巧思达成，也可能带刻意感|contrive to do; contrive a plan|She contrived to finish the work on time. → 她设法按时完成了工作。
+# 132
+instant|adj./n. 立即的；即食的；瞬间|形容反应、食品等，也可作可数名词|instant coffee; an instant reply; in an instant|She gave an instant reply. → 她立即作出了回答。
+instantaneous|adj. 瞬时的；即刻发生的|强调几乎不耗时，常用于科学、技术或正式描述|instantaneous speed; an instantaneous change|The device measures instantaneous speed. → 该装置测量瞬时速度。
+# 133
+respect|n./v. 尊重；敬重；遵守|可指认可某人的品质，也可指尊重权利、意愿或规则|respect sb for; respect privacy; with respect to|We should respect other people's privacy. → 我们应尊重他人的隐私。
+esteem|n./v. 敬重；高度评价|偏正式，常因品质或成就而高度评价|hold sb in high esteem; be esteemed for|Her colleagues hold her in high esteem. → 同事们对她十分敬重。
+# 134
+integral|adj./n. 必不可少的；整体组成的；积分|形容词强调构成整体不可缺的一部分；名词为数学术语|an integral part of; integral to|Reading is an integral part of language learning. → 阅读是语言学习不可缺少的一部分。
+vital|adj. 至关重要的；维持生命必需的|强调对生存、成功或正常运作的必要性|vital to; vital for; vital signs|Water is vital for survival. → 水是生存所必需的。
+crucial|adj. 关键的；决定性的|强调对结果或关键阶段有决定作用|crucial to; a crucial decision; a crucial stage|This evidence is crucial to the investigation. → 这项证据对调查至关重要。
+# 135
+flush|adj./v./n. 齐平的；冲洗；脸红；红晕|齐平义强调两个表面贴合并处在同一平面|flush with; flush the toilet; flush with embarrassment|The door is flush with the wall. → 门与墙面齐平。
+level|adj./v./n. 水平的；同高的；使平整；水平或级别|范围更广，可指水平、同高、程度或等级|level with; a level surface; level the ground|The shelf is level with the window. → 架子与窗户处于同一高度。
+# 136
+commence|v. 开始|较正式，常见于公告、仪式或正式活动|commence work; commence with; commence doing|The ceremony will commence at ten. → 仪式将在十点开始。
+start|v./n. 开始；启动；起点|日常最通用，也可指启动机器或突然惊动|start doing; start to do; start the engine|Please start the engine. → 请启动发动机。

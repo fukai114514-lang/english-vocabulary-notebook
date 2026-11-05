@@ -122,3 +122,15 @@
 122|cabinet 常指储物柜，不限于衣物；closet 在美式英语中常指壁橱或放衣服的储物空间。cabinet 另有内阁义；closet 不要求一定能走进去，能步入的叫 walk-in closet。
 123|crave 比一般的 desire 更强调强烈、迫切的欲望；desire 范围较广且作动词较正式。通常说 crave something，不必加 for；名词 craving 可用 a craving for。desire to do 表示渴望做某事。
 124|chip 常见义：a computer chip 芯片；wood chips 木屑；a chip in a cup 杯沿缺口；poker chips 扑克筹码。英式 fish and chips 中 chips 是薯条；美式 potato chips 通常是薯片，英式常称 crisps。chip in 可指凑钱或插话：We each chipped in five pounds.（我们每人凑了五英镑。）动词例：I chipped the plate.（我把盘子磕出了缺口。）
+125|两者都可表示坦率。frank 强调诚实直接；outspoken 更强调公开、大胆地表达立场，不必然粗鲁。to be frank 常作插入语。
+126|tuck sth into sth 表示塞入或掖入；tuck a child in 是给孩子掖好被子；tuck away 可指藏好、收存。英式口语 tuck in 还可指开始大吃：Tuck in!（开吃吧！）
+127|probe 常带深入、试探性的意味，也可指医学探查或太空探测器；investigate 是调查的通用动词。两者都可及物，也都能接 into；不能把区别绝对化为非正式与正式。
+128|snap at sb 是对某人厉声说话；snap a photo 是快速拍照；snap one's fingers 是打响指；a snap decision 是仓促作出的决定。The dog snapped at my hand. 表示狗突然朝我的手咬去，不说明已经咬中。
+129|表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。
+130|食物语境可有重叠：crisp bacon 和 crispy bacon 都自然。crisp 的适用范围更广；清新的空气用 crisp air，一般不用 crispy air。英式 crisps 是薯片。
+131|contrive to do 常表示费了心思终于做到，也可讽刺竟然做成坏事。contrived 作形容词常指刻意的、不自然的：a contrived ending（牵强的结局）。
+132|instant 较日常，instantaneous 较正式，两者在立即发生义上有重叠。即溶咖啡固定说 instant coffee。an instant 是一瞬间；instantaneous 没有这个名词用法。
+133|respect 范围更广：respect a decision 是尊重决定，不一定赞同。esteem 强调高度评价且较正式；hold sb in high esteem 很常见。self-esteem 是自尊、自我价值感。
+134|integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。
+135|flush with 强调相接表面不凸出也不凹入；level with 常表示高度相同，不要求接触。地面水平可说 level；不能一概用 flush 替换。flush 还有冲洗、脸红和扑克牌同花等义。
+136|普通对话通常用 start；commence 更正式，但不代表事情规模一定更大。commence doing 与 commence with 常见；启动发动机用 start the engine。start a business 是创业。

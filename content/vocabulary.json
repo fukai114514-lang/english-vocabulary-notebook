@@ -6391,6 +6391,513 @@
       ],
       "selectionNote": "chip 常见义：a computer chip 芯片；wood chips 木屑；a chip in a cup 杯沿缺口；poker chips 扑克筹码。英式 fish and chips 中 chips 是薯条；美式 potato chips 通常是薯片，英式常称 crisps。chip in 可指凑钱或插话：We each chipped in five pounds.（我们每人凑了五英镑。）动词例：I chipped the plate.（我把盘子磕出了缺口。）",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-125",
+      "number": 125,
+      "wordIds": [
+        "word-77646f5a4f316663",
+        "word-fe5b0b1c5a954c1c"
+      ],
+      "entries": [
+        {
+          "wordId": "word-77646f5a4f316663",
+          "meaningZh": "adj. 坦率的；直言的",
+          "definitionEn": "To express what you honestly think in a direct way.",
+          "scenario": "强调诚实直接地说出真实想法",
+          "collocations": [
+            "be frank with sb",
+            "to be frank"
+          ],
+          "examples": [
+            {
+              "en": "To be frank, I disagree with the plan.",
+              "zh": "坦率地说，我不同意这个计划。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-fe5b0b1c5a954c1c",
+          "meaningZh": "adj. 直言不讳的",
+          "definitionEn": "Expressing opinions openly and strongly.",
+          "scenario": "强调公开而大胆地表达意见，尤其批评",
+          "collocations": [
+            "outspoken about",
+            "an outspoken critic"
+          ],
+          "examples": [
+            {
+              "en": "She is outspoken about unfair treatment.",
+              "zh": "她对不公平待遇直言不讳。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "两者都可表示坦率。frank 强调诚实直接；outspoken 更强调公开、大胆地表达立场，不必然粗鲁。to be frank 常作插入语。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-126",
+      "number": 126,
+      "wordIds": [
+        "word-cf92efd25691b65f"
+      ],
+      "entries": [
+        {
+          "wordId": "word-cf92efd25691b65f",
+          "meaningZh": "v. 塞入；掖好；把……收拢",
+          "definitionEn": "To push or fold something into a small space or secure position.",
+          "scenario": "常把松散部分塞到另一物下面或里面",
+          "collocations": [
+            "tuck in a shirt",
+            "tuck sb in",
+            "tuck away"
+          ],
+          "examples": [
+            {
+              "en": "He tucked his shirt into his trousers.",
+              "zh": "他把衬衫下摆塞进裤子里。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "tuck sth into sth 表示塞入或掖入；tuck a child in 是给孩子掖好被子；tuck away 可指藏好、收存。英式口语 tuck in 还可指开始大吃：Tuck in!（开吃吧！）",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-127",
+      "number": 127,
+      "wordIds": [
+        "word-ba9c736f19e7f60b",
+        "word-29ba6947875fa4db"
+      ],
+      "entries": [
+        {
+          "wordId": "word-ba9c736f19e7f60b",
+          "meaningZh": "v./n. 探查；追问；探测器",
+          "definitionEn": "To examine closely or ask searching questions; an instrument used to explore.",
+          "scenario": "强调深入探问、试探或用仪器检查",
+          "collocations": [
+            "probe into",
+            "probe for",
+            "a space probe"
+          ],
+          "examples": [
+            {
+              "en": "The reporter probed into the reasons for the delay.",
+              "zh": "记者深入追问延误的原因。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-29ba6947875fa4db",
+          "meaningZh": "v. 调查；研究",
+          "definitionEn": "To examine facts systematically to discover the truth or cause.",
+          "scenario": "范围较广，强调系统查明事实或原因",
+          "collocations": [
+            "investigate a complaint",
+            "investigate why"
+          ],
+          "examples": [
+            {
+              "en": "The team investigated the cause of the failure.",
+              "zh": "团队调查了失败的原因。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "probe 常带深入、试探性的意味，也可指医学探查或太空探测器；investigate 是调查的通用动词。两者都可及物，也都能接 into；不能把区别绝对化为非正式与正式。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-128",
+      "number": 128,
+      "wordIds": [
+        "word-1c27324f013705cb"
+      ],
+      "entries": [
+        {
+          "wordId": "word-1c27324f013705cb",
+          "meaningZh": "v./n. 啪地折断；猛地合上；厉声说；快照",
+          "definitionEn": "To break or move suddenly with a sharp sound, speak sharply, or take a quick photograph.",
+          "scenario": "常带突然、快速、清脆的感觉",
+          "collocations": [
+            "snap in half",
+            "snap at sb",
+            "snap a photo"
+          ],
+          "examples": [
+            {
+              "en": "The branch snapped in the wind.",
+              "zh": "树枝在风中啪地折断了。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "snap at sb 是对某人厉声说话；snap a photo 是快速拍照；snap one's fingers 是打响指；a snap decision 是仓促作出的决定。The dog snapped at my hand. 表示狗突然朝我的手咬去，不说明已经咬中。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-129",
+      "number": 129,
+      "wordIds": [
+        "word-111f44a7032e2ea4",
+        "word-0f3850ab36e9d43a"
+      ],
+      "entries": [
+        {
+          "wordId": "word-111f44a7032e2ea4",
+          "meaningZh": "v./n. 激起好奇；密谋；阴谋活动",
+          "definitionEn": "To arouse curiosity; secret planning to gain power or advantage.",
+          "scenario": "动词最常见于引起兴趣或好奇；名词也指秘密谋划",
+          "collocations": [
+            "be intrigued by",
+            "political intrigue"
+          ],
+          "examples": [
+            {
+              "en": "The unusual title intrigued me.",
+              "zh": "这个不寻常的标题激起了我的好奇心。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-0f3850ab36e9d43a",
+          "meaningZh": "n./v. 情节；阴谋；地块；密谋；绘图",
+          "definitionEn": "The events of a story, a secret plan, or a piece of land; to plan secretly or mark data on a graph.",
+          "scenario": "故事结构、具体阴谋或筹划行为，含义取决于语境",
+          "collocations": [
+            "the plot of a novel",
+            "plot against",
+            "plot a graph"
+          ],
+          "examples": [
+            {
+              "en": "The novel has a complicated plot.",
+              "zh": "这部小说的情节很复杂。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-130",
+      "number": 130,
+      "wordIds": [
+        "word-06df90ccef78b500",
+        "word-127c2817bd9e7787"
+      ],
+      "entries": [
+        {
+          "wordId": "word-06df90ccef78b500",
+          "meaningZh": "adj. 脆的；清新的；清晰利落的",
+          "definitionEn": "Firm and pleasantly brittle, or fresh, clear and precise.",
+          "scenario": "可形容食物，也可形容空气、声音、图像或动作",
+          "collocations": [
+            "crisp lettuce",
+            "crisp air",
+            "a crisp image"
+          ],
+          "examples": [
+            {
+              "en": "The lettuce is fresh and crisp.",
+              "zh": "生菜新鲜爽脆。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-127c2817bd9e7787",
+          "meaningZh": "adj. 酥脆的；脆皮的",
+          "definitionEn": "Having a pleasantly hard, brittle texture, especially when cooked.",
+          "scenario": "主要形容食物表面或质地，常用于油炸或烘烤食品",
+          "collocations": [
+            "crispy bacon",
+            "crispy skin"
+          ],
+          "examples": [
+            {
+              "en": "Bake until the skin is crispy.",
+              "zh": "烤到表皮酥脆。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "食物语境可有重叠：crisp bacon 和 crispy bacon 都自然。crisp 的适用范围更广；清新的空气用 crisp air，一般不用 crispy air。英式 crisps 是薯片。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-131",
+      "number": 131,
+      "wordIds": [
+        "word-a5ff2bcf640cfacf"
+      ],
+      "entries": [
+        {
+          "wordId": "word-a5ff2bcf640cfacf",
+          "meaningZh": "v. 设法做到；谋划；设计",
+          "definitionEn": "To manage to do something through effort or ingenuity, or devise a plan.",
+          "scenario": "常暗示费心安排或用巧思达成，也可能带刻意感",
+          "collocations": [
+            "contrive to do",
+            "contrive a plan"
+          ],
+          "examples": [
+            {
+              "en": "She contrived to finish the work on time.",
+              "zh": "她设法按时完成了工作。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "contrive to do 常表示费了心思终于做到，也可讽刺竟然做成坏事。contrived 作形容词常指刻意的、不自然的：a contrived ending（牵强的结局）。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-132",
+      "number": 132,
+      "wordIds": [
+        "word-618dc58379dda348",
+        "word-a2939eff2bcb6a6f"
+      ],
+      "entries": [
+        {
+          "wordId": "word-618dc58379dda348",
+          "meaningZh": "adj./n. 立即的；即食的；瞬间",
+          "definitionEn": "Immediate or prepared quickly; a very short moment of time.",
+          "scenario": "形容反应、食品等，也可作可数名词",
+          "collocations": [
+            "instant coffee",
+            "an instant reply",
+            "in an instant"
+          ],
+          "examples": [
+            {
+              "en": "She gave an instant reply.",
+              "zh": "她立即作出了回答。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-a2939eff2bcb6a6f",
+          "meaningZh": "adj. 瞬时的；即刻发生的",
+          "definitionEn": "Happening immediately or taking an extremely short time.",
+          "scenario": "强调几乎不耗时，常用于科学、技术或正式描述",
+          "collocations": [
+            "instantaneous speed",
+            "an instantaneous change"
+          ],
+          "examples": [
+            {
+              "en": "The device measures instantaneous speed.",
+              "zh": "该装置测量瞬时速度。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "instant 较日常，instantaneous 较正式，两者在立即发生义上有重叠。即溶咖啡固定说 instant coffee。an instant 是一瞬间；instantaneous 没有这个名词用法。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-133",
+      "number": 133,
+      "wordIds": [
+        "word-0c3e015009e5155c",
+        "word-eaccc3e5305cbcda"
+      ],
+      "entries": [
+        {
+          "wordId": "word-0c3e015009e5155c",
+          "meaningZh": "n./v. 尊重；敬重；遵守",
+          "definitionEn": "To value someone or show consideration for rights, wishes or rules.",
+          "scenario": "可指认可某人的品质，也可指尊重权利、意愿或规则",
+          "collocations": [
+            "respect sb for",
+            "respect privacy",
+            "with respect to"
+          ],
+          "examples": [
+            {
+              "en": "We should respect other people's privacy.",
+              "zh": "我们应尊重他人的隐私。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-eaccc3e5305cbcda",
+          "meaningZh": "n./v. 敬重；高度评价",
+          "definitionEn": "To regard someone or something highly; great respect.",
+          "scenario": "偏正式，常因品质或成就而高度评价",
+          "collocations": [
+            "hold sb in high esteem",
+            "be esteemed for"
+          ],
+          "examples": [
+            {
+              "en": "Her colleagues hold her in high esteem.",
+              "zh": "同事们对她十分敬重。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "respect 范围更广：respect a decision 是尊重决定，不一定赞同。esteem 强调高度评价且较正式；hold sb in high esteem 很常见。self-esteem 是自尊、自我价值感。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-134",
+      "number": 134,
+      "wordIds": [
+        "word-1a20f6d5510e063e",
+        "word-39ca0c269f8be5cb",
+        "word-26dd7517f5ecee31"
+      ],
+      "entries": [
+        {
+          "wordId": "word-1a20f6d5510e063e",
+          "meaningZh": "adj./n. 必不可少的；整体组成的；积分",
+          "definitionEn": "Necessary as a constituent part of a whole; in mathematics, an integral.",
+          "scenario": "形容词强调构成整体不可缺的一部分；名词为数学术语",
+          "collocations": [
+            "an integral part of",
+            "integral to"
+          ],
+          "examples": [
+            {
+              "en": "Reading is an integral part of language learning.",
+              "zh": "阅读是语言学习不可缺少的一部分。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-39ca0c269f8be5cb",
+          "meaningZh": "adj. 至关重要的；维持生命必需的",
+          "definitionEn": "Extremely important or necessary for life or success.",
+          "scenario": "强调对生存、成功或正常运作的必要性",
+          "collocations": [
+            "vital to",
+            "vital for",
+            "vital signs"
+          ],
+          "examples": [
+            {
+              "en": "Water is vital for survival.",
+              "zh": "水是生存所必需的。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-26dd7517f5ecee31",
+          "meaningZh": "adj. 关键的；决定性的",
+          "definitionEn": "Extremely important because it can determine the result.",
+          "scenario": "强调对结果或关键阶段有决定作用",
+          "collocations": [
+            "crucial to",
+            "a crucial decision",
+            "a crucial stage"
+          ],
+          "examples": [
+            {
+              "en": "This evidence is crucial to the investigation.",
+              "zh": "这项证据对调查至关重要。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-135",
+      "number": 135,
+      "wordIds": [
+        "word-f56175f2116fbf22",
+        "word-0081779c287d567d"
+      ],
+      "entries": [
+        {
+          "wordId": "word-f56175f2116fbf22",
+          "meaningZh": "adj./v./n. 齐平的；冲洗；脸红；红晕",
+          "definitionEn": "Level with an adjoining surface; to rinse with flowing water or become red in the face.",
+          "scenario": "齐平义强调两个表面贴合并处在同一平面",
+          "collocations": [
+            "flush with",
+            "flush the toilet",
+            "flush with embarrassment"
+          ],
+          "examples": [
+            {
+              "en": "The door is flush with the wall.",
+              "zh": "门与墙面齐平。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-0081779c287d567d",
+          "meaningZh": "adj./v./n. 水平的；同高的；使平整；水平或级别",
+          "definitionEn": "Horizontal, flat or at the same height; a degree or stage; to make flat.",
+          "scenario": "范围更广，可指水平、同高、程度或等级",
+          "collocations": [
+            "level with",
+            "a level surface",
+            "level the ground"
+          ],
+          "examples": [
+            {
+              "en": "The shelf is level with the window.",
+              "zh": "架子与窗户处于同一高度。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "flush with 强调相接表面不凸出也不凹入；level with 常表示高度相同，不要求接触。地面水平可说 level；不能一概用 flush 替换。flush 还有冲洗、脸红和扑克牌同花等义。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-136",
+      "number": 136,
+      "wordIds": [
+        "word-9d248136bfbecd67",
+        "word-cced28c6dc3f99c2"
+      ],
+      "entries": [
+        {
+          "wordId": "word-9d248136bfbecd67",
+          "meaningZh": "v. 开始",
+          "definitionEn": "To begin, especially in a formal context.",
+          "scenario": "较正式，常见于公告、仪式或正式活动",
+          "collocations": [
+            "commence work",
+            "commence with",
+            "commence doing"
+          ],
+          "examples": [
+            {
+              "en": "The ceremony will commence at ten.",
+              "zh": "仪式将在十点开始。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-cced28c6dc3f99c2",
+          "meaningZh": "v./n. 开始；启动；起点",
+          "definitionEn": "To begin an activity or cause something to begin or operate.",
+          "scenario": "日常最通用，也可指启动机器或突然惊动",
+          "collocations": [
+            "start doing",
+            "start to do",
+            "start the engine"
+          ],
+          "examples": [
+            {
+              "en": "Please start the engine.",
+              "zh": "请启动发动机。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "普通对话通常用 start；commence 更正式，但不代表事情规模一定更大。commence doing 与 commence with 常见；启动发动机用 start the engine。start a business 是创业。",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -16521,6 +17028,767 @@
         "group-124"
       ],
       "source": "vocabulary update 2026-11-03",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-77646f5a4f316663",
+      "lemma": "frank",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 坦率的；直言的",
+      "definitionEn": "To express what you honestly think in a direct way.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调诚实直接地说出真实想法",
+      "collocations": [
+        "be frank with sb",
+        "to be frank"
+      ],
+      "examples": [
+        {
+          "en": "To be frank, I disagree with the plan.",
+          "zh": "坦率地说，我不同意这个计划。"
+        }
+      ],
+      "correctUsage": "To be frank, I disagree with the plan.",
+      "commonMistakes": "两者都可表示坦率。frank 强调诚实直接；outspoken 更强调公开、大胆地表达立场，不必然粗鲁。to be frank 常作插入语。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-125"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-fe5b0b1c5a954c1c",
+      "lemma": "outspoken",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 直言不讳的",
+      "definitionEn": "Expressing opinions openly and strongly.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调公开而大胆地表达意见，尤其批评",
+      "collocations": [
+        "outspoken about",
+        "an outspoken critic"
+      ],
+      "examples": [
+        {
+          "en": "She is outspoken about unfair treatment.",
+          "zh": "她对不公平待遇直言不讳。"
+        }
+      ],
+      "correctUsage": "She is outspoken about unfair treatment.",
+      "commonMistakes": "两者都可表示坦率。frank 强调诚实直接；outspoken 更强调公开、大胆地表达立场，不必然粗鲁。to be frank 常作插入语。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-125"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-cf92efd25691b65f",
+      "lemma": "tuck",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 塞入；掖好；把……收拢",
+      "definitionEn": "To push or fold something into a small space or secure position.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "常把松散部分塞到另一物下面或里面",
+      "collocations": [
+        "tuck in a shirt",
+        "tuck sb in",
+        "tuck away"
+      ],
+      "examples": [
+        {
+          "en": "He tucked his shirt into his trousers.",
+          "zh": "他把衬衫下摆塞进裤子里。"
+        }
+      ],
+      "correctUsage": "He tucked his shirt into his trousers.",
+      "commonMistakes": "tuck sth into sth 表示塞入或掖入；tuck a child in 是给孩子掖好被子；tuck away 可指藏好、收存。英式口语 tuck in 还可指开始大吃：Tuck in!（开吃吧！）",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-126"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-ba9c736f19e7f60b",
+      "lemma": "probe",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 探查；追问；探测器",
+      "definitionEn": "To examine closely or ask searching questions; an instrument used to explore.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调深入探问、试探或用仪器检查",
+      "collocations": [
+        "probe into",
+        "probe for",
+        "a space probe"
+      ],
+      "examples": [
+        {
+          "en": "The reporter probed into the reasons for the delay.",
+          "zh": "记者深入追问延误的原因。"
+        }
+      ],
+      "correctUsage": "The reporter probed into the reasons for the delay.",
+      "commonMistakes": "probe 常带深入、试探性的意味，也可指医学探查或太空探测器；investigate 是调查的通用动词。两者都可及物，也都能接 into；不能把区别绝对化为非正式与正式。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-127"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-29ba6947875fa4db",
+      "lemma": "investigate",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 调查；研究",
+      "definitionEn": "To examine facts systematically to discover the truth or cause.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "范围较广，强调系统查明事实或原因",
+      "collocations": [
+        "investigate a complaint",
+        "investigate why"
+      ],
+      "examples": [
+        {
+          "en": "The team investigated the cause of the failure.",
+          "zh": "团队调查了失败的原因。"
+        }
+      ],
+      "correctUsage": "The team investigated the cause of the failure.",
+      "commonMistakes": "probe 常带深入、试探性的意味，也可指医学探查或太空探测器；investigate 是调查的通用动词。两者都可及物，也都能接 into；不能把区别绝对化为非正式与正式。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-127"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-1c27324f013705cb",
+      "lemma": "snap",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 啪地折断；猛地合上；厉声说；快照",
+      "definitionEn": "To break or move suddenly with a sharp sound, speak sharply, or take a quick photograph.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "常带突然、快速、清脆的感觉",
+      "collocations": [
+        "snap in half",
+        "snap at sb",
+        "snap a photo"
+      ],
+      "examples": [
+        {
+          "en": "The branch snapped in the wind.",
+          "zh": "树枝在风中啪地折断了。"
+        }
+      ],
+      "correctUsage": "The branch snapped in the wind.",
+      "commonMistakes": "snap at sb 是对某人厉声说话；snap a photo 是快速拍照；snap one's fingers 是打响指；a snap decision 是仓促作出的决定。The dog snapped at my hand. 表示狗突然朝我的手咬去，不说明已经咬中。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-128"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-111f44a7032e2ea4",
+      "lemma": "intrigue",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 激起好奇；密谋；阴谋活动",
+      "definitionEn": "To arouse curiosity; secret planning to gain power or advantage.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "动词最常见于引起兴趣或好奇；名词也指秘密谋划",
+      "collocations": [
+        "be intrigued by",
+        "political intrigue"
+      ],
+      "examples": [
+        {
+          "en": "The unusual title intrigued me.",
+          "zh": "这个不寻常的标题激起了我的好奇心。"
+        }
+      ],
+      "correctUsage": "The unusual title intrigued me.",
+      "commonMistakes": "表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-129"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-0f3850ab36e9d43a",
+      "lemma": "plot",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 情节；阴谋；地块；密谋；绘图",
+      "definitionEn": "The events of a story, a secret plan, or a piece of land; to plan secretly or mark data on a graph.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "故事结构、具体阴谋或筹划行为，含义取决于语境",
+      "collocations": [
+        "the plot of a novel",
+        "plot against",
+        "plot a graph"
+      ],
+      "examples": [
+        {
+          "en": "The novel has a complicated plot.",
+          "zh": "这部小说的情节很复杂。"
+        }
+      ],
+      "correctUsage": "The novel has a complicated plot.",
+      "commonMistakes": "表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-129"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-06df90ccef78b500",
+      "lemma": "crisp",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 脆的；清新的；清晰利落的",
+      "definitionEn": "Firm and pleasantly brittle, or fresh, clear and precise.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "可形容食物，也可形容空气、声音、图像或动作",
+      "collocations": [
+        "crisp lettuce",
+        "crisp air",
+        "a crisp image"
+      ],
+      "examples": [
+        {
+          "en": "The lettuce is fresh and crisp.",
+          "zh": "生菜新鲜爽脆。"
+        }
+      ],
+      "correctUsage": "The lettuce is fresh and crisp.",
+      "commonMistakes": "食物语境可有重叠：crisp bacon 和 crispy bacon 都自然。crisp 的适用范围更广；清新的空气用 crisp air，一般不用 crispy air。英式 crisps 是薯片。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-130"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-127c2817bd9e7787",
+      "lemma": "crispy",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 酥脆的；脆皮的",
+      "definitionEn": "Having a pleasantly hard, brittle texture, especially when cooked.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "主要形容食物表面或质地，常用于油炸或烘烤食品",
+      "collocations": [
+        "crispy bacon",
+        "crispy skin"
+      ],
+      "examples": [
+        {
+          "en": "Bake until the skin is crispy.",
+          "zh": "烤到表皮酥脆。"
+        }
+      ],
+      "correctUsage": "Bake until the skin is crispy.",
+      "commonMistakes": "食物语境可有重叠：crisp bacon 和 crispy bacon 都自然。crisp 的适用范围更广；清新的空气用 crisp air，一般不用 crispy air。英式 crisps 是薯片。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-130"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-a5ff2bcf640cfacf",
+      "lemma": "contrive",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 设法做到；谋划；设计",
+      "definitionEn": "To manage to do something through effort or ingenuity, or devise a plan.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "常暗示费心安排或用巧思达成，也可能带刻意感",
+      "collocations": [
+        "contrive to do",
+        "contrive a plan"
+      ],
+      "examples": [
+        {
+          "en": "She contrived to finish the work on time.",
+          "zh": "她设法按时完成了工作。"
+        }
+      ],
+      "correctUsage": "She contrived to finish the work on time.",
+      "commonMistakes": "contrive to do 常表示费了心思终于做到，也可讽刺竟然做成坏事。contrived 作形容词常指刻意的、不自然的：a contrived ending（牵强的结局）。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-131"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-618dc58379dda348",
+      "lemma": "instant",
+      "partOfSpeech": "adj./n.",
+      "meaningZh": "adj./n. 立即的；即食的；瞬间",
+      "definitionEn": "Immediate or prepared quickly; a very short moment of time.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "形容反应、食品等，也可作可数名词",
+      "collocations": [
+        "instant coffee",
+        "an instant reply",
+        "in an instant"
+      ],
+      "examples": [
+        {
+          "en": "She gave an instant reply.",
+          "zh": "她立即作出了回答。"
+        }
+      ],
+      "correctUsage": "She gave an instant reply.",
+      "commonMistakes": "instant 较日常，instantaneous 较正式，两者在立即发生义上有重叠。即溶咖啡固定说 instant coffee。an instant 是一瞬间；instantaneous 没有这个名词用法。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-132"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-a2939eff2bcb6a6f",
+      "lemma": "instantaneous",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 瞬时的；即刻发生的",
+      "definitionEn": "Happening immediately or taking an extremely short time.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调几乎不耗时，常用于科学、技术或正式描述",
+      "collocations": [
+        "instantaneous speed",
+        "an instantaneous change"
+      ],
+      "examples": [
+        {
+          "en": "The device measures instantaneous speed.",
+          "zh": "该装置测量瞬时速度。"
+        }
+      ],
+      "correctUsage": "The device measures instantaneous speed.",
+      "commonMistakes": "instant 较日常，instantaneous 较正式，两者在立即发生义上有重叠。即溶咖啡固定说 instant coffee。an instant 是一瞬间；instantaneous 没有这个名词用法。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-132"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-0c3e015009e5155c",
+      "lemma": "respect",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 尊重；敬重；遵守",
+      "definitionEn": "To value someone or show consideration for rights, wishes or rules.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "可指认可某人的品质，也可指尊重权利、意愿或规则",
+      "collocations": [
+        "respect sb for",
+        "respect privacy",
+        "with respect to"
+      ],
+      "examples": [
+        {
+          "en": "We should respect other people's privacy.",
+          "zh": "我们应尊重他人的隐私。"
+        }
+      ],
+      "correctUsage": "We should respect other people's privacy.",
+      "commonMistakes": "respect 范围更广：respect a decision 是尊重决定，不一定赞同。esteem 强调高度评价且较正式；hold sb in high esteem 很常见。self-esteem 是自尊、自我价值感。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-133"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-eaccc3e5305cbcda",
+      "lemma": "esteem",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 敬重；高度评价",
+      "definitionEn": "To regard someone or something highly; great respect.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "偏正式，常因品质或成就而高度评价",
+      "collocations": [
+        "hold sb in high esteem",
+        "be esteemed for"
+      ],
+      "examples": [
+        {
+          "en": "Her colleagues hold her in high esteem.",
+          "zh": "同事们对她十分敬重。"
+        }
+      ],
+      "correctUsage": "Her colleagues hold her in high esteem.",
+      "commonMistakes": "respect 范围更广：respect a decision 是尊重决定，不一定赞同。esteem 强调高度评价且较正式；hold sb in high esteem 很常见。self-esteem 是自尊、自我价值感。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-133"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-1a20f6d5510e063e",
+      "lemma": "integral",
+      "partOfSpeech": "adj./n.",
+      "meaningZh": "adj./n. 必不可少的；整体组成的；积分",
+      "definitionEn": "Necessary as a constituent part of a whole; in mathematics, an integral.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "形容词强调构成整体不可缺的一部分；名词为数学术语",
+      "collocations": [
+        "an integral part of",
+        "integral to"
+      ],
+      "examples": [
+        {
+          "en": "Reading is an integral part of language learning.",
+          "zh": "阅读是语言学习不可缺少的一部分。"
+        }
+      ],
+      "correctUsage": "Reading is an integral part of language learning.",
+      "commonMistakes": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-134"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-39ca0c269f8be5cb",
+      "lemma": "vital",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 至关重要的；维持生命必需的",
+      "definitionEn": "Extremely important or necessary for life or success.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调对生存、成功或正常运作的必要性",
+      "collocations": [
+        "vital to",
+        "vital for",
+        "vital signs"
+      ],
+      "examples": [
+        {
+          "en": "Water is vital for survival.",
+          "zh": "水是生存所必需的。"
+        }
+      ],
+      "correctUsage": "Water is vital for survival.",
+      "commonMistakes": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-134"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-26dd7517f5ecee31",
+      "lemma": "crucial",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 关键的；决定性的",
+      "definitionEn": "Extremely important because it can determine the result.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调对结果或关键阶段有决定作用",
+      "collocations": [
+        "crucial to",
+        "a crucial decision",
+        "a crucial stage"
+      ],
+      "examples": [
+        {
+          "en": "This evidence is crucial to the investigation.",
+          "zh": "这项证据对调查至关重要。"
+        }
+      ],
+      "correctUsage": "This evidence is crucial to the investigation.",
+      "commonMistakes": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-134"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-f56175f2116fbf22",
+      "lemma": "flush",
+      "partOfSpeech": "adj./v./n.",
+      "meaningZh": "adj./v./n. 齐平的；冲洗；脸红；红晕",
+      "definitionEn": "Level with an adjoining surface; to rinse with flowing water or become red in the face.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "齐平义强调两个表面贴合并处在同一平面",
+      "collocations": [
+        "flush with",
+        "flush the toilet",
+        "flush with embarrassment"
+      ],
+      "examples": [
+        {
+          "en": "The door is flush with the wall.",
+          "zh": "门与墙面齐平。"
+        }
+      ],
+      "correctUsage": "The door is flush with the wall.",
+      "commonMistakes": "flush with 强调相接表面不凸出也不凹入；level with 常表示高度相同，不要求接触。地面水平可说 level；不能一概用 flush 替换。flush 还有冲洗、脸红和扑克牌同花等义。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-135"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-0081779c287d567d",
+      "lemma": "level",
+      "partOfSpeech": "adj./v./n.",
+      "meaningZh": "adj./v./n. 水平的；同高的；使平整；水平或级别",
+      "definitionEn": "Horizontal, flat or at the same height; a degree or stage; to make flat.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "范围更广，可指水平、同高、程度或等级",
+      "collocations": [
+        "level with",
+        "a level surface",
+        "level the ground"
+      ],
+      "examples": [
+        {
+          "en": "The shelf is level with the window.",
+          "zh": "架子与窗户处于同一高度。"
+        }
+      ],
+      "correctUsage": "The shelf is level with the window.",
+      "commonMistakes": "flush with 强调相接表面不凸出也不凹入；level with 常表示高度相同，不要求接触。地面水平可说 level；不能一概用 flush 替换。flush 还有冲洗、脸红和扑克牌同花等义。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-135"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-9d248136bfbecd67",
+      "lemma": "commence",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 开始",
+      "definitionEn": "To begin, especially in a formal context.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "较正式，常见于公告、仪式或正式活动",
+      "collocations": [
+        "commence work",
+        "commence with",
+        "commence doing"
+      ],
+      "examples": [
+        {
+          "en": "The ceremony will commence at ten.",
+          "zh": "仪式将在十点开始。"
+        }
+      ],
+      "correctUsage": "The ceremony will commence at ten.",
+      "commonMistakes": "普通对话通常用 start；commence 更正式，但不代表事情规模一定更大。commence doing 与 commence with 常见；启动发动机用 start the engine。start a business 是创业。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-136"
+      ],
+      "source": "vocabulary update 2026-11-04",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-cced28c6dc3f99c2",
+      "lemma": "start",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 开始；启动；起点",
+      "definitionEn": "To begin an activity or cause something to begin or operate.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "日常最通用，也可指启动机器或突然惊动",
+      "collocations": [
+        "start doing",
+        "start to do",
+        "start the engine"
+      ],
+      "examples": [
+        {
+          "en": "Please start the engine.",
+          "zh": "请启动发动机。"
+        }
+      ],
+      "correctUsage": "Please start the engine.",
+      "commonMistakes": "普通对话通常用 start；commence 更正式，但不代表事情规模一定更大。commence doing 与 commence with 常见；启动发动机用 start the engine。start a business 是创业。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-136"
+      ],
+      "source": "vocabulary update 2026-11-04",
       "reviewStatus": "reviewed"
     }
   ],

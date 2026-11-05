@@ -294,3 +294,25 @@ closet|A cupboard or small enclosed space used especially for storing clothes.
 crave|To feel a very strong desire for something.
 desire|To want something, or a strong wish to have or do something.
 chip|A small electronic component, a small broken piece or mark, a snack, or a gaming token; as a verb, to break off a small piece.
+frank|To express what you honestly think in a direct way.
+outspoken|Expressing opinions openly and strongly.
+tuck|To push or fold something into a small space or secure position.
+probe|To examine closely or ask searching questions; an instrument used to explore.
+investigate|To examine facts systematically to discover the truth or cause.
+snap|To break or move suddenly with a sharp sound, speak sharply, or take a quick photograph.
+intrigue|To arouse curiosity; secret planning to gain power or advantage.
+plot|The events of a story, a secret plan, or a piece of land; to plan secretly or mark data on a graph.
+crisp|Firm and pleasantly brittle, or fresh, clear and precise.
+crispy|Having a pleasantly hard, brittle texture, especially when cooked.
+contrive|To manage to do something through effort or ingenuity, or devise a plan.
+instant|Immediate or prepared quickly; a very short moment of time.
+instantaneous|Happening immediately or taking an extremely short time.
+respect|To value someone or show consideration for rights, wishes or rules.
+esteem|To regard someone or something highly; great respect.
+integral|Necessary as a constituent part of a whole; in mathematics, an integral.
+vital|Extremely important or necessary for life or success.
+crucial|Extremely important because it can determine the result.
+flush|Level with an adjoining surface; to rinse with flowing water or become red in the face.
+level|Horizontal, flat or at the same height; a degree or stage; to make flat.
+commence|To begin, especially in a formal context.
+start|To begin an activity or cause something to begin or operate.
