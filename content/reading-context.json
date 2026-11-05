@@ -38,5 +38,133 @@
     ["gut instinct", "gut instinct", "直觉", "An immediate feeling or judgment formed without conscious reasoning."],
     ["facility for", "facility for", "做某事的能力或天赋", "An ability to do something readily or skillfully."],
     ["contrary evidence", "contrary evidence", "与已有看法相矛盾的证据", "Evidence that points to an opposing conclusion."]
+  ],
+  "how-to-fix-the-internet-A": [
+    [
+      "bats in the belfry",
+      "bats in the belfry",
+      "钟楼里有蝙蝠，暗示系统失常",
+      "Literally, bats in a bell tower. It also echoes an idiom suggesting oddness or irrationality."
+    ]
+  ],
+  "how-to-fix-the-internet-B": [
+    [
+      "attention span",
+      "attention span",
+      "注意力能持续的时间",
+      "The length of time someone can concentrate."
+    ],
+    [
+      "log off",
+      "log off",
+      "退出登录，下线",
+      "To end a session on a computer system."
+    ]
+  ],
+  "how-to-fix-the-internet-C": [
+    [
+      "trace back",
+      "trace back",
+      "追溯到源头",
+      "To follow something back to its origin."
+    ]
+  ],
+  "how-to-fix-the-internet-D": [
+    [
+      "one-way",
+      "one-way",
+      "单向的",
+      "Operating in only one direction."
+    ]
+  ],
+  "how-to-fix-the-internet-E": [
+    [
+      "figured out",
+      "figure out",
+      "想出，弄明白",
+      "Worked out a way to do something."
+    ]
+  ],
+  "how-to-fix-the-internet-F": [
+    [
+      "outweighed its drawbacks",
+      "outweigh",
+      "利大于弊",
+      "Were more significant than the disadvantages."
+    ]
+  ],
+  "how-to-fix-the-internet-G": [
+    [
+      "civil discourse",
+      "civil discourse",
+      "文明讨论",
+      "Respectful discussion of issues, including disagreements."
+    ]
+  ],
+  "how-to-fix-the-internet-H": [
+    [
+      "financial inclusion",
+      "financial inclusion",
+      "普惠金融",
+      "Access to useful and affordable financial services."
+    ],
+    [
+      "two-factor authentication",
+      "two-factor authentication",
+      "双因素认证",
+      "Identity verification using two different factors."
+    ]
+  ],
+  "how-to-fix-the-internet-I": [
+    [
+      "put it on",
+      "put on",
+      "把戒指戴上",
+      "Place it on your body so that you are wearing it."
+    ]
+  ],
+  "how-to-fix-the-internet-J": [
+    [
+      "start from scratch",
+      "start from scratch",
+      "从头开始",
+      "To begin from the beginning without relying on existing work."
+    ],
+    [
+      "digital wallet",
+      "digital wallet",
+      "数字钱包",
+      "A digital tool that stores payment information or funds."
+    ]
+  ],
+  "how-to-fix-the-internet-K": [
+    [
+      "a matter of",
+      "a matter of",
+      "取决于，关乎",
+      "An issue that depends on or concerns the thing mentioned."
+    ]
+  ],
+  "how-to-fix-the-internet-L": [
+    [
+      "deal with",
+      "deal with",
+      "与……打交道",
+      "To interact or conduct business with someone."
+    ]
+  ],
+  "how-to-fix-the-internet-M": [
+    [
+      "civil discourse",
+      "civil discourse",
+      "文明讨论",
+      "Respectful discussion of issues, including disagreements."
+    ],
+    [
+      "rather than",
+      "rather than",
+      "而不是",
+      "Used to contrast two choices or situations."
+    ]
   ]
 }
