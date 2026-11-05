@@ -3750,5 +3750,341 @@
   "youngest": {
     "中文意思": "最年幼的",
     "英文释义": "Having the least age in a group."
+  },
+  "abilities": {
+    "中文意思": "能力",
+    "英文释义": "Skills or powers to do things."
+  },
+  "affects": {
+    "中文意思": "影响",
+    "英文释义": "Has an influence on."
+  },
+  "affiliation": {
+    "中文意思": "归属；隶属关系",
+    "英文释义": "A connection with an organisation or group."
+  },
+  "already": {
+    "中文意思": "已经",
+    "英文释义": "Before now or before the time mentioned."
+  },
+  "american": {
+    "中文意思": "美国人",
+    "英文释义": "A person from the United States."
+  },
+  "answer": {
+    "中文意思": "回答",
+    "英文释义": "A response to a question."
+  },
+  "apparently": {
+    "中文意思": "看似；似乎",
+    "英文释义": "As it seems from what is known."
+  },
+  "ask": {
+    "中文意思": "询问",
+    "英文释义": "To put a question to someone."
+  },
+  "beliefs": {
+    "中文意思": "信念；看法",
+    "英文释义": "Ideas that people accept as true."
+  },
+  "briton": {
+    "中文意思": "英国人",
+    "英文释义": "A person from Britain."
+  },
+  "climate": {
+    "中文意思": "气候",
+    "英文释义": "The usual weather conditions of a place over a long period."
+  },
+  "cognitive": {
+    "中文意思": "认知的",
+    "英文释义": "Related to thinking, learning, or understanding."
+  },
+  "contradict": {
+    "中文意思": "与……矛盾",
+    "英文释义": "To be inconsistent with a claim or belief."
+  },
+  "contrary": {
+    "中文意思": "相反的；相矛盾的",
+    "英文释义": "Opposite to what is believed or expected."
+  },
+  "correct": {
+    "中文意思": "纠正",
+    "英文释义": "To change something so that it is right."
+  },
+  "curiosity": {
+    "中文意思": "好奇心",
+    "英文释义": "A desire to learn or find out about something."
+  },
+  "deeper": {
+    "中文意思": "更深入的",
+    "英文释义": "More thorough or involving more careful thought."
+  },
+  "depend": {
+    "中文意思": "取决于",
+    "英文释义": "To be determined by something else."
+  },
+  "dismiss": {
+    "中文意思": "不予考虑；排斥",
+    "英文释义": "To decide that something is unworthy of consideration."
+  },
+  "education": {
+    "中文意思": "教育；受教育程度",
+    "英文释义": "The process or level of formal learning."
+  },
+  "existing": {
+    "中文意思": "现有的；已经形成的",
+    "英文释义": "Already present or in place."
+  },
+  "facility": {
+    "中文意思": "能力；天赋",
+    "英文释义": "An ability to do something readily or skilfully."
+  },
+  "facts": {
+    "中文意思": "事实",
+    "英文释义": "Things that are known to be true."
+  },
+  "fit": {
+    "中文意思": "吻合；相符",
+    "英文释义": "To be consistent with something."
+  },
+  "guess": {
+    "中文意思": "猜测",
+    "英文释义": "An answer or judgment made without complete information."
+  },
+  "gut": {
+    "中文意思": "内心直觉（用于 gut instinct）",
+    "英文释义": "Intuitive rather than based on conscious reasoning."
+  },
+  "happens": {
+    "中文意思": "发生",
+    "英文释义": "Takes place."
+  },
+  "highest": {
+    "中文意思": "最高的",
+    "英文释义": "At the greatest level or degree."
+  },
+  "informed": {
+    "中文意思": "受……指导的；以……为依据的",
+    "英文释义": "Guided or shaped by knowledge or evidence."
+  },
+  "instinct": {
+    "中文意思": "本能；直觉",
+    "英文释义": "A natural impulse or feeling that arises without deliberate thought."
+  },
+  "interpret": {
+    "中文意思": "解读",
+    "英文释义": "To understand something in a particular way."
+  },
+  "issues": {
+    "中文意思": "议题；问题",
+    "英文释义": "Subjects that people discuss or disagree about."
+  },
+  "justify": {
+    "中文意思": "为……辩护；证明……有理",
+    "英文释义": "To give reasons showing why something is reasonable or right."
+  },
+  "know": {
+    "中文意思": "知道；了解",
+    "英文释义": "To have information about something."
+  },
+  "left-wing": {
+    "中文意思": "左翼的",
+    "英文释义": "Supporting political ideas associated with the left."
+  },
+  "match": {
+    "中文意思": "与……相符",
+    "英文释义": "To agree or be consistent with something."
+  },
+  "mathematical": {
+    "中文意思": "数学的",
+    "英文释义": "Related to mathematics."
+  },
+  "may": {
+    "中文意思": "可能",
+    "英文释义": "Used to show that something is possible."
+  },
+  "mistake": {
+    "中文意思": "错误",
+    "英文释义": "An incorrect action, judgment, or idea."
+  },
+  "mountain": {
+    "中文意思": "大量（用于 a mountain of）",
+    "英文释义": "A very large amount of something."
+  },
+  "nuclear": {
+    "中文意思": "核能的；核的",
+    "英文释义": "Related to atomic energy or the nucleus of an atom."
+  },
+  "opinions": {
+    "中文意思": "观点",
+    "英文释义": "Personal judgments or beliefs."
+  },
+  "people's": {
+    "中文意思": "人们的",
+    "英文释义": "Belonging to or held by people."
+  },
+  "political": {
+    "中文意思": "政治的",
+    "英文释义": "Related to politics or government."
+  },
+  "politics": {
+    "中文意思": "政治立场；政治",
+    "英文释义": "Political beliefs or activities."
+  },
+  "posed": {
+    "中文意思": "造成；带来",
+    "英文释义": "Presented or created a risk or problem."
+  },
+  "powers": {
+    "中文意思": "能力",
+    "英文释义": "Abilities to do particular things."
+  },
+  "prejudices": {
+    "中文意思": "偏见",
+    "英文释义": "Preconceived opinions often held without adequate evidence."
+  },
+  "reflective": {
+    "中文意思": "善于反思的",
+    "英文释义": "Inclined to think carefully about something."
+  },
+  "reject": {
+    "中文意思": "拒绝接受；排斥",
+    "英文释义": "To refuse to accept something."
+  },
+  "resist": {
+    "中文意思": "抵制；抗拒",
+    "英文释义": "To oppose or refuse to accept something."
+  },
+  "result": {
+    "中文意思": "结果",
+    "英文释义": "Something that happens because of something else."
+  },
+  "right": {
+    "中文意思": "对吧；正确的",
+    "英文释义": "Correct, or used as a question to seek agreement."
+  },
+  "right-wing": {
+    "中文意思": "右翼的",
+    "英文释义": "Supporting political ideas associated with the right."
+  },
+  "risks": {
+    "中文意思": "风险",
+    "英文释义": "Possibilities of harm or danger."
+  },
+  "sadly": {
+    "中文意思": "遗憾的是",
+    "英文释义": "Used to express regret about a fact or situation."
+  },
+  "science": {
+    "中文意思": "科学",
+    "英文释义": "Systematic study of the natural world through observation and evidence."
+  },
+  "scientific": {
+    "中文意思": "科学的",
+    "英文释义": "Related to or based on science."
+  },
+  "selectively": {
+    "中文意思": "有选择地",
+    "英文释义": "By choosing some things while excluding others."
+  },
+  "shapes": {
+    "中文意思": "塑造；影响",
+    "英文释义": "Influences how something develops."
+  },
+  "shaping": {
+    "中文意思": "塑造；影响",
+    "英文释义": "Influencing the way something develops."
+  },
+  "should": {
+    "中文意思": "应该；按理会",
+    "英文释义": "Used for what is expected or considered appropriate."
+  },
+  "shouldn't": {
+    "中文意思": "不应该；按理不会",
+    "英文释义": "The short form of should not."
+  },
+  "shown": {
+    "中文意思": "表明；显示",
+    "英文释义": "Demonstrated or made clear."
+  },
+  "shows": {
+    "中文意思": "表明；显示",
+    "英文释义": "Demonstrates or makes clear."
+  },
+  "simplistic": {
+    "中文意思": "过于简单化的",
+    "英文释义": "Treating a complex issue as if it were much simpler than it is."
+  },
+  "since": {
+    "中文意思": "因为",
+    "英文释义": "Used to introduce a reason."
+  },
+  "smarter": {
+    "中文意思": "更聪明的",
+    "英文释义": "More intelligent."
+  },
+  "somehow": {
+    "中文意思": "以某种方式",
+    "英文释义": "In some way that is unspecified or unclear."
+  },
+  "strongest": {
+    "中文意思": "最强的",
+    "英文释义": "Of the greatest strength or intensity."
+  },
+  "susceptible": {
+    "中文意思": "易受影响的",
+    "英文释义": "Easily affected or influenced by something."
+  },
+  "swaying": {
+    "中文意思": "左右；影响",
+    "英文释义": "Influencing how someone thinks or decides."
+  },
+  "tendencies": {
+    "中文意思": "倾向",
+    "英文释义": "Usual inclinations to think or behave in particular ways."
+  },
+  "tendency": {
+    "中文意思": "倾向",
+    "英文释义": "An inclination to think or behave in a particular way."
+  },
+  "thought": {
+    "中文意思": "思考",
+    "英文释义": "The process of considering something."
+  },
+  "trait": {
+    "中文意思": "特质",
+    "英文释义": "A distinguishing quality or characteristic."
+  },
+  "tribes": {
+    "中文意思": "阵营；群体",
+    "英文释义": "Groups of people with shared identities or loyalties."
+  },
+  "undermines": {
+    "中文意思": "削弱；动摇",
+    "英文释义": "Makes a belief, argument, or position less convincing or secure."
+  },
+  "view": {
+    "中文意思": "看法；观点",
+    "英文释义": "A way of thinking about something."
+  },
+  "views": {
+    "中文意思": "看法；观点",
+    "英文释义": "Opinions or ways of thinking about something."
+  },
+  "weigh": {
+    "中文意思": "权衡",
+    "英文释义": "To consider the importance of something carefully."
+  },
+  "well-recognised": {
+    "中文意思": "广为人知的；得到普遍认可的",
+    "英文释义": "Widely known or acknowledged."
+  },
+  "worldview": {
+    "中文意思": "世界观",
+    "英文释义": "A general way of understanding the world."
+  },
+  "wrong": {
+    "中文意思": "错误的",
+    "英文释义": "Incorrect."
   }
 }

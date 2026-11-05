@@ -64,5 +64,22 @@
       "G": "有些 VPN 承诺免费或每月只花几美元就能匿名浏览，并声称不会分享用户数据。但这些服务并不总能兑现承诺，有时解决办法带来的问题反而更严重。在首次针对 VPN 服务商的大规模评估中，研究人员发现了令人担忧的情况：近四成会植入恶意软件。",
       "H": "专家建议在使用 VPN 前先进行调查，仅将其视为辅助工具，不能靠它彻底解决隐私问题。专家还建议阅读服务商的隐私政策，查看它是否收集或保留能够追溯到用户本人的信息。"
     }
+  },
+  {
+    "id": "politics-and-evidence",
+    "title": "How Politics Shapes Our View of Evidence",
+    "titleZh": "政治立场如何影响我们看待证据",
+    "paragraphs": {
+      "A": "Ask a left-wing Briton what they believe about the safety of nuclear power, and you can guess their answer. Ask a right-wing American about the risks posed by climate change, and you can also make a better guess than if you didn’t know their political affiliation. Issues like these feel like they should be informed by science, not our political tribes, but sadly, that’s not what happens.",
+      "B": "Psychology has long shown that education and intelligence won’t stop your politics from shaping your broader worldview, even if those beliefs do not match the hard evidence. Instead, your ability to weigh up the facts may depend on a less well-recognised trait—curiosity.",
+      "C": "There is now a mountain of evidence to show that politics doesn’t just help predict people’s views on some scientific issues; it also affects how they interpret new information. This is why it is a mistake to think that you can somehow “correct” people’s views on an issue by giving them more facts, since study after study has shown that people have a tendency to selectively reject facts that don’t fit with their existing views.",
+      "D": "But smarter people shouldn’t be susceptible to prejudice swaying their opinions, right? Wrong. Other research shows that people with the most education, highest mathematical abilities, and the strongest tendencies to be reflective about their beliefs are the most likely to resist information which should contradict their prejudices. This undermines the simplistic assumption that prejudices are the result of too much gut instinct and not enough deep thought. Rather, people who have the facility for deeper thought about an issue can use those cognitive powers to justify what they already believe and find reasons to dismiss apparently contrary evidence."
+    },
+    "translationZh": {
+      "A": "问一位持左翼立场的英国人如何看待核能的安全性，你大致能猜到对方的回答。问一位持右翼立场的美国人如何看待气候变化带来的风险，知道对方的政治归属，也能让你猜得更准。按理说，这类问题上的判断应该以科学为依据，而非取决于我们所属的政治阵营。遗憾的是，实际情况并非如此。",
+      "B": "心理学早已表明，即使你的看法与确凿的证据不符，受教育程度和智力也无法阻止政治立场影响你更广泛的世界观。相反，你能否权衡事实，或许取决于一种较少受到关注的特质——好奇心。",
+      "C": "如今，大量证据表明，政治立场既能帮助预测人们对某些科学问题的看法，也会影响他们如何解读新信息。因此，以为只要多提供一些事实，就能以某种方式“纠正”人们对某个问题的看法，是一种错误。因为一项又一项研究表明，人们往往会有选择地排斥与自己既有观点不符的事实。",
+      "D": "不过，更聪明的人应该不容易让偏见左右自己的看法，对吧？事实恰恰相反。其他研究表明，受教育程度最高、数学能力最强、最倾向于反思自身信念的人，反而最可能抵制本应推翻其偏见的信息。这动摇了一种过于简单的假设，即偏见源于过分依赖直觉、缺乏深入思考。事实上，善于深入思考问题的人，可以运用这些认知能力为自己早已相信的观点辩护，并找理由排斥那些看似与之相矛盾的证据。"
+    }
   }
 ]
