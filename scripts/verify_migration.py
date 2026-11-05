@@ -37,3 +37,6 @@ assert page.count('<table>') == 136
 assert not re.search(r'(?:src|href)=["\x27]https?://', page)
 assert 'content/app.js' not in page  # Historical learning app is intentionally inactive.
 print('PASS: reviewed SHA-256 baseline; 136 groups, 323 entries, 318 unique IDs; 74 polysemy words/408 senses; 20 paragraphs, 32 words, 33 phrases.')
+
+from verify_interface import verify as verify_interface
+verify_interface()

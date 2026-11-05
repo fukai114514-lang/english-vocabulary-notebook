@@ -1,12 +1,9 @@
-/* Static reference search: no query HTML interpolation or user-created regex. */
+/* Shared Spotlight search retains the existing index and matcher. */
 (() => {
  'use strict';
- const q=document.querySelector('#search');
- const results=document.createElement('section');results.id='search-results';results.hidden=true;results.setAttribute('aria-label','全站搜索结果');
- const status=document.createElement('p');status.setAttribute('role','status');results.append(status);
- const groups=document.createElement('div');results.append(groups);document.querySelector('.tools').after(results);
- q.setAttribute('aria-label','全站搜索');q.placeholder='搜索单词、中文、例句或文章';q.setAttribute('aria-controls','search-results');
- let records=[],loaded=false,revealing=false,loadFailed=false;
+ const dialog=document.querySelector('#search-dialog'),q=document.querySelector('#search'),groups=document.querySelector('#search-groups'),status=document.querySelector('#search-status');
+ const articles=JSON.parse(document.querySelector('#site-meta').textContent).articles;
+ let records=[],loaded=false,loadFailed=false,opener,lastScroll=0,timer;
  const norm=s=>String(s).toLowerCase().trim();
  // Explicit limited rules. Irregular spellings are curated; no claim of full lemmatization.
  const irregular={slept:'sleep',sleeping:'sleep',naps:'nap',napping:'nap',napped:'nap',credits:'credit',credited:'credit',crediting:'credit'};
@@ -23,6 +20,7 @@
   const title=norm(row.title),terms=variants(key);
   for(const t of terms){if(title===t)return {score:0,type:t===key?'精确词条':'词形匹配',text:row.title,term:t};}
   if(title.startsWith(key))return {score:1,type:'词条前缀',text:row.title,term:key};
+  if(title.includes(key))return {score:2,type:'标题',text:row.title,term:key};
   const weights={'词条':2,'释义':3,'英文释义':3,'搭配':4,'例句':5,'原文':6,'译文':6,'正文':7};
   for(const field of Object.keys(row.fields).sort((a,b)=>(weights[a]??7)-(weights[b]??7))){
    const text=row.fields[field];
@@ -41,57 +39,36 @@
   while((next=lower.indexOf(term,at))!==-1){parent.append(document.createTextNode(text.slice(at,next)));const m=document.createElement('mark');m.textContent=text.slice(next,next+term.length);parent.append(m);at=next+term.length;}
   parent.append(document.createTextNode(text.slice(at)));
  }
- function resetQuery(){q.value='';q.dispatchEvent(new Event('input',{bubbles:true}));}
- function readerURL(target){
-  if(target==='nap-part')return '';
-  const article=['vpn-privacy','motherhood','nap'].find(id=>target.startsWith(id+'-'));
-  return article ? article+'.html#'+target : '';
- }
- function restoreReading(){const url=readerURL(location.hash.slice(1));if(url)location.replace(url)}
- restoreReading();window.addEventListener('hashchange',restoreReading);
- function reveal(target){
-  const url=readerURL(target);if(url){location.href=url;return}
 
-  resetQuery();const el=document.getElementById(target);if(!el)return;
-  const part=el.closest('#nap-part')?'nap':el.closest('.poly-entry')?'poly':'original';
-  revealing=true;document.querySelector('[data-part="'+part+'"]').click();revealing=false;
-  for(let node=el;node;node=node.parentElement){if(node.tagName==='DETAILS')node.open=true;}
-  if(location.hash!=='#'+target)location.hash=target;
-  el.setAttribute('tabindex','-1');el.focus({preventScroll:true});el.scrollIntoView({block:'start'});
- }
+ function readerURL(target){if(target==='nap-part')return '';const article=articles.find(id=>target.startsWith(id+'-'));return article?article+'.html#'+target:''}
+ function reveal(target){const url=readerURL(target);if(url){location.href=url;return}if(document.querySelector('#reader')){location.href='index.html#'+target;return}close();history.pushState(null,'','#'+target);window.notebook.reveal(target)}
  function search(){
-  const key=norm(q.value);groups.replaceChildren();results.hidden=!key;
-  if(!key)return;
-  document.querySelector('#list').hidden=true;document.querySelector('#nap-part').hidden=true;
-  if(!loaded){status.textContent=loadFailed?'搜索暂不可用，请刷新重试；也可清空搜索后按 Part 查阅。':'正在加载全站索引…';return;}
+  const key=norm(q.value);groups.replaceChildren();if(!key){status.textContent='搜索词汇、例句和阅读文章';return}
+  if(!loaded){status.textContent=loadFailed?'索引加载失败，请关闭后重试。':'正在加载索引…';return}
   const hits=records.map(row=>({row,hit:match(row,key)})).filter(x=>x.hit).sort((a,b)=>a.hit.score-b.hit.score);
-  const specificTargets=new Set(hits.filter(x=>!x.row.id.startsWith('comparison-body-')).map(x=>x.row.target));
-  const visibleHits=hits.filter(x=>!x.row.id.startsWith('comparison-body-')||!specificTargets.has(x.row.target));
-  status.textContent=visibleHits.length?visibleHits.length+' 条匹配记录':'没有找到匹配内容，请尝试其他关键词。';document.querySelector('#count').textContent='全站搜索 · '+visibleHits.length+' 条匹配记录';
+  const targets=new Set(hits.filter(x=>!x.row.id.startsWith('comparison-body-')).map(x=>x.row.target));
+  const visibleHits=hits.filter(x=>!x.row.id.startsWith('comparison-body-')||!targets.has(x.row.target));
+  status.textContent=visibleHits.length?visibleHits.length+' 条匹配记录':'没有找到匹配内容，试试另一种拼写或中文关键词。';
   for(const kind of ['精确词条','词汇辨析','多义词','阅读文章','阅读词汇','短语']){
    const subset=visibleHits.filter(x=>x.hit.type==='精确词条'?kind==='精确词条':x.row.kind===kind);if(!subset.length)continue;
    const section=document.createElement('section'),heading=document.createElement('h2');heading.textContent=kind+' · '+subset.length;section.append(heading);
    for(const {row,hit} of subset){
-    const card=document.createElement('article'),link=document.createElement('a');link.href=readerURL(row.target)||'#'+row.target;mark(link,row.title,hit.term);link.onclick=e=>{e.preventDefault();reveal(row.target)};
+    const card=document.createElement('article'),link=document.createElement('a');link.href=readerURL(row.target)||'index.html#'+row.target;mark(link,row.title,hit.term);link.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();reveal(row.target)};
     const type=document.createElement('small');type.textContent=' · '+hit.type;
-    const snippet=document.createElement('p');const context=hit.score<=1?[row.fields['词性'],row.fields['释义'],row.fields['英文释义']].filter(Boolean).join(' · ')||hit.text:hit.text;let at=context.toLowerCase().indexOf(hit.term);let start=Math.max(0,at-45);mark(snippet,(start?'…':'')+context.slice(start,start+170)+(context.length>start+170?'…':''),hit.term);
-    card.append(link,type,snippet);section.append(card);
+    const snippet=document.createElement('p');const context=hit.score<=1?[row.fields['词性'],row.fields['释义'],row.fields['英文释义']].filter(Boolean).join(' · ')||hit.text:hit.text;const at=context.toLowerCase().indexOf(hit.term),start=Math.max(0,at-45);mark(snippet,(start?'…':'')+context.slice(start,start+170)+(context.length>start+170?'…':''),hit.term);card.append(link,type,snippet);section.append(card);
    }groups.append(section);
   }
  }
- q.addEventListener('input',search);
- q.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){const link=groups.querySelector('a');if(link){e.preventDefault();link.focus()}}if(e.key==='Escape')resetQuery()});
- document.querySelectorAll('[data-part]').forEach(b=>b.addEventListener('click',()=>{
-  if(q.value)resetQuery();
-  if(revealing)return;
-  const card=document.querySelector('#lookup-card');if(card?.open)card.close();
-  const targets={all:'list',original:'original-heading',poly:'poly-heading',nap:'nap-part'};
-  const part=b.dataset.part,target=targets[part];
-  if(!target||location.hash==='#'+target)return;
-  // A hash assignment jumps to the heading. These tabs only switch the list.
-  if(part==='original'||part==='poly')history.pushState(null,'','#'+target);
-  else location.hash=target;
- }));
- window.addEventListener('hashchange',()=>{if(q.value)resetQuery();});
- fetch('./search-index.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{records=data.records;loaded=true;search();}).catch(()=>{loadFailed=true;results.hidden=false;status.textContent='搜索索引加载失败，请刷新；清空搜索后仍可按 Part 查阅。'});
+ function load(){if(loaded)return;loadFailed=false;fetch('./search-index.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{records=d.records;loaded=true;search()}).catch(()=>{loadFailed=true;search()})}
+ function open(button){if(dialog.open)return;opener=button||document.activeElement;lastScroll=scrollY;document.body.style.position='fixed';document.body.style.top=-lastScroll+'px';document.body.style.width='100%';dialog.showModal();q.focus({preventScroll:true});load();search()}
+ function restorePage(){if(document.body.style.position!=='fixed')return;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:lastScroll,behavior:'instant'});opener?.focus({preventScroll:true})}
+ function close(){dialog.close();restorePage()}
+ dialog.addEventListener('close',restorePage);dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
+ document.querySelectorAll('[data-search]').forEach(b=>b.onclick=()=>open(b));document.querySelector('#search-close').onclick=close;
+ dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close()});
+ q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(search,70)});
+ dialog.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();close();return}const links=[...groups.querySelectorAll('a')],i=links.indexOf(document.activeElement);if(e.key==='ArrowDown'&&links.length){e.preventDefault();links[(i+1)%links.length].focus()}if(e.key==='ArrowUp'&&links.length){e.preventDefault();if(i<=0)q.focus();else links[i-1].focus()}if(e.key==='Enter'&&document.activeElement===q&&links[0]){e.preventDefault();links[0].click()}});
+ document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();dialog.open?close():open()}});
+ const resize=()=>document.documentElement.style.setProperty('--visual-height',(window.visualViewport?.height||innerHeight)+'px');window.visualViewport?.addEventListener('resize',resize);resize();
+ if(!document.querySelector('#reader')){const redirect=()=>{const url=readerURL(location.hash.slice(1));if(url)location.replace(url)};redirect();addEventListener('hashchange',redirect)}
 })();

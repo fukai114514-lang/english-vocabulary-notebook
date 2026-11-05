@@ -5,7 +5,7 @@
  const font=document.querySelector('#reader-size');
  const fontKey='vocab.reader.font-size';
  function applyFont(value){
-  if(!['17','20','23'].includes(value))return;
+  if(!['17','20','23'].includes(value))value='20';
   font.value=value;
   document.documentElement.style.setProperty('--reader-size',value+'px');
  }
@@ -46,16 +46,29 @@
    candidates.get(key).push(row);
   }
   const dialog=document.createElement('dialog'),body=document.createElement('div');
-  dialog.id='lookup-card';dialog.setAttribute('aria-label','单词中英释义');
-  const close=addText(dialog,'button','关闭，返回原文');close.type='button';
+  dialog.id='lookup-card';dialog.className='glass';dialog.setAttribute('aria-label','单词中英释义');
+  const close=addText(dialog,'button','关闭');close.setAttribute('aria-label','关闭释义，返回原文');close.type='button';
   dialog.append(body);document.body.append(dialog);
   let trigger,active=[];
+  function position(){
+   if(!dialog.open||!trigger)return;
+   const r=trigger.getBoundingClientRect(),mobile=innerWidth<=760||(innerWidth<=1000&&innerHeight<=500),vv=window.visualViewport,top=vv?.offsetTop||0,height=vv?.height||innerHeight;
+   dialog.style.maxHeight=(mobile?Math.min(height*.4,340):Math.min(height*.5,440))+'px';
+   const h=dialog.offsetHeight,w=dialog.offsetWidth;let y=r.bottom+10;
+   if(y+h>top+height-16)y=r.top-h-10;
+   if(mobile)y=r.top>top+height*.5?top+76:top+height-h-100;
+   dialog.style.top=Math.max(top+12,Math.min(y,top+height-h-12))+'px';dialog.style.left=(mobile?12:Math.max(12,Math.min(r.left,innerWidth-w-12)))+'px';
+  }
+  document.addEventListener('pointerdown',ev=>{if(dialog.open&&!dialog.contains(ev.target)&&!ev.target.closest('.lookup-word'))dismiss(false)});
+  window.addEventListener('resize',position);window.visualViewport?.addEventListener('resize',position);window.addEventListener('scroll',position,{passive:true});
+  dialog.addEventListener('toggle',position,true);new ResizeObserver(position).observe(body);
+
   function clearSelection(){
    for(const b of active)b.classList.remove('phrase-active');
    trigger?.removeAttribute('aria-expanded');active=[];
   }
-  function dismiss(){clearSelection();dialog.close();trigger?.focus({preventScroll:true})}
-  close.onclick=dismiss;
+  function dismiss(focus=true){clearSelection();dialog.close();if(focus)trigger?.focus({preventScroll:true})}
+  close.onclick=()=>dismiss();window.addEventListener('hashchange',()=>{if(dialog.open)dismiss(false)});window.addEventListener('pagehide',()=>{if('speechSynthesis' in window)speechSynthesis.cancel()});
   dialog.oncancel=e=>{e.preventDefault();dismiss()};
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dialog.open){e.preventDefault();dismiss()}});
   function lookup(button,context,group){
@@ -65,7 +78,11 @@
    const rows=candidates.get(button.dataset.lookup)||[];
    const primary=(button.closest('#nap-text')&&rows.find(r=>r.kind==='阅读词汇'))||rows.find(r=>r.kind==='文章词典')||rows[0];
    const fields=primary?.fields||{};
-   addText(body,'h2',context?.[0]||button.textContent);
+   const lemma=fields['词条']||button.textContent;
+   addText(body,'h2',context?.[0]||lemma);
+   const ipa=fields['音标']||fields['IPA'];if(ipa)addText(body,'p',ipa,'sense-note');
+   if('speechSynthesis' in window){const speak=addText(body,'button','▷ 朗读','lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speak.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='朗读结束';u.onerror=()=>speechStatus.textContent='朗读失败，请检查设备语音设置';speechStatus.textContent='正在朗读';speechSynthesis.speak(u)}}
+
    addText(body,'p',context?'本句用法 · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?'本文收录释义':'常见义项'].filter(Boolean).join(' · '),'sense-note');
    addText(body,'p',context?.[2]||fields['中文意思']||fields['释义']);
    addText(body,'p',context?.[3]||fields['英文释义']);
@@ -84,7 +101,7 @@
     }
    }
    if(more.childElementCount>1)body.append(more);
-   if(!dialog.open)dialog.show();dialog.scrollTop=0;close.focus({preventScroll:true});
+   if(!dialog.open)dialog.show();dialog.scrollTop=0;position();
   }
   const headings=document.querySelectorAll('.reading-title,#reader > .part-heading h2');
   for(const p of [...paragraphs,...headings]){
@@ -110,7 +127,7 @@
      const span=spans.find(s=>match.index>=s.at&&match.index+match[0].length<=s.end);
      if(span)span.buttons.push(b);
      b.setAttribute('aria-label','查阅 '+(span?.entry[0]||match[0]));
-     b.setAttribute('aria-haspopup','dialog');b.onclick=()=>lookup(b,span?.entry,span?.buttons);
+     b.setAttribute('aria-haspopup','dialog');b.onclick=ev=>{lookup(b,span?.entry,span?.buttons);if(ev.detail===0)close.focus({preventScroll:true})};
      start=match.index+match[0].length;
     }
     fragment.append(document.createTextNode(text.slice(start)));node.replaceWith(fragment);

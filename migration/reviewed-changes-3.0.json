@@ -16,12 +16,12 @@
     "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "content/render.py": {
-    "sha256": "422b6475880ad14980ec6940e394a0ed018923c67f87918fd013f56493edeafd",
-    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
+    "sha256": "1afee171b1f10fa53a1744a2ae7968be60f704f90a2b01bf808afda723a7be4b",
+    "reason": "UI shell only; all published JSON matches pre-upgrade snapshot; independent verify_interface checks frozen sources and every bilingual paragraph."
   },
   "dist/index.html": {
-    "sha256": "5d3b8763e9f9e64af7ebf68827c51363325764a6aeff4274d3fac0b254694bb5",
-    "reason": "Reviewed reading directory addition: How to Fix the Internet, with article count updated from 4 to 5."
+    "sha256": "39798615a5650a0199e0fef5f98f48bec851f8f77b967173a4c5d4fadeb69ac8",
+    "reason": "UI shell only; all published JSON matches pre-upgrade snapshot; independent verify_interface checks frozen sources and every bilingual paragraph."
   },
   "dist/polysemy.json": {
     "sha256": "ecb876edf26eca1dc4d9b46b072b4756cc00cf8de3f84faf127698e91ebb5b84",

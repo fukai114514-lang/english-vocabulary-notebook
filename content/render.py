@@ -97,3 +97,5 @@ from readings import add_readings
 add_readings()
 from search import build as build_search
 build_search()
+from interface import build as build_interface
+build_interface()

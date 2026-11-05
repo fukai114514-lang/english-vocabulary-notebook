@@ -1,0 +1,19 @@
+{
+  "content/polysemy.txt": "bb35bcdeb79103b8a89e73008b2eaf44824a093f8424852f65bc436d61ead78a",
+  "content/comparisons.txt": "cb51282e7ae52ce86ecc6cd3a30cda27c5964656766c59ed1b078920eba30062",
+  "content/english-captions.txt": "b04be570b1d3617e24be29b0b4108381c385d3dba9011375ae58a2ea105faf6c",
+  "content/polysemy-metadata.json": "f0c60a86c163311e2a31e72d289aa78364f213b7f235ab5296b821c47ea357f1",
+  "content/vocabulary.json": "0d82943ca89d26fce597284e0c0f13909b851e822c6e07ebed52d13aa303d262",
+  "content/selection-notes.txt": "e151e882082d97d71f9afd90b78e1d54b4e0fdaeed2827721cc1b907cb5bdf05",
+  "content/nap_article.json": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
+  "content/article-dictionary.json": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb",
+  "content/reading_articles.json": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
+  "content/reading-context.json": "df116fa506f916869b2eb2c1ce6212881127253fc183768649c921972f5c744b",
+  "content/base.html": "96a386ea9aefcd3e9b86be86410a39bf6e4a879516c309a17331425ecc7807eb",
+  "dist/vocabulary.json": "7b608778a4351a0d6148a19d21feeac4e30464c3940e4376a3c2438b215fb703",
+  "dist/polysemy.json": "ecb876edf26eca1dc4d9b46b072b4756cc00cf8de3f84faf127698e91ebb5b84",
+  "dist/nap_article.json": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
+  "dist/article-dictionary.json": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb",
+  "dist/reading_articles.json": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
+  "dist/search-index.json": "85fd46ef5405cbd2ff55c28f4c44fa8e91ecc4a36a8a003774c031d9ed1ea712"
+}
