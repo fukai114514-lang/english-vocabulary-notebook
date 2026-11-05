@@ -20,8 +20,8 @@
     "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "dist/index.html": {
-    "sha256": "21b998154c2184c103ac371e58fb33aede536df4582e1136c9b22ef25ed3a31c",
-    "reason": "Reviewed additive reading update: add Politics and Evidence to the reading directory and update its article count from 3 to 4."
+    "sha256": "5d3b8763e9f9e64af7ebf68827c51363325764a6aeff4274d3fac0b254694bb5",
+    "reason": "Reviewed reading directory addition: How to Fix the Internet, with article count updated from 4 to 5."
   },
   "dist/polysemy.json": {
     "sha256": "ecb876edf26eca1dc4d9b46b072b4756cc00cf8de3f84faf127698e91ebb5b84",
