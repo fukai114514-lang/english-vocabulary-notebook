@@ -10983,6 +10983,891 @@
       }
     },
     {
+      "id": "sense-bug-01",
+      "kind": "多义词",
+      "title": "bug",
+      "target": "sense-bug-01",
+      "fields": {
+        "词条": "bug",
+        "词性": "n. 口语",
+        "释义": "小虫子",
+        "英文释义": "A small insect or similar tiny creature.",
+        "搭配": "fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。",
+        "例句": "A little bug landed on my sleeve.",
+        "例句译文": "一只小虫落在我的袖子上。"
+      }
+    },
+    {
+      "id": "sense-bug-02",
+      "kind": "多义词",
+      "title": "bug",
+      "target": "sense-bug-02",
+      "fields": {
+        "词条": "bug",
+        "词性": "n.",
+        "释义": "程序缺陷；故障",
+        "英文释义": "An error in software that causes unexpected behavior.",
+        "搭配": "fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。",
+        "例句": "The update fixes a bug that made the app crash.",
+        "例句译文": "这次更新修复了一个会让应用崩溃的错误。"
+      }
+    },
+    {
+      "id": "sense-bug-03",
+      "kind": "多义词",
+      "title": "bug",
+      "target": "sense-bug-03",
+      "fields": {
+        "词条": "bug",
+        "词性": "n. 口语",
+        "释义": "小病；感染",
+        "英文释义": "A minor illness caused by an infection.",
+        "搭配": "fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。",
+        "例句": "I think I picked up a stomach bug.",
+        "例句译文": "我想我可能得了肠胃炎。"
+      }
+    },
+    {
+      "id": "sense-bug-04",
+      "kind": "多义词",
+      "title": "bug",
+      "target": "sense-bug-04",
+      "fields": {
+        "词条": "bug",
+        "词性": "v. 口语",
+        "释义": "烦扰；纠缠",
+        "英文释义": "To annoy someone, especially repeatedly.",
+        "搭配": "fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。",
+        "例句": "It bugs me when people talk during the film.",
+        "例句译文": "电影放映时有人说话会让我很烦。"
+      }
+    },
+    {
+      "id": "sense-bug-05",
+      "kind": "多义词",
+      "title": "bug",
+      "target": "sense-bug-05",
+      "fields": {
+        "词条": "bug",
+        "词性": "n./v.",
+        "释义": "窃听器；安装窃听器",
+        "英文释义": "A hidden listening device, or to put one in a place.",
+        "搭配": "fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。",
+        "例句": "They found a bug under the desk.",
+        "例句译文": "他们在桌子下面发现了一个窃听器。"
+      }
+    },
+    {
+      "id": "sense-forward-01",
+      "kind": "多义词",
+      "title": "forward",
+      "target": "sense-forward-01",
+      "fields": {
+        "词条": "forward",
+        "词性": "adv.",
+        "释义": "向前；朝前",
+        "英文释义": "Towards a position in front.",
+        "搭配": "look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。",
+        "例句": "She leaned forward to hear him better.",
+        "例句译文": "她身体前倾，好听清他说的话。"
+      }
+    },
+    {
+      "id": "sense-forward-02",
+      "kind": "多义词",
+      "title": "forward",
+      "target": "sense-forward-02",
+      "fields": {
+        "词条": "forward",
+        "词性": "adv.",
+        "释义": "向今后；从某时起",
+        "英文释义": "Towards the future or from a particular time onwards.",
+        "搭配": "look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。",
+        "例句": "From this point forward, keep a copy of every receipt.",
+        "例句译文": "从现在起，把每张收据都留一份。"
+      }
+    },
+    {
+      "id": "sense-forward-03",
+      "kind": "多义词",
+      "title": "forward",
+      "target": "sense-forward-03",
+      "fields": {
+        "词条": "forward",
+        "词性": "v.",
+        "释义": "转发；转寄",
+        "英文释义": "To send something you have received to another person or address.",
+        "搭配": "look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。",
+        "例句": "Could you forward the email to me?",
+        "例句译文": "你能把邮件转发给我吗？"
+      }
+    },
+    {
+      "id": "sense-forward-04",
+      "kind": "多义词",
+      "title": "forward",
+      "target": "sense-forward-04",
+      "fields": {
+        "词条": "forward",
+        "词性": "adj.",
+        "释义": "前部的；靠前的",
+        "英文释义": "Located near the front of something.",
+        "搭配": "look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。",
+        "例句": "The forward section of the ship was damaged.",
+        "例句译文": "船的前部受损了。"
+      }
+    },
+    {
+      "id": "sense-forward-05",
+      "kind": "多义词",
+      "title": "forward",
+      "target": "sense-forward-05",
+      "fields": {
+        "词条": "forward",
+        "词性": "n. 体育",
+        "释义": "前锋",
+        "英文释义": "A player whose main role is to attack and score.",
+        "搭配": "look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。",
+        "例句": "She plays as a forward for the school team.",
+        "例句译文": "她在校队踢前锋。"
+      }
+    },
+    {
+      "id": "sense-instrument-01",
+      "kind": "多义词",
+      "title": "instrument",
+      "target": "sense-instrument-01",
+      "fields": {
+        "词条": "instrument",
+        "词性": "n.",
+        "释义": "乐器",
+        "英文释义": "An object used to make music.",
+        "搭配": "play an instrument 指演奏乐器；measuring instruments 是测量仪器；an instrument of change 是推动变化的手段。",
+        "例句": "The violin was the first instrument she learned to play.",
+        "例句译文": "小提琴是她学会演奏的第一种乐器。"
+      }
+    },
+    {
+      "id": "sense-instrument-02",
+      "kind": "多义词",
+      "title": "instrument",
+      "target": "sense-instrument-02",
+      "fields": {
+        "词条": "instrument",
+        "词性": "n.",
+        "释义": "仪器；器械",
+        "英文释义": "A tool designed for a precise task, such as measuring or operating.",
+        "搭配": "play an instrument 指演奏乐器；measuring instruments 是测量仪器；an instrument of change 是推动变化的手段。",
+        "例句": "The nurse checked that the surgical instruments were ready.",
+        "例句译文": "护士确认手术器械已经准备好。"
+      }
+    },
+    {
+      "id": "sense-instrument-03",
+      "kind": "多义词",
+      "title": "instrument",
+      "target": "sense-instrument-03",
+      "fields": {
+        "词条": "instrument",
+        "词性": "n. 正式",
+        "释义": "手段；工具",
+        "英文释义": "A means of bringing about a result.",
+        "搭配": "play an instrument 指演奏乐器；measuring instruments 是测量仪器；an instrument of change 是推动变化的手段。",
+        "例句": "Education can be an instrument of social change.",
+        "例句译文": "教育可以成为推动社会变革的手段。"
+      }
+    },
+    {
+      "id": "sense-instrument-04",
+      "kind": "多义词",
+      "title": "instrument",
+      "target": "sense-instrument-04",
+      "fields": {
+        "词条": "instrument",
+        "词性": "n. 金融",
+        "释义": "金融工具",
+        "英文释义": "An asset or agreement with financial value that can often be traded.",
+        "搭配": "play an instrument 指演奏乐器；measuring instruments 是测量仪器；an instrument of change 是推动变化的手段。",
+        "例句": "A government bond is a financial instrument.",
+        "例句译文": "政府债券是一种金融工具。"
+      }
+    },
+    {
+      "id": "sense-access-01",
+      "kind": "多义词",
+      "title": "access",
+      "target": "sense-access-01",
+      "fields": {
+        "词条": "access",
+        "词性": "n.",
+        "释义": "使用权；获取机会",
+        "英文释义": "The right or opportunity to use or obtain something.",
+        "搭配": "名词用 access to；动词直接接宾语，如 access the files。表示一般意义的“使用权”时，access 通常不可数。",
+        "例句": "Students have free access to the online library.",
+        "例句译文": "学生可以免费使用在线图书馆。"
+      }
+    },
+    {
+      "id": "sense-access-02",
+      "kind": "多义词",
+      "title": "access",
+      "target": "sense-access-02",
+      "fields": {
+        "词条": "access",
+        "词性": "n.",
+        "释义": "通路；进入的方式",
+        "英文释义": "A route or way of entering a place.",
+        "搭配": "名词用 access to；动词直接接宾语，如 access the files。表示一般意义的“使用权”时，access 通常不可数。",
+        "例句": "The bridge provides access to the island.",
+        "例句译文": "这座桥是通往岛上的通道。"
+      }
+    },
+    {
+      "id": "sense-access-03",
+      "kind": "多义词",
+      "title": "access",
+      "target": "sense-access-03",
+      "fields": {
+        "词条": "access",
+        "词性": "v.",
+        "释义": "访问；读取；使用",
+        "英文释义": "To open, retrieve or use information or a resource.",
+        "搭配": "名词用 access to；动词直接接宾语，如 access the files。表示一般意义的“使用权”时，access 通常不可数。",
+        "例句": "You can access the files from your phone.",
+        "例句译文": "你可以用手机访问这些文件。"
+      }
+    },
+    {
+      "id": "sense-access-04",
+      "kind": "多义词",
+      "title": "access",
+      "target": "sense-access-04",
+      "fields": {
+        "词条": "access",
+        "词性": "v.",
+        "释义": "进入；到达",
+        "英文释义": "To reach or enter a place.",
+        "搭配": "名词用 access to；动词直接接宾语，如 access the files。表示一般意义的“使用权”时，access 通常不可数。",
+        "例句": "Visitors can access the garden through a side gate.",
+        "例句译文": "游客可以从侧门进入花园。"
+      }
+    },
+    {
+      "id": "sense-moderate-01",
+      "kind": "多义词",
+      "title": "moderate",
+      "target": "sense-moderate-01",
+      "fields": {
+        "词条": "moderate",
+        "词性": "adj.",
+        "释义": "适度的；中等的",
+        "英文释义": "Neither very large nor very small in amount or intensity.",
+        "搭配": "形容词和名词末尾通常读 /ət/，动词末尾读 /eɪt/。moderate exercise 指中等强度的运动；moderate a discussion 指主持讨论。",
+        "例句": "We expect moderate growth this year.",
+        "例句译文": "我们预计今年会有适度增长。"
+      }
+    },
+    {
+      "id": "sense-moderate-02",
+      "kind": "多义词",
+      "title": "moderate",
+      "target": "sense-moderate-02",
+      "fields": {
+        "词条": "moderate",
+        "词性": "adj./n.",
+        "释义": "温和的；温和派人士",
+        "英文释义": "Avoiding extreme views, or a person who holds such views.",
+        "搭配": "形容词和名词末尾通常读 /ət/，动词末尾读 /eɪt/。moderate exercise 指中等强度的运动；moderate a discussion 指主持讨论。",
+        "例句": "She takes a moderate position on the issue.",
+        "例句译文": "她在这个问题上的立场比较温和。"
+      }
+    },
+    {
+      "id": "sense-moderate-03",
+      "kind": "多义词",
+      "title": "moderate",
+      "target": "sense-moderate-03",
+      "fields": {
+        "词条": "moderate",
+        "词性": "v.",
+        "释义": "缓和；使降低",
+        "英文释义": "To make or become less extreme, strong or severe.",
+        "搭配": "形容词和名词末尾通常读 /ət/，动词末尾读 /eɪt/。moderate exercise 指中等强度的运动；moderate a discussion 指主持讨论。",
+        "例句": "Higher supply may help moderate prices.",
+        "例句译文": "供应增加可能有助于缓解价格上涨的压力。"
+      }
+    },
+    {
+      "id": "sense-moderate-04",
+      "kind": "多义词",
+      "title": "moderate",
+      "target": "sense-moderate-04",
+      "fields": {
+        "词条": "moderate",
+        "词性": "v.",
+        "释义": "主持；审核管理",
+        "英文释义": "To guide a discussion or oversee what users post in a group.",
+        "搭配": "形容词和名词末尾通常读 /ət/，动词末尾读 /eɪt/。moderate exercise 指中等强度的运动；moderate a discussion 指主持讨论。",
+        "例句": "She was asked to moderate the debate.",
+        "例句译文": "她受邀主持这场辩论。"
+      }
+    },
+    {
+      "id": "sense-chip-01",
+      "kind": "多义词",
+      "title": "chip",
+      "target": "sense-chip-01",
+      "fields": {
+        "词条": "chip",
+        "词性": "n.",
+        "释义": "芯片",
+        "英文释义": "A small piece of semiconductor material containing an electronic circuit.",
+        "搭配": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+        "例句": "The new chip uses less power.",
+        "例句译文": "新芯片的耗电量更低。"
+      }
+    },
+    {
+      "id": "sense-chip-02",
+      "kind": "多义词",
+      "title": "chip",
+      "target": "sense-chip-02",
+      "fields": {
+        "词条": "chip",
+        "词性": "n.",
+        "释义": "碎片；缺口",
+        "英文释义": "A small piece broken off a surface, or the mark left by it.",
+        "搭配": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+        "例句": "There is a chip in the rim of the cup.",
+        "例句译文": "杯沿有个缺口。"
+      }
+    },
+    {
+      "id": "sense-chip-03",
+      "kind": "多义词",
+      "title": "chip",
+      "target": "sense-chip-03",
+      "fields": {
+        "词条": "chip",
+        "词性": "n. 常用复数",
+        "释义": "薯片；薯条",
+        "英文释义": "A thin crisp slice of fried potato, or in British English a thicker fried strip.",
+        "搭配": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+        "例句": "We ordered fish and chips.",
+        "例句译文": "我们点了炸鱼薯条。"
+      }
+    },
+    {
+      "id": "sense-chip-04",
+      "kind": "多义词",
+      "title": "chip",
+      "target": "sense-chip-04",
+      "fields": {
+        "词条": "chip",
+        "词性": "n.",
+        "释义": "筹码",
+        "英文释义": "A small token used in a game to represent money or points.",
+        "搭配": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+        "例句": "He placed two chips on the table.",
+        "例句译文": "他在桌上放了两枚筹码。"
+      }
+    },
+    {
+      "id": "sense-chip-05",
+      "kind": "多义词",
+      "title": "chip",
+      "target": "sense-chip-05",
+      "fields": {
+        "词条": "chip",
+        "词性": "v.",
+        "释义": "磕掉一小块；使出现缺口",
+        "英文释义": "To break a small piece off something hard.",
+        "搭配": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+        "例句": "I chipped a tooth when I fell.",
+        "例句译文": "我摔倒时磕掉了一小块牙。"
+      }
+    },
+    {
+      "id": "sense-chip-06",
+      "kind": "多义词",
+      "title": "chip",
+      "target": "sense-chip-06",
+      "fields": {
+        "词条": "chip",
+        "词性": "短语动词",
+        "释义": "凑份子；插话",
+        "英文释义": "To contribute money or add a comment to a conversation.",
+        "搭配": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+        "例句": "We each chipped in five dollars for the gift.",
+        "例句译文": "我们每人出了五美元买这件礼物。"
+      }
+    },
+    {
+      "id": "sense-refresh-01",
+      "kind": "多义词",
+      "title": "refresh",
+      "target": "sense-refresh-01",
+      "fields": {
+        "词条": "refresh",
+        "词性": "v.",
+        "释义": "刷新；重新加载",
+        "英文释义": "To reload a page or display so that it shows current information.",
+        "搭配": "refresh the page 刷新页面；refresh your memory 帮你回想；refresh yourself 使自己恢复精神。",
+        "例句": "Refresh the page to see the latest results.",
+        "例句译文": "刷新页面就能看到最新结果。"
+      }
+    },
+    {
+      "id": "sense-refresh-02",
+      "kind": "多义词",
+      "title": "refresh",
+      "target": "sense-refresh-02",
+      "fields": {
+        "词条": "refresh",
+        "词性": "v.",
+        "释义": "使恢复精神；使感到凉爽",
+        "英文释义": "To make someone feel less tired or hot.",
+        "搭配": "refresh the page 刷新页面；refresh your memory 帮你回想；refresh yourself 使自己恢复精神。",
+        "例句": "A quick shower refreshed me after the run.",
+        "例句译文": "跑完步后冲了个澡，我感觉精神多了。"
+      }
+    },
+    {
+      "id": "sense-refresh-03",
+      "kind": "多义词",
+      "title": "refresh",
+      "target": "sense-refresh-03",
+      "fields": {
+        "词条": "refresh",
+        "词性": "v.",
+        "释义": "唤起记忆；复习",
+        "英文释义": "To help someone remember something again.",
+        "搭配": "refresh the page 刷新页面；refresh your memory 帮你回想；refresh yourself 使自己恢复精神。",
+        "例句": "I reread my notes to refresh my memory.",
+        "例句译文": "我重读笔记，回想之前学过的内容。"
+      }
+    },
+    {
+      "id": "sense-refresh-04",
+      "kind": "多义词",
+      "title": "refresh",
+      "target": "sense-refresh-04",
+      "fields": {
+        "词条": "refresh",
+        "词性": "v.",
+        "释义": "更新；翻新",
+        "英文释义": "To update something so that it looks or feels new again.",
+        "搭配": "refresh the page 刷新页面；refresh your memory 帮你回想；refresh yourself 使自己恢复精神。",
+        "例句": "They refreshed the design without changing the layout.",
+        "例句译文": "他们更新了设计，保留了原有布局。"
+      }
+    },
+    {
+      "id": "sense-tuck-01",
+      "kind": "多义词",
+      "title": "tuck",
+      "target": "sense-tuck-01",
+      "fields": {
+        "词条": "tuck",
+        "词性": "v.",
+        "释义": "塞入；掖进",
+        "英文释义": "To push the end of something into or under something else.",
+        "搭配": "tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。",
+        "例句": "She tucked her shirt into her jeans.",
+        "例句译文": "她把衬衫下摆塞进牛仔裤里。"
+      }
+    },
+    {
+      "id": "sense-tuck-02",
+      "kind": "多义词",
+      "title": "tuck",
+      "target": "sense-tuck-02",
+      "fields": {
+        "词条": "tuck",
+        "词性": "v.",
+        "释义": "收拢；蜷起",
+        "英文释义": "To pull part of the body into a closer or smaller position.",
+        "搭配": "tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。",
+        "例句": "Tuck your chin in slightly.",
+        "例句译文": "下巴稍微往里收一点。"
+      }
+    },
+    {
+      "id": "sense-tuck-03",
+      "kind": "多义词",
+      "title": "tuck",
+      "target": "sense-tuck-03",
+      "fields": {
+        "词条": "tuck",
+        "词性": "短语动词",
+        "释义": "给……掖好被子",
+        "英文释义": "To make someone comfortable in bed by arranging the covers around them.",
+        "搭配": "tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。",
+        "例句": "He tucked the children in before turning off the light.",
+        "例句译文": "他给孩子们掖好被子，然后关了灯。"
+      }
+    },
+    {
+      "id": "sense-tuck-04",
+      "kind": "多义词",
+      "title": "tuck",
+      "target": "sense-tuck-04",
+      "fields": {
+        "词条": "tuck",
+        "词性": "短语动词",
+        "释义": "藏好；把……放在隐蔽处",
+        "英文释义": "To put something in a safe or out-of-the-way place.",
+        "搭配": "tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。",
+        "例句": "The cabin was tucked away among the trees.",
+        "例句译文": "小木屋隐在树林里。"
+      }
+    },
+    {
+      "id": "sense-tuck-05",
+      "kind": "多义词",
+      "title": "tuck",
+      "target": "sense-tuck-05",
+      "fields": {
+        "词条": "tuck",
+        "词性": "短语动词 英式口语",
+        "释义": "大口吃；痛快地吃",
+        "英文释义": "To start eating something with enthusiasm.",
+        "搭配": "tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。",
+        "例句": "Everyone tucked into the noodles.",
+        "例句译文": "大家都津津有味地吃起了面条。"
+      }
+    },
+    {
+      "id": "sense-snap-01",
+      "kind": "多义词",
+      "title": "snap",
+      "target": "sense-snap-01",
+      "fields": {
+        "词条": "snap",
+        "词性": "v.",
+        "释义": "啪地折断；使折断",
+        "英文释义": "To break suddenly, often with a sharp sound.",
+        "搭配": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+        "例句": "The branch snapped under his weight.",
+        "例句译文": "树枝承受不住他的体重，啪地折断了。"
+      }
+    },
+    {
+      "id": "sense-snap-02",
+      "kind": "多义词",
+      "title": "snap",
+      "target": "sense-snap-02",
+      "fields": {
+        "词条": "snap",
+        "词性": "v.",
+        "释义": "啪地合上；猛地移动",
+        "英文释义": "To move or close suddenly with a sharp sound.",
+        "搭配": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+        "例句": "The lid snapped shut.",
+        "例句译文": "盖子啪地合上了。"
+      }
+    },
+    {
+      "id": "sense-snap-03",
+      "kind": "多义词",
+      "title": "snap",
+      "target": "sense-snap-03",
+      "fields": {
+        "词条": "snap",
+        "词性": "v.",
+        "释义": "厉声说；突然发火",
+        "英文释义": "To speak suddenly and angrily, or suddenly lose your temper.",
+        "搭配": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+        "例句": "I was tired and snapped at my brother.",
+        "例句译文": "我当时很累，冲弟弟嚷了一句。"
+      }
+    },
+    {
+      "id": "sense-snap-04",
+      "kind": "多义词",
+      "title": "snap",
+      "target": "sense-snap-04",
+      "fields": {
+        "词条": "snap",
+        "词性": "v.",
+        "释义": "迅速咬向",
+        "英文释义": "To try to bite something with a sudden movement of the jaws.",
+        "搭配": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+        "例句": "The dog snapped at the stick.",
+        "例句译文": "那条狗猛地朝棍子咬去。"
+      }
+    },
+    {
+      "id": "sense-snap-05",
+      "kind": "多义词",
+      "title": "snap",
+      "target": "sense-snap-05",
+      "fields": {
+        "词条": "snap",
+        "词性": "v./n. 口语",
+        "释义": "快速拍照；快照",
+        "英文释义": "To take a quick photograph, or a photograph taken quickly.",
+        "搭配": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+        "例句": "She snapped a photo of the sunset.",
+        "例句译文": "她随手拍了一张日落照。"
+      }
+    },
+    {
+      "id": "sense-snap-06",
+      "kind": "多义词",
+      "title": "snap",
+      "target": "sense-snap-06",
+      "fields": {
+        "词条": "snap",
+        "词性": "adj.",
+        "释义": "仓促的；突然决定的",
+        "英文释义": "Made suddenly and with little time for thought.",
+        "搭配": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+        "例句": "Try not to make a snap judgment.",
+        "例句译文": "尽量别匆忙下判断。"
+      }
+    },
+    {
+      "id": "sense-contrive-01",
+      "kind": "多义词",
+      "title": "contrive",
+      "target": "sense-contrive-01",
+      "fields": {
+        "词条": "contrive",
+        "词性": "v.",
+        "释义": "设法做到",
+        "英文释义": "To manage to do something, often despite difficulties.",
+        "搭配": "contrive to do 表示经过努力或想办法做成某事；contrive a plan 表示设法想出计划。contrived 作形容词常指情节或安排牵强、不自然。",
+        "例句": "They contrived to get the door open without a key.",
+        "例句译文": "他们没用钥匙也设法把门打开了。"
+      }
+    },
+    {
+      "id": "sense-contrive-02",
+      "kind": "多义词",
+      "title": "contrive",
+      "target": "sense-contrive-02",
+      "fields": {
+        "词条": "contrive",
+        "词性": "v.",
+        "释义": "设计；想出",
+        "英文释义": "To devise a plan, device or method through ingenuity.",
+        "搭配": "contrive to do 表示经过努力或想办法做成某事；contrive a plan 表示设法想出计划。contrived 作形容词常指情节或安排牵强、不自然。",
+        "例句": "The engineer contrived a device to lift the heavy lid.",
+        "例句译文": "工程师想出了一个能抬起重盖子的装置。"
+      }
+    },
+    {
+      "id": "sense-contrive-03",
+      "kind": "多义词",
+      "title": "contrive",
+      "target": "sense-contrive-03",
+      "fields": {
+        "词条": "contrive",
+        "词性": "v.",
+        "释义": "刻意安排；策划",
+        "英文释义": "To arrange deliberately for something to happen.",
+        "搭配": "contrive to do 表示经过努力或想办法做成某事；contrive a plan 表示设法想出计划。contrived 作形容词常指情节或安排牵强、不自然。",
+        "例句": "He contrived a meeting between the two rivals.",
+        "例句译文": "他刻意安排了两个对手见面。"
+      }
+    },
+    {
+      "id": "sense-sore-01",
+      "kind": "多义词",
+      "title": "sore",
+      "target": "sense-sore-01",
+      "fields": {
+        "词条": "sore",
+        "词性": "adj.",
+        "释义": "疼痛的；酸痛的",
+        "英文释义": "Painful or tender, especially after use, injury or infection.",
+        "搭配": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+        "例句": "My legs were sore after the race.",
+        "例句译文": "比赛后我的腿很酸痛。"
+      }
+    },
+    {
+      "id": "sense-sore-02",
+      "kind": "多义词",
+      "title": "sore",
+      "target": "sense-sore-02",
+      "fields": {
+        "词条": "sore",
+        "词性": "n.",
+        "释义": "疮；疼痛的破损处",
+        "英文释义": "A painful spot or open area on the skin or in the mouth.",
+        "搭配": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+        "例句": "She has a small sore inside her mouth.",
+        "例句译文": "她嘴里有一处小溃疡。"
+      }
+    },
+    {
+      "id": "sense-sore-03",
+      "kind": "多义词",
+      "title": "sore",
+      "target": "sense-sore-03",
+      "fields": {
+        "词条": "sore",
+        "词性": "adj. 口语",
+        "释义": "恼火的；心有不满的",
+        "英文释义": "Annoyed or upset about something.",
+        "搭配": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+        "例句": "He was still sore about losing the game.",
+        "例句译文": "他还在为输掉比赛而不高兴。"
+      }
+    },
+    {
+      "id": "sense-flush-01",
+      "kind": "多义词",
+      "title": "flush",
+      "target": "sense-flush-01",
+      "fields": {
+        "词条": "flush",
+        "词性": "v.",
+        "释义": "冲洗；冲走",
+        "英文释义": "To wash something away with a flow of water.",
+        "搭配": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+        "例句": "Flush the toilet after use.",
+        "例句译文": "用完厕所后请冲水。"
+      }
+    },
+    {
+      "id": "sense-flush-02",
+      "kind": "多义词",
+      "title": "flush",
+      "target": "sense-flush-02",
+      "fields": {
+        "词条": "flush",
+        "词性": "v./n.",
+        "释义": "脸红；红晕",
+        "英文释义": "To become red in the face, or a sudden reddening of the skin.",
+        "搭配": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+        "例句": "Her cheeks flushed with embarrassment.",
+        "例句译文": "她尴尬得双颊通红。"
+      }
+    },
+    {
+      "id": "sense-flush-03",
+      "kind": "多义词",
+      "title": "flush",
+      "target": "sense-flush-03",
+      "fields": {
+        "词条": "flush",
+        "词性": "adj.",
+        "释义": "与相邻表面齐平的",
+        "英文释义": "Level with an adjoining surface, without sticking out or sinking in.",
+        "搭配": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+        "例句": "The door sits flush with the wall.",
+        "例句译文": "门与墙面齐平。"
+      }
+    },
+    {
+      "id": "sense-flush-04",
+      "kind": "多义词",
+      "title": "flush",
+      "target": "sense-flush-04",
+      "fields": {
+        "词条": "flush",
+        "词性": "adj. 口语",
+        "释义": "资金充裕的；富有某物的",
+        "英文释义": "Having plenty of money or of something else.",
+        "搭配": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+        "例句": "The company is flush with cash.",
+        "例句译文": "这家公司现金充足。"
+      }
+    },
+    {
+      "id": "sense-flush-05",
+      "kind": "多义词",
+      "title": "flush",
+      "target": "sense-flush-05",
+      "fields": {
+        "词条": "flush",
+        "词性": "短语动词",
+        "释义": "把……赶出藏身处",
+        "英文释义": "To force a person or animal out of hiding.",
+        "搭配": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+        "例句": "The dogs flushed the birds out of the bushes.",
+        "例句译文": "狗把鸟从灌木丛里赶了出来。"
+      }
+    },
+    {
+      "id": "sense-flush-06",
+      "kind": "多义词",
+      "title": "flush",
+      "target": "sense-flush-06",
+      "fields": {
+        "词条": "flush",
+        "词性": "n. 扑克",
+        "释义": "同花",
+        "英文释义": "A poker hand with all its cards in the same suit.",
+        "搭配": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+        "例句": "She won the hand with a flush.",
+        "例句译文": "她以一手同花赢了这一局。"
+      }
+    },
+    {
+      "id": "sense-routine-01",
+      "kind": "多义词",
+      "title": "routine",
+      "target": "sense-routine-01",
+      "fields": {
+        "词条": "routine",
+        "词性": "n.",
+        "释义": "惯例；日常安排",
+        "英文释义": "A regular way of doing things or sequence of activities.",
+        "搭配": "daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。",
+        "例句": "Reading before bed is part of my daily routine.",
+        "例句译文": "睡前阅读是我日常安排的一部分。"
+      }
+    },
+    {
+      "id": "sense-routine-02",
+      "kind": "多义词",
+      "title": "routine",
+      "target": "sense-routine-02",
+      "fields": {
+        "词条": "routine",
+        "词性": "adj.",
+        "释义": "例行的；常规的",
+        "英文释义": "Done regularly as part of a usual procedure.",
+        "搭配": "daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。",
+        "例句": "The machine stopped during a routine check.",
+        "例句译文": "机器在一次例行检查中停了下来。"
+      }
+    },
+    {
+      "id": "sense-routine-03",
+      "kind": "多义词",
+      "title": "routine",
+      "target": "sense-routine-03",
+      "fields": {
+        "词条": "routine",
+        "词性": "n.",
+        "释义": "成套动作；表演节目",
+        "英文释义": "A fixed sequence of movements or actions, especially in a performance.",
+        "搭配": "daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。",
+        "例句": "The team practised its dance routine.",
+        "例句译文": "队员们练习了整套舞蹈动作。"
+      }
+    },
+    {
+      "id": "sense-routine-04",
+      "kind": "多义词",
+      "title": "routine",
+      "target": "sense-routine-04",
+      "fields": {
+        "词条": "routine",
+        "词性": "n. 计算机",
+        "释义": "程序例程",
+        "英文释义": "A set of instructions that performs a particular task in a program.",
+        "搭配": "daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。",
+        "例句": "This routine checks whether the input is valid.",
+        "例句译文": "这个例程会检查输入是否有效。"
+      }
+    },
+    {
       "id": "article-A",
       "kind": "阅读文章",
       "title": "Take Naps at Work. Apologize to No One [A]",

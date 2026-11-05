@@ -23609,6 +23609,1008 @@
           "reviewStatus": "needs-review",
           "orderingBasis": "继承 Sites 第17版顺序；无客观词频声明；待词典与人工核对",
           "references": []
+        },
+        {
+          "word": "bug",
+          "notes": "fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。",
+          "senses": [
+            {
+              "partOfSpeech": "n. 口语",
+              "meaningZh": "小虫子",
+              "definitionEn": "A small insect or similar tiny creature.",
+              "example": {
+                "en": "A little bug landed on my sleeve.",
+                "zh": "一只小虫落在我的袖子上。"
+              },
+              "id": "sense-bug-01",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "程序缺陷；故障",
+              "definitionEn": "An error in software that causes unexpected behavior.",
+              "example": {
+                "en": "The update fixes a bug that made the app crash.",
+                "zh": "这次更新修复了一个会让应用崩溃的错误。"
+              },
+              "id": "sense-bug-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 口语",
+              "meaningZh": "小病；感染",
+              "definitionEn": "A minor illness caused by an infection.",
+              "example": {
+                "en": "I think I picked up a stomach bug.",
+                "zh": "我想我可能得了肠胃炎。"
+              },
+              "id": "sense-bug-03",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v. 口语",
+              "meaningZh": "烦扰；纠缠",
+              "definitionEn": "To annoy someone, especially repeatedly.",
+              "example": {
+                "en": "It bugs me when people talk during the film.",
+                "zh": "电影放映时有人说话会让我很烦。"
+              },
+              "id": "sense-bug-04",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n./v.",
+              "meaningZh": "窃听器；安装窃听器",
+              "definitionEn": "A hidden listening device, or to put one in a place.",
+              "example": {
+                "en": "They found a bug under the desk.",
+                "zh": "他们在桌子下面发现了一个窃听器。"
+              },
+              "id": "sense-bug-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "forward",
+          "notes": "look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。",
+          "senses": [
+            {
+              "partOfSpeech": "adv.",
+              "meaningZh": "向前；朝前",
+              "definitionEn": "Towards a position in front.",
+              "example": {
+                "en": "She leaned forward to hear him better.",
+                "zh": "她身体前倾，好听清他说的话。"
+              },
+              "id": "sense-forward-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adv.",
+              "meaningZh": "向今后；从某时起",
+              "definitionEn": "Towards the future or from a particular time onwards.",
+              "example": {
+                "en": "From this point forward, keep a copy of every receipt.",
+                "zh": "从现在起，把每张收据都留一份。"
+              },
+              "id": "sense-forward-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "转发；转寄",
+              "definitionEn": "To send something you have received to another person or address.",
+              "example": {
+                "en": "Could you forward the email to me?",
+                "zh": "你能把邮件转发给我吗？"
+              },
+              "id": "sense-forward-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "前部的；靠前的",
+              "definitionEn": "Located near the front of something.",
+              "example": {
+                "en": "The forward section of the ship was damaged.",
+                "zh": "船的前部受损了。"
+              },
+              "id": "sense-forward-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 体育",
+              "meaningZh": "前锋",
+              "definitionEn": "A player whose main role is to attack and score.",
+              "example": {
+                "en": "She plays as a forward for the school team.",
+                "zh": "她在校队踢前锋。"
+              },
+              "id": "sense-forward-05",
+              "register": "体育",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "instrument",
+          "notes": "play an instrument 指演奏乐器；measuring instruments 是测量仪器；an instrument of change 是推动变化的手段。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "乐器",
+              "definitionEn": "An object used to make music.",
+              "example": {
+                "en": "The violin was the first instrument she learned to play.",
+                "zh": "小提琴是她学会演奏的第一种乐器。"
+              },
+              "id": "sense-instrument-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "仪器；器械",
+              "definitionEn": "A tool designed for a precise task, such as measuring or operating.",
+              "example": {
+                "en": "The nurse checked that the surgical instruments were ready.",
+                "zh": "护士确认手术器械已经准备好。"
+              },
+              "id": "sense-instrument-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 正式",
+              "meaningZh": "手段；工具",
+              "definitionEn": "A means of bringing about a result.",
+              "example": {
+                "en": "Education can be an instrument of social change.",
+                "zh": "教育可以成为推动社会变革的手段。"
+              },
+              "id": "sense-instrument-03",
+              "register": "正式",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 金融",
+              "meaningZh": "金融工具",
+              "definitionEn": "An asset or agreement with financial value that can often be traded.",
+              "example": {
+                "en": "A government bond is a financial instrument.",
+                "zh": "政府债券是一种金融工具。"
+              },
+              "id": "sense-instrument-04",
+              "register": "金融",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "access",
+          "notes": "名词用 access to；动词直接接宾语，如 access the files。表示一般意义的“使用权”时，access 通常不可数。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "使用权；获取机会",
+              "definitionEn": "The right or opportunity to use or obtain something.",
+              "example": {
+                "en": "Students have free access to the online library.",
+                "zh": "学生可以免费使用在线图书馆。"
+              },
+              "id": "sense-access-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "通路；进入的方式",
+              "definitionEn": "A route or way of entering a place.",
+              "example": {
+                "en": "The bridge provides access to the island.",
+                "zh": "这座桥是通往岛上的通道。"
+              },
+              "id": "sense-access-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "访问；读取；使用",
+              "definitionEn": "To open, retrieve or use information or a resource.",
+              "example": {
+                "en": "You can access the files from your phone.",
+                "zh": "你可以用手机访问这些文件。"
+              },
+              "id": "sense-access-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "进入；到达",
+              "definitionEn": "To reach or enter a place.",
+              "example": {
+                "en": "Visitors can access the garden through a side gate.",
+                "zh": "游客可以从侧门进入花园。"
+              },
+              "id": "sense-access-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "moderate",
+          "notes": "形容词和名词末尾通常读 /ət/，动词末尾读 /eɪt/。moderate exercise 指中等强度的运动；moderate a discussion 指主持讨论。",
+          "senses": [
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "适度的；中等的",
+              "definitionEn": "Neither very large nor very small in amount or intensity.",
+              "example": {
+                "en": "We expect moderate growth this year.",
+                "zh": "我们预计今年会有适度增长。"
+              },
+              "id": "sense-moderate-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj./n.",
+              "meaningZh": "温和的；温和派人士",
+              "definitionEn": "Avoiding extreme views, or a person who holds such views.",
+              "example": {
+                "en": "She takes a moderate position on the issue.",
+                "zh": "她在这个问题上的立场比较温和。"
+              },
+              "id": "sense-moderate-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "缓和；使降低",
+              "definitionEn": "To make or become less extreme, strong or severe.",
+              "example": {
+                "en": "Higher supply may help moderate prices.",
+                "zh": "供应增加可能有助于缓解价格上涨的压力。"
+              },
+              "id": "sense-moderate-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "主持；审核管理",
+              "definitionEn": "To guide a discussion or oversee what users post in a group.",
+              "example": {
+                "en": "She was asked to moderate the debate.",
+                "zh": "她受邀主持这场辩论。"
+              },
+              "id": "sense-moderate-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "chip",
+          "notes": "英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "芯片",
+              "definitionEn": "A small piece of semiconductor material containing an electronic circuit.",
+              "example": {
+                "en": "The new chip uses less power.",
+                "zh": "新芯片的耗电量更低。"
+              },
+              "id": "sense-chip-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "碎片；缺口",
+              "definitionEn": "A small piece broken off a surface, or the mark left by it.",
+              "example": {
+                "en": "There is a chip in the rim of the cup.",
+                "zh": "杯沿有个缺口。"
+              },
+              "id": "sense-chip-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 常用复数",
+              "meaningZh": "薯片；薯条",
+              "definitionEn": "A thin crisp slice of fried potato, or in British English a thicker fried strip.",
+              "example": {
+                "en": "We ordered fish and chips.",
+                "zh": "我们点了炸鱼薯条。"
+              },
+              "id": "sense-chip-03",
+              "register": "常用复数",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "筹码",
+              "definitionEn": "A small token used in a game to represent money or points.",
+              "example": {
+                "en": "He placed two chips on the table.",
+                "zh": "他在桌上放了两枚筹码。"
+              },
+              "id": "sense-chip-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "磕掉一小块；使出现缺口",
+              "definitionEn": "To break a small piece off something hard.",
+              "example": {
+                "en": "I chipped a tooth when I fell.",
+                "zh": "我摔倒时磕掉了一小块牙。"
+              },
+              "id": "sense-chip-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "短语动词",
+              "meaningZh": "凑份子；插话",
+              "definitionEn": "To contribute money or add a comment to a conversation.",
+              "example": {
+                "en": "We each chipped in five dollars for the gift.",
+                "zh": "我们每人出了五美元买这件礼物。"
+              },
+              "id": "sense-chip-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "refresh",
+          "notes": "refresh the page 刷新页面；refresh your memory 帮你回想；refresh yourself 使自己恢复精神。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "刷新；重新加载",
+              "definitionEn": "To reload a page or display so that it shows current information.",
+              "example": {
+                "en": "Refresh the page to see the latest results.",
+                "zh": "刷新页面就能看到最新结果。"
+              },
+              "id": "sense-refresh-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "使恢复精神；使感到凉爽",
+              "definitionEn": "To make someone feel less tired or hot.",
+              "example": {
+                "en": "A quick shower refreshed me after the run.",
+                "zh": "跑完步后冲了个澡，我感觉精神多了。"
+              },
+              "id": "sense-refresh-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "唤起记忆；复习",
+              "definitionEn": "To help someone remember something again.",
+              "example": {
+                "en": "I reread my notes to refresh my memory.",
+                "zh": "我重读笔记，回想之前学过的内容。"
+              },
+              "id": "sense-refresh-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "更新；翻新",
+              "definitionEn": "To update something so that it looks or feels new again.",
+              "example": {
+                "en": "They refreshed the design without changing the layout.",
+                "zh": "他们更新了设计，保留了原有布局。"
+              },
+              "id": "sense-refresh-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "tuck",
+          "notes": "tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "塞入；掖进",
+              "definitionEn": "To push the end of something into or under something else.",
+              "example": {
+                "en": "She tucked her shirt into her jeans.",
+                "zh": "她把衬衫下摆塞进牛仔裤里。"
+              },
+              "id": "sense-tuck-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "收拢；蜷起",
+              "definitionEn": "To pull part of the body into a closer or smaller position.",
+              "example": {
+                "en": "Tuck your chin in slightly.",
+                "zh": "下巴稍微往里收一点。"
+              },
+              "id": "sense-tuck-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "短语动词",
+              "meaningZh": "给……掖好被子",
+              "definitionEn": "To make someone comfortable in bed by arranging the covers around them.",
+              "example": {
+                "en": "He tucked the children in before turning off the light.",
+                "zh": "他给孩子们掖好被子，然后关了灯。"
+              },
+              "id": "sense-tuck-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "短语动词",
+              "meaningZh": "藏好；把……放在隐蔽处",
+              "definitionEn": "To put something in a safe or out-of-the-way place.",
+              "example": {
+                "en": "The cabin was tucked away among the trees.",
+                "zh": "小木屋隐在树林里。"
+              },
+              "id": "sense-tuck-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "短语动词 英式口语",
+              "meaningZh": "大口吃；痛快地吃",
+              "definitionEn": "To start eating something with enthusiasm.",
+              "example": {
+                "en": "Everyone tucked into the noodles.",
+                "zh": "大家都津津有味地吃起了面条。"
+              },
+              "id": "sense-tuck-05",
+              "register": "英式口语",
+              "regionalUsage": "UK",
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "snap",
+          "notes": "snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "啪地折断；使折断",
+              "definitionEn": "To break suddenly, often with a sharp sound.",
+              "example": {
+                "en": "The branch snapped under his weight.",
+                "zh": "树枝承受不住他的体重，啪地折断了。"
+              },
+              "id": "sense-snap-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "啪地合上；猛地移动",
+              "definitionEn": "To move or close suddenly with a sharp sound.",
+              "example": {
+                "en": "The lid snapped shut.",
+                "zh": "盖子啪地合上了。"
+              },
+              "id": "sense-snap-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "厉声说；突然发火",
+              "definitionEn": "To speak suddenly and angrily, or suddenly lose your temper.",
+              "example": {
+                "en": "I was tired and snapped at my brother.",
+                "zh": "我当时很累，冲弟弟嚷了一句。"
+              },
+              "id": "sense-snap-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "迅速咬向",
+              "definitionEn": "To try to bite something with a sudden movement of the jaws.",
+              "example": {
+                "en": "The dog snapped at the stick.",
+                "zh": "那条狗猛地朝棍子咬去。"
+              },
+              "id": "sense-snap-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v./n. 口语",
+              "meaningZh": "快速拍照；快照",
+              "definitionEn": "To take a quick photograph, or a photograph taken quickly.",
+              "example": {
+                "en": "She snapped a photo of the sunset.",
+                "zh": "她随手拍了一张日落照。"
+              },
+              "id": "sense-snap-05",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "仓促的；突然决定的",
+              "definitionEn": "Made suddenly and with little time for thought.",
+              "example": {
+                "en": "Try not to make a snap judgment.",
+                "zh": "尽量别匆忙下判断。"
+              },
+              "id": "sense-snap-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "contrive",
+          "notes": "contrive to do 表示经过努力或想办法做成某事；contrive a plan 表示设法想出计划。contrived 作形容词常指情节或安排牵强、不自然。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "设法做到",
+              "definitionEn": "To manage to do something, often despite difficulties.",
+              "example": {
+                "en": "They contrived to get the door open without a key.",
+                "zh": "他们没用钥匙也设法把门打开了。"
+              },
+              "id": "sense-contrive-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "设计；想出",
+              "definitionEn": "To devise a plan, device or method through ingenuity.",
+              "example": {
+                "en": "The engineer contrived a device to lift the heavy lid.",
+                "zh": "工程师想出了一个能抬起重盖子的装置。"
+              },
+              "id": "sense-contrive-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "刻意安排；策划",
+              "definitionEn": "To arrange deliberately for something to happen.",
+              "example": {
+                "en": "He contrived a meeting between the two rivals.",
+                "zh": "他刻意安排了两个对手见面。"
+              },
+              "id": "sense-contrive-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "sore",
+          "notes": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+          "senses": [
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "疼痛的；酸痛的",
+              "definitionEn": "Painful or tender, especially after use, injury or infection.",
+              "example": {
+                "en": "My legs were sore after the race.",
+                "zh": "比赛后我的腿很酸痛。"
+              },
+              "id": "sense-sore-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "疮；疼痛的破损处",
+              "definitionEn": "A painful spot or open area on the skin or in the mouth.",
+              "example": {
+                "en": "She has a small sore inside her mouth.",
+                "zh": "她嘴里有一处小溃疡。"
+              },
+              "id": "sense-sore-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj. 口语",
+              "meaningZh": "恼火的；心有不满的",
+              "definitionEn": "Annoyed or upset about something.",
+              "example": {
+                "en": "He was still sore about losing the game.",
+                "zh": "他还在为输掉比赛而不高兴。"
+              },
+              "id": "sense-sore-03",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "flush",
+          "notes": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "冲洗；冲走",
+              "definitionEn": "To wash something away with a flow of water.",
+              "example": {
+                "en": "Flush the toilet after use.",
+                "zh": "用完厕所后请冲水。"
+              },
+              "id": "sense-flush-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "v./n.",
+              "meaningZh": "脸红；红晕",
+              "definitionEn": "To become red in the face, or a sudden reddening of the skin.",
+              "example": {
+                "en": "Her cheeks flushed with embarrassment.",
+                "zh": "她尴尬得双颊通红。"
+              },
+              "id": "sense-flush-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "与相邻表面齐平的",
+              "definitionEn": "Level with an adjoining surface, without sticking out or sinking in.",
+              "example": {
+                "en": "The door sits flush with the wall.",
+                "zh": "门与墙面齐平。"
+              },
+              "id": "sense-flush-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj. 口语",
+              "meaningZh": "资金充裕的；富有某物的",
+              "definitionEn": "Having plenty of money or of something else.",
+              "example": {
+                "en": "The company is flush with cash.",
+                "zh": "这家公司现金充足。"
+              },
+              "id": "sense-flush-04",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "短语动词",
+              "meaningZh": "把……赶出藏身处",
+              "definitionEn": "To force a person or animal out of hiding.",
+              "example": {
+                "en": "The dogs flushed the birds out of the bushes.",
+                "zh": "狗把鸟从灌木丛里赶了出来。"
+              },
+              "id": "sense-flush-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 扑克",
+              "meaningZh": "同花",
+              "definitionEn": "A poker hand with all its cards in the same suit.",
+              "example": {
+                "en": "She won the hand with a flush.",
+                "zh": "她以一手同花赢了这一局。"
+              },
+              "id": "sense-flush-06",
+              "register": "扑克",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
+          "word": "routine",
+          "notes": "daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "惯例；日常安排",
+              "definitionEn": "A regular way of doing things or sequence of activities.",
+              "example": {
+                "en": "Reading before bed is part of my daily routine.",
+                "zh": "睡前阅读是我日常安排的一部分。"
+              },
+              "id": "sense-routine-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "例行的；常规的",
+              "definitionEn": "Done regularly as part of a usual procedure.",
+              "example": {
+                "en": "The machine stopped during a routine check.",
+                "zh": "机器在一次例行检查中停了下来。"
+              },
+              "id": "sense-routine-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "成套动作；表演节目",
+              "definitionEn": "A fixed sequence of movements or actions, especially in a performance.",
+              "example": {
+                "en": "The team practised its dance routine.",
+                "zh": "队员们练习了整套舞蹈动作。"
+              },
+              "id": "sense-routine-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n. 计算机",
+              "meaningZh": "程序例程",
+              "definitionEn": "A set of instructions that performs a particular task in a program.",
+              "example": {
+                "en": "This routine checks whether the input is valid.",
+                "zh": "这个例程会检查输入是否有效。"
+              },
+              "id": "sense-routine-04",
+              "register": "计算机",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
         }
       ]
     }

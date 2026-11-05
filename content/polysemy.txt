@@ -469,3 +469,88 @@ n.|城区；区域；某一方面的人士|A district of a town, or a source of 
 n. 复数|住处；营房|Rooms or buildings used as accommodation.|The staff quarters are behind the hotel.|员工宿舍在酒店后面。
 v.|把……分成四份；为……安排住宿|To divide into four parts or provide accommodation.|Quarter the apples before cooking.|烹煮前把苹果切成四块。
 n. 正式/历史|饶命；宽恕|Mercy shown to a defeated opponent.|The commander ordered his men to give no quarter.|指挥官命令士兵不要饶恕敌人。
+# bug
+提示：fix a bug 修复程序错误；a stomach bug 常指引起肠胃不适的感染；stop bugging me 是口语“别烦我了”。
+n. 口语|小虫子|A small insect or similar tiny creature.|A little bug landed on my sleeve.|一只小虫落在我的袖子上。
+n.|程序缺陷；故障|An error in software that causes unexpected behavior.|The update fixes a bug that made the app crash.|这次更新修复了一个会让应用崩溃的错误。
+n. 口语|小病；感染|A minor illness caused by an infection.|I think I picked up a stomach bug.|我想我可能得了肠胃炎。
+v. 口语|烦扰；纠缠|To annoy someone, especially repeatedly.|It bugs me when people talk during the film.|电影放映时有人说话会让我很烦。
+n./v.|窃听器；安装窃听器|A hidden listening device, or to put one in a place.|They found a bug under the desk.|他们在桌子下面发现了一个窃听器。
+# forward
+提示：look forward to 中的 to 是介词，后接名词或动名词，如 look forward to seeing you；forward an email to sb 是把邮件转发给某人。
+adv.|向前；朝前|Towards a position in front.|She leaned forward to hear him better.|她身体前倾，好听清他说的话。
+adv.|向今后；从某时起|Towards the future or from a particular time onwards.|From this point forward, keep a copy of every receipt.|从现在起，把每张收据都留一份。
+v.|转发；转寄|To send something you have received to another person or address.|Could you forward the email to me?|你能把邮件转发给我吗？
+adj.|前部的；靠前的|Located near the front of something.|The forward section of the ship was damaged.|船的前部受损了。
+n. 体育|前锋|A player whose main role is to attack and score.|She plays as a forward for the school team.|她在校队踢前锋。
+# instrument
+提示：play an instrument 指演奏乐器；measuring instruments 是测量仪器；an instrument of change 是推动变化的手段。
+n.|乐器|An object used to make music.|The violin was the first instrument she learned to play.|小提琴是她学会演奏的第一种乐器。
+n.|仪器；器械|A tool designed for a precise task, such as measuring or operating.|The nurse checked that the surgical instruments were ready.|护士确认手术器械已经准备好。
+n. 正式|手段；工具|A means of bringing about a result.|Education can be an instrument of social change.|教育可以成为推动社会变革的手段。
+n. 金融|金融工具|An asset or agreement with financial value that can often be traded.|A government bond is a financial instrument.|政府债券是一种金融工具。
+# access
+提示：名词用 access to；动词直接接宾语，如 access the files。表示一般意义的“使用权”时，access 通常不可数。
+n.|使用权；获取机会|The right or opportunity to use or obtain something.|Students have free access to the online library.|学生可以免费使用在线图书馆。
+n.|通路；进入的方式|A route or way of entering a place.|The bridge provides access to the island.|这座桥是通往岛上的通道。
+v.|访问；读取；使用|To open, retrieve or use information or a resource.|You can access the files from your phone.|你可以用手机访问这些文件。
+v.|进入；到达|To reach or enter a place.|Visitors can access the garden through a side gate.|游客可以从侧门进入花园。
+# moderate
+提示：形容词和名词末尾通常读 /ət/，动词末尾读 /eɪt/。moderate exercise 指中等强度的运动；moderate a discussion 指主持讨论。
+adj.|适度的；中等的|Neither very large nor very small in amount or intensity.|We expect moderate growth this year.|我们预计今年会有适度增长。
+adj./n.|温和的；温和派人士|Avoiding extreme views, or a person who holds such views.|She takes a moderate position on the issue.|她在这个问题上的立场比较温和。
+v.|缓和；使降低|To make or become less extreme, strong or severe.|Higher supply may help moderate prices.|供应增加可能有助于缓解价格上涨的压力。
+v.|主持；审核管理|To guide a discussion or oversee what users post in a group.|She was asked to moderate the debate.|她受邀主持这场辩论。
+# chip
+提示：英式 fish and chips 里的 chips 是薯条，美式 potato chips 通常是薯片。chip in 既可指凑钱，也可指插话。
+n.|芯片|A small piece of semiconductor material containing an electronic circuit.|The new chip uses less power.|新芯片的耗电量更低。
+n.|碎片；缺口|A small piece broken off a surface, or the mark left by it.|There is a chip in the rim of the cup.|杯沿有个缺口。
+n. 常用复数|薯片；薯条|A thin crisp slice of fried potato, or in British English a thicker fried strip.|We ordered fish and chips.|我们点了炸鱼薯条。
+n.|筹码|A small token used in a game to represent money or points.|He placed two chips on the table.|他在桌上放了两枚筹码。
+v.|磕掉一小块；使出现缺口|To break a small piece off something hard.|I chipped a tooth when I fell.|我摔倒时磕掉了一小块牙。
+短语动词|凑份子；插话|To contribute money or add a comment to a conversation.|We each chipped in five dollars for the gift.|我们每人出了五美元买这件礼物。
+# refresh
+提示：refresh the page 刷新页面；refresh your memory 帮你回想；refresh yourself 使自己恢复精神。
+v.|刷新；重新加载|To reload a page or display so that it shows current information.|Refresh the page to see the latest results.|刷新页面就能看到最新结果。
+v.|使恢复精神；使感到凉爽|To make someone feel less tired or hot.|A quick shower refreshed me after the run.|跑完步后冲了个澡，我感觉精神多了。
+v.|唤起记忆；复习|To help someone remember something again.|I reread my notes to refresh my memory.|我重读笔记，回想之前学过的内容。
+v.|更新；翻新|To update something so that it looks or feels new again.|They refreshed the design without changing the layout.|他们更新了设计，保留了原有布局。
+# tuck
+提示：tuck A into B 表示把 A 塞进 B；tuck someone in 表示给某人掖好被子。英式口语 tuck into a meal 表示痛快地吃起来。
+v.|塞入；掖进|To push the end of something into or under something else.|She tucked her shirt into her jeans.|她把衬衫下摆塞进牛仔裤里。
+v.|收拢；蜷起|To pull part of the body into a closer or smaller position.|Tuck your chin in slightly.|下巴稍微往里收一点。
+短语动词|给……掖好被子|To make someone comfortable in bed by arranging the covers around them.|He tucked the children in before turning off the light.|他给孩子们掖好被子，然后关了灯。
+短语动词|藏好；把……放在隐蔽处|To put something in a safe or out-of-the-way place.|The cabin was tucked away among the trees.|小木屋隐在树林里。
+短语动词 英式口语|大口吃；痛快地吃|To start eating something with enthusiasm.|Everyone tucked into the noodles.|大家都津津有味地吃起了面条。
+# snap
+提示：snap at sb 常表示厉声说话，动物 snap at sth 则可能是突然张嘴去咬；snap a photo 是快速拍照；a snap decision 是仓促的决定。
+v.|啪地折断；使折断|To break suddenly, often with a sharp sound.|The branch snapped under his weight.|树枝承受不住他的体重，啪地折断了。
+v.|啪地合上；猛地移动|To move or close suddenly with a sharp sound.|The lid snapped shut.|盖子啪地合上了。
+v.|厉声说；突然发火|To speak suddenly and angrily, or suddenly lose your temper.|I was tired and snapped at my brother.|我当时很累，冲弟弟嚷了一句。
+v.|迅速咬向|To try to bite something with a sudden movement of the jaws.|The dog snapped at the stick.|那条狗猛地朝棍子咬去。
+v./n. 口语|快速拍照；快照|To take a quick photograph, or a photograph taken quickly.|She snapped a photo of the sunset.|她随手拍了一张日落照。
+adj.|仓促的；突然决定的|Made suddenly and with little time for thought.|Try not to make a snap judgment.|尽量别匆忙下判断。
+# contrive
+提示：contrive to do 表示经过努力或想办法做成某事；contrive a plan 表示设法想出计划。contrived 作形容词常指情节或安排牵强、不自然。
+v.|设法做到|To manage to do something, often despite difficulties.|They contrived to get the door open without a key.|他们没用钥匙也设法把门打开了。
+v.|设计；想出|To devise a plan, device or method through ingenuity.|The engineer contrived a device to lift the heavy lid.|工程师想出了一个能抬起重盖子的装置。
+v.|刻意安排；策划|To arrange deliberately for something to happen.|He contrived a meeting between the two rivals.|他刻意安排了两个对手见面。
+# sore
+提示：a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。
+adj.|疼痛的；酸痛的|Painful or tender, especially after use, injury or infection.|My legs were sore after the race.|比赛后我的腿很酸痛。
+n.|疮；疼痛的破损处|A painful spot or open area on the skin or in the mouth.|She has a small sore inside her mouth.|她嘴里有一处小溃疡。
+adj. 口语|恼火的；心有不满的|Annoyed or upset about something.|He was still sore about losing the game.|他还在为输掉比赛而不高兴。
+# flush
+提示：flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。
+v.|冲洗；冲走|To wash something away with a flow of water.|Flush the toilet after use.|用完厕所后请冲水。
+v./n.|脸红；红晕|To become red in the face, or a sudden reddening of the skin.|Her cheeks flushed with embarrassment.|她尴尬得双颊通红。
+adj.|与相邻表面齐平的|Level with an adjoining surface, without sticking out or sinking in.|The door sits flush with the wall.|门与墙面齐平。
+adj. 口语|资金充裕的；富有某物的|Having plenty of money or of something else.|The company is flush with cash.|这家公司现金充足。
+短语动词|把……赶出藏身处|To force a person or animal out of hiding.|The dogs flushed the birds out of the bushes.|狗把鸟从灌木丛里赶了出来。
+n. 扑克|同花|A poker hand with all its cards in the same suit.|She won the hand with a flush.|她以一手同花赢了这一局。
+# routine
+提示：daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。
+n.|惯例；日常安排|A regular way of doing things or sequence of activities.|Reading before bed is part of my daily routine.|睡前阅读是我日常安排的一部分。
+adj.|例行的；常规的|Done regularly as part of a usual procedure.|The machine stopped during a routine check.|机器在一次例行检查中停了下来。
+n.|成套动作；表演节目|A fixed sequence of movements or actions, especially in a performance.|The team practised its dance routine.|队员们练习了整套舞蹈动作。
+n. 计算机|程序例程|A set of instructions that performs a particular task in a program.|This routine checks whether the input is valid.|这个例程会检查输入是否有效。

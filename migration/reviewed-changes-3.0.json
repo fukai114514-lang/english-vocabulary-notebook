@@ -8,28 +8,28 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "f0e6f7d179e833aaec5e4fb0656643df49e4c3381d8ee3fb743324f732eddae0",
-    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
+    "sha256": "c5047b8a8ffc663aaad4228bc76e205a998f4d8f2ca5fcaa302203cc27ce2763",
+    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "content/polysemy.txt": {
-    "sha256": "4d22b6ca9967f10e3c25985ab00f643102091465491a0e6ff026ce4f3ba79a15",
-    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
+    "sha256": "bb35bcdeb79103b8a89e73008b2eaf44824a093f8424852f65bc436d61ead78a",
+    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "content/render.py": {
-    "sha256": "e59f8929793680bf4e6982f7994a0fd4ed19d9564f32ff0034df1d7989373342",
-    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
+    "sha256": "422b6475880ad14980ec6940e394a0ed018923c67f87918fd013f56493edeafd",
+    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "dist/index.html": {
-    "sha256": "7e05000c901d17b317b35dfea5321dfdf6751675ac2c1de7970c7e98994b60eb",
-    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
+    "sha256": "0a1365cf6ed068ce6e67ac5a279fd5b4fd1304d8e1efbbe4046da1469938b8e4",
+    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "dist/polysemy.json": {
-    "sha256": "d28cc196c68ef58047067feeeaa8cba5e238a0fe4a787e84be2cbdae0496027f",
-    "reason": "User requested removal of itself from polysemy; all other entries retained exactly."
+    "sha256": "ecb876edf26eca1dc4d9b46b072b4756cc00cf8de3f84faf127698e91ebb5b84",
+    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "dist/vocabulary.json": {
-    "sha256": "9a18c2c4cd323f88fb51839f11d1812a5e58c6b1089f56e88db113cc6b65a388",
-    "reason": "Reviewed additive vocabulary update: 12 groups, 22 words; exact preservation of previous 124 groups and 296 word records."
+    "sha256": "7b608778a4351a0d6148a19d21feeac4e30464c3940e4376a3c2438b215fb703",
+    "reason": "Add 13 words and 59 senses to polysemy from two screenshots. Preserve the previous 61 entries and IDs exactly."
   },
   "content/base.html": {
     "sha256": "96a386ea9aefcd3e9b86be86410a39bf6e4a879516c309a17331425ecc7807eb",

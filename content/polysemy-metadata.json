@@ -3217,5 +3217,568 @@
         "reviewStatus": "needs-review"
       }
     }
+  },
+  "bug": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "5d8e3085fc71e0c02162ad2d3853fb51d1888565d96bc026d588a12ef9cb5aab": {
+        "id": "sense-bug-01",
+        "register": "口语",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6feda147bb29de5e03882e0859ed86ee84b774822690438638d16354811bfb1e": {
+        "id": "sense-bug-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e02e9b570699fdb6e011caabffcf2333d024116a5235883064cd599df75d63a8": {
+        "id": "sense-bug-03",
+        "register": "口语",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4807c862b6cdc9f40b017d9ad5f00e0793f30f7c2cd8ca33e05e29c60ed334ee": {
+        "id": "sense-bug-04",
+        "register": "口语",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8c355ba8b87b3c7915ce4f281fb2eaaeee7e871395520d30c8f8e4e02ba9efba": {
+        "id": "sense-bug-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "forward": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "f91843c54a80c8b0733430050ae99708cbd0e8d6b8ce1798672d20ca28340fdf": {
+        "id": "sense-forward-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "38430512b981ca8bd12898509105ad313f1cf99ca9572b79bcbd23e757e0ee6d": {
+        "id": "sense-forward-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3c795e67f76f002cf90e2f1ac32b1f52b2eef8c539258c508950bddbedf59f46": {
+        "id": "sense-forward-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8ad39b6dab792e0b050d7724f909fa02817853ec414d80b420065e44ce046bb8": {
+        "id": "sense-forward-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "648579bfaaee08121d5d231b4571e407b6180a2958f5d1e4f24cdb787a4cb18a": {
+        "id": "sense-forward-05",
+        "register": "体育",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "instrument": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "fabd8917a484c56b3fac737a43a92d843f8d483e2ba975fb99f3f866a396f6f3": {
+        "id": "sense-instrument-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c9376652ccb7d63ab1dc137e6405d0f5923e4c08eda4ea09c70aa5748140b143": {
+        "id": "sense-instrument-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "49142c4281bcf25acb53d2fac0804e16b803428a6f8420c6f38e45ea6303d5ce": {
+        "id": "sense-instrument-03",
+        "register": "正式",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "92db17d1f7a9c8b6612598400660d9a80602f5633d97207a05acb16c9b2f760d": {
+        "id": "sense-instrument-04",
+        "register": "金融",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "access": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "de627aa97c7cfbb63e5b3e4a271d9bca0ce0531b3ac721161ce7d1068c8b88c9": {
+        "id": "sense-access-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "fe8cd22c35ccf9bd453d611995a58b3ede48141d9f1666fcaf1edfe2b25b58c9": {
+        "id": "sense-access-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4a5601f3cde66f80d62654a0dd0867e91a49091292d93f0be60f195b5f757b37": {
+        "id": "sense-access-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5da1a83d3921ef889ce0e47d5c5503a9d3b7c6b595ab985d18476864d4c96ec1": {
+        "id": "sense-access-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "moderate": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "88d5bb5ce3e217c19b0de4535b768e54ba18dd4c60040dfde8c54a4d27e77c0c": {
+        "id": "sense-moderate-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e0937c4452b56cce5671fc4dcc9b39297690935507dcf4e3943dac085fc575c5": {
+        "id": "sense-moderate-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "1804a25ff214b325f618d9df5e134f8b29197118bac8a6bc8d220303d26d4cd8": {
+        "id": "sense-moderate-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "324105a7baae6751744f1955625f3a66c89761046041096660c97eb1d212d89a": {
+        "id": "sense-moderate-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "chip": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "c47adcec42ca7039c4aed062d2bdc914dfe346e1ff0a6130c8775a3854d83a30": {
+        "id": "sense-chip-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "5aaaccd7e59b7a32d52a98d7e16cf571e255357979166f673be5ceefdbd51f4f": {
+        "id": "sense-chip-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "462d01b79d43c049c846230f46c33c198dc10d7073c576ec8a869085f03cc18b": {
+        "id": "sense-chip-03",
+        "register": "常用复数",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "eed746703bb436ce5e7f9f599162ba3c837bdd09c68fc3fdd6c2221d12e2b1eb": {
+        "id": "sense-chip-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "f03ee4c3ee25283a8245c3dd3633f4feed1ce9a13b498c9c9006cb1817f27635": {
+        "id": "sense-chip-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0b271431e4613e0e459da15e8e8a38c01a1b280341b6e559ee29c686317dfb8d": {
+        "id": "sense-chip-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "refresh": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "f86e5c20fd77236616d8c0aa93b9e3718d70d7688f29b4ef4590755a36b0f528": {
+        "id": "sense-refresh-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a44f02ca76cbc07da10f6d29d61f00a788d785982103e1e08760fee62653c0f3": {
+        "id": "sense-refresh-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4390af5f6c9331c2c75bb165356a3b816dfdaa3650266c8e5f77d2a2c7ed8b38": {
+        "id": "sense-refresh-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "b5dc44831b3ad111da3f390e3ca8f00ef9d4e533b63ecac0bc1b92812e085eca": {
+        "id": "sense-refresh-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "tuck": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "3ee8ece3084901607bb21c1f98bef16c29e4278d74afebb2001e2a21db1a3a2d": {
+        "id": "sense-tuck-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "05f75485fef3c95adc9d05866f82ed539e63f894913a6f77640c3aaf5ffdfa3a": {
+        "id": "sense-tuck-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "e67c794549bb3e43be3a8e5327f7adbd7b37ac7bb6276da0ed2a1894663d8d10": {
+        "id": "sense-tuck-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0b6c9a82a364d919bb1f3d0d575c6eb2174b7ec32f28427a6cb4b6ceba0d95a5": {
+        "id": "sense-tuck-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "28d7331c79faf216ea99e8e7ff2f4a1fe8c3274982483cad31171a35995ae8cc": {
+        "id": "sense-tuck-05",
+        "register": "英式口语",
+        "regionalUsage": "UK",
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "snap": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "658f0b635fda23dcf09bcb191953f23735d757ac2a991efcf417c3bd16835383": {
+        "id": "sense-snap-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "8a7eae86a29f105657ce05a6b1df0bd9e7957598966d31e7fe6f1d12c978112a": {
+        "id": "sense-snap-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3b558a3c522717cbf72ca35f8f42f70c18608ee7efc03eec5a0c049663253104": {
+        "id": "sense-snap-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "df676752a949407f416a1c22e4a39b8295112b68eceb3b6ee2b27d7e292dc113": {
+        "id": "sense-snap-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a23c8cc23415cdc0774ab6d5e48e06ea49dfda7e1c0306ad4c274bfcb1fd2c84": {
+        "id": "sense-snap-05",
+        "register": "口语",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "900a4378b798f12f5308182fabe12d26e1efc7a6e03ebf10b0ebd4cdfd6006bf": {
+        "id": "sense-snap-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "contrive": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "1a34f83c50dfc5cacaaec8fbb3aec78ec360b987fd56bbe058d9e8e02c8f105f": {
+        "id": "sense-contrive-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "19a4859bb2ec250b10c23108b6d9c85a86102b4c900be522305a5539be46b7d3": {
+        "id": "sense-contrive-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "a9d9fac4c529deff204f4d5cbbf6a3af6ae43f56bb526edccaae45834c308027": {
+        "id": "sense-contrive-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "sore": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "52c973483e0dc40e52929d700faf95389c62ce1baee4d1c6cea17ab8f4eb0355": {
+        "id": "sense-sore-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "6a3204ceadae05b263c0aa87d974e59f931caeb4f2b909d2904933a22940669c": {
+        "id": "sense-sore-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c967d87e4e905e3d94e0fbd4484bd05c2ced1d47bb7754b102c6b72ee9f4c57e": {
+        "id": "sense-sore-03",
+        "register": "口语",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "flush": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "081b12ec85f71f3d8612fde28cbf0d655379e50e8e6b2b842425104bc64bbd45": {
+        "id": "sense-flush-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "3d2c2206588ff467f51d0d5f4fd2c564bd993f897a7d38fb894af00df0fbcd1a": {
+        "id": "sense-flush-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "0ed9fdcc459b35ab2ff72619476bf53a5a210b381fc7b4d19e1497b21ab1ce83": {
+        "id": "sense-flush-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "00807694306dbf4d75d63bd6140924f3293709d8f3599ebbe689de61b2933019": {
+        "id": "sense-flush-04",
+        "register": "口语",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "4c57e51d6eb21401ac387ac61be73998490b85cb3a4146d3a5533cd9b433b2d3": {
+        "id": "sense-flush-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "d32c46374c35c958009adaeb04681deb85d4fb95782ed3b421c5b4cc58c57f88": {
+        "id": "sense-flush-06",
+        "register": "扑克",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
+  },
+  "routine": {
+    "reviewStatus": "needs-review",
+    "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+    "references": [],
+    "senses": {
+      "9476e7d0087b2855bbcccfe6493e7177be2d291e2a47a1dc6a5cf2d6300b87a8": {
+        "id": "sense-routine-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c42e952ca70860c186b03567e1cb22571c7574779bc14fbefa82d97f386181c0": {
+        "id": "sense-routine-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "c2c3835aa609fc197984f39bdbae955429300208c105ffd12123522f8ec58405": {
+        "id": "sense-routine-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      },
+      "68634bbfc66a4b13afea6698954fa63c66fd04b898f3040336748003ce4be735": {
+        "id": "sense-routine-04",
+        "register": "计算机",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "needs-review"
+      }
+    }
   }
 }

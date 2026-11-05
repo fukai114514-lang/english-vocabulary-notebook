@@ -86,7 +86,11 @@
   if(revealing)return;
   const card=document.querySelector('#lookup-card');if(card?.open)card.close();
   const targets={all:'list',original:'original-heading',poly:'poly-heading',nap:'nap-part'};
-  const target=targets[b.dataset.part];if(target&&location.hash!=='#'+target)location.hash=target;
+  const part=b.dataset.part,target=targets[part];
+  if(!target||location.hash==='#'+target)return;
+  // A hash assignment jumps to the heading. These tabs only switch the list.
+  if(part==='original'||part==='poly')history.pushState(null,'','#'+target);
+  else location.hash=target;
  }));
  window.addEventListener('hashchange',()=>{if(q.value)resetQuery();});
  fetch('./search-index.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{records=data.records;loaded=true;search();}).catch(()=>{loadFailed=true;results.hidden=false;status.textContent='搜索索引加载失败，请刷新；清空搜索后仍可按 Part 查阅。'});
