@@ -31,7 +31,7 @@ def add_readings():
   (ROOT/'dist'/filename).write_text(document)
  directory='<section id="nap-part" class="nap-part"><h2>阅读目录</h2>'+''.join(links)+'</section>'
  page=page[:start]+directory+page[end:]
- page=page.replace('午睡文章 · A—T 段 · 词汇与短语','阅读文章 · 3 篇')
+ page=page.replace('午睡文章 · A—T 段 · 词汇与短语',f'阅读文章 · {len(pages)} 篇')
  p.write_text(page)
  for name in ['reader.js','reading_articles.json']:
   (ROOT/'dist'/name).write_bytes((ROOT/'content'/name).read_bytes())

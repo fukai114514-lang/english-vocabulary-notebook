@@ -19,5 +19,24 @@
   "nap-B": [["look down on", "短语动词", "看不起；对……持轻视态度", "To regard someone or something as inferior."], ["slacking off", "短语动词 · slack off", "在工作中偷懒", "Working less hard than expected."]],
   "nap-C": [["take a back seat to", "固定表达", "退居次要地位，让位于……", "To receive less attention or priority than something else."]],
   "nap-D": [["stressed out", "形容词短语", "因压力过大而疲惫紧张", "Feeling overwhelmed by stress."]],
-  "nap-T": [["nod off", "短语动词", "打瞌睡；不知不觉睡着", "To fall asleep unintentionally."]]
+  "nap-T": [["nod off", "短语动词", "打瞌睡；不知不觉睡着", "To fall asleep unintentionally."]],
+  "politics-and-evidence-A": [
+    ["political affiliation", "political affiliation", "政治归属，所属政党或阵营", "A connection with a political party or group."],
+    ["informed by science", "be informed by", "以科学为依据", "Be guided or shaped by scientific knowledge."],
+    ["political tribes", "political tribes", "政治阵营", "Groups with shared political beliefs and strong loyalties."]
+  ],
+  "politics-and-evidence-B": [
+    ["hard evidence", "hard evidence", "确凿的证据", "Reliable evidence based on facts."],
+    ["weigh up the facts", "weigh up", "权衡、审慎考虑事实", "Consider the facts carefully before reaching a judgment."]
+  ],
+  "politics-and-evidence-C": [
+    ["a mountain of evidence", "a mountain of", "大量证据", "A very large amount of evidence."],
+    ["fit with", "fit with", "与……相符", "Be consistent with something."]
+  ],
+  "politics-and-evidence-D": [
+    ["susceptible to", "susceptible to", "易受……影响", "Easily influenced or affected by something."],
+    ["gut instinct", "gut instinct", "直觉", "An immediate feeling or judgment formed without conscious reasoning."],
+    ["facility for", "facility for", "做某事的能力或天赋", "An ability to do something readily or skillfully."],
+    ["contrary evidence", "contrary evidence", "与已有看法相矛盾的证据", "Evidence that points to an opposing conclusion."]
+  ]
 }
