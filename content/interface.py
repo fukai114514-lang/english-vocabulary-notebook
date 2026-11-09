@@ -26,6 +26,7 @@ def build():
  for a in articles:
   p=ROOT/'dist'/f'{a["id"]}.html';old=p.read_text();body=re.search(r'<main>(.*?)</main>',old,re.S)[1]
   body=body.replace('<a href="index.html#nap-part">← Reading library</a>','<a class="back-link" href="index.html#nap-part">← Reading library</a>').replace('<div id="nap-text" class="nap-paper">','<div id="nap-text" class="nap-paper" lang="en">')
+  body=re.sub(r'<h2([^>]*)>(.*?)</h2>', r'<h1\1>\2</h1>', body, count=1, flags=re.S)
   jump='<label class="paragraph-picker">段落 <select id="paragraph-jump"><option value="">Choose a paragraph</option>'+''.join(f'<option value="{a["id"]}-{letter}">{letter}</option>' for letter in a['paragraphs'])+'</select></label>'
   body=body.replace('<p id="reader-status"',jump+'<p id="reader-status"');context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))

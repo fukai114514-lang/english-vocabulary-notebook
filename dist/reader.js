@@ -103,7 +103,7 @@
    if(more.childElementCount>1)body.append(more);
    if(!dialog.open)dialog.show();dialog.scrollTop=0;position();
   }
-  const headings=document.querySelectorAll('.reading-title,#reader > .part-heading h2');
+  const headings=document.querySelectorAll('.reading-title,#reader > .part-heading h1');
   for(const p of [...paragraphs,...headings]){
    const entries=contexts[p.id]||[];
    for(const node of [...p.childNodes].filter(n=>n.nodeType===Node.TEXT_NODE)){
