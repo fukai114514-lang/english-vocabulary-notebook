@@ -60,8 +60,8 @@
   }
  }
  function load(){if(loaded)return;loadFailed=false;fetch('./search-index.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{records=d.records;loaded=true;search()}).catch(()=>{loadFailed=true;search()})}
- function open(button){if(dialog.open)return;opener=button||document.activeElement;lastScroll=scrollY;document.body.style.position='fixed';document.body.style.top=-lastScroll+'px';document.body.style.width='100%';dialog.showModal();q.focus({preventScroll:true});load();search()}
- function restorePage(){if(document.body.style.position!=='fixed')return;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:lastScroll,behavior:'instant'});opener?.focus({preventScroll:true})}
+ function open(button){if(dialog.open)return;opener=button||document.activeElement;lastScroll=scrollY;document.body.style.position='fixed';document.body.style.top=-lastScroll+'px';document.body.style.width='100%';document.documentElement.classList.add('search-open');dialog.showModal();q.focus({preventScroll:true});load();search()}
+ function restorePage(){document.documentElement.classList.remove('search-open');if(document.body.style.position!=='fixed')return;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:lastScroll,behavior:'instant'});opener?.focus({preventScroll:true})}
  function close(){dialog.close();restorePage()}
  dialog.addEventListener('close',restorePage);dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
  document.querySelectorAll('[data-search]').forEach(b=>b.onclick=()=>open(b));document.querySelector('#search-close').onclick=close;
