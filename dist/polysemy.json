@@ -6788,6 +6788,120 @@
       "reviewStatus": "needs-review",
       "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
       "references": []
+    },
+    {
+      "word": "stroke",
+      "notes": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+      "senses": [
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "中风；脑卒中",
+          "definitionEn": "A sudden serious illness caused by a blockage or bleeding in the blood supply to the brain.",
+          "example": {
+            "en": "He had a stroke last year.",
+            "zh": "他去年中风了。"
+          },
+          "id": "sense-stroke-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "v./n.",
+          "meaningZh": "轻抚；抚摸",
+          "definitionEn": "To move your hand gently over a surface, or a gentle movement of this kind.",
+          "example": {
+            "en": "She stroked the cat's back.",
+            "zh": "她轻轻抚摸猫的背。"
+          },
+          "id": "sense-stroke-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "一击；击球动作",
+          "definitionEn": "A single movement used to hit a ball or strike something.",
+          "example": {
+            "en": "She won the point with a powerful stroke.",
+            "zh": "她以一记有力的击球赢下了这一分。"
+          },
+          "id": "sense-stroke-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "划水动作；游泳姿势；划桨动作",
+          "definitionEn": "A movement of the arms in swimming or of an oar in rowing; also, a swimming style.",
+          "example": {
+            "en": "He crossed the pool in twenty strokes.",
+            "zh": "他划了二十下游到了泳池另一端。"
+          },
+          "id": "sense-stroke-04",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "笔画；一笔；涂抹的一下",
+          "definitionEn": "A single movement of a pen, pencil or brush that leaves a mark.",
+          "example": {
+            "en": "The character has eight strokes.",
+            "zh": "这个字有八画。"
+          },
+          "id": "sense-stroke-05",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "一次意外的事；一次高明的举动",
+          "definitionEn": "A single unexpected event or an inspired action, especially in fixed phrases.",
+          "example": {
+            "en": "Finding the keys was a stroke of luck.",
+            "zh": "找到钥匙真是碰巧走运。"
+          },
+          "id": "sense-stroke-06",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "钟声的一响；报时的时刻",
+          "definitionEn": "A single sound of a striking clock, or the moment marked by it.",
+          "example": {
+            "en": "The show began on the stroke of midnight.",
+            "zh": "演出在午夜钟声敲响时开始。"
+          },
+          "id": "sense-stroke-07",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "常见用法优先，固定搭配及报时义随后。",
+      "references": []
     }
   ]
 }

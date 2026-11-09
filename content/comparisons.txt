@@ -457,3 +457,8 @@ level|adj./v./n. 水平的；同高的；使平整；水平或级别|范围更�
 # 136
 commence|v. 开始|较正式，常见于公告、仪式或正式活动|commence work; commence with; commence doing|The ceremony will commence at ten. → 仪式将在十点开始。
 start|v./n. 开始；启动；起点|日常最通用，也可指启动机器或突然惊动|start doing; start to do; start the engine|Please start the engine. → 请启动发动机。
+# 137
+stare|v./n. 盯着看；凝视|强调长时间直视，可能因惊讶、好奇或出神；不一定带恶意|stare at; stare into space|He stared at the strange object. → 他盯着那个奇怪的物体看。
+gaze|v./n. 凝望；注视|强调持续、专注地看，常带欣赏、思考或柔和的感情色彩|gaze at; gaze into; a steady gaze|She gazed at the stars. → 她凝望着星空。
+glare|v./n. 怒视；刺眼的光|看人的动词义强调愤怒；名词也可指强烈刺眼的光|glare at; an angry glare; the glare of the sun|He glared at me without saying a word. → 他一言不发地怒视着我。
+peer|v./n. 费力细看；同龄人；同等地位者|动词强调因昏暗、距离或遮挡而努力看清；名词是另一常见用法|peer at; peer into; peer through; peer pressure|She peered through the window into the dark room. → 她透过窗户仔细看那间昏暗的房间。

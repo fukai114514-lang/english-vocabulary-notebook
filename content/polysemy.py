@@ -18,7 +18,7 @@ def load_entries():
             pos, zh, definition, en, translation = line.split('|')
             entries[-1]['senses'].append({'partOfSpeech': pos, 'meaningZh': zh,
                 'definitionEn': definition, 'example': {'en': en, 'zh': translation}})
-    expected = '''credit aggressive acquaintance dash recourse discourse fly drop glow catch just throw point last page pass over break taste cross shuttle lie level lot ticket blow dive material reserve paper practice port junior consider used zoom cream figure full second sign balance stress due wave rank runner attachment spring live fork buck image universal strain bound band line lean post quarter bug forward instrument access moderate chip refresh tuck snap contrive sore flush routine'''.split()
+    expected = '''credit aggressive acquaintance dash recourse discourse fly drop glow catch just throw point last page pass over break taste cross shuttle lie level lot ticket blow dive material reserve paper practice port junior consider used zoom cream figure full second sign balance stress due wave rank runner attachment spring live fork buck image universal strain bound band line lean post quarter bug forward instrument access moderate chip refresh tuck snap contrive sore flush routine stroke'''.split()
     assert [e['word'] for e in entries] == expected
     assert len(set(expected)) == len(entries)
     assert all(e['notes'] and len(e['senses']) >= 2 for e in entries)
@@ -44,7 +44,9 @@ def add_part(page):
                 'second': [('第二 /ˈsekənd/', 'the second time'), ('借调', 'She was seconded to the team.')]}
     for i, entry in enumerate(entries, 1):
         word = entry['word']
-        speech = variants.get(word, [('朗读', word)])
+        speech = variants.get(word, [('Listen', word)])
+        labels={'适度的':'Adjective','主持':'Verb','居住 /lɪv/':'Live /lɪv/','现场 /laɪv/':'Live /laɪv/','二手 /juːzd/':'Used /juːzd/','过去常常':'Used to','第二 /ˈsekənd/':'Second /ˈsekənd/','借调':'Second (verb)'}
+        speech=[(labels.get(label,label),phrase) for label,phrase in speech]
         buttons = ''.join('<button type="button" class="speak" data-word="'+esc(phrase, quote=True)+'" aria-label="朗读 '+esc(word+' '+label, quote=True)+'" aria-pressed="false">▷ '+esc(label)+'</button>' for label, phrase in speech)
         senses = ''.join('<article class="sense" id="'+esc(s['id'], quote=True)+'"><h3><span class="sense-number">'+str(n)+'</span> <span lang="en" class="pos">'+esc(s['partOfSpeech'])+'</span> '+esc(s['meaningZh'])+'</h3><p class="definition" lang="en">'+esc(s['definitionEn'])+'</p><div class="example"><div class="en" lang="en">'+esc(s['example']['en'])+'</div><div class="zh">'+esc(s['example']['zh'])+'</div></div></article>' for n,s in enumerate(entry['senses'],1))
         cards.append('<details class="poly-entry" id="poly-'+word+'"><summary><span class="num">P'+str(i).zfill(2)+'</span>'+word+' <span class="sense-count">'+str(len(entry['senses']))+' 义项</span></summary><div class="body"><div class="word-card-header"><h2 lang="en">'+word+'</h2><div class="pronunciation-options">'+buttons+'</div></div>'+senses+'<aside class="selection"><h2>搭配、语法与易错点</h2><p>'+esc(entry['notes'])+'</p></aside></div></details>')

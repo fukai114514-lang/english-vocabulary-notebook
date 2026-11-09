@@ -316,3 +316,7 @@ flush|Level with an adjoining surface; to rinse with flowing water or become red
 level|Horizontal, flat or at the same height; a degree or stage; to make flat.
 commence|To begin, especially in a formal context.
 start|To begin an activity or cause something to begin or operate.
+stare|To look at someone or something for a long time with your eyes wide open.
+gaze|To look steadily at someone or something, often with admiration or thought.
+glare|To look angrily at someone; also, a very bright and uncomfortable light.
+peer|To look carefully or with difficulty; as a noun, a person of similar age or status.

@@ -3780,5 +3780,68 @@
         "reviewStatus": "needs-review"
       }
     }
+  },
+  "stroke": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "常见用法优先，固定搭配及报时义随后。",
+    "references": [],
+    "senses": {
+      "852aa14d6c06852b8e5eb6b805ec0444708a7a685236026daf8fbbaef0936ea3": {
+        "id": "sense-stroke-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "645c3ea1632fd09b639e71075a3b80678684b699357aef1259178de9d219f12e": {
+        "id": "sense-stroke-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "42c4402b2fedf1dd8d6cacba14d14ebf5f3d9dcae2a2ddb10b04aedd130c511e": {
+        "id": "sense-stroke-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "30e1a3278cf3c724e050b74fb36a6f6f5bb8476cc59366a71c3f5bb392e73ff8": {
+        "id": "sense-stroke-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "97ecbba34a10af305b7f2a9b0fc9fd1f52f6bf8f353ea361329a68eeb88d5f08": {
+        "id": "sense-stroke-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "41f722e81ad0f52c814e7ce0409b9f8dccfe04af31faef30eac5812bd83bed8b": {
+        "id": "sense-stroke-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "6ca8cd302e777b864f31975a26ee21902003a2396eddbef764664293fcc33945": {
+        "id": "sense-stroke-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
   }
 }

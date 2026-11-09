@@ -554,3 +554,12 @@ n.|惯例；日常安排|A regular way of doing things or sequence of activities
 adj.|例行的；常规的|Done regularly as part of a usual procedure.|The machine stopped during a routine check.|机器在一次例行检查中停了下来。
 n.|成套动作；表演节目|A fixed sequence of movements or actions, especially in a performance.|The team practised its dance routine.|队员们练习了整套舞蹈动作。
 n. 计算机|程序例程|A set of instructions that performs a particular task in a program.|This routine checks whether the input is valid.|这个例程会检查输入是否有效。
+# stroke
+提示：动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。
+n.|中风；脑卒中|A sudden serious illness caused by a blockage or bleeding in the blood supply to the brain.|He had a stroke last year.|他去年中风了。
+v./n.|轻抚；抚摸|To move your hand gently over a surface, or a gentle movement of this kind.|She stroked the cat's back.|她轻轻抚摸猫的背。
+n.|一击；击球动作|A single movement used to hit a ball or strike something.|She won the point with a powerful stroke.|她以一记有力的击球赢下了这一分。
+n.|划水动作；游泳姿势；划桨动作|A movement of the arms in swimming or of an oar in rowing; also, a swimming style.|He crossed the pool in twenty strokes.|他划了二十下游到了泳池另一端。
+n.|笔画；一笔；涂抹的一下|A single movement of a pen, pencil or brush that leaves a mark.|The character has eight strokes.|这个字有八画。
+n.|一次意外的事；一次高明的举动|A single unexpected event or an inspired action, especially in fixed phrases.|Finding the keys was a stroke of luck.|找到钥匙真是碰巧走运。
+n.|钟声的一响；报时的时刻|A single sound of a striking clock, or the moment marked by it.|The show began on the stroke of midnight.|演出在午夜钟声敲响时开始。

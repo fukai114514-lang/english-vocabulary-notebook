@@ -15,11 +15,11 @@
   const translation=document.getElementById(p.id.replace(/-([A-Z])$/,'-zh-$1'));
   if(!translation)continue;
   const details=document.createElement('details'),summary=document.createElement('summary');
-  details.className='para-translation';summary.textContent='查看本段译文';
+  details.className='para-translation';summary.textContent='Show translation';
   const copy=document.createElement('p');copy.lang='zh-CN';
   copy.textContent=translation.textContent.replace(/^\[[A-Z]\]\s*/,'');
   details.append(summary,copy);p.after(details);
-  details.ontoggle=()=>{summary.textContent=details.open?'收起本段译文':'查看本段译文'};
+  details.ontoggle=()=>{summary.textContent=details.open?'Hide translation':'Show translation'};
  }
 
  function addText(parent,tag,value,style){
@@ -34,7 +34,7 @@
  }
  Promise.all([fetchJSON('search-index.json'),fetchJSON('article-dictionary.json')])
   .then(([index,dictionary])=>setupLookup(index.records,dictionary))
-  .catch(()=>{document.querySelector('#reader-status').textContent='查词数据加载失败，请刷新页面。'});
+  .catch(()=>{document.querySelector('#reader-status').textContent='Could not load the dictionary. Please refresh the page.'});
 
  function setupLookup(records,dictionary){
   const candidates=new Map();
@@ -46,8 +46,8 @@
    candidates.get(key).push(row);
   }
   const dialog=document.createElement('dialog'),body=document.createElement('div');
-  dialog.id='lookup-card';dialog.className='glass';dialog.setAttribute('aria-label','单词中英释义');
-  const close=addText(dialog,'button','关闭');close.setAttribute('aria-label','关闭释义，返回原文');close.type='button';
+  dialog.id='lookup-card';dialog.className='glass';dialog.setAttribute('aria-label','English and Chinese definitions');
+  const close=addText(dialog,'button','Close');close.setAttribute('aria-label','Close definitions and return to the article');close.type='button';
   dialog.append(body);document.body.append(dialog);
   let trigger,active=[];
   function position(){
@@ -81,21 +81,21 @@
    const lemma=fields['词条']||button.textContent;
    addText(body,'h2',context?.[0]||lemma);
    const ipa=fields['音标']||fields['IPA'];if(ipa)addText(body,'p',ipa,'sense-note');
-   if('speechSynthesis' in window){const speak=addText(body,'button','▷ 朗读','lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speak.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='朗读结束';u.onerror=()=>speechStatus.textContent='朗读失败，请检查设备语音设置';speechStatus.textContent='正在朗读';speechSynthesis.speak(u)}}
+   if('speechSynthesis' in window){const speak=addText(body,'button','▷ Listen','lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speak.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='Finished reading';u.onerror=()=>speechStatus.textContent='Could not read aloud. Check your device’s voice settings.';speechStatus.textContent='Reading aloud';speechSynthesis.speak(u)}}
 
-   addText(body,'p',context?'本句用法 · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?'本文收录释义':'常见义项'].filter(Boolean).join(' · '),'sense-note');
+   addText(body,'p',context?'In this sentence · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?'Meaning in this article':'Common meaning'].filter(Boolean).join(' · '),'sense-note');
    addText(body,'p',context?.[2]||fields['中文意思']||fields['释义']);
    addText(body,'p',context?.[3]||fields['英文释义']);
-   const more=document.createElement('details');addText(more,'summary','查看「'+button.textContent+'」的词条与搭配');
+   const more=document.createElement('details');addText(more,'summary','Explore “'+button.textContent+'”: definitions and collocations');
    for(const row of rows){
     const dl=document.createElement('dl');
     for(const [label,value] of Object.entries(row.fields)){
      if(label==='词条'||!value||(!context&&row===primary&&['释义','中文意思','英文释义','词性'].includes(label)))continue;
-     addText(dl,'dt',label);addText(dl,'dd',value);
+     addText(dl,'dt',window.notebookUILabel(label));addText(dl,'dd',value);
     }
     if(dl.childElementCount)more.append(dl);
     if(row.target){
-     const link=addText(more,'a','查看 '+row.kind);
+     const link=addText(more,'a','View '+window.notebookUILabel(row.kind));
      link.href=(row.target.startsWith('nap-')?'nap.html':'index.html')+'#'+row.target;
      link.onclick=()=>{const p=trigger.closest('.nap-paragraph');if(p)history.replaceState(null,'','#'+p.id)};
     }
@@ -126,7 +126,7 @@
      b.type='button';b.dataset.lookup=match[0].toLowerCase().replace(/’/g,"'");
      const span=spans.find(s=>match.index>=s.at&&match.index+match[0].length<=s.end);
      if(span)span.buttons.push(b);
-     b.setAttribute('aria-label','查阅 '+(span?.entry[0]||match[0]));
+     b.setAttribute('aria-label','Look up '+(span?.entry[0]||match[0]));
      b.setAttribute('aria-haspopup','dialog');b.onclick=ev=>{lookup(b,span?.entry,span?.buttons);if(ev.detail===0)close.focus({preventScroll:true})};
      start=match.index+match[0].length;
     }

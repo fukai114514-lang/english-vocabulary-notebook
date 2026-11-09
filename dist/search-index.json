@@ -5748,6 +5748,71 @@
       }
     },
     {
+      "id": "comparison-137-0",
+      "kind": "词汇辨析",
+      "title": "stare",
+      "target": "group-137",
+      "fields": {
+        "词条": "stare",
+        "释义": "v./n. 盯着看；凝视",
+        "英文释义": "To look at someone or something for a long time with your eyes wide open.",
+        "搭配": "stare at; stare into space",
+        "例句": "He stared at the strange object.",
+        "例句译文": "他盯着那个奇怪的物体看。"
+      }
+    },
+    {
+      "id": "comparison-137-1",
+      "kind": "词汇辨析",
+      "title": "gaze",
+      "target": "group-137",
+      "fields": {
+        "词条": "gaze",
+        "释义": "v./n. 凝望；注视",
+        "英文释义": "To look steadily at someone or something, often with admiration or thought.",
+        "搭配": "gaze at; gaze into; a steady gaze",
+        "例句": "She gazed at the stars.",
+        "例句译文": "她凝望着星空。"
+      }
+    },
+    {
+      "id": "comparison-137-2",
+      "kind": "词汇辨析",
+      "title": "glare",
+      "target": "group-137",
+      "fields": {
+        "词条": "glare",
+        "释义": "v./n. 怒视；刺眼的光",
+        "英文释义": "To look angrily at someone; also, a very bright and uncomfortable light.",
+        "搭配": "glare at; an angry glare; the glare of the sun",
+        "例句": "He glared at me without saying a word.",
+        "例句译文": "他一言不发地怒视着我。"
+      }
+    },
+    {
+      "id": "comparison-137-3",
+      "kind": "词汇辨析",
+      "title": "peer",
+      "target": "group-137",
+      "fields": {
+        "词条": "peer",
+        "释义": "v./n. 费力细看；同龄人；同等地位者",
+        "英文释义": "To look carefully or with difficulty; as a noun, a person of similar age or status.",
+        "搭配": "peer at; peer into; peer through; peer pressure",
+        "例句": "She peered through the window into the dark room.",
+        "例句译文": "她透过窗户仔细看那间昏暗的房间。"
+      }
+    },
+    {
+      "id": "comparison-body-137",
+      "kind": "词汇辨析",
+      "title": "stare / gaze / glare / peer",
+      "target": "group-137",
+      "fields": {
+        "正文": "137 stare / gaze / glare / peer stare ▷ 朗读 To look at someone or something for a long time with your eyes wide open. gaze ▷ 朗读 To look steadily at someone or something, often with admiration or thought. glare ▷ 朗读 To look angrily at someone; also, a very bright and uncomfortable light. peer ▷ 朗读 To look carefully or with difficulty; as a noun, a person of similar age or status. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 stare / gaze / glare / peer · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 stare v./n. 盯着看；凝视 强调长时间直视，可能因惊讶、好奇或出神；不一定带恶意 stare at; stare into space He stared at the strange object. 他盯着那个奇怪的物体看。 gaze v./n. 凝望；注视 强调持续、专注地看，常带欣赏、思考或柔和的感情色彩 gaze at; gaze into; a steady gaze She gazed at the stars. 她凝望着星空。 glare v./n. 怒视；刺眼的光 看人的动词义强调愤怒；名词也可指强烈刺眼的光 glare at; an angry glare; the glare of the sun He glared at me without saying a word. 他一言不发地怒视着我。 peer v./n. 费力细看；同龄人；同等地位者 动词强调因昏暗、距离或遮挡而努力看清；名词是另一常见用法 peer at; peer into; peer through; peer pressure She peered through the window into the dark room. 她透过窗户仔细看那间昏暗的房间。 stare 是盯着看；gaze 常是凝望；glare at 表示怒视；peer 强调努力看清。四词都可接 at，但感情色彩和观看方式不同。不要把 stare 一概理解成不礼貌，也不要把 gaze 限定为爱慕。peer 作名词可指同龄人或同等地位者；glare 作名词还可指刺眼的光。 怎么选？易错点在哪？ stare 是盯着看；gaze 常是凝望；glare at 表示怒视；peer 强调努力看清。四词都可接 at，但感情色彩和观看方式不同。不要把 stare 一概理解成不礼貌，也不要把 gaze 限定为爱慕。peer 作名词可指同龄人或同等地位者；glare 作名词还可指刺眼的光。"
+      }
+    },
+    {
       "id": "sense-credit-01",
       "kind": "多义词",
       "title": "credit",
@@ -11865,6 +11930,111 @@
         "搭配": "daily routine 是日常作息；workout routine 是一套训练安排；routine check 是例行检查。",
         "例句": "This routine checks whether the input is valid.",
         "例句译文": "这个例程会检查输入是否有效。"
+      }
+    },
+    {
+      "id": "sense-stroke-01",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-01",
+      "fields": {
+        "词条": "stroke",
+        "词性": "n.",
+        "释义": "中风；脑卒中",
+        "英文释义": "A sudden serious illness caused by a blockage or bleeding in the blood supply to the brain.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "He had a stroke last year.",
+        "例句译文": "他去年中风了。"
+      }
+    },
+    {
+      "id": "sense-stroke-02",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-02",
+      "fields": {
+        "词条": "stroke",
+        "词性": "v./n.",
+        "释义": "轻抚；抚摸",
+        "英文释义": "To move your hand gently over a surface, or a gentle movement of this kind.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "She stroked the cat's back.",
+        "例句译文": "她轻轻抚摸猫的背。"
+      }
+    },
+    {
+      "id": "sense-stroke-03",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-03",
+      "fields": {
+        "词条": "stroke",
+        "词性": "n.",
+        "释义": "一击；击球动作",
+        "英文释义": "A single movement used to hit a ball or strike something.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "She won the point with a powerful stroke.",
+        "例句译文": "她以一记有力的击球赢下了这一分。"
+      }
+    },
+    {
+      "id": "sense-stroke-04",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-04",
+      "fields": {
+        "词条": "stroke",
+        "词性": "n.",
+        "释义": "划水动作；游泳姿势；划桨动作",
+        "英文释义": "A movement of the arms in swimming or of an oar in rowing; also, a swimming style.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "He crossed the pool in twenty strokes.",
+        "例句译文": "他划了二十下游到了泳池另一端。"
+      }
+    },
+    {
+      "id": "sense-stroke-05",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-05",
+      "fields": {
+        "词条": "stroke",
+        "词性": "n.",
+        "释义": "笔画；一笔；涂抹的一下",
+        "英文释义": "A single movement of a pen, pencil or brush that leaves a mark.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "The character has eight strokes.",
+        "例句译文": "这个字有八画。"
+      }
+    },
+    {
+      "id": "sense-stroke-06",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-06",
+      "fields": {
+        "词条": "stroke",
+        "词性": "n.",
+        "释义": "一次意外的事；一次高明的举动",
+        "英文释义": "A single unexpected event or an inspired action, especially in fixed phrases.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "Finding the keys was a stroke of luck.",
+        "例句译文": "找到钥匙真是碰巧走运。"
+      }
+    },
+    {
+      "id": "sense-stroke-07",
+      "kind": "多义词",
+      "title": "stroke",
+      "target": "sense-stroke-07",
+      "fields": {
+        "词条": "stroke",
+        "词性": "n.",
+        "释义": "钟声的一响；报时的时刻",
+        "英文释义": "A single sound of a striking clock, or the moment marked by it.",
+        "搭配": "动词变化为 stroke–stroked–stroked。a stroke of luck 是一次好运；a stroke of genius 是神来之笔；at a stroke 是一下子。heatstroke（也写作 heat stroke）指中暑，不能与脑卒中混淆。",
+        "例句": "The show began on the stroke of midnight.",
+        "例句译文": "演出在午夜钟声敲响时开始。"
       }
     },
     {

@@ -43,18 +43,18 @@
  function readerURL(target){if(target==='nap-part')return '';const article=articles.find(id=>target.startsWith(id+'-'));return article?article+'.html#'+target:''}
  function reveal(target){const url=readerURL(target);if(url){location.href=url;return}if(document.querySelector('#reader')){location.href='index.html#'+target;return}close();history.pushState(null,'','#'+target);window.notebook.reveal(target)}
  function search(){
-  const key=norm(q.value);groups.replaceChildren();if(!key){status.textContent='搜索词汇、例句和阅读文章';return}
-  if(!loaded){status.textContent=loadFailed?'索引加载失败，请关闭后重试。':'正在加载索引…';return}
+  const key=norm(q.value);groups.replaceChildren();if(!key){status.textContent='Search words, examples, and articles';return}
+  if(!loaded){status.textContent=loadFailed?'Could not load search. Close and try again.':'Loading search…';return}
   const hits=records.map(row=>({row,hit:match(row,key)})).filter(x=>x.hit).sort((a,b)=>a.hit.score-b.hit.score);
   const targets=new Set(hits.filter(x=>!x.row.id.startsWith('comparison-body-')).map(x=>x.row.target));
   const visibleHits=hits.filter(x=>!x.row.id.startsWith('comparison-body-')||!targets.has(x.row.target));
-  status.textContent=visibleHits.length?visibleHits.length+' 条匹配记录':'没有找到匹配内容，试试另一种拼写或中文关键词。';
+  status.textContent=visibleHits.length?visibleHits.length+' matches':'No matches. Try another spelling or a Chinese keyword.';
   for(const kind of ['精确词条','词汇辨析','多义词','阅读文章','阅读词汇','短语']){
    const subset=visibleHits.filter(x=>x.hit.type==='精确词条'?kind==='精确词条':x.row.kind===kind);if(!subset.length)continue;
-   const section=document.createElement('section'),heading=document.createElement('h2');heading.textContent=kind+' · '+subset.length;section.append(heading);
+   const section=document.createElement('section'),heading=document.createElement('h2');heading.textContent=window.notebookUILabel(kind)+' · '+subset.length;section.append(heading);
    for(const {row,hit} of subset){
     const card=document.createElement('article'),link=document.createElement('a');link.href=readerURL(row.target)||'index.html#'+row.target;mark(link,row.title,hit.term);link.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();reveal(row.target)};
-    const type=document.createElement('small');type.textContent=' · '+hit.type;
+    const type=document.createElement('small');type.textContent=' · '+window.notebookUILabel(hit.type);
     const snippet=document.createElement('p');const context=hit.score<=1?[row.fields['词性'],row.fields['释义'],row.fields['英文释义']].filter(Boolean).join(' · ')||hit.text:hit.text;const at=context.toLowerCase().indexOf(hit.term),start=Math.max(0,at-45);mark(snippet,(start?'…':'')+context.slice(start,start+170)+(context.length>start+170?'…':''),hit.term);card.append(link,type,snippet);section.append(card);
    }groups.append(section);
   }

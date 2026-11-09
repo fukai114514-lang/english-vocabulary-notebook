@@ -11,8 +11,8 @@
   $('#home').hidden=view!=='home';$('#reference').hidden=!['all','original','poly'].includes(view);$('#nap-part').hidden=view!=='nap';
   items.forEach(d=>d.hidden=view==='original'?d.classList.contains('poly-entry'):view==='poly'?!d.classList.contains('poly-entry'):false);
   $('#original-heading').hidden=view==='poly';$('#poly-heading').hidden=view==='original';
-  $('#view-title').textContent=view==='poly'?'一词多义':view==='all'?'全部词汇':'词汇辨析';
-  $('#count').textContent=items.filter(d=>!d.hidden).length+(view==='poly'?' 个单词 · 常见义与扩展用法':' 组 · 释义、搭配与双语例句');
+  $('#view-title').textContent=view==='poly'?'Word Meanings':view==='all'?'All vocabulary':'Word Comparisons';
+  $('#count').textContent=items.filter(d=>!d.hidden).length+(view==='poly'?' words · common meanings and extended uses':' comparisons · meanings, collocations, and bilingual examples');
   document.querySelectorAll('.primary-nav [data-view]').forEach(a=>{if(a.dataset.view===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   if(historyMode==='push')history.pushState({view},'','#'+keys[view]);
   if(restore)window.scrollTo({top:positions.get(view)||0,behavior:'instant'});
