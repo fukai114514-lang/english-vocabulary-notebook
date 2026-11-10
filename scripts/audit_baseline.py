@@ -36,7 +36,8 @@ def run(command, cwd=ROOT):
 before = manifest(ROOT / 'dist')
 run([sys.executable, 'content/render.py'])
 for name in ['verify_migration', 'verify_preservation', 'verify_interface',
-             'verify_upgrade', 'verify_article_dictionary', 'verify_reading_context']:
+             'verify_upgrade', 'verify_article_dictionary', 'verify_reading_context',
+             'verify_routes', 'test_ui_labels', 'verify_design_tokens']:
     run([sys.executable, 'scripts/' + name + '.py'])
 for path in sorted((ROOT / 'content').glob('*.js')):
     run(['node', '--check', str(path.relative_to(ROOT))])

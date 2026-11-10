@@ -55,6 +55,8 @@
   function position(){
    if(!dialog.open||!trigger)return;
    const r=trigger.getBoundingClientRect(),mobile=innerWidth<=760||(innerWidth<=1000&&innerHeight<=500),vv=window.visualViewport,top=vv?.offsetTop||0,height=vv?.height||innerHeight;
+   const viewportWidth=document.documentElement.clientWidth;
+   dialog.style.maxWidth=Math.max(0,viewportWidth-24)+'px';
    const panelHeight=mobile?Math.min(height*.42,360):Math.min(height*.6,480);
    dialog.style.maxHeight=panelHeight+'px';
    dialog.style.height=mobile?panelHeight+'px':'auto';
@@ -63,7 +65,7 @@
    if(!mobile&&y+h>top+height-12)y=r.top-h-10;
    dialog.style.top=Math.max(top+8,Math.min(y,top+height-h-8))+'px';
    const excerpt=body.querySelector('.lookup-source');if(excerpt)excerpt.hidden=!mobile||r.bottom<y;
-   dialog.style.left=(mobile?12:Math.max(12,Math.min(r.left,innerWidth-w-12)))+'px';
+   dialog.style.left=(mobile?12:Math.max(12,Math.min(r.left,viewportWidth-w-12)))+'px';
   }
   document.addEventListener('pointerdown',ev=>{if(dialog.open&&!dialog.contains(ev.target)&&!ev.target.closest('.lookup-word'))dismiss(false)});
   window.addEventListener('resize',position);window.visualViewport?.addEventListener('resize',position);window.visualViewport?.addEventListener('scroll',position);window.addEventListener('scroll',position,{passive:true});
@@ -155,7 +157,8 @@
     word.addEventListener('keydown',ev=>{
      if(!['ArrowLeft','ArrowRight','Home','End'].includes(ev.key)||ev.altKey||ev.ctrlKey||ev.metaKey)return;
      ev.preventDefault();const next=ev.key==='Home'?0:ev.key==='End'?words.length-1:Math.max(0,Math.min(words.length-1,i+(ev.key==='ArrowRight'?1:-1)));
-     words[next].focus({preventScroll:true});
+     // Explicit word navigation must reveal its destination; opening lookup still preserves scroll.
+     words[next].focus();
     });
    });
   }
