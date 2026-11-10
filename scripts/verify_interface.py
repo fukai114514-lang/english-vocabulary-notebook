@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 import hashlib,json,re
+from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 def verify():
  baseline=json.loads((ROOT/'migration/ui-content-baseline.json').read_text())
@@ -12,7 +13,7 @@ def verify():
    a=dict(a)
    if a.get('id'):self.ids.append(a['id'])
    if t=='p' and a.get('class')=='nap-paragraph':self.paragraph=a['id'];self.text[self.paragraph]=''
-   if t in ['script','link'] and (a.get('src') or a.get('href','').endswith('.css')):self.assets.append(a.get('src') or a['href'])
+   if t in ['script','link'] and (a.get('src') or urlsplit(a.get('href','')).path.endswith('.css')):self.assets.append(a.get('src') or a['href'])
   def handle_endtag(self,t):
    if t=='p':self.paragraph=None
   def handle_data(self,s):
@@ -29,7 +30,7 @@ def verify():
   assert len(parser.ids)==len(set(parser.ids)),file
   assert '<style>' not in page,'legacy inline styles leaked'
   assert 'viewport-fit=cover' in page
-  for asset in parser.assets:assert not asset.startswith('/') and (file.parent/asset).is_file(),(file,asset)
+  for asset in parser.assets:assert not asset.startswith('/') and (file.parent/urlsplit(asset).path).is_file(),(file,asset)
   for href in re.findall(r'href="([^"]+\.html)(?:#[^"]*)?"',page):assert (file.parent/href).is_file(),href
  print(f'PASS interface: frozen data; {count} exact original and translated paragraphs; relative assets/routes; no inline legacy CSS')
 if __name__=='__main__':verify()

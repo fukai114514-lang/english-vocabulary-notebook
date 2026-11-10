@@ -52,3 +52,5 @@ class EnglishUI(HTMLParser):
 def build():
  for p in (ROOT/'dist').glob('*.html'):
   parser=EnglishUI();parser.feed(p.read_text());p.write_text(''.join(parser.out))
+ from asset_versions import version_assets
+ version_assets(ROOT/'dist')
