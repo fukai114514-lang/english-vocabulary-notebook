@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Wordbook mobile regression checks</title>
+<style>
+body {font:14px system-ui;margin:16px;background:#eee;color:#222}
+button,select {min-height:44px;font:inherit} label {margin-right:16px}
+iframe {display:block;border:1px solid #888;margin-top:12px}
+pre {white-space:pre-wrap;max-width:1000px;max-height:160px;overflow:auto}
+</style>
+<h1>Full regression checks</h1>
+<p>Local development only. Copy this file into dist as __qa.html; remove it before integrity checks or committing generated output.</p>
+<label>Viewport <select id="size"><option>390x844</option><option>320x568</option><option>375x667</option><option>430x932</option><option>844x390</option><option>900x800</option><option>1024x768</option><option>1363x936</option><option>1728x1117</option></select></label>
+<label>Theme <select id="theme"><option>light</option><option>dark</option><option>system</option></select></label>
+<label>Page <select id="page"><option value="index.html">Home</option><option value="index.html#original-heading">Comparisons</option><option value="index.html#poly-heading">Meanings</option><option value="index.html#nap-part">Reading</option><option value="nap.html">Article</option></select></label>
+<button id="run">Run regressions</button>
+<pre id="report" role="status">Ready. This exercises Chromium or Safari itself; it does not emulate an iPhone keyboard, safe area, touch hardware or OS accessibility settings.</pre>
+<iframe id="site" title="Site preview" width="390" height="844" src="index.html"></iframe>
+<script>
+'use strict';
+const f=document.querySelector('#site'),size=document.querySelector('#size'),theme=document.querySelector('#theme'),page=document.querySelector('#page'),report=document.querySelector('#report'),run=document.querySelector('#run');
+const frame=()=>new Promise(resolve=>setTimeout(resolve,40));
+const doc=()=>f.contentDocument,win=()=>f.contentWindow;
+function apply(){const [w,h]=size.value.split('x');f.width=w;f.height=h;doc().documentElement.dataset.theme=theme.value;doc().querySelectorAll('.theme-picker').forEach(p=>p.value=theme.value)}
+size.onchange=theme.onchange=apply;page.onchange=()=>f.src=page.value;f.onload=apply;
+let revision=0;
+function load(url,keepTheme=false){return new Promise(resolve=>{f.onload=()=>{if(!keepTheme)apply();resolve()};const [path,hash]=url.split('#');f.src=path+'?qa='+ ++revision+(hash?'#'+hash:'')})}
+async function waitFor(test){const start=Date.now();while(!test()){if(Date.now()-start>8000)throw Error('Timed out waiting for content');await new Promise(resolve=>setTimeout(resolve,50))}}
+run.onclick=async()=>{
+ run.disabled=true;const results=[],checks=[];
+ const check=(name,ok)=>{checks.push({name,passed:!!ok});if(!ok)throw Error(name)};
+ try{
+  const manifest=await (await fetch('__manifest.json')).json();let resourceChecks=0;
+  for(const prefix of ['', '__pages/'])for(const [name,expected] of Object.entries(manifest)){
+   const response=await fetch(prefix+name,{cache:'no-store'});check('resource HTTP '+prefix+name,response.ok);
+   let bytes=await response.arrayBuffer();
+   // Managed preview alone injects this observed live-server script. Production files are untouched.
+   if(name.endsWith('.html')){const html=new TextDecoder().decode(bytes);const normalized=html.replace(/<!-- Code injected by live-server -->\r?\n<script type="text\/javascript">[\s\S]*?<\/script>\r?\n/,'');bytes=new TextEncoder().encode(normalized)}
+   const digest=await crypto.subtle.digest('SHA-256',bytes);
+   const actual=[...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');check('resource hash (HTML preview-normalized) '+prefix+name,actual===expected);resourceChecks++;
+  }
+  for(const viewport of [...size.options].map(o=>o.value))for(const mode of ['light','dark'])for(const url of [...page.options].map(o=>o.value)){
+   report.textContent='Running '+viewport+' / '+mode+' / '+url;
+   size.value=viewport;theme.value=mode;page.value=url;await load(url);
+   const d=doc(),root=d.documentElement,mobile=Number(viewport.split('x')[0])<=760||(Number(viewport.split('x')[0])<=1000&&Number(viewport.split('x')[1])<=500);
+   const detail=d.querySelector('#list>details:not([hidden])');if(!d.querySelector('#reference')?.hidden&&detail)detail.open=true;
+   await frame();
+   const nav=[...d.querySelectorAll('.primary-nav a')].map(a=>a.getBoundingClientRect()),n=d.querySelector('.primary-nav').getBoundingClientRect(),s=d.querySelector('.mobile-search').getBoundingClientRect();
+   const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:!mobile||n.right<=s.left};results.push(row);
+   check(`${viewport}/${mode}/${url}: no page overflow`,root.scrollWidth<=root.clientWidth);
+   check(`${viewport}/${mode}/${url}: navigation targets`,row.minTarget>=44);
+   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0);
+   if(url.includes('original-heading')){
+    const scroller=d.querySelector('.table-scroll'),toggle=d.querySelector('.comparison-view');
+    if(mobile){check('cards fit',scroller.scrollWidth<=scroller.clientWidth);toggle.click();await frame();check('full comparison retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table'&&scroller.scrollWidth>=680);toggle.click()}
+    else check('desktop retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table');
+   }
+  }
+  size.value='390x844';theme.value='light';await load('index.html#poly-heading');
+  const d=doc(),w=win(),summary=d.querySelector('.poly-entry>summary'),nav=v=>d.querySelector(`.primary-nav [data-view="${v}"]`);
+  w.scrollTo(0,120);const y=w.scrollY;
+  summary.click();await frame();check('expand preserves scroll',w.scrollY===y);
+  summary.click();await frame();check('collapse preserves scroll',w.scrollY===y);
+  nav('poly').click();check('current tab preserves scroll',w.scrollY===y);
+  nav('home').click();nav('poly').click();check('return restores scroll',w.scrollY===y);
+  w.history.back();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='home');check('Back restores Home',w.scrollY===0);
+  w.history.forward();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='poly');check('Forward restores Meanings',w.scrollY===y);
+  d.querySelector('.mobile-search').click();const input=d.querySelector('#search');input.value='credit';input.dispatchEvent(new Event('input',{bubbles:true}));
+  await waitFor(()=>d.querySelectorAll('#search-results a').length>0);check('Search returns results',d.querySelectorAll('#search-results a').length>0);
+  d.querySelector('#search-close').click();check('Search close restores scroll',w.scrollY===y);
+  await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  const word=doc().querySelector('.lookup-word');word.click();check('Article lookup opens',doc().querySelector('#lookup-card').open);
+  doc().querySelector('#lookup-card>button').click();check('Article lookup closes',!doc().querySelector('#lookup-card').open);
+  const rd=doc(),rw=win(),panel=rd.querySelector('#lookup-card'),words=[...rd.querySelectorAll('.nap-paragraph .lookup-word')];
+  rw.scrollTo(0,160);const readingY=rw.scrollY;
+  words[0].click();await frame();const firstTop=panel.getBoundingClientRect().top,firstHeight=panel.getBoundingClientRect().height;
+  check('lookup opening preserves reading scroll',rw.scrollY===readingY);
+  let toggles=0;panel.addEventListener('toggle',()=>toggles++);
+  words[1].click();await frame();
+  check('switch reuses open panel',panel.open&&toggles===0&&rd.querySelectorAll('#lookup-card').length===1);
+  check('switch preserves scroll',rw.scrollY===readingY);
+  check('mobile panel geometry stable',Math.abs(panel.getBoundingClientRect().top-firstTop)<1&&Math.abs(panel.getBoundingClientRect().height-firstHeight)<1);
+  check('panel contains bilingual meanings',!!panel.querySelector('.lookup-meaning')&&!!panel.querySelector('.lookup-definition'));
+  panel.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
+  check('Escape closes and restores trigger',!panel.open&&rd.activeElement===words[1]&&rw.scrollY===readingY);
+  const paragraph=words[0].closest('.nap-paragraph');
+  check('one Tab stop per paragraph',paragraph.querySelectorAll('.lookup-word[tabindex="0"]').length===1);
+  words[0].focus({preventScroll:true});words[0].dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));
+  check('arrow moves word focus',rd.activeElement===words[1]);
+  const translation=rd.querySelector('.para-translation');translation.querySelector('summary').click();await frame();
+  check('translation opens without scroll',translation.open&&rw.scrollY===readingY);
+  translation.querySelector('summary').click();await frame();check('translation closes without scroll',!translation.open&&rw.scrollY===readingY);
+  const font=rd.querySelector('#reader-size');font.value='23';font.dispatchEvent(new Event('change'));check('font size applies',rw.getComputedStyle(words[0]).fontSize==='23px');
+  font.value='20';font.dispatchEvent(new Event('change'));
+  await load('vpn-privacy.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  const phrase=[...doc().querySelectorAll('#vpn-privacy-E .lookup-word')].find(w=>w.getAttribute('aria-label')==='Look up turn off');phrase.click();
+  const context=JSON.parse(doc().querySelector('#reading-context').textContent)['vpn-privacy-E'].find(x=>x[0].toLowerCase()==='turn off');
+  check('curated contextual meaning unchanged',doc().querySelector('.lookup-meaning').textContent===context[2]&&doc().querySelector('.lookup-definition').textContent===context[3]);
+  size.value='1024x768';theme.value='light';await load('index.html');
+  let dd=doc(),ww=win();
+  dd.dispatchEvent(new KeyboardEvent('keydown',{key:'k',metaKey:true,bubbles:true}));
+  check('Command K opens Search and focuses input',dd.querySelector('#search-dialog').open&&dd.activeElement.id==='search');
+  const query=dd.querySelector('#search');query.value='credit';query.dispatchEvent(new Event('input',{bubbles:true}));await waitFor(()=>dd.querySelector('#search-results a'));
+  query.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowDown',bubbles:true}));check('Down focuses first result',dd.activeElement===dd.querySelector('#search-results a'));
+  dd.activeElement.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowUp',bubbles:true}));check('Up returns to input',dd.activeElement===query);
+  query.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',isComposing:true,bubbles:true}));check('IME Enter does not navigate',dd.querySelector('#search-dialog').open);
+  query.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));check('Escape closes Search',!dd.querySelector('#search-dialog').open);
+  dd.dispatchEvent(new KeyboardEvent('keydown',{key:'k',metaKey:true,bubbles:true}));query.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));await frame();check('Enter reveals result',!dd.querySelector('#search-dialog').open&&dd.querySelector('#poly-credit').open);
+  let picker=dd.querySelector('.theme-picker');picker.value='dark';picker.dispatchEvent(new Event('change'));await load('index.html',true);dd=doc();ww=win();check('dark persists across refresh',dd.documentElement.dataset.theme==='dark');
+  const darkCanvas=ww.getComputedStyle(dd.documentElement).getPropertyValue('--canvas');check('dark remains dark at compact desktop width',darkCanvas.trim()==='#161618');
+  await load('nap.html',true);check('theme persists across article navigation',doc().documentElement.dataset.theme==='dark');
+  picker=doc().querySelector('.theme-picker');picker.value='light';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('light persists across refresh',doc().documentElement.dataset.theme==='light');
+  picker=doc().querySelector('.theme-picker');picker.value='system';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('system choice persists',doc().documentElement.dataset.theme==='system');
+  check('system palette follows browser preference',win().getComputedStyle(doc().documentElement).getPropertyValue('--canvas').trim()===(win().matchMedia('(prefers-color-scheme: dark)').matches?'#161618':'#f5f5f7'));
+  // Search must leave a clean source document for Back/Forward cache restores.
+  await load('index.html#nap-part');
+  let source=doc(),sourceWindow=win(),searchDialog=source.querySelector('#search-dialog');
+  sourceWindow.scrollTo(0,120);
+  const launch=source.querySelector('[data-search]');
+  launch.click();source.querySelector('#search-close').click();launch.click();await frame();
+  check('rapid Search reopen retains scroll lock',searchDialog.open&&source.body.style.position==='fixed'&&source.documentElement.classList.contains('search-open'));
+  check('rapid Search reopen retains input focus',source.activeElement.id==='search');
+  let searchInput=source.querySelector('#search');searchInput.value='Take Naps';searchInput.dispatchEvent(new Event('input',{bubbles:true}));
+  await waitFor(()=>source.querySelector('#search-groups a[href^="nap.html"]'));
+  source.querySelector('#search-groups a[href^="nap.html"]').click();
+  check('outbound Search closes source modal',!searchDialog.open&&!source.documentElement.classList.contains('search-open')&&source.body.style.position!=='fixed');
+  await waitFor(()=>win().location.pathname.endsWith('/nap.html')&&doc().querySelector('.lookup-word'));
+  win().history.back();await waitFor(()=>win().location.pathname.endsWith('/index.html')&&doc().querySelector('#nap-part'));
+  check('Back after Search returns an unlocked library',!doc().querySelector('#search-dialog').open&&doc().body.style.position!=='fixed');
+  // Test the reverse path as well: reader Search to a vocabulary anchor.
+  await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  source=doc();searchDialog=source.querySelector('#search-dialog');source.querySelector('[data-search]').click();
+  searchInput=source.querySelector('#search');searchInput.value='credit';searchInput.dispatchEvent(new Event('input',{bubbles:true}));
+  await waitFor(()=>source.querySelector('#search-groups a[href="index.html#sense-credit-01"]'));
+  source.querySelector('#search-groups a[href="index.html#sense-credit-01"]').click();
+  check('reader Search releases source before navigation',!searchDialog.open&&source.body.style.position!=='fixed');
+  await waitFor(()=>doc().querySelector('#poly-credit')?.open);
+  win().history.back();await waitFor(()=>win().location.pathname.endsWith('/nap.html')&&doc().querySelector('.lookup-word'));
+  check('Back after reader Search is unlocked',!doc().querySelector('#search-dialog').open&&doc().body.style.position!=='fixed');
+  const exhaustive={disclosures:0,articleViews:0,lookups:0,errors:[],overflow:[]};
+  for(const viewport of ['320x568','1363x936']){
+   size.value=viewport;theme.value='dark';await load('index.html#list');
+   for(const entry of doc().querySelectorAll('#list>details')){
+    entry.querySelector('summary').click();
+    if(doc().documentElement.scrollWidth>doc().documentElement.clientWidth)exhaustive.overflow.push({viewport,id:entry.id});
+    entry.querySelector('summary').click();exhaustive.disclosures++;
+   }
+  }
+  const articleIds=JSON.parse(doc().querySelector('#site-meta').textContent).articles;
+  for(const viewport of ['320x568','390x844','1024x768','1728x1117'])for(const mode of ['light','dark','system'])for(const article of articleIds){
+   report.textContent='All-page check: '+viewport+' / '+mode+' / '+article;
+   size.value=viewport;theme.value=mode;await load(article+'.html');await waitFor(()=>doc().querySelector('.lookup-word'));exhaustive.articleViews++;
+   const ad=doc(),aw=win();aw.addEventListener('error',e=>exhaustive.errors.push(e.message));aw.addEventListener('unhandledrejection',e=>exhaustive.errors.push(String(e.reason)));
+   const panel=ad.querySelector('#lookup-card');
+   for(const para of ad.querySelectorAll('.nap-paragraph:not([lang="zh-CN"])')){
+    const targets=para.querySelectorAll('.lookup-word');if(!targets.length)continue;
+    for(const target of [targets[0],targets[targets.length-1]]){
+     const before=aw.scrollY;target.click();
+     check('lookup does not move article '+article,aw.scrollY===before);
+     check('panel is open and singular',panel.open&&ad.querySelectorAll('#lookup-card').length===1);
+     check('panel is inside viewport',panel.getBoundingClientRect().left>=0&&panel.getBoundingClientRect().right<=ad.documentElement.clientWidth&&panel.getBoundingClientRect().top>=0&&panel.getBoundingClientRect().bottom<=aw.innerHeight+1);
+     panel.querySelector('button').click();check('close restores latest word without scroll',ad.activeElement===target&&aw.scrollY===before);exhaustive.lookups++;
+    }
+    const translation=para.nextElementSibling;if(translation?.classList.contains('para-translation')){translation.querySelector('summary').click();check('translation visible',translation.open&&!!translation.querySelector('p').textContent);translation.querySelector('summary').click()}
+   }
+   if(ad.documentElement.scrollWidth>ad.documentElement.clientWidth)exhaustive.overflow.push({viewport,article,mode});
+  }
+  exhaustive.resourceChecks=resourceChecks;
+  check('all expanded reference/article layouts fit',!exhaustive.overflow.length);check('no interaction runtime errors',!exhaustive.errors.length);
+  // A real keyboard destination must be visible, rather than silently focusing offscreen text.
+  size.value='320x568';theme.value='light';await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  const para=[...doc().querySelectorAll('.nap-paragraph')].filter(p=>p.querySelector('.lookup-word')).sort((a,b)=>b.getBoundingClientRect().height-a.getBoundingClientRect().height)[0];
+  para.querySelector('.lookup-word').focus();para.querySelector('.lookup-word').dispatchEvent(new KeyboardEvent('keydown',{key:'End',bubbles:true}));
+  const rect=doc().activeElement.getBoundingClientRect();check('End key makes selected word visible',rect.top>=0&&rect.bottom<=win().innerHeight);
+  await load('__pages/index.html#poly-heading');check('project path navigation loads',!doc().querySelector('#reference').hidden);
+  await load('__pages/nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));doc().querySelector('.lookup-word').click();check('project path dictionary loads',doc().querySelector('#lookup-card').open);
+  report.textContent=JSON.stringify({exhaustive,passed:true,cases:results.length,checks:checks.length,results},null,2);
+ }catch(error){report.textContent=JSON.stringify({passed:false,error:error.message,results,checks},null,2)}
+ finally{run.disabled=false;f.onload=apply}
+};
+</script>
+</html>

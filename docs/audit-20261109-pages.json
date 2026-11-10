@@ -1,0 +1,70 @@
+{
+  "article-dictionary.json": {
+    "match": true,
+    "sha256": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb"
+  },
+  "how-to-fix-the-internet.html": {
+    "match": true,
+    "sha256": "abb569f35bcf3babbd4beb126ae0000a0db996bc8a74b1810e6caba033ab6139"
+  },
+  "index.html": {
+    "match": true,
+    "sha256": "d6f2d3951c0f87fe8d8fd4b437219a589b585b64cd93006286fa662e0d5ac499"
+  },
+  "interface.js": {
+    "match": true,
+    "sha256": "782228b96948ac8424e795c6bb2a8ed993f53d3edb3939ab79258e4134fe97dc"
+  },
+  "motherhood.html": {
+    "match": true,
+    "sha256": "7db67142e3196a8890b0c399908ff8db5973f5a8ee5f0c6726d5cbb521a02661"
+  },
+  "nap.html": {
+    "match": true,
+    "sha256": "3f4571fcd3dae10558a35e7f8c9b172e2483d3c34a8f3679fee00ec76c90e640"
+  },
+  "nap_article.json": {
+    "match": true,
+    "sha256": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f"
+  },
+  "politics-and-evidence.html": {
+    "match": true,
+    "sha256": "6133d1a376b44620ee23fe0bb12f9aa384638d9c6ca6b9be81693490f36edf16"
+  },
+  "polysemy.json": {
+    "match": true,
+    "sha256": "733191fc53808bff20c2cb5bc426f8027164471f4ae59b3a03eafdb4e00a2c87"
+  },
+  "pronunciation.js": {
+    "match": true,
+    "sha256": "000c956ed80d25f35ee9feab24e3928fd228e1f50fa3a1c85379bb2e60a9f760"
+  },
+  "reader.js": {
+    "match": true,
+    "sha256": "216007fa3ca736bb1ddf348d8e7c6b66c9e9fbee7d6240a8fb9d2f6b78367c82"
+  },
+  "reading_articles.json": {
+    "match": true,
+    "sha256": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774"
+  },
+  "search-index.json": {
+    "match": true,
+    "sha256": "434ddc73eca83a8467364786fddaaeae60e83f85281f86aee3a8d0b844f18871"
+  },
+  "search.css": {
+    "match": true,
+    "sha256": "2fd5f473421660f1def1c3cb796f5231ca19142702756ad79f40ea6b49a8fd76"
+  },
+  "search.js": {
+    "match": true,
+    "sha256": "fa45a0dde0600a321af81975a3b0b9bb7b500a688e03a8bf8c3f1e56662eda88"
+  },
+  "vocabulary.json": {
+    "match": true,
+    "sha256": "2fb71706226dc78f832a5333b6688833028a9316bb9bd6c4c2f85a8017fdf5c4"
+  },
+  "vpn-privacy.html": {
+    "match": true,
+    "sha256": "440f7d4736711ca0fc13357f73539b6b4950f8c97a8439d90cfb7577289fcf35"
+  }
+}

@@ -41,14 +41,22 @@
  }
 
  function readerURL(target){if(target==='nap-part')return '';const article=articles.find(id=>target.startsWith(id+'-'));return article?article+'.html#'+target:''}
- function reveal(target){const url=readerURL(target);if(url){location.href=url;return}if(document.querySelector('#reader')){location.href='index.html#'+target;return}close();history.pushState(null,'','#'+target);window.notebook.reveal(target)}
+ function reveal(target){
+  // Release the modal and scroll lock before any navigation. Back can restore
+  // this exact document from the browser cache, including its inline styles.
+  close();
+  const url=readerURL(target);
+  if(url){location.href=url;return}
+  if(document.querySelector('#reader')){location.href='index.html#'+target;return}
+  history.pushState(null,'','#'+target);window.notebook.reveal(target);
+ }
  function search(){
-  const key=norm(q.value);groups.replaceChildren();if(!key){status.textContent='Search words, examples, and articles';return}
-  if(!loaded){status.textContent=loadFailed?'Could not load search. Close and try again.':'Loading search…';return}
+  const key=norm(q.value);groups.replaceChildren();if(!key){status.textContent=window.notebookText.searchHint;return}
+  if(!loaded){status.textContent=loadFailed?window.notebookText.searchError:window.notebookText.searchLoading;return}
   const hits=records.map(row=>({row,hit:match(row,key)})).filter(x=>x.hit).sort((a,b)=>a.hit.score-b.hit.score);
   const targets=new Set(hits.filter(x=>!x.row.id.startsWith('comparison-body-')).map(x=>x.row.target));
   const visibleHits=hits.filter(x=>!x.row.id.startsWith('comparison-body-')||!targets.has(x.row.target));
-  status.textContent=visibleHits.length?visibleHits.length+' matches':'No matches. Try another spelling or a Chinese keyword.';
+  status.textContent=visibleHits.length?visibleHits.length+(visibleHits.length===1?window.notebookText.match:window.notebookText.matches):window.notebookText.searchEmpty;
   for(const kind of ['精确词条','词汇辨析','多义词','阅读文章','阅读词汇','短语']){
    const subset=visibleHits.filter(x=>x.hit.type==='精确词条'?kind==='精确词条':x.row.kind===kind);if(!subset.length)continue;
    const section=document.createElement('section'),heading=document.createElement('h2');heading.textContent=window.notebookUILabel(kind)+' · '+subset.length;section.append(heading);
@@ -60,15 +68,16 @@
   }
  }
  function load(){if(loaded)return;loadFailed=false;fetch('./search-index.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{records=d.records;loaded=true;search()}).catch(()=>{loadFailed=true;search()})}
- function open(button){if(dialog.open)return;opener=button||document.activeElement;lastScroll=scrollY;document.body.style.position='fixed';document.body.style.top=-lastScroll+'px';document.body.style.width='100%';dialog.showModal();q.focus({preventScroll:true});load();search()}
- function restorePage(){if(document.body.style.position!=='fixed')return;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:lastScroll,behavior:'instant'});opener?.focus({preventScroll:true})}
+ function open(button){if(dialog.open)return;opener=button||document.activeElement;lastScroll=scrollY;document.body.style.position='fixed';document.body.style.top=-lastScroll+'px';document.body.style.width='100%';document.documentElement.classList.add('search-open');dialog.showModal();q.focus({preventScroll:true});load();search()}
+ function restorePage(){document.documentElement.classList.remove('search-open');if(document.body.style.position!=='fixed')return;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:lastScroll,behavior:'instant'});opener?.focus({preventScroll:true})}
  function close(){dialog.close();restorePage()}
- dialog.addEventListener('close',restorePage);dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
+ // A queued close event must not unlock a subsequently reopened search.
+ dialog.addEventListener('close',()=>{if(!dialog.open)restorePage()});dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
  document.querySelectorAll('[data-search]').forEach(b=>b.onclick=()=>open(b));document.querySelector('#search-close').onclick=close;
  dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close()});
  q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(search,70)});
- dialog.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();close();return}const links=[...groups.querySelectorAll('a')],i=links.indexOf(document.activeElement);if(e.key==='ArrowDown'&&links.length){e.preventDefault();links[(i+1)%links.length].focus()}if(e.key==='ArrowUp'&&links.length){e.preventDefault();if(i<=0)q.focus();else links[i-1].focus()}if(e.key==='Enter'&&document.activeElement===q&&links[0]){e.preventDefault();links[0].click()}});
- document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();dialog.open?close():open()}});
+ dialog.addEventListener('keydown',e=>{if(e.isComposing)return;if(e.key==='Escape'){e.preventDefault();e.stopPropagation();close();return}const links=[...groups.querySelectorAll('a')],i=links.indexOf(document.activeElement);if(e.key==='ArrowDown'&&links.length){e.preventDefault();links[(i+1)%links.length].focus()}if(e.key==='ArrowUp'&&links.length){e.preventDefault();if(i<=0)q.focus();else links[i-1].focus()}if(e.key==='Enter'&&document.activeElement===q&&links[0]){e.preventDefault();links[0].click()}});
+ document.addEventListener('keydown',e=>{if(!e.isComposing&&!e.repeat&&(e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();dialog.open?close():open()}});
  const resize=()=>document.documentElement.style.setProperty('--visual-height',(window.visualViewport?.height||innerHeight)+'px');window.visualViewport?.addEventListener('resize',resize);resize();
  if(!document.querySelector('#reader')){const redirect=()=>{const url=readerURL(location.hash.slice(1));if(url)location.replace(url)};redirect();addEventListener('hashchange',redirect)}
 })();

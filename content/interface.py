@@ -12,7 +12,9 @@ def shell(reader):
 def search_dialog():return '<dialog id="search-dialog" class="glass" aria-labelledby="search-title"><div class="search-head">'+icon('search')+'<h2 id="search-title" class="sr-only">Search library</h2><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Words, Chinese meanings, articles…" aria-label="Search library" aria-controls="search-results"><button id="search-close" aria-label="Close search">Cancel</button></div><section id="search-results" aria-label="Search results"><p role="status" id="search-status">Search words, examples, and articles</p><div id="search-groups"></div></section><div class="search-foot">↑ ↓ Navigate · Enter Open · Esc Close</div></dialog>'
 def build():
  catalog=json.loads((ROOT/'dist/vocabulary.json').read_text());poly=json.loads((ROOT/'dist/polysemy.json').read_text());articles=[{'id':'nap',**json.loads((ROOT/'content/nap_article.json').read_text())}]+json.loads((ROOT/'content/reading_articles.json').read_text())
- meta=json.dumps({'articles':[a['id'] for a in articles]});boot=(ROOT/'content/theme.js').read_text()
+ meta=json.dumps({'articles':[a['id'] for a in articles]});boot=(ROOT/'content/theme.js').read_text()+'\n'
+ ui=json.loads((ROOT/'content/ui-labels.json').read_text())
+ boot+='window.notebookUILabel = text => ('+json.dumps({k:ui['labels'][k] for k in ui['legacyRuntimeKeys']},ensure_ascii=False)+')[text] || text;\n'
  def document(title,body,reader=False,context=''):
   return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="A personal library of word comparisons, meanings, and bilingual reading."><title>'+e(title)+' · Wordbook</title><link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css"></head><body'+(' class="reader-page"' if reader else '')+'>'+shell(reader)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script><script src="./'+('reader' if reader else 'pronunciation')+'.js" defer></script></body></html>'
  p=ROOT/'dist/index.html';page=p.read_text();listing=re.search(r'<section id="list">(.*?)</section><section id="nap-part"',page,re.S)[1]
@@ -26,8 +28,12 @@ def build():
  for a in articles:
   p=ROOT/'dist'/f'{a["id"]}.html';old=p.read_text();body=re.search(r'<main>(.*?)</main>',old,re.S)[1]
   body=body.replace('<a href="index.html#nap-part">← Reading library</a>','<a class="back-link" href="index.html#nap-part">← Reading library</a>').replace('<div id="nap-text" class="nap-paper">','<div id="nap-text" class="nap-paper" lang="en">')
+  body=re.sub(r'<h2([^>]*)>(.*?)</h2>', r'<h1\1>\2</h1>', body, count=1, flags=re.S)
   jump='<label class="paragraph-picker">段落 <select id="paragraph-jump"><option value="">Choose a paragraph</option>'+''.join(f'<option value="{a["id"]}-{letter}">{letter}</option>' for letter in a['paragraphs'])+'</select></label>'
   body=body.replace('<p id="reader-status"',jump+'<p id="reader-status"');context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))
- for name in ['interface.js','pronunciation.js']:(ROOT/'dist'/name).write_bytes((ROOT/'content'/name).read_bytes())
+ for name in ['interface.js','pronunciation.js']:
+  source=(ROOT/'content'/name).read_text()
+  if name=='interface.js':source='window.notebookText = '+json.dumps(ui['text'],ensure_ascii=False)+';\n'+source
+  (ROOT/'dist'/name).write_text(source)
  print('Interface:',len(catalog['groups']),'groups,',len(poly['entries']),'words,',len(articles),'readers')

@@ -1,0 +1,595 @@
+{
+  "stage": 2,
+  "parent": "4e0677e4a76fe0e9392c63d8020efb34c490e3ee",
+  "baseline": {
+    "audited_main": "b2e55d047e53b1183a30c8dc0cdea818b7df1b0b",
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "results": [
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "content/render.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.826,
+        "stdout": "Nap archive: 20 paragraphs, 32 words, 33 phrases\n{\"groups\": 137, \"word_rows\": 327, \"tables\": 137, \"selection_notes\": 212}\nInterface: 137 groups, 75 words, 5 readers\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "scripts/verify_migration.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.391,
+        "stdout": "PASS preservation: exact original groups/words; 349 retained sense records as multisets; all original article fields unchanged\nPASS: reviewed SHA-256 baseline; 137 groups, 327 entries, 322 unique IDs; 75 polysemy words/415 senses; 20 paragraphs, 32 words, 33 phrases.\nPASS interface: frozen data; 61 exact original and translated paragraphs; relative assets/routes; no inline legacy CSS\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "scripts/verify_preservation.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.039,
+        "stdout": "PASS preservation: exact original groups/words; 349 retained sense records as multisets; all original article fields unchanged\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "scripts/verify_interface.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.099,
+        "stdout": "PASS interface: frozen data; 61 exact original and translated paragraphs; relative assets/routes; no inline legacy CSS\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "scripts/verify_upgrade.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.345,
+        "stdout": "PASS upgrade: all index records, all targets present; 415 unique stable sense IDs; A–T translations after complete English text; index fields found in HTML\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "scripts/verify_article_dictionary.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.025,
+        "stdout": "PASS article dictionary: 1346 distinct tokens have Chinese and English definitions; source and deployment files match\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "scripts/verify_reading_context.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.028,
+        "stdout": "PASS contextual senses, original and translated paragraph anchors, and font controls\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/app.js"
+        ],
+        "exit_code": 0,
+        "seconds": 0.048,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/interface.js"
+        ],
+        "exit_code": 0,
+        "seconds": 0.043,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/pronunciation.js"
+        ],
+        "exit_code": 0,
+        "seconds": 0.043,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/reader.js"
+        ],
+        "exit_code": 0,
+        "seconds": 0.042,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/search.js"
+        ],
+        "exit_code": 0,
+        "seconds": 0.046,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/theme.js"
+        ],
+        "exit_code": 0,
+        "seconds": 0.047,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "node",
+          "scripts/test_search.cjs"
+        ],
+        "exit_code": 0,
+        "seconds": 0.119,
+        "stdout": "credit 8\nnap 30\nsleep 25\n学分 1\npower nap 3\nbrutal 2\nPASS search matcher: required queries, casing, prefix, documented inflections, ranking, nonmatches, special and hostile input\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "content/render.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.938,
+        "stdout": "Nap archive: 20 paragraphs, 32 words, 33 phrases\n{\"groups\": 137, \"word_rows\": 327, \"tables\": 137, \"selection_notes\": 212}\nInterface: 137 groups, 75 words, 5 readers\n",
+        "stderr": ""
+      }
+    ],
+    "checks": {
+      "committed_output_matches_rebuild": true,
+      "clean_build_matches": true,
+      "frozen_learning_content_and_guards_unchanged": true
+    },
+    "changed_frozen_files": [],
+    "dist": {
+      "article-dictionary.json": {
+        "sha256": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb",
+        "bytes": 152987,
+        "gzip_bytes": 37084
+      },
+      "how-to-fix-the-internet.html": {
+        "sha256": "7201fd6a067df3c21fde1b72cf918e899e5b7154a9187ba34a620818ea11e788",
+        "bytes": 28615,
+        "gzip_bytes": 11877
+      },
+      "index.html": {
+        "sha256": "d6f2d3951c0f87fe8d8fd4b437219a589b585b64cd93006286fa662e0d5ac499",
+        "bytes": 632522,
+        "gzip_bytes": 134533
+      },
+      "interface.js": {
+        "sha256": "782228b96948ac8424e795c6bb2a8ed993f53d3edb3939ab79258e4134fe97dc",
+        "bytes": 3378,
+        "gzip_bytes": 1507
+      },
+      "motherhood.html": {
+        "sha256": "9d46e3c1383757144aa1efaed25de03217628aacc11977031a352f21eec362b0",
+        "bytes": 29513,
+        "gzip_bytes": 12479
+      },
+      "nap.html": {
+        "sha256": "d55249e97233374f793013f288d282661f8d84d61b1f716c5f4c4726f93fdad4",
+        "bytes": 40873,
+        "gzip_bytes": 14330
+      },
+      "nap_article.json": {
+        "sha256": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
+        "bytes": 18771,
+        "gzip_bytes": 8319
+      },
+      "politics-and-evidence.html": {
+        "sha256": "5580fa3396bec041ecded0fcac1d64bcc9ec79f757e0ac5e808697bc1a94205f",
+        "bytes": 18408,
+        "gzip_bytes": 7504
+      },
+      "polysemy.json": {
+        "sha256": "733191fc53808bff20c2cb5bc426f8027164471f4ae59b3a03eafdb4e00a2c87",
+        "bytes": 248354,
+        "gzip_bytes": 43506
+      },
+      "pronunciation.js": {
+        "sha256": "000c956ed80d25f35ee9feab24e3928fd228e1f50fa3a1c85379bb2e60a9f760",
+        "bytes": 2264,
+        "gzip_bytes": 1000
+      },
+      "reader.js": {
+        "sha256": "a99c4139bcfd1b248ed4c5a7f6865d4532766d2520fd4703c66983beaac2ef26",
+        "bytes": 8593,
+        "gzip_bytes": 3350
+      },
+      "reading_articles.json": {
+        "sha256": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
+        "bytes": 32663,
+        "gzip_bytes": 16273
+      },
+      "search-index.json": {
+        "sha256": "434ddc73eca83a8467364786fddaaeae60e83f85281f86aee3a8d0b844f18871",
+        "bytes": 716684,
+        "gzip_bytes": 158411
+      },
+      "search.css": {
+        "sha256": "5197346fff92937f2a6385d384db4501bb5078e915cd1532af5ceed6fb5c4cf6",
+        "bytes": 37437,
+        "gzip_bytes": 7390
+      },
+      "search.js": {
+        "sha256": "fa45a0dde0600a321af81975a3b0b9bb7b500a688e03a8bf8c3f1e56662eda88",
+        "bytes": 7305,
+        "gzip_bytes": 2905
+      },
+      "vocabulary.json": {
+        "sha256": "2fb71706226dc78f832a5333b6688833028a9316bb9bd6c4c2f85a8017fdf5c4",
+        "bytes": 905797,
+        "gzip_bytes": 177242
+      },
+      "vpn-privacy.html": {
+        "sha256": "f901aacc2b248ea386ba8a1022da24ad840ab8783829179b084269bb2ba822d8",
+        "bytes": 18993,
+        "gzip_bytes": 7868
+      }
+    },
+    "passed": true
+  },
+  "contrast": {
+    "passed": true,
+    "pairs": 48,
+    "minimum_ratio": 3.51,
+    "results": [
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--canvas",
+        "ratio": 15.46
+      },
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--surface",
+        "ratio": 16.83
+      },
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--inset",
+        "ratio": 14.54
+      },
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--tint",
+        "ratio": 14.56
+      },
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--hover",
+        "ratio": 13.92
+      },
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--pressed",
+        "ratio": 12.35
+      },
+      {
+        "theme": "light",
+        "foreground": "--secondary",
+        "background": "--canvas",
+        "ratio": 5.72
+      },
+      {
+        "theme": "light",
+        "foreground": "--secondary",
+        "background": "--surface",
+        "ratio": 6.22
+      },
+      {
+        "theme": "light",
+        "foreground": "--secondary",
+        "background": "--inset",
+        "ratio": 5.38
+      },
+      {
+        "theme": "light",
+        "foreground": "--secondary",
+        "background": "--tint",
+        "ratio": 5.38
+      },
+      {
+        "theme": "light",
+        "foreground": "--secondary",
+        "background": "--hover",
+        "ratio": 5.15
+      },
+      {
+        "theme": "light",
+        "foreground": "--secondary",
+        "background": "--pressed",
+        "ratio": 4.57
+      },
+      {
+        "theme": "light",
+        "foreground": "--accent",
+        "background": "--canvas",
+        "ratio": 6.21
+      },
+      {
+        "theme": "light",
+        "foreground": "--accent",
+        "background": "--surface",
+        "ratio": 6.76
+      },
+      {
+        "theme": "light",
+        "foreground": "--accent",
+        "background": "--inset",
+        "ratio": 5.84
+      },
+      {
+        "theme": "light",
+        "foreground": "--accent",
+        "background": "--tint",
+        "ratio": 5.85
+      },
+      {
+        "theme": "light",
+        "foreground": "--accent",
+        "background": "--hover",
+        "ratio": 5.59
+      },
+      {
+        "theme": "light",
+        "foreground": "--accent",
+        "background": "--pressed",
+        "ratio": 4.96
+      },
+      {
+        "theme": "light",
+        "foreground": "--warm-ink",
+        "background": "--warm-surface",
+        "ratio": 5.78
+      },
+      {
+        "theme": "light",
+        "foreground": "--sage-ink",
+        "background": "--sage-surface",
+        "ratio": 5.94
+      },
+      {
+        "theme": "light",
+        "foreground": "--ink",
+        "background": "--highlight",
+        "ratio": 13.6
+      },
+      {
+        "theme": "light",
+        "foreground": "--on-accent",
+        "background": "--accent",
+        "ratio": 6.76
+      },
+      {
+        "theme": "light",
+        "foreground": "--border-control",
+        "background": "--surface",
+        "ratio": 3.51
+      },
+      {
+        "theme": "light",
+        "foreground": "--focus",
+        "background": "--surface",
+        "ratio": 6.76
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--canvas",
+        "ratio": 16.6
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--surface",
+        "ratio": 14.92
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--inset",
+        "ratio": 12.77
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--tint",
+        "ratio": 10.99
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--hover",
+        "ratio": 11.34
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--pressed",
+        "ratio": 9.41
+      },
+      {
+        "theme": "dark",
+        "foreground": "--secondary",
+        "background": "--canvas",
+        "ratio": 8.99
+      },
+      {
+        "theme": "dark",
+        "foreground": "--secondary",
+        "background": "--surface",
+        "ratio": 8.08
+      },
+      {
+        "theme": "dark",
+        "foreground": "--secondary",
+        "background": "--inset",
+        "ratio": 6.91
+      },
+      {
+        "theme": "dark",
+        "foreground": "--secondary",
+        "background": "--tint",
+        "ratio": 5.95
+      },
+      {
+        "theme": "dark",
+        "foreground": "--secondary",
+        "background": "--hover",
+        "ratio": 6.14
+      },
+      {
+        "theme": "dark",
+        "foreground": "--secondary",
+        "background": "--pressed",
+        "ratio": 5.09
+      },
+      {
+        "theme": "dark",
+        "foreground": "--accent",
+        "background": "--canvas",
+        "ratio": 10.16
+      },
+      {
+        "theme": "dark",
+        "foreground": "--accent",
+        "background": "--surface",
+        "ratio": 9.14
+      },
+      {
+        "theme": "dark",
+        "foreground": "--accent",
+        "background": "--inset",
+        "ratio": 7.82
+      },
+      {
+        "theme": "dark",
+        "foreground": "--accent",
+        "background": "--tint",
+        "ratio": 6.73
+      },
+      {
+        "theme": "dark",
+        "foreground": "--accent",
+        "background": "--hover",
+        "ratio": 6.94
+      },
+      {
+        "theme": "dark",
+        "foreground": "--accent",
+        "background": "--pressed",
+        "ratio": 5.76
+      },
+      {
+        "theme": "dark",
+        "foreground": "--warm-ink",
+        "background": "--warm-surface",
+        "ratio": 7.48
+      },
+      {
+        "theme": "dark",
+        "foreground": "--sage-ink",
+        "background": "--sage-surface",
+        "ratio": 7.34
+      },
+      {
+        "theme": "dark",
+        "foreground": "--ink",
+        "background": "--highlight",
+        "ratio": 7.1
+      },
+      {
+        "theme": "dark",
+        "foreground": "--on-accent",
+        "background": "--accent",
+        "ratio": 8.83
+      },
+      {
+        "theme": "dark",
+        "foreground": "--border-control",
+        "background": "--surface",
+        "ratio": 4.23
+      },
+      {
+        "theme": "dark",
+        "foreground": "--focus",
+        "background": "--surface",
+        "ratio": 9.14
+      }
+    ]
+  },
+  "html_text_order_preserved": true,
+  "browser": {
+    "engine": "Cloud Chrome",
+    "method": "same-origin temporary iframe viewport harness, removed before final build",
+    "viewports": [
+      "320x568",
+      "390x844",
+      "430x932",
+      "844x390",
+      "1024x768",
+      "1363x936"
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "views": [
+      "home",
+      "comparisons",
+      "meanings",
+      "reading-directory",
+      "nap-article"
+    ],
+    "cases": 60,
+    "overflow_failures": 0,
+    "navigation_bounds_failures": 0,
+    "checks": [
+      "dark productivity lookup and Escape",
+      "dark credit search: 8 results; modal within viewport",
+      "320px expanded comparison: table 680px inside 241px scroller; no page overflow",
+      "system theme persisted after reload; OS light matched rgb(245,245,247)",
+      "explicit dark persisted after reload: rgb(22,22,24)"
+    ],
+    "limits": [
+      "No physical Safari/VoiceOver/keyboard/safe-area test",
+      "OS dark live transition not emulated; CSS dark token parity verified",
+      "Viewport harness tests do not emulate touch hardware"
+    ]
+  }
+}

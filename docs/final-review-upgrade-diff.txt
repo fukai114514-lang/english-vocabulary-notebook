@@ -1,0 +1,82 @@
+ .github/workflows/validate.yml    |   20 +-
+ content/english_ui.py             |   19 +-
+ content/interface.js              |   58 +-
+ content/interface.py              |   10 +-
+ content/reader.js                 |   69 +-
+ content/search.css                | 1858 ++++++++++++++++++++++++++++++++++++-
+ content/search.js                 |   14 +-
+ content/theme.js                  |    2 -
+ content/ui-labels.json            |  304 ++++++
+ dist/how-to-fix-the-internet.html |    2 +-
+ dist/interface.js                 |   59 +-
+ dist/motherhood.html              |    2 +-
+ dist/nap.html                     |    2 +-
+ dist/politics-and-evidence.html   |    2 +-
+ dist/reader.js                    |   69 +-
+ dist/search.css                   | 1858 ++++++++++++++++++++++++++++++++++++-
+ dist/search.js                    |   14 +-
+ dist/vpn-privacy.html             |    2 +-
+ docs/audit-20261109-freeze.json   |   30 +
+ docs/audit-20261109-pages.json    |   70 ++
+ docs/audit-20261109-tests.json    |  257 +++++
+ docs/audit-20261109.md            |  129 +++
+ docs/stage02-design-system.md     |   39 +
+ docs/stage02-validation.json      |  595 ++++++++++++
+ docs/stage03-iphone.md            |   38 +
+ docs/stage03-validation.json      |  608 ++++++++++++
+ docs/stage04-reader.md            |   24 +
+ docs/stage04-validation.json      |  574 ++++++++++++
+ docs/stage05-desktop-language.md  |   27 +
+ docs/stage05-validation.json      |  593 ++++++++++++
+ docs/stage06-testing.md           |   58 ++
+ docs/stage06-validation.json      |  324 +++++++
+ scripts/audit_baseline.py         |   80 ++
+ scripts/full-qa.html              |  157 ++++
+ scripts/mobile-qa.html            |   70 ++
+ scripts/prepare_full_qa.py        |   13 +
+ scripts/reader-qa.html            |  111 +++
+ scripts/test_ui_labels.py         |   16 +
+ scripts/verify_design_tokens.py   |   32 +
+ scripts/verify_routes.py          |   36 +
+ 40 files changed, 8122 insertions(+), 123 deletions(-)
+
+M	.github/workflows/validate.yml
+M	content/english_ui.py
+M	content/interface.js
+M	content/interface.py
+M	content/reader.js
+M	content/search.css
+M	content/search.js
+M	content/theme.js
+A	content/ui-labels.json
+M	dist/how-to-fix-the-internet.html
+M	dist/interface.js
+M	dist/motherhood.html
+M	dist/nap.html
+M	dist/politics-and-evidence.html
+M	dist/reader.js
+M	dist/search.css
+M	dist/search.js
+M	dist/vpn-privacy.html
+A	docs/audit-20261109-freeze.json
+A	docs/audit-20261109-pages.json
+A	docs/audit-20261109-tests.json
+A	docs/audit-20261109.md
+A	docs/stage02-design-system.md
+A	docs/stage02-validation.json
+A	docs/stage03-iphone.md
+A	docs/stage03-validation.json
+A	docs/stage04-reader.md
+A	docs/stage04-validation.json
+A	docs/stage05-desktop-language.md
+A	docs/stage05-validation.json
+A	docs/stage06-testing.md
+A	docs/stage06-validation.json
+A	scripts/audit_baseline.py
+A	scripts/full-qa.html
+A	scripts/mobile-qa.html
+A	scripts/prepare_full_qa.py
+A	scripts/reader-qa.html
+A	scripts/test_ui_labels.py
+A	scripts/verify_design_tokens.py
+A	scripts/verify_routes.py
