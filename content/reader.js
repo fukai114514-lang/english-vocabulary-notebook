@@ -15,11 +15,11 @@
   const translation=document.getElementById(p.id.replace(/-([A-Z])$/,'-zh-$1'));
   if(!translation)continue;
   const details=document.createElement('details'),summary=document.createElement('summary');
-  details.className='para-translation';summary.textContent='Show translation';
+  details.className='para-translation';summary.textContent=window.notebookText.showTranslation;
   const copy=document.createElement('p');copy.lang='zh-CN';
   copy.textContent=translation.textContent.replace(/^\[[A-Z]\]\s*/,'');
   details.append(summary,copy);p.after(details);
-  details.ontoggle=()=>{summary.textContent=details.open?'Hide translation':'Show translation'};
+  details.ontoggle=()=>{summary.textContent=details.open?window.notebookText.hideTranslation:window.notebookText.showTranslation};
  }
 
  function addText(parent,tag,value,style){
@@ -46,8 +46,8 @@
    candidates.get(key).push(row);
   }
   const dialog=document.createElement('dialog'),body=document.createElement('div');
-  dialog.id='lookup-card';dialog.className='dictionary-panel';dialog.setAttribute('aria-label','English and Chinese definitions');
-  const close=addText(dialog,'button','Close');close.setAttribute('aria-label','Close definitions and return to the article');close.type='button';
+  dialog.id='lookup-card';dialog.className='dictionary-panel';dialog.setAttribute('aria-label',window.notebookText.dictionaryTitle);
+  const close=addText(dialog,'button',window.notebookText.close);close.setAttribute('aria-label',window.notebookText.closeDictionary);close.type='button';
   body.className='lookup-body';dialog.append(body);document.body.append(dialog);
   const announcement=document.createElement('span');announcement.className='sr-only';announcement.setAttribute('role','status');document.body.append(announcement);
   let trigger,active=[];
@@ -96,9 +96,9 @@
     const excerpt=addText(body,'blockquote',(start?'…':'')+text.slice(start,end)+(end<text.length?'…':''),'lookup-source');excerpt.hidden=true;excerpt.setAttribute('aria-label','Selected passage');
    }
    const ipa=fields['音标']||fields['IPA'];if(ipa)addText(body,'p',ipa,'sense-note');
-   if('speechSynthesis' in window){const speak=addText(body,'button','▷ Listen','lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speechStatus.hidden=true;speak.onclick=()=>{speechStatus.hidden=false;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='Finished reading';u.onerror=()=>speechStatus.textContent='Could not read aloud. Check your device’s voice settings.';speechStatus.textContent='Reading aloud';speechSynthesis.speak(u)}}
+   if('speechSynthesis' in window){const speak=addText(body,'button',window.notebookText.listen,'lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speechStatus.hidden=true;speak.onclick=()=>{speechStatus.hidden=false;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='Finished reading';u.onerror=()=>speechStatus.textContent='Could not read aloud. Check your device’s voice settings.';speechStatus.textContent='Reading aloud';speechSynthesis.speak(u)}}
 
-   addText(body,'p',context?'In this sentence · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?'Meaning in this article':'Common meaning'].filter(Boolean).join(' · '),'sense-note');
+   addText(body,'p',context?'In this sentence · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?window.notebookText.articleMeaning:window.notebookText.commonMeaning].filter(Boolean).join(' · '),'sense-note');
    addText(body,'p',context?.[2]||fields['中文意思']||fields['释义'],'lookup-meaning');
    addText(body,'p',context?.[3]||fields['英文释义'],'lookup-definition');
    const more=document.createElement('details');addText(more,'summary','Explore “'+button.textContent+'”: definitions and collocations');

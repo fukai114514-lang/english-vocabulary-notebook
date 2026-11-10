@@ -1295,46 +1295,6 @@ select {
   }
 }
 @media(max-width:1100px) and (min-width:761px) {
-  :root {
-    --sidebar:248px;
-    --canvas:#f5f5f7;
-    --surface:#ffffff;
-    --inset:#eeeef2;
-    --ink:#1d1d1f;
-    --secondary:#606069;
-    --accent:#2459ad;
-    --tint:#e8effb;
-    --line:#d5d5dd;
-    --glass-solid:#f5f5f7;
-    --glass:rgba(250,250,252,.9);
-    --highlight:#ffe5a0;
-    --radius-sm:10px;
-    --radius-md:18px;
-    --radius-lg:26px;
-    --fast:120ms;
-    --normal:200ms;
-    --shadow-sm:0 2px 8px #16162508;
-    --shadow-float:0 16px 48px #16162524,0 1px 0 #ffffffb3 inset;
-    --focus:#2459ad;
-    --border-control:#888893;
-    --on-accent:#ffffff;
-    --hover:#e9e9ef;
-    --pressed:#dcdce5;
-    --warm-ink:#785427;
-    --warm-surface:#f3ece2;
-    --sage-ink:#346251;
-    --sage-surface:#e6efe9;
-    --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-    --font-reading:ui-serif,Georgia,"Songti SC",serif;
-    --weight-regular:400;
-    --weight-medium:500;
-    --weight-semibold:600;
-    --weight-bold:700;
-    --leading-ui:1.6;
-    --leading-reading:1.9;
-    --control-height:44px;
-    --blur:18px;
-  }
   main {
     padding-left:28px;
     padding-right:28px;
@@ -1356,46 +1316,6 @@ select {
   }
 }
 @media(max-width:760px),(max-width:1000px) and (max-height:500px) {
-  :root {
-    --sidebar:248px;
-    --canvas:#f5f5f7;
-    --surface:#ffffff;
-    --inset:#eeeef2;
-    --ink:#1d1d1f;
-    --secondary:#606069;
-    --accent:#2459ad;
-    --tint:#e8effb;
-    --line:#d5d5dd;
-    --glass-solid:#f5f5f7;
-    --glass:rgba(250,250,252,.9);
-    --highlight:#ffe5a0;
-    --radius-sm:10px;
-    --radius-md:18px;
-    --radius-lg:26px;
-    --fast:120ms;
-    --normal:200ms;
-    --shadow-sm:0 2px 8px #16162508;
-    --shadow-float:0 16px 48px #16162524,0 1px 0 #ffffffb3 inset;
-    --focus:#2459ad;
-    --border-control:#888893;
-    --on-accent:#ffffff;
-    --hover:#e9e9ef;
-    --pressed:#dcdce5;
-    --warm-ink:#785427;
-    --warm-surface:#f3ece2;
-    --sage-ink:#346251;
-    --sage-surface:#e6efe9;
-    --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-    --font-reading:ui-serif,Georgia,"Songti SC",serif;
-    --weight-regular:400;
-    --weight-medium:500;
-    --weight-semibold:600;
-    --weight-bold:700;
-    --leading-ui:1.6;
-    --leading-reading:1.9;
-    --control-height:44px;
-    --blur:18px;
-  }
   .sidebar {
     position:static;
     width:auto;
@@ -1820,6 +1740,40 @@ html {scroll-padding-top:calc(var(--topbar-height,66px) + 16px)}
  .lookup-open .primary-nav,.lookup-open .mobile-search {visibility:hidden;pointer-events:none}
  .nap-paragraph {line-height:1.8;margin-top:28px}
 }
+/* Desktop refinement; retain the existing mobile/landscape breakpoint. */
+@media(min-width:761px) and (min-height:501px), (min-width:1001px) {
+ main {width:calc(100% - var(--sidebar));max-width:1200px;margin-left:var(--sidebar);padding-left:clamp(28px,4vw,64px);padding-right:clamp(28px,4vw,64px)}
+ .reader-page main {width:calc(100% - var(--sidebar));max-width:960px;margin-left:var(--sidebar)}
+ .sidebar {padding:28px 16px;overscroll-behavior:contain;scrollbar-width:thin}
+ .sidebar-search {font-size:15px;min-height:48px;padding:11px 14px}
+ .sidebar-foot {padding-top:28px}
+ .sidebar-foot select {font-size:14px}
+ .collection-card {padding:26px 22px}
+ .collections {grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+ .desktop-context {min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .topbar>div {flex-shrink:0}
+}
+@media(min-width:761px) and (max-width:1100px) and (min-height:501px) {
+ :root {--sidebar:220px}
+ .collections {grid-template-columns:1fr}
+ .primary-nav a {font-size:14px;gap:10px;padding:11px 10px}
+ .collection-card {padding:20px 24px;display:grid;grid-template-columns:44px minmax(0,1fr) auto;column-gap:16px}
+ .collection-card .collection-icon {grid-row:1/5;margin:0;align-self:center}
+ .collection-card>.eyebrow,.collection-card h2 {grid-column:2}
+ .collection-card h2 {margin:6px 0;font-size:21px}
+ .collection-card p {grid-column:2/4;font-size:15px;margin:0}
+ .collection-card .collection-count {grid-column:2/4;margin-top:12px}
+ .home-bottom {grid-template-columns:1fr}
+ .desktop-context {display:none}
+}
+@media(min-width:1600px) {
+ main {margin-left:calc(var(--sidebar) + (100vw - var(--sidebar) - 1200px)/2)}
+ .reader-page main {margin-left:calc(var(--sidebar) + (100vw - var(--sidebar) - 960px)/2)}
+}
+#search-results article:focus-within {background:var(--tint)}
+#search-results a:focus-visible {outline-offset:2px;border-radius:6px}
+.sidebar-search:hover {background:var(--tint)}
+.back-link:hover {text-decoration:underline;text-underline-offset:4px}
 @media(prefers-reduced-motion:reduce) {
   *,*::before,*::after {
     animation:none!important;
@@ -1838,46 +1792,6 @@ html {scroll-padding-top:calc(var(--topbar-height,66px) + 16px)}
   }
 }
 @media(prefers-contrast:more) {
-  :root {
-    --line:#d5d5dd;
-    --canvas:#f5f5f7;
-    --surface:#ffffff;
-    --inset:#eeeef2;
-    --ink:#1d1d1f;
-    --secondary:#606069;
-    --accent:#2459ad;
-    --tint:#e8effb;
-    --glass-solid:#f5f5f7;
-    --glass:rgba(250,250,252,.9);
-    --highlight:#ffe5a0;
-    --radius-sm:10px;
-    --radius-md:18px;
-    --radius-lg:26px;
-    --sidebar:248px;
-    --fast:120ms;
-    --normal:200ms;
-    --shadow-sm:0 2px 8px #16162508;
-    --shadow-float:0 16px 48px #16162524,0 1px 0 #ffffffb3 inset;
-    --focus:#2459ad;
-    --border-control:#888893;
-    --on-accent:#ffffff;
-    --hover:#e9e9ef;
-    --pressed:#dcdce5;
-    --warm-ink:#785427;
-    --warm-surface:#f3ece2;
-    --sage-ink:#346251;
-    --sage-surface:#e6efe9;
-    --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-    --font-reading:ui-serif,Georgia,"Songti SC",serif;
-    --weight-regular:400;
-    --weight-medium:500;
-    --weight-semibold:600;
-    --weight-bold:700;
-    --leading-ui:1.6;
-    --leading-reading:1.9;
-    --control-height:44px;
-    --blur:18px;
-  }
   .glass,.primary-nav {
     background:var(--surface);
     backdrop-filter:none;

@@ -50,11 +50,11 @@
    cell.setAttribute('role',i?'cell':'rowheader');if(i)cell.dataset.label=labels[i];
   }));
   const toggle=document.createElement('button');toggle.type='button';toggle.className='comparison-view';
-  toggle.textContent='Full comparison';toggle.setAttribute('aria-pressed','false');
+  toggle.textContent=window.notebookText.comparisonFull;toggle.setAttribute('aria-pressed','false');
   toggle.onclick=()=>{
    const top=toggle.getBoundingClientRect().top;
    const full=scroller.classList.toggle('full-comparison');
-   toggle.textContent=full?'Word cards':'Full comparison';toggle.setAttribute('aria-pressed',String(full));
+   toggle.textContent=full?window.notebookText.comparisonCards:window.notebookText.comparisonFull;toggle.setAttribute('aria-pressed',String(full));
    window.scrollBy({top:toggle.getBoundingClientRect().top-top,behavior:'instant'});
   };
   scroller.classList.add('comparison-ready');

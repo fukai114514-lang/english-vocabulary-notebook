@@ -1,3 +1,4 @@
+window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "Word cards", "searchHint": "Search words, examples, and articles", "searchError": "Could not load search. Close and try again.", "searchLoading": "Loading search…", "searchEmpty": "No matches. Try another spelling or a Chinese keyword.", "showTranslation": "Show translation", "hideTranslation": "Hide translation", "dictionaryTitle": "English and Chinese definitions", "close": "Close", "closeDictionary": "Close definitions and return to the article", "commonMeaning": "Common meaning", "articleMeaning": "Meaning in this article", "listen": "▷ Listen", "articleStats": "Original · {0}–{1} · {2} vocabulary items · {3} phrases", "match": " match", "matches": " matches"};
 (() => {
  'use strict';
  const $=s=>document.querySelector(s),root=document.documentElement;
@@ -50,11 +51,11 @@
    cell.setAttribute('role',i?'cell':'rowheader');if(i)cell.dataset.label=labels[i];
   }));
   const toggle=document.createElement('button');toggle.type='button';toggle.className='comparison-view';
-  toggle.textContent='Full comparison';toggle.setAttribute('aria-pressed','false');
+  toggle.textContent=window.notebookText.comparisonFull;toggle.setAttribute('aria-pressed','false');
   toggle.onclick=()=>{
    const top=toggle.getBoundingClientRect().top;
    const full=scroller.classList.toggle('full-comparison');
-   toggle.textContent=full?'Word cards':'Full comparison';toggle.setAttribute('aria-pressed',String(full));
+   toggle.textContent=full?window.notebookText.comparisonCards:window.notebookText.comparisonFull;toggle.setAttribute('aria-pressed',String(full));
    window.scrollBy({top:toggle.getBoundingClientRect().top-top,behavior:'instant'});
   };
   scroller.classList.add('comparison-ready');

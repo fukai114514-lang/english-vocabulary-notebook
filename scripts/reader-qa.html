@@ -6,11 +6,11 @@
 body {font:14px system-ui;margin:16px;background:#eee;color:#222}
 button,select {min-height:44px;font:inherit} label {margin-right:16px}
 iframe {display:block;border:1px solid #888;margin-top:12px}
-pre {white-space:pre-wrap;max-width:1000px}
+pre {white-space:pre-wrap;max-width:1000px;max-height:160px;overflow:auto}
 </style>
 <h1>Reader regression checks</h1>
 <p>Local development only. Copy this file into dist as __qa.html; remove it before integrity checks or committing generated output.</p>
-<label>Viewport <select id="size"><option>390x844</option><option>320x568</option><option>375x667</option><option>430x932</option><option>844x390</option><option>1363x936</option></select></label>
+<label>Viewport <select id="size"><option>390x844</option><option>320x568</option><option>375x667</option><option>430x932</option><option>844x390</option><option>900x800</option><option>1024x768</option><option>1363x936</option><option>1728x1117</option></select></label>
 <label>Theme <select id="theme"><option>light</option><option>dark</option></select></label>
 <label>Page <select id="page"><option value="index.html">Home</option><option value="index.html#original-heading">Comparisons</option><option value="index.html#poly-heading">Meanings</option><option value="index.html#nap-part">Reading</option><option value="nap.html">Article</option></select></label>
 <button id="run">Run regressions</button>
@@ -24,7 +24,7 @@ const doc=()=>f.contentDocument,win=()=>f.contentWindow;
 function apply(){const [w,h]=size.value.split('x');f.width=w;f.height=h;doc().documentElement.dataset.theme=theme.value;doc().querySelectorAll('.theme-picker').forEach(p=>p.value=theme.value)}
 size.onchange=theme.onchange=apply;page.onchange=()=>f.src=page.value;f.onload=apply;
 let revision=0;
-function load(url){return new Promise(resolve=>{f.onload=()=>{apply();resolve()};const [path,hash]=url.split('#');f.src=path+'?qa='+ ++revision+(hash?'#'+hash:'')})}
+function load(url,keepTheme=false){return new Promise(resolve=>{f.onload=()=>{if(!keepTheme)apply();resolve()};const [path,hash]=url.split('#');f.src=path+'?qa='+ ++revision+(hash?'#'+hash:'')})}
 async function waitFor(test){const start=Date.now();while(!test()){if(Date.now()-start>8000)throw Error('Timed out waiting for content');await new Promise(resolve=>setTimeout(resolve,50))}}
 run.onclick=async()=>{
  run.disabled=true;const results=[],checks=[];
@@ -33,7 +33,7 @@ run.onclick=async()=>{
   for(const viewport of [...size.options].map(o=>o.value))for(const mode of ['light','dark'])for(const url of [...page.options].map(o=>o.value)){
    report.textContent='Running '+viewport+' / '+mode+' / '+url;
    size.value=viewport;theme.value=mode;page.value=url;await load(url);
-   const d=doc(),root=d.documentElement,mobile=viewport!=='1363x936';
+   const d=doc(),root=d.documentElement,mobile=Number(viewport.split('x')[0])<=760||(Number(viewport.split('x')[0])<=1000&&Number(viewport.split('x')[1])<=500);
    const detail=d.querySelector('#list>details:not([hidden])');if(!d.querySelector('#reference')?.hidden&&detail)detail.open=true;
    await frame();
    const nav=[...d.querySelectorAll('.primary-nav a')].map(a=>a.getBoundingClientRect()),n=d.querySelector('.primary-nav').getBoundingClientRect(),s=d.querySelector('.mobile-search').getBoundingClientRect();
@@ -87,9 +87,25 @@ run.onclick=async()=>{
   const phrase=[...doc().querySelectorAll('#vpn-privacy-E .lookup-word')].find(w=>w.getAttribute('aria-label')==='Look up turn off');phrase.click();
   const context=JSON.parse(doc().querySelector('#reading-context').textContent)['vpn-privacy-E'].find(x=>x[0].toLowerCase()==='turn off');
   check('curated contextual meaning unchanged',doc().querySelector('.lookup-meaning').textContent===context[2]&&doc().querySelector('.lookup-definition').textContent===context[3]);
+  size.value='1024x768';theme.value='light';await load('index.html');
+  let dd=doc(),ww=win();
+  dd.dispatchEvent(new KeyboardEvent('keydown',{key:'k',metaKey:true,bubbles:true}));
+  check('Command K opens Search and focuses input',dd.querySelector('#search-dialog').open&&dd.activeElement.id==='search');
+  const query=dd.querySelector('#search');query.value='credit';query.dispatchEvent(new Event('input',{bubbles:true}));await waitFor(()=>dd.querySelector('#search-results a'));
+  query.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowDown',bubbles:true}));check('Down focuses first result',dd.activeElement===dd.querySelector('#search-results a'));
+  dd.activeElement.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowUp',bubbles:true}));check('Up returns to input',dd.activeElement===query);
+  query.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',isComposing:true,bubbles:true}));check('IME Enter does not navigate',dd.querySelector('#search-dialog').open);
+  query.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));check('Escape closes Search',!dd.querySelector('#search-dialog').open);
+  dd.dispatchEvent(new KeyboardEvent('keydown',{key:'k',metaKey:true,bubbles:true}));query.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));await frame();check('Enter reveals result',!dd.querySelector('#search-dialog').open&&dd.querySelector('#poly-credit').open);
+  let picker=dd.querySelector('.theme-picker');picker.value='dark';picker.dispatchEvent(new Event('change'));await load('index.html',true);dd=doc();ww=win();check('dark persists across refresh',dd.documentElement.dataset.theme==='dark');
+  const darkCanvas=ww.getComputedStyle(dd.documentElement).getPropertyValue('--canvas');check('dark remains dark at compact desktop width',darkCanvas.trim()==='#161618');
+  await load('nap.html',true);check('theme persists across article navigation',doc().documentElement.dataset.theme==='dark');
+  picker=doc().querySelector('.theme-picker');picker.value='light';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('light persists across refresh',doc().documentElement.dataset.theme==='light');
+  picker=doc().querySelector('.theme-picker');picker.value='system';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('system choice persists',doc().documentElement.dataset.theme==='system');
+  check('system palette follows browser preference',win().getComputedStyle(doc().documentElement).getPropertyValue('--canvas').trim()===(win().matchMedia('(prefers-color-scheme: dark)').matches?'#161618':'#f5f5f7'));
   report.textContent=JSON.stringify({passed:true,cases:results.length,checks:checks.length,results},null,2);
  }catch(error){report.textContent=JSON.stringify({passed:false,error:error.message,results,checks},null,2)}
- finally{run.disabled=false}
+ finally{run.disabled=false;f.onload=apply}
 };
 </script>
 </html>
