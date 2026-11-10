@@ -46,32 +46,40 @@
    candidates.get(key).push(row);
   }
   const dialog=document.createElement('dialog'),body=document.createElement('div');
-  dialog.id='lookup-card';dialog.className='glass';dialog.setAttribute('aria-label','English and Chinese definitions');
+  dialog.id='lookup-card';dialog.className='dictionary-panel';dialog.setAttribute('aria-label','English and Chinese definitions');
   const close=addText(dialog,'button','Close');close.setAttribute('aria-label','Close definitions and return to the article');close.type='button';
-  dialog.append(body);document.body.append(dialog);
+  body.className='lookup-body';dialog.append(body);document.body.append(dialog);
+  const announcement=document.createElement('span');announcement.className='sr-only';announcement.setAttribute('role','status');document.body.append(announcement);
   let trigger,active=[];
+  const help=addText(document.body,'span','Use Left and Right arrows to choose a word in this paragraph, Enter for definitions, and Escape to return.','sr-only');help.id='lookup-help';
   function position(){
    if(!dialog.open||!trigger)return;
    const r=trigger.getBoundingClientRect(),mobile=innerWidth<=760||(innerWidth<=1000&&innerHeight<=500),vv=window.visualViewport,top=vv?.offsetTop||0,height=vv?.height||innerHeight;
-   dialog.style.maxHeight=(mobile?Math.min(height*.4,340):Math.min(height*.5,440))+'px';
-   const h=dialog.offsetHeight,w=dialog.offsetWidth;let y=r.bottom+10;
-   if(y+h>top+height-16)y=r.top-h-10;
-   if(mobile)y=r.top>top+height*.5?top+76:top+height-h-100;
-   dialog.style.top=Math.max(top+12,Math.min(y,top+height-h-12))+'px';dialog.style.left=(mobile?12:Math.max(12,Math.min(r.left,innerWidth-w-12)))+'px';
+   const panelHeight=mobile?Math.min(height*.42,360):Math.min(height*.6,480);
+   dialog.style.maxHeight=panelHeight+'px';
+   dialog.style.height=mobile?panelHeight+'px':'auto';
+   const h=dialog.offsetHeight,w=dialog.offsetWidth;
+   let y=mobile?top+height-h-8:r.bottom+10;
+   if(!mobile&&y+h>top+height-12)y=r.top-h-10;
+   dialog.style.top=Math.max(top+8,Math.min(y,top+height-h-8))+'px';
+   const excerpt=body.querySelector('.lookup-source');if(excerpt)excerpt.hidden=!mobile||r.bottom<y;
+   dialog.style.left=(mobile?12:Math.max(12,Math.min(r.left,innerWidth-w-12)))+'px';
   }
   document.addEventListener('pointerdown',ev=>{if(dialog.open&&!dialog.contains(ev.target)&&!ev.target.closest('.lookup-word'))dismiss(false)});
-  window.addEventListener('resize',position);window.visualViewport?.addEventListener('resize',position);window.addEventListener('scroll',position,{passive:true});
+  window.addEventListener('resize',position);window.visualViewport?.addEventListener('resize',position);window.visualViewport?.addEventListener('scroll',position);window.addEventListener('scroll',position,{passive:true});
   dialog.addEventListener('toggle',position,true);new ResizeObserver(position).observe(body);
 
   function clearSelection(){
    for(const b of active)b.classList.remove('phrase-active');
    trigger?.removeAttribute('aria-expanded');active=[];
   }
-  function dismiss(focus=true){clearSelection();dialog.close();if(focus)trigger?.focus({preventScroll:true})}
+  function dismiss(focus=true){const y=scrollY;clearSelection();if('speechSynthesis' in window)speechSynthesis.cancel();dialog.close();document.documentElement.classList.remove('lookup-open');if(focus)trigger?.focus({preventScroll:true});window.scrollTo({top:y,behavior:'instant'})}
   close.onclick=()=>dismiss();window.addEventListener('hashchange',()=>{if(dialog.open)dismiss(false)});window.addEventListener('pagehide',()=>{if('speechSynthesis' in window)speechSynthesis.cancel()});
   dialog.oncancel=e=>{e.preventDefault();dismiss()};
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dialog.open){e.preventDefault();dismiss()}});
   function lookup(button,context,group){
+   const readingY=scrollY;
+   if('speechSynthesis' in window)speechSynthesis.cancel();
    clearSelection();trigger=button;active=group||[button];
    for(const b of active)b.classList.add('phrase-active');
    button.setAttribute('aria-expanded','true');body.replaceChildren();
@@ -79,13 +87,20 @@
    const primary=(button.closest('#nap-text')&&rows.find(r=>r.kind==='阅读词汇'))||rows.find(r=>r.kind==='文章词典')||rows[0];
    const fields=primary?.fields||{};
    const lemma=fields['词条']||button.textContent;
-   addText(body,'h2',context?.[0]||lemma);
+   const title=addText(body,'h2',context?.[0]||lemma);title.id='lookup-title';dialog.setAttribute('aria-labelledby','lookup-title');
+   announcement.textContent='Definitions for '+(context?.[0]||lemma);
+   const paragraph=button.closest('.nap-paragraph');
+   if(paragraph){
+    const range=document.createRange();range.setStart(paragraph,0);range.setEndBefore(button);
+    const at=range.toString().length,text=paragraph.textContent,start=Math.max(0,at-55),end=Math.min(text.length,at+button.textContent.length+65);
+    const excerpt=addText(body,'blockquote',(start?'…':'')+text.slice(start,end)+(end<text.length?'…':''),'lookup-source');excerpt.hidden=true;excerpt.setAttribute('aria-label','Selected passage');
+   }
    const ipa=fields['音标']||fields['IPA'];if(ipa)addText(body,'p',ipa,'sense-note');
-   if('speechSynthesis' in window){const speak=addText(body,'button','▷ Listen','lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speak.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='Finished reading';u.onerror=()=>speechStatus.textContent='Could not read aloud. Check your device’s voice settings.';speechStatus.textContent='Reading aloud';speechSynthesis.speak(u)}}
+   if('speechSynthesis' in window){const speak=addText(body,'button','▷ Listen','lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speechStatus.hidden=true;speak.onclick=()=>{speechStatus.hidden=false;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='Finished reading';u.onerror=()=>speechStatus.textContent='Could not read aloud. Check your device’s voice settings.';speechStatus.textContent='Reading aloud';speechSynthesis.speak(u)}}
 
    addText(body,'p',context?'In this sentence · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?'Meaning in this article':'Common meaning'].filter(Boolean).join(' · '),'sense-note');
-   addText(body,'p',context?.[2]||fields['中文意思']||fields['释义']);
-   addText(body,'p',context?.[3]||fields['英文释义']);
+   addText(body,'p',context?.[2]||fields['中文意思']||fields['释义'],'lookup-meaning');
+   addText(body,'p',context?.[3]||fields['英文释义'],'lookup-definition');
    const more=document.createElement('details');addText(more,'summary','Explore “'+button.textContent+'”: definitions and collocations');
    for(const row of rows){
     const dl=document.createElement('dl');
@@ -101,7 +116,8 @@
     }
    }
    if(more.childElementCount>1)body.append(more);
-   if(!dialog.open)dialog.show();dialog.scrollTop=0;position();
+   if(!dialog.open){dialog.show();button.focus({preventScroll:true})}
+   document.documentElement.classList.add('lookup-open');body.scrollTop=0;position();window.scrollTo({top:readingY,behavior:'instant'});
   }
   const headings=document.querySelectorAll('.reading-title,#reader > .part-heading h1');
   for(const p of [...paragraphs,...headings]){
@@ -127,11 +143,21 @@
      const span=spans.find(s=>match.index>=s.at&&match.index+match[0].length<=s.end);
      if(span)span.buttons.push(b);
      b.setAttribute('aria-label','Look up '+(span?.entry[0]||match[0]));
-     b.setAttribute('aria-haspopup','dialog');b.onclick=ev=>{lookup(b,span?.entry,span?.buttons);if(ev.detail===0)close.focus({preventScroll:true})};
+     b.setAttribute('aria-haspopup','dialog');b.setAttribute('aria-controls','lookup-card');b.setAttribute('aria-describedby','lookup-help');b.onclick=ev=>{lookup(b,span?.entry,span?.buttons);if(ev.detail===0)close.focus({preventScroll:true})};
      start=match.index+match[0].length;
     }
     fragment.append(document.createTextNode(text.slice(start)));node.replaceWith(fragment);
    }
+   const words=[...p.querySelectorAll('.lookup-word')];
+   words.forEach((word,i)=>{
+    word.tabIndex=i===0?0:-1;
+    word.addEventListener('focus',()=>words.forEach(w=>w.tabIndex=w===word?0:-1));
+    word.addEventListener('keydown',ev=>{
+     if(!['ArrowLeft','ArrowRight','Home','End'].includes(ev.key)||ev.altKey||ev.ctrlKey||ev.metaKey)return;
+     ev.preventDefault();const next=ev.key==='Home'?0:ev.key==='End'?words.length-1:Math.max(0,Math.min(words.length-1,i+(ev.key==='ArrowRight'?1:-1)));
+     words[next].focus({preventScroll:true});
+    });
+   });
   }
  }
 })();

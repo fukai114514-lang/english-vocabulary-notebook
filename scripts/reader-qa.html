@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Wordbook mobile regression checks</title>
+<style>
+body {font:14px system-ui;margin:16px;background:#eee;color:#222}
+button,select {min-height:44px;font:inherit} label {margin-right:16px}
+iframe {display:block;border:1px solid #888;margin-top:12px}
+pre {white-space:pre-wrap;max-width:1000px}
+</style>
+<h1>Reader regression checks</h1>
+<p>Local development only. Copy this file into dist as __qa.html; remove it before integrity checks or committing generated output.</p>
+<label>Viewport <select id="size"><option>390x844</option><option>320x568</option><option>375x667</option><option>430x932</option><option>844x390</option><option>1363x936</option></select></label>
+<label>Theme <select id="theme"><option>light</option><option>dark</option></select></label>
+<label>Page <select id="page"><option value="index.html">Home</option><option value="index.html#original-heading">Comparisons</option><option value="index.html#poly-heading">Meanings</option><option value="index.html#nap-part">Reading</option><option value="nap.html">Article</option></select></label>
+<button id="run">Run regressions</button>
+<pre id="report" role="status">Ready. This exercises Chromium or Safari itself; it does not emulate an iPhone keyboard, safe area, touch hardware or OS accessibility settings.</pre>
+<iframe id="site" title="Site preview" width="390" height="844" src="index.html"></iframe>
+<script>
+'use strict';
+const f=document.querySelector('#site'),size=document.querySelector('#size'),theme=document.querySelector('#theme'),page=document.querySelector('#page'),report=document.querySelector('#report'),run=document.querySelector('#run');
+const frame=()=>new Promise(resolve=>setTimeout(resolve,40));
+const doc=()=>f.contentDocument,win=()=>f.contentWindow;
+function apply(){const [w,h]=size.value.split('x');f.width=w;f.height=h;doc().documentElement.dataset.theme=theme.value;doc().querySelectorAll('.theme-picker').forEach(p=>p.value=theme.value)}
+size.onchange=theme.onchange=apply;page.onchange=()=>f.src=page.value;f.onload=apply;
+let revision=0;
+function load(url){return new Promise(resolve=>{f.onload=()=>{apply();resolve()};const [path,hash]=url.split('#');f.src=path+'?qa='+ ++revision+(hash?'#'+hash:'')})}
+async function waitFor(test){const start=Date.now();while(!test()){if(Date.now()-start>8000)throw Error('Timed out waiting for content');await new Promise(resolve=>setTimeout(resolve,50))}}
+run.onclick=async()=>{
+ run.disabled=true;const results=[],checks=[];
+ const check=(name,ok)=>{checks.push({name,passed:!!ok});if(!ok)throw Error(name)};
+ try{
+  for(const viewport of [...size.options].map(o=>o.value))for(const mode of ['light','dark'])for(const url of [...page.options].map(o=>o.value)){
+   report.textContent='Running '+viewport+' / '+mode+' / '+url;
+   size.value=viewport;theme.value=mode;page.value=url;await load(url);
+   const d=doc(),root=d.documentElement,mobile=viewport!=='1363x936';
+   const detail=d.querySelector('#list>details:not([hidden])');if(!d.querySelector('#reference')?.hidden&&detail)detail.open=true;
+   await frame();
+   const nav=[...d.querySelectorAll('.primary-nav a')].map(a=>a.getBoundingClientRect()),n=d.querySelector('.primary-nav').getBoundingClientRect(),s=d.querySelector('.mobile-search').getBoundingClientRect();
+   const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:!mobile||n.right<=s.left};results.push(row);
+   check(`${viewport}/${mode}/${url}: no page overflow`,root.scrollWidth<=root.clientWidth);
+   check(`${viewport}/${mode}/${url}: navigation targets`,row.minTarget>=44);
+   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0);
+   if(url.includes('original-heading')){
+    const scroller=d.querySelector('.table-scroll'),toggle=d.querySelector('.comparison-view');
+    if(mobile){check('cards fit',scroller.scrollWidth<=scroller.clientWidth);toggle.click();await frame();check('full comparison retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table'&&scroller.scrollWidth>=680);toggle.click()}
+    else check('desktop retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table');
+   }
+  }
+  size.value='390x844';theme.value='light';await load('index.html#poly-heading');
+  const d=doc(),w=win(),summary=d.querySelector('.poly-entry>summary'),nav=v=>d.querySelector(`.primary-nav [data-view="${v}"]`);
+  w.scrollTo(0,120);const y=w.scrollY;
+  summary.click();await frame();check('expand preserves scroll',w.scrollY===y);
+  summary.click();await frame();check('collapse preserves scroll',w.scrollY===y);
+  nav('poly').click();check('current tab preserves scroll',w.scrollY===y);
+  nav('home').click();nav('poly').click();check('return restores scroll',w.scrollY===y);
+  w.history.back();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='home');check('Back restores Home',w.scrollY===0);
+  w.history.forward();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='poly');check('Forward restores Meanings',w.scrollY===y);
+  d.querySelector('.mobile-search').click();const input=d.querySelector('#search');input.value='credit';input.dispatchEvent(new Event('input',{bubbles:true}));
+  await waitFor(()=>d.querySelectorAll('#search-results a').length>0);check('Search returns results',d.querySelectorAll('#search-results a').length>0);
+  d.querySelector('#search-close').click();check('Search close restores scroll',w.scrollY===y);
+  await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  const word=doc().querySelector('.lookup-word');word.click();check('Article lookup opens',doc().querySelector('#lookup-card').open);
+  doc().querySelector('#lookup-card>button').click();check('Article lookup closes',!doc().querySelector('#lookup-card').open);
+  const rd=doc(),rw=win(),panel=rd.querySelector('#lookup-card'),words=[...rd.querySelectorAll('.nap-paragraph .lookup-word')];
+  rw.scrollTo(0,160);const readingY=rw.scrollY;
+  words[0].click();await frame();const firstTop=panel.getBoundingClientRect().top,firstHeight=panel.getBoundingClientRect().height;
+  check('lookup opening preserves reading scroll',rw.scrollY===readingY);
+  let toggles=0;panel.addEventListener('toggle',()=>toggles++);
+  words[1].click();await frame();
+  check('switch reuses open panel',panel.open&&toggles===0&&rd.querySelectorAll('#lookup-card').length===1);
+  check('switch preserves scroll',rw.scrollY===readingY);
+  check('mobile panel geometry stable',Math.abs(panel.getBoundingClientRect().top-firstTop)<1&&Math.abs(panel.getBoundingClientRect().height-firstHeight)<1);
+  check('panel contains bilingual meanings',!!panel.querySelector('.lookup-meaning')&&!!panel.querySelector('.lookup-definition'));
+  panel.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
+  check('Escape closes and restores trigger',!panel.open&&rd.activeElement===words[1]&&rw.scrollY===readingY);
+  const paragraph=words[0].closest('.nap-paragraph');
+  check('one Tab stop per paragraph',paragraph.querySelectorAll('.lookup-word[tabindex="0"]').length===1);
+  words[0].focus({preventScroll:true});words[0].dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));
+  check('arrow moves word focus',rd.activeElement===words[1]);
+  const translation=rd.querySelector('.para-translation');translation.querySelector('summary').click();await frame();
+  check('translation opens without scroll',translation.open&&rw.scrollY===readingY);
+  translation.querySelector('summary').click();await frame();check('translation closes without scroll',!translation.open&&rw.scrollY===readingY);
+  const font=rd.querySelector('#reader-size');font.value='23';font.dispatchEvent(new Event('change'));check('font size applies',rw.getComputedStyle(words[0]).fontSize==='23px');
+  font.value='20';font.dispatchEvent(new Event('change'));
+  await load('vpn-privacy.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  const phrase=[...doc().querySelectorAll('#vpn-privacy-E .lookup-word')].find(w=>w.getAttribute('aria-label')==='Look up turn off');phrase.click();
+  const context=JSON.parse(doc().querySelector('#reading-context').textContent)['vpn-privacy-E'].find(x=>x[0].toLowerCase()==='turn off');
+  check('curated contextual meaning unchanged',doc().querySelector('.lookup-meaning').textContent===context[2]&&doc().querySelector('.lookup-definition').textContent===context[3]);
+  report.textContent=JSON.stringify({passed:true,cases:results.length,checks:checks.length,results},null,2);
+ }catch(error){report.textContent=JSON.stringify({passed:false,error:error.message,results,checks},null,2)}
+ finally{run.disabled=false}
+};
+</script>
+</html>
