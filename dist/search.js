@@ -41,7 +41,15 @@
  }
 
  function readerURL(target){if(target==='nap-part')return '';const article=articles.find(id=>target.startsWith(id+'-'));return article?article+'.html#'+target:''}
- function reveal(target){const url=readerURL(target);if(url){location.href=url;return}if(document.querySelector('#reader')){location.href='index.html#'+target;return}close();history.pushState(null,'','#'+target);window.notebook.reveal(target)}
+ function reveal(target){
+  // Release the modal and scroll lock before any navigation. Back can restore
+  // this exact document from the browser cache, including its inline styles.
+  close();
+  const url=readerURL(target);
+  if(url){location.href=url;return}
+  if(document.querySelector('#reader')){location.href='index.html#'+target;return}
+  history.pushState(null,'','#'+target);window.notebook.reveal(target);
+ }
  function search(){
   const key=norm(q.value);groups.replaceChildren();if(!key){status.textContent=window.notebookText.searchHint;return}
   if(!loaded){status.textContent=loadFailed?window.notebookText.searchError:window.notebookText.searchLoading;return}
@@ -63,7 +71,8 @@
  function open(button){if(dialog.open)return;opener=button||document.activeElement;lastScroll=scrollY;document.body.style.position='fixed';document.body.style.top=-lastScroll+'px';document.body.style.width='100%';document.documentElement.classList.add('search-open');dialog.showModal();q.focus({preventScroll:true});load();search()}
  function restorePage(){document.documentElement.classList.remove('search-open');if(document.body.style.position!=='fixed')return;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:lastScroll,behavior:'instant'});opener?.focus({preventScroll:true})}
  function close(){dialog.close();restorePage()}
- dialog.addEventListener('close',restorePage);dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
+ // A queued close event must not unlock a subsequently reopened search.
+ dialog.addEventListener('close',()=>{if(!dialog.open)restorePage()});dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
  document.querySelectorAll('[data-search]').forEach(b=>b.onclick=()=>open(b));document.querySelector('#search-close').onclick=close;
  dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close()});
  q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(search,70)});

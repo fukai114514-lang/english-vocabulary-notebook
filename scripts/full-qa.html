@@ -112,7 +112,32 @@ run.onclick=async()=>{
   picker=doc().querySelector('.theme-picker');picker.value='light';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('light persists across refresh',doc().documentElement.dataset.theme==='light');
   picker=doc().querySelector('.theme-picker');picker.value='system';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('system choice persists',doc().documentElement.dataset.theme==='system');
   check('system palette follows browser preference',win().getComputedStyle(doc().documentElement).getPropertyValue('--canvas').trim()===(win().matchMedia('(prefers-color-scheme: dark)').matches?'#161618':'#f5f5f7'));
-  const exhaustive={disclosures:0,articleViews:0,lookups:0,errors:[],overflow:[],focusFailures:[]};
+  // Search must leave a clean source document for Back/Forward cache restores.
+  await load('index.html#nap-part');
+  let source=doc(),sourceWindow=win(),searchDialog=source.querySelector('#search-dialog');
+  sourceWindow.scrollTo(0,120);
+  const launch=source.querySelector('[data-search]');
+  launch.click();source.querySelector('#search-close').click();launch.click();await frame();
+  check('rapid Search reopen retains scroll lock',searchDialog.open&&source.body.style.position==='fixed'&&source.documentElement.classList.contains('search-open'));
+  check('rapid Search reopen retains input focus',source.activeElement.id==='search');
+  let searchInput=source.querySelector('#search');searchInput.value='Take Naps';searchInput.dispatchEvent(new Event('input',{bubbles:true}));
+  await waitFor(()=>source.querySelector('#search-groups a[href^="nap.html"]'));
+  source.querySelector('#search-groups a[href^="nap.html"]').click();
+  check('outbound Search closes source modal',!searchDialog.open&&!source.documentElement.classList.contains('search-open')&&source.body.style.position!=='fixed');
+  await waitFor(()=>win().location.pathname.endsWith('/nap.html')&&doc().querySelector('.lookup-word'));
+  win().history.back();await waitFor(()=>win().location.pathname.endsWith('/index.html')&&doc().querySelector('#nap-part'));
+  check('Back after Search returns an unlocked library',!doc().querySelector('#search-dialog').open&&doc().body.style.position!=='fixed');
+  // Test the reverse path as well: reader Search to a vocabulary anchor.
+  await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));
+  source=doc();searchDialog=source.querySelector('#search-dialog');source.querySelector('[data-search]').click();
+  searchInput=source.querySelector('#search');searchInput.value='credit';searchInput.dispatchEvent(new Event('input',{bubbles:true}));
+  await waitFor(()=>source.querySelector('#search-groups a[href="index.html#sense-credit-01"]'));
+  source.querySelector('#search-groups a[href="index.html#sense-credit-01"]').click();
+  check('reader Search releases source before navigation',!searchDialog.open&&source.body.style.position!=='fixed');
+  await waitFor(()=>doc().querySelector('#poly-credit')?.open);
+  win().history.back();await waitFor(()=>win().location.pathname.endsWith('/nap.html')&&doc().querySelector('.lookup-word'));
+  check('Back after reader Search is unlocked',!doc().querySelector('#search-dialog').open&&doc().body.style.position!=='fixed');
+  const exhaustive={disclosures:0,articleViews:0,lookups:0,errors:[],overflow:[]};
   for(const viewport of ['320x568','1363x936']){
    size.value=viewport;theme.value='dark';await load('index.html#list');
    for(const entry of doc().querySelectorAll('#list>details')){
