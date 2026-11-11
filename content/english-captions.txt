@@ -320,3 +320,8 @@ stare|To look at someone or something for a long time with your eyes wide open.
 gaze|To look steadily at someone or something, often with admiration or thought.
 glare|To look angrily at someone; also, a very bright and uncomfortable light.
 peer|To look carefully or with difficulty; as a noun, a person of similar age or status.
+aggregate|To combine separate amounts into a total; also, a total or relating to that total.
+assemble|To put parts together or bring people together in one place.
+accumulate|To increase or collect gradually over time.
+pretext|A stated reason used to hide the real reason for doing something.
+excuse|A reason offered to explain or justify something; also, to forgive or pardon.

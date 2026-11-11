@@ -462,3 +462,10 @@ stare|v./n. 盯着看；凝视|强调长时间直视，可能因惊讶、好奇�
 gaze|v./n. 凝望；注视|强调持续、专注地看，常带欣赏、思考或柔和的感情色彩|gaze at; gaze into; a steady gaze|She gazed at the stars. → 她凝望着星空。
 glare|v./n. 怒视；刺眼的光|看人的动词义强调愤怒；名词也可指强烈刺眼的光|glare at; an angry glare; the glare of the sun|He glared at me without saying a word. → 他一言不发地怒视着我。
 peer|v./n. 费力细看；同龄人；同等地位者|动词强调因昏暗、距离或遮挡而努力看清；名词是另一常见用法|peer at; peer into; peer through; peer pressure|She peered through the window into the dark room. → 她透过窗户仔细看那间昏暗的房间。
+# 138
+aggregate|v./adj./n. 汇总；总计的；总量|强调把若干项合并成整体，或指合计结果；常用于数据与经济语境|aggregate data; aggregate demand; in the aggregate|The report aggregates sales data from all regions. → 这份报告汇总了所有地区的销售数据。
+assemble|v. 组装；集合；召集|强调把零件组装起来，或让人聚集在一处|assemble furniture; assemble a team; assemble in the hall|We assembled the desk in an hour. → 我们用一小时组装好了书桌。
+accumulate|v. 积累；逐渐增多|强调数量随着时间或反复增加，不要求有人刻意收集|accumulate experience; accumulate debt; dust accumulates|Dust accumulated on the shelves. → 架子上逐渐积了灰。
+# 139
+pretext|n. 借口；托词|通常暗示公开给出的理由并非真实动机|on the pretext of; use sth as a pretext|He left early on the pretext of feeling ill. → 他以身体不适为由提前离开了。
+excuse|n./v. 理由；借口；原谅|泛指解释或开脱的理由，不必然是假的；也可作动词|make an excuse; an excuse for being late; excuse me|She had a good excuse for being late: her train was cancelled. → 她迟到有正当理由：火车停运了。

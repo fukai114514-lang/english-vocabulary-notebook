@@ -563,3 +563,22 @@ n.|划水动作；游泳姿势；划桨动作|A movement of the arms in swimming
 n.|笔画；一笔；涂抹的一下|A single movement of a pen, pencil or brush that leaves a mark.|The character has eight strokes.|这个字有八画。
 n.|一次意外的事；一次高明的举动|A single unexpected event or an inspired action, especially in fixed phrases.|Finding the keys was a stroke of luck.|找到钥匙真是碰巧走运。
 n.|钟声的一响；报时的时刻|A single sound of a striking clock, or the moment marked by it.|The show began on the stroke of midnight.|演出在午夜钟声敲响时开始。
+# stiff
+提示：stiff muscles 是肌肉僵硬；a stiff drink 指烈酒；a stiff penalty 指严厉处罚。stiff upper lip 指遇事沉着、克制情绪。
+adj.|僵硬的；不灵活的|Difficult to bend or move freely.|My shoulders feel stiff after sitting all day.|坐了一整天后我的肩膀很僵硬。
+adj.|生硬的；不自然的|Formal or awkward in manner or style.|His stiff reply made the conversation awkward.|他生硬的回答让谈话变得尴尬。
+adj.|强烈的；严厉的|Strong or severe, especially of a challenge, price or penalty.|The team faces stiff competition.|这支队伍面临激烈的竞争。
+adj.|硬挺的；不易弯曲的|Firm and not easily bent.|The jacket has a stiff collar.|这件夹克的衣领很硬挺。
+# parameter
+提示：通常用复数 parameters 指规则或界限；within the parameters of the study 表示在研究范围内。数学或程序设计中，parameter 可指决定系统行为的参数，不等同于任何会变化的数值。
+n.|参数|A value that defines or affects the behaviour of a system or model.|Change the parameter to adjust the graph.|调整这个参数来改变图形。
+n. 复数常见|界限；范围|Limits or guidelines that determine what is allowed or possible.|We must work within the project's parameters.|我们必须在项目规定的范围内开展工作。
+n.|决定因素|A measurable factor used to describe a situation or system.|Temperature is an important parameter in the experiment.|温度是这项实验中的重要因素。
+# tone
+提示：tone of voice 是说话语气；muscle tone 是肌张力；tone down 表示使言辞或颜色柔和些。音乐中 a tone 可指音调，和 pitch 在具体用法上有区别。
+n.|语气；口吻|The attitude expressed by the way someone speaks or writes.|Her tone sounded calm and reassuring.|她的语气听起来平静而令人安心。
+n.|音色；音调|A quality or pitch of a sound.|The instrument has a warm tone.|这件乐器的音色温暖。
+n.|风格；基调|The general mood or character of a piece of writing or an event.|The opening sets a serious tone for the article.|开头为文章定下了严肃的基调。
+n.|色调|A particular shade or quality of a colour.|The room is decorated in soft blue tones.|房间用柔和的蓝色色调装饰。
+n. 生理学|肌张力|The normal firmness of a muscle, especially when it is at rest.|Regular movement can help maintain muscle tone.|规律活动有助于维持肌张力。
+v.|使结实；使柔和|To make muscles firmer, or make something less strong in tone.|The editor toned down the headline.|编辑把标题的措辞改得温和了一些。

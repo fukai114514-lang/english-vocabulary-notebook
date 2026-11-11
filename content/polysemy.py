@@ -18,7 +18,7 @@ def load_entries():
             pos, zh, definition, en, translation = line.split('|')
             entries[-1]['senses'].append({'partOfSpeech': pos, 'meaningZh': zh,
                 'definitionEn': definition, 'example': {'en': en, 'zh': translation}})
-    expected = '''credit aggressive acquaintance dash recourse discourse fly drop glow catch just throw point last page pass over break taste cross shuttle lie level lot ticket blow dive material reserve paper practice port junior consider used zoom cream figure full second sign balance stress due wave rank runner attachment spring live fork buck image universal strain bound band line lean post quarter bug forward instrument access moderate chip refresh tuck snap contrive sore flush routine stroke'''.split()
+    expected = '''credit aggressive acquaintance dash recourse discourse fly drop glow catch just throw point last page pass over break taste cross shuttle lie level lot ticket blow dive material reserve paper practice port junior consider used zoom cream figure full second sign balance stress due wave rank runner attachment spring live fork buck image universal strain bound band line lean post quarter bug forward instrument access moderate chip refresh tuck snap contrive sore flush routine stroke stiff parameter tone'''.split()
     assert [e['word'] for e in entries] == expected
     assert len(set(expected)) == len(entries)
     assert all(e['notes'] and len(e['senses']) >= 2 for e in entries)
