@@ -6980,6 +6980,115 @@
       ],
       "selectionNote": "stare 是盯着看；gaze 常是凝望；glare at 表示怒视；peer 强调努力看清。四词都可接 at，但感情色彩和观看方式不同。不要把 stare 一概理解成不礼貌，也不要把 gaze 限定为爱慕。peer 作名词可指同龄人或同等地位者；glare 作名词还可指刺眼的光。",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-138",
+      "number": 138,
+      "wordIds": [
+        "word-ee3c65b5c7f4dd0e",
+        "word-63ebfab6ce4e84c4",
+        "word-2d1d52c3d18efcfd"
+      ],
+      "entries": [
+        {
+          "wordId": "word-ee3c65b5c7f4dd0e",
+          "meaningZh": "v./adj./n. 汇总；总计的；总量",
+          "definitionEn": "To combine separate amounts into a total; also, a total or relating to that total.",
+          "scenario": "强调把若干项合并成整体，或指合计结果；常用于数据与经济语境",
+          "collocations": [
+            "aggregate data",
+            "aggregate demand",
+            "in the aggregate"
+          ],
+          "examples": [
+            {
+              "en": "The report aggregates sales data from all regions.",
+              "zh": "这份报告汇总了所有地区的销售数据。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-63ebfab6ce4e84c4",
+          "meaningZh": "v. 组装；集合；召集",
+          "definitionEn": "To put parts together or bring people together in one place.",
+          "scenario": "强调把零件组装起来，或让人聚集在一处",
+          "collocations": [
+            "assemble furniture",
+            "assemble a team",
+            "assemble in the hall"
+          ],
+          "examples": [
+            {
+              "en": "We assembled the desk in an hour.",
+              "zh": "我们用一小时组装好了书桌。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-2d1d52c3d18efcfd",
+          "meaningZh": "v. 积累；逐渐增多",
+          "definitionEn": "To increase or collect gradually over time.",
+          "scenario": "强调数量随着时间或反复增加，不要求有人刻意收集",
+          "collocations": [
+            "accumulate experience",
+            "accumulate debt",
+            "dust accumulates"
+          ],
+          "examples": [
+            {
+              "en": "Dust accumulated on the shelves.",
+              "zh": "架子上逐渐积了灰。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "aggregate 侧重汇总后的整体或总量；assemble 侧重把零件组装或把人召集起来；accumulate 侧重随时间逐渐积累。数据既可以先积累再汇总，但这些动词关注的过程不同。aggregate 作形容词可说 aggregate demand。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-139",
+      "number": 139,
+      "wordIds": [
+        "word-dce2ad54b8625d64",
+        "word-b76c1db1f24b29fe"
+      ],
+      "entries": [
+        {
+          "wordId": "word-dce2ad54b8625d64",
+          "meaningZh": "n. 借口；托词",
+          "definitionEn": "A stated reason used to hide the real reason for doing something.",
+          "scenario": "通常暗示公开给出的理由并非真实动机",
+          "collocations": [
+            "on the pretext of",
+            "use sth as a pretext"
+          ],
+          "examples": [
+            {
+              "en": "He left early on the pretext of feeling ill.",
+              "zh": "他以身体不适为由提前离开了。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-b76c1db1f24b29fe",
+          "meaningZh": "n./v. 理由；借口；原谅",
+          "definitionEn": "A reason offered to explain or justify something; also, to forgive or pardon.",
+          "scenario": "泛指解释或开脱的理由，不必然是假的；也可作动词",
+          "collocations": [
+            "make an excuse",
+            "an excuse for being late",
+            "excuse me"
+          ],
+          "examples": [
+            {
+              "en": "She had a good excuse for being late: her train was cancelled.",
+              "zh": "她迟到有正当理由：火车停运了。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "pretext 通常暗示所说的理由是托词，真实动机另有所在；excuse 是更宽泛的理由或辩解，也可能完全正当。excuse 作动词还表示原谅。on the pretext of doing 是常见句型；不能从 excuse 一词本身断定说话者撒谎。",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -18012,6 +18121,180 @@
       ],
       "source": "vocabulary update 2026-11-09",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-ee3c65b5c7f4dd0e",
+      "lemma": "aggregate",
+      "partOfSpeech": "v./adj./n.",
+      "meaningZh": "v./adj./n. 汇总；总计的；总量",
+      "definitionEn": "To combine separate amounts into a total; also, a total or relating to that total.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调把若干项合并成整体，或指合计结果；常用于数据与经济语境",
+      "collocations": [
+        "aggregate data",
+        "aggregate demand",
+        "in the aggregate"
+      ],
+      "examples": [
+        {
+          "en": "The report aggregates sales data from all regions.",
+          "zh": "这份报告汇总了所有地区的销售数据。"
+        }
+      ],
+      "correctUsage": "The report aggregates sales data from all regions.",
+      "commonMistakes": "aggregate 侧重汇总后的整体或总量；assemble 侧重把零件组装或把人召集起来；accumulate 侧重随时间逐渐积累。数据既可以先积累再汇总，但这些动词关注的过程不同。aggregate 作形容词可说 aggregate demand。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-138"
+      ],
+      "source": "vocabulary update 2026-11-11",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-63ebfab6ce4e84c4",
+      "lemma": "assemble",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 组装；集合；召集",
+      "definitionEn": "To put parts together or bring people together in one place.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调把零件组装起来，或让人聚集在一处",
+      "collocations": [
+        "assemble furniture",
+        "assemble a team",
+        "assemble in the hall"
+      ],
+      "examples": [
+        {
+          "en": "We assembled the desk in an hour.",
+          "zh": "我们用一小时组装好了书桌。"
+        }
+      ],
+      "correctUsage": "We assembled the desk in an hour.",
+      "commonMistakes": "aggregate 侧重汇总后的整体或总量；assemble 侧重把零件组装或把人召集起来；accumulate 侧重随时间逐渐积累。数据既可以先积累再汇总，但这些动词关注的过程不同。aggregate 作形容词可说 aggregate demand。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-138"
+      ],
+      "source": "vocabulary update 2026-11-11",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-2d1d52c3d18efcfd",
+      "lemma": "accumulate",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 积累；逐渐增多",
+      "definitionEn": "To increase or collect gradually over time.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "强调数量随着时间或反复增加，不要求有人刻意收集",
+      "collocations": [
+        "accumulate experience",
+        "accumulate debt",
+        "dust accumulates"
+      ],
+      "examples": [
+        {
+          "en": "Dust accumulated on the shelves.",
+          "zh": "架子上逐渐积了灰。"
+        }
+      ],
+      "correctUsage": "Dust accumulated on the shelves.",
+      "commonMistakes": "aggregate 侧重汇总后的整体或总量；assemble 侧重把零件组装或把人召集起来；accumulate 侧重随时间逐渐积累。数据既可以先积累再汇总，但这些动词关注的过程不同。aggregate 作形容词可说 aggregate demand。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-138"
+      ],
+      "source": "vocabulary update 2026-11-11",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-dce2ad54b8625d64",
+      "lemma": "pretext",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 借口；托词",
+      "definitionEn": "A stated reason used to hide the real reason for doing something.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "通常暗示公开给出的理由并非真实动机",
+      "collocations": [
+        "on the pretext of",
+        "use sth as a pretext"
+      ],
+      "examples": [
+        {
+          "en": "He left early on the pretext of feeling ill.",
+          "zh": "他以身体不适为由提前离开了。"
+        }
+      ],
+      "correctUsage": "He left early on the pretext of feeling ill.",
+      "commonMistakes": "pretext 通常暗示所说的理由是托词，真实动机另有所在；excuse 是更宽泛的理由或辩解，也可能完全正当。excuse 作动词还表示原谅。on the pretext of doing 是常见句型；不能从 excuse 一词本身断定说话者撒谎。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-139"
+      ],
+      "source": "vocabulary update 2026-11-11",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-b76c1db1f24b29fe",
+      "lemma": "excuse",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 理由；借口；原谅",
+      "definitionEn": "A reason offered to explain or justify something; also, to forgive or pardon.",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "scenario": "泛指解释或开脱的理由，不必然是假的；也可作动词",
+      "collocations": [
+        "make an excuse",
+        "an excuse for being late",
+        "excuse me"
+      ],
+      "examples": [
+        {
+          "en": "She had a good excuse for being late: her train was cancelled.",
+          "zh": "她迟到有正当理由：火车停运了。"
+        }
+      ],
+      "correctUsage": "She had a good excuse for being late: her train was cancelled.",
+      "commonMistakes": "pretext 通常暗示所说的理由是托词，真实动机另有所在；excuse 是更宽泛的理由或辩解，也可能完全正当。excuse 作动词还表示原谅。on the pretext of doing 是常见句型；不能从 excuse 一词本身断定说话者撒谎。",
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-139"
+      ],
+      "source": "vocabulary update 2026-11-11",
+      "reviewStatus": "reviewed"
     }
   ],
   "contentAudit": {
@@ -24946,6 +25229,228 @@
           ],
           "reviewStatus": "reviewed",
           "orderingBasis": "常见用法优先，固定搭配及报时义随后。",
+          "references": []
+        },
+        {
+          "word": "stiff",
+          "notes": "stiff muscles 是肌肉僵硬；a stiff drink 指烈酒；a stiff penalty 指严厉处罚。stiff upper lip 指遇事沉着、克制情绪。",
+          "senses": [
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "僵硬的；不灵活的",
+              "definitionEn": "Difficult to bend or move freely.",
+              "example": {
+                "en": "My shoulders feel stiff after sitting all day.",
+                "zh": "坐了一整天后我的肩膀很僵硬。"
+              },
+              "id": "sense-stiff-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "生硬的；不自然的",
+              "definitionEn": "Formal or awkward in manner or style.",
+              "example": {
+                "en": "His stiff reply made the conversation awkward.",
+                "zh": "他生硬的回答让谈话变得尴尬。"
+              },
+              "id": "sense-stiff-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "强烈的；严厉的",
+              "definitionEn": "Strong or severe, especially of a challenge, price or penalty.",
+              "example": {
+                "en": "The team faces stiff competition.",
+                "zh": "这支队伍面临激烈的竞争。"
+              },
+              "id": "sense-stiff-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "硬挺的；不易弯曲的",
+              "definitionEn": "Firm and not easily bent.",
+              "example": {
+                "en": "The jacket has a stiff collar.",
+                "zh": "这件夹克的衣领很硬挺。"
+              },
+              "id": "sense-stiff-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+          "references": []
+        },
+        {
+          "word": "parameter",
+          "notes": "通常用复数 parameters 指规则或界限；within the parameters of the study 表示在研究范围内。数学或程序设计中，parameter 可指决定系统行为的参数，不等同于任何会变化的数值。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "参数",
+              "definitionEn": "A value that defines or affects the behaviour of a system or model.",
+              "example": {
+                "en": "Change the parameter to adjust the graph.",
+                "zh": "调整这个参数来改变图形。"
+              },
+              "id": "sense-parameter-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n. 复数常见",
+              "meaningZh": "界限；范围",
+              "definitionEn": "Limits or guidelines that determine what is allowed or possible.",
+              "example": {
+                "en": "We must work within the project's parameters.",
+                "zh": "我们必须在项目规定的范围内开展工作。"
+              },
+              "id": "sense-parameter-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "决定因素",
+              "definitionEn": "A measurable factor used to describe a situation or system.",
+              "example": {
+                "en": "Temperature is an important parameter in the experiment.",
+                "zh": "温度是这项实验中的重要因素。"
+              },
+              "id": "sense-parameter-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+          "references": []
+        },
+        {
+          "word": "tone",
+          "notes": "tone of voice 是说话语气；muscle tone 是肌张力；tone down 表示使言辞或颜色柔和些。音乐中 a tone 可指音调，和 pitch 在具体用法上有区别。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "语气；口吻",
+              "definitionEn": "The attitude expressed by the way someone speaks or writes.",
+              "example": {
+                "en": "Her tone sounded calm and reassuring.",
+                "zh": "她的语气听起来平静而令人安心。"
+              },
+              "id": "sense-tone-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "音色；音调",
+              "definitionEn": "A quality or pitch of a sound.",
+              "example": {
+                "en": "The instrument has a warm tone.",
+                "zh": "这件乐器的音色温暖。"
+              },
+              "id": "sense-tone-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "风格；基调",
+              "definitionEn": "The general mood or character of a piece of writing or an event.",
+              "example": {
+                "en": "The opening sets a serious tone for the article.",
+                "zh": "开头为文章定下了严肃的基调。"
+              },
+              "id": "sense-tone-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "色调",
+              "definitionEn": "A particular shade or quality of a colour.",
+              "example": {
+                "en": "The room is decorated in soft blue tones.",
+                "zh": "房间用柔和的蓝色色调装饰。"
+              },
+              "id": "sense-tone-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n. 生理学",
+              "meaningZh": "肌张力",
+              "definitionEn": "The normal firmness of a muscle, especially when it is at rest.",
+              "example": {
+                "en": "Regular movement can help maintain muscle tone.",
+                "zh": "规律活动有助于维持肌张力。"
+              },
+              "id": "sense-tone-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "使结实；使柔和",
+              "definitionEn": "To make muscles firmer, or make something less strong in tone.",
+              "example": {
+                "en": "The editor toned down the headline.",
+                "zh": "编辑把标题的措辞改得温和了一些。"
+              },
+              "id": "sense-tone-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
           "references": []
         }
       ]

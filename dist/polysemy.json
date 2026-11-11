@@ -6902,6 +6902,228 @@
       "reviewStatus": "reviewed",
       "orderingBasis": "常见用法优先，固定搭配及报时义随后。",
       "references": []
+    },
+    {
+      "word": "stiff",
+      "notes": "stiff muscles 是肌肉僵硬；a stiff drink 指烈酒；a stiff penalty 指严厉处罚。stiff upper lip 指遇事沉着、克制情绪。",
+      "senses": [
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "僵硬的；不灵活的",
+          "definitionEn": "Difficult to bend or move freely.",
+          "example": {
+            "en": "My shoulders feel stiff after sitting all day.",
+            "zh": "坐了一整天后我的肩膀很僵硬。"
+          },
+          "id": "sense-stiff-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "生硬的；不自然的",
+          "definitionEn": "Formal or awkward in manner or style.",
+          "example": {
+            "en": "His stiff reply made the conversation awkward.",
+            "zh": "他生硬的回答让谈话变得尴尬。"
+          },
+          "id": "sense-stiff-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "强烈的；严厉的",
+          "definitionEn": "Strong or severe, especially of a challenge, price or penalty.",
+          "example": {
+            "en": "The team faces stiff competition.",
+            "zh": "这支队伍面临激烈的竞争。"
+          },
+          "id": "sense-stiff-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "硬挺的；不易弯曲的",
+          "definitionEn": "Firm and not easily bent.",
+          "example": {
+            "en": "The jacket has a stiff collar.",
+            "zh": "这件夹克的衣领很硬挺。"
+          },
+          "id": "sense-stiff-04",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+      "references": []
+    },
+    {
+      "word": "parameter",
+      "notes": "通常用复数 parameters 指规则或界限；within the parameters of the study 表示在研究范围内。数学或程序设计中，parameter 可指决定系统行为的参数，不等同于任何会变化的数值。",
+      "senses": [
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "参数",
+          "definitionEn": "A value that defines or affects the behaviour of a system or model.",
+          "example": {
+            "en": "Change the parameter to adjust the graph.",
+            "zh": "调整这个参数来改变图形。"
+          },
+          "id": "sense-parameter-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n. 复数常见",
+          "meaningZh": "界限；范围",
+          "definitionEn": "Limits or guidelines that determine what is allowed or possible.",
+          "example": {
+            "en": "We must work within the project's parameters.",
+            "zh": "我们必须在项目规定的范围内开展工作。"
+          },
+          "id": "sense-parameter-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "决定因素",
+          "definitionEn": "A measurable factor used to describe a situation or system.",
+          "example": {
+            "en": "Temperature is an important parameter in the experiment.",
+            "zh": "温度是这项实验中的重要因素。"
+          },
+          "id": "sense-parameter-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+      "references": []
+    },
+    {
+      "word": "tone",
+      "notes": "tone of voice 是说话语气；muscle tone 是肌张力；tone down 表示使言辞或颜色柔和些。音乐中 a tone 可指音调，和 pitch 在具体用法上有区别。",
+      "senses": [
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "语气；口吻",
+          "definitionEn": "The attitude expressed by the way someone speaks or writes.",
+          "example": {
+            "en": "Her tone sounded calm and reassuring.",
+            "zh": "她的语气听起来平静而令人安心。"
+          },
+          "id": "sense-tone-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "音色；音调",
+          "definitionEn": "A quality or pitch of a sound.",
+          "example": {
+            "en": "The instrument has a warm tone.",
+            "zh": "这件乐器的音色温暖。"
+          },
+          "id": "sense-tone-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "风格；基调",
+          "definitionEn": "The general mood or character of a piece of writing or an event.",
+          "example": {
+            "en": "The opening sets a serious tone for the article.",
+            "zh": "开头为文章定下了严肃的基调。"
+          },
+          "id": "sense-tone-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "色调",
+          "definitionEn": "A particular shade or quality of a colour.",
+          "example": {
+            "en": "The room is decorated in soft blue tones.",
+            "zh": "房间用柔和的蓝色色调装饰。"
+          },
+          "id": "sense-tone-04",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "n. 生理学",
+          "meaningZh": "肌张力",
+          "definitionEn": "The normal firmness of a muscle, especially when it is at rest.",
+          "example": {
+            "en": "Regular movement can help maintain muscle tone.",
+            "zh": "规律活动有助于维持肌张力。"
+          },
+          "id": "sense-tone-05",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "使结实；使柔和",
+          "definitionEn": "To make muscles firmer, or make something less strong in tone.",
+          "example": {
+            "en": "The editor toned down the headline.",
+            "zh": "编辑把标题的措辞改得温和了一些。"
+          },
+          "id": "sense-tone-06",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null,
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+      "references": []
     }
   ]
 }

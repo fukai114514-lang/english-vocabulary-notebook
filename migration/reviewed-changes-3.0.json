@@ -8,48 +8,48 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "b719e4f02c619a04807265f0eb7536ff29f88feae856fd06e73925733bcd8c54",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "583a1b65634c4e5f803163cd27efe2dad382e8c78283e0c034946d0c943afe2f",
+    "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
   },
   "content/polysemy.txt": {
-    "sha256": "5206bd34888837afa8456850ee46ff54100657e4e5bfc78403dc1a5d6835110d",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "1ff3d60cb548ba22c8513d56ef9335491dcbcb0da29ecea86b6e238f63579c37",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/render.py": {
-    "sha256": "b4abd1235613751776bc4516e086defb2e1e44efb96d18f9867d39fe27ddcc6a",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "23cab1f12df53cdeb0ee0f5f201578cb859c7db351add81795bcc8c8e58502fd",
+    "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
   },
   "dist/index.html": {
-    "sha256": "d6f2d3951c0f87fe8d8fd4b437219a589b585b64cd93006286fa662e0d5ac499",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "30ee1688e9b454c0b99b1efd952c1aa9d0ef16ddd47acf880ca5b97cf4d904a3",
+    "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
   },
   "dist/polysemy.json": {
-    "sha256": "733191fc53808bff20c2cb5bc426f8027164471f4ae59b3a03eafdb4e00a2c87",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "dist/vocabulary.json": {
-    "sha256": "2fb71706226dc78f832a5333b6688833028a9316bb9bd6c4c2f85a8017fdf5c4",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "1b0616f38526c27f28289a2e752054bddf58211f9a02a9fca9be845fe372fcd4",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/base.html": {
-    "sha256": "b2cfccff607e54a8d76af8321c95e1df2eb6b4511c771b6cc6fe0c7d4ecacf3e",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "0fc08a429f3d1853952d0a8edf9d34291f8a06ffa2ad510b2e08f5aeb0678f97",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/comparisons.txt": {
-    "sha256": "cdb330108689c7a27e04768ca86ae05712ec7f052bfbc4824b261752d2d01eee",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "fce3b0f7f2ab64ec5816cbc714b214b19a9a7a957cad8705f08702f10c5cc60c",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/english-captions.txt": {
-    "sha256": "6ee0ade81db09f9b32a06177d58989190e24be788c1e8db068d821aadfa19289",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "3de9455d640684730eab6ff14d6e1903b87dacf0e40f1789f2caf4dbddf84a9e",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/selection-notes.txt": {
-    "sha256": "58000eff48463bfd6d573a8624bd1a8f146e0fdc1660b9b0d63b363e6f8ee0d3",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "804a2eef2bf6db23a2912937f96a20de4d64a824f149fef9a1f14cea719f4614",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/vocabulary.json": {
-    "sha256": "8e50707155811b8b3767cf44dfcfaedc35ec20489f7b67c263b20ca42cb98582",
-    "reason": "2026-11-09: append group 137 and stroke; English interface, with original learning records and bilingual article text preserved."
+    "sha256": "12febbcd07708ec2a3f240a0030b19cdbcb52a410b63845f8e5f9e7392bbbe22",
+    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/pronunciation.js": {
     "sha256": "000c956ed80d25f35ee9feab24e3928fd228e1f50fa3a1c85379bb2e60a9f760",

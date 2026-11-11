@@ -3843,5 +3843,130 @@
         "reviewStatus": "reviewed"
       }
     }
+  },
+  "stiff": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+    "references": [],
+    "senses": {
+      "72c37cad5ca32586cfa7e2b90062eabff84807e8eeaa6f2ec433c1d7fd7f46ac": {
+        "id": "sense-stiff-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "6e9e82703dc4fbae7b6a2c80977d01fb1d6f023924c9050f48e89de4ca557930": {
+        "id": "sense-stiff-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "72c33ab4c9b5fa17d14e025e87dc7510bda64669a521dcf7682e0a707a5a13df": {
+        "id": "sense-stiff-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "36481b54691ea00b887f5f35c754c71ee92543a51ff9e03c8b082bef739238d8": {
+        "id": "sense-stiff-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "parameter": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+    "references": [],
+    "senses": {
+      "ac759f84d8f4f8977ad40390fe197af589fa75b8bbb6ed7bc07aa302086f2b02": {
+        "id": "sense-parameter-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "a9b416fc042cc6b2637b97b95d7af46d6f9afc239c3b7130a23640bd1cc14861": {
+        "id": "sense-parameter-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "64f0bbde9d3ad24175b9ab4b3140bfec2af04ea1a1a3a5af7945367cc404cfd2": {
+        "id": "sense-parameter-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "tone": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
+    "references": [],
+    "senses": {
+      "202fa36cc05594c58f2c9960e4bbf383ee14c066c60096759fecd3ada1f7f5b3": {
+        "id": "sense-tone-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "9ae5327b41cc5aa42ca80074ef60decc868d4e4d2be173a6cf67029a13fcd03b": {
+        "id": "sense-tone-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "1134d429d610be3eda2a3afda79bfc62a3d136ae00553c8aa5a3f5a8e73bafcd": {
+        "id": "sense-tone-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "9f5c78a8bb83db7f3449d096203c3f3c4e97c9b4372a2b463ad1e9b0b4cdac07": {
+        "id": "sense-tone-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "17268418c10c48c1740ef8239f58a4d648f6e597fec2796dc2b2a3802a5c611b": {
+        "id": "sense-tone-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "a4b40f8defd348dbf6181d4ff976eed19de401738dc93d1ccd9550c20d063973": {
+        "id": "sense-tone-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
   }
 }

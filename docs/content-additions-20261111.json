@@ -1,0 +1,96 @@
+{
+  "base_commit": "a6229f98f712be25fcc38a6e33f90677e7e5879e",
+  "review": "Added comparison groups 138 and 139 with five new lemmas, plus 13 senses for three polysemy words. Original 137 groups, 322 word records, 75 polysemy entries and articles remain in their original order. Reviewed text and generated output; checks verify the original preservation snapshots and all search targets.",
+  "changed_frozen_files": {
+    "content/base.html": {
+      "before_sha256": "b2cfccff607e54a8d76af8321c95e1df2eb6b4511c771b6cc6fe0c7d4ecacf3e",
+      "after_sha256": "0fc08a429f3d1853952d0a8edf9d34291f8a06ffa2ad510b2e08f5aeb0678f97"
+    },
+    "content/comparisons.txt": {
+      "before_sha256": "cdb330108689c7a27e04768ca86ae05712ec7f052bfbc4824b261752d2d01eee",
+      "after_sha256": "fce3b0f7f2ab64ec5816cbc714b214b19a9a7a957cad8705f08702f10c5cc60c"
+    },
+    "content/english-captions.txt": {
+      "before_sha256": "6ee0ade81db09f9b32a06177d58989190e24be788c1e8db068d821aadfa19289",
+      "after_sha256": "3de9455d640684730eab6ff14d6e1903b87dacf0e40f1789f2caf4dbddf84a9e"
+    },
+    "content/polysemy-metadata.json": {
+      "before_sha256": "dede906b0f080e0ad8f96a2dfd0949553b010234ed87c34245380cf6077fcae8",
+      "after_sha256": "f8acf21034c753ab75e74aedabe1f4170fcd4c822595ea4208fc5e46d6d7809b"
+    },
+    "content/polysemy.txt": {
+      "before_sha256": "5206bd34888837afa8456850ee46ff54100657e4e5bfc78403dc1a5d6835110d",
+      "after_sha256": "1ff3d60cb548ba22c8513d56ef9335491dcbcb0da29ecea86b6e238f63579c37"
+    },
+    "content/selection-notes.txt": {
+      "before_sha256": "58000eff48463bfd6d573a8624bd1a8f146e0fdc1660b9b0d63b363e6f8ee0d3",
+      "after_sha256": "804a2eef2bf6db23a2912937f96a20de4d64a824f149fef9a1f14cea719f4614"
+    },
+    "content/vocabulary.json": {
+      "before_sha256": "8e50707155811b8b3767cf44dfcfaedc35ec20489f7b67c263b20ca42cb98582",
+      "after_sha256": "12febbcd07708ec2a3f240a0030b19cdbcb52a410b63845f8e5f9e7392bbbe22"
+    },
+    "dist/polysemy.json": {
+      "before_sha256": "733191fc53808bff20c2cb5bc426f8027164471f4ae59b3a03eafdb4e00a2c87",
+      "after_sha256": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e"
+    },
+    "dist/search-index.json": {
+      "before_sha256": "434ddc73eca83a8467364786fddaaeae60e83f85281f86aee3a8d0b844f18871",
+      "after_sha256": "94d2faacd215c23fd0a797681b4c852003c90773c9d6759ce87c35dd2d0dcbdf"
+    },
+    "dist/vocabulary.json": {
+      "before_sha256": "2fb71706226dc78f832a5333b6688833028a9316bb9bd6c4c2f85a8017fdf5c4",
+      "after_sha256": "1b0616f38526c27f28289a2e752054bddf58211f9a02a9fca9be845fe372fcd4"
+    },
+    "migration/reviewed-changes-3.0.json": {
+      "before_sha256": "a72bdefa100c6d733cda7694e911c66eb723d146824c9f55a171bc1864022d7d",
+      "after_sha256": "ba2afb24b92ac171562a0a1336b25b5f25cd461a1b7b1edea2f35b2dd0fbc802"
+    },
+    "migration/ui-content-baseline.json": {
+      "before_sha256": "4470fe8ceb858e76c41376e020f1da56bf87a0a97e35c0f3b4c8ac1829ef5879",
+      "after_sha256": "b2c453522955715ab01baa6ac06230846cd2ffc013c275dfb37171dd7106f2f3"
+    }
+  },
+  "ui_baseline_reviewed_deltas": {
+    "content/polysemy.txt": {
+      "before_sha256": "5206bd34888837afa8456850ee46ff54100657e4e5bfc78403dc1a5d6835110d",
+      "after_sha256": "1ff3d60cb548ba22c8513d56ef9335491dcbcb0da29ecea86b6e238f63579c37"
+    },
+    "content/comparisons.txt": {
+      "before_sha256": "cdb330108689c7a27e04768ca86ae05712ec7f052bfbc4824b261752d2d01eee",
+      "after_sha256": "fce3b0f7f2ab64ec5816cbc714b214b19a9a7a957cad8705f08702f10c5cc60c"
+    },
+    "content/english-captions.txt": {
+      "before_sha256": "6ee0ade81db09f9b32a06177d58989190e24be788c1e8db068d821aadfa19289",
+      "after_sha256": "3de9455d640684730eab6ff14d6e1903b87dacf0e40f1789f2caf4dbddf84a9e"
+    },
+    "content/polysemy-metadata.json": {
+      "before_sha256": "dede906b0f080e0ad8f96a2dfd0949553b010234ed87c34245380cf6077fcae8",
+      "after_sha256": "f8acf21034c753ab75e74aedabe1f4170fcd4c822595ea4208fc5e46d6d7809b"
+    },
+    "content/vocabulary.json": {
+      "before_sha256": "8e50707155811b8b3767cf44dfcfaedc35ec20489f7b67c263b20ca42cb98582",
+      "after_sha256": "12febbcd07708ec2a3f240a0030b19cdbcb52a410b63845f8e5f9e7392bbbe22"
+    },
+    "content/selection-notes.txt": {
+      "before_sha256": "58000eff48463bfd6d573a8624bd1a8f146e0fdc1660b9b0d63b363e6f8ee0d3",
+      "after_sha256": "804a2eef2bf6db23a2912937f96a20de4d64a824f149fef9a1f14cea719f4614"
+    },
+    "content/base.html": {
+      "before_sha256": "b2cfccff607e54a8d76af8321c95e1df2eb6b4511c771b6cc6fe0c7d4ecacf3e",
+      "after_sha256": "0fc08a429f3d1853952d0a8edf9d34291f8a06ffa2ad510b2e08f5aeb0678f97"
+    },
+    "dist/vocabulary.json": {
+      "before_sha256": "2fb71706226dc78f832a5333b6688833028a9316bb9bd6c4c2f85a8017fdf5c4",
+      "after_sha256": "1b0616f38526c27f28289a2e752054bddf58211f9a02a9fca9be845fe372fcd4"
+    },
+    "dist/polysemy.json": {
+      "before_sha256": "733191fc53808bff20c2cb5bc426f8027164471f4ae59b3a03eafdb4e00a2c87",
+      "after_sha256": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e"
+    },
+    "dist/search-index.json": {
+      "before_sha256": "434ddc73eca83a8467364786fddaaeae60e83f85281f86aee3a8d0b844f18871",
+      "after_sha256": "94d2faacd215c23fd0a797681b4c852003c90773c9d6759ce87c35dd2d0dcbdf"
+    }
+  }
+}
