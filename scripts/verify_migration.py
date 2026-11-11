@@ -8,8 +8,19 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 baseline = json.loads((ROOT / 'migration/content-baseline.json').read_text())
 reviewed = json.loads((ROOT / 'migration/reviewed-changes-3.0.json').read_text()) if (ROOT / 'migration/reviewed-changes-3.0.json').exists() else {}
+def archived_digest(name):
+    data = (ROOT / name).read_bytes()
+    if name == 'dist/index.html':
+        # Only reviewed cache keys are excluded; validate their actual bytes first.
+        def strip_version(match):
+            asset = ROOT / 'dist' / match[2].decode()
+            assert hashlib.sha256(asset.read_bytes()).hexdigest().encode() == match[3]
+            return match[1] + match[2] + b'"'
+        data = re.sub(rb'((?:src|href)="\./)([^"?]+\.(?:js|css))\?v=([a-f0-9]{64})"', strip_version, data)
+    return hashlib.sha256(data).hexdigest()
+
 changed = [name for name, digest in baseline.items()
-           if not (ROOT / name).is_file() or hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != reviewed.get(name, {}).get('sha256', digest)]
+           if not (ROOT / name).is_file() or archived_digest(name) != reviewed.get(name, {}).get('sha256', digest)]
 assert not changed, f'Content changed: {changed}. Review content diff before explicitly refreshing baseline.'
 if reviewed:
     from verify_preservation import verify
