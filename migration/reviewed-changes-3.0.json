@@ -20,8 +20,8 @@
     "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
   },
   "dist/index.html": {
-    "sha256": "30ee1688e9b454c0b99b1efd952c1aa9d0ef16ddd47acf880ca5b97cf4d904a3",
-    "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
+    "sha256": "07b54bf2552a5bcb785e062b22f781f5ee719d1436b1247fedb2c415026d4758",
+    "reason": "Local TAsLEXICON brand and hero update; learning data and stable anchors unchanged; see docs/taslexicon-local.md."
   },
   "dist/polysemy.json": {
     "sha256": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e",

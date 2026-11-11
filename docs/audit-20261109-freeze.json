@@ -24,7 +24,7 @@
     "migration/original-polysemy.json": "2112bf07664d4f8a626d12bdcfba5c01473be10caf51317f650f2b55abc876ec",
     "migration/original-vocabulary.json": "3ef09c40692ff9c411242ae157f26e7406750c3c7331a8f0b04c97c14c046110",
     "migration/pre-migration-hashes.json": "79e94d185f849fbe5cddc28e72014f066dd56c8dd3e039c287fe1f9ffc4940cc",
-    "migration/reviewed-changes-3.0.json": "ba2afb24b92ac171562a0a1336b25b5f25cd461a1b7b1edea2f35b2dd0fbc802",
+    "migration/reviewed-changes-3.0.json": "6a17ce838a170360d0a558b6cfec5e556e04d94b93af6a67bcd983a57999926c",
     "migration/ui-content-baseline.json": "b2c453522955715ab01baa6ac06230846cd2ffc013c275dfb37171dd7106f2f3"
   },
   "content_update": "2026-11-11 append-only review recorded in docs/content-additions-20261111.json; original preservation snapshots remain immutable."
