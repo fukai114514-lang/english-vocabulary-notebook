@@ -403,16 +403,14 @@ footer {
   max-width:680px;
 }
 .home-header h1 {
-  font-size:clamp(40px,5vw,64px);
-  font-weight:var(--weight-bold);
+  font-size:clamp(38px,5vw,68px);
+  font-weight:700;
   line-height:1.08;
   letter-spacing:-.045em;
   margin:24px 0;
 }
-.home-header h1 span {
-  color:var(--secondary);
-}
 .home-intro {
+  max-width:48ch;
   font-size:var(--text-base);
   line-height:1.9;
   color:var(--secondary);
@@ -1418,8 +1416,8 @@ select {
     padding:16px 0 36px;
   }
   .home-header h1 {
-    font-size:46px;
-    margin:22px 0;
+    font-size:clamp(38px,7vw,54px);
+    margin:20px 0;
   }
   .home-intro {
     font-size:var(--text-sm);
@@ -1616,7 +1614,7 @@ select {
     padding-right:14px;
   }
   .home-header h1 {
-    font-size:40px;
+    font-size:clamp(34px,10.6vw,38px);
   }
   .collection-card {
     padding:16px;
