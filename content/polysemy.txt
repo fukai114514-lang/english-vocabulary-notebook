@@ -582,3 +582,19 @@ n.|风格；基调|The general mood or character of a piece of writing or an eve
 n.|色调|A particular shade or quality of a colour.|The room is decorated in soft blue tones.|房间用柔和的蓝色色调装饰。
 n. 生理学|肌张力|The normal firmness of a muscle, especially when it is at rest.|Regular movement can help maintain muscle tone.|规律活动有助于维持肌张力。
 v.|使结实；使柔和|To make muscles firmer, or make something less strong in tone.|The editor toned down the headline.|编辑把标题的措辞改得温和了一些。
+# bloom
+提示：in full bloom 表示盛开；bloom into 可表示发展成为。名词 bloom 也可指繁盛状态或表面的一层粉霜。
+v.|开花|To produce flowers.|The roses bloom in early summer.|玫瑰在初夏开花。
+n.|花；开花状态|A flower or the state of flowering.|The garden is in full bloom.|花园里百花盛开。
+v.|繁荣；焕发光彩|To develop well or become more confident and successful.|Her talent bloomed at university.|她的才华在大学里绽放。
+# upper
+提示：通常作定语：the upper floor、upper limit、upper class；不能把 upper 当作一般的 higher。the upper hand 表示优势。名词 upper 还可指鞋帮。
+adj.|上部的；较高位置的|Located above another part or at a higher level.|Put the books on the upper shelf.|把书放在上层架子上。
+adj.|较高的；上层的|Higher in amount, rank, or social position.|The upper limit is fifty students.|人数上限为五十名学生。
+n.|鞋帮；鞋面|The part of a shoe above the sole.|These shoes have leather uppers.|这些鞋的鞋面是皮革制成的。
+# pattern
+提示：pattern 可指反复出现的规律或图案；trend 强调变化方向，habit 强调习惯，model 可指模型或范例。pattern A on/after B 表示以 B 为模仿对象。
+n.|模式；规律；行为方式|A repeated or regular way in which something happens or is done.|We noticed a pattern in the results.|我们在结果中发现了一个规律。
+n.|图案|A repeated arrangement of shapes, lines, or colours.|The shirt has a striped pattern.|这件衬衫有条纹图案。
+n.|样板；纸样|A design or shape used as a guide for making something.|She used a paper pattern to make the dress.|她用纸样制作了这条连衣裙。
+v.|模仿；仿照|To design or make something by following a model.|The programme was patterned on a successful local project.|该计划仿照了一个成功的地方项目。

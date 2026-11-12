@@ -14,7 +14,7 @@
   items.forEach(d=>d.hidden=view==='original'?d.classList.contains('poly-entry')||d.classList.contains('phrase-entry'):view==='poly'?!d.classList.contains('poly-entry'):view==='phrases'?!d.classList.contains('phrase-entry'):false);
   $('#original-heading').hidden=['poly','phrases'].includes(view);$('#poly-heading').hidden=['original','phrases'].includes(view);$('#phrases-heading').hidden=['original','poly'].includes(view);
   $('#view-title').textContent=view==='phrases'?'Phrases':view==='poly'?'Word Meanings':view==='all'?'All vocabulary':'Word Comparisons';
-  $('#count').textContent=items.filter(d=>!d.hidden).length+(view==='phrases'?' phrase · meaning, usage, and bilingual examples':view==='poly'?' words · common meanings and extended uses':' comparisons · meanings, collocations, and bilingual examples');
+  $('#count').textContent=items.filter(d=>!d.hidden).length+(view==='phrases'?(items.filter(d=>!d.hidden).length===1?' phrase':' phrases')+' · meaning, usage, and bilingual examples':view==='poly'?' words · common meanings and extended uses':' comparisons · meanings, collocations, and bilingual examples');
   document.querySelectorAll('.primary-nav [data-view]').forEach(a=>{if(a.dataset.view===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   if(historyMode==='push')history.pushState({view},'','#'+keys[view]);
   if(restore)window.scrollTo({top:positions.get(view)||0,behavior:'instant'});

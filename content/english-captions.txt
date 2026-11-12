@@ -325,3 +325,14 @@ assemble|To put parts together or bring people together in one place.
 accumulate|To increase or collect gradually over time.
 pretext|A stated reason used to hide the real reason for doing something.
 excuse|A reason offered to explain or justify something; also, to forgive or pardon.
+scheme|An organized plan or system; also a secret plan, or to plan secretly.
+essential|Necessary for a purpose, or relating to the basic nature of something.
+indispensable|So important or useful that one cannot manage without it.
+glamour|An attractive, exciting quality associated with beauty, style, or an admired way of life.
+charm|A pleasant quality that attracts people; also, to delight or attract someone.
+difference|A way in which things are unlike, or a disagreement.
+distinction|A difference that separates things; also excellence or an honour.
+discrepancy|A difference between things that are expected to agree.
+discrimination|Unfair treatment based on group identity; also the ability to recognize differences.
+bloom|A flower or the state of flowering; to flower or develop well.
+blossom|A flower, especially on a tree or bush; to flower or develop successfully.
