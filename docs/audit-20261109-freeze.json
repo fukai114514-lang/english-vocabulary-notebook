@@ -17,15 +17,15 @@
     "dist/nap_article.json": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
     "dist/polysemy.json": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e",
     "dist/reading_articles.json": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
-    "dist/search-index.json": "94d2faacd215c23fd0a797681b4c852003c90773c9d6759ce87c35dd2d0dcbdf",
-    "dist/vocabulary.json": "1b0616f38526c27f28289a2e752054bddf58211f9a02a9fca9be845fe372fcd4",
+    "dist/search-index.json": "e0415dc0ad602fab741403376fd5bbec0d6decaf4983a7a96f6f404d89665306",
+    "dist/vocabulary.json": "c607225d4ddce215642aa895974f7d5c7e3d5196d18f25b5d1331877afb3f725",
     "migration/content-baseline.json": "3a612f4a1e1cc93a620fda2e19361e4d2942837d181bc86cd57ef657f866eea3",
     "migration/original-nap_article.json": "a3360a1ee6c82f898f1e72e79ed21c1bd5188150866bb3cd663daea20fe5393a",
     "migration/original-polysemy.json": "2112bf07664d4f8a626d12bdcfba5c01473be10caf51317f650f2b55abc876ec",
     "migration/original-vocabulary.json": "3ef09c40692ff9c411242ae157f26e7406750c3c7331a8f0b04c97c14c046110",
     "migration/pre-migration-hashes.json": "79e94d185f849fbe5cddc28e72014f066dd56c8dd3e039c287fe1f9ffc4940cc",
-    "migration/reviewed-changes-3.0.json": "6a17ce838a170360d0a558b6cfec5e556e04d94b93af6a67bcd983a57999926c",
-    "migration/ui-content-baseline.json": "b2c453522955715ab01baa6ac06230846cd2ffc013c275dfb37171dd7106f2f3"
+    "migration/reviewed-changes-3.0.json": "ae268e66bacb57ef024fe2f478384b4c446c8ace0034868042410dc43a59f22c",
+    "migration/ui-content-baseline.json": "7e22735c7e9e2b0641f1977b92df5ccd1a02fb1f1f41ab1fb2b3bd6c5d605dfe"
   },
-  "content_update": "2026-11-11 append-only review recorded in docs/content-additions-20261111.json; original preservation snapshots remain immutable."
+  "content_update": "2026-11-12 additive Part 04 Phrases review in docs/phrases-20261112.md; original preservation snapshots unchanged."
 }

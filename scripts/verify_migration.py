@@ -34,7 +34,7 @@ assert len(catalog['words']) == 327
 assert sum(len(g['entries']) for g in catalog['groups']) == 332
 assert len(poly['entries']) == 78
 assert sum(len(e['senses']) for e in poly['entries']) == 428
-assert catalog['parts'] == [poly]
+assert catalog['parts'] == [poly, json.loads((ROOT/'content/phrases.json').read_text())]
 for e in poly['entries']:
     for s in e['senses']:
         for text in [s['meaningZh'], s['definitionEn'], s['example']['en'], s['example']['zh']]:

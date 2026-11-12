@@ -16,20 +16,20 @@
     "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "content/render.py": {
-    "sha256": "23cab1f12df53cdeb0ee0f5f201578cb859c7db351add81795bcc8c8e58502fd",
-    "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
+    "sha256": "ef3595d1d96899b45e986937361927502aeb021c71c8c7679513f0a2b36eace9",
+    "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "07b54bf2552a5bcb785e062b22f781f5ee719d1436b1247fedb2c415026d4758",
-    "reason": "Local TAsLEXICON brand and hero update; learning data and stable anchors unchanged; see docs/taslexicon-local.md."
+    "sha256": "f48662206ca12d0ba0f25e3ed345deeaec1656b793c7e7e0076be20416175ec8",
+    "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/polysemy.json": {
     "sha256": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e",
     "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
   },
   "dist/vocabulary.json": {
-    "sha256": "1b0616f38526c27f28289a2e752054bddf58211f9a02a9fca9be845fe372fcd4",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "c607225d4ddce215642aa895974f7d5c7e3d5196d18f25b5d1331877afb3f725",
+    "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "content/base.html": {
     "sha256": "0fc08a429f3d1853952d0a8edf9d34291f8a06ffa2ad510b2e08f5aeb0678f97",

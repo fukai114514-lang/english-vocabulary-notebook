@@ -25454,6 +25454,41 @@
           "references": []
         }
       ]
+    },
+    {
+      "id": "phrases",
+      "title": "Phrases",
+      "entries": [
+        {
+          "id": "phrase-over-time",
+          "phrase": "over time",
+          "meaningZh": "随着时间的推移；逐渐",
+          "definitionEn": "As time passes; gradually over a period of time.",
+          "usageEn": "Describes a gradual change or development. It can appear at the beginning or end of a sentence.",
+          "usageZh": "强调变化在一段时间内逐渐发生，常与 improve、change、develop、increase、decrease 等动词搭配，可放在句首或句末。",
+          "collocations": [
+            "improve over time",
+            "change over time",
+            "develop over time"
+          ],
+          "examples": [
+            {
+              "en": "Your English will improve over time.",
+              "zh": "随着时间的推移，你的英语会逐渐进步。"
+            },
+            {
+              "en": "Over time, small changes can make a big difference.",
+              "zh": "随着时间的推移，微小的变化也能带来很大的影响。"
+            },
+            {
+              "en": "The pattern becomes clearer over time.",
+              "zh": "随着时间的推移，这个规律变得更加清晰。"
+            }
+          ],
+          "noteEn": "Over time describes gradual change; in time means early enough or eventually; on time means at the scheduled time. Overtime (one word) means extra working time or extra time in a sports match.",
+          "noteZh": "over time 强调“随时间逐渐变化”；in time 表示“及时”或“最终”；on time 表示“准时”。注意 overtime 连写是另一个词，表示“加班（时间）”或“加时赛”。"
+        }
+      ]
     }
   ]
 }

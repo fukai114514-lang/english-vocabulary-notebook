@@ -10,10 +10,11 @@
   "content/reading_articles.json": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
   "content/reading-context.json": "df116fa506f916869b2eb2c1ce6212881127253fc183768649c921972f5c744b",
   "content/base.html": "0fc08a429f3d1853952d0a8edf9d34291f8a06ffa2ad510b2e08f5aeb0678f97",
-  "dist/vocabulary.json": "1b0616f38526c27f28289a2e752054bddf58211f9a02a9fca9be845fe372fcd4",
+  "dist/vocabulary.json": "c607225d4ddce215642aa895974f7d5c7e3d5196d18f25b5d1331877afb3f725",
   "dist/polysemy.json": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e",
   "dist/nap_article.json": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
   "dist/article-dictionary.json": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb",
   "dist/reading_articles.json": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
-  "dist/search-index.json": "94d2faacd215c23fd0a797681b4c852003c90773c9d6759ce87c35dd2d0dcbdf"
+  "dist/search-index.json": "e0415dc0ad602fab741403376fd5bbec0d6decaf4983a7a96f6f404d89665306",
+  "content/phrases.json": "7f4366dc22a61d5000d6506c274a6041a6a4b46f9f17f8aa90dbbc6b5e18227b"
 }

@@ -31,6 +31,8 @@ def build():
   for letter,text in article['paragraphs'].items():add(article['id']+'-'+letter,'阅读文章',article['title']+' ['+letter+']',article['id']+'-'+letter,{'原文':text,'译文':article['translationZh'][letter]})
  for n,row in enumerate(nap['vocabulary']):add('reading-word-'+str(n),'阅读词汇',row[0],'nap-word-'+str(n),dict(zip(['词条','释义','英文释义','搭配'],row)))
  for n,row in enumerate(nap['phrases']):add('reading-phrase-'+str(n),'短语',row[0],'nap-phrase-'+str(n),{'词条':row[0],'释义':row[1]})
+ from phrases import index_records
+ rows.extend(index_records())
  (ROOT/'dist/search-index.json').write_text(json.dumps({'schemaVersion':1,'records':rows},ensure_ascii=False,indent=2)+'\n')
  (ROOT/'dist/article-dictionary.json').write_bytes((ROOT/'content/article-dictionary.json').read_bytes())
  for ext in ['js','css']:(ROOT/('dist/search.'+ext)).write_bytes((ROOT/('content/search.'+ext)).read_bytes())

@@ -62,7 +62,8 @@ for g in catalog['groups']:
   assert e['meaningZh']==r[1] and e['scenario']==r[2], ('stale meaning',n,r[0])
   assert e['definitionEn']==captions[r[0]], ('stale definition',n,r[0])
   assert e['collocations']==r[3].split('; ') and e['examples']==[{'en':en,'zh':zh}], ('stale example',n,r[0])
-catalog['parts'] = [polysemy_part]
+from phrases import load as load_phrases
+catalog['parts'] = [polysemy_part, load_phrases()]
 (root/'dist/vocabulary.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'groups':len(groups),'word_rows':sum(map(len,groups.values())),'tables':s.count('<table>'),'selection_notes':s.count('class="selection"')},ensure_ascii=False))
 
