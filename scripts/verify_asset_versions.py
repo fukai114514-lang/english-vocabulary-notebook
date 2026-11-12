@@ -18,7 +18,7 @@ for page in (ROOT/'dist').glob('*.html'):
  for u in p.urls:
   split=urlsplit(u);assert parse_qs(split.query).get('v')==[hashlib.sha256((page.parent/split.path).read_bytes()).hexdigest()],(page.name,u)
   count+=1
-assert count==24,count
+assert count==4*len(list((ROOT/'dist').glob('*.html'))),count
 with tempfile.TemporaryDirectory() as tmp:
  d=Path(tmp);(d/'index.html').write_text('<script src="./interface.js"></script><script src="./reader.js"></script>')
  for name in ['interface.js','reader.js']:(d/name).write_text('old')

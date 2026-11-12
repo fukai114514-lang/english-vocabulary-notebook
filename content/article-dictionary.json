@@ -3,6 +3,10 @@
     "中文意思": "一个；一种",
     "英文释义": "Used before a singular countable noun."
   },
+  "abilities": {
+    "中文意思": "能力",
+    "英文释义": "Skills or powers to do things."
+  },
   "ability": {
     "中文意思": "能力",
     "英文释义": "The power or skill to do something."
@@ -14,1742 +18,6 @@
   "about": {
     "中文意思": "关于；大约",
     "英文释义": "Concerning something, or approximately."
-  },
-  "active": {
-    "中文意思": "活跃的",
-    "英文释义": "Doing things rather than remaining still."
-  },
-  "activity": {
-    "中文意思": "活动",
-    "英文释义": "Something that a person does."
-  },
-  "advises": {
-    "中文意思": "建议",
-    "英文释义": "Gives someone a recommendation."
-  },
-  "affecting": {
-    "中文意思": "影响",
-    "英文释义": "Having an effect on something."
-  },
-  "after": {
-    "中文意思": "在……之后",
-    "英文释义": "Later than an event or time."
-  },
-  "afternoon": {
-    "中文意思": "下午",
-    "英文释义": "The time between noon and evening."
-  },
-  "all": {
-    "中文意思": "所有；全部",
-    "英文释义": "The whole amount or every member."
-  },
-  "allows": {
-    "中文意思": "使能够；允许",
-    "英文释义": "Makes something possible or permits it."
-  },
-  "also": {
-    "中文意思": "也",
-    "英文释义": "In addition; too."
-  },
-  "among": {
-    "中文意思": "在……之中",
-    "英文释义": "Within a group of people or things."
-  },
-  "an": {
-    "中文意思": "一个；一种",
-    "英文释义": "Used before a singular noun beginning with a vowel sound."
-  },
-  "and": {
-    "中文意思": "和；并且",
-    "英文释义": "Connects words, phrases, or statements."
-  },
-  "apologize": {
-    "中文意思": "道歉",
-    "英文释义": "To say that you are sorry."
-  },
-  "appearance": {
-    "中文意思": "外表；表象",
-    "英文释义": "The way someone or something seems or looks."
-  },
-  "are": {
-    "中文意思": "是；处于",
-    "英文释义": "A present form of be used with you or plural subjects."
-  },
-  "area": {
-    "中文意思": "区域",
-    "英文释义": "A particular part of a place."
-  },
-  "around": {
-    "中文意思": "围绕；大约",
-    "英文释义": "On different sides of something, or approximately."
-  },
-  "arrive": {
-    "中文意思": "到达；达到",
-    "英文释义": "To reach a place or situation."
-  },
-  "as": {
-    "中文意思": "像……一样；作为",
-    "英文释义": "Used for comparison or to describe a role."
-  },
-  "associated": {
-    "中文意思": "有关联的",
-    "英文释义": "Connected with something."
-  },
-  "assume": {
-    "中文意思": "假定；认为",
-    "英文释义": "To accept something as true without proof."
-  },
-  "assuming": {
-    "中文意思": "假定；认为",
-    "英文释义": "Accepting something as true without proof."
-  },
-  "at": {
-    "中文意思": "在",
-    "英文释义": "Indicates a particular place, time, or activity."
-  },
-  "author": {
-    "中文意思": "作者",
-    "英文释义": "A person who writes a book or other text."
-  },
-  "available": {
-    "中文意思": "可用的；有空的",
-    "英文释义": "Able to be used, obtained, or contacted."
-  },
-  "avoiding": {
-    "中文意思": "避免",
-    "英文释义": "Keeping away from something."
-  },
-  "away": {
-    "中文意思": "离开；远离",
-    "英文释义": "At or towards another place."
-  },
-  "back": {
-    "中文意思": "后面；回去",
-    "英文释义": "Towards an earlier place or position."
-  },
-  "be": {
-    "中文意思": "是；处于",
-    "英文释义": "To exist or have a particular state."
-  },
-  "because": {
-    "中文意思": "因为",
-    "英文释义": "Introduces the reason for something."
-  },
-  "before": {
-    "中文意思": "在……之前",
-    "英文释义": "Earlier than something."
-  },
-  "beginning": {
-    "中文意思": "开始",
-    "英文释义": "Starting to do something."
-  },
-  "being": {
-    "中文意思": "是；处于",
-    "英文释义": "The ing form of be."
-  },
-  "benefits": {
-    "中文意思": "好处；益处",
-    "英文释义": "Helpful or useful effects."
-  },
-  "best": {
-    "中文意思": "最好的",
-    "英文释义": "Better than all others."
-  },
-  "bet": {
-    "中文意思": "选择；办法",
-    "英文释义": "An option considered likely to succeed."
-  },
-  "better": {
-    "中文意思": "更好的；感觉更好",
-    "英文释义": "Of higher quality or in an improved state."
-  },
-  "between": {
-    "中文意思": "在两者之间",
-    "英文释义": "In the space or time separating things."
-  },
-  "beyond": {
-    "中文意思": "超出；在……之后",
-    "英文释义": "Further than a point or limit."
-  },
-  "big": {
-    "中文意思": "大的；严重的",
-    "英文释义": "Large in size or importance."
-  },
-  "biology": {
-    "中文意思": "生物学",
-    "英文释义": "The scientific study of living things."
-  },
-  "biobehavioral": {
-    "中文意思": "生物行为的",
-    "英文释义": "Relating to biological processes and behavior."
-  },
-  "bits": {
-    "中文意思": "少量；小部分",
-    "英文释义": "Small pieces or amounts."
-  },
-  "blame": {
-    "中文意思": "归咎于",
-    "英文释义": "To say someone or something caused a problem."
-  },
-  "body": {
-    "中文意思": "身体",
-    "英文释义": "The physical structure of a person."
-  },
-  "bosses": {
-    "中文意思": "上司",
-    "英文释义": "People who supervise workers."
-  },
-  "breaks": {
-    "中文意思": "休息时间",
-    "英文释义": "Short periods when work stops."
-  },
-  "broader": {
-    "中文意思": "更广泛的",
-    "英文释义": "Wider in range or scope."
-  },
-  "building": {
-    "中文意思": "建立；积累",
-    "英文释义": "Developing or creating something over time."
-  },
-  "business": {
-    "中文意思": "商业；企业",
-    "英文释义": "The activity of making or selling goods and services."
-  },
-  "but": {
-    "中文意思": "但是",
-    "英文释义": "Introduces a contrast or exception."
-  },
-  "by": {
-    "中文意思": "通过；由；在旁边",
-    "英文释义": "Indicates a method, agent, or nearby position."
-  },
-  "caffeine": {
-    "中文意思": "咖啡因",
-    "英文释义": "A stimulant found in coffee and tea."
-  },
-  "can": {
-    "中文意思": "能；可以",
-    "英文释义": "Expresses ability or possibility."
-  },
-  "can't": {
-    "中文意思": "不能",
-    "英文释义": "The contracted form of cannot."
-  },
-  "case": {
-    "中文意思": "论据；理由",
-    "英文释义": "Arguments supporting an idea or request."
-  },
-  "certainly": {
-    "中文意思": "当然；无疑",
-    "英文释义": "Without doubt."
-  },
-  "change": {
-    "中文意思": "改变",
-    "英文释义": "To become different or make something different."
-  },
-  "chatter": {
-    "中文意思": "闲聊；嘈杂谈话",
-    "英文释义": "Continuous informal talk."
-  },
-  "clock": {
-    "中文意思": "钟；计时器",
-    "英文释义": "A device that shows the time."
-  },
-  "co": {
-    "中文意思": "共同的；联合的",
-    "英文释义": "A prefix meaning jointly or together."
-  },
-  "coffee": {
-    "中文意思": "咖啡",
-    "英文释义": "A drink made from roasted coffee beans."
-  },
-  "companies": {
-    "中文意思": "公司",
-    "英文释义": "Organizations that conduct business."
-  },
-  "connections": {
-    "中文意思": "联系；关联",
-    "英文释义": "Links between people, things, or ideas."
-  },
-  "couldn't": {
-    "中文意思": "不能；无法",
-    "英文释义": "The contracted form of could not."
-  },
-  "course": {
-    "中文意思": "课程",
-    "英文释义": "A series of lessons on a subject."
-  },
-  "creeps": {
-    "中文意思": "悄悄出现；缓慢移动",
-    "英文释义": "Moves or develops slowly and gradually."
-  },
-  "current": {
-    "中文意思": "当前的",
-    "英文释义": "Happening or existing now."
-  },
-  "cut": {
-    "中文意思": "切；消除",
-    "英文释义": "To divide with a sharp tool or reduce something."
-  },
-  "cycle": {
-    "中文意思": "周期；循环",
-    "英文释义": "A series of events that repeats."
-  },
-  "day": {
-    "中文意思": "一天；白天",
-    "英文释义": "A period of twenty-four hours or its light hours."
-  },
-  "daytime": {
-    "中文意思": "白天；日间的",
-    "英文释义": "The part of the day when it is light."
-  },
-  "deal": {
-    "中文意思": "处理；应对",
-    "英文释义": "To take action concerning a problem."
-  },
-  "deep": {
-    "中文意思": "深的",
-    "英文释义": "Extending far down or strongly experienced."
-  },
-  "denial": {
-    "中文意思": "否认；拒绝承认",
-    "英文释义": "A refusal to accept that something is true."
-  },
-  "desk": {
-    "中文意思": "书桌；办公桌",
-    "英文释义": "A table used for reading or working."
-  },
-  "deteriorated": {
-    "中文意思": "恶化了；下降了",
-    "英文释义": "Became worse in quality or condition."
-  },
-  "deterioration": {
-    "中文意思": "恶化；下降",
-    "英文释义": "The process of becoming worse."
-  },
-  "did": {
-    "中文意思": "做了",
-    "英文释义": "The past form of do, also used to form questions."
-  },
-  "different": {
-    "中文意思": "不同的",
-    "英文释义": "Not the same as another."
-  },
-  "dim": {
-    "中文意思": "昏暗的",
-    "英文释义": "Not brightly lit."
-  },
-  "director": {
-    "中文意思": "主任；负责人",
-    "英文释义": "A person in charge of an organization or activity."
-  },
-  "disturbed": {
-    "中文意思": "受打扰的",
-    "英文释义": "Interrupted or prevented from resting."
-  },
-  "do": {
-    "中文意思": "做；助动词",
-    "英文释义": "To perform an action; also forms questions and negatives."
-  },
-  "does": {
-    "中文意思": "做；助动词",
-    "英文释义": "The present form of do with he, she, or it."
-  },
-  "doing": {
-    "中文意思": "做；进行",
-    "英文释义": "Performing an action."
-  },
-  "down": {
-    "中文意思": "向下；处于较低位置",
-    "英文释义": "Towards a lower position."
-  },
-  "dragging": {
-    "中文意思": "疲惫地行动；拖着",
-    "英文释义": "Moving slowly because of tiredness."
-  },
-  "dreaming": {
-    "中文意思": "做梦",
-    "英文释义": "Experiencing images and events while sleeping."
-  },
-  "duck": {
-    "中文意思": "迅速离开；躲避",
-    "英文释义": "To move quickly out of sight or leave quietly."
-  },
-  "during": {
-    "中文意思": "在……期间",
-    "英文释义": "Throughout or at a time within a period."
-  },
-  "each": {
-    "中文意思": "每一个",
-    "英文释义": "Every individual member of a group."
-  },
-  "early": {
-    "中文意思": "早；提前",
-    "英文释义": "Before the usual or expected time."
-  },
-  "earplugs": {
-    "中文意思": "耳塞",
-    "英文释义": "Small objects put in the ears to reduce noise."
-  },
-  "easier": {
-    "中文意思": "更容易的",
-    "英文释义": "Less difficult than something else."
-  },
-  "eight": {
-    "中文意思": "八",
-    "英文释义": "The number 8."
-  },
-  "email": {
-    "中文意思": "电子邮件",
-    "英文释义": "A message sent electronically over a network."
-  },
-  "emails": {
-    "中文意思": "电子邮件",
-    "英文释义": "Messages sent electronically over a network."
-  },
-  "enabled": {
-    "中文意思": "使能够",
-    "英文释义": "Made it possible for someone to do something."
-  },
-  "enjoy": {
-    "中文意思": "享受；喜欢",
-    "英文释义": "To get pleasure from something."
-  },
-  "enough": {
-    "中文意思": "足够的；足够地",
-    "英文释义": "As much or as many as needed."
-  },
-  "enter": {
-    "中文意思": "进入",
-    "英文释义": "To go into a place or state."
-  },
-  "even": {
-    "中文意思": "甚至；连……都",
-    "英文释义": "Emphasizes something surprising or unexpected."
-  },
-  "every": {
-    "中文意思": "每一个",
-    "英文释义": "All members of a group considered individually."
-  },
-  "example": {
-    "中文意思": "例子",
-    "英文释义": "Something that illustrates an idea."
-  },
-  "experts": {
-    "中文意思": "专家",
-    "英文释义": "People with extensive knowledge or skill."
-  },
-  "eye": {
-    "中文意思": "眼睛",
-    "英文释义": "The organ used for seeing."
-  },
-  "fact": {
-    "中文意思": "事实",
-    "英文释义": "Something known to be true."
-  },
-  "far": {
-    "中文意思": "远；很大程度上",
-    "英文释义": "At a great distance or to a considerable degree."
-  },
-  "feel": {
-    "中文意思": "感觉",
-    "英文释义": "To experience a physical or emotional state."
-  },
-  "few": {
-    "中文意思": "很少的；少数",
-    "英文释义": "A small number of people or things."
-  },
-  "field": {
-    "中文意思": "领域",
-    "英文释义": "An area of study or activity."
-  },
-  "filling": {
-    "中文意思": "填满；装满",
-    "英文释义": "Putting something into a space until it is full."
-  },
-  "find": {
-    "中文意思": "找到；发现",
-    "英文释义": "To discover or obtain something."
-  },
-  "fog": {
-    "中文意思": "雾；迷糊状态",
-    "英文释义": "A cloud near the ground, or mental confusion."
-  },
-  "for": {
-    "中文意思": "为了；对于",
-    "英文释义": "Indicates purpose, benefit, or duration."
-  },
-  "founder": {
-    "中文意思": "创始人",
-    "英文释义": "Someone who establishes an organization."
-  },
-  "four": {
-    "中文意思": "四",
-    "英文释义": "The number 4."
-  },
-  "from": {
-    "中文意思": "从；来自",
-    "英文释义": "Indicates an origin or starting point."
-  },
-  "furiously": {
-    "中文意思": "飞快地；猛烈地",
-    "英文释义": "With great energy or intensity."
-  },
-  "gas": {
-    "中文意思": "汽油；气体",
-    "英文释义": "Fuel for a vehicle, or a substance like air."
-  },
-  "gatherer": {
-    "中文意思": "采集者",
-    "英文释义": "Someone who collects food growing in the wild."
-  },
-  "general": {
-    "中文意思": "普遍的；总体的",
-    "英文释义": "Affecting most things or not limited to details."
-  },
-  "generally": {
-    "中文意思": "通常；一般地",
-    "英文释义": "In most cases or as a general rule."
-  },
-  "genuine": {
-    "中文意思": "真正的",
-    "英文释义": "Real and sincere rather than false."
-  },
-  "get": {
-    "中文意思": "得到；变得",
-    "英文释义": "To obtain something or enter a state."
-  },
-  "getting": {
-    "中文意思": "得到；变得",
-    "英文释义": "Obtaining something or entering a state."
-  },
-  "give": {
-    "中文意思": "给；提供",
-    "英文释义": "To provide something to someone."
-  },
-  "giving": {
-    "中文意思": "给；提供",
-    "英文释义": "Providing something to someone."
-  },
-  "go": {
-    "中文意思": "去；进行",
-    "英文释义": "To move somewhere or proceed."
-  },
-  "goes": {
-    "中文意思": "去；进行",
-    "英文释义": "The present form of go with he, she, or it."
-  },
-  "going": {
-    "中文意思": "去；进行",
-    "英文释义": "Moving somewhere or proceeding."
-  },
-  "good": {
-    "中文意思": "好的",
-    "英文释义": "Of a high or satisfactory quality."
-  },
-  "got": {
-    "中文意思": "得到；变得",
-    "英文释义": "The past form of get."
-  },
-  "grail": {
-    "中文意思": "圣杯；极难实现的目标",
-    "英文释义": "A cup in legend; figuratively, a highly desired goal."
-  },
-  "great": {
-    "中文意思": "很好的；很大的",
-    "英文释义": "Very good or large in degree."
-  },
-  "greater": {
-    "中文意思": "更大的",
-    "英文释义": "Larger in amount or degree."
-  },
-  "groggier": {
-    "中文意思": "更昏沉的",
-    "英文释义": "More sleepy, weak, or unsteady."
-  },
-  "growing": {
-    "中文意思": "不断增长的",
-    "英文释义": "Increasing in size or amount."
-  },
-  "guide": {
-    "中文意思": "指南",
-    "英文释义": "Information that explains how to do something."
-  },
-  "habits": {
-    "中文意思": "习惯",
-    "英文释义": "Things that people do regularly."
-  },
-  "had": {
-    "中文意思": "有过；曾经",
-    "英文释义": "The past form of have, also used in perfect tenses."
-  },
-  "half": {
-    "中文意思": "一半",
-    "英文释义": "One of two equal parts."
-  },
-  "hamster": {
-    "中文意思": "仓鼠",
-    "英文释义": "A small rodent often kept as a pet."
-  },
-  "has": {
-    "中文意思": "有；已经",
-    "英文释义": "The present form of have with he, she, or it."
-  },
-  "have": {
-    "中文意思": "有；已经",
-    "英文释义": "To possess; also used to form perfect tenses."
-  },
-  "he": {
-    "中文意思": "他",
-    "英文释义": "Refers to a male person already mentioned."
-  },
-  "health": {
-    "中文意思": "健康",
-    "英文释义": "The condition of the body and mind."
-  },
-  "help": {
-    "中文意思": "帮助",
-    "英文释义": "To make something easier or better."
-  },
-  "helps": {
-    "中文意思": "帮助",
-    "英文释义": "Makes something easier or better."
-  },
-  "here's": {
-    "中文意思": "这里是；以下是",
-    "英文释义": "The contracted form of here is."
-  },
-  "highly": {
-    "中文意思": "高度地；非常",
-    "英文释义": "To a great degree."
-  },
-  "holy": {
-    "中文意思": "神圣的",
-    "英文释义": "Connected with religion or considered sacred."
-  },
-  "hour": {
-    "中文意思": "小时",
-    "英文释义": "A period of sixty minutes."
-  },
-  "hours": {
-    "中文意思": "小时",
-    "英文释义": "Periods of sixty minutes."
-  },
-  "how": {
-    "中文意思": "如何；怎样",
-    "英文释义": "Asks about the manner of doing something."
-  },
-  "however": {
-    "中文意思": "然而；不过",
-    "英文释义": "Introduces a contrasting statement."
-  },
-  "hunter": {
-    "中文意思": "猎人",
-    "英文释义": "A person who hunts animals."
-  },
-  "i": {
-    "中文意思": "我",
-    "英文释义": "The speaker referring to himself or herself."
-  },
-  "i've": {
-    "中文意思": "我已经",
-    "英文释义": "The contracted form of I have."
-  },
-  "ideal": {
-    "中文意思": "理想的",
-    "英文释义": "As good or suitable as possible."
-  },
-  "ideally": {
-    "中文意思": "理想情况下",
-    "英文释义": "In the best possible circumstances."
-  },
-  "ideas": {
-    "中文意思": "想法",
-    "英文释义": "Thoughts or suggestions."
-  },
-  "if": {
-    "中文意思": "如果",
-    "英文释义": "Introduces a condition or possibility."
-  },
-  "ignoring": {
-    "中文意思": "忽视",
-    "英文释义": "Deliberately paying no attention to something."
-  },
-  "immediately": {
-    "中文意思": "立即",
-    "英文释义": "Without delay."
-  },
-  "improve": {
-    "中文意思": "改善；提高",
-    "英文释义": "To become better or make something better."
-  },
-  "in": {
-    "中文意思": "在……里面；在……期间",
-    "英文释义": "Inside a place or within a period."
-  },
-  "inbox": {
-    "中文意思": "收件箱",
-    "英文释义": "The place where incoming email is stored."
-  },
-  "increase": {
-    "中文意思": "增加",
-    "英文释义": "To become greater in number or amount."
-  },
-  "increased": {
-    "中文意思": "增加了的",
-    "英文释义": "Became greater or was made greater."
-  },
-  "information": {
-    "中文意思": "信息",
-    "英文释义": "Facts or knowledge about something."
-  },
-  "inquiring": {
-    "中文意思": "询问的",
-    "英文释义": "Asking for information."
-  },
-  "interested": {
-    "中文意思": "感兴趣的",
-    "英文释义": "Wanting to know or learn about something."
-  },
-  "into": {
-    "中文意思": "进入；变成",
-    "英文释义": "Towards the inside of something or into a new state."
-  },
-  "invest": {
-    "中文意思": "投入；投资",
-    "英文释义": "To spend money, time, or effort for a future benefit."
-  },
-  "is": {
-    "中文意思": "是；处于",
-    "英文释义": "The present form of be with he, she, or it."
-  },
-  "isn't": {
-    "中文意思": "不是；不处于",
-    "英文释义": "The contracted form of is not."
-  },
-  "issue": {
-    "中文意思": "问题",
-    "英文释义": "A subject or problem that needs attention."
-  },
-  "it": {
-    "中文意思": "它；这件事",
-    "英文释义": "Refers to a thing, situation, or idea."
-  },
-  "it's": {
-    "中文意思": "它是；它已经",
-    "英文释义": "The contracted form of it is or it has."
-  },
-  "job": {
-    "中文意思": "工作",
-    "英文释义": "Regular paid work or a particular task."
-  },
-  "keep": {
-    "中文意思": "保持",
-    "英文释义": "To continue in a particular state."
-  },
-  "laptops": {
-    "中文意思": "笔记本电脑",
-    "英文释义": "Portable computers with attached screens and keyboards."
-  },
-  "late": {
-    "中文意思": "晚；迟",
-    "英文释义": "After the usual or expected time."
-  },
-  "leaders": {
-    "中文意思": "领导者",
-    "英文释义": "People who guide or manage others."
-  },
-  "learning": {
-    "中文意思": "学习",
-    "英文释义": "The process of gaining knowledge or skills."
-  },
-  "leave": {
-    "中文意思": "离开",
-    "英文释义": "To go away from a place."
-  },
-  "leaving": {
-    "中文意思": "离开",
-    "英文释义": "Going away from a place."
-  },
-  "life": {
-    "中文意思": "生活；生命",
-    "英文释义": "The experience of being alive."
-  },
-  "like": {
-    "中文意思": "像；喜欢",
-    "英文释义": "Similar to something, or to find something pleasant."
-  },
-  "long": {
-    "中文意思": "长的；长久地",
-    "英文释义": "Continuing for a large amount of time."
-  },
-  "longer": {
-    "中文意思": "更长的；更久地",
-    "英文释义": "Continuing for more time."
-  },
-  "look": {
-    "中文意思": "看；看待",
-    "英文释义": "To direct your eyes or consider something."
-  },
-  "looked": {
-    "中文意思": "看了；研究了",
-    "英文释义": "Directed attention towards or examined something."
-  },
-  "lunch": {
-    "中文意思": "午餐",
-    "英文释义": "A meal eaten around the middle of the day."
-  },
-  "made": {
-    "中文意思": "使；制作了",
-    "英文释义": "The past form of make."
-  },
-  "make": {
-    "中文意思": "使；制作",
-    "英文释义": "To cause something or create it."
-  },
-  "manage": {
-    "中文意思": "管理；处理",
-    "英文释义": "To control or organize something."
-  },
-  "many": {
-    "中文意思": "许多",
-    "英文释义": "A large number of people or things."
-  },
-  "mask": {
-    "中文意思": "眼罩；遮盖物",
-    "英文释义": "A covering worn over part of the face."
-  },
-  "mean": {
-    "中文意思": "意味着",
-    "英文释义": "To express or indicate something."
-  },
-  "measure": {
-    "中文意思": "衡量",
-    "英文释义": "To find the size, amount, or degree of something."
-  },
-  "memos": {
-    "中文意思": "备忘录",
-    "英文释义": "Short written messages used in an organization."
-  },
-  "might": {
-    "中文意思": "可能",
-    "英文释义": "Expresses possibility."
-  },
-  "minute": {
-    "中文意思": "分钟",
-    "英文释义": "A period of sixty seconds."
-  },
-  "minutes": {
-    "中文意思": "分钟",
-    "英文释义": "Periods of sixty seconds."
-  },
-  "more": {
-    "中文意思": "更多；更",
-    "英文释义": "A greater amount or degree."
-  },
-  "morning": {
-    "中文意思": "早晨；上午",
-    "英文释义": "The early part of the day before noon."
-  },
-  "most": {
-    "中文意思": "最多；最",
-    "英文释义": "The greatest amount or degree."
-  },
-  "movement": {
-    "中文意思": "运动；移动",
-    "英文释义": "The act of changing position."
-  },
-  "much": {
-    "中文意思": "许多；很",
-    "英文释义": "A large amount or degree."
-  },
-  "must": {
-    "中文意思": "必须；一定",
-    "英文释义": "Expresses necessity or a strong conclusion."
-  },
-  "my": {
-    "中文意思": "我的",
-    "英文释义": "Belonging to the speaker."
-  },
-  "napping": {
-    "中文意思": "小睡",
-    "英文释义": "Sleeping for a short time, usually during the day."
-  },
-  "nap": {
-    "中文意思": "小睡",
-    "英文释义": "A short sleep, especially during the day."
-  },
-  "naps": {
-    "中文意思": "小睡",
-    "英文释义": "Short periods of sleep, usually during the day."
-  },
-  "need": {
-    "中文意思": "需要",
-    "英文释义": "To require something."
-  },
-  "next": {
-    "中文意思": "下一个的",
-    "英文释义": "Immediately following in time or order."
-  },
-  "night": {
-    "中文意思": "夜晚",
-    "英文释义": "The period between evening and morning."
-  },
-  "night's": {
-    "中文意思": "一夜的",
-    "英文释义": "Belonging or relating to one night."
-  },
-  "nights": {
-    "中文意思": "夜晚",
-    "英文释义": "Periods between evening and morning."
-  },
-  "no": {
-    "中文意思": "没有；不",
-    "英文释义": "Expresses absence or a negative answer."
-  },
-  "nod": {
-    "中文意思": "点头；打盹",
-    "英文释义": "To lower the head briefly; in nod off, to fall asleep."
-  },
-  "non": {
-    "中文意思": "非；不",
-    "英文释义": "A prefix meaning not."
-  },
-  "not": {
-    "中文意思": "不",
-    "英文释义": "Makes a statement negative."
-  },
-  "of": {
-    "中文意思": "……的",
-    "英文释义": "Shows a relationship between things."
-  },
-  "off": {
-    "中文意思": "离开；停止",
-    "英文释义": "Away from a place or no longer operating."
-  },
-  "offer": {
-    "中文意思": "提供",
-    "英文释义": "To make something available."
-  },
-  "office": {
-    "中文意思": "办公室",
-    "英文释义": "A place where administrative work is done."
-  },
-  "often": {
-    "中文意思": "经常",
-    "英文释义": "Many times or regularly."
-  },
-  "on": {
-    "中文意思": "在……上；在……时",
-    "英文释义": "Indicates a surface, activity, or time."
-  },
-  "one": {
-    "中文意思": "一；一个人",
-    "英文释义": "The number 1 or an unspecified person."
-  },
-  "only": {
-    "中文意思": "仅仅；唯一的",
-    "英文释义": "No more than; without others."
-  },
-  "or": {
-    "中文意思": "或者",
-    "英文释义": "Introduces an alternative."
-  },
-  "our": {
-    "中文意思": "我们的",
-    "英文释义": "Belonging to the speaker and others."
-  },
-  "out": {
-    "中文意思": "出去；在外面",
-    "英文释义": "Away from the inside of a place."
-  },
-  "overnight": {
-    "中文意思": "整夜的；在夜间",
-    "英文释义": "During or lasting through the night."
-  },
-  "past": {
-    "中文意思": "过去的",
-    "英文释义": "Having happened before the present."
-  },
-  "people": {
-    "中文意思": "人们",
-    "英文释义": "Human beings considered as a group."
-  },
-  "perfect": {
-    "中文意思": "完美的",
-    "英文释义": "As good or suitable as possible."
-  },
-  "performance": {
-    "中文意思": "表现；绩效",
-    "英文释义": "How well a person carries out an activity."
-  },
-  "period": {
-    "中文意思": "一段时间",
-    "英文释义": "A length of time."
-  },
-  "power": {
-    "中文意思": "力量；恢复精力的",
-    "英文释义": "Energy or ability; in power nap, intended to restore alertness."
-  },
-  "principal": {
-    "中文意思": "首席的；主要的",
-    "英文释义": "First in importance or rank."
-  },
-  "problem": {
-    "中文意思": "问题",
-    "英文释义": "A difficulty that needs a solution."
-  },
-  "problems": {
-    "中文意思": "问题",
-    "英文释义": "Difficulties that need solutions."
-  },
-  "processing": {
-    "中文意思": "处理",
-    "英文释义": "The act of working with information."
-  },
-  "professor": {
-    "中文意思": "教授",
-    "英文释义": "A senior university teacher or researcher."
-  },
-  "psychiatry": {
-    "中文意思": "精神病学",
-    "英文释义": "The medical study and treatment of mental disorders."
-  },
-  "psychology": {
-    "中文意思": "心理学",
-    "英文释义": "The scientific study of the mind and behavior."
-  },
-  "published": {
-    "中文意思": "发表了的",
-    "英文释义": "Made available in a book, journal, or other medium."
-  },
-  "pursuit": {
-    "中文意思": "追求",
-    "英文释义": "An effort to achieve or obtain something."
-  },
-  "quality": {
-    "中文意思": "质量",
-    "英文释义": "How good something is."
-  },
-  "quick": {
-    "中文意思": "短暂的；迅速的",
-    "英文释义": "Taking little time."
-  },
-  "quiet": {
-    "中文意思": "安静的",
-    "英文释义": "Making little or no noise."
-  },
-  "rapid": {
-    "中文意思": "快速的",
-    "英文释义": "Happening or moving very quickly."
-  },
-  "real": {
-    "中文意思": "真正的",
-    "英文释义": "Actually existing rather than imagined."
-  },
-  "realize": {
-    "中文意思": "意识到",
-    "英文释义": "To understand or become aware of something."
-  },
-  "recharging": {
-    "中文意思": "恢复精力",
-    "英文释义": "Restoring energy after activity."
-  },
-  "recovering": {
-    "中文意思": "恢复",
-    "英文释义": "Returning to a normal or healthy state."
-  },
-  "reflects": {
-    "中文意思": "反映",
-    "英文释义": "Shows or expresses something."
-  },
-  "regular": {
-    "中文意思": "规律的",
-    "英文释义": "Happening at consistent or repeated times."
-  },
-  "research": {
-    "中文意思": "研究",
-    "英文释义": "Careful study to discover facts."
-  },
-  "researcher": {
-    "中文意思": "研究人员",
-    "英文释义": "Someone who studies a subject to discover facts."
-  },
-  "researchers": {
-    "中文意思": "研究人员",
-    "英文释义": "People who study a subject to discover facts."
-  },
-  "respond": {
-    "中文意思": "回应",
-    "英文释义": "To say or do something in reaction."
-  },
-  "responding": {
-    "中文意思": "回应",
-    "英文释义": "Reacting to a message or event."
-  },
-  "rest": {
-    "中文意思": "休息；其余部分",
-    "英文释义": "Relaxation, or the remaining people or things."
-  },
-  "restfulness": {
-    "中文意思": "安宁；充分休息的状态",
-    "英文释义": "A state of calm or feeling well rested."
-  },
-  "reversed": {
-    "中文意思": "扭转了",
-    "英文释义": "Changed a situation to its opposite."
-  },
-  "safety": {
-    "中文意思": "安全",
-    "英文释义": "The state of being protected from harm."
-  },
-  "said": {
-    "中文意思": "说了",
-    "英文释义": "The past form of say."
-  },
-  "same": {
-    "中文意思": "相同的",
-    "英文释义": "Not different."
-  },
-  "say": {
-    "中文意思": "说",
-    "英文释义": "To express something in words."
-  },
-  "schedule": {
-    "中文意思": "时间表；作息安排",
-    "英文释义": "A plan showing when activities happen."
-  },
-  "sciences": {
-    "中文意思": "科学学科",
-    "英文释义": "Fields of organized scientific study."
-  },
-  "seat": {
-    "中文意思": "座位；地位",
-    "英文释义": "A place to sit, or a position of importance."
-  },
-  "seven": {
-    "中文意思": "七",
-    "英文释义": "The number 7."
-  },
-  "shade": {
-    "中文意思": "阴凉处",
-    "英文释义": "An area sheltered from direct sunlight."
-  },
-  "shame": {
-    "中文意思": "羞愧",
-    "英文释义": "A feeling of embarrassment about something wrong."
-  },
-  "shut": {
-    "中文意思": "闭上",
-    "英文释义": "To close something; in shut-eye, sleep."
-  },
-  "siesta": {
-    "中文意思": "午睡",
-    "英文释义": "A short rest or sleep in the afternoon."
-  },
-  "simple": {
-    "中文意思": "简单的",
-    "英文释义": "Easy to understand or do."
-  },
-  "slack": {
-    "中文意思": "Slack（工作沟通软件）",
-    "英文释义": "A messaging platform used by teams at work."
-  },
-  "slacking": {
-    "中文意思": "偷懒；懈怠",
-    "英文释义": "Working less hard than expected."
-  },
-  "sleep": {
-    "中文意思": "睡眠；睡觉",
-    "英文释义": "A natural resting state with reduced awareness."
-  },
-  "sleepiness": {
-    "中文意思": "困倦",
-    "英文释义": "The feeling of wanting to sleep."
-  },
-  "sleeping": {
-    "中文意思": "睡觉；睡眠的",
-    "英文释义": "Being in the natural state of sleep."
-  },
-  "smartphones": {
-    "中文意思": "智能手机",
-    "英文释义": "Mobile phones with computing and internet functions."
-  },
-  "snoozefest": {
-    "中文意思": "打盹；小睡时间",
-    "英文释义": "An informal playful term for a period of snoozing."
-  },
-  "so": {
-    "中文意思": "所以；如此",
-    "英文释义": "Indicates a result or a particular degree."
-  },
-  "societies": {
-    "中文意思": "社会；群体",
-    "英文释义": "Communities with shared institutions or customs."
-  },
-  "solid": {
-    "中文意思": "扎实的；充分的",
-    "英文释义": "Strong and reliable; of sleep, sound and sufficient."
-  },
-  "solve": {
-    "中文意思": "解决",
-    "英文释义": "To find an answer to a problem."
-  },
-  "some": {
-    "中文意思": "一些",
-    "英文释义": "An unspecified amount or number."
-  },
-  "someone": {
-    "中文意思": "某人",
-    "英文释义": "An unspecified person."
-  },
-  "sort": {
-    "中文意思": "种类",
-    "英文释义": "A type or category of something."
-  },
-  "sorts": {
-    "中文意思": "种类",
-    "英文释义": "Types or categories of things."
-  },
-  "space": {
-    "中文意思": "空间；地方",
-    "英文释义": "An area available for use."
-  },
-  "stage": {
-    "中文意思": "阶段",
-    "英文释义": "A particular part of a process."
-  },
-  "start": {
-    "中文意思": "开始",
-    "英文释义": "To begin something."
-  },
-  "starting": {
-    "中文意思": "开始",
-    "英文释义": "Beginning something."
-  },
-  "starts": {
-    "中文意思": "开始",
-    "英文释义": "Begins something."
-  },
-  "state": {
-    "中文意思": "状态",
-    "英文释义": "A particular condition."
-  },
-  "station": {
-    "中文意思": "站；加油站",
-    "英文释义": "A place providing transport or a particular service."
-  },
-  "stay": {
-    "中文意思": "保持；停留",
-    "英文释义": "To remain in a place or condition."
-  },
-  "stealing": {
-    "中文意思": "偷偷抽身；偷窃",
-    "英文释义": "Taking secretly; in stealing away, leaving quietly."
-  },
-  "step": {
-    "中文意思": "迈步；暂时离开",
-    "英文释义": "To move by taking a step."
-  },
-  "still": {
-    "中文意思": "仍然；不过",
-    "英文释义": "Continuing until now, or introducing a qualification."
-  },
-  "stopped": {
-    "中文意思": "停止了",
-    "英文释义": "Ended an action or prevented it from continuing."
-  },
-  "stressed": {
-    "中文意思": "压力大的",
-    "英文释义": "Feeling worried or under mental pressure."
-  },
-  "study": {
-    "中文意思": "研究",
-    "英文释义": "A detailed investigation of a subject."
-  },
-  "subjects": {
-    "中文意思": "受试者",
-    "英文释义": "People taking part in an experiment."
-  },
-  "suffering": {
-    "中文意思": "遭受",
-    "英文释义": "Experiencing pain or a difficult situation."
-  },
-  "sure": {
-    "中文意思": "确定的",
-    "英文释义": "Certain or confident."
-  },
-  "surely": {
-    "中文意思": "一定；想必",
-    "英文释义": "Used to express strong confidence in a statement."
-  },
-  "taboos": {
-    "中文意思": "禁忌",
-    "英文释义": "Socially forbidden or strongly discouraged practices."
-  },
-  "take": {
-    "中文意思": "拿；进行",
-    "英文释义": "To get or carry something, or perform an action."
-  },
-  "taken": {
-    "中文意思": "进行了；拿了",
-    "英文释义": "The past participle of take."
-  },
-  "taking": {
-    "中文意思": "进行；拿",
-    "英文释义": "The ing form of take."
-  },
-  "tank": {
-    "中文意思": "油箱；储罐",
-    "英文释义": "A container for liquid or fuel."
-  },
-  "taught": {
-    "中文意思": "教过；被教导",
-    "英文释义": "The past form and past participle of teach."
-  },
-  "teach": {
-    "中文意思": "教",
-    "英文释义": "To help someone learn something."
-  },
-  "tech": {
-    "中文意思": "技术；科技",
-    "英文释义": "An informal word for technology."
-  },
-  "technology": {
-    "中文意思": "技术；科技",
-    "英文释义": "Practical applications of scientific knowledge."
-  },
-  "test": {
-    "中文意思": "测试",
-    "英文释义": "An activity used to measure ability or performance."
-  },
-  "tested": {
-    "中文意思": "测试了",
-    "英文释义": "Examined or measured through a test."
-  },
-  "tests": {
-    "中文意思": "测试",
-    "英文释义": "Activities measuring ability or performance."
-  },
-  "than": {
-    "中文意思": "比",
-    "英文释义": "Introduces the second part of a comparison."
-  },
-  "that": {
-    "中文意思": "那个；这件事；引导从句",
-    "英文释义": "Refers to something or introduces a clause."
-  },
-  "the": {
-    "中文意思": "这；那；特指某事物",
-    "英文释义": "Marks a noun as specific or already known."
-  },
-  "their": {
-    "中文意思": "他们的",
-    "英文释义": "Belonging to the people or things mentioned."
-  },
-  "then": {
-    "中文意思": "然后；当时",
-    "英文释义": "At that time or next in order."
-  },
-  "they": {
-    "中文意思": "他们；它们",
-    "英文释义": "Refers to people or things already mentioned."
-  },
-  "they're": {
-    "中文意思": "他们是；他们正在",
-    "英文释义": "The contracted form of they are."
-  },
-  "they've": {
-    "中文意思": "他们已经",
-    "英文释义": "The contracted form of they have."
-  },
-  "thing": {
-    "中文意思": "事情；东西",
-    "英文释义": "An object, idea, or situation."
-  },
-  "things": {
-    "中文意思": "事情；东西",
-    "英文释义": "Objects, ideas, or situations."
-  },
-  "think": {
-    "中文意思": "认为；思考",
-    "英文释义": "To have an opinion or use the mind."
-  },
-  "thinking": {
-    "中文意思": "思考",
-    "英文释义": "The process of using the mind to form ideas."
-  },
-  "this": {
-    "中文意思": "这个；这件事",
-    "英文释义": "Refers to something nearby or just mentioned."
-  },
-  "those": {
-    "中文意思": "那些",
-    "英文释义": "The plural form of that."
-  },
-  "three": {
-    "中文意思": "三",
-    "英文释义": "The number 3."
-  },
-  "through": {
-    "中文意思": "穿过；贯穿",
-    "英文释义": "From one side or end to the other."
-  },
-  "throughout": {
-    "中文意思": "贯穿；遍及",
-    "英文释义": "During the whole of a period or in every part of a place."
-  },
-  "tied": {
-    "中文意思": "联系在一起的",
-    "英文释义": "Closely connected with something."
-  },
-  "time": {
-    "中文意思": "时间",
-    "英文释义": "The duration in which events happen."
-  },
-  "times": {
-    "中文意思": "次数；时段",
-    "英文释义": "Occasions or particular periods."
-  },
-  "to": {
-    "中文意思": "到；向；不定式标记",
-    "英文释义": "Indicates direction or introduces an infinitive."
-  },
-  "too": {
-    "中文意思": "也；太",
-    "英文释义": "Also, or more than is desirable."
-  },
-  "took": {
-    "中文意思": "进行了；拿了",
-    "英文释义": "The past form of take."
-  },
-  "tools": {
-    "中文意思": "工具",
-    "英文释义": "Things used to perform a task."
-  },
-  "total": {
-    "中文意思": "总计",
-    "英文释义": "The complete amount."
-  },
-  "trees": {
-    "中文意思": "树木",
-    "英文释义": "Tall plants with woody trunks."
-  },
-  "try": {
-    "中文意思": "尝试",
-    "英文释义": "To make an effort to do something."
-  },
-  "two": {
-    "中文意思": "二",
-    "英文释义": "The number 2."
-  },
-  "types": {
-    "中文意思": "类型",
-    "英文释义": "Groups sharing particular characteristics."
-  },
-  "uncertainty": {
-    "中文意思": "不确定；疑虑",
-    "英文释义": "A lack of certainty or confidence."
-  },
-  "under": {
-    "中文意思": "在……下面",
-    "英文释义": "In a position below something."
-  },
-  "unplugging": {
-    "中文意思": "断开连接；停止工作",
-    "英文释义": "Disconnecting a device or taking a break from work and technology."
-  },
-  "up": {
-    "中文意思": "向上；起来",
-    "英文释义": "Towards a higher position or an active state."
-  },
-  "us": {
-    "中文意思": "我们",
-    "英文释义": "The object form of we."
-  },
-  "university": {
-    "中文意思": "大学",
-    "英文释义": "An institution providing higher education and research."
-  },
-  "virtual": {
-    "中文意思": "虚拟的；实质上的",
-    "英文释义": "Existing through computers, or functioning like something in effect."
-  },
-  "waking": {
-    "中文意思": "醒来",
-    "英文释义": "Becoming awake after sleep."
-  },
-  "walk": {
-    "中文意思": "散步",
-    "英文释义": "A journey made on foot."
-  },
-  "way": {
-    "中文意思": "方式",
-    "英文释义": "A method of doing something."
-  },
-  "we": {
-    "中文意思": "我们",
-    "英文释义": "The speaker together with other people."
-  },
-  "we'd": {
-    "中文意思": "我们会；我们已经",
-    "英文释义": "The contracted form of we would or we had."
-  },
-  "we'll": {
-    "中文意思": "我们将会",
-    "英文释义": "The contracted form of we will."
-  },
-  "we're": {
-    "中文意思": "我们是；我们正在",
-    "英文释义": "The contracted form of we are."
-  },
-  "weeks": {
-    "中文意思": "周；星期",
-    "英文释义": "Periods of seven days."
-  },
-  "wellness": {
-    "中文意思": "身心健康",
-    "英文释义": "The state of physical and mental well-being."
-  },
-  "went": {
-    "中文意思": "去了；经历了",
-    "英文释义": "The past form of go."
-  },
-  "were": {
-    "中文意思": "是；处于",
-    "英文释义": "A past form of be."
-  },
-  "when": {
-    "中文意思": "当……时；什么时候",
-    "英文释义": "Refers to the time at which something happens."
-  },
-  "where": {
-    "中文意思": "在……的地方；哪里",
-    "英文释义": "Refers to a place or situation."
-  },
-  "which": {
-    "中文意思": "哪个；引导定语从句",
-    "英文释义": "Asks about a choice or refers back to something."
-  },
-  "while": {
-    "中文意思": "当……时；而",
-    "英文释义": "During the time that, or in contrast."
-  },
-  "who": {
-    "中文意思": "谁；引导定语从句",
-    "英文释义": "Refers to a person or asks about identity."
-  },
-  "will": {
-    "中文意思": "将；会",
-    "英文释义": "Expresses a future action or prediction."
-  },
-  "with": {
-    "中文意思": "和；带有；用",
-    "英文释义": "Indicates accompaniment, possession, or a means."
-  },
-  "woken": {
-    "中文意思": "醒来",
-    "英文释义": "The past participle of wake."
-  },
-  "won't": {
-    "中文意思": "将不会",
-    "英文释义": "The contracted form of will not."
-  },
-  "work": {
-    "中文意思": "工作",
-    "英文释义": "An activity requiring effort, especially paid employment."
-  },
-  "workday": {
-    "中文意思": "工作日；工作时间",
-    "英文释义": "A day or period spent working."
-  },
-  "workers": {
-    "中文意思": "工作者",
-    "英文释义": "People who work."
-  },
-  "working": {
-    "中文意思": "工作",
-    "英文释义": "Doing a job or an activity requiring effort."
-  },
-  "workplace": {
-    "中文意思": "工作场所",
-    "英文释义": "The place where people do their jobs."
-  },
-  "world": {
-    "中文意思": "世界",
-    "英文释义": "The earth and its people, or a particular environment."
-  },
-  "write": {
-    "中文意思": "写",
-    "英文释义": "To produce words in written form."
-  },
-  "you": {
-    "中文意思": "你；你们",
-    "英文释义": "The person or people being addressed."
-  },
-  "you're": {
-    "中文意思": "你是；你正在",
-    "英文释义": "The contracted form of you are."
-  },
-  "you've": {
-    "中文意思": "你已经",
-    "英文释义": "The contracted form of you have."
-  },
-  "your": {
-    "中文意思": "你的；你们的",
-    "英文释义": "Belonging to the person or people addressed."
-  },
-  "yourself": {
-    "中文意思": "你自己",
-    "英文释义": "The reflexive form of you for one person."
-  },
-  "bersin": {
-    "中文意思": "伯辛（姓氏）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "bolivia": {
-    "中文意思": "玻利维亚",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "california": {
-    "中文意思": "加利福尼亚",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "deloitte": {
-    "中文意思": "德勤",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "jerome": {
-    "中文意思": "杰罗姆（人名）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "josh": {
-    "中文意思": "乔希（人名）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "mednick": {
-    "中文意思": "梅德尼克（姓氏）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "namibia": {
-    "中文意思": "纳米比亚",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "riverside": {
-    "中文意思": "里弗赛德（地名）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "sara": {
-    "中文意思": "萨拉（人名）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "siegel": {
-    "中文意思": "西格尔（姓氏）",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "tanzania": {
-    "中文意思": "坦桑尼亚",
-    "英文释义": "A proper name used in this article for a person, place, or organization."
-  },
-  "nature": {
-    "中文意思": "自然；《自然》（期刊名）",
-    "英文释义": "The natural world; here, part of the journal title Nature Neuroscience."
-  },
-  "neuroscience": {
-    "中文意思": "神经科学",
-    "英文释义": "The scientific study of the nervous system."
-  },
-  "dr": {
-    "中文意思": "博士；医生（称谓）",
-    "英文释义": "An abbreviation of Doctor."
-  },
-  "mr": {
-    "中文意思": "先生（称谓）",
-    "英文释义": "A title used before a man’s name."
-  },
-  "r": {
-    "中文意思": "R.E.M.中的R：快速的",
-    "英文释义": "The initial of rapid in R.E.M., rapid eye movement."
-  },
-  "e": {
-    "中文意思": "R.E.M.中的E：眼睛",
-    "英文释义": "The initial of eye in R.E.M., rapid eye movement."
-  },
-  "m": {
-    "中文意思": "R.E.M.中的M；或p.m.中的m",
-    "英文释义": "An initial in R.E.M. (movement) or p.m. (meridiem, after noon)."
-  },
-  "p": {
-    "中文意思": "p.m.中的p：午后",
-    "英文释义": "The initial of post in p.m., meaning after noon."
-  },
-  "u": {
-    "中文意思": "U.C.L.A.中的U：大学",
-    "英文释义": "The initial of University in U.C.L.A."
-  },
-  "c": {
-    "中文意思": "U.C.L.A.中的C：加利福尼亚",
-    "英文释义": "The initial of California in U.C.L.A."
-  },
-  "l": {
-    "中文意思": "U.C.L.A.中的L：洛杉矶的Los",
-    "英文释义": "The initial of Los in Los Angeles, part of U.C.L.A."
-  },
-  "aim": {
-    "中文意思": "以……为目标",
-    "英文释义": "To intend or try to achieve something."
-  },
-  "any": {
-    "中文意思": "任何；任一",
-    "英文释义": "One or some, regardless of which."
-  },
-  "center": {
-    "中文意思": "中心；研究中心",
-    "英文释义": "A place where a particular activity or service is based."
-  },
-  "r.e.m.": {
-    "中文意思": "快速眼动（睡眠）",
-    "英文释义": "Short for rapid eye movement, a phase of sleep."
-  },
-  "p.m.": {
-    "中文意思": "下午；午后",
-    "英文释义": "Used for times after noon and before midnight."
-  },
-  "u.c.l.a.": {
-    "中文意思": "加利福尼亚大学洛杉矶分校",
-    "英文释义": "The University of California, Los Angeles."
-  },
-  "wake-up": {
-    "中文意思": "起床的；醒来的",
-    "英文释义": "Relating to the time when someone wakes."
-  },
-  "half-hour": {
-    "中文意思": "半小时",
-    "英文释义": "A period of thirty minutes."
-  },
-  "hunter-gatherer": {
-    "中文意思": "狩猎采集者",
-    "英文释义": "A person who lives by hunting animals and gathering wild food."
-  },
-  "shut-eye": {
-    "中文意思": "睡眠；小睡",
-    "英文释义": "An informal word for sleep."
-  },
-  "work-life": {
-    "中文意思": "工作与生活的",
-    "英文释义": "Relating to a person's job and personal life."
-  },
-  "co-author": {
-    "中文意思": "合著者",
-    "英文释义": "Someone who writes a work jointly with another author."
-  },
-  "stage-two": {
-    "中文意思": "第二阶段的",
-    "英文释义": "Relating to the second stage of a process, here sleep."
-  },
-  "non-rapid": {
-    "中文意思": "非快速的",
-    "英文释义": "Not rapid, as in non-rapid eye movement sleep."
   },
   "acceptable": {
     "中文意思": "可接受的",
@@ -1783,6 +51,26 @@
     "中文意思": "行动；措施",
     "英文释义": "Something done to achieve a result."
   },
+  "active": {
+    "中文意思": "活跃的",
+    "英文释义": "Doing things rather than remaining still."
+  },
+  "activity": {
+    "中文意思": "活动",
+    "英文释义": "Something that a person does."
+  },
+  "actors": {
+    "中文意思": "行为者",
+    "英文释义": "People or groups that take action."
+  },
+  "actually": {
+    "中文意思": "实际上",
+    "英文释义": "In fact or in reality."
+  },
+  "address": {
+    "中文意思": "地址",
+    "英文释义": "An identifier that tells a system where to send data."
+  },
   "adopted": {
     "中文意思": "采用；接受",
     "英文释义": "Took up or accepted an idea or practice."
@@ -1795,6 +83,34 @@
     "中文意思": "建议",
     "英文释义": "To recommend a course of action."
   },
+  "advises": {
+    "中文意思": "建议",
+    "英文释义": "Gives someone a recommendation."
+  },
+  "affecting": {
+    "中文意思": "影响",
+    "英文释义": "Having an effect on something."
+  },
+  "affects": {
+    "中文意思": "影响",
+    "英文释义": "Has an influence on."
+  },
+  "affiliation": {
+    "中文意思": "归属；隶属关系",
+    "英文释义": "A connection with an organisation or group."
+  },
+  "after": {
+    "中文意思": "在……之后",
+    "英文释义": "Later than an event or time."
+  },
+  "afternoon": {
+    "中文意思": "下午",
+    "英文释义": "The time between noon and evening."
+  },
+  "against": {
+    "中文意思": "违背；反对",
+    "英文释义": "In opposition to something."
+  },
   "age": {
     "中文意思": "年龄",
     "英文释义": "The number of years someone has lived."
@@ -1802,6 +118,10 @@
   "agency": {
     "中文意思": "自主行动能力",
     "英文释义": "The ability to make choices and act independently."
+  },
+  "aggregators": {
+    "中文意思": "聚合平台",
+    "英文释义": "Services that collect material from multiple sources."
   },
   "ago": {
     "中文意思": "以前",
@@ -1811,21 +131,53 @@
     "中文意思": "同意",
     "英文释义": "Accepts a proposal or arrangement."
   },
+  "aim": {
+    "中文意思": "以……为目标",
+    "英文释义": "To intend or try to achieve something."
+  },
+  "airings": {
+    "中文意思": "播出",
+    "英文释义": "Broadcasts of programmes or works."
+  },
   "alarming": {
     "中文意思": "令人担忧的",
     "英文释义": "Causing fear or concern."
+  },
+  "all": {
+    "中文意思": "所有；全部",
+    "英文释义": "The whole amount or every member."
+  },
+  "allocated": {
+    "中文意思": "分配的；投入的",
+    "英文释义": "Assigned to a particular purpose."
   },
   "allowed": {
     "中文意思": "被允许",
     "英文释义": "Permitted to do something."
   },
+  "allows": {
+    "中文意思": "使能够；允许",
+    "英文释义": "Makes something possible or permits it."
+  },
   "alongside": {
     "中文意思": "在……旁边；与……一起",
     "英文释义": "Beside or together with someone."
   },
+  "already": {
+    "中文意思": "已经",
+    "英文释义": "Before now or before the time mentioned."
+  },
+  "also": {
+    "中文意思": "也",
+    "英文释义": "In addition; too."
+  },
   "always": {
     "中文意思": "总是",
     "英文释义": "At all times or on every occasion."
+  },
+  "am": {
+    "中文意思": "是（be 的第一人称单数形式）",
+    "英文释义": "The first-person singular present form of be."
   },
   "ambition": {
     "中文意思": "抱负",
@@ -1835,29 +187,125 @@
     "中文意思": "矛盾心理",
     "英文释义": "Mixed or conflicting feelings about something."
   },
+  "american": {
+    "中文意思": "美国人",
+    "英文释义": "A person from the United States."
+  },
+  "among": {
+    "中文意思": "在……之中",
+    "英文释义": "Within a group of people or things."
+  },
   "amusement": {
     "中文意思": "娱乐",
     "英文释义": "Enjoyment or something that provides it."
+  },
+  "an": {
+    "中文意思": "一个；一种",
+    "英文释义": "Used before a singular noun beginning with a vowel sound."
+  },
+  "and": {
+    "中文意思": "和；并且",
+    "英文释义": "Connects words, phrases, or statements."
   },
   "annoyance": {
     "中文意思": "恼怒",
     "英文释义": "A feeling of irritation."
   },
+  "anonymity": {
+    "中文意思": "匿名性",
+    "英文释义": "The state of having an unknown identity."
+  },
   "anonymous": {
     "中文意思": "匿名的",
     "英文释义": "Without a known or disclosed identity."
+  },
+  "anonymously": {
+    "中文意思": "匿名地",
+    "英文释义": "Without revealing one's identity."
   },
   "another": {
     "中文意思": "另一个；又一",
     "英文释义": "One more or a different one."
   },
+  "answer": {
+    "中文意思": "回答",
+    "英文释义": "A response to a question."
+  },
+  "any": {
+    "中文意思": "任何；任一",
+    "英文释义": "One or some, regardless of which."
+  },
+  "apologize": {
+    "中文意思": "道歉",
+    "英文释义": "To say that you are sorry."
+  },
+  "apparently": {
+    "中文意思": "看似；似乎",
+    "英文释义": "As it seems from what is known."
+  },
+  "appear": {
+    "中文意思": "显得；表现得",
+    "英文释义": "To seem or give a particular impression."
+  },
+  "appearance": {
+    "中文意思": "外表；表象",
+    "英文释义": "The way someone or something seems or looks."
+  },
+  "approach": {
+    "中文意思": "方法",
+    "英文释义": "A way of dealing with a situation."
+  },
+  "architecture": {
+    "中文意思": "架构",
+    "英文释义": "The overall structure of a system."
+  },
+  "are": {
+    "中文意思": "是；处于",
+    "英文释义": "A present form of be used with you or plural subjects."
+  },
+  "area": {
+    "中文意思": "区域",
+    "英文释义": "A particular part of a place."
+  },
+  "argued": {
+    "中文意思": "主张",
+    "英文释义": "Presented a claim and reasons for it."
+  },
+  "around": {
+    "中文意思": "围绕；大约",
+    "英文释义": "On different sides of something, or approximately."
+  },
+  "arrive": {
+    "中文意思": "到达；达到",
+    "英文释义": "To reach a place or situation."
+  },
+  "articles": {
+    "中文意思": "文章",
+    "英文释义": "Pieces of writing published for readers."
+  },
   "artificial": {
     "中文意思": "人工的",
     "英文释义": "Made by people rather than occurring naturally."
   },
+  "as": {
+    "中文意思": "像……一样；作为",
+    "英文释义": "Used for comparison or to describe a role."
+  },
+  "ascap": {
+    "中文意思": "美国作曲家、作家与出版商协会",
+    "英文释义": "The American Society of Composers, Authors and Publishers."
+  },
+  "ask": {
+    "中文意思": "询问",
+    "英文释义": "To put a question to someone."
+  },
   "asked": {
     "中文意思": "询问",
     "英文释义": "Requested information or an answer."
+  },
+  "asks": {
+    "中文意思": "问；提出问题",
+    "英文释义": "Puts a question to someone."
   },
   "aspect": {
     "中文意思": "方面",
@@ -1866,6 +314,22 @@
   "assertion": {
     "中文意思": "断言；主张",
     "英文释义": "A confident statement that something is true."
+  },
+  "associated": {
+    "中文意思": "有关联的",
+    "英文释义": "Connected with something."
+  },
+  "assume": {
+    "中文意思": "假定；认为",
+    "英文释义": "To accept something as true without proof."
+  },
+  "assuming": {
+    "中文意思": "假定；认为",
+    "英文释义": "Accepting something as true without proof."
+  },
+  "at": {
+    "中文意思": "在",
+    "英文释义": "Indicates a particular place, time, or activity."
   },
   "atavistic": {
     "中文意思": "返祖的；原始本能的",
@@ -1879,17 +343,53 @@
     "中文意思": "尝试",
     "英文释义": "An effort to do something."
   },
+  "attention": {
+    "中文意思": "注意力",
+    "英文释义": "Mental focus on something."
+  },
+  "attributions": {
+    "中文意思": "归因；赋予的属性",
+    "英文释义": "Qualities or causes assigned to someone or something."
+  },
   "atwood's": {
     "中文意思": "阿特伍德的",
     "英文释义": "Belonging or relating to the writer Margaret Atwood."
+  },
+  "authentic": {
+    "中文意思": "真实的",
+    "英文释义": "Genuine rather than false."
+  },
+  "authenticated": {
+    "中文意思": "经过认证的",
+    "英文释义": "Verified as genuine."
+  },
+  "authentication": {
+    "中文意思": "身份认证；验证",
+    "英文释义": "The process of verifying an identity or source."
+  },
+  "author": {
+    "中文意思": "作者",
+    "英文释义": "A person who writes a book or other text."
   },
   "autonomy": {
     "中文意思": "自主权",
     "英文释义": "The freedom to make one's own decisions."
   },
+  "available": {
+    "中文意思": "可用的；有空的",
+    "英文释义": "Able to be used, obtained, or contacted."
+  },
   "avoid": {
     "中文意思": "避免",
     "英文释义": "To keep away from or prevent something."
+  },
+  "avoiding": {
+    "中文意思": "避免",
+    "英文释义": "Keeping away from something."
+  },
+  "away": {
+    "中文意思": "离开；远离",
+    "英文释义": "At or towards another place."
   },
   "babysat": {
     "中文意思": "临时照看孩子",
@@ -1899,6 +399,10 @@
     "中文意思": "临时照看孩子",
     "英文释义": "To look after children while their parents are away."
   },
+  "back": {
+    "中文意思": "后面；回去",
+    "英文释义": "Towards an earlier place or position."
+  },
   "bad": {
     "中文意思": "不好的；糟糕的",
     "英文释义": "Unpleasant or of poor quality."
@@ -1906,6 +410,22 @@
   "bank": {
     "中文意思": "银行",
     "英文释义": "An organization that keeps and lends money."
+  },
+  "based": {
+    "中文意思": "以……为依据的",
+    "英文释义": "Founded on or supported by something."
+  },
+  "basement": {
+    "中文意思": "地下室",
+    "英文释义": "A room or floor below ground level."
+  },
+  "bats": {
+    "中文意思": "蝙蝠",
+    "英文释义": "Flying mammals that are often active at night."
+  },
+  "be": {
+    "中文意思": "是；处于",
+    "英文释义": "To exist or have a particular state."
   },
   "beach": {
     "中文意思": "海滩",
@@ -1919,6 +439,10 @@
     "中文意思": "变成；成为",
     "英文释义": "To begin to be something different."
   },
+  "because": {
+    "中文意思": "因为",
+    "英文释义": "Introduces the reason for something."
+  },
   "become": {
     "中文意思": "变成；成为",
     "英文释义": "To begin to be something different."
@@ -1927,13 +451,73 @@
     "中文意思": "变成；成为",
     "英文释义": "To begin to be something different."
   },
+  "been": {
+    "中文意思": "是；一直（be 的过去分词）",
+    "英文释义": "The past participle of be."
+  },
+  "before": {
+    "中文意思": "在……之前",
+    "英文释义": "Earlier than something."
+  },
   "begets": {
     "中文意思": "引起；产生",
     "英文释义": "Causes or brings something into existence."
   },
+  "beginning": {
+    "中文意思": "开始",
+    "英文释义": "Starting to do something."
+  },
+  "begun": {
+    "中文意思": "开始（begin 的过去分词）",
+    "英文释义": "The past participle of begin."
+  },
+  "being": {
+    "中文意思": "是；处于",
+    "英文释义": "The ing form of be."
+  },
+  "belfry": {
+    "中文意思": "钟楼；钟塔",
+    "英文释义": "A tower or part of a building that houses bells."
+  },
+  "beliefs": {
+    "中文意思": "信念；看法",
+    "英文释义": "Ideas that people accept as true."
+  },
   "believe": {
     "中文意思": "相信",
     "英文释义": "To accept something as true."
+  },
+  "benefits": {
+    "中文意思": "好处；益处",
+    "英文释义": "Helpful or useful effects."
+  },
+  "berners-lee": {
+    "中文意思": "伯纳斯-李",
+    "英文释义": "The surname of the inventor of the World Wide Web."
+  },
+  "bersin": {
+    "中文意思": "伯辛（姓氏）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
+  "best": {
+    "中文意思": "最好的",
+    "英文释义": "Better than all others."
+  },
+  "bet": {
+    "中文意思": "选择；办法",
+    "英文释义": "An option considered likely to succeed."
+  },
+  "better": {
+    "中文意思": "更好的；感觉更好",
+    "英文释义": "Of higher quality or in an improved state."
+  },
+  "between": {
+    "中文意思": "在两者之间",
+    "英文释义": "In the space or time separating things."
+  },
+  "beyond": {
+    "中文意思": "超出；在……之后",
+    "英文释义": "Further than a point or limit."
   },
   "biased": {
     "中文意思": "有偏见的",
@@ -1943,9 +527,33 @@
     "中文意思": "偏见",
     "英文释义": "Unfair preferences or judgments."
   },
+  "big": {
+    "中文意思": "大的；严重的",
+    "英文释义": "Large in size or importance."
+  },
+  "biobehavioral": {
+    "中文意思": "生物行为的",
+    "英文释义": "Relating to biological processes and behavior."
+  },
   "biological": {
     "中文意思": "生物的",
     "英文释义": "Relating to living organisms."
+  },
+  "biology": {
+    "中文意思": "生物学",
+    "英文释义": "The scientific study of living things."
+  },
+  "bits": {
+    "中文意思": "少量；小部分",
+    "英文释义": "Small pieces or amounts."
+  },
+  "blame": {
+    "中文意思": "归咎于",
+    "英文释义": "To say someone or something caused a problem."
+  },
+  "blogs": {
+    "中文意思": "博客",
+    "英文释义": "Websites or collections of regularly published posts."
   },
   "boardwalk": {
     "中文意思": "海滨木板步道",
@@ -1955,9 +563,25 @@
     "中文意思": "身体",
     "英文释义": "The physical forms of people or animals."
   },
+  "body": {
+    "中文意思": "身体",
+    "英文释义": "The physical structure of a person."
+  },
+  "bolivia": {
+    "中文意思": "玻利维亚",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
   "boss": {
     "中文意思": "上司",
     "英文释义": "A person who directs other people's work."
+  },
+  "bosses": {
+    "中文意思": "上司",
+    "英文释义": "People who supervise workers."
+  },
+  "bot": {
+    "中文意思": "机器人程序",
+    "英文释义": "A program that automatically performs tasks online."
   },
   "both": {
     "中文意思": "两者都",
@@ -1971,29 +595,101 @@
     "中文意思": "男孩们",
     "英文释义": "Male children or young men."
   },
+  "brains": {
+    "中文意思": "大脑",
+    "英文释义": "Organs that control thought, memory, and behaviour."
+  },
+  "breaks": {
+    "中文意思": "休息时间",
+    "英文释义": "Short periods when work stops."
+  },
   "bright-blue": {
     "中文意思": "亮蓝色的",
     "英文释义": "Having a vivid blue color."
+  },
+  "brilliantly": {
+    "中文意思": "巧妙地；出色地",
+    "英文释义": "In an exceptionally clever or effective way."
   },
   "bring": {
     "中文意思": "带来",
     "英文释义": "To take someone or something to a place."
   },
+  "briton": {
+    "中文意思": "英国人",
+    "英文释义": "A person from Britain."
+  },
+  "broader": {
+    "中文意思": "更广泛的",
+    "英文释义": "Wider in range or scope."
+  },
   "browse": {
     "中文意思": "浏览",
     "英文释义": "To look through information, especially on the Internet."
+  },
+  "browsers": {
+    "中文意思": "浏览器",
+    "英文释义": "Programs used to access and view websites."
   },
   "browsing": {
     "中文意思": "浏览",
     "英文释义": "To look through information, especially on the Internet."
   },
+  "bugs": {
+    "中文意思": "缺陷；虫子",
+    "英文释义": "Faults in a system, or small insects in the literal sense."
+  },
+  "build": {
+    "中文意思": "建造；开发",
+    "英文释义": "To make or develop something."
+  },
+  "building": {
+    "中文意思": "建立；积累",
+    "英文释义": "Developing or creating something over time."
+  },
   "bumper": {
     "中文意思": "保险杠；碰撞装置",
     "英文释义": "A protective bar on a vehicle; used in the phrase bumper cars."
   },
+  "burnout": {
+    "中文意思": "职业倦怠；精疲力竭",
+    "英文释义": "Exhaustion caused by prolonged work-related stress."
+  },
+  "business": {
+    "中文意思": "商业；企业",
+    "英文释义": "The activity of making or selling goods and services."
+  },
+  "busy": {
+    "中文意思": "忙碌的",
+    "英文释义": "Having much work or many things to do."
+  },
+  "busyness": {
+    "中文意思": "忙碌；繁忙状态",
+    "英文释义": "The state of having many things to do."
+  },
+  "but": {
+    "中文意思": "但是",
+    "英文释义": "Introduces a contrast or exception."
+  },
+  "by": {
+    "中文意思": "通过；由；在旁边",
+    "英文释义": "Indicates a method, agent, or nearby position."
+  },
+  "c": {
+    "中文意思": "U.C.L.A.中的C：加利福尼亚",
+    "英文释义": "The initial of California in U.C.L.A."
+  },
   "cable": {
     "中文意思": "电缆；有线电视",
     "英文释义": "A wire carrying signals, or television delivered through it."
+  },
+  "caffeine": {
+    "中文意思": "咖啡因",
+    "英文释义": "A stimulant found in coffee and tea."
+  },
+  "california": {
+    "中文意思": "加利福尼亚",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
   },
   "call": {
     "中文意思": "称作；叫",
@@ -2007,11 +703,15 @@
     "中文意思": "称作；叫",
     "英文释义": "To give someone or something a name or description."
   },
-  "care": {
-    "中文意思": "在意；关心；照护",
-    "英文释义": "To feel concern or provide help and protection."
+  "can": {
+    "中文意思": "能；可以",
+    "英文释义": "Expresses ability or possibility."
   },
-  "cares": {
+  "can't": {
+    "中文意思": "不能",
+    "英文释义": "The contracted form of cannot."
+  },
+  "care": {
     "中文意思": "在意；关心；照护",
     "英文释义": "To feel concern or provide help and protection."
   },
@@ -2023,13 +723,29 @@
     "中文意思": "照护者",
     "英文释义": "People who look after others needing help."
   },
+  "cares": {
+    "中文意思": "在意；关心；照护",
+    "英文释义": "To feel concern or provide help and protection."
+  },
   "cars": {
     "中文意思": "汽车",
     "英文释义": "Road vehicles usually having four wheels."
   },
+  "cartoon": {
+    "中文意思": "漫画",
+    "英文释义": "A drawing that makes a point or tells a joke."
+  },
+  "case": {
+    "中文意思": "论据；理由",
+    "英文释义": "Arguments supporting an idea or request."
+  },
   "cautionary": {
     "中文意思": "警示性的",
     "英文释义": "Giving a warning about possible danger."
+  },
+  "celebrated": {
+    "中文意思": "受到赞扬；被赞颂",
+    "英文释义": "Praised or honoured publicly."
   },
   "celebrating": {
     "中文意思": "赞赏；庆祝",
@@ -2039,6 +755,22 @@
     "中文意思": "审查",
     "英文释义": "The control or suppression of information."
   },
+  "center": {
+    "中文意思": "中心；研究中心",
+    "英文释义": "A place where a particular activity or service is based."
+  },
+  "cerf": {
+    "中文意思": "瑟夫",
+    "英文释义": "The surname of Vint Cerf, a co-designer of TCP/IP."
+  },
+  "certainly": {
+    "中文意思": "当然；无疑",
+    "英文释义": "Without doubt."
+  },
+  "change": {
+    "中文意思": "改变",
+    "英文释义": "To become different or make something different."
+  },
   "changing": {
     "中文意思": "改变；变化",
     "英文释义": "Becoming different or making something different."
@@ -2046,6 +778,10 @@
   "character": {
     "中文意思": "人物；角色",
     "英文释义": "A person represented in a story."
+  },
+  "chatter": {
+    "中文意思": "闲聊；嘈杂谈话",
+    "英文释义": "Continuous informal talk."
   },
   "checking": {
     "中文意思": "查看；检查",
@@ -2059,13 +795,17 @@
     "中文意思": "孩子",
     "英文释义": "A young person or someone's son or daughter."
   },
+  "childbearing": {
+    "中文意思": "生育",
+    "英文释义": "The process of having babies."
+  },
   "children": {
     "中文意思": "孩子",
     "英文释义": "A young person or someone's son or daughter."
   },
-  "childbearing": {
-    "中文意思": "生育",
-    "英文释义": "The process of having babies."
+  "chips": {
+    "中文意思": "芯片",
+    "英文释义": "Small pieces of electronic circuitry."
   },
   "choose": {
     "中文意思": "选择",
@@ -2075,6 +815,14 @@
     "中文意思": "选择",
     "英文释义": "To select from available possibilities."
   },
+  "circuit-switched": {
+    "中文意思": "采用电路交换的",
+    "英文释义": "Using a dedicated communication path for a connection."
+  },
+  "civil": {
+    "中文意思": "文明有礼的",
+    "英文释义": "Polite and respectful."
+  },
   "clarity": {
     "中文意思": "清晰；明晰",
     "英文释义": "The quality of being clear or easy to understand."
@@ -2083,21 +831,61 @@
     "中文意思": "显然；清楚地",
     "英文释义": "In a way that is obvious or easy to understand."
   },
+  "clickbait": {
+    "中文意思": "标题党内容；点击诱饵",
+    "英文释义": "Online material designed to attract clicks through sensational presentation."
+  },
   "clicking": {
     "中文意思": "点击",
     "英文释义": "Pressing a computer mouse button or selecting an item on screen."
+  },
+  "climate": {
+    "中文意思": "气候",
+    "英文释义": "The usual weather conditions of a place over a long period."
   },
   "cling": {
     "中文意思": "紧抓；坚持",
     "英文释义": "To hold tightly or remain attached to an idea."
   },
+  "clock": {
+    "中文意思": "钟；计时器",
+    "英文释义": "A device that shows the time."
+  },
+  "co": {
+    "中文意思": "共同的；联合的",
+    "英文释义": "A prefix meaning jointly or together."
+  },
+  "co-author": {
+    "中文意思": "合著者",
+    "英文释义": "Someone who writes a work jointly with another author."
+  },
   "coaster": {
     "中文意思": "滑行装置；过山车的一部分",
     "英文释义": "A vehicle or device that moves by coasting; used in roller coaster."
   },
+  "coauthor": {
+    "中文意思": "共同作者",
+    "英文释义": "One of the people who created a work together."
+  },
+  "code": {
+    "中文意思": "代码",
+    "英文释义": "Instructions or rules written for a computer system."
+  },
+  "coffee": {
+    "中文意思": "咖啡",
+    "英文释义": "A drink made from roasted coffee beans."
+  },
+  "cognitive": {
+    "中文意思": "认知的",
+    "英文释义": "Related to thinking, learning, or understanding."
+  },
   "collects": {
     "中文意思": "收集",
     "英文释义": "Gathers things or information together."
+  },
+  "columbia": {
+    "中文意思": "哥伦比亚大学",
+    "英文释义": "Columbia University, a university in New York City."
   },
   "comcast": {
     "中文意思": "康卡斯特",
@@ -2107,9 +895,29 @@
     "中文意思": "来；出现",
     "英文释义": "Moves toward a place or occurs."
   },
+  "coming": {
+    "中文意思": "前来",
+    "英文释义": "Moving or arriving at a place."
+  },
+  "comments": {
+    "中文意思": "评论",
+    "英文释义": "Remarks made about something."
+  },
   "common": {
     "中文意思": "常见的；共同的",
     "英文释义": "Happening often or shared by several people."
+  },
+  "communicate": {
+    "中文意思": "交流",
+    "英文释义": "To exchange information or ideas."
+  },
+  "community": {
+    "中文意思": "社群",
+    "英文释义": "A group connected by common interests or relationships."
+  },
+  "companies": {
+    "中文意思": "公司",
+    "英文释义": "Organizations that conduct business."
   },
   "complained": {
     "中文意思": "抱怨",
@@ -2119,17 +927,65 @@
     "中文意思": "完全地",
     "英文释义": "In every way or to the fullest extent."
   },
+  "compounding": {
+    "中文意思": "加剧",
+    "英文释义": "Making an existing problem more severe."
+  },
   "computer": {
     "中文意思": "电脑",
     "英文释义": "An electronic device for processing information."
+  },
+  "computers": {
+    "中文意思": "计算机",
+    "英文释义": "Machines that process data and run programs."
+  },
+  "concentrate": {
+    "中文意思": "集中精力",
+    "英文释义": "To direct attention towards something."
   },
   "concept": {
     "中文意思": "概念",
     "英文释义": "An idea or general understanding of something."
   },
+  "concerned": {
+    "中文意思": "担心的",
+    "英文释义": "Worried about something."
+  },
+  "conducted": {
+    "中文意思": "开展；实施",
+    "英文释义": "Carried out an activity or study."
+  },
+  "confused": {
+    "中文意思": "使困惑",
+    "英文释义": "Made someone unable to understand clearly."
+  },
+  "connections": {
+    "中文意思": "联系；关联",
+    "英文释义": "Links between people, things, or ideas."
+  },
+  "consume": {
+    "中文意思": "浏览；消费（内容）",
+    "英文释义": "To read, view, listen to, or otherwise use content."
+  },
+  "contain": {
+    "中文意思": "包含",
+    "英文释义": "To hold something within."
+  },
+  "content": {
+    "中文意思": "内容",
+    "英文释义": "Material made available to read, watch, or listen to."
+  },
   "continuation": {
     "中文意思": "延续",
     "英文释义": "The act or state of continuing."
+  },
+  "contradict": {
+    "中文意思": "与……矛盾",
+    "英文释义": "To be inconsistent with a claim or belief."
+  },
+  "contrary": {
+    "中文意思": "相反的；相矛盾的",
+    "英文释义": "Opposite to what is believed or expected."
   },
   "conversations": {
     "中文意思": "交谈",
@@ -2143,13 +999,49 @@
     "中文意思": "必然结果；关联事物",
     "英文释义": "Consequences or ideas that follow from others."
   },
+  "correct": {
+    "中文意思": "纠正",
+    "英文释义": "To change something so that it is right."
+  },
+  "corrode": {
+    "中文意思": "腐蚀；逐渐侵蚀",
+    "英文释义": "To eat away at or gradually damage something."
+  },
   "could": {
     "中文意思": "能够；可能",
     "英文释义": "Used to express past ability or possibility."
   },
+  "couldn't": {
+    "中文意思": "不能；无法",
+    "英文释义": "The contracted form of could not."
+  },
+  "course": {
+    "中文意思": "课程",
+    "英文释义": "A series of lessons on a subject."
+  },
   "crazy": {
     "中文意思": "疯狂的；烦躁不堪的",
     "英文释义": "Very unreasonable or extremely upset or excited."
+  },
+  "create": {
+    "中文意思": "创建",
+    "英文释义": "To bring something into existence."
+  },
+  "created": {
+    "中文意思": "创建了",
+    "英文释义": "Brought something into existence."
+  },
+  "creators": {
+    "中文意思": "创作者",
+    "英文释义": "People who produce original material."
+  },
+  "creeps": {
+    "中文意思": "悄悄出现；缓慢移动",
+    "英文释义": "Moves or develops slowly and gradually."
+  },
+  "critical": {
+    "中文意思": "关键的",
+    "英文释义": "Essential or extremely important."
   },
   "crossed": {
     "中文意思": "越过",
@@ -2163,9 +1055,45 @@
     "中文意思": "文化的；在文化上",
     "英文释义": "Relating to the customs and beliefs of a society."
   },
+  "culture": {
+    "中文意思": "文化；风气",
+    "英文释义": "Shared beliefs, values and practices of a group."
+  },
+  "curiosity": {
+    "中文意思": "好奇心",
+    "英文释义": "A desire to learn or find out about something."
+  },
+  "currency": {
+    "中文意思": "货币",
+    "英文释义": "A system of money used for payment."
+  },
+  "current": {
+    "中文意思": "当前的",
+    "英文释义": "Happening or existing now."
+  },
   "customer": {
     "中文意思": "顾客",
     "英文释义": "A person who buys goods or services."
+  },
+  "cut": {
+    "中文意思": "切；消除",
+    "英文释义": "To divide with a sharp tool or reduce something."
+  },
+  "cyber": {
+    "中文意思": "网络的",
+    "英文释义": "Relating to computers or online activity."
+  },
+  "cyberbullying": {
+    "中文意思": "网络霸凌",
+    "英文释义": "Bullying through online messages or platforms."
+  },
+  "cybersecurity": {
+    "中文意思": "网络安全",
+    "英文释义": "The protection of computer systems and data from threats."
+  },
+  "cycle": {
+    "中文意思": "周期；循环",
+    "英文释义": "A series of events that repeats."
   },
   "dark": {
     "中文意思": "黑暗的",
@@ -2175,13 +1103,41 @@
     "中文意思": "数据",
     "英文释义": "Facts or information used for analysis."
   },
+  "databases": {
+    "中文意思": "数据库",
+    "英文释义": "Organised collections of data."
+  },
+  "day": {
+    "中文意思": "一天；白天",
+    "英文释义": "A period of twenty-four hours or its light hours."
+  },
   "days": {
     "中文意思": "日子；天",
     "英文释义": "Periods of twenty-four hours."
   },
+  "daytime": {
+    "中文意思": "白天；日间的",
+    "英文释义": "The part of the day when it is light."
+  },
+  "deal": {
+    "中文意思": "处理；应对",
+    "英文释义": "To take action concerning a problem."
+  },
   "declares": {
     "中文意思": "宣称",
     "英文释义": "States something openly or firmly."
+  },
+  "decline": {
+    "中文意思": "衰落",
+    "英文释义": "A gradual loss of quality, strength, or importance."
+  },
+  "deep": {
+    "中文意思": "深的",
+    "英文释义": "Extending far down or strongly experienced."
+  },
+  "deeper": {
+    "中文意思": "更深入的",
+    "英文释义": "More thorough or involving more careful thought."
   },
   "deepest": {
     "中文意思": "最深的",
@@ -2195,9 +1151,21 @@
     "中文意思": "交付；兑现",
     "英文释义": "To provide something promised or expected."
   },
+  "deloitte": {
+    "中文意思": "德勤",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
+  "denial": {
+    "中文意思": "否认；拒绝承认",
+    "英文释义": "A refusal to accept that something is true."
+  },
   "deny": {
     "中文意思": "拒绝给予；否认",
     "英文释义": "To refuse to provide something or say it is untrue."
+  },
+  "depend": {
+    "中文意思": "取决于",
+    "英文释义": "To be determined by something else."
   },
   "deposited": {
     "中文意思": "放置；沉积",
@@ -2211,9 +1179,37 @@
     "中文意思": "获得；源于",
     "英文释义": "To obtain something from a source or originate from it."
   },
+  "describe": {
+    "中文意思": "描述；说明",
+    "英文释义": "To state what something is like."
+  },
   "deserve": {
     "中文意思": "应得",
     "英文释义": "To be worthy of particular treatment."
+  },
+  "design": {
+    "中文意思": "设计；结构",
+    "英文释义": "The plan or arrangement of a system."
+  },
+  "desk": {
+    "中文意思": "书桌；办公桌",
+    "英文释义": "A table used for reading or working."
+  },
+  "destination": {
+    "中文意思": "目的地",
+    "英文释义": "The place or address where something is sent."
+  },
+  "destroyed": {
+    "中文意思": "破坏了",
+    "英文释义": "Damaged something so badly that it ceased to function."
+  },
+  "deteriorated": {
+    "中文意思": "恶化了；下降了",
+    "英文释义": "Became worse in quality or condition."
+  },
+  "deterioration": {
+    "中文意思": "恶化；下降",
+    "英文释义": "The process of becoming worse."
   },
   "determine": {
     "中文意思": "决定",
@@ -2223,29 +1219,101 @@
     "中文意思": "设备",
     "英文释义": "Tools or machines designed for particular purposes."
   },
+  "did": {
+    "中文意思": "做了",
+    "英文释义": "The past form of do, also used to form questions."
+  },
   "didn't": {
     "中文意思": "没有",
     "英文释义": "The contraction of did not."
+  },
+  "different": {
+    "中文意思": "不同的",
+    "英文释义": "Not the same as another."
+  },
+  "digital": {
+    "中文意思": "数字的",
+    "英文释义": "Relating to electronic information or computing."
+  },
+  "dim": {
+    "中文意思": "昏暗的",
+    "英文释义": "Not brightly lit."
   },
   "dinner": {
     "中文意思": "晚餐；正餐",
     "英文释义": "The main meal of the day."
   },
+  "director": {
+    "中文意思": "主任；负责人",
+    "英文释义": "A person in charge of an organization or activity."
+  },
   "disempowerment": {
     "中文意思": "权能的削弱",
     "英文释义": "The loss or removal of power and independence."
+  },
+  "dismiss": {
+    "中文意思": "不予考虑；排斥",
+    "英文释义": "To decide that something is unworthy of consideration."
+  },
+  "disturbed": {
+    "中文意思": "受打扰的",
+    "英文释义": "Interrupted or prevented from resting."
+  },
+  "do": {
+    "中文意思": "做；助动词",
+    "英文释义": "To perform an action; also forms questions and negatives."
+  },
+  "does": {
+    "中文意思": "做；助动词",
+    "英文释义": "The present form of do with he, she, or it."
   },
   "doesn't": {
     "中文意思": "不；没有",
     "英文释义": "Contractions of does not and do not."
   },
-  "don't": {
-    "中文意思": "不；没有",
-    "英文释义": "Contractions of does not and do not."
+  "dog": {
+    "中文意思": "狗",
+    "英文释义": "A domesticated animal often kept as a pet."
+  },
+  "doing": {
+    "中文意思": "做；进行",
+    "英文释义": "Performing an action."
   },
   "dollars": {
     "中文意思": "美元",
     "英文释义": "Units of currency used in the United States and other countries."
+  },
+  "don't": {
+    "中文意思": "不；没有",
+    "英文释义": "Contractions of does not and do not."
+  },
+  "donald": {
+    "中文意思": "唐纳德",
+    "英文释义": "The given name of Donald Trump in this passage."
+  },
+  "down": {
+    "中文意思": "向下；处于较低位置",
+    "英文释义": "Towards a lower position."
+  },
+  "dr": {
+    "中文意思": "博士；医生（称谓）",
+    "英文释义": "An abbreviation of Doctor."
+  },
+  "drag": {
+    "中文意思": "拖累；阻力",
+    "英文释义": "Something that slows progress."
+  },
+  "dragging": {
+    "中文意思": "疲惫地行动；拖着",
+    "英文释义": "Moving slowly because of tiredness."
+  },
+  "drawbacks": {
+    "中文意思": "缺点；弊端",
+    "英文释义": "Disadvantages of something."
+  },
+  "dreaming": {
+    "中文意思": "做梦",
+    "英文释义": "Experiencing images and events while sleeping."
   },
   "drive": {
     "中文意思": "驾驶；使陷入某种状态",
@@ -2255,25 +1323,97 @@
     "中文意思": "驾驶；使陷入某种状态",
     "英文释义": "To operate a vehicle or cause someone to feel a certain way."
   },
+  "duck": {
+    "中文意思": "迅速离开；躲避",
+    "英文释义": "To move quickly out of sight or leave quietly."
+  },
+  "during": {
+    "中文意思": "在……期间",
+    "英文释义": "Throughout or at a time within a period."
+  },
   "dystopic": {
     "中文意思": "反乌托邦的",
     "英文释义": "Describing an imagined society marked by suffering and oppression."
+  },
+  "e": {
+    "中文意思": "R.E.M.中的E：眼睛",
+    "英文释义": "The initial of eye in R.E.M., rapid eye movement."
+  },
+  "each": {
+    "中文意思": "每一个",
+    "英文释义": "Every individual member of a group."
   },
   "earlier": {
     "中文意思": "更早；此前",
     "英文释义": "Before a particular time."
   },
+  "early": {
+    "中文意思": "早；提前",
+    "英文释义": "Before the usual or expected time."
+  },
   "earning": {
     "中文意思": "挣得",
     "英文释义": "Receiving money for work."
+  },
+  "earplugs": {
+    "中文意思": "耳塞",
+    "英文释义": "Small objects put in the ears to reduce noise."
+  },
+  "earth's": {
+    "中文意思": "地球的",
+    "英文释义": "Belonging or relating to the planet Earth."
+  },
+  "easier": {
+    "中文意思": "更容易的",
+    "英文释义": "Less difficult than something else."
+  },
+  "easy": {
+    "中文意思": "容易的；便捷的",
+    "英文释义": "Requiring little effort."
+  },
+  "education": {
+    "中文意思": "教育；受教育程度",
+    "英文释义": "The process or level of formal learning."
+  },
+  "effort": {
+    "中文意思": "努力；工夫",
+    "英文释义": "Physical or mental work needed to achieve something."
   },
   "efforts": {
     "中文意思": "努力",
     "英文释义": "Attempts involving energy or determination."
   },
+  "eight": {
+    "中文意思": "八",
+    "英文释义": "The number 8."
+  },
+  "eliminating": {
+    "中文意思": "取消；移除",
+    "英文释义": "Removing something completely."
+  },
+  "email": {
+    "中文意思": "电子邮件",
+    "英文释义": "A message sent electronically over a network."
+  },
+  "emailing": {
+    "中文意思": "发送电子邮件",
+    "英文释义": "Sending messages by email."
+  },
+  "emails": {
+    "中文意思": "电子邮件",
+    "英文释义": "Messages sent electronically over a network."
+  },
+  "embed": {
+    "中文意思": "嵌入",
+    "英文释义": "To build something into a larger system."
+  },
   "employee": {
     "中文意思": "雇员",
     "英文释义": "A person paid to work for someone else."
+  },
+  "employees": {
+    "中文意思": "雇员；员工",
+    "英文释义": "People paid to work for an organization."
   },
   "employer": {
     "中文意思": "雇主",
@@ -2287,17 +1427,73 @@
     "中文意思": "赋权；使能自主",
     "英文释义": "To give someone power, confidence, or control."
   },
+  "enabled": {
+    "中文意思": "使能够",
+    "英文释义": "Made it possible for someone to do something."
+  },
+  "enables": {
+    "中文意思": "使能够",
+    "英文释义": "Makes it possible for someone to do something."
+  },
+  "encode": {
+    "中文意思": "编码；写入",
+    "英文释义": "To represent information in a particular code or format."
+  },
+  "encoded": {
+    "中文意思": "经过编码的",
+    "英文释义": "Converted into a particular code or format."
+  },
   "end": {
     "中文意思": "结束",
     "英文释义": "To stop or reach a final point."
+  },
+  "enforce": {
+    "中文意思": "强制执行；落实",
+    "英文释义": "To make sure a rule or requirement is obeyed."
+  },
+  "engaged": {
+    "中文意思": "投入的；积极参与的",
+    "英文释义": "Actively involved and interested in an activity."
+  },
+  "engineers": {
+    "中文意思": "工程师",
+    "英文释义": "People who design or build technical systems."
+  },
+  "engines": {
+    "中文意思": "引擎",
+    "英文释义": "Systems that perform a function, such as finding information."
+  },
+  "enjoy": {
+    "中文意思": "享受；喜欢",
+    "英文释义": "To get pleasure from something."
+  },
+  "enough": {
+    "中文意思": "足够的；足够地",
+    "英文释义": "As much or as many as needed."
   },
   "ensures": {
     "中文意思": "确保",
     "英文释义": "Makes certain that something happens."
   },
+  "enter": {
+    "中文意思": "进入",
+    "英文释义": "To go into a place or state."
+  },
+  "especially": {
+    "中文意思": "尤其",
+    "英文释义": "To a greater degree than usual or than others."
+  },
+  "even": {
+    "中文意思": "甚至；连……都",
+    "英文释义": "Emphasizes something surprising or unexpected."
+  },
   "ever": {
     "中文意思": "曾经；在任何时候",
     "英文释义": "At any time."
+  },
+  "every": {
+    "中文意思": "每一个",
+    "英文释义": "All members of a group considered individually."
   },
   "everyday": {
     "中文意思": "日常的",
@@ -2307,9 +1503,25 @@
     "中文意思": "一切",
     "英文释义": "All things."
   },
+  "exactly": {
+    "中文意思": "确切地",
+    "英文释义": "Precisely or accurately."
+  },
+  "example": {
+    "中文意思": "例子",
+    "英文释义": "Something that illustrates an idea."
+  },
   "exhaustion": {
     "中文意思": "筋疲力尽",
     "英文释义": "Extreme physical or mental tiredness."
+  },
+  "existed": {
+    "中文意思": "存在",
+    "英文释义": "Was present or real."
+  },
+  "existing": {
+    "中文意思": "现有的；已经形成的",
+    "英文释义": "Already present or in place."
   },
   "expect": {
     "中文意思": "期待；预料",
@@ -2323,6 +1535,34 @@
     "中文意思": "经历；经验",
     "英文释义": "Knowledge gained through living or an event one undergoes."
   },
+  "experts": {
+    "中文意思": "专家",
+    "英文释义": "People with extensive knowledge or skill."
+  },
+  "exploited": {
+    "中文意思": "利用",
+    "英文释义": "Used a weakness or opportunity to one's advantage."
+  },
+  "express": {
+    "中文意思": "表达",
+    "英文释义": "To communicate feelings or ideas."
+  },
+  "eye": {
+    "中文意思": "眼睛",
+    "英文释义": "The organ used for seeing."
+  },
+  "facility": {
+    "中文意思": "能力；天赋",
+    "英文释义": "An ability to do something readily or skilfully."
+  },
+  "fact": {
+    "中文意思": "事实",
+    "英文释义": "Something known to be true."
+  },
+  "facts": {
+    "中文意思": "事实",
+    "英文释义": "Things that are known to be true."
+  },
   "fair": {
     "中文意思": "公平的",
     "英文释义": "Treating people reasonably and equally."
@@ -2334,6 +1574,14 @@
   "family": {
     "中文意思": "家庭",
     "英文释义": "A group of people related to one another."
+  },
+  "famous": {
+    "中文意思": "著名的",
+    "英文释义": "Known by many people."
+  },
+  "far": {
+    "中文意思": "远；很大程度上",
+    "英文释义": "At a great distance or to a considerable degree."
   },
   "fathers": {
     "中文意思": "父亲们",
@@ -2347,25 +1595,73 @@
     "中文意思": "害怕；恐惧",
     "英文释义": "An unpleasant feeling caused by perceived danger."
   },
+  "feature": {
+    "中文意思": "功能；特性",
+    "英文释义": "A distinctive part or function of a system."
+  },
   "federal": {
     "中文意思": "联邦的",
     "英文释义": "Relating to a national government in a federal system."
+  },
+  "feel": {
+    "中文意思": "感觉",
+    "英文释义": "To experience a physical or emotional state."
+  },
+  "felt": {
+    "中文意思": "感觉到（feel 的过去式）",
+    "英文释义": "Experienced a feeling or impression."
   },
   "fertile": {
     "中文意思": "有生育能力的",
     "英文释义": "Able to produce offspring."
   },
+  "few": {
+    "中文意思": "很少的；少数",
+    "英文释义": "A small number of people or things."
+  },
+  "field": {
+    "中文意思": "领域",
+    "英文释义": "An area of study or activity."
+  },
+  "figured": {
+    "中文意思": "想出；弄明白（见 figure out）",
+    "英文释义": "Worked something out."
+  },
   "fill": {
     "中文意思": "填满",
     "英文释义": "To make a space full."
+  },
+  "filling": {
+    "中文意思": "填满；装满",
+    "英文释义": "Putting something into a space until it is full."
+  },
+  "finances": {
+    "中文意思": "财务",
+    "英文释义": "Money and the way it is managed."
   },
   "financial": {
     "中文意思": "财务的；经济的",
     "英文释义": "Relating to money or finances."
   },
+  "find": {
+    "中文意思": "找到；发现",
+    "英文释义": "To discover or obtain something."
+  },
   "first": {
     "中文意思": "第一；首次",
     "英文释义": "Coming before all others."
+  },
+  "fit": {
+    "中文意思": "吻合；相符",
+    "英文释义": "To be consistent with something."
+  },
+  "five": {
+    "中文意思": "五",
+    "英文释义": "The number after four and before six."
+  },
+  "fix": {
+    "中文意思": "修复",
+    "英文释义": "To repair something or solve a problem."
   },
   "flexible": {
     "中文意思": "灵活的",
@@ -2375,9 +1671,21 @@
     "中文意思": "茁壮成长",
     "英文释义": "To grow or develop successfully."
   },
+  "flowers": {
+    "中文意思": "花",
+    "英文释义": "The parts of plants that produce seeds and often have petals."
+  },
+  "fog": {
+    "中文意思": "雾；迷糊状态",
+    "英文释义": "A cloud near the ground, or mental confusion."
+  },
   "follow": {
     "中文意思": "跟随；随后发生",
     "英文释义": "To come after or act according to something."
+  },
+  "for": {
+    "中文意思": "为了；对于",
+    "英文释义": "Indicates purpose, benefit, or duration."
   },
   "forced": {
     "中文意思": "被迫的",
@@ -2390,6 +1698,18 @@
   "found": {
     "中文意思": "发现",
     "英文释义": "The past form of find; discovered something."
+  },
+  "foundation": {
+    "中文意思": "地基；基础",
+    "英文释义": "The supporting base of a building or system."
+  },
+  "founder": {
+    "中文意思": "创始人",
+    "英文释义": "Someone who establishes an organization."
+  },
+  "four": {
+    "中文意思": "四",
+    "英文释义": "The number 4."
   },
   "freddy": {
     "中文意思": "弗雷迪",
@@ -2411,6 +1731,10 @@
     "中文意思": "朋友",
     "英文释义": "People with whom one has affection and trust."
   },
+  "from": {
+    "中文意思": "从；来自",
+    "英文释义": "Indicates an origin or starting point."
+  },
   "frustration": {
     "中文意思": "挫败；沮丧",
     "英文释义": "Annoyance caused by difficulties or unmet goals."
@@ -2427,6 +1751,10 @@
     "中文意思": "获得资金支持的",
     "英文释义": "Provided with money for a purpose."
   },
+  "furiously": {
+    "中文意思": "飞快地；猛烈地",
+    "英文释义": "With great energy or intensity."
+  },
   "further": {
     "中文意思": "此外；更进一步",
     "英文释义": "In addition or to a greater extent."
@@ -2435,29 +1763,109 @@
     "中文意思": "游戏；局面",
     "英文释义": "An activity with rules or a situation involving participants."
   },
+  "gas": {
+    "中文意思": "汽油；气体",
+    "英文释义": "Fuel for a vehicle, or a substance like air."
+  },
+  "gatherer": {
+    "中文意思": "采集者",
+    "英文释义": "Someone who collects food growing in the wild."
+  },
+  "general": {
+    "中文意思": "普遍的；总体的",
+    "英文释义": "Affecting most things or not limited to details."
+  },
+  "generally": {
+    "中文意思": "通常；一般地",
+    "英文释义": "In most cases or as a general rule."
+  },
   "generation": {
     "中文意思": "一代人",
     "英文释义": "People born and living around the same time."
+  },
+  "generator": {
+    "中文意思": "生成器",
+    "英文释义": "A tool that produces something."
   },
   "genes": {
     "中文意思": "基因",
     "英文释义": "Units of heredity passed from parents to offspring."
   },
+  "genetic": {
+    "中文意思": "遗传的；先天的",
+    "英文释义": "Relating to genes or, figuratively, to built-in characteristics."
+  },
+  "genuine": {
+    "中文意思": "真正的",
+    "英文释义": "Real and sincere rather than false."
+  },
+  "georgetown": {
+    "中文意思": "乔治敦大学",
+    "英文释义": "Georgetown University, a university in Washington, D.C."
+  },
   "gestures": {
     "中文意思": "动作；姿态",
     "英文释义": "Movements or actions expressing an intention or feeling."
+  },
+  "get": {
+    "中文意思": "得到；变得",
+    "英文释义": "To obtain something or enter a state."
+  },
+  "getting": {
+    "中文意思": "得到；变得",
+    "英文释义": "Obtaining something or entering a state."
+  },
+  "give": {
+    "中文意思": "给；提供",
+    "英文释义": "To provide something to someone."
+  },
+  "giving": {
+    "中文意思": "给；提供",
+    "英文释义": "Providing something to someone."
   },
   "glorification": {
     "中文意思": "美化；颂扬",
     "英文释义": "The act of presenting something as admirable or glorious."
   },
+  "go": {
+    "中文意思": "去；进行",
+    "英文释义": "To move somewhere or proceed."
+  },
   "go-to": {
     "中文意思": "首选的；惯用的",
     "英文释义": "Regularly chosen or relied upon."
   },
+  "goes": {
+    "中文意思": "去；进行",
+    "英文释义": "The present form of go with he, she, or it."
+  },
+  "going": {
+    "中文意思": "去；进行",
+    "英文释义": "Moving somewhere or proceeding."
+  },
+  "good": {
+    "中文意思": "好的",
+    "英文释义": "Of a high or satisfactory quality."
+  },
+  "google": {
+    "中文意思": "谷歌",
+    "英文释义": "The technology company named in the passage."
+  },
+  "got": {
+    "中文意思": "得到；变得",
+    "英文释义": "The past form of get."
+  },
   "government": {
     "中文意思": "政府",
     "英文释义": "The group of people governing a country or area."
+  },
+  "gradually": {
+    "中文意思": "逐渐地",
+    "英文释义": "Slowly over a period of time."
+  },
+  "grail": {
+    "中文意思": "圣杯；极难实现的目标",
+    "英文释义": "A cup in legend; figuratively, a highly desired goal."
   },
   "granted": {
     "中文意思": "诚然；承认",
@@ -2467,25 +1875,93 @@
     "中文意思": "使人恼火",
     "英文释义": "Caused irritation or annoyance."
   },
+  "great": {
+    "中文意思": "很好的；很大的",
+    "英文释义": "Very good or large in degree."
+  },
+  "greater": {
+    "中文意思": "更大的",
+    "英文释义": "Larger in amount or degree."
+  },
+  "groggier": {
+    "中文意思": "更昏沉的",
+    "英文释义": "More sleepy, weak, or unsteady."
+  },
   "grouped": {
     "中文意思": "分组",
     "英文释义": "Arranged into categories or collections."
+  },
+  "growing": {
+    "中文意思": "不断增长的",
+    "英文释义": "Increasing in size or amount."
+  },
+  "guess": {
+    "中文意思": "猜测",
+    "英文释义": "An answer or judgment made without complete information."
+  },
+  "guide": {
+    "中文意思": "指南",
+    "英文释义": "Information that explains how to do something."
+  },
+  "gut": {
+    "中文意思": "内心直觉（用于 gut instinct）",
+    "英文释义": "Intuitive rather than based on conscious reasoning."
+  },
+  "gyges": {
+    "中文意思": "古格斯",
+    "英文释义": "The figure associated with the ring in Plato's Republic."
+  },
+  "habits": {
+    "中文意思": "习惯",
+    "英文释义": "Things that people do regularly."
+  },
+  "hacker": {
+    "中文意思": "黑客",
+    "英文释义": "A person who gains unauthorised access to computer systems."
+  },
+  "hackers": {
+    "中文意思": "黑客",
+    "英文释义": "People who gain unauthorised access to computer systems."
+  },
+  "hacking": {
+    "中文意思": "黑客活动；非法入侵",
+    "英文释义": "Gaining unauthorised access to a computer system."
+  },
+  "had": {
+    "中文意思": "有过；曾经",
+    "英文释义": "The past form of have, also used in perfect tenses."
+  },
+  "half": {
+    "中文意思": "一半",
+    "英文释义": "One of two equal parts."
+  },
+  "half-hour": {
+    "中文意思": "半小时",
+    "英文释义": "A period of thirty minutes."
+  },
+  "hamster": {
+    "中文意思": "仓鼠",
+    "英文释义": "A small rodent often kept as a pet."
   },
   "handle": {
     "中文意思": "处理；触碰摆弄",
     "英文释义": "To deal with or physically touch something."
   },
-  "handmaids": {
-    "中文意思": "使女",
-    "英文释义": "Female servants; in this novel, women assigned to bear children."
-  },
   "handmaid's": {
     "中文意思": "使女的",
     "英文释义": "Belonging or relating to a female servant."
   },
+  "handmaids": {
+    "中文意思": "使女",
+    "英文释义": "Female servants; in this novel, women assigned to bear children."
+  },
   "happen": {
     "中文意思": "发生",
     "英文释义": "To take place."
+  },
+  "happens": {
+    "中文意思": "发生",
+    "英文释义": "Takes place."
   },
   "hard": {
     "中文意思": "艰难的；最艰难的",
@@ -2495,25 +1971,105 @@
     "中文意思": "艰难的；最艰难的",
     "英文释义": "Difficult or requiring much effort."
   },
+  "hardware": {
+    "中文意思": "硬件",
+    "英文释义": "The physical components of a computer system."
+  },
+  "harvard": {
+    "中文意思": "哈佛大学",
+    "英文释义": "Harvard University, a university in Cambridge, Massachusetts."
+  },
+  "has": {
+    "中文意思": "有；已经",
+    "英文释义": "The present form of have with he, she, or it."
+  },
+  "hate": {
+    "中文意思": "仇恨；仇恨言论",
+    "英文释义": "Intense hostility, including its expression in words."
+  },
+  "have": {
+    "中文意思": "有；已经",
+    "英文释义": "To possess; also used to form perfect tenses."
+  },
   "having": {
     "中文意思": "拥有；经历",
     "英文释义": "The present participle of have."
+  },
+  "he": {
+    "中文意思": "他",
+    "英文释义": "Refers to a male person already mentioned."
+  },
+  "health": {
+    "中文意思": "健康",
+    "英文释义": "The condition of the body and mind."
+  },
+  "heavily": {
+    "中文意思": "在很大程度上",
+    "英文释义": "To a great degree or extent."
+  },
+  "held": {
+    "中文意思": "使处于；限制（hold 的过去分词）",
+    "英文释义": "Kept in a particular position or condition."
+  },
+  "hell": {
+    "中文意思": "地狱；极糟的处境",
+    "英文释义": "An extremely unpleasant place or situation."
+  },
+  "help": {
+    "中文意思": "帮助",
+    "英文释义": "To make something easier or better."
   },
   "helped": {
     "中文意思": "帮助",
     "英文释义": "Made something easier or provided assistance."
   },
+  "helps": {
+    "中文意思": "帮助",
+    "英文释义": "Makes something easier or better."
+  },
   "her": {
     "中文意思": "她；她的",
     "英文释义": "Referring to a female person as object or possessor."
+  },
+  "here's": {
+    "中文意思": "这里是；以下是",
+    "英文释义": "The contracted form of here is."
   },
   "hide": {
     "中文意思": "隐藏",
     "英文释义": "To keep something out of sight or knowledge."
   },
+  "hiding": {
+    "中文意思": "隐藏；隐瞒",
+    "英文释义": "Keeping something out of sight or secret."
+  },
+  "high": {
+    "中文意思": "高的",
+    "英文释义": "At an elevated level or position."
+  },
   "higher": {
     "中文意思": "更高的；更崇高的",
     "英文释义": "At a greater level, rank, or value."
+  },
+  "highest": {
+    "中文意思": "最高的",
+    "英文释义": "At the greatest level or degree."
+  },
+  "highly": {
+    "中文意思": "高度地；非常",
+    "英文释义": "To a great degree."
+  },
+  "him": {
+    "中文意思": "他（宾格）",
+    "英文释义": "The object form of he."
+  },
+  "holding": {
+    "中文意思": "持有",
+    "英文释义": "Having or maintaining an opinion or belief."
+  },
+  "holy": {
+    "中文意思": "神圣的",
+    "英文释义": "Connected with religion or considered sacred."
   },
   "home": {
     "中文意思": "家",
@@ -2527,9 +2083,41 @@
     "中文意思": "马",
     "英文释义": "A large four-legged animal commonly ridden."
   },
+  "houdini": {
+    "中文意思": "胡迪尼",
+    "英文释义": "An illusionist and escape artist known for difficult escapes."
+  },
+  "hour": {
+    "中文意思": "小时",
+    "英文释义": "A period of sixty minutes."
+  },
+  "hours": {
+    "中文意思": "小时",
+    "英文释义": "Periods of sixty minutes."
+  },
   "house": {
     "中文意思": "房子",
     "英文释义": "A building where people live."
+  },
+  "how": {
+    "中文意思": "如何；怎样",
+    "英文释义": "Asks about the manner of doing something."
+  },
+  "howard": {
+    "中文意思": "霍华德",
+    "英文释义": "The given name of Howard Shrobe in the passage."
+  },
+  "however": {
+    "中文意思": "然而；不过",
+    "英文释义": "Introduces a contrasting statement."
+  },
+  "hunter": {
+    "中文意思": "猎人",
+    "英文释义": "A person who hunts animals."
+  },
+  "hunter-gatherer": {
+    "中文意思": "狩猎采集者",
+    "英文释义": "A person who lives by hunting animals and gathering wild food."
   },
   "hurricane": {
     "中文意思": "飓风",
@@ -2539,9 +2127,49 @@
     "中文意思": "丈夫",
     "英文释义": "A married male partner."
   },
+  "hyperlinks": {
+    "中文意思": "超链接",
+    "英文释义": "Clickable references that take users to other digital locations."
+  },
+  "i": {
+    "中文意思": "我",
+    "英文释义": "The speaker referring to himself or herself."
+  },
+  "i'd": {
+    "中文意思": "我曾；我会",
+    "英文释义": "The contraction of I had or I would."
+  },
+  "i'll": {
+    "中文意思": "我将",
+    "英文释义": "The contraction of I will."
+  },
+  "i'm": {
+    "中文意思": "我是；我处于……状态",
+    "英文释义": "The contracted form of I am."
+  },
+  "i've": {
+    "中文意思": "我已经",
+    "英文释义": "The contracted form of I have."
+  },
   "idea": {
     "中文意思": "想法；观念",
     "英文释义": "A thought, belief, or suggestion."
+  },
+  "ideal": {
+    "中文意思": "理想的",
+    "英文释义": "As good or suitable as possible."
+  },
+  "ideally": {
+    "中文意思": "理想情况下",
+    "英文释义": "In the best possible circumstances."
+  },
+  "ideas": {
+    "中文意思": "想法",
+    "英文释义": "Thoughts or suggestions."
+  },
+  "identification": {
+    "中文意思": "身份识别",
+    "英文释义": "The process of establishing who someone is."
   },
   "identities": {
     "中文意思": "身份；自我认同",
@@ -2551,13 +2179,29 @@
     "中文意思": "身份；自我认同",
     "英文释义": "Who a person is or how they understand themselves."
   },
+  "if": {
+    "中文意思": "如果",
+    "英文释义": "Introduces a condition or possibility."
+  },
+  "ignoring": {
+    "中文意思": "忽视",
+    "英文释义": "Deliberately paying no attention to something."
+  },
   "illness": {
     "中文意思": "疾病",
     "英文释义": "A state of being physically or mentally unwell."
   },
+  "immediately": {
+    "中文意思": "立即",
+    "英文释义": "Without delay."
+  },
   "imperative": {
     "中文意思": "必要之事；必然要求",
     "英文释义": "Something that is essential or urgently required."
+  },
+  "implementing": {
+    "中文意思": "实施",
+    "英文释义": "Putting a plan or system into effect."
   },
   "implies": {
     "中文意思": "意味着；暗示",
@@ -2567,6 +2211,38 @@
     "中文意思": "重要的",
     "英文释义": "Having great significance or value."
   },
+  "improve": {
+    "中文意思": "改善；提高",
+    "英文释义": "To become better or make something better."
+  },
+  "in": {
+    "中文意思": "在……里面；在……期间",
+    "英文释义": "Inside a place or within a period."
+  },
+  "inbox": {
+    "中文意思": "收件箱",
+    "英文释义": "The place where incoming email is stored."
+  },
+  "incentive": {
+    "中文意思": "激励；诱因",
+    "英文释义": "Something that encourages an action."
+  },
+  "inclusion": {
+    "中文意思": "纳入；普及",
+    "英文释义": "The act of making something accessible to more people."
+  },
+  "incorporate": {
+    "中文意思": "纳入；融入",
+    "英文释义": "To include something as part of a whole."
+  },
+  "increase": {
+    "中文意思": "增加",
+    "英文释义": "To become greater in number or amount."
+  },
+  "increased": {
+    "中文意思": "增加了的",
+    "英文释义": "Became greater or was made greater."
+  },
   "individual": {
     "中文意思": "个人的；单独的",
     "英文释义": "Relating to one person or thing."
@@ -2575,9 +2251,29 @@
     "中文意思": "推断；暗示的结论",
     "英文释义": "Conclusions drawn from evidence or reasoning."
   },
+  "influenced": {
+    "中文意思": "影响了；受影响的",
+    "英文释义": "Affected the way someone thinks or acts."
+  },
+  "information": {
+    "中文意思": "信息",
+    "英文释义": "Facts or knowledge about something."
+  },
+  "informed": {
+    "中文意思": "受……指导的；以……为依据的",
+    "英文释义": "Guided or shaped by knowledge or evidence."
+  },
+  "inherent": {
+    "中文意思": "固有的；内在的",
+    "英文释义": "Present as a natural or built-in part."
+  },
   "injected": {
     "中文意思": "注入；植入",
     "英文释义": "Introduced something into a body or system."
+  },
+  "inquiring": {
+    "中文意思": "询问的",
+    "英文释义": "Asking for information."
   },
   "insecure": {
     "中文意思": "不安全的",
@@ -2599,6 +2295,14 @@
     "中文意思": "代替；反而",
     "英文释义": "In place of something else."
   },
+  "instinct": {
+    "中文意思": "本能；直觉",
+    "英文释义": "A natural impulse or feeling that arises without deliberate thought."
+  },
+  "insulting": {
+    "中文意思": "辱骂；贬损",
+    "英文释义": "Speaking about something in a disrespectful way."
+  },
   "insurance": {
     "中文意思": "保险",
     "英文释义": "An arrangement providing financial protection against loss."
@@ -2607,53 +2311,177 @@
     "中文意思": "智能；智力",
     "英文释义": "The ability to learn, understand, and reason."
   },
+  "interested": {
+    "中文意思": "感兴趣的",
+    "英文释义": "Wanting to know or learn about something."
+  },
+  "interestingly": {
+    "中文意思": "有趣的是",
+    "英文释义": "Used to introduce something noteworthy or surprising."
+  },
   "internet": {
     "中文意思": "互联网",
     "英文释义": "The global network connecting computers."
+  },
+  "internet's": {
+    "中文意思": "互联网的",
+    "英文释义": "Belonging or relating to the internet."
   },
   "internet-connected": {
     "中文意思": "联网的",
     "英文释义": "Connected to the Internet."
   },
+  "interpret": {
+    "中文意思": "解读",
+    "英文释义": "To understand something in a particular way."
+  },
+  "into": {
+    "中文意思": "进入；变成",
+    "英文释义": "Towards the inside of something or into a new state."
+  },
+  "invention": {
+    "中文意思": "发明",
+    "英文释义": "Something newly devised or created."
+  },
+  "inventors": {
+    "中文意思": "发明者",
+    "英文释义": "People who create new devices or methods."
+  },
+  "invest": {
+    "中文意思": "投入；投资",
+    "英文释义": "To spend money, time, or effort for a future benefit."
+  },
+  "invisible": {
+    "中文意思": "看不见的",
+    "英文释义": "Unable to be seen."
+  },
+  "ip": {
+    "中文意思": "互联网协议",
+    "英文释义": "Internet Protocol, used for addressing and routing data."
+  },
+  "iq": {
+    "中文意思": "智商",
+    "英文释义": "Intelligence quotient, a measure used in intelligence testing."
+  },
+  "is": {
+    "中文意思": "是；处于",
+    "英文释义": "The present form of be with he, she, or it."
+  },
+  "isn't": {
+    "中文意思": "不是；不处于",
+    "英文释义": "The contracted form of is not."
+  },
+  "issue": {
+    "中文意思": "问题",
+    "英文释义": "A subject or problem that needs attention."
+  },
+  "issues": {
+    "中文意思": "议题；问题",
+    "英文释义": "Subjects that people discuss or disagree about."
+  },
+  "it": {
+    "中文意思": "它；这件事",
+    "英文释义": "Refers to a thing, situation, or idea."
+  },
+  "it's": {
+    "中文意思": "它是；它已经",
+    "英文释义": "The contracted form of it is or it has."
+  },
   "its": {
     "中文意思": "它的",
     "英文释义": "Belonging to a thing or animal previously mentioned."
   },
-  "i'd": {
-    "中文意思": "我曾；我会",
-    "英文释义": "The contraction of I had or I would."
+  "itself": {
+    "中文意思": "它自身",
+    "英文释义": "A reflexive pronoun referring back to a thing or system."
   },
-  "i'll": {
-    "中文意思": "我将",
-    "英文释义": "The contraction of I will."
+  "jerome": {
+    "中文意思": "杰罗姆（人名）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
   },
   "jersey": {
     "中文意思": "泽西；新泽西地名的一部分",
     "英文释义": "Used in New Jersey, a state on the east coast of the United States."
   },
+  "job": {
+    "中文意思": "工作",
+    "英文释义": "Regular paid work or a particular task."
+  },
+  "josh": {
+    "中文意思": "乔希（人名）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
   "joy": {
     "中文意思": "快乐",
     "英文释义": "A feeling of great happiness."
+  },
+  "justify": {
+    "中文意思": "为……辩护；证明……有理",
+    "英文释义": "To give reasons showing why something is reasonable or right."
+  },
+  "keep": {
+    "中文意思": "保持",
+    "英文释义": "To continue in a particular state."
   },
   "kids": {
     "中文意思": "孩子们",
     "英文释义": "An informal word for children."
   },
+  "knee-deep": {
+    "中文意思": "深陷的；深度卷入的",
+    "英文释义": "Deeply involved in or overwhelmed by something."
+  },
+  "knew": {
+    "中文意思": "知道（know 的过去式）",
+    "英文释义": "Had knowledge or awareness of something."
+  },
+  "know": {
+    "中文意思": "知道；了解",
+    "英文释义": "To have information about something."
+  },
   "knows": {
     "中文意思": "知道",
     "英文释义": "Has knowledge or awareness of something."
+  },
+  "l": {
+    "中文意思": "U.C.L.A.中的L：洛杉矶的Los",
+    "英文释义": "The initial of Los in Los Angeles, part of U.C.L.A."
+  },
+  "label": {
+    "中文意思": "称为；贴标签",
+    "英文释义": "To describe something using a particular term."
+  },
+  "lack": {
+    "中文意思": "缺乏",
+    "英文释义": "The absence or shortage of something."
   },
   "language": {
     "中文意思": "语言；措辞",
     "英文释义": "A system of communication or a way of expressing ideas."
   },
+  "laptops": {
+    "中文意思": "笔记本电脑",
+    "英文释义": "Portable computers with attached screens and keyboards."
+  },
   "larger": {
     "中文意思": "更大的",
     "英文释义": "Greater in size, extent, or scope."
   },
+  "late": {
+    "中文意思": "晚；迟",
+    "英文释义": "After the usual or expected time."
+  },
+  "launched": {
+    "中文意思": "推出；发起",
+    "英文释义": "Introduced or started something new."
+  },
   "lead": {
     "中文意思": "导致；引导",
     "英文释义": "To result in something or guide someone."
+  },
+  "leaders": {
+    "中文意思": "领导者",
+    "英文释义": "People who guide or manage others."
   },
   "leaning": {
     "中文意思": "倾向；靠向",
@@ -2663,17 +2491,45 @@
     "中文意思": "学习；得知",
     "英文释义": "To gain knowledge or understanding."
   },
+  "learning": {
+    "中文意思": "学习",
+    "英文释义": "The process of gaining knowledge or skills."
+  },
+  "leave": {
+    "中文意思": "离开",
+    "英文释义": "To go away from a place."
+  },
   "leaves": {
     "中文意思": "留下；离开",
     "英文释义": "Goes away from or allows something to remain."
+  },
+  "leaving": {
+    "中文意思": "离开",
+    "英文释义": "Going away from a place."
+  },
+  "left-wing": {
+    "中文意思": "左翼的",
+    "英文释义": "Supporting political ideas associated with the left."
   },
   "legislate": {
     "中文意思": "立法",
     "英文释义": "To make laws about something."
   },
+  "leisure": {
+    "中文意思": "闲暇；休闲",
+    "英文释义": "Time free from work or other duties."
+  },
   "less": {
     "中文意思": "更少",
     "英文释义": "A smaller amount or degree."
+  },
+  "levels": {
+    "中文意思": "层级",
+    "英文释义": "Layers or stages within a system."
+  },
+  "life": {
+    "中文意思": "生活；生命",
+    "英文释义": "The experience of being alive."
   },
   "lifted": {
     "中文意思": "消散；抬起",
@@ -2683,9 +2539,29 @@
     "中文意思": "灯",
     "英文释义": "Devices that produce illumination."
   },
+  "like": {
+    "中文意思": "像；喜欢",
+    "英文释义": "Similar to something, or to find something pleasant."
+  },
+  "limited": {
+    "中文意思": "有限的；受限制的",
+    "英文释义": "Restricted in amount, extent or availability."
+  },
   "linguistic": {
     "中文意思": "语言的",
     "英文释义": "Relating to language."
+  },
+  "linking": {
+    "中文意思": "建立链接",
+    "英文释义": "Connecting a page or resource to another by a link."
+  },
+  "links": {
+    "中文意思": "链接",
+    "英文释义": "References that connect digital pages or resources."
+  },
+  "little": {
+    "中文意思": "少量的",
+    "英文释义": "Small in amount."
   },
   "lives": {
     "中文意思": "生活；生命；活着的",
@@ -2699,9 +2575,29 @@
     "中文意思": "位置",
     "英文释义": "The place where something is situated."
   },
+  "log": {
+    "中文意思": "登录；注销（用于 log off）",
+    "英文释义": "To enter or leave a computer session, depending on the phrase."
+  },
   "logic": {
     "中文意思": "逻辑",
     "英文释义": "Reasoning used to reach a conclusion."
+  },
+  "long": {
+    "中文意思": "长的；长久地",
+    "英文释义": "Continuing for a large amount of time."
+  },
+  "longer": {
+    "中文意思": "更长的；更久地",
+    "英文释义": "Continuing for more time."
+  },
+  "look": {
+    "中文意思": "看；看待",
+    "英文释义": "To direct your eyes or consider something."
+  },
+  "looked": {
+    "中文意思": "看了；研究了",
+    "英文释义": "Directed attention towards or examined something."
   },
   "looking": {
     "中文意思": "看；期待",
@@ -2711,6 +2607,10 @@
     "中文意思": "许多",
     "英文释义": "A large amount or number."
   },
+  "loud": {
+    "中文意思": "大声的；响亮的",
+    "英文释义": "Expressed with a strong or clearly audible voice."
+  },
   "love": {
     "中文意思": "爱；充满爱的",
     "英文释义": "Deep affection or showing such affection."
@@ -2719,21 +2619,73 @@
     "中文意思": "爱；充满爱的",
     "英文释义": "Deep affection or showing such affection."
   },
+  "lowest": {
+    "中文意思": "最低的；最底层的",
+    "英文释义": "At the bottom of a hierarchy."
+  },
+  "lunch": {
+    "中文意思": "午餐",
+    "英文释义": "A meal eaten around the middle of the day."
+  },
+  "m": {
+    "中文意思": "R.E.M.中的M；或p.m.中的m",
+    "英文释义": "An initial in R.E.M. (movement) or p.m. (meridiem, after noon)."
+  },
+  "macedonian": {
+    "中文意思": "马其顿的；马其顿人",
+    "英文释义": "Relating to Macedonia or a person from there."
+  },
+  "machines": {
+    "中文意思": "机器",
+    "英文释义": "Devices that perform work."
+  },
+  "made": {
+    "中文意思": "使；制作了",
+    "英文释义": "The past form of make."
+  },
   "major": {
     "中文意思": "主要的；重大的",
     "英文释义": "Important or large in scale."
+  },
+  "make": {
+    "中文意思": "使；制作",
+    "英文释义": "To cause something or create it."
+  },
+  "making": {
+    "中文意思": "做；使成为",
+    "英文释义": "The present participle of make."
   },
   "male": {
     "中文意思": "男性的",
     "英文释义": "Relating to men or boys."
   },
+  "malevolent": {
+    "中文意思": "恶意的",
+    "英文释义": "Intending to cause harm."
+  },
   "malware": {
     "中文意思": "恶意软件",
     "英文释义": "Software designed to damage systems or steal information."
   },
+  "manage": {
+    "中文意思": "管理；处理",
+    "英文释义": "To control or organize something."
+  },
+  "managers": {
+    "中文意思": "管理者；经理",
+    "英文释义": "People responsible for directing a team or organization."
+  },
+  "many": {
+    "中文意思": "许多",
+    "英文释义": "A large number of people or things."
+  },
   "margaret": {
     "中文意思": "玛格丽特",
     "英文释义": "A female given name, here referring to Margaret Atwood."
+  },
+  "marketplace": {
+    "中文意思": "市场；交易场所",
+    "英文释义": "A place or system where people buy and sell things."
   },
   "married": {
     "中文意思": "已婚的；结婚的",
@@ -2747,21 +2699,77 @@
     "中文意思": "殉道者；自我牺牲者",
     "英文释义": "People who suffer or sacrifice themselves for a cause."
   },
+  "marvelous": {
+    "中文意思": "了不起的",
+    "英文释义": "Extremely good or impressive."
+  },
+  "mask": {
+    "中文意思": "眼罩；遮盖物",
+    "英文释义": "A covering worn over part of the face."
+  },
+  "match": {
+    "中文意思": "与……相符",
+    "英文释义": "To agree or be consistent with something."
+  },
   "maternal": {
     "中文意思": "母亲的",
     "英文释义": "Relating to a mother or motherhood."
+  },
+  "mathematical": {
+    "中文意思": "数学的",
+    "英文释义": "Related to mathematics."
+  },
+  "matter": {
+    "中文意思": "事情；问题",
+    "英文释义": "A subject, issue, or question."
+  },
+  "may": {
+    "中文意思": "可能",
+    "英文释义": "Used to show that something is possible."
   },
   "me": {
     "中文意思": "我",
     "英文释义": "The object form of I."
   },
+  "mean": {
+    "中文意思": "意味着",
+    "英文释义": "To express or indicate something."
+  },
   "meaningful": {
     "中文意思": "有意义的",
     "英文释义": "Having importance or purpose."
   },
+  "measure": {
+    "中文意思": "衡量",
+    "英文释义": "To find the size, amount, or degree of something."
+  },
+  "medical": {
+    "中文意思": "医疗的",
+    "英文释义": "Relating to medicine or health care."
+  },
   "medicine": {
     "中文意思": "药物；治疗",
     "英文释义": "A substance or treatment used to address illness."
+  },
+  "medin": {
+    "中文意思": "梅丁",
+    "英文释义": "The surname of Milo Medin, the Google engineer named here."
+  },
+  "mednick": {
+    "中文意思": "梅德尼克（姓氏）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
+  "meetings": {
+    "中文意思": "会议",
+    "英文释义": "Events where people gather to discuss something."
+  },
+  "members": {
+    "中文意思": "成员；会员",
+    "英文释义": "People who belong to a group."
+  },
+  "memos": {
+    "中文意思": "备忘录",
+    "英文释义": "Short written messages used in an organization."
   },
   "men": {
     "中文意思": "男人们",
@@ -2779,19 +2787,71 @@
     "中文意思": "混乱的",
     "英文释义": "Untidy, complicated, or difficult to organize."
   },
+  "metadata": {
+    "中文意思": "元数据",
+    "英文释义": "Data that describes other data."
+  },
+  "might": {
+    "中文意思": "可能",
+    "英文释义": "Expresses possibility."
+  },
+  "milo": {
+    "中文意思": "米洛",
+    "英文释义": "The given name of Milo Medin in the passage."
+  },
+  "minute": {
+    "中文意思": "分钟",
+    "英文释义": "A period of sixty seconds."
+  },
+  "minutes": {
+    "中文意思": "分钟",
+    "英文释义": "Periods of sixty seconds."
+  },
+  "miraculous": {
+    "中文意思": "奇迹般的",
+    "英文释义": "So remarkable that it seems like a miracle."
+  },
   "misses": {
     "中文意思": "错过；未能领会",
     "英文释义": "Fails to reach, notice, or understand something."
+  },
+  "mistake": {
+    "中文意思": "错误",
+    "英文释义": "An incorrect action, judgment, or idea."
+  },
+  "mit": {
+    "中文意思": "麻省理工学院",
+    "英文释义": "Massachusetts Institute of Technology."
+  },
+  "mobility": {
+    "中文意思": "流动性；地位变动能力",
+    "英文释义": "The ability to move between places or social positions."
+  },
+  "models": {
+    "中文意思": "模式",
+    "英文释义": "Systems or patterns for operating something."
   },
   "month": {
     "中文意思": "月",
     "英文释义": "One of the twelve periods of a year."
   },
-  "mother": {
-    "中文意思": "母亲",
-    "英文释义": "A female parent."
+  "moral": {
+    "中文意思": "合乎道德的",
+    "英文释义": "Consistent with principles of right and wrong."
   },
-  "mothers": {
+  "more": {
+    "中文意思": "更多；更",
+    "英文释义": "A greater amount or degree."
+  },
+  "morning": {
+    "中文意思": "早晨；上午",
+    "英文释义": "The early part of the day before noon."
+  },
+  "most": {
+    "中文意思": "最多；最",
+    "英文释义": "The greatest amount or degree."
+  },
+  "mother": {
     "中文意思": "母亲",
     "英文释义": "A female parent."
   },
@@ -2799,9 +2859,61 @@
     "中文意思": "母职；做母亲的身份",
     "英文释义": "The state and experience of being a mother."
   },
+  "mothers": {
+    "中文意思": "母亲",
+    "英文释义": "A female parent."
+  },
+  "mountain": {
+    "中文意思": "大量（用于 a mountain of）",
+    "英文释义": "A very large amount of something."
+  },
+  "movement": {
+    "中文意思": "运动；移动",
+    "英文释义": "The act of changing position."
+  },
+  "mr": {
+    "中文意思": "先生（称谓）",
+    "英文释义": "A title used before a man’s name."
+  },
+  "much": {
+    "中文意思": "许多；很",
+    "英文释义": "A large amount or degree."
+  },
+  "must": {
+    "中文意思": "必须；一定",
+    "英文释义": "Expresses necessity or a strong conclusion."
+  },
+  "my": {
+    "中文意思": "我的",
+    "英文释义": "Belonging to the speaker."
+  },
   "namely": {
     "中文意思": "即；也就是",
     "英文释义": "Used to introduce specific details."
+  },
+  "namibia": {
+    "中文意思": "纳米比亚",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
+  "nap": {
+    "中文意思": "小睡",
+    "英文释义": "A short sleep, especially during the day."
+  },
+  "napping": {
+    "中文意思": "小睡",
+    "英文释义": "Sleeping for a short time, usually during the day."
+  },
+  "naps": {
+    "中文意思": "小睡",
+    "英文释义": "Short periods of sleep, usually during the day."
+  },
+  "nature": {
+    "中文意思": "自然；《自然》（期刊名）",
+    "英文释义": "The natural world; here, part of the journal title Nature Neuroscience."
+  },
+  "navigated": {
+    "中文意思": "浏览；在其中移动",
+    "英文释义": "Moved through a site or system to find things."
   },
   "nearby": {
     "中文意思": "附近的",
@@ -2811,6 +2923,26 @@
     "中文意思": "几乎；将近",
     "英文释义": "Almost but not completely."
   },
+  "need": {
+    "中文意思": "需要",
+    "英文释义": "To require something."
+  },
+  "negotiate": {
+    "中文意思": "谈判；协商",
+    "英文释义": "To discuss terms in order to reach an agreement."
+  },
+  "negotiated": {
+    "中文意思": "通过协商取得",
+    "英文释义": "Discussed and arranged terms."
+  },
+  "nervous": {
+    "中文意思": "紧张不安的",
+    "英文释义": "Anxious or easily unsettled."
+  },
+  "net": {
+    "中文意思": "互联网",
+    "英文释义": "An informal name for the internet."
+  },
   "network": {
     "中文意思": "网络",
     "英文释义": "A system of connected people, devices, or things."
@@ -2819,13 +2951,65 @@
     "中文意思": "网络",
     "英文释义": "A system of connected people, devices, or things."
   },
+  "neuroscience": {
+    "中文意思": "神经科学",
+    "英文释义": "The scientific study of the nervous system."
+  },
+  "never": {
+    "中文意思": "从不；绝不",
+    "英文释义": "Not at any time."
+  },
   "new": {
     "中文意思": "新的",
     "英文释义": "Recently created or different from before."
   },
+  "next": {
+    "中文意思": "下一个的",
+    "英文释义": "Immediately following in time or order."
+  },
+  "night": {
+    "中文意思": "夜晚",
+    "英文释义": "The period between evening and morning."
+  },
+  "night's": {
+    "中文意思": "一夜的",
+    "英文释义": "Belonging or relating to one night."
+  },
+  "nights": {
+    "中文意思": "夜晚",
+    "英文释义": "Periods between evening and morning."
+  },
+  "no": {
+    "中文意思": "没有；不",
+    "英文释义": "Expresses absence or a negative answer."
+  },
+  "nobody": {
+    "中文意思": "没有人",
+    "英文释义": "No person."
+  },
+  "nod": {
+    "中文意思": "点头；打盹",
+    "英文释义": "To lower the head briefly; in nod off, to fall asleep."
+  },
+  "non": {
+    "中文意思": "非；不",
+    "英文释义": "A prefix meaning not."
+  },
+  "non-rapid": {
+    "中文意思": "非快速的",
+    "英文释义": "Not rapid, as in non-rapid eye movement sleep."
+  },
   "nor": {
     "中文意思": "也不",
     "英文释义": "Used to introduce another negative possibility."
+  },
+  "not": {
+    "中文意思": "不",
+    "英文释义": "Makes a statement negative."
+  },
+  "notion": {
+    "中文意思": "概念；观念",
+    "英文释义": "An idea or understanding of something."
   },
   "novel": {
     "中文意思": "小说",
@@ -2835,13 +3019,45 @@
     "中文意思": "现在",
     "英文释义": "At the present time."
   },
+  "nuclear": {
+    "中文意思": "核能的；核的",
+    "英文释义": "Related to atomic energy or the nucleus of an atom."
+  },
+  "obstructed": {
+    "中文意思": "阻碍",
+    "英文释义": "Blocked or made progress more difficult."
+  },
   "ocean": {
     "中文意思": "海洋",
     "英文释义": "A very large body of salt water."
   },
+  "of": {
+    "中文意思": "……的",
+    "英文释义": "Shows a relationship between things."
+  },
+  "off": {
+    "中文意思": "离开；停止",
+    "英文释义": "Away from a place or no longer operating."
+  },
+  "offer": {
+    "中文意思": "提供",
+    "英文释义": "To make something available."
+  },
   "offers": {
     "中文意思": "提供",
     "英文释义": "Makes something available."
+  },
+  "office": {
+    "中文意思": "办公室",
+    "英文释义": "A place where administrative work is done."
+  },
+  "offshoots": {
+    "中文意思": "衍生事物",
+    "英文释义": "Things that develop from something else."
+  },
+  "often": {
+    "中文意思": "经常",
+    "英文释义": "Many times or regularly."
   },
   "oh": {
     "中文意思": "哦",
@@ -2851,17 +3067,69 @@
     "中文意思": "老式的",
     "英文释义": "Characteristic of an earlier time."
   },
+  "on": {
+    "中文意思": "在……上；在……时",
+    "英文释义": "Indicates a surface, activity, or time."
+  },
   "once": {
     "中文意思": "一旦；曾经",
     "英文释义": "As soon as, or at a time in the past."
+  },
+  "one": {
+    "中文意思": "一；一个人",
+    "英文释义": "The number 1 or an unspecified person."
+  },
+  "one-way": {
+    "中文意思": "单向的",
+    "英文释义": "Operating in only one direction."
   },
   "online": {
     "中文意思": "在线的",
     "英文释义": "Connected to or available through the Internet."
   },
+  "only": {
+    "中文意思": "仅仅；唯一的",
+    "英文释义": "No more than; without others."
+  },
+  "opinions": {
+    "中文意思": "观点",
+    "英文释义": "Personal judgments or beliefs."
+  },
+  "opportunity": {
+    "中文意思": "机会",
+    "英文释义": "A favorable occasion or possibility to do something."
+  },
+  "opposed": {
+    "中文意思": "相对的；反对的",
+    "英文释义": "Contrasted with or against something."
+  },
   "opt": {
     "中文意思": "选择",
     "英文释义": "To choose a particular course of action."
+  },
+  "or": {
+    "中文意思": "或者",
+    "英文释义": "Introduces an alternative."
+  },
+  "oratory": {
+    "中文意思": "演讲术",
+    "英文释义": "The art of formal public speaking."
+  },
+  "origin": {
+    "中文意思": "来源；起点",
+    "英文释义": "The source or starting point of something."
+  },
+  "original": {
+    "中文意思": "最初的；原始的",
+    "英文释义": "Existing from the beginning."
+  },
+  "originating": {
+    "中文意思": "发出的；起始的",
+    "英文释义": "Serving as the source or starting point."
+  },
+  "origins": {
+    "中文意思": "来源；起源",
+    "英文释义": "Sources or starting points."
   },
   "other": {
     "中文意思": "其他的；其他人",
@@ -2871,6 +3139,14 @@
     "中文意思": "其他的；其他人",
     "英文释义": "Different or additional people or things."
   },
+  "our": {
+    "中文意思": "我们的",
+    "英文释义": "Belonging to the speaker and others."
+  },
+  "out": {
+    "中文意思": "出去；在外面",
+    "英文释义": "Away from the inside of a place."
+  },
   "outside": {
     "中文意思": "在外面",
     "英文释义": "Beyond the limits of a place."
@@ -2878,6 +3154,18 @@
   "outweigh": {
     "中文意思": "超过；比……更重要",
     "英文释义": "To be greater in importance or effect."
+  },
+  "outweighed": {
+    "中文意思": "超过；比……更重要",
+    "英文释义": "Were greater in importance or effect."
+  },
+  "overflow": {
+    "中文意思": "泛滥；溢出",
+    "英文释义": "An amount that exceeds available capacity."
+  },
+  "overnight": {
+    "中文意思": "整夜的；在夜间",
+    "英文释义": "During or lasting through the night."
   },
   "own": {
     "中文意思": "自己的；拥有；认领",
@@ -2887,11 +3175,27 @@
     "中文意思": "自己的；拥有；认领",
     "英文释义": "To possess something or accept responsibility for it."
   },
-  "paid": {
-    "中文意思": "支付；有报酬的",
-    "英文释义": "To give money for work, goods, or services."
+  "p": {
+    "中文意思": "p.m.中的p：午后",
+    "英文释义": "The initial of post in p.m., meaning after noon."
   },
-  "pays": {
+  "p.m.": {
+    "中文意思": "下午；午后",
+    "英文释义": "Used for times after noon and before midnight."
+  },
+  "packet": {
+    "中文意思": "数据包",
+    "英文释义": "A unit of data sent across a network."
+  },
+  "packet-switched": {
+    "中文意思": "采用分组交换的",
+    "英文释义": "Sending data as separately routed packets."
+  },
+  "packets": {
+    "中文意思": "数据包",
+    "英文释义": "Units of data sent across a network."
+  },
+  "paid": {
     "中文意思": "支付；有报酬的",
     "英文释义": "To give money for work, goods, or services."
   },
@@ -2923,6 +3227,30 @@
     "中文意思": "伴侣；合作伙伴",
     "英文释义": "People sharing a relationship or working together."
   },
+  "passwords": {
+    "中文意思": "密码",
+    "英文释义": "Secret strings used to gain access to a system."
+  },
+  "past": {
+    "中文意思": "过去的",
+    "英文释义": "Having happened before the present."
+  },
+  "payments": {
+    "中文意思": "付款；款项",
+    "英文释义": "Transfers of money for goods or services."
+  },
+  "pays": {
+    "中文意思": "支付；有报酬的",
+    "英文释义": "To give money for work, goods, or services."
+  },
+  "people": {
+    "中文意思": "人们",
+    "英文释义": "Human beings considered as a group."
+  },
+  "people's": {
+    "中文意思": "人们的",
+    "英文释义": "Belonging to or held by people."
+  },
   "perceived": {
     "中文意思": "被认为的；感知到的",
     "英文释义": "Understood or regarded in a particular way."
@@ -2931,13 +3259,33 @@
     "中文意思": "百分之",
     "英文释义": "A number or proportion out of one hundred."
   },
+  "perfect": {
+    "中文意思": "完美的",
+    "英文释义": "As good or suitable as possible."
+  },
   "perform": {
     "中文意思": "履行；执行",
     "英文释义": "To carry out a task or action."
   },
+  "performance": {
+    "中文意思": "表现；绩效",
+    "英文释义": "How well a person carries out an activity."
+  },
+  "performances": {
+    "中文意思": "演出",
+    "英文释义": "Presentations of artistic works to an audience."
+  },
   "perhaps": {
     "中文意思": "也许",
     "英文释义": "Possibly or maybe."
+  },
+  "period": {
+    "中文意思": "一段时间",
+    "英文释义": "A length of time."
+  },
+  "permitted": {
+    "中文意思": "使成为可能；允许",
+    "英文释义": "Allowed something to happen."
   },
   "persist": {
     "中文意思": "持续存在",
@@ -2947,9 +3295,21 @@
     "中文意思": "个人的",
     "英文释义": "Relating to a particular person."
   },
+  "personally": {
+    "中文意思": "就个人而言；亲自",
+    "英文释义": "From one's own point of view or by oneself."
+  },
   "photos": {
     "中文意思": "照片",
     "英文释义": "Images made with a camera."
+  },
+  "phrases": {
+    "中文意思": "短语；措辞",
+    "英文释义": "Groups of words used together as expressions."
+  },
+  "piece": {
+    "中文意思": "一项；一份",
+    "英文释义": "One item or unit of something."
   },
   "place": {
     "中文意思": "地方；位置",
@@ -2959,6 +3319,14 @@
     "中文意思": "计划了",
     "英文释义": "Decided in advance what to do."
   },
+  "plato": {
+    "中文意思": "柏拉图",
+    "英文释义": "The ancient Greek philosopher named in the passage."
+  },
+  "plato's": {
+    "中文意思": "柏拉图的",
+    "英文释义": "Belonging to or written by Plato."
+  },
   "playing": {
     "中文意思": "玩耍",
     "英文释义": "Taking part in an activity for enjoyment."
@@ -2967,6 +3335,10 @@
     "中文意思": "点；信息项",
     "英文释义": "Individual items, details, or units."
   },
+  "poisoned": {
+    "中文意思": "毒害；破坏",
+    "英文释义": "Seriously harmed the quality of something."
+  },
   "policies": {
     "中文意思": "政策；方针",
     "英文释义": "A stated plan or set of rules guiding decisions."
@@ -2974,6 +3346,42 @@
   "policy": {
     "中文意思": "政策；方针",
     "英文释义": "A stated plan or set of rules guiding decisions."
+  },
+  "political": {
+    "中文意思": "政治的",
+    "英文释义": "Related to politics or government."
+  },
+  "politics": {
+    "中文意思": "政治立场；政治",
+    "英文释义": "Political beliefs or activities."
+  },
+  "pontificating": {
+    "中文意思": "自以为是地说教",
+    "英文释义": "Giving opinions in a pompous or overly authoritative way."
+  },
+  "pope": {
+    "中文意思": "教皇",
+    "英文释义": "The head of the Roman Catholic Church."
+  },
+  "posed": {
+    "中文意思": "造成；带来",
+    "英文释义": "Presented or created a risk or problem."
+  },
+  "possibility": {
+    "中文意思": "可能性",
+    "英文释义": "A chance that something could happen."
+  },
+  "potential": {
+    "中文意思": "可能性；潜力",
+    "英文释义": "The capacity for something to happen or develop."
+  },
+  "power": {
+    "中文意思": "力量；恢复精力的",
+    "英文释义": "Energy or ability; in power nap, intended to restore alertness."
+  },
+  "powers": {
+    "中文意思": "能力",
+    "英文释义": "Abilities to do particular things."
   },
   "preclude": {
     "中文意思": "排除；妨碍",
@@ -2987,6 +3395,10 @@
     "中文意思": "怀孕的",
     "英文释义": "Having a developing baby in the body."
   },
+  "prejudices": {
+    "中文意思": "偏见",
+    "英文释义": "Preconceived opinions often held without adequate evidence."
+  },
   "prevented": {
     "中文意思": "阻止",
     "英文释义": "Stopped something from happening."
@@ -2994,6 +3406,10 @@
   "price": {
     "中文意思": "价格；代价",
     "英文释义": "The amount paid or something given up for a result."
+  },
+  "principal": {
+    "中文意思": "首席的；主要的",
+    "英文释义": "First in importance or rank."
   },
   "priorities": {
     "中文意思": "优先事项",
@@ -3015,6 +3431,22 @@
     "中文意思": "特权；可贵的机会",
     "英文释义": "A special advantage or an opportunity regarded as an honor."
   },
+  "probably": {
+    "中文意思": "很可能；大概",
+    "英文释义": "With a high degree of likelihood."
+  },
+  "problem": {
+    "中文意思": "问题",
+    "英文释义": "A difficulty that needs a solution."
+  },
+  "problems": {
+    "中文意思": "问题",
+    "英文释义": "Difficulties that need solutions."
+  },
+  "processing": {
+    "中文意思": "处理",
+    "英文释义": "The act of working with information."
+  },
   "proclaimed": {
     "中文意思": "宣告",
     "英文释义": "Announced publicly or emphatically."
@@ -3027,9 +3459,25 @@
     "中文意思": "繁衍；生育",
     "英文释义": "Producing offspring."
   },
+  "producers": {
+    "中文意思": "制作人；生产者",
+    "英文释义": "People or organisations that create material."
+  },
   "professional": {
     "中文意思": "职业的",
     "英文释义": "Relating to paid work requiring skills or training."
+  },
+  "professor": {
+    "中文意思": "教授",
+    "英文释义": "A senior university teacher or researcher."
+  },
+  "programmers": {
+    "中文意思": "程序员",
+    "英文释义": "People who write computer programs."
+  },
+  "programming": {
+    "中文意思": "编程",
+    "英文释义": "Writing instructions for computers."
   },
   "promise": {
     "中文意思": "承诺",
@@ -3039,17 +3487,49 @@
     "中文意思": "承诺",
     "英文释义": "An assurance that something will be done."
   },
+  "promoted": {
+    "中文意思": "晋升的；得到提拔的",
+    "英文释义": "Moved to a higher rank or position at work."
+  },
+  "promotion": {
+    "中文意思": "晋升；提拔",
+    "英文释义": "A move to a higher rank or position."
+  },
+  "properties": {
+    "中文意思": "属性；特性",
+    "英文释义": "Characteristics of a thing or system."
+  },
   "protect": {
     "中文意思": "保护",
     "英文释义": "To keep someone or something safe."
+  },
+  "protected": {
+    "中文意思": "保护；保留",
+    "英文释义": "Kept something safe or intact."
+  },
+  "proud": {
+    "中文意思": "自豪的",
+    "英文释义": "Feeling pleased about an achievement or quality."
+  },
+  "proven": {
+    "中文意思": "证明了（prove 的过去分词）",
+    "英文释义": "Shown to be true."
+  },
+  "provider's": {
+    "中文意思": "提供商的",
+    "英文释义": "Belonging or relating to a provider."
   },
   "providers": {
     "中文意思": "服务提供商",
     "英文释义": "People or organizations supplying services."
   },
-  "provider's": {
-    "中文意思": "提供商的",
-    "英文释义": "Belonging or relating to a provider."
+  "psychiatry": {
+    "中文意思": "精神病学",
+    "英文释义": "The medical study and treatment of mental disorders."
+  },
+  "psychology": {
+    "中文意思": "心理学",
+    "英文释义": "The scientific study of the mind and behavior."
   },
   "public": {
     "中文意思": "公共的；公众的",
@@ -3059,11 +3539,27 @@
     "中文意思": "公开地；由公共部门",
     "英文释义": "In public or through public institutions."
   },
-  "question": {
-    "中文意思": "问题；质疑",
-    "英文释义": "A request for information or an expression of doubt."
+  "published": {
+    "中文意思": "发表了的",
+    "英文释义": "Made available in a book, journal, or other medium."
   },
-  "questions": {
+  "publishing": {
+    "中文意思": "发布；出版",
+    "英文释义": "Making material available to the public."
+  },
+  "pursuit": {
+    "中文意思": "追求",
+    "英文释义": "An effort to achieve or obtain something."
+  },
+  "put": {
+    "中文意思": "放置；戴上（用于 put on）",
+    "英文释义": "To place something in a position."
+  },
+  "quality": {
+    "中文意思": "质量",
+    "英文释义": "How good something is."
+  },
+  "question": {
     "中文意思": "问题；质疑",
     "英文释义": "A request for information or an expression of doubt."
   },
@@ -3071,11 +3567,31 @@
     "中文意思": "问题；质疑",
     "英文释义": "A request for information or an expression of doubt."
   },
-  "raising": {
-    "中文意思": "养育",
-    "英文释义": "Caring for children as they grow."
+  "questions": {
+    "中文意思": "问题；质疑",
+    "英文释义": "A request for information or an expression of doubt."
   },
-  "rearing": {
+  "quick": {
+    "中文意思": "短暂的；迅速的",
+    "英文释义": "Taking little time."
+  },
+  "quiet": {
+    "中文意思": "安静的",
+    "英文释义": "Making little or no noise."
+  },
+  "r": {
+    "中文意思": "R.E.M.中的R：快速的",
+    "英文释义": "The initial of rapid in R.E.M., rapid eye movement."
+  },
+  "r.e.m.": {
+    "中文意思": "快速眼动（睡眠）",
+    "英文释义": "Short for rapid eye movement, a phase of sleep."
+  },
+  "radio": {
+    "中文意思": "广播；电台",
+    "英文释义": "Broadcasting of sound programmes."
+  },
+  "raising": {
     "中文意思": "养育",
     "英文释义": "Caring for children as they grow."
   },
@@ -3083,9 +3599,21 @@
     "中文意思": "猛撞",
     "英文释义": "To hit something forcefully."
   },
+  "rants": {
+    "中文意思": "激烈的长篇抱怨",
+    "英文释义": "Long, angry complaints or speeches."
+  },
   "raped": {
     "中文意思": "遭强奸的",
     "英文释义": "Subjected to forced sexual intercourse."
+  },
+  "rapid": {
+    "中文意思": "快速的",
+    "英文释义": "Happening or moving very quickly."
+  },
+  "rapidly": {
+    "中文意思": "迅速地",
+    "英文释义": "At a fast rate."
   },
   "rarely": {
     "中文意思": "很少",
@@ -3099,21 +3627,69 @@
     "中文意思": "阅读",
     "英文释义": "Looking at written language and understanding it."
   },
+  "real": {
+    "中文意思": "真正的",
+    "英文释义": "Actually existing rather than imagined."
+  },
+  "realize": {
+    "中文意思": "意识到",
+    "英文释义": "To understand or become aware of something."
+  },
   "really": {
     "中文意思": "真的；实际上",
     "英文释义": "In fact or to a strong degree."
+  },
+  "rearing": {
+    "中文意思": "养育",
+    "英文释义": "Caring for children as they grow."
   },
   "reasons": {
     "中文意思": "原因",
     "英文释义": "Explanations for actions or events."
   },
+  "recent": {
+    "中文意思": "最近的；近来的",
+    "英文释义": "Having happened not long ago."
+  },
+  "recently": {
+    "中文意思": "最近；近来",
+    "英文释义": "Not long ago."
+  },
+  "recharging": {
+    "中文意思": "恢复精力",
+    "英文释义": "Restoring energy after activity."
+  },
+  "records": {
+    "中文意思": "记录；档案",
+    "英文释义": "Stored documents or information."
+  },
+  "recovering": {
+    "中文意思": "恢复",
+    "英文释义": "Returning to a normal or healthy state."
+  },
   "redirect": {
     "中文意思": "重新引导",
     "英文释义": "To send or direct something toward a different place or purpose."
   },
+  "reduction": {
+    "中文意思": "减少；削减",
+    "英文释义": "A decrease in amount or extent."
+  },
   "referring": {
     "中文意思": "提及；称作",
     "英文释义": "Speaking about or describing something."
+  },
+  "reflective": {
+    "中文意思": "善于反思的",
+    "英文释义": "Inclined to think carefully about something."
+  },
+  "reflects": {
+    "中文意思": "反映",
+    "英文释义": "Shows or expresses something."
+  },
+  "reforms": {
+    "中文意思": "改革",
+    "英文释义": "Changes intended to improve a system."
   },
   "refrain": {
     "中文意思": "反复出现的说法",
@@ -3127,6 +3703,10 @@
     "中文意思": "拒绝",
     "英文释义": "Declining to accept or do something."
   },
+  "regular": {
+    "中文意思": "规律的",
+    "英文释义": "Happening at consistent or repeated times."
+  },
   "regulatory": {
     "中文意思": "监管的",
     "英文释义": "Relating to rules and their enforcement."
@@ -3134,6 +3714,10 @@
   "reinforce": {
     "中文意思": "强化",
     "英文释义": "To make something stronger."
+  },
+  "reject": {
+    "中文意思": "拒绝接受；排斥",
+    "英文释义": "To refuse to accept something."
   },
   "reminds": {
     "中文意思": "使想起",
@@ -3143,9 +3727,37 @@
     "中文意思": "汇报",
     "英文释义": "Gives information to a person in authority."
   },
+  "republic": {
+    "中文意思": "《理想国》",
+    "英文释义": "Plato's philosophical dialogue on justice and political order."
+  },
+  "research": {
+    "中文意思": "研究",
+    "英文释义": "Careful study to discover facts."
+  },
+  "researcher": {
+    "中文意思": "研究人员",
+    "英文释义": "Someone who studies a subject to discover facts."
+  },
+  "researchers": {
+    "中文意思": "研究人员",
+    "英文释义": "People who study a subject to discover facts."
+  },
   "researching": {
     "中文意思": "研究；调查",
     "英文释义": "Studying something carefully to obtain information."
+  },
+  "resist": {
+    "中文意思": "抵制；抗拒",
+    "英文释义": "To oppose or refuse to accept something."
+  },
+  "respond": {
+    "中文意思": "回应",
+    "英文释义": "To say or do something in reaction."
+  },
+  "responding": {
+    "中文意思": "回应",
+    "英文释义": "Reacting to a message or event."
   },
   "response": {
     "中文意思": "回应",
@@ -3155,13 +3767,45 @@
     "中文意思": "责任",
     "英文释义": "Duties that one is expected to fulfill."
   },
+  "rest": {
+    "中文意思": "休息；其余部分",
+    "英文释义": "Relaxation, or the remaining people or things."
+  },
+  "restfulness": {
+    "中文意思": "安宁；充分休息的状态",
+    "英文释义": "A state of calm or feeling well rested."
+  },
+  "result": {
+    "中文意思": "结果",
+    "英文释义": "Something that happens because of something else."
+  },
+  "results": {
+    "中文意思": "成果；结果",
+    "英文释义": "Outcomes or effects of an action."
+  },
   "retains": {
     "中文意思": "保留",
     "英文释义": "Keeps or continues to hold something."
   },
+  "return": {
+    "中文意思": "回复；返回",
+    "英文释义": "Relating to where a response is sent back."
+  },
+  "reversed": {
+    "中文意思": "扭转了",
+    "英文释义": "Changed a situation to its opposite."
+  },
   "review": {
     "中文意思": "评估；审查",
     "英文释义": "A careful examination or assessment."
+  },
+  "reward": {
+    "中文意思": "给予回报",
+    "英文释义": "To give something in recognition of value or effort."
+  },
+  "rewiring": {
+    "中文意思": "改变运作方式；重新布线",
+    "英文释义": "Changing how a system is connected or works."
   },
   "ridden": {
     "中文意思": "乘坐；骑",
@@ -3174,6 +3818,26 @@
   "riding": {
     "中文意思": "乘坐；骑",
     "英文释义": "To travel on or in a vehicle or animal."
+  },
+  "right": {
+    "中文意思": "对吧；正确的",
+    "英文释义": "Correct, or used as a question to seek agreement."
+  },
+  "right-wing": {
+    "中文意思": "右翼的",
+    "英文释义": "Supporting political ideas associated with the right."
+  },
+  "ring": {
+    "中文意思": "戒指",
+    "英文释义": "A circular band worn on a finger."
+  },
+  "risks": {
+    "中文意思": "风险",
+    "英文释义": "Possibilities of harm or danger."
+  },
+  "riverside": {
+    "中文意思": "里弗赛德（地名）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
   },
   "role": {
     "中文意思": "角色；作用",
@@ -3195,6 +3859,10 @@
     "中文意思": "经常地；例行地",
     "英文释义": "As a regular or usual practice."
   },
+  "royalty": {
+    "中文意思": "版税；使用费",
+    "英文释义": "Money paid for the use of someone's work or rights."
+  },
   "rules": {
     "中文意思": "规则",
     "英文释义": "Instructions governing behavior or procedures."
@@ -3215,37 +3883,133 @@
     "中文意思": "牺牲的",
     "英文释义": "Involving giving something up for others or a cause."
   },
+  "sad": {
+    "中文意思": "难过的；惋惜的",
+    "英文释义": "Feeling sorrow or regret."
+  },
+  "sadly": {
+    "中文意思": "遗憾的是",
+    "英文释义": "Used to express regret about a fact or situation."
+  },
+  "safety": {
+    "中文意思": "安全",
+    "英文释义": "The state of being protected from harm."
+  },
+  "said": {
+    "中文意思": "说了",
+    "英文释义": "The past form of say."
+  },
+  "sale": {
+    "中文意思": "出售",
+    "英文释义": "The act of selling something."
+  },
+  "same": {
+    "中文意思": "相同的",
+    "英文释义": "Not different."
+  },
   "sandy": {
     "中文意思": "桑迪",
     "英文释义": "The name of the hurricane mentioned in this article."
+  },
+  "sara": {
+    "中文意思": "萨拉（人名）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
   },
   "saved": {
     "中文意思": "拯救；保存",
     "英文释义": "Rescued from danger or kept for later use."
   },
+  "say": {
+    "中文意思": "说",
+    "英文释义": "To express something in words."
+  },
+  "saying": {
+    "中文意思": "说；表达",
+    "英文释义": "Expressing something in words."
+  },
   "scenario": {
     "中文意思": "情境",
     "英文释义": "An imagined or described situation."
+  },
+  "schedule": {
+    "中文意思": "时间表；作息安排",
+    "英文释义": "A plan showing when activities happen."
+  },
+  "schemes": {
+    "中文意思": "方案",
+    "英文释义": "Organised plans or systems."
+  },
+  "science": {
+    "中文意思": "科学",
+    "英文释义": "Systematic study of the natural world through observation and evidence."
+  },
+  "sciences": {
+    "中文意思": "科学学科",
+    "英文释义": "Fields of organized scientific study."
+  },
+  "scientific": {
+    "中文意思": "科学的",
+    "英文释义": "Related to or based on science."
+  },
+  "scratch": {
+    "中文意思": "起点（用于 from scratch）",
+    "英文释义": "The beginning, in the expression from scratch."
   },
   "scream": {
     "中文意思": "尖叫",
     "英文释义": "To make a loud high-pitched cry."
   },
+  "search": {
+    "中文意思": "搜索",
+    "英文释义": "To look for information."
+  },
+  "seat": {
+    "中文意思": "座位；地位",
+    "英文释义": "A place to sit, or a position of importance."
+  },
   "secret": {
     "中文意思": "秘密的",
     "英文释义": "Kept hidden from others."
+  },
+  "sections": {
+    "中文意思": "部分；专区",
+    "英文释义": "Distinct parts of something."
+  },
+  "sectors": {
+    "中文意思": "行业；领域",
+    "英文释义": "Parts of an economy or activity."
+  },
+  "secure": {
+    "中文意思": "安全的",
+    "英文释义": "Protected from unauthorised access or harm."
+  },
+  "security": {
+    "中文意思": "安全",
+    "英文释义": "Protection against threats or unauthorised access."
   },
   "see": {
     "中文意思": "看见；明白",
     "英文释义": "To perceive with the eyes or understand."
   },
+  "seemed": {
+    "中文意思": "看起来",
+    "英文释义": "Appeared to be a certain way."
+  },
   "seems": {
     "中文意思": "似乎",
     "英文释义": "Appears to be a certain way."
   },
+  "selectively": {
+    "中文意思": "有选择地",
+    "英文释义": "By choosing some things while excluding others."
+  },
   "self": {
     "中文意思": "自我",
     "英文释义": "A person's individual identity and awareness."
+  },
+  "self-righteous": {
+    "中文意思": "自以为是的",
+    "英文释义": "Overly certain of one's own moral superiority."
   },
   "self-satisfied": {
     "中文意思": "自鸣得意的",
@@ -3275,9 +4039,17 @@
     "中文意思": "出售",
     "英文释义": "To give something in exchange for money."
   },
+  "send": {
+    "中文意思": "发送",
+    "英文释义": "To cause a message or item to reach a destination."
+  },
   "sense": {
     "中文意思": "感觉；意识",
     "英文释义": "An awareness, understanding, or perception."
+  },
+  "servers": {
+    "中文意思": "服务器",
+    "英文释义": "Computers or programs that provide services over a network."
   },
   "serves": {
     "中文意思": "服务；起作用",
@@ -3291,9 +4063,33 @@
     "中文意思": "服务",
     "英文释义": "Work or assistance provided for others."
   },
+  "sets": {
+    "中文意思": "设定；确立",
+    "英文释义": "Establishes or puts something in a particular state."
+  },
+  "seven": {
+    "中文意思": "七",
+    "英文释义": "The number 7."
+  },
+  "shade": {
+    "中文意思": "阴凉处",
+    "英文释义": "An area sheltered from direct sunlight."
+  },
   "shall": {
     "中文意思": "将；应当",
     "英文释义": "A modal verb expressing future action or obligation."
+  },
+  "shame": {
+    "中文意思": "羞愧",
+    "英文释义": "A feeling of embarrassment about something wrong."
+  },
+  "shapes": {
+    "中文意思": "塑造；影响",
+    "英文释义": "Influences how something develops."
+  },
+  "shaping": {
+    "中文意思": "塑造；影响",
+    "英文释义": "Influencing the way something develops."
   },
   "share": {
     "中文意思": "分享",
@@ -3311,37 +4107,161 @@
     "中文意思": "海岸",
     "英文释义": "The land along the edge of a sea or lake."
   },
+  "should": {
+    "中文意思": "应该；按理会",
+    "英文释义": "Used for what is expected or considered appropriate."
+  },
+  "shouldn't": {
+    "中文意思": "不应该；按理不会",
+    "英文释义": "The short form of should not."
+  },
   "show": {
     "中文意思": "表明；展示",
     "英文释义": "To make something visible or demonstrate it."
+  },
+  "shown": {
+    "中文意思": "表明；显示",
+    "英文释义": "Demonstrated or made clear."
+  },
+  "shows": {
+    "中文意思": "表明；显示",
+    "英文释义": "Demonstrates or makes clear."
+  },
+  "shrobe": {
+    "中文意思": "施罗布",
+    "英文释义": "The surname of Howard Shrobe, the MIT researcher named here."
+  },
+  "shut": {
+    "中文意思": "闭上",
+    "英文释义": "To close something; in shut-eye, sleep."
+  },
+  "shut-eye": {
+    "中文意思": "睡眠；小睡",
+    "英文释义": "An informal word for sleep."
   },
   "sideways": {
     "中文意思": "向侧面地",
     "英文释义": "Toward one side or in an alternative direction."
   },
+  "siegel": {
+    "中文意思": "西格尔（姓氏）",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
+  "siesta": {
+    "中文意思": "午睡",
+    "英文释义": "A short rest or sleep in the afternoon."
+  },
   "silence": {
     "中文意思": "沉默",
     "英文释义": "The absence of speech or sound."
+  },
+  "simple": {
+    "中文意思": "简单的",
+    "英文释义": "Easy to understand or do."
+  },
+  "simplistic": {
+    "中文意思": "过于简单化的",
+    "英文释义": "Treating a complex issue as if it were much simpler than it is."
   },
   "simply": {
     "中文意思": "仅仅；简单地",
     "英文释义": "Only or in an uncomplicated way."
   },
+  "since": {
+    "中文意思": "因为",
+    "英文释义": "Used to introduce a reason."
+  },
+  "sites": {
+    "中文意思": "网站",
+    "英文释义": "Collections of pages available on the web."
+  },
   "skin": {
     "中文意思": "皮肤；切身利益的比喻",
     "英文释义": "The outer covering of the body; figuratively, a personal stake."
+  },
+  "skip": {
+    "中文意思": "跳过；省去",
+    "英文释义": "To omit an activity or choose not to do it."
+  },
+  "slack": {
+    "中文意思": "Slack（工作沟通软件）",
+    "英文释义": "A messaging platform used by teams at work."
+  },
+  "slacking": {
+    "中文意思": "偷懒；懈怠",
+    "英文释义": "Working less hard than expected."
+  },
+  "sleep": {
+    "中文意思": "睡眠；睡觉",
+    "英文释义": "A natural resting state with reduced awareness."
+  },
+  "sleepiness": {
+    "中文意思": "困倦",
+    "英文释义": "The feeling of wanting to sleep."
+  },
+  "sleeping": {
+    "中文意思": "睡觉；睡眠的",
+    "英文释义": "Being in the natural state of sleep."
+  },
+  "small": {
+    "中文意思": "小的；小额的",
+    "英文释义": "Limited in size or amount."
   },
   "smaller": {
     "中文意思": "更小的",
     "英文释义": "Less large in size or extent."
   },
+  "smarter": {
+    "中文意思": "更聪明的",
+    "英文释义": "More intelligent."
+  },
+  "smartphones": {
+    "中文意思": "智能手机",
+    "英文释义": "Mobile phones with computing and internet functions."
+  },
+  "snoozefest": {
+    "中文意思": "打盹；小睡时间",
+    "英文释义": "An informal playful term for a period of snoozing."
+  },
+  "so": {
+    "中文意思": "所以；如此",
+    "英文释义": "Indicates a result or a particular degree."
+  },
   "social": {
     "中文意思": "社会的",
     "英文释义": "Relating to society or interactions among people."
   },
+  "societies": {
+    "中文意思": "社会；群体",
+    "英文释义": "Communities with shared institutions or customs."
+  },
+  "solid": {
+    "中文意思": "扎实的；充分的",
+    "英文释义": "Strong and reliable; of sleep, sound and sufficient."
+  },
   "solution": {
     "中文意思": "解决办法",
     "英文释义": "A way of dealing with a problem."
+  },
+  "solve": {
+    "中文意思": "解决",
+    "英文释义": "To find an answer to a problem."
+  },
+  "some": {
+    "中文意思": "一些",
+    "英文释义": "An unspecified amount or number."
+  },
+  "somehow": {
+    "中文意思": "以某种方式",
+    "英文释义": "In some way that is unspecified or unclear."
+  },
+  "someone": {
+    "中文意思": "某人",
+    "英文释义": "An unspecified person."
+  },
+  "someone's": {
+    "中文意思": "某人的",
+    "英文释义": "Belonging to an unspecified person."
   },
   "something": {
     "中文意思": "某事；某物",
@@ -3351,17 +4271,61 @@
     "中文意思": "有时",
     "英文释义": "On some occasions."
   },
-  "sons": {
-    "中文意思": "儿子们",
-    "英文释义": "Male children in relation to their parents."
-  },
   "son's": {
     "中文意思": "儿子的",
     "英文释义": "Belonging or relating to a son."
   },
+  "songs": {
+    "中文意思": "歌曲",
+    "英文释义": "Musical pieces with words."
+  },
+  "sons": {
+    "中文意思": "儿子们",
+    "英文释义": "Male children in relation to their parents."
+  },
+  "soon": {
+    "中文意思": "很快；不久",
+    "英文释义": "After a short time."
+  },
+  "sort": {
+    "中文意思": "种类",
+    "英文释义": "A type or category of something."
+  },
+  "sorts": {
+    "中文意思": "种类",
+    "英文释义": "Types or categories of things."
+  },
+  "sound": {
+    "中文意思": "听起来；声音",
+    "英文释义": "To give a particular impression when heard or described."
+  },
+  "sounds": {
+    "中文意思": "听起来",
+    "英文释义": "Gives a particular impression when heard or described."
+  },
+  "space": {
+    "中文意思": "空间；地方",
+    "英文释义": "An area available for use."
+  },
+  "spam": {
+    "中文意思": "垃圾邮件；垃圾信息",
+    "英文释义": "Unwanted messages sent in bulk."
+  },
+  "spamming": {
+    "中文意思": "发送垃圾信息",
+    "英文释义": "Sending unwanted messages in bulk."
+  },
   "species": {
     "中文意思": "物种",
     "英文释义": "A group of organisms able to reproduce with one another."
+  },
+  "spent": {
+    "中文意思": "花费；投入",
+    "英文释义": "Used or paid out for a purpose."
+  },
+  "spewing": {
+    "中文意思": "大量喷涌；大肆散布",
+    "英文释义": "Pouring out large amounts of something unpleasant."
   },
   "spoken": {
     "中文意思": "说过的；口头的",
@@ -3371,17 +4335,69 @@
     "中文意思": "蔓延；扩散",
     "英文释义": "To extend over a larger area or among more people."
   },
+  "spur": {
+    "中文意思": "推动力",
+    "英文释义": "Something that encourages progress or activity."
+  },
   "spying": {
     "中文意思": "窥探；监视",
     "英文释义": "Secretly collecting information about others."
+  },
+  "stage": {
+    "中文意思": "阶段",
+    "英文释义": "A particular part of a process."
+  },
+  "stage-two": {
+    "中文意思": "第二阶段的",
+    "英文释义": "Relating to the second stage of a process, here sleep."
+  },
+  "standing": {
+    "中文意思": "地位；声望",
+    "英文释义": "A person's rank or reputation in society."
+  },
+  "start": {
+    "中文意思": "开始",
+    "英文释义": "To begin something."
+  },
+  "starting": {
+    "中文意思": "开始",
+    "英文释义": "Beginning something."
+  },
+  "starts": {
+    "中文意思": "开始",
+    "英文释义": "Begins something."
+  },
+  "state": {
+    "中文意思": "状态",
+    "英文释义": "A particular condition."
+  },
+  "station": {
+    "中文意思": "站；加油站",
+    "英文释义": "A place providing transport or a particular service."
   },
   "status": {
     "中文意思": "身份；地位",
     "英文释义": "A person's position or condition in a group or situation."
   },
+  "stay": {
+    "中文意思": "保持；停留",
+    "英文释义": "To remain in a place or condition."
+  },
+  "stealing": {
+    "中文意思": "偷偷抽身；偷窃",
+    "英文释义": "Taking secretly; in stealing away, leaving quietly."
+  },
+  "step": {
+    "中文意思": "迈步；暂时离开",
+    "英文释义": "To move by taking a step."
+  },
   "sterile": {
     "中文意思": "不育的",
     "英文释义": "Unable to produce offspring."
+  },
+  "still": {
+    "中文意思": "仍然；不过",
+    "英文释义": "Continuing until now, or introducing a qualification."
   },
   "stock": {
     "中文意思": "储备",
@@ -3391,21 +4407,57 @@
     "中文意思": "停止",
     "英文释义": "To cease doing something."
   },
+  "stopped": {
+    "中文意思": "停止了",
+    "英文释义": "Ended an action or prevented it from continuing."
+  },
   "stories": {
     "中文意思": "故事；叙述",
     "英文释义": "Accounts of real or imagined events."
+  },
+  "story": {
+    "中文意思": "报道；故事",
+    "英文释义": "An account of real or imagined events."
   },
   "strangers": {
     "中文意思": "陌生人",
     "英文释义": "People one does not know."
   },
+  "stressed": {
+    "中文意思": "压力大的",
+    "英文释义": "Feeling worried or under mental pressure."
+  },
+  "strongest": {
+    "中文意思": "最强的",
+    "英文释义": "Of the greatest strength or intensity."
+  },
   "studies": {
     "中文意思": "研究",
     "英文释义": "Investigations intended to discover information."
   },
+  "study": {
+    "中文意思": "研究",
+    "英文释义": "A detailed investigation of a subject."
+  },
   "subjection": {
     "中文意思": "屈从；受支配",
     "英文释义": "The state of being under another's control."
+  },
+  "subjects": {
+    "中文意思": "受试者",
+    "英文释义": "People taking part in an experiment."
+  },
+  "success": {
+    "中文意思": "成功",
+    "英文释义": "The achievement of a desired aim."
+  },
+  "such": {
+    "中文意思": "这种；诸如此类的",
+    "英文释义": "Of the type mentioned."
+  },
+  "suffering": {
+    "中文意思": "遭受",
+    "英文释义": "Experiencing pain or a difficult situation."
   },
   "suggest": {
     "中文意思": "建议；暗示",
@@ -3423,6 +4475,26 @@
     "中文意思": "支持",
     "英文释义": "Help or assistance given to someone."
   },
+  "supported": {
+    "中文意思": "支持",
+    "英文释义": "Expressed approval or backing for someone or something."
+  },
+  "supposed": {
+    "中文意思": "应该的；被认为的",
+    "英文释义": "Expected or required to do something."
+  },
+  "sure": {
+    "中文意思": "确定的",
+    "英文释义": "Certain or confident."
+  },
+  "surely": {
+    "中文意思": "一定；想必",
+    "英文释义": "Used to express strong confidence in a statement."
+  },
+  "surf": {
+    "中文意思": "浏览网页；上网",
+    "英文释义": "To browse websites on the internet."
+  },
   "surrounding": {
     "中文意思": "围绕的；有关的",
     "英文释义": "Existing around or connected with something."
@@ -3431,21 +4503,69 @@
     "中文意思": "存活；延续",
     "英文释义": "To remain alive or continue to exist."
   },
+  "susceptible": {
+    "中文意思": "易受影响的",
+    "英文释义": "Easily affected or influenced by something."
+  },
+  "swaying": {
+    "中文意思": "左右；影响",
+    "英文释义": "Influencing how someone thinks or decides."
+  },
   "swiss": {
     "中文意思": "瑞士的；瑞士奶酪",
     "英文释义": "Relating to Switzerland; here referring to a type of cheese."
+  },
+  "symbol": {
+    "中文意思": "象征；标志",
+    "英文释义": "Something that represents an idea or quality."
   },
   "sympathetic": {
     "中文意思": "体谅的；同情的",
     "英文释义": "Showing understanding and concern for others."
   },
+  "system": {
+    "中文意思": "系统",
+    "英文释义": "A set of connected parts working together."
+  },
+  "systems": {
+    "中文意思": "系统",
+    "英文释义": "Sets of connected parts working together."
+  },
   "t": {
     "中文意思": "T 字母；缩略形式的一部分",
     "英文释义": "The letter T; part of the company name AT&T."
   },
+  "taboos": {
+    "中文意思": "禁忌",
+    "英文释义": "Socially forbidden or strongly discouraged practices."
+  },
+  "tackle": {
+    "中文意思": "着手解决",
+    "英文释义": "To deal with a difficult problem."
+  },
+  "tagged": {
+    "中文意思": "加上标签",
+    "英文释义": "Marked with identifying or descriptive information."
+  },
+  "take": {
+    "中文意思": "拿；进行",
+    "英文释义": "To get or carry something, or perform an action."
+  },
+  "taken": {
+    "中文意思": "进行了；拿了",
+    "英文释义": "The past participle of take."
+  },
+  "taking": {
+    "中文意思": "进行；拿",
+    "英文释义": "The ing form of take."
+  },
   "tale": {
     "中文意思": "故事",
     "英文释义": "A narrative of real or imagined events."
+  },
+  "talent": {
+    "中文意思": "人才；才能",
+    "英文释义": "People with a skill, or the skill they have."
   },
   "talk": {
     "中文意思": "交谈；谈论",
@@ -3455,21 +4575,77 @@
     "中文意思": "交谈；谈论",
     "英文释义": "To communicate or discuss something through speech."
   },
+  "tank": {
+    "中文意思": "油箱；储罐",
+    "英文释义": "A container for liquid or fuel."
+  },
+  "tanzania": {
+    "中文意思": "坦桑尼亚",
+    "英文释义": "A proper name used in this article for a person, place, or organization."
+  },
   "target": {
     "中文意思": "针对；定向投放",
     "英文释义": "To direct an action or message toward particular people."
+  },
+  "taught": {
+    "中文意思": "教过；被教导",
+    "英文释义": "The past form and past participle of teach."
+  },
+  "tcp": {
+    "中文意思": "传输控制协议",
+    "英文释义": "Transmission Control Protocol, which provides reliable data transfer."
+  },
+  "teach": {
+    "中文意思": "教",
+    "英文释义": "To help someone learn something."
+  },
+  "teams": {
+    "中文意思": "团队",
+    "英文释义": "Groups of people working together."
   },
   "tears": {
     "中文意思": "眼泪",
     "英文释义": "Drops of liquid produced by the eyes when crying."
   },
+  "tech": {
+    "中文意思": "技术；科技",
+    "英文释义": "An informal word for technology."
+  },
+  "technologies": {
+    "中文意思": "技术",
+    "英文释义": "Practical tools, methods, or systems."
+  },
+  "technology": {
+    "中文意思": "技术；科技",
+    "英文释义": "Practical applications of scientific knowledge."
+  },
+  "technophobic": {
+    "中文意思": "惧怕技术的",
+    "英文释义": "Fearful or distrustful of new technology."
+  },
   "tedium": {
     "中文意思": "乏味",
     "英文释义": "The feeling caused by something long and repetitive."
   },
+  "teenager": {
+    "中文意思": "青少年",
+    "英文释义": "Someone aged thirteen to nineteen."
+  },
   "tell": {
     "中文意思": "告诉",
     "英文释义": "To communicate information to someone."
+  },
+  "tend": {
+    "中文意思": "倾向于；往往会",
+    "英文释义": "To be likely to behave or happen in a particular way."
+  },
+  "tendencies": {
+    "中文意思": "倾向",
+    "英文释义": "Usual inclinations to think or behave in particular ways."
+  },
+  "tendency": {
+    "中文意思": "倾向",
+    "英文释义": "An inclination to think or behave in a particular way."
   },
   "tending": {
     "中文意思": "照料",
@@ -3479,9 +4655,37 @@
     "中文意思": "令人恐惧地",
     "英文释义": "In a way that causes great fear."
   },
+  "test": {
+    "中文意思": "测试",
+    "英文释义": "An activity used to measure ability or performance."
+  },
+  "tested": {
+    "中文意思": "测试了",
+    "英文释义": "Examined or measured through a test."
+  },
+  "tests": {
+    "中文意思": "测试",
+    "英文释义": "Activities measuring ability or performance."
+  },
+  "than": {
+    "中文意思": "比",
+    "英文释义": "Introduces the second part of a comparison."
+  },
+  "that": {
+    "中文意思": "那个；这件事；引导从句",
+    "英文释义": "Refers to something or introduces a clause."
+  },
   "that's": {
     "中文意思": "那是",
     "英文释义": "The contraction of that is or that has."
+  },
+  "the": {
+    "中文意思": "这；那；特指某事物",
+    "英文释义": "Marks a noun as specific or already known."
+  },
+  "their": {
+    "中文意思": "他们的",
+    "英文释义": "Belonging to the people or things mentioned."
   },
   "them": {
     "中文意思": "他们；他们自己",
@@ -3491,21 +4695,109 @@
     "中文意思": "他们；他们自己",
     "英文释义": "Pronouns referring to previously mentioned people or things."
   },
+  "then": {
+    "中文意思": "然后；当时",
+    "英文释义": "At that time or next in order."
+  },
   "there": {
     "中文意思": "那里；存在",
     "英文释义": "At that place, or used to introduce something that exists."
+  },
+  "there's": {
+    "中文意思": "有；存在",
+    "英文释义": "The contracted form of there is."
   },
   "these": {
     "中文意思": "这些",
     "英文释义": "The plural form of this."
   },
+  "they": {
+    "中文意思": "他们；它们",
+    "英文释义": "Refers to people or things already mentioned."
+  },
+  "they're": {
+    "中文意思": "他们是；他们正在",
+    "英文释义": "The contracted form of they are."
+  },
+  "they've": {
+    "中文意思": "他们已经",
+    "英文释义": "The contracted form of they have."
+  },
+  "thing": {
+    "中文意思": "事情；东西",
+    "英文释义": "An object, idea, or situation."
+  },
+  "things": {
+    "中文意思": "事情；东西",
+    "英文释义": "Objects, ideas, or situations."
+  },
+  "think": {
+    "中文意思": "认为；思考",
+    "英文释义": "To have an opinion or use the mind."
+  },
+  "thinking": {
+    "中文意思": "思考",
+    "英文释义": "The process of using the mind to form ideas."
+  },
+  "thinks": {
+    "中文意思": "认为",
+    "英文释义": "Holds an opinion or belief."
+  },
   "third": {
     "中文意思": "第三的",
     "英文释义": "Coming after the second."
   },
+  "this": {
+    "中文意思": "这个；这件事",
+    "英文释义": "Refers to something nearby or just mentioned."
+  },
+  "those": {
+    "中文意思": "那些",
+    "英文释义": "The plural form of that."
+  },
+  "thought": {
+    "中文意思": "思考",
+    "英文释义": "The process of considering something."
+  },
+  "threaten": {
+    "中文意思": "威胁",
+    "英文释义": "To put something at risk."
+  },
+  "three": {
+    "中文意思": "三",
+    "英文释义": "The number 3."
+  },
   "thrive": {
     "中文意思": "茁壮成长",
     "英文释义": "To grow or develop well."
+  },
+  "through": {
+    "中文意思": "穿过；贯穿",
+    "英文释义": "From one side or end to the other."
+  },
+  "throughout": {
+    "中文意思": "贯穿；遍及",
+    "英文释义": "During the whole of a period or in every part of a place."
+  },
+  "tied": {
+    "中文意思": "联系在一起的",
+    "英文释义": "Closely connected with something."
+  },
+  "tim": {
+    "中文意思": "蒂姆",
+    "英文释义": "The given name of Tim Berners-Lee in the passage."
+  },
+  "time": {
+    "中文意思": "时间",
+    "英文释义": "The duration in which events happen."
+  },
+  "times": {
+    "中文意思": "次数；时段",
+    "英文释义": "Occasions or particular periods."
+  },
+  "to": {
+    "中文意思": "到；向；不定式标记",
+    "英文释义": "Indicates direction or introduces an infinitive."
   },
   "together": {
     "中文意思": "一起",
@@ -3515,13 +4807,33 @@
     "中文意思": "告诉了",
     "英文释义": "The past form of tell."
   },
+  "too": {
+    "中文意思": "也；太",
+    "英文释义": "Also, or more than is desirable."
+  },
+  "took": {
+    "中文意思": "进行了；拿了",
+    "英文释义": "The past form of take."
+  },
   "tool": {
     "中文意思": "工具",
     "英文释义": "Something used to perform a task."
   },
+  "tools": {
+    "中文意思": "工具",
+    "英文释义": "Things used to perform a task."
+  },
+  "total": {
+    "中文意思": "总计",
+    "英文释义": "The complete amount."
+  },
   "touched": {
     "中文意思": "触碰",
     "英文释义": "Made physical contact with something."
+  },
+  "trace": {
+    "中文意思": "追踪；追溯",
+    "英文释义": "To follow something to find its source or route."
   },
   "traced": {
     "中文意思": "追溯",
@@ -3535,13 +4847,61 @@
     "中文意思": "追踪",
     "英文释义": "To follow or monitor activity or movement."
   },
+  "trait": {
+    "中文意思": "特质",
+    "英文释义": "A distinguishing quality or characteristic."
+  },
+  "transactions": {
+    "中文意思": "交易",
+    "英文释义": "Exchanges involving money, goods, or services."
+  },
+  "trees": {
+    "中文意思": "树木",
+    "英文释义": "Tall plants with woody trunks."
+  },
+  "tribes": {
+    "中文意思": "阵营；群体",
+    "英文释义": "Groups of people with shared identities or loyalties."
+  },
+  "trillions": {
+    "中文意思": "数万亿；数兆",
+    "英文释义": "Amounts measured in multiples of one trillion."
+  },
+  "trip": {
+    "中文意思": "旅行；行程",
+    "英文释义": "A journey to another place and usually back again."
+  },
   "trips": {
     "中文意思": "短途旅行",
     "英文释义": "Journeys to places and back."
   },
+  "troll": {
+    "中文意思": "网络喷子",
+    "英文释义": "A person who posts online to provoke or upset others."
+  },
+  "trolling": {
+    "中文意思": "网络挑衅",
+    "英文释义": "Posting online deliberately to provoke or upset people."
+  },
+  "trolls": {
+    "中文意思": "网络喷子",
+    "英文释义": "People who deliberately provoke or upset others online."
+  },
   "tropes": {
     "中文意思": "比喻；惯用表达",
     "英文释义": "Figurative expressions or recurring ideas."
+  },
+  "true": {
+    "中文意思": "真实的；适用的",
+    "英文释义": "Correct or applicable."
+  },
+  "trump": {
+    "中文意思": "特朗普",
+    "英文释义": "The surname of Donald Trump in this passage."
+  },
+  "try": {
+    "中文意思": "尝试",
+    "英文释义": "To make an effort to do something."
   },
   "trying": {
     "中文意思": "尝试；努力",
@@ -3559,13 +4919,69 @@
     "中文意思": "转向；变成",
     "英文释义": "To change direction, state, or attention."
   },
+  "twice": {
+    "中文意思": "两次；加倍",
+    "英文释义": "Two times; in think twice, to reconsider carefully."
+  },
+  "twitter": {
+    "中文意思": "推特",
+    "英文释义": "The social media platform named in the passage."
+  },
+  "two": {
+    "中文意思": "二",
+    "英文释义": "The number 2."
+  },
+  "two-factor": {
+    "中文意思": "双因素的",
+    "英文释义": "Using two different types of evidence for verification."
+  },
+  "types": {
+    "中文意思": "类型",
+    "英文释义": "Groups sharing particular characteristics."
+  },
+  "u": {
+    "中文意思": "U.C.L.A.中的U：大学",
+    "英文释义": "The initial of University in U.C.L.A."
+  },
+  "u.c.l.a.": {
+    "中文意思": "加利福尼亚大学洛杉矶分校",
+    "英文释义": "The University of California, Los Angeles."
+  },
+  "uncertainty": {
+    "中文意思": "不确定；疑虑",
+    "英文释义": "A lack of certainty or confidence."
+  },
+  "under": {
+    "中文意思": "在……下面",
+    "英文释义": "In a position below something."
+  },
+  "undermines": {
+    "中文意思": "削弱；动摇",
+    "英文释义": "Makes a belief, argument, or position less convincing or secure."
+  },
   "understand": {
     "中文意思": "理解",
     "英文释义": "To grasp the meaning of something."
   },
+  "understandably": {
+    "中文意思": "可以理解地",
+    "英文释义": "In a way that is easy to understand or sympathise with."
+  },
   "uninterrupted": {
     "中文意思": "不受打扰的",
     "英文释义": "Continuing without a break or disturbance."
+  },
+  "university": {
+    "中文意思": "大学",
+    "英文释义": "An institution providing higher education and research."
+  },
+  "unleashed": {
+    "中文意思": "释放；使泛滥",
+    "英文释义": "Allowed something harmful or powerful to spread freely."
+  },
+  "unplugging": {
+    "中文意思": "断开连接；停止工作",
+    "英文释义": "Disconnecting a device or taking a break from work and technology."
   },
   "unspoken": {
     "中文意思": "未明说的",
@@ -3575,9 +4991,25 @@
     "中文意思": "直到",
     "英文释义": "Up to the time when something happens."
   },
+  "up": {
+    "中文意思": "向上；起来",
+    "英文释义": "Towards a higher position or an active state."
+  },
+  "update": {
+    "中文意思": "更新",
+    "英文释义": "To bring something up to date or revise it."
+  },
+  "us": {
+    "中文意思": "我们",
+    "英文释义": "The object form of we."
+  },
   "use": {
     "中文意思": "使用；用途",
     "英文释义": "To employ something for a purpose."
+  },
+  "user": {
+    "中文意思": "用户",
+    "英文释义": "A person who uses a product or service."
   },
   "uses": {
     "中文意思": "使用；用途",
@@ -3587,10 +5019,6 @@
     "中文意思": "使用；用途",
     "英文释义": "To employ something for a purpose."
   },
-  "user": {
-    "中文意思": "用户",
-    "英文释义": "A person who uses a product or service."
-  },
   "vacation": {
     "中文意思": "假期",
     "英文释义": "Time away from work or school for rest or travel."
@@ -3599,9 +5027,21 @@
     "中文意思": "真空；空缺",
     "英文释义": "An empty space or absence of something important."
   },
+  "valuable": {
+    "中文意思": "有价值的",
+    "英文释义": "Useful or important."
+  },
   "value": {
     "中文意思": "价值",
     "英文释义": "The importance or worth of something."
+  },
+  "valued": {
+    "中文意思": "受到重视的",
+    "英文释义": "Regarded as useful or important."
+  },
+  "verified": {
+    "中文意思": "经过验证的",
+    "英文释义": "Confirmed as genuine or accurate."
   },
   "verizon": {
     "中文意思": "威瑞森",
@@ -3610,6 +5050,26 @@
   "very": {
     "中文意思": "非常；正是",
     "英文释义": "Used to emphasize degree or identify something exactly."
+  },
+  "view": {
+    "中文意思": "看法；观点",
+    "英文释义": "A way of thinking about something."
+  },
+  "views": {
+    "中文意思": "看法；观点",
+    "英文释义": "Opinions or ways of thinking about something."
+  },
+  "vint": {
+    "中文意思": "文特",
+    "英文释义": "The given name of Vint Cerf in the passage."
+  },
+  "virtual": {
+    "中文意思": "虚拟的；实质上的",
+    "英文释义": "Existing through computers, or functioning like something in effect."
+  },
+  "voluntary": {
+    "中文意思": "自愿的",
+    "英文释义": "Done by choice and without compulsion."
   },
   "vpn": {
     "中文意思": "虚拟专用网络",
@@ -3631,9 +5091,29 @@
     "中文意思": "等待",
     "英文释义": "To remain until something happens."
   },
+  "wake-up": {
+    "中文意思": "起床的；醒来的",
+    "英文释义": "Relating to the time when someone wakes."
+  },
+  "waking": {
+    "中文意思": "醒来",
+    "英文释义": "Becoming awake after sleep."
+  },
+  "walk": {
+    "中文意思": "散步",
+    "英文释义": "A journey made on foot."
+  },
+  "wallet": {
+    "中文意思": "钱包",
+    "英文释义": "Something used to hold money or payment information."
+  },
   "want": {
     "中文意思": "想要",
     "英文释义": "To desire or need something."
+  },
+  "wanted": {
+    "中文意思": "想要（want 的过去式）",
+    "英文释义": "Wished to have or do something."
   },
   "warner": {
     "中文意思": "华纳",
@@ -3651,9 +5131,41 @@
     "中文意思": "水；供水",
     "英文释义": "The clear liquid essential for life."
   },
+  "way": {
+    "中文意思": "方式",
+    "英文释义": "A method of doing something."
+  },
   "ways": {
     "中文意思": "方式",
     "英文释义": "Methods of doing something."
+  },
+  "we": {
+    "中文意思": "我们",
+    "英文释义": "The speaker together with other people."
+  },
+  "we'd": {
+    "中文意思": "我们会；我们已经",
+    "英文释义": "The contracted form of we would or we had."
+  },
+  "we'll": {
+    "中文意思": "我们将会",
+    "英文释义": "The contracted form of we will."
+  },
+  "we're": {
+    "中文意思": "我们是；我们正在",
+    "英文释义": "The contracted form of we are."
+  },
+  "web": {
+    "中文意思": "万维网；网络",
+    "英文释义": "The system of interlinked resources accessed through the internet."
+  },
+  "webbed": {
+    "中文意思": "织成网；连成网络",
+    "英文释义": "Connected together like a web."
+  },
+  "webpage": {
+    "中文意思": "网页",
+    "英文释义": "A single document or page on the web."
   },
   "website": {
     "中文意思": "网站",
@@ -3663,13 +5175,77 @@
     "中文意思": "网站",
     "英文释义": "Collections of linked pages on the Internet."
   },
+  "weekend": {
+    "中文意思": "周末",
+    "英文释义": "The end of the week, usually Saturday and Sunday."
+  },
+  "weeks": {
+    "中文意思": "周；星期",
+    "英文释义": "Periods of seven days."
+  },
+  "weigh": {
+    "中文意思": "权衡",
+    "英文释义": "To consider the importance of something carefully."
+  },
+  "well": {
+    "中文意思": "也（用于 as well）",
+    "英文释义": "Also, in the phrase as well."
+  },
+  "well-recognised": {
+    "中文意思": "广为人知的；得到普遍认可的",
+    "英文释义": "Widely known or acknowledged."
+  },
+  "wellness": {
+    "中文意思": "身心健康",
+    "英文释义": "The state of physical and mental well-being."
+  },
+  "went": {
+    "中文意思": "去了；经历了",
+    "英文释义": "The past form of go."
+  },
+  "were": {
+    "中文意思": "是；处于",
+    "英文释义": "A past form of be."
+  },
   "what": {
     "中文意思": "什么；所……的",
     "英文释义": "Used to ask about or refer to a thing or action."
   },
+  "whatever": {
+    "中文意思": "任何……的东西",
+    "英文释义": "Anything that meets the stated condition."
+  },
+  "when": {
+    "中文意思": "当……时；什么时候",
+    "英文释义": "Refers to the time at which something happens."
+  },
+  "whenever": {
+    "中文意思": "每当",
+    "英文释义": "At any time that something happens."
+  },
+  "where": {
+    "中文意思": "在……的地方；哪里",
+    "英文释义": "Refers to a place or situation."
+  },
   "whether": {
     "中文意思": "是否",
     "英文释义": "Used to introduce alternatives or express uncertainty."
+  },
+  "which": {
+    "中文意思": "哪个；引导定语从句",
+    "英文释义": "Asks about a choice or refers back to something."
+  },
+  "while": {
+    "中文意思": "当……时；而",
+    "英文释义": "During the time that, or in contrast."
+  },
+  "who": {
+    "中文意思": "谁；引导定语从句",
+    "英文释义": "Refers to a person or asks about identity."
+  },
+  "whole": {
+    "中文意思": "全部；整个",
+    "英文释义": "All of something."
   },
   "whom": {
     "中文意思": "谁；所指的人",
@@ -3683,6 +5259,18 @@
     "中文意思": "为什么",
     "英文释义": "Used to ask for a reason."
   },
+  "wide": {
+    "中文意思": "广泛的；宽广的",
+    "英文释义": "Extending over a large area or range."
+  },
+  "will": {
+    "中文意思": "将；会",
+    "英文释义": "Expresses a future action or prediction."
+  },
+  "with": {
+    "中文意思": "和；带有；用",
+    "英文释义": "Indicates accompaniment, possession, or a means."
+  },
   "without": {
     "中文意思": "没有；不带",
     "英文释义": "Not having or doing something."
@@ -3691,29 +5279,81 @@
     "中文意思": "妻子们",
     "英文释义": "Married female partners."
   },
+  "woken": {
+    "中文意思": "醒来",
+    "英文释义": "The past participle of wake."
+  },
   "woman": {
     "中文意思": "女人；女性",
     "英文释义": "Adult female people."
-  },
-  "women": {
-    "中文意思": "女人；女性",
-    "英文释义": "Adult female people."
-  },
-  "womanhood": {
-    "中文意思": "女性身份",
-    "英文释义": "The state or experience of being a woman."
   },
   "woman's": {
     "中文意思": "女性的",
     "英文释义": "Belonging or relating to a woman or women."
   },
+  "womanhood": {
+    "中文意思": "女性身份",
+    "英文释义": "The state or experience of being a woman."
+  },
+  "women": {
+    "中文意思": "女人；女性",
+    "英文释义": "Adult female people."
+  },
   "women's": {
     "中文意思": "女性的",
     "英文释义": "Belonging or relating to a woman or women."
   },
+  "won't": {
+    "中文意思": "将不会",
+    "英文释义": "The contracted form of will not."
+  },
+  "words": {
+    "中文意思": "词；话语",
+    "英文释义": "Units of language used to express meaning."
+  },
+  "work": {
+    "中文意思": "工作",
+    "英文释义": "An activity requiring effort, especially paid employment."
+  },
+  "work-life": {
+    "中文意思": "工作与生活的",
+    "英文释义": "Relating to a person's job and personal life."
+  },
+  "workday": {
+    "中文意思": "工作日；工作时间",
+    "英文释义": "A day or period spent working."
+  },
+  "workers": {
+    "中文意思": "工作者",
+    "英文释义": "People who work."
+  },
+  "working": {
+    "中文意思": "工作",
+    "英文释义": "Doing a job or an activity requiring effort."
+  },
+  "workplace": {
+    "中文意思": "工作场所",
+    "英文释义": "The place where people do their jobs."
+  },
+  "works": {
+    "中文意思": "作品；运作",
+    "英文释义": "Creative pieces, or functions in a particular way."
+  },
+  "world": {
+    "中文意思": "世界",
+    "英文释义": "The earth and its people, or a particular environment."
+  },
+  "worldview": {
+    "中文意思": "世界观",
+    "英文释义": "A general way of understanding the world."
+  },
   "worried": {
     "中文意思": "担心的",
     "英文释义": "Feeling anxious about something."
+  },
+  "worries": {
+    "中文意思": "担忧",
+    "英文释义": "Concerns about possible problems."
   },
   "worse": {
     "中文意思": "更糟的",
@@ -3727,9 +5367,21 @@
     "中文意思": "会；将会",
     "英文释义": "A modal verb expressing possibility, habitual past action, or a hypothetical result."
   },
+  "write": {
+    "中文意思": "写",
+    "英文释义": "To produce words in written form."
+  },
+  "writing": {
+    "中文意思": "书写；写作",
+    "英文释义": "The act or system of recording language in written form."
+  },
   "written": {
     "中文意思": "写成的",
     "英文释义": "The past participle of write."
+  },
+  "wrong": {
+    "中文意思": "错误的",
+    "英文释义": "Incorrect."
   },
   "yard": {
     "中文意思": "院子",
@@ -3747,1428 +5399,32 @@
     "中文意思": "然而；还",
     "英文释义": "Used to express contrast or continuation up to a time."
   },
-  "youngest": {
-    "中文意思": "最年幼的",
-    "英文释义": "Having the least age in a group."
-  },
-  "abilities": {
-    "中文意思": "能力",
-    "英文释义": "Skills or powers to do things."
-  },
-  "affects": {
-    "中文意思": "影响",
-    "英文释义": "Has an influence on."
-  },
-  "affiliation": {
-    "中文意思": "归属；隶属关系",
-    "英文释义": "A connection with an organisation or group."
-  },
-  "already": {
-    "中文意思": "已经",
-    "英文释义": "Before now or before the time mentioned."
-  },
-  "american": {
-    "中文意思": "美国人",
-    "英文释义": "A person from the United States."
-  },
-  "answer": {
-    "中文意思": "回答",
-    "英文释义": "A response to a question."
-  },
-  "apparently": {
-    "中文意思": "看似；似乎",
-    "英文释义": "As it seems from what is known."
-  },
-  "ask": {
-    "中文意思": "询问",
-    "英文释义": "To put a question to someone."
-  },
-  "beliefs": {
-    "中文意思": "信念；看法",
-    "英文释义": "Ideas that people accept as true."
-  },
-  "briton": {
-    "中文意思": "英国人",
-    "英文释义": "A person from Britain."
-  },
-  "climate": {
-    "中文意思": "气候",
-    "英文释义": "The usual weather conditions of a place over a long period."
-  },
-  "cognitive": {
-    "中文意思": "认知的",
-    "英文释义": "Related to thinking, learning, or understanding."
-  },
-  "contradict": {
-    "中文意思": "与……矛盾",
-    "英文释义": "To be inconsistent with a claim or belief."
-  },
-  "contrary": {
-    "中文意思": "相反的；相矛盾的",
-    "英文释义": "Opposite to what is believed or expected."
-  },
-  "correct": {
-    "中文意思": "纠正",
-    "英文释义": "To change something so that it is right."
-  },
-  "curiosity": {
-    "中文意思": "好奇心",
-    "英文释义": "A desire to learn or find out about something."
-  },
-  "deeper": {
-    "中文意思": "更深入的",
-    "英文释义": "More thorough or involving more careful thought."
-  },
-  "depend": {
-    "中文意思": "取决于",
-    "英文释义": "To be determined by something else."
-  },
-  "dismiss": {
-    "中文意思": "不予考虑；排斥",
-    "英文释义": "To decide that something is unworthy of consideration."
-  },
-  "education": {
-    "中文意思": "教育；受教育程度",
-    "英文释义": "The process or level of formal learning."
-  },
-  "existing": {
-    "中文意思": "现有的；已经形成的",
-    "英文释义": "Already present or in place."
-  },
-  "facility": {
-    "中文意思": "能力；天赋",
-    "英文释义": "An ability to do something readily or skilfully."
-  },
-  "facts": {
-    "中文意思": "事实",
-    "英文释义": "Things that are known to be true."
-  },
-  "fit": {
-    "中文意思": "吻合；相符",
-    "英文释义": "To be consistent with something."
-  },
-  "guess": {
-    "中文意思": "猜测",
-    "英文释义": "An answer or judgment made without complete information."
-  },
-  "gut": {
-    "中文意思": "内心直觉（用于 gut instinct）",
-    "英文释义": "Intuitive rather than based on conscious reasoning."
-  },
-  "happens": {
-    "中文意思": "发生",
-    "英文释义": "Takes place."
-  },
-  "highest": {
-    "中文意思": "最高的",
-    "英文释义": "At the greatest level or degree."
-  },
-  "informed": {
-    "中文意思": "受……指导的；以……为依据的",
-    "英文释义": "Guided or shaped by knowledge or evidence."
-  },
-  "instinct": {
-    "中文意思": "本能；直觉",
-    "英文释义": "A natural impulse or feeling that arises without deliberate thought."
-  },
-  "interpret": {
-    "中文意思": "解读",
-    "英文释义": "To understand something in a particular way."
-  },
-  "issues": {
-    "中文意思": "议题；问题",
-    "英文释义": "Subjects that people discuss or disagree about."
-  },
-  "justify": {
-    "中文意思": "为……辩护；证明……有理",
-    "英文释义": "To give reasons showing why something is reasonable or right."
-  },
-  "know": {
-    "中文意思": "知道；了解",
-    "英文释义": "To have information about something."
-  },
-  "left-wing": {
-    "中文意思": "左翼的",
-    "英文释义": "Supporting political ideas associated with the left."
-  },
-  "match": {
-    "中文意思": "与……相符",
-    "英文释义": "To agree or be consistent with something."
-  },
-  "mathematical": {
-    "中文意思": "数学的",
-    "英文释义": "Related to mathematics."
-  },
-  "may": {
-    "中文意思": "可能",
-    "英文释义": "Used to show that something is possible."
-  },
-  "mistake": {
-    "中文意思": "错误",
-    "英文释义": "An incorrect action, judgment, or idea."
-  },
-  "mountain": {
-    "中文意思": "大量（用于 a mountain of）",
-    "英文释义": "A very large amount of something."
-  },
-  "nuclear": {
-    "中文意思": "核能的；核的",
-    "英文释义": "Related to atomic energy or the nucleus of an atom."
-  },
-  "opinions": {
-    "中文意思": "观点",
-    "英文释义": "Personal judgments or beliefs."
-  },
-  "people's": {
-    "中文意思": "人们的",
-    "英文释义": "Belonging to or held by people."
-  },
-  "political": {
-    "中文意思": "政治的",
-    "英文释义": "Related to politics or government."
-  },
-  "politics": {
-    "中文意思": "政治立场；政治",
-    "英文释义": "Political beliefs or activities."
-  },
-  "posed": {
-    "中文意思": "造成；带来",
-    "英文释义": "Presented or created a risk or problem."
-  },
-  "powers": {
-    "中文意思": "能力",
-    "英文释义": "Abilities to do particular things."
-  },
-  "prejudices": {
-    "中文意思": "偏见",
-    "英文释义": "Preconceived opinions often held without adequate evidence."
-  },
-  "reflective": {
-    "中文意思": "善于反思的",
-    "英文释义": "Inclined to think carefully about something."
-  },
-  "reject": {
-    "中文意思": "拒绝接受；排斥",
-    "英文释义": "To refuse to accept something."
-  },
-  "resist": {
-    "中文意思": "抵制；抗拒",
-    "英文释义": "To oppose or refuse to accept something."
-  },
-  "result": {
-    "中文意思": "结果",
-    "英文释义": "Something that happens because of something else."
-  },
-  "right": {
-    "中文意思": "对吧；正确的",
-    "英文释义": "Correct, or used as a question to seek agreement."
-  },
-  "right-wing": {
-    "中文意思": "右翼的",
-    "英文释义": "Supporting political ideas associated with the right."
-  },
-  "risks": {
-    "中文意思": "风险",
-    "英文释义": "Possibilities of harm or danger."
-  },
-  "sadly": {
-    "中文意思": "遗憾的是",
-    "英文释义": "Used to express regret about a fact or situation."
-  },
-  "science": {
-    "中文意思": "科学",
-    "英文释义": "Systematic study of the natural world through observation and evidence."
-  },
-  "scientific": {
-    "中文意思": "科学的",
-    "英文释义": "Related to or based on science."
-  },
-  "selectively": {
-    "中文意思": "有选择地",
-    "英文释义": "By choosing some things while excluding others."
-  },
-  "shapes": {
-    "中文意思": "塑造；影响",
-    "英文释义": "Influences how something develops."
-  },
-  "shaping": {
-    "中文意思": "塑造；影响",
-    "英文释义": "Influencing the way something develops."
-  },
-  "should": {
-    "中文意思": "应该；按理会",
-    "英文释义": "Used for what is expected or considered appropriate."
-  },
-  "shouldn't": {
-    "中文意思": "不应该；按理不会",
-    "英文释义": "The short form of should not."
-  },
-  "shown": {
-    "中文意思": "表明；显示",
-    "英文释义": "Demonstrated or made clear."
-  },
-  "shows": {
-    "中文意思": "表明；显示",
-    "英文释义": "Demonstrates or makes clear."
-  },
-  "simplistic": {
-    "中文意思": "过于简单化的",
-    "英文释义": "Treating a complex issue as if it were much simpler than it is."
-  },
-  "since": {
-    "中文意思": "因为",
-    "英文释义": "Used to introduce a reason."
-  },
-  "smarter": {
-    "中文意思": "更聪明的",
-    "英文释义": "More intelligent."
-  },
-  "somehow": {
-    "中文意思": "以某种方式",
-    "英文释义": "In some way that is unspecified or unclear."
-  },
-  "strongest": {
-    "中文意思": "最强的",
-    "英文释义": "Of the greatest strength or intensity."
-  },
-  "susceptible": {
-    "中文意思": "易受影响的",
-    "英文释义": "Easily affected or influenced by something."
-  },
-  "swaying": {
-    "中文意思": "左右；影响",
-    "英文释义": "Influencing how someone thinks or decides."
-  },
-  "tendencies": {
-    "中文意思": "倾向",
-    "英文释义": "Usual inclinations to think or behave in particular ways."
-  },
-  "tendency": {
-    "中文意思": "倾向",
-    "英文释义": "An inclination to think or behave in a particular way."
-  },
-  "thought": {
-    "中文意思": "思考",
-    "英文释义": "The process of considering something."
-  },
-  "trait": {
-    "中文意思": "特质",
-    "英文释义": "A distinguishing quality or characteristic."
-  },
-  "tribes": {
-    "中文意思": "阵营；群体",
-    "英文释义": "Groups of people with shared identities or loyalties."
-  },
-  "undermines": {
-    "中文意思": "削弱；动摇",
-    "英文释义": "Makes a belief, argument, or position less convincing or secure."
-  },
-  "view": {
-    "中文意思": "看法；观点",
-    "英文释义": "A way of thinking about something."
-  },
-  "views": {
-    "中文意思": "看法；观点",
-    "英文释义": "Opinions or ways of thinking about something."
-  },
-  "weigh": {
-    "中文意思": "权衡",
-    "英文释义": "To consider the importance of something carefully."
-  },
-  "well-recognised": {
-    "中文意思": "广为人知的；得到普遍认可的",
-    "英文释义": "Widely known or acknowledged."
-  },
-  "worldview": {
-    "中文意思": "世界观",
-    "英文释义": "A general way of understanding the world."
-  },
-  "wrong": {
-    "中文意思": "错误的",
-    "英文释义": "Incorrect."
-  },
-  "actors": {
-    "中文意思": "行为者",
-    "英文释义": "People or groups that take action."
-  },
-  "address": {
-    "中文意思": "地址",
-    "英文释义": "An identifier that tells a system where to send data."
-  },
-  "aggregators": {
-    "中文意思": "聚合平台",
-    "英文释义": "Services that collect material from multiple sources."
-  },
-  "airings": {
-    "中文意思": "播出",
-    "英文释义": "Broadcasts of programmes or works."
-  },
-  "allocated": {
-    "中文意思": "分配的；投入的",
-    "英文释义": "Assigned to a particular purpose."
-  },
-  "anonymity": {
-    "中文意思": "匿名性",
-    "英文释义": "The state of having an unknown identity."
-  },
-  "anonymously": {
-    "中文意思": "匿名地",
-    "英文释义": "Without revealing one's identity."
-  },
-  "approach": {
-    "中文意思": "方法",
-    "英文释义": "A way of dealing with a situation."
-  },
-  "architecture": {
-    "中文意思": "架构",
-    "英文释义": "The overall structure of a system."
-  },
-  "argued": {
-    "中文意思": "主张",
-    "英文释义": "Presented a claim and reasons for it."
-  },
-  "articles": {
-    "中文意思": "文章",
-    "英文释义": "Pieces of writing published for readers."
-  },
-  "ascap": {
-    "中文意思": "美国作曲家、作家与出版商协会",
-    "英文释义": "The American Society of Composers, Authors and Publishers."
-  },
-  "asks": {
-    "中文意思": "问；提出问题",
-    "英文释义": "Puts a question to someone."
-  },
-  "attention": {
-    "中文意思": "注意力",
-    "英文释义": "Mental focus on something."
-  },
-  "authentic": {
-    "中文意思": "真实的",
-    "英文释义": "Genuine rather than false."
-  },
-  "authenticated": {
-    "中文意思": "经过认证的",
-    "英文释义": "Verified as genuine."
-  },
-  "authentication": {
-    "中文意思": "身份认证；验证",
-    "英文释义": "The process of verifying an identity or source."
-  },
-  "basement": {
-    "中文意思": "地下室",
-    "英文释义": "A room or floor below ground level."
-  },
-  "bats": {
-    "中文意思": "蝙蝠",
-    "英文释义": "Flying mammals that are often active at night."
-  },
-  "been": {
-    "中文意思": "是；一直（be 的过去分词）",
-    "英文释义": "The past participle of be."
-  },
-  "begun": {
-    "中文意思": "开始（begin 的过去分词）",
-    "英文释义": "The past participle of begin."
-  },
-  "belfry": {
-    "中文意思": "钟楼；钟塔",
-    "英文释义": "A tower or part of a building that houses bells."
-  },
-  "berners-lee": {
-    "中文意思": "伯纳斯-李",
-    "英文释义": "The surname of the inventor of the World Wide Web."
-  },
-  "blogs": {
-    "中文意思": "博客",
-    "英文释义": "Websites or collections of regularly published posts."
-  },
-  "bot": {
-    "中文意思": "机器人程序",
-    "英文释义": "A program that automatically performs tasks online."
-  },
-  "brains": {
-    "中文意思": "大脑",
-    "英文释义": "Organs that control thought, memory, and behaviour."
-  },
-  "brilliantly": {
-    "中文意思": "巧妙地；出色地",
-    "英文释义": "In an exceptionally clever or effective way."
-  },
-  "browsers": {
-    "中文意思": "浏览器",
-    "英文释义": "Programs used to access and view websites."
-  },
-  "bugs": {
-    "中文意思": "缺陷；虫子",
-    "英文释义": "Faults in a system, or small insects in the literal sense."
-  },
-  "build": {
-    "中文意思": "建造；开发",
-    "英文释义": "To make or develop something."
-  },
-  "cartoon": {
-    "中文意思": "漫画",
-    "英文释义": "A drawing that makes a point or tells a joke."
-  },
-  "cerf": {
-    "中文意思": "瑟夫",
-    "英文释义": "The surname of Vint Cerf, a co-designer of TCP/IP."
-  },
-  "chips": {
-    "中文意思": "芯片",
-    "英文释义": "Small pieces of electronic circuitry."
-  },
-  "circuit-switched": {
-    "中文意思": "采用电路交换的",
-    "英文释义": "Using a dedicated communication path for a connection."
-  },
-  "civil": {
-    "中文意思": "文明有礼的",
-    "英文释义": "Polite and respectful."
-  },
-  "clickbait": {
-    "中文意思": "标题党内容；点击诱饵",
-    "英文释义": "Online material designed to attract clicks through sensational presentation."
-  },
-  "coauthor": {
-    "中文意思": "共同作者",
-    "英文释义": "One of the people who created a work together."
-  },
-  "code": {
-    "中文意思": "代码",
-    "英文释义": "Instructions or rules written for a computer system."
-  },
-  "coming": {
-    "中文意思": "前来",
-    "英文释义": "Moving or arriving at a place."
-  },
-  "comments": {
-    "中文意思": "评论",
-    "英文释义": "Remarks made about something."
-  },
-  "communicate": {
-    "中文意思": "交流",
-    "英文释义": "To exchange information or ideas."
-  },
-  "community": {
-    "中文意思": "社群",
-    "英文释义": "A group connected by common interests or relationships."
-  },
-  "compounding": {
-    "中文意思": "加剧",
-    "英文释义": "Making an existing problem more severe."
-  },
-  "computers": {
-    "中文意思": "计算机",
-    "英文释义": "Machines that process data and run programs."
-  },
-  "concentrate": {
-    "中文意思": "集中精力",
-    "英文释义": "To direct attention towards something."
-  },
-  "concerned": {
-    "中文意思": "担心的",
-    "英文释义": "Worried about something."
-  },
-  "confused": {
-    "中文意思": "使困惑",
-    "英文释义": "Made someone unable to understand clearly."
-  },
-  "consume": {
-    "中文意思": "浏览；消费（内容）",
-    "英文释义": "To read, view, listen to, or otherwise use content."
-  },
-  "contain": {
-    "中文意思": "包含",
-    "英文释义": "To hold something within."
-  },
-  "content": {
-    "中文意思": "内容",
-    "英文释义": "Material made available to read, watch, or listen to."
-  },
-  "corrode": {
-    "中文意思": "腐蚀；逐渐侵蚀",
-    "英文释义": "To eat away at or gradually damage something."
-  },
-  "create": {
-    "中文意思": "创建",
-    "英文释义": "To bring something into existence."
-  },
-  "created": {
-    "中文意思": "创建了",
-    "英文释义": "Brought something into existence."
-  },
-  "creators": {
-    "中文意思": "创作者",
-    "英文释义": "People who produce original material."
-  },
-  "critical": {
-    "中文意思": "关键的",
-    "英文释义": "Essential or extremely important."
-  },
-  "currency": {
-    "中文意思": "货币",
-    "英文释义": "A system of money used for payment."
-  },
-  "cyber": {
-    "中文意思": "网络的",
-    "英文释义": "Relating to computers or online activity."
-  },
-  "cyberbullying": {
-    "中文意思": "网络霸凌",
-    "英文释义": "Bullying through online messages or platforms."
-  },
-  "cybersecurity": {
-    "中文意思": "网络安全",
-    "英文释义": "The protection of computer systems and data from threats."
-  },
-  "databases": {
-    "中文意思": "数据库",
-    "英文释义": "Organised collections of data."
-  },
-  "decline": {
-    "中文意思": "衰落",
-    "英文释义": "A gradual loss of quality, strength, or importance."
-  },
-  "describe": {
-    "中文意思": "描述；说明",
-    "英文释义": "To state what something is like."
-  },
-  "design": {
-    "中文意思": "设计；结构",
-    "英文释义": "The plan or arrangement of a system."
-  },
-  "destination": {
-    "中文意思": "目的地",
-    "英文释义": "The place or address where something is sent."
-  },
-  "destroyed": {
-    "中文意思": "破坏了",
-    "英文释义": "Damaged something so badly that it ceased to function."
-  },
-  "digital": {
-    "中文意思": "数字的",
-    "英文释义": "Relating to electronic information or computing."
-  },
-  "dog": {
-    "中文意思": "狗",
-    "英文释义": "A domesticated animal often kept as a pet."
-  },
-  "donald": {
-    "中文意思": "唐纳德",
-    "英文释义": "The given name of Donald Trump in this passage."
-  },
-  "drag": {
-    "中文意思": "拖累；阻力",
-    "英文释义": "Something that slows progress."
-  },
-  "drawbacks": {
-    "中文意思": "缺点；弊端",
-    "英文释义": "Disadvantages of something."
-  },
-  "earth's": {
-    "中文意思": "地球的",
-    "英文释义": "Belonging or relating to the planet Earth."
-  },
-  "easy": {
-    "中文意思": "容易的；便捷的",
-    "英文释义": "Requiring little effort."
-  },
-  "effort": {
-    "中文意思": "努力；工夫",
-    "英文释义": "Physical or mental work needed to achieve something."
-  },
-  "eliminating": {
-    "中文意思": "取消；移除",
-    "英文释义": "Removing something completely."
-  },
-  "embed": {
-    "中文意思": "嵌入",
-    "英文释义": "To build something into a larger system."
-  },
-  "enables": {
-    "中文意思": "使能够",
-    "英文释义": "Makes it possible for someone to do something."
-  },
-  "encode": {
-    "中文意思": "编码；写入",
-    "英文释义": "To represent information in a particular code or format."
-  },
-  "encoded": {
-    "中文意思": "经过编码的",
-    "英文释义": "Converted into a particular code or format."
-  },
-  "enforce": {
-    "中文意思": "强制执行；落实",
-    "英文释义": "To make sure a rule or requirement is obeyed."
-  },
-  "engineers": {
-    "中文意思": "工程师",
-    "英文释义": "People who design or build technical systems."
-  },
-  "engines": {
-    "中文意思": "引擎",
-    "英文释义": "Systems that perform a function, such as finding information."
-  },
-  "especially": {
-    "中文意思": "尤其",
-    "英文释义": "To a greater degree than usual or than others."
-  },
-  "exactly": {
-    "中文意思": "确切地",
-    "英文释义": "Precisely or accurately."
-  },
-  "existed": {
-    "中文意思": "存在",
-    "英文释义": "Was present or real."
-  },
-  "exploited": {
-    "中文意思": "利用",
-    "英文释义": "Used a weakness or opportunity to one's advantage."
-  },
-  "express": {
-    "中文意思": "表达",
-    "英文释义": "To communicate feelings or ideas."
-  },
-  "famous": {
-    "中文意思": "著名的",
-    "英文释义": "Known by many people."
-  },
-  "feature": {
-    "中文意思": "功能；特性",
-    "英文释义": "A distinctive part or function of a system."
-  },
-  "felt": {
-    "中文意思": "感觉到（feel 的过去式）",
-    "英文释义": "Experienced a feeling or impression."
-  },
-  "figured": {
-    "中文意思": "想出；弄明白（见 figure out）",
-    "英文释义": "Worked something out."
-  },
-  "finances": {
-    "中文意思": "财务",
-    "英文释义": "Money and the way it is managed."
-  },
-  "fix": {
-    "中文意思": "修复",
-    "英文释义": "To repair something or solve a problem."
-  },
-  "flowers": {
-    "中文意思": "花",
-    "英文释义": "The parts of plants that produce seeds and often have petals."
-  },
-  "foundation": {
-    "中文意思": "地基；基础",
-    "英文释义": "The supporting base of a building or system."
-  },
-  "genetic": {
-    "中文意思": "遗传的；先天的",
-    "英文释义": "Relating to genes or, figuratively, to built-in characteristics."
-  },
-  "google": {
-    "中文意思": "谷歌",
-    "英文释义": "The technology company named in the passage."
-  },
-  "gradually": {
-    "中文意思": "逐渐地",
-    "英文释义": "Slowly over a period of time."
-  },
-  "gyges": {
-    "中文意思": "古格斯",
-    "英文释义": "The figure associated with the ring in Plato's Republic."
-  },
-  "hacker": {
-    "中文意思": "黑客",
-    "英文释义": "A person who gains unauthorised access to computer systems."
-  },
-  "hackers": {
-    "中文意思": "黑客",
-    "英文释义": "People who gain unauthorised access to computer systems."
-  },
-  "hacking": {
-    "中文意思": "黑客活动；非法入侵",
-    "英文释义": "Gaining unauthorised access to a computer system."
-  },
-  "hardware": {
-    "中文意思": "硬件",
-    "英文释义": "The physical components of a computer system."
-  },
-  "hate": {
-    "中文意思": "仇恨；仇恨言论",
-    "英文释义": "Intense hostility, including its expression in words."
-  },
-  "hell": {
-    "中文意思": "地狱；极糟的处境",
-    "英文释义": "An extremely unpleasant place or situation."
-  },
-  "hiding": {
-    "中文意思": "隐藏；隐瞒",
-    "英文释义": "Keeping something out of sight or secret."
-  },
-  "him": {
-    "中文意思": "他（宾格）",
-    "英文释义": "The object form of he."
-  },
-  "holding": {
-    "中文意思": "持有",
-    "英文释义": "Having or maintaining an opinion or belief."
-  },
-  "houdini": {
-    "中文意思": "胡迪尼",
-    "英文释义": "An illusionist and escape artist known for difficult escapes."
-  },
-  "howard": {
-    "中文意思": "霍华德",
-    "英文释义": "The given name of Howard Shrobe in the passage."
-  },
-  "hyperlinks": {
-    "中文意思": "超链接",
-    "英文释义": "Clickable references that take users to other digital locations."
-  },
-  "identification": {
-    "中文意思": "身份识别",
-    "英文释义": "The process of establishing who someone is."
-  },
-  "implementing": {
-    "中文意思": "实施",
-    "英文释义": "Putting a plan or system into effect."
-  },
-  "incentive": {
-    "中文意思": "激励；诱因",
-    "英文释义": "Something that encourages an action."
-  },
-  "inclusion": {
-    "中文意思": "纳入；普及",
-    "英文释义": "The act of making something accessible to more people."
-  },
-  "incorporate": {
-    "中文意思": "纳入；融入",
-    "英文释义": "To include something as part of a whole."
-  },
-  "inherent": {
-    "中文意思": "固有的；内在的",
-    "英文释义": "Present as a natural or built-in part."
-  },
-  "insulting": {
-    "中文意思": "辱骂；贬损",
-    "英文释义": "Speaking about something in a disrespectful way."
-  },
-  "internet's": {
-    "中文意思": "互联网的",
-    "英文释义": "Belonging or relating to the internet."
-  },
-  "invention": {
-    "中文意思": "发明",
-    "英文释义": "Something newly devised or created."
-  },
-  "inventors": {
-    "中文意思": "发明者",
-    "英文释义": "People who create new devices or methods."
-  },
-  "invisible": {
-    "中文意思": "看不见的",
-    "英文释义": "Unable to be seen."
-  },
-  "ip": {
-    "中文意思": "互联网协议",
-    "英文释义": "Internet Protocol, used for addressing and routing data."
-  },
-  "iq": {
-    "中文意思": "智商",
-    "英文释义": "Intelligence quotient, a measure used in intelligence testing."
-  },
-  "itself": {
-    "中文意思": "它自身",
-    "英文释义": "A reflexive pronoun referring back to a thing or system."
-  },
-  "knew": {
-    "中文意思": "知道（know 的过去式）",
-    "英文释义": "Had knowledge or awareness of something."
-  },
-  "label": {
-    "中文意思": "称为；贴标签",
-    "英文释义": "To describe something using a particular term."
-  },
-  "lack": {
-    "中文意思": "缺乏",
-    "英文释义": "The absence or shortage of something."
-  },
-  "levels": {
-    "中文意思": "层级",
-    "英文释义": "Layers or stages within a system."
-  },
-  "linking": {
-    "中文意思": "建立链接",
-    "英文释义": "Connecting a page or resource to another by a link."
-  },
-  "links": {
-    "中文意思": "链接",
-    "英文释义": "References that connect digital pages or resources."
-  },
-  "little": {
-    "中文意思": "少量的",
-    "英文释义": "Small in amount."
-  },
-  "log": {
-    "中文意思": "登录；注销（用于 log off）",
-    "英文释义": "To enter or leave a computer session, depending on the phrase."
-  },
-  "lowest": {
-    "中文意思": "最低的；最底层的",
-    "英文释义": "At the bottom of a hierarchy."
-  },
-  "macedonian": {
-    "中文意思": "马其顿的；马其顿人",
-    "英文释义": "Relating to Macedonia or a person from there."
-  },
-  "machines": {
-    "中文意思": "机器",
-    "英文释义": "Devices that perform work."
-  },
-  "malevolent": {
-    "中文意思": "恶意的",
-    "英文释义": "Intending to cause harm."
-  },
-  "marketplace": {
-    "中文意思": "市场；交易场所",
-    "英文释义": "A place or system where people buy and sell things."
-  },
-  "marvelous": {
-    "中文意思": "了不起的",
-    "英文释义": "Extremely good or impressive."
-  },
-  "matter": {
-    "中文意思": "事情；问题",
-    "英文释义": "A subject, issue, or question."
-  },
-  "medical": {
-    "中文意思": "医疗的",
-    "英文释义": "Relating to medicine or health care."
-  },
-  "medin": {
-    "中文意思": "梅丁",
-    "英文释义": "The surname of Milo Medin, the Google engineer named here."
-  },
-  "members": {
-    "中文意思": "成员；会员",
-    "英文释义": "People who belong to a group."
-  },
-  "metadata": {
-    "中文意思": "元数据",
-    "英文释义": "Data that describes other data."
-  },
-  "milo": {
-    "中文意思": "米洛",
-    "英文释义": "The given name of Milo Medin in the passage."
-  },
-  "miraculous": {
-    "中文意思": "奇迹般的",
-    "英文释义": "So remarkable that it seems like a miracle."
-  },
-  "mit": {
-    "中文意思": "麻省理工学院",
-    "英文释义": "Massachusetts Institute of Technology."
-  },
-  "models": {
-    "中文意思": "模式",
-    "英文释义": "Systems or patterns for operating something."
-  },
-  "moral": {
-    "中文意思": "合乎道德的",
-    "英文释义": "Consistent with principles of right and wrong."
-  },
-  "navigated": {
-    "中文意思": "浏览；在其中移动",
-    "英文释义": "Moved through a site or system to find things."
-  },
-  "negotiate": {
-    "中文意思": "谈判；协商",
-    "英文释义": "To discuss terms in order to reach an agreement."
-  },
-  "negotiated": {
-    "中文意思": "通过协商取得",
-    "英文释义": "Discussed and arranged terms."
-  },
-  "nervous": {
-    "中文意思": "紧张不安的",
-    "英文释义": "Anxious or easily unsettled."
-  },
-  "net": {
-    "中文意思": "互联网",
-    "英文释义": "An informal name for the internet."
-  },
-  "nobody": {
-    "中文意思": "没有人",
-    "英文释义": "No person."
-  },
-  "notion": {
-    "中文意思": "概念；观念",
-    "英文释义": "An idea or understanding of something."
-  },
-  "obstructed": {
-    "中文意思": "阻碍",
-    "英文释义": "Blocked or made progress more difficult."
-  },
-  "offshoots": {
-    "中文意思": "衍生事物",
-    "英文释义": "Things that develop from something else."
-  },
-  "one-way": {
-    "中文意思": "单向的",
-    "英文释义": "Operating in only one direction."
-  },
-  "oratory": {
-    "中文意思": "演讲术",
-    "英文释义": "The art of formal public speaking."
-  },
-  "origin": {
-    "中文意思": "来源；起点",
-    "英文释义": "The source or starting point of something."
-  },
-  "original": {
-    "中文意思": "最初的；原始的",
-    "英文释义": "Existing from the beginning."
-  },
-  "originating": {
-    "中文意思": "发出的；起始的",
-    "英文释义": "Serving as the source or starting point."
-  },
-  "origins": {
-    "中文意思": "来源；起源",
-    "英文释义": "Sources or starting points."
-  },
-  "outweighed": {
-    "中文意思": "超过；比……更重要",
-    "英文释义": "Were greater in importance or effect."
-  },
-  "overflow": {
-    "中文意思": "泛滥；溢出",
-    "英文释义": "An amount that exceeds available capacity."
-  },
-  "packet": {
-    "中文意思": "数据包",
-    "英文释义": "A unit of data sent across a network."
-  },
-  "packet-switched": {
-    "中文意思": "采用分组交换的",
-    "英文释义": "Sending data as separately routed packets."
-  },
-  "packets": {
-    "中文意思": "数据包",
-    "英文释义": "Units of data sent across a network."
-  },
-  "passwords": {
-    "中文意思": "密码",
-    "英文释义": "Secret strings used to gain access to a system."
-  },
-  "payments": {
-    "中文意思": "付款；款项",
-    "英文释义": "Transfers of money for goods or services."
-  },
-  "performances": {
-    "中文意思": "演出",
-    "英文释义": "Presentations of artistic works to an audience."
-  },
-  "permitted": {
-    "中文意思": "使成为可能；允许",
-    "英文释义": "Allowed something to happen."
-  },
-  "piece": {
-    "中文意思": "一项；一份",
-    "英文释义": "One item or unit of something."
-  },
-  "plato": {
-    "中文意思": "柏拉图",
-    "英文释义": "The ancient Greek philosopher named in the passage."
-  },
-  "plato's": {
-    "中文意思": "柏拉图的",
-    "英文释义": "Belonging to or written by Plato."
-  },
-  "poisoned": {
-    "中文意思": "毒害；破坏",
-    "英文释义": "Seriously harmed the quality of something."
-  },
-  "pontificating": {
-    "中文意思": "自以为是地说教",
-    "英文释义": "Giving opinions in a pompous or overly authoritative way."
-  },
-  "pope": {
-    "中文意思": "教皇",
-    "英文释义": "The head of the Roman Catholic Church."
-  },
-  "possibility": {
-    "中文意思": "可能性",
-    "英文释义": "A chance that something could happen."
-  },
-  "potential": {
-    "中文意思": "可能性；潜力",
-    "英文释义": "The capacity for something to happen or develop."
-  },
-  "producers": {
-    "中文意思": "制作人；生产者",
-    "英文释义": "People or organisations that create material."
-  },
-  "programmers": {
-    "中文意思": "程序员",
-    "英文释义": "People who write computer programs."
-  },
-  "programming": {
-    "中文意思": "编程",
-    "英文释义": "Writing instructions for computers."
-  },
-  "properties": {
-    "中文意思": "属性；特性",
-    "英文释义": "Characteristics of a thing or system."
-  },
-  "protected": {
-    "中文意思": "保护；保留",
-    "英文释义": "Kept something safe or intact."
-  },
-  "proven": {
-    "中文意思": "证明了（prove 的过去分词）",
-    "英文释义": "Shown to be true."
-  },
-  "publishing": {
-    "中文意思": "发布；出版",
-    "英文释义": "Making material available to the public."
-  },
-  "put": {
-    "中文意思": "放置；戴上（用于 put on）",
-    "英文释义": "To place something in a position."
-  },
-  "radio": {
-    "中文意思": "广播；电台",
-    "英文释义": "Broadcasting of sound programmes."
-  },
-  "rants": {
-    "中文意思": "激烈的长篇抱怨",
-    "英文释义": "Long, angry complaints or speeches."
-  },
-  "rapidly": {
-    "中文意思": "迅速地",
-    "英文释义": "At a fast rate."
-  },
-  "records": {
-    "中文意思": "记录；档案",
-    "英文释义": "Stored documents or information."
-  },
-  "reduction": {
-    "中文意思": "减少；削减",
-    "英文释义": "A decrease in amount or extent."
-  },
-  "reforms": {
-    "中文意思": "改革",
-    "英文释义": "Changes intended to improve a system."
-  },
-  "republic": {
-    "中文意思": "《理想国》",
-    "英文释义": "Plato's philosophical dialogue on justice and political order."
-  },
-  "return": {
-    "中文意思": "回复；返回",
-    "英文释义": "Relating to where a response is sent back."
-  },
-  "reward": {
-    "中文意思": "给予回报",
-    "英文释义": "To give something in recognition of value or effort."
-  },
-  "rewiring": {
-    "中文意思": "改变运作方式；重新布线",
-    "英文释义": "Changing how a system is connected or works."
-  },
-  "ring": {
-    "中文意思": "戒指",
-    "英文释义": "A circular band worn on a finger."
-  },
-  "royalty": {
-    "中文意思": "版税；使用费",
-    "英文释义": "Money paid for the use of someone's work or rights."
-  },
-  "sad": {
-    "中文意思": "难过的；惋惜的",
-    "英文释义": "Feeling sorrow or regret."
-  },
-  "sale": {
-    "中文意思": "出售",
-    "英文释义": "The act of selling something."
-  },
-  "schemes": {
-    "中文意思": "方案",
-    "英文释义": "Organised plans or systems."
-  },
-  "scratch": {
-    "中文意思": "起点（用于 from scratch）",
-    "英文释义": "The beginning, in the expression from scratch."
-  },
-  "search": {
-    "中文意思": "搜索",
-    "英文释义": "To look for information."
-  },
-  "sections": {
-    "中文意思": "部分；专区",
-    "英文释义": "Distinct parts of something."
-  },
-  "sectors": {
-    "中文意思": "行业；领域",
-    "英文释义": "Parts of an economy or activity."
-  },
-  "secure": {
-    "中文意思": "安全的",
-    "英文释义": "Protected from unauthorised access or harm."
-  },
-  "security": {
-    "中文意思": "安全",
-    "英文释义": "Protection against threats or unauthorised access."
-  },
-  "seemed": {
-    "中文意思": "看起来",
-    "英文释义": "Appeared to be a certain way."
-  },
-  "send": {
-    "中文意思": "发送",
-    "英文释义": "To cause a message or item to reach a destination."
-  },
-  "servers": {
-    "中文意思": "服务器",
-    "英文释义": "Computers or programs that provide services over a network."
-  },
-  "shrobe": {
-    "中文意思": "施罗布",
-    "英文释义": "The surname of Howard Shrobe, the MIT researcher named here."
-  },
-  "sites": {
-    "中文意思": "网站",
-    "英文释义": "Collections of pages available on the web."
-  },
-  "small": {
-    "中文意思": "小的；小额的",
-    "英文释义": "Limited in size or amount."
-  },
-  "someone's": {
-    "中文意思": "某人的",
-    "英文释义": "Belonging to an unspecified person."
-  },
-  "songs": {
-    "中文意思": "歌曲",
-    "英文释义": "Musical pieces with words."
-  },
-  "spam": {
-    "中文意思": "垃圾邮件；垃圾信息",
-    "英文释义": "Unwanted messages sent in bulk."
-  },
-  "spamming": {
-    "中文意思": "发送垃圾信息",
-    "英文释义": "Sending unwanted messages in bulk."
-  },
-  "spent": {
-    "中文意思": "花费；投入",
-    "英文释义": "Used or paid out for a purpose."
-  },
-  "spewing": {
-    "中文意思": "大量喷涌；大肆散布",
-    "英文释义": "Pouring out large amounts of something unpleasant."
-  },
-  "spur": {
-    "中文意思": "推动力",
-    "英文释义": "Something that encourages progress or activity."
-  },
-  "story": {
-    "中文意思": "报道；故事",
-    "英文释义": "An account of real or imagined events."
-  },
-  "such": {
-    "中文意思": "这种；诸如此类的",
-    "英文释义": "Of the type mentioned."
-  },
-  "supported": {
-    "中文意思": "支持",
-    "英文释义": "Expressed approval or backing for someone or something."
-  },
-  "surf": {
-    "中文意思": "浏览网页；上网",
-    "英文释义": "To browse websites on the internet."
-  },
-  "system": {
-    "中文意思": "系统",
-    "英文释义": "A set of connected parts working together."
-  },
-  "systems": {
-    "中文意思": "系统",
-    "英文释义": "Sets of connected parts working together."
-  },
-  "tackle": {
-    "中文意思": "着手解决",
-    "英文释义": "To deal with a difficult problem."
-  },
-  "tagged": {
-    "中文意思": "加上标签",
-    "英文释义": "Marked with identifying or descriptive information."
-  },
-  "talent": {
-    "中文意思": "人才；才能",
-    "英文释义": "People with a skill, or the skill they have."
-  },
-  "tcp": {
-    "中文意思": "传输控制协议",
-    "英文释义": "Transmission Control Protocol, which provides reliable data transfer."
-  },
-  "technologies": {
-    "中文意思": "技术",
-    "英文释义": "Practical tools, methods, or systems."
-  },
-  "technophobic": {
-    "中文意思": "惧怕技术的",
-    "英文释义": "Fearful or distrustful of new technology."
-  },
-  "teenager": {
-    "中文意思": "青少年",
-    "英文释义": "Someone aged thirteen to nineteen."
-  },
-  "thinks": {
-    "中文意思": "认为",
-    "英文释义": "Holds an opinion or belief."
-  },
-  "threaten": {
-    "中文意思": "威胁",
-    "英文释义": "To put something at risk."
-  },
-  "tim": {
-    "中文意思": "蒂姆",
-    "英文释义": "The given name of Tim Berners-Lee in the passage."
-  },
-  "trace": {
-    "中文意思": "追踪；追溯",
-    "英文释义": "To follow something to find its source or route."
-  },
-  "transactions": {
-    "中文意思": "交易",
-    "英文释义": "Exchanges involving money, goods, or services."
-  },
-  "trillions": {
-    "中文意思": "数万亿；数兆",
-    "英文释义": "Amounts measured in multiples of one trillion."
-  },
-  "troll": {
-    "中文意思": "网络喷子",
-    "英文释义": "A person who posts online to provoke or upset others."
-  },
-  "trolling": {
-    "中文意思": "网络挑衅",
-    "英文释义": "Posting online deliberately to provoke or upset people."
-  },
-  "trolls": {
-    "中文意思": "网络喷子",
-    "英文释义": "People who deliberately provoke or upset others online."
-  },
-  "true": {
-    "中文意思": "真实的；适用的",
-    "英文释义": "Correct or applicable."
-  },
-  "trump": {
-    "中文意思": "特朗普",
-    "英文释义": "The surname of Donald Trump in this passage."
-  },
-  "twitter": {
-    "中文意思": "推特",
-    "英文释义": "The social media platform named in the passage."
-  },
-  "two-factor": {
-    "中文意思": "双因素的",
-    "英文释义": "Using two different types of evidence for verification."
-  },
-  "understandably": {
-    "中文意思": "可以理解地",
-    "英文释义": "In a way that is easy to understand or sympathise with."
-  },
-  "unleashed": {
-    "中文意思": "释放；使泛滥",
-    "英文释义": "Allowed something harmful or powerful to spread freely."
-  },
-  "update": {
-    "中文意思": "更新",
-    "英文释义": "To bring something up to date or revise it."
-  },
-  "valuable": {
-    "中文意思": "有价值的",
-    "英文释义": "Useful or important."
-  },
-  "valued": {
-    "中文意思": "受到重视的",
-    "英文释义": "Regarded as useful or important."
-  },
-  "verified": {
-    "中文意思": "经过验证的",
-    "英文释义": "Confirmed as genuine or accurate."
-  },
-  "vint": {
-    "中文意思": "文特",
-    "英文释义": "The given name of Vint Cerf in the passage."
-  },
-  "voluntary": {
-    "中文意思": "自愿的",
-    "英文释义": "Done by choice and without compulsion."
-  },
-  "wallet": {
-    "中文意思": "钱包",
-    "英文释义": "Something used to hold money or payment information."
-  },
-  "wanted": {
-    "中文意思": "想要（want 的过去式）",
-    "英文释义": "Wished to have or do something."
-  },
-  "web": {
-    "中文意思": "万维网；网络",
-    "英文释义": "The system of interlinked resources accessed through the internet."
-  },
-  "webbed": {
-    "中文意思": "织成网；连成网络",
-    "英文释义": "Connected together like a web."
-  },
-  "webpage": {
-    "中文意思": "网页",
-    "英文释义": "A single document or page on the web."
-  },
-  "well": {
-    "中文意思": "也（用于 as well）",
-    "英文释义": "Also, in the phrase as well."
-  },
-  "whatever": {
-    "中文意思": "任何……的东西",
-    "英文释义": "Anything that meets the stated condition."
-  },
-  "whenever": {
-    "中文意思": "每当",
-    "英文释义": "At any time that something happens."
-  },
-  "whole": {
-    "中文意思": "全部；整个",
-    "英文释义": "All of something."
-  },
-  "wide": {
-    "中文意思": "广泛的；宽广的",
-    "英文释义": "Extending over a large area or range."
-  },
-  "works": {
-    "中文意思": "作品；运作",
-    "英文释义": "Creative pieces, or functions in a particular way."
-  },
-  "worries": {
-    "中文意思": "担忧",
-    "英文释义": "Concerns about possible problems."
-  },
-  "writing": {
-    "中文意思": "书写；写作",
-    "英文释义": "The act or system of recording language in written form."
-  },
   "yorker": {
     "中文意思": "纽约人（用于 The New Yorker）",
     "英文释义": "A person from New York, or part of the magazine's name here."
   },
-  "celebrated": {
-    "中文意思": "受到赞扬；被赞颂",
-    "英文释义": "Praised or honoured publicly."
+  "you": {
+    "中文意思": "你；你们",
+    "英文释义": "The person or people being addressed."
+  },
+  "you're": {
+    "中文意思": "你是；你正在",
+    "英文释义": "The contracted form of you are."
+  },
+  "you've": {
+    "中文意思": "你已经",
+    "英文释义": "The contracted form of you have."
+  },
+  "youngest": {
+    "中文意思": "最年幼的",
+    "英文释义": "Having the least age in a group."
+  },
+  "your": {
+    "中文意思": "你的；你们的",
+    "英文释义": "Belonging to the person or people addressed."
+  },
+  "yourself": {
+    "中文意思": "你自己",
+    "英文释义": "The reflexive form of you for one person."
   }
 }

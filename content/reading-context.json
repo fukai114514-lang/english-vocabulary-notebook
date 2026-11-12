@@ -1,43 +1,233 @@
 {
   "vpn-privacy-A": [
-    ["turn to", "短语动词", "求助于；借助", "To seek help from something."],
-    ["virtual private network", "名词短语", "虚拟专用网络（VPN）", "A network that creates a private connection over another network."]
+    [
+      "turn to",
+      "短语动词",
+      "求助于；借助",
+      "To seek help from something."
+    ],
+    [
+      "virtual private network",
+      "名词短语",
+      "虚拟专用网络（VPN）",
+      "A network that creates a private connection over another network."
+    ]
   ],
-  "vpn-privacy-B": [["rolled back", "短语动词 · roll back", "撤销或削弱原有规定", "Reversed or weakened existing rules."]],
-  "vpn-privacy-D": [["opt in", "短语动词", "主动同意让服务商出售数据", "To give your explicit agreement to participate."]],
-  "vpn-privacy-E": [["turn off", "短语动词", "关掉（灯或设备）", "To stop a light or device from operating."]],
-  "vpn-privacy-F": [["For one thing", "固定表达", "其中一个原因是", "Introduces one reason among several."]],
-  "vpn-privacy-G": [["deliver on", "动词短语", "兑现（承诺）", "To do what was promised."]],
-  "motherhood-B": [["looking forward to", "动词短语 · look forward to", "期待和孩子们相处的时光", "Feeling pleased about something that is going to happen."]],
-  "motherhood-D": [["sense of self", "名词短语", "对自我身份的认识", "A person's understanding of who they are."]],
-  "motherhood-F": [["cautionary tale", "名词短语", "警示性的故事", "A story that warns about possible consequences."]],
-  "motherhood-G": [["cling to", "动词短语", "坚持某种观念，不愿放弃", "To hold firmly to an idea."]],
-  "motherhood-J": [["turn to", "动词短语", "（谈话）转向另一个话题", "To shift the conversation to another subject."]],
-  "motherhood-K": [["misses the point", "动词短语 · miss the point", "没有抓住要点", "Fails to understand the central idea."]],
-  "motherhood-N": [["run deep", "动词短语", "（偏见）根深蒂固", "To be strongly established and hard to change."]],
-  "nap-A": [["on the clock", "介词短语", "在工作时间", "During paid working time."]],
-  "nap-B": [["look down on", "短语动词", "看不起；对……持轻视态度", "To regard someone or something as inferior."], ["slacking off", "短语动词 · slack off", "在工作中偷懒", "Working less hard than expected."]],
-  "nap-C": [["take a back seat to", "固定表达", "退居次要地位，让位于……", "To receive less attention or priority than something else."]],
-  "nap-D": [["stressed out", "形容词短语", "因压力过大而疲惫紧张", "Feeling overwhelmed by stress."]],
-  "nap-T": [["nod off", "短语动词", "打瞌睡；不知不觉睡着", "To fall asleep unintentionally."]],
+  "vpn-privacy-B": [
+    [
+      "rolled back",
+      "短语动词 · roll back",
+      "撤销或削弱原有规定",
+      "Reversed or weakened existing rules."
+    ]
+  ],
+  "vpn-privacy-D": [
+    [
+      "opt in",
+      "短语动词",
+      "主动同意让服务商出售数据",
+      "To give your explicit agreement to participate."
+    ]
+  ],
+  "vpn-privacy-E": [
+    [
+      "turn off",
+      "短语动词",
+      "关掉（灯或设备）",
+      "To stop a light or device from operating."
+    ]
+  ],
+  "vpn-privacy-F": [
+    [
+      "For one thing",
+      "固定表达",
+      "其中一个原因是",
+      "Introduces one reason among several."
+    ]
+  ],
+  "vpn-privacy-G": [
+    [
+      "deliver on",
+      "动词短语",
+      "兑现（承诺）",
+      "To do what was promised."
+    ]
+  ],
+  "motherhood-B": [
+    [
+      "looking forward to",
+      "动词短语 · look forward to",
+      "期待和孩子们相处的时光",
+      "Feeling pleased about something that is going to happen."
+    ]
+  ],
+  "motherhood-D": [
+    [
+      "sense of self",
+      "名词短语",
+      "对自我身份的认识",
+      "A person's understanding of who they are."
+    ]
+  ],
+  "motherhood-F": [
+    [
+      "cautionary tale",
+      "名词短语",
+      "警示性的故事",
+      "A story that warns about possible consequences."
+    ]
+  ],
+  "motherhood-G": [
+    [
+      "cling to",
+      "动词短语",
+      "坚持某种观念，不愿放弃",
+      "To hold firmly to an idea."
+    ]
+  ],
+  "motherhood-J": [
+    [
+      "turn to",
+      "动词短语",
+      "（谈话）转向另一个话题",
+      "To shift the conversation to another subject."
+    ]
+  ],
+  "motherhood-K": [
+    [
+      "misses the point",
+      "动词短语 · miss the point",
+      "没有抓住要点",
+      "Fails to understand the central idea."
+    ]
+  ],
+  "motherhood-N": [
+    [
+      "run deep",
+      "动词短语",
+      "（偏见）根深蒂固",
+      "To be strongly established and hard to change."
+    ]
+  ],
+  "nap-A": [
+    [
+      "on the clock",
+      "介词短语",
+      "在工作时间",
+      "During paid working time."
+    ]
+  ],
+  "nap-B": [
+    [
+      "look down on",
+      "短语动词",
+      "看不起；对……持轻视态度",
+      "To regard someone or something as inferior."
+    ],
+    [
+      "slacking off",
+      "短语动词 · slack off",
+      "在工作中偷懒",
+      "Working less hard than expected."
+    ]
+  ],
+  "nap-C": [
+    [
+      "take a back seat to",
+      "固定表达",
+      "退居次要地位，让位于……",
+      "To receive less attention or priority than something else."
+    ]
+  ],
+  "nap-D": [
+    [
+      "stressed out",
+      "形容词短语",
+      "因压力过大而疲惫紧张",
+      "Feeling overwhelmed by stress."
+    ]
+  ],
+  "nap-T": [
+    [
+      "nod off",
+      "短语动词",
+      "打瞌睡；不知不觉睡着",
+      "To fall asleep unintentionally."
+    ]
+  ],
   "politics-and-evidence-A": [
-    ["political affiliation", "political affiliation", "政治归属，所属政党或阵营", "A connection with a political party or group."],
-    ["informed by science", "be informed by", "以科学为依据", "Be guided or shaped by scientific knowledge."],
-    ["political tribes", "political tribes", "政治阵营", "Groups with shared political beliefs and strong loyalties."]
+    [
+      "political affiliation",
+      "political affiliation",
+      "政治归属，所属政党或阵营",
+      "A connection with a political party or group."
+    ],
+    [
+      "informed by science",
+      "be informed by",
+      "以科学为依据",
+      "Be guided or shaped by scientific knowledge."
+    ],
+    [
+      "political tribes",
+      "political tribes",
+      "政治阵营",
+      "Groups with shared political beliefs and strong loyalties."
+    ]
   ],
   "politics-and-evidence-B": [
-    ["hard evidence", "hard evidence", "确凿的证据", "Reliable evidence based on facts."],
-    ["weigh up the facts", "weigh up", "权衡、审慎考虑事实", "Consider the facts carefully before reaching a judgment."]
+    [
+      "hard evidence",
+      "hard evidence",
+      "确凿的证据",
+      "Reliable evidence based on facts."
+    ],
+    [
+      "weigh up the facts",
+      "weigh up",
+      "权衡、审慎考虑事实",
+      "Consider the facts carefully before reaching a judgment."
+    ]
   ],
   "politics-and-evidence-C": [
-    ["a mountain of evidence", "a mountain of", "大量证据", "A very large amount of evidence."],
-    ["fit with", "fit with", "与……相符", "Be consistent with something."]
+    [
+      "a mountain of evidence",
+      "a mountain of",
+      "大量证据",
+      "A very large amount of evidence."
+    ],
+    [
+      "fit with",
+      "fit with",
+      "与……相符",
+      "Be consistent with something."
+    ]
   ],
   "politics-and-evidence-D": [
-    ["susceptible to", "susceptible to", "易受……影响", "Easily influenced or affected by something."],
-    ["gut instinct", "gut instinct", "直觉", "An immediate feeling or judgment formed without conscious reasoning."],
-    ["facility for", "facility for", "做某事的能力或天赋", "An ability to do something readily or skillfully."],
-    ["contrary evidence", "contrary evidence", "与已有看法相矛盾的证据", "Evidence that points to an opposing conclusion."]
+    [
+      "susceptible to",
+      "susceptible to",
+      "易受……影响",
+      "Easily influenced or affected by something."
+    ],
+    [
+      "gut instinct",
+      "gut instinct",
+      "直觉",
+      "An immediate feeling or judgment formed without conscious reasoning."
+    ],
+    [
+      "facility for",
+      "facility for",
+      "做某事的能力或天赋",
+      "An ability to do something readily or skillfully."
+    ],
+    [
+      "contrary evidence",
+      "contrary evidence",
+      "与已有看法相矛盾的证据",
+      "Evidence that points to an opposing conclusion."
+    ]
   ],
   "how-to-fix-the-internet-A": [
     [
@@ -165,6 +355,94 @@
       "rather than",
       "而不是",
       "Used to contrast two choices or situations."
+    ]
+  ],
+  "busyness-as-status-A": [
+    [
+      "lead to",
+      "lead to",
+      "导致；带来",
+      "To result in something."
+    ]
+  ],
+  "busyness-as-status-B": [
+    [
+      "social mobility",
+      "social mobility",
+      "社会流动性；社会地位的变动",
+      "Movement between social positions."
+    ],
+    [
+      "of higher standing",
+      "of higher standing",
+      "社会地位更高",
+      "Having a higher social status."
+    ]
+  ],
+  "busyness-as-status-C": [
+    [
+      "knee-deep in",
+      "knee-deep in",
+      "深陷于；忙于应付",
+      "Deeply involved in or overwhelmed by something."
+    ],
+    [
+      "a big deal",
+      "a big deal",
+      "重要人物",
+      "An important person in this context."
+    ],
+    [
+      "at risk of",
+      "at risk of",
+      "有……的风险",
+      "In danger of experiencing something harmful."
+    ],
+    [
+      "burnout",
+      "burnout",
+      "职业倦怠；精疲力竭",
+      "Exhaustion caused by prolonged work-related stress."
+    ]
+  ],
+  "busyness-as-status-D": [
+    [
+      "self-righteous",
+      "self-righteous",
+      "自以为是的",
+      "Overly certain of one’s own moral superiority."
+    ],
+    [
+      "against your will",
+      "against your will",
+      "违背自己的意愿",
+      "Without your consent or desire."
+    ],
+    [
+      "as opposed to",
+      "as opposed to",
+      "而不是；与……相对",
+      "Rather than or in contrast to."
+    ],
+    [
+      "making the most of",
+      "make the most of",
+      "充分利用",
+      "Using something to the greatest advantage."
+    ]
+  ],
+  "busyness-as-status-E": [
+    [
+      "think twice about",
+      "think twice about",
+      "对……三思；仔细考虑",
+      "To consider carefully before acting."
+    ],
+    [
+      "take time off",
+      "take time off",
+      "休假；暂时不工作",
+      "To spend time away from work."
     ]
   ]
 }
