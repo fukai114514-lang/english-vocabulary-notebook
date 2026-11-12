@@ -29,11 +29,11 @@ page = ''.join(f.read_text() for f in sorted((ROOT/'dist').glob('*.html')))
 catalog = json.loads((ROOT / 'dist/vocabulary.json').read_text())
 poly = json.loads((ROOT / 'dist/polysemy.json').read_text())
 nap = json.loads((ROOT / 'content/nap_article.json').read_text())
-assert len(catalog['groups']) == 139
-assert len(catalog['words']) == 327
-assert sum(len(g['entries']) for g in catalog['groups']) == 332
-assert len(poly['entries']) == 78
-assert sum(len(e['senses']) for e in poly['entries']) == 428
+assert len(catalog['groups']) == 142
+assert len(catalog['words']) == 338
+assert sum(len(g['entries']) for g in catalog['groups']) == 343
+assert len(poly['entries']) == 81
+assert sum(len(e['senses']) for e in poly['entries']) == 438
 assert catalog['parts'] == [poly, json.loads((ROOT/'content/phrases.json').read_text())]
 for e in poly['entries']:
     for s in e['senses']:
@@ -44,10 +44,10 @@ for letter, text in nap['paragraphs'].items():
     assert f'id="nap-{letter}"' in page and html.escape(text) in page, letter
 for row in nap['vocabulary'] + nap['phrases']:
     assert all(html.escape(text) in page for text in row)
-assert page.count('<table>') == 139
+assert page.count('<table>') == 142
 assert not re.search(r'(?:src|href)=["\x27]https?://', page)
 assert 'content/app.js' not in page  # Historical learning app is intentionally inactive.
-print('PASS: reviewed SHA-256 baseline; 139 groups, 332 entries, 327 unique IDs; 78 polysemy words/428 senses; 20 paragraphs, 32 words, 33 phrases.')
+print('PASS: reviewed SHA-256 baseline; 142 groups, 343 entries, 338 unique IDs; 81 polysemy words/438 senses; 20 paragraphs, 32 words, 33 phrases.')
 
 from verify_interface import verify as verify_interface
 verify_interface()

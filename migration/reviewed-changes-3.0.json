@@ -8,48 +8,48 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "583a1b65634c4e5f803163cd27efe2dad382e8c78283e0c034946d0c943afe2f",
-    "reason": "2026-11-11: append-only vocabulary update; see docs/content-additions-20261111.json."
+    "sha256": "bf710769de05a6bf23f7ebb54d5c7c5beb6dedcecd4466d9de56062b711e43c3",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/polysemy.txt": {
-    "sha256": "1ff3d60cb548ba22c8513d56ef9335491dcbcb0da29ecea86b6e238f63579c37",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "608f620d8b1fc640c3a920a620d67165d78baff7ba91f8f4e34d4a63fd31ecfa",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/render.py": {
     "sha256": "ef3595d1d96899b45e986937361927502aeb021c71c8c7679513f0a2b36eace9",
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "0ecc16309ed171684827d159e2f02c9209bc85b6bad3feabd21d7c7d60827367",
-    "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
+    "sha256": "82b351cde3532890144eef1f5e69348b6b234588b18fceacb81d47f059c0c3d7",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "dist/polysemy.json": {
-    "sha256": "b03ba5e04c4985e69324780528d968e28301dd2798e46379f1dc6478d241937e",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "947ec76ece530fdb05f458c8f303d9949a865bcce66161bc31450113b0965cba",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "dist/vocabulary.json": {
-    "sha256": "c607225d4ddce215642aa895974f7d5c7e3d5196d18f25b5d1331877afb3f725",
-    "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
+    "sha256": "9a2aba6a1d963b7bdaf53031aa6d0a2379385112b13da1e25fea340c97f19db8",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/base.html": {
-    "sha256": "0fc08a429f3d1853952d0a8edf9d34291f8a06ffa2ad510b2e08f5aeb0678f97",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "e35780c8f9b7df58d94c6e1e1a02cd26f71442d9f090b0d915907cc2d815321c",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/comparisons.txt": {
-    "sha256": "fce3b0f7f2ab64ec5816cbc714b214b19a9a7a957cad8705f08702f10c5cc60c",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "bb1517ab3048e7be38865bb55924932ea12aa025ffc2993f263443de7a3b24b5",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/english-captions.txt": {
-    "sha256": "3de9455d640684730eab6ff14d6e1903b87dacf0e40f1789f2caf4dbddf84a9e",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "5d77ef51b0fc64f7ceb2036f224be862b16f1aaa25b3c5f6f4a482e170b66ca4",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/selection-notes.txt": {
-    "sha256": "804a2eef2bf6db23a2912937f96a20de4d64a824f149fef9a1f14cea719f4614",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "64251a0e460792d044cae37a319c1fadaf11627a34ed14b25882c93390611434",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/vocabulary.json": {
-    "sha256": "12febbcd07708ec2a3f240a0030b19cdbcb52a410b63845f8e5f9e7392bbbe22",
-    "reason": "2026-11-11: reviewed append-only groups 138–139 and polysemy stiff, parameter, tone; original records preserved. See docs/content-additions-20261111.json."
+    "sha256": "dfc789237049c3a31edf6b207c2045cac9dcb0f3d4ed5a1e1c77d15f3cb432d6",
+    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
   },
   "content/pronunciation.js": {
     "sha256": "000c956ed80d25f35ee9feab24e3928fd228e1f50fa3a1c85379bb2e60a9f760",

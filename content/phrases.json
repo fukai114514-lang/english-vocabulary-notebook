@@ -30,6 +30,126 @@
       ],
       "noteEn": "Over time describes gradual change; in time means early enough or eventually; on time means at the scheduled time. Overtime (one word) means extra working time or extra time in a sports match.",
       "noteZh": "over time 强调“随时间逐渐变化”；in time 表示“及时”或“最终”；on time 表示“准时”。注意 overtime 连写是另一个词，表示“加班（时间）”或“加时赛”。"
+    },
+    {
+      "id": "phrase-in-full-bloom",
+      "phrase": "in full bloom",
+      "meaningZh": "盛开；处于全盛期",
+      "definitionEn": "With flowers fully open; also at a highly developed stage.",
+      "usageEn": "Often follows be or come.",
+      "usageZh": "常接在 be 后面，形容花盛开，也可用于比喻。",
+      "collocations": [
+        "be in full bloom",
+        "roses in full bloom"
+      ],
+      "examples": [
+        {
+          "en": "The cherry trees are in full bloom.",
+          "zh": "樱花树正在盛开。"
+        }
+      ],
+      "noteEn": "In bloom means flowering; full adds the idea of the peak flowering stage.",
+      "noteZh": "in bloom 是开花；full 强调盛开。"
+    },
+    {
+      "id": "phrase-make-a-difference",
+      "phrase": "make a difference",
+      "meaningZh": "产生影响；起作用",
+      "definitionEn": "To have an effect on someone or something.",
+      "usageEn": "Use make a difference to someone or something.",
+      "usageZh": "常用 make a difference to，形容带来影响或改变。",
+      "collocations": [
+        "make a big difference",
+        "make a difference to"
+      ],
+      "examples": [
+        {
+          "en": "A short break can make a difference to your concentration.",
+          "zh": "短暂休息可以改善你的专注力。"
+        }
+      ],
+      "noteEn": "A difference between two things means a distinction; make a difference means to have an effect.",
+      "noteZh": "a difference between 指差别；make a difference 指产生影响。"
+    },
+    {
+      "id": "phrase-at-risk-of",
+      "phrase": "at risk of",
+      "meaningZh": "有……的风险",
+      "definitionEn": "In danger of experiencing something harmful.",
+      "usageEn": "Follow of with a noun or an -ing form.",
+      "usageZh": "of 后接名词或动名词。",
+      "collocations": [
+        "at risk of burnout",
+        "at risk of losing"
+      ],
+      "examples": [
+        {
+          "en": "They are at risk of losing their jobs.",
+          "zh": "他们面临失业的风险。"
+        }
+      ],
+      "noteEn": "At risk means in danger; take a risk means to do something despite uncertainty.",
+      "noteZh": "at risk 指处于风险中；take a risk 指冒险。"
+    },
+    {
+      "id": "phrase-as-opposed-to",
+      "phrase": "as opposed to",
+      "meaningZh": "而不是；与……相对",
+      "definitionEn": "Used to contrast one choice or situation with another.",
+      "usageEn": "Follow to with a noun phrase or an -ing form.",
+      "usageZh": "这里 to 是介词，后接名词或动名词。",
+      "collocations": [
+        "working as opposed to resting",
+        "quality as opposed to quantity"
+      ],
+      "examples": [
+        {
+          "en": "The course focuses on practice as opposed to theory.",
+          "zh": "这门课程侧重实践而非理论。"
+        }
+      ],
+      "noteEn": "Opposed to can mean against; as opposed to introduces a contrast.",
+      "noteZh": "be opposed to 可指反对；as opposed to 用于对照。"
+    },
+    {
+      "id": "phrase-make-the-most-of",
+      "phrase": "make the most of",
+      "meaningZh": "充分利用",
+      "definitionEn": "To use an opportunity or resource as effectively as possible.",
+      "usageEn": "Use with time, opportunities, or available resources.",
+      "usageZh": "常与时间、机会或已有资源搭配。",
+      "collocations": [
+        "make the most of your time",
+        "make the most of an opportunity"
+      ],
+      "examples": [
+        {
+          "en": "Make the most of your time off.",
+          "zh": "充分利用你的休假时间。"
+        }
+      ],
+      "noteEn": "Make the most of does not mean make the majority of something.",
+      "noteZh": "这是固定表达，不是“制作其中的大多数”。"
+    },
+    {
+      "id": "phrase-think-twice-about",
+      "phrase": "think twice about",
+      "meaningZh": "对……三思；慎重考虑",
+      "definitionEn": "To consider carefully before making a decision.",
+      "usageEn": "Follow about with a noun or an -ing form.",
+      "usageZh": "about 后接名词或动名词；常暗示行动前应谨慎。",
+      "collocations": [
+        "think twice about accepting",
+        "think twice about a decision"
+      ],
+      "examples": [
+        {
+          "en": "Think twice about sending work emails at midnight.",
+          "zh": "深夜发送工作邮件前要三思。"
+        }
+      ],
+      "noteEn": "Think twice before doing is another common construction.",
+      "noteZh": "也常用 think twice before doing。"
     }
   ]
 }

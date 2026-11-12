@@ -7124,6 +7124,179 @@
       "reviewStatus": "reviewed",
       "orderingBasis": "Common everyday senses first, then specialized or extended uses; editorial ordering, not a frequency claim.",
       "references": []
+    },
+    {
+      "word": "bloom",
+      "notes": "in full bloom 表示盛开；bloom into 可表示发展成为。名词 bloom 也可指繁盛状态或表面的一层粉霜。",
+      "senses": [
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "开花",
+          "definitionEn": "To produce flowers.",
+          "example": {
+            "en": "The roses bloom in early summer.",
+            "zh": "玫瑰在初夏开花。"
+          },
+          "id": "sense-bloom-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "花；开花状态",
+          "definitionEn": "A flower or the state of flowering.",
+          "example": {
+            "en": "The garden is in full bloom.",
+            "zh": "花园里百花盛开。"
+          },
+          "id": "sense-bloom-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "繁荣；焕发光彩",
+          "definitionEn": "To develop well or become more confident and successful.",
+          "example": {
+            "en": "Her talent bloomed at university.",
+            "zh": "她的才华在大学里绽放。"
+          },
+          "id": "sense-bloom-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "Common learner meanings ordered for this note; no corpus-frequency ranking claimed.",
+      "references": [
+        "https://dictionary.cambridge.org/dictionary/english/bloom"
+      ]
+    },
+    {
+      "word": "upper",
+      "notes": "通常作定语：the upper floor、upper limit、upper class；不能把 upper 当作一般的 higher。the upper hand 表示优势。名词 upper 还可指鞋帮。",
+      "senses": [
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "上部的；较高位置的",
+          "definitionEn": "Located above another part or at a higher level.",
+          "example": {
+            "en": "Put the books on the upper shelf.",
+            "zh": "把书放在上层架子上。"
+          },
+          "id": "sense-upper-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "adj.",
+          "meaningZh": "较高的；上层的",
+          "definitionEn": "Higher in amount, rank, or social position.",
+          "example": {
+            "en": "The upper limit is fifty students.",
+            "zh": "人数上限为五十名学生。"
+          },
+          "id": "sense-upper-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "鞋帮；鞋面",
+          "definitionEn": "The part of a shoe above the sole.",
+          "example": {
+            "en": "These shoes have leather uppers.",
+            "zh": "这些鞋的鞋面是皮革制成的。"
+          },
+          "id": "sense-upper-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "Common learner meanings ordered for this note; no corpus-frequency ranking claimed.",
+      "references": [
+        "https://dictionary.cambridge.org/dictionary/english/upper"
+      ]
+    },
+    {
+      "word": "pattern",
+      "notes": "pattern 可指反复出现的规律或图案；trend 强调变化方向，habit 强调习惯，model 可指模型或范例。pattern A on/after B 表示以 B 为模仿对象。",
+      "senses": [
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "模式；规律；行为方式",
+          "definitionEn": "A repeated or regular way in which something happens or is done.",
+          "example": {
+            "en": "We noticed a pattern in the results.",
+            "zh": "我们在结果中发现了一个规律。"
+          },
+          "id": "sense-pattern-01",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "图案",
+          "definitionEn": "A repeated arrangement of shapes, lines, or colours.",
+          "example": {
+            "en": "The shirt has a striped pattern.",
+            "zh": "这件衬衫有条纹图案。"
+          },
+          "id": "sense-pattern-02",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "n.",
+          "meaningZh": "样板；纸样",
+          "definitionEn": "A design or shape used as a guide for making something.",
+          "example": {
+            "en": "She used a paper pattern to make the dress.",
+            "zh": "她用纸样制作了这条连衣裙。"
+          },
+          "id": "sense-pattern-03",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        },
+        {
+          "partOfSpeech": "v.",
+          "meaningZh": "模仿；仿照",
+          "definitionEn": "To design or make something by following a model.",
+          "example": {
+            "en": "The programme was patterned on a successful local project.",
+            "zh": "该计划仿照了一个成功的地方项目。"
+          },
+          "id": "sense-pattern-04",
+          "register": null,
+          "regionalUsage": null,
+          "collocations": [],
+          "usageWarning": null
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "orderingBasis": "Common learner meanings ordered for this note; no corpus-frequency ranking claimed.",
+      "references": [
+        "https://dictionary.cambridge.org/dictionary/english/pattern"
+      ]
     }
   ]
 }

@@ -436,6 +436,7 @@ snap|v./n. 啪地折断；猛地合上；厉声说；快照|常带突然、快�
 # 129
 intrigue|v./n. 激起好奇；密谋；阴谋活动|动词最常见于引起兴趣或好奇；名词也指秘密谋划|be intrigued by; political intrigue|The unusual title intrigued me. → 这个不寻常的标题激起了我的好奇心。
 plot|n./v. 情节；阴谋；地块；密谋；绘图|故事结构、具体阴谋或筹划行为，含义取决于语境|the plot of a novel; plot against; plot a graph|The novel has a complicated plot. → 这部小说的情节很复杂。
+scheme|n./v. 计划；方案；计谋；密谋|名词在英式英语中常指中性或正式方案；动词常带秘密算计意味|a training scheme; a colour scheme; scheme to do|The university introduced a training scheme for new staff. → 大学为新员工推出了一项培训计划。
 # 130
 crisp|adj. 脆的；清新的；清晰利落的|可形容食物，也可形容空气、声音、图像或动作|crisp lettuce; crisp air; a crisp image|The lettuce is fresh and crisp. → 生菜新鲜爽脆。
 crispy|adj. 酥脆的；脆皮的|主要形容食物表面或质地，常用于油炸或烘烤食品|crispy bacon; crispy skin|Bake until the skin is crispy. → 烤到表皮酥脆。
@@ -451,6 +452,8 @@ esteem|n./v. 敬重；高度评价|偏正式，常因品质或成就而高度评
 integral|adj./n. 必不可少的；整体组成的；积分|形容词强调构成整体不可缺的一部分；名词为数学术语|an integral part of; integral to|Reading is an integral part of language learning. → 阅读是语言学习不可缺少的一部分。
 vital|adj. 至关重要的；维持生命必需的|强调对生存、成功或正常运作的必要性|vital to; vital for; vital signs|Water is vital for survival. → 水是生存所必需的。
 crucial|adj. 关键的；决定性的|强调对结果或关键阶段有决定作用|crucial to; a crucial decision; a crucial stage|This evidence is crucial to the investigation. → 这项证据对调查至关重要。
+essential|adj./n. 必要的；本质的；必需品|强调对某目标或活动必需；也有本质、基本的含义|essential for; essential to; essential supplies|Clear communication is essential for teamwork. → 清晰的沟通对团队合作必不可少。
+indispensable|adj. 必不可少的|强调人或物重要到不能缺少；不必暗示世界上绝无替代者|indispensable to; indispensable for; an indispensable tool|This dictionary is indispensable to translators. → 这本词典对译者来说不可或缺。
 # 135
 flush|adj./v./n. 齐平的；冲洗；脸红；红晕|齐平义强调两个表面贴合并处在同一平面|flush with; flush the toilet; flush with embarrassment|The door is flush with the wall. → 门与墙面齐平。
 level|adj./v./n. 水平的；同高的；使平整；水平或级别|范围更广，可指水平、同高、程度或等级|level with; a level surface; level the ground|The shelf is level with the window. → 架子与窗户处于同一高度。
@@ -469,3 +472,14 @@ accumulate|v. 积累；逐渐增多|强调数量随着时间或反复增加，�
 # 139
 pretext|n. 借口；托词|通常暗示公开给出的理由并非真实动机|on the pretext of; use sth as a pretext|He left early on the pretext of feeling ill. → 他以身体不适为由提前离开了。
 excuse|n./v. 理由；借口；原谅|泛指解释或开脱的理由，不必然是假的；也可作动词|make an excuse; an excuse for being late; excuse me|She had a good excuse for being late: her train was cancelled. → 她迟到有正当理由：火车停运了。
+# 140
+glamour|n. 迷人的魅力；华丽光环|常指美丽、时尚、奢华或令人向往的生活带来的吸引力|the glamour of; Hollywood glamour; add glamour|She was attracted by the glamour of the film industry. → 她被电影行业的迷人光环所吸引。
+charm|n./v. 魅力；吸引；使着迷|常指令人愉悦或亲近的特质；人、地方和事物都可有 charm|personal charm; the charm of; charm someone|The village has a quiet charm. → 这个村庄有一种宁静的魅力。
+# 141
+difference|n. 差别；分歧|最通用的差异；也可指意见不合|a difference between; make a difference; differences of opinion|There is a clear difference between the two methods. → 这两种方法有明显差别。
+distinction|n. 区别；区分；优秀|强调可辨认的界限或作出区分；也可指优秀、荣誉|draw a distinction between; a distinction between; with distinction|We should draw a distinction between facts and opinions. → 我们应该区分事实与观点。
+discrepancy|n. 出入；不一致|常指按理应相符的数据、说法或记录之间有出入|a discrepancy between; a discrepancy in; explain a discrepancy|There is a discrepancy between the receipt and the bank record. → 收据与银行记录之间存在出入。
+discrimination|n. 歧视；辨别能力|常指基于群体身份的不公平待遇；也可中性指辨别差异的能力|discrimination against; racial discrimination; visual discrimination|The test measures visual discrimination. → 这项测试测量视觉辨别能力。
+# 142
+bloom|n./v. 花；开花；繁盛|可指花朵、开花状态，也可比喻发展或焕发光彩|in full bloom; come into bloom; bloom into|The roses are in full bloom. → 玫瑰正在盛开。
+blossom|n./v. 花；开花；成长|名词常指树木或灌木的花，尤其果树；动词也可比喻成长|cherry blossom; blossom into; blossom out|Her confidence blossomed during the course. → 她在课程期间变得越来越自信。

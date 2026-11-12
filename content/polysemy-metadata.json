@@ -3968,5 +3968,102 @@
         "reviewStatus": "reviewed"
       }
     }
+  },
+  "bloom": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner meanings ordered for this note; no corpus-frequency ranking claimed.",
+    "references": [
+      "https://dictionary.cambridge.org/dictionary/english/bloom"
+    ],
+    "senses": {
+      "b1e930be9f8acdd7f1ef0e21903118e48b8ddc600bdecd3d43bfe9437162439f": {
+        "id": "sense-bloom-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "6ca8a13018f874a34146321ab9e94b34abbcfc4c47d9649aef198d399a504005": {
+        "id": "sense-bloom-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "3166b5daa206c979eff87d38c20ac340bb4d5903b32182184233c952b148bed6": {
+        "id": "sense-bloom-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      }
+    }
+  },
+  "upper": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner meanings ordered for this note; no corpus-frequency ranking claimed.",
+    "references": [
+      "https://dictionary.cambridge.org/dictionary/english/upper"
+    ],
+    "senses": {
+      "cc3465b4792c78b62ca9b62fa442629ebccf064a697aa139fe5d9e5740266375": {
+        "id": "sense-upper-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "ed1948a40521bb420a834a981251f15a40e41d109f374c3ff61084ead909a8f4": {
+        "id": "sense-upper-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "314ab3d57f8bcd124227d1458675763f29496a34f8c1d1c11aa46b91bf6dc1bd": {
+        "id": "sense-upper-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      }
+    }
+  },
+  "pattern": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner meanings ordered for this note; no corpus-frequency ranking claimed.",
+    "references": [
+      "https://dictionary.cambridge.org/dictionary/english/pattern"
+    ],
+    "senses": {
+      "ccb010795e476015617577434c460ce0cf3779de0f45d82a489db91251a56a17": {
+        "id": "sense-pattern-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "b90447f9d1eee2673aa3b5aa63c091e8c4ce928e912595196f775ed2aeeb2693": {
+        "id": "sense-pattern-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "e19c68c690df137eec85e9340d8c4a54266dd89eb3a4caf4b71252003b1da000": {
+        "id": "sense-pattern-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      },
+      "1a1aaa4846cb0fbaad974937208abcd31053c709d728003cdb20a0f30c9bfdda": {
+        "id": "sense-pattern-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null
+      }
+    }
   }
 }

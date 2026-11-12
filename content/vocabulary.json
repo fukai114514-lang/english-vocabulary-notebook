@@ -6542,7 +6542,8 @@
       "number": 129,
       "wordIds": [
         "word-111f44a7032e2ea4",
-        "word-0f3850ab36e9d43a"
+        "word-0f3850ab36e9d43a",
+        "word-cd892494455f6fa0"
       ],
       "entries": [
         {
@@ -6577,9 +6578,26 @@
               "zh": "这部小说的情节很复杂。"
             }
           ]
+        },
+        {
+          "wordId": "word-cd892494455f6fa0",
+          "meaningZh": "n./v. 计划；方案；计谋；密谋",
+          "definitionEn": "An organized plan or system; also a secret plan, or to plan secretly.",
+          "scenario": "名词在英式英语中常指中性或正式方案；动词常带秘密算计意味",
+          "collocations": [
+            "a training scheme",
+            "a colour scheme",
+            "scheme to do"
+          ],
+          "examples": [
+            {
+              "en": "The university introduced a training scheme for new staff.",
+              "zh": "大学为新员工推出了一项培训计划。"
+            }
+          ]
         }
       ],
-      "selectionNote": "表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。",
+      "selectionNote": "表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。 scheme 不一定是阴谋：英式英语中的 training scheme、pension scheme 都可指中性方案，colour scheme 是配色。动词 scheme 常带贬义。plot 还可指情节、地块或绘图；intrigue sb 是激起好奇。",
       "reviewStatus": "reviewed"
     },
     {
@@ -6750,7 +6768,9 @@
       "wordIds": [
         "word-1a20f6d5510e063e",
         "word-39ca0c269f8be5cb",
-        "word-26dd7517f5ecee31"
+        "word-26dd7517f5ecee31",
+        "word-a55751cecd11bad8",
+        "word-8042c6d16511690e"
       ],
       "entries": [
         {
@@ -6802,9 +6822,43 @@
               "zh": "这项证据对调查至关重要。"
             }
           ]
+        },
+        {
+          "wordId": "word-a55751cecd11bad8",
+          "meaningZh": "adj./n. 必要的；本质的；必需品",
+          "definitionEn": "Necessary for a purpose, or relating to the basic nature of something.",
+          "scenario": "强调对某目标或活动必需；也有本质、基本的含义",
+          "collocations": [
+            "essential for",
+            "essential to",
+            "essential supplies"
+          ],
+          "examples": [
+            {
+              "en": "Clear communication is essential for teamwork.",
+              "zh": "清晰的沟通对团队合作必不可少。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-8042c6d16511690e",
+          "meaningZh": "adj. 必不可少的",
+          "definitionEn": "So important or useful that one cannot manage without it.",
+          "scenario": "强调人或物重要到不能缺少；不必暗示世界上绝无替代者",
+          "collocations": [
+            "indispensable to",
+            "indispensable for",
+            "an indispensable tool"
+          ],
+          "examples": [
+            {
+              "en": "This dictionary is indispensable to translators.",
+              "zh": "这本词典对译者来说不可或缺。"
+            }
+          ]
         }
       ],
-      "selectionNote": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。",
+      "selectionNote": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。 essential 与 indispensable 都可表示必不可少，常能互换；indispensable 更强调离不开。integral 强调整体组成关系，vital 强调重要或生存必需，crucial 强调决定结果；这些侧重并非互斥。necessary 是范围更广的“必要的”。",
       "reviewStatus": "reviewed"
     },
     {
@@ -7088,6 +7142,180 @@
         }
       ],
       "selectionNote": "pretext 通常暗示所说的理由是托词，真实动机另有所在；excuse 是更宽泛的理由或辩解，也可能完全正当。excuse 作动词还表示原谅。on the pretext of doing 是常见句型；不能从 excuse 一词本身断定说话者撒谎。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-140",
+      "number": 140,
+      "wordIds": [
+        "word-ec7922138fb98dc5",
+        "word-b3a927cf63131517"
+      ],
+      "entries": [
+        {
+          "wordId": "word-ec7922138fb98dc5",
+          "meaningZh": "n. 迷人的魅力；华丽光环",
+          "definitionEn": "An attractive, exciting quality associated with beauty, style, or an admired way of life.",
+          "scenario": "常指美丽、时尚、奢华或令人向往的生活带来的吸引力",
+          "collocations": [
+            "the glamour of",
+            "Hollywood glamour",
+            "add glamour"
+          ],
+          "examples": [
+            {
+              "en": "She was attracted by the glamour of the film industry.",
+              "zh": "她被电影行业的迷人光环所吸引。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-b3a927cf63131517",
+          "meaningZh": "n./v. 魅力；吸引；使着迷",
+          "definitionEn": "A pleasant quality that attracts people; also, to delight or attract someone.",
+          "scenario": "常指令人愉悦或亲近的特质；人、地方和事物都可有 charm",
+          "collocations": [
+            "personal charm",
+            "the charm of",
+            "charm someone"
+          ],
+          "examples": [
+            {
+              "en": "The village has a quiet charm.",
+              "zh": "这个村庄有一种宁静的魅力。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "glamour 偏耀眼、时尚或令人向往的吸引力；charm 偏令人喜爱或愉悦的特质，也能形容地方和事物。两者不是“外表”和“内在”的绝对划分。glamour 也拼作 glamor；charm 还有护身符、小饰物及魔法等义。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-141",
+      "number": 141,
+      "wordIds": [
+        "word-69ea741e98fdc758",
+        "word-b72f4a8521c34d14",
+        "word-10065436b4002dd4",
+        "word-e93ced725763a701"
+      ],
+      "entries": [
+        {
+          "wordId": "word-69ea741e98fdc758",
+          "meaningZh": "n. 差别；分歧",
+          "definitionEn": "A way in which things are unlike, or a disagreement.",
+          "scenario": "最通用的差异；也可指意见不合",
+          "collocations": [
+            "a difference between",
+            "make a difference",
+            "differences of opinion"
+          ],
+          "examples": [
+            {
+              "en": "There is a clear difference between the two methods.",
+              "zh": "这两种方法有明显差别。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-b72f4a8521c34d14",
+          "meaningZh": "n. 区别；区分；优秀",
+          "definitionEn": "A difference that separates things; also excellence or an honour.",
+          "scenario": "强调可辨认的界限或作出区分；也可指优秀、荣誉",
+          "collocations": [
+            "draw a distinction between",
+            "a distinction between",
+            "with distinction"
+          ],
+          "examples": [
+            {
+              "en": "We should draw a distinction between facts and opinions.",
+              "zh": "我们应该区分事实与观点。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-10065436b4002dd4",
+          "meaningZh": "n. 出入；不一致",
+          "definitionEn": "A difference between things that are expected to agree.",
+          "scenario": "常指按理应相符的数据、说法或记录之间有出入",
+          "collocations": [
+            "a discrepancy between",
+            "a discrepancy in",
+            "explain a discrepancy"
+          ],
+          "examples": [
+            {
+              "en": "There is a discrepancy between the receipt and the bank record.",
+              "zh": "收据与银行记录之间存在出入。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-e93ced725763a701",
+          "meaningZh": "n. 歧视；辨别能力",
+          "definitionEn": "Unfair treatment based on group identity; also the ability to recognize differences.",
+          "scenario": "常指基于群体身份的不公平待遇；也可中性指辨别差异的能力",
+          "collocations": [
+            "discrimination against",
+            "racial discrimination",
+            "visual discrimination"
+          ],
+          "examples": [
+            {
+              "en": "The test measures visual discrimination.",
+              "zh": "这项测试测量视觉辨别能力。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "difference 最通用；distinction 强调区分或界限；discrepancy 常暗示本应一致却有出入。discrimination 通常指歧视，也可指辨别能力，不能一律翻译为歧视。make a difference 是产生影响；with distinction 是以优异成绩。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-142",
+      "number": 142,
+      "wordIds": [
+        "word-34659fd61a72a852",
+        "word-59d98c516f8b4e28"
+      ],
+      "entries": [
+        {
+          "wordId": "word-34659fd61a72a852",
+          "meaningZh": "n./v. 花；开花；繁盛",
+          "definitionEn": "A flower or the state of flowering; to flower or develop well.",
+          "scenario": "可指花朵、开花状态，也可比喻发展或焕发光彩",
+          "collocations": [
+            "in full bloom",
+            "come into bloom",
+            "bloom into"
+          ],
+          "examples": [
+            {
+              "en": "The roses are in full bloom.",
+              "zh": "玫瑰正在盛开。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-59d98c516f8b4e28",
+          "meaningZh": "n./v. 花；开花；成长",
+          "definitionEn": "A flower, especially on a tree or bush; to flower or develop successfully.",
+          "scenario": "名词常指树木或灌木的花，尤其果树；动词也可比喻成长",
+          "collocations": [
+            "cherry blossom",
+            "blossom into",
+            "blossom out"
+          ],
+          "examples": [
+            {
+              "en": "Her confidence blossomed during the course.",
+              "zh": "她在课程期间变得越来越自信。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。",
       "reviewStatus": "reviewed"
     }
   ],
@@ -18295,6 +18523,391 @@
       ],
       "source": "vocabulary update 2026-11-11",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "word-cd892494455f6fa0",
+      "lemma": "scheme",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-129"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 计划；方案；计谋；密谋",
+      "definitionEn": "An organized plan or system; also a secret plan, or to plan secretly.",
+      "scenario": "名词在英式英语中常指中性或正式方案；动词常带秘密算计意味",
+      "collocations": [
+        "a training scheme",
+        "a colour scheme",
+        "scheme to do"
+      ],
+      "examples": [
+        {
+          "en": "The university introduced a training scheme for new staff.",
+          "zh": "大学为新员工推出了一项培训计划。"
+        }
+      ],
+      "correctUsage": "The university introduced a training scheme for new staff.",
+      "commonMistakes": "表示阴谋时，intrigue 常侧重秘密运作和权力斗争，plot 常指具体计划。intrigue sb 通常是让某人好奇；plot a graph 是绘制图表；不要把两词所有含义都视为近义。 scheme 不一定是阴谋：英式英语中的 training scheme、pension scheme 都可指中性方案，colour scheme 是配色。动词 scheme 常带贬义。plot 还可指情节、地块或绘图；intrigue sb 是激起好奇。"
+    },
+    {
+      "id": "word-a55751cecd11bad8",
+      "lemma": "essential",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-134"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj./n.",
+      "meaningZh": "adj./n. 必要的；本质的；必需品",
+      "definitionEn": "Necessary for a purpose, or relating to the basic nature of something.",
+      "scenario": "强调对某目标或活动必需；也有本质、基本的含义",
+      "collocations": [
+        "essential for",
+        "essential to",
+        "essential supplies"
+      ],
+      "examples": [
+        {
+          "en": "Clear communication is essential for teamwork.",
+          "zh": "清晰的沟通对团队合作必不可少。"
+        }
+      ],
+      "correctUsage": "Clear communication is essential for teamwork.",
+      "commonMistakes": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。 essential 与 indispensable 都可表示必不可少，常能互换；indispensable 更强调离不开。integral 强调整体组成关系，vital 强调重要或生存必需，crucial 强调决定结果；这些侧重并非互斥。necessary 是范围更广的“必要的”。"
+    },
+    {
+      "id": "word-8042c6d16511690e",
+      "lemma": "indispensable",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-134"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 必不可少的",
+      "definitionEn": "So important or useful that one cannot manage without it.",
+      "scenario": "强调人或物重要到不能缺少；不必暗示世界上绝无替代者",
+      "collocations": [
+        "indispensable to",
+        "indispensable for",
+        "an indispensable tool"
+      ],
+      "examples": [
+        {
+          "en": "This dictionary is indispensable to translators.",
+          "zh": "这本词典对译者来说不可或缺。"
+        }
+      ],
+      "correctUsage": "This dictionary is indispensable to translators.",
+      "commonMistakes": "integral 关注整体与组成部分的关系，常用 an integral part of；vital 关注必需性；crucial 关注决定结果的关键作用。三者有重叠，不能固定为强弱等级。integral 作名词还表示积分。 essential 与 indispensable 都可表示必不可少，常能互换；indispensable 更强调离不开。integral 强调整体组成关系，vital 强调重要或生存必需，crucial 强调决定结果；这些侧重并非互斥。necessary 是范围更广的“必要的”。"
+    },
+    {
+      "id": "word-ec7922138fb98dc5",
+      "lemma": "glamour",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-140"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 迷人的魅力；华丽光环",
+      "definitionEn": "An attractive, exciting quality associated with beauty, style, or an admired way of life.",
+      "scenario": "常指美丽、时尚、奢华或令人向往的生活带来的吸引力",
+      "collocations": [
+        "the glamour of",
+        "Hollywood glamour",
+        "add glamour"
+      ],
+      "examples": [
+        {
+          "en": "She was attracted by the glamour of the film industry.",
+          "zh": "她被电影行业的迷人光环所吸引。"
+        }
+      ],
+      "correctUsage": "She was attracted by the glamour of the film industry.",
+      "commonMistakes": "glamour 偏耀眼、时尚或令人向往的吸引力；charm 偏令人喜爱或愉悦的特质，也能形容地方和事物。两者不是“外表”和“内在”的绝对划分。glamour 也拼作 glamor；charm 还有护身符、小饰物及魔法等义。"
+    },
+    {
+      "id": "word-b3a927cf63131517",
+      "lemma": "charm",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-140"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 魅力；吸引；使着迷",
+      "definitionEn": "A pleasant quality that attracts people; also, to delight or attract someone.",
+      "scenario": "常指令人愉悦或亲近的特质；人、地方和事物都可有 charm",
+      "collocations": [
+        "personal charm",
+        "the charm of",
+        "charm someone"
+      ],
+      "examples": [
+        {
+          "en": "The village has a quiet charm.",
+          "zh": "这个村庄有一种宁静的魅力。"
+        }
+      ],
+      "correctUsage": "The village has a quiet charm.",
+      "commonMistakes": "glamour 偏耀眼、时尚或令人向往的吸引力；charm 偏令人喜爱或愉悦的特质，也能形容地方和事物。两者不是“外表”和“内在”的绝对划分。glamour 也拼作 glamor；charm 还有护身符、小饰物及魔法等义。"
+    },
+    {
+      "id": "word-69ea741e98fdc758",
+      "lemma": "difference",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-141"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 差别；分歧",
+      "definitionEn": "A way in which things are unlike, or a disagreement.",
+      "scenario": "最通用的差异；也可指意见不合",
+      "collocations": [
+        "a difference between",
+        "make a difference",
+        "differences of opinion"
+      ],
+      "examples": [
+        {
+          "en": "There is a clear difference between the two methods.",
+          "zh": "这两种方法有明显差别。"
+        }
+      ],
+      "correctUsage": "There is a clear difference between the two methods.",
+      "commonMistakes": "difference 最通用；distinction 强调区分或界限；discrepancy 常暗示本应一致却有出入。discrimination 通常指歧视，也可指辨别能力，不能一律翻译为歧视。make a difference 是产生影响；with distinction 是以优异成绩。"
+    },
+    {
+      "id": "word-b72f4a8521c34d14",
+      "lemma": "distinction",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-141"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 区别；区分；优秀",
+      "definitionEn": "A difference that separates things; also excellence or an honour.",
+      "scenario": "强调可辨认的界限或作出区分；也可指优秀、荣誉",
+      "collocations": [
+        "draw a distinction between",
+        "a distinction between",
+        "with distinction"
+      ],
+      "examples": [
+        {
+          "en": "We should draw a distinction between facts and opinions.",
+          "zh": "我们应该区分事实与观点。"
+        }
+      ],
+      "correctUsage": "We should draw a distinction between facts and opinions.",
+      "commonMistakes": "difference 最通用；distinction 强调区分或界限；discrepancy 常暗示本应一致却有出入。discrimination 通常指歧视，也可指辨别能力，不能一律翻译为歧视。make a difference 是产生影响；with distinction 是以优异成绩。"
+    },
+    {
+      "id": "word-10065436b4002dd4",
+      "lemma": "discrepancy",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-141"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 出入；不一致",
+      "definitionEn": "A difference between things that are expected to agree.",
+      "scenario": "常指按理应相符的数据、说法或记录之间有出入",
+      "collocations": [
+        "a discrepancy between",
+        "a discrepancy in",
+        "explain a discrepancy"
+      ],
+      "examples": [
+        {
+          "en": "There is a discrepancy between the receipt and the bank record.",
+          "zh": "收据与银行记录之间存在出入。"
+        }
+      ],
+      "correctUsage": "There is a discrepancy between the receipt and the bank record.",
+      "commonMistakes": "difference 最通用；distinction 强调区分或界限；discrepancy 常暗示本应一致却有出入。discrimination 通常指歧视，也可指辨别能力，不能一律翻译为歧视。make a difference 是产生影响；with distinction 是以优异成绩。"
+    },
+    {
+      "id": "word-e93ced725763a701",
+      "lemma": "discrimination",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-141"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 歧视；辨别能力",
+      "definitionEn": "Unfair treatment based on group identity; also the ability to recognize differences.",
+      "scenario": "常指基于群体身份的不公平待遇；也可中性指辨别差异的能力",
+      "collocations": [
+        "discrimination against",
+        "racial discrimination",
+        "visual discrimination"
+      ],
+      "examples": [
+        {
+          "en": "The test measures visual discrimination.",
+          "zh": "这项测试测量视觉辨别能力。"
+        }
+      ],
+      "correctUsage": "The test measures visual discrimination.",
+      "commonMistakes": "difference 最通用；distinction 强调区分或界限；discrepancy 常暗示本应一致却有出入。discrimination 通常指歧视，也可指辨别能力，不能一律翻译为歧视。make a difference 是产生影响；with distinction 是以优异成绩。"
+    },
+    {
+      "id": "word-34659fd61a72a852",
+      "lemma": "bloom",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-142"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 花；开花；繁盛",
+      "definitionEn": "A flower or the state of flowering; to flower or develop well.",
+      "scenario": "可指花朵、开花状态，也可比喻发展或焕发光彩",
+      "collocations": [
+        "in full bloom",
+        "come into bloom",
+        "bloom into"
+      ],
+      "examples": [
+        {
+          "en": "The roses are in full bloom.",
+          "zh": "玫瑰正在盛开。"
+        }
+      ],
+      "correctUsage": "The roses are in full bloom.",
+      "commonMistakes": "bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。"
+    },
+    {
+      "id": "word-59d98c516f8b4e28",
+      "lemma": "blossom",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-142"
+      ],
+      "source": "Recent English discussions, 2026-11-12",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n./v.",
+      "meaningZh": "n./v. 花；开花；成长",
+      "definitionEn": "A flower, especially on a tree or bush; to flower or develop successfully.",
+      "scenario": "名词常指树木或灌木的花，尤其果树；动词也可比喻成长",
+      "collocations": [
+        "cherry blossom",
+        "blossom into",
+        "blossom out"
+      ],
+      "examples": [
+        {
+          "en": "Her confidence blossomed during the course.",
+          "zh": "她在课程期间变得越来越自信。"
+        }
+      ],
+      "correctUsage": "Her confidence blossomed during the course.",
+      "commonMistakes": "bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。"
     }
   ],
   "contentAudit": {
