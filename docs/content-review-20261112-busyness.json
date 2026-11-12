@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-12",
+  "change": "Append five-paragraph CET-4 busyness reading, matching Chinese translation and contextual phrases. Preserve all prior articles, contexts, IDs and vocabulary. Asset check scales with reader count.",
+  "previous_commit": "aedf69d7fd5f8f45d8da3428555fdd0e0aeb6b99",
+  "reviewed_files": {
+    "content/reading_articles.json": {
+      "before": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
+      "after": "eb0df0f9822752caf149f31d7e5d652e43a01b2e870a871a7b5e2a064b12409d"
+    },
+    "content/reading-context.json": {
+      "before": "df116fa506f916869b2eb2c1ce6212881127253fc183768649c921972f5c744b",
+      "after": "3ba577745ceacae915ee61e3ffeae5ba2f860eb01d335a70eb45f4419d47d37f"
+    },
+    "scripts/verify_asset_versions.py": {
+      "before": "5d37cdfdbecb597bc8f1afbdb695701695a2ee356a42787d7a2bf7a6b6e133a8",
+      "after": "beb5a28d0895d1a2718eee3489cc2e03595f8136a3d2b680e78ae8be02bcdc63"
+    },
+    "content/article-dictionary.json": {
+      "before": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb",
+      "after": "0f40cde28237579cb3d5fce4e47c18b5f084579162c6d327ed5664c69e527f5d"
+    },
+    "dist/reading_articles.json": {
+      "before": "c96dd8e78ba505b707118bfa47d8e0e99339b957f20fce9f917379aa9446f774",
+      "after": "eb0df0f9822752caf149f31d7e5d652e43a01b2e870a871a7b5e2a064b12409d"
+    },
+    "dist/article-dictionary.json": {
+      "before": "dfaba5c31e0e6f358a1eb9d88e96d5ec88c5b9975158acf0932cbb0d3dcc3dcb",
+      "after": "0f40cde28237579cb3d5fce4e47c18b5f084579162c6d327ed5664c69e527f5d"
+    },
+    "dist/search-index.json": {
+      "before": "e0415dc0ad602fab741403376fd5bbec0d6decaf4983a7a96f6f404d89665306",
+      "after": "acae8fa8c53788f3de2afdaae659d96609c1994446e4b2f860f601ce82f1a670"
+    },
+    "dist/index.html": {
+      "before": "427c1f300bf44d8183000074234e31356274f951feaae46ec390823524034543",
+      "after": "34bb0cba96cf59eb2569c82b277807382e4729ae797490af13c5c20e027d9169"
+    }
+  }
+}
