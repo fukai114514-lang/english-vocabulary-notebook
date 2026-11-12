@@ -5426,5 +5426,29 @@
   "yourself": {
     "中文意思": "你自己",
     "英文释义": "The reflexive form of you for one person."
+  },
+  "aggressive": {
+    "中文意思": "好斗的；挑衅的",
+    "英文释义": "Ready to attack or argue with others."
+  },
+  "acquaintance": {
+    "中文意思": "熟人；泛泛之交",
+    "英文释义": "Someone you know, but not a close friend."
+  },
+  "discourse": {
+    "中文意思": "谈论；论述；讨论",
+    "英文释义": "Serious spoken or written discussion of a subject."
+  },
+  "sore": {
+    "中文意思": "疼痛的；酸痛的",
+    "英文释义": "Painful or tender, especially after use, injury or infection."
+  },
+  "bloom": {
+    "中文意思": "开花",
+    "英文释义": "To produce flowers."
+  },
+  "upper": {
+    "中文意思": "上部的；较高位置的",
+    "英文释义": "Located above another part or at a higher level."
   }
 }

@@ -8,8 +8,8 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "bf710769de05a6bf23f7ebb54d5c7c5beb6dedcecd4466d9de56062b711e43c3",
-    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
+    "sha256": "62c9a4b9d3233c3453f4615e33fb49d49fbb4f02861c88b10c64b9da749b6fb4",
+    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
   },
   "content/polysemy.txt": {
     "sha256": "608f620d8b1fc640c3a920a620d67165d78baff7ba91f8f4e34d4a63fd31ecfa",
@@ -20,16 +20,16 @@
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "82b351cde3532890144eef1f5e69348b6b234588b18fceacb81d47f059c0c3d7",
-    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
+    "sha256": "7e8439037527d4c7d1629900e59c2c5b25053c1959c58283a57860754d452902",
+    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
   },
   "dist/polysemy.json": {
-    "sha256": "947ec76ece530fdb05f458c8f303d9949a865bcce66161bc31450113b0965cba",
-    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
+    "sha256": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
+    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
   },
   "dist/vocabulary.json": {
-    "sha256": "9a2aba6a1d963b7bdaf53031aa6d0a2379385112b13da1e25fea340c97f19db8",
-    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
+    "sha256": "56dc3ec41dc41faba71acd29c399587170b1efac83ca8e96460ddea9294494e2",
+    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
   },
   "content/base.html": {
     "sha256": "e35780c8f9b7df58d94c6e1e1a02cd26f71442d9f090b0d915907cc2d815321c",

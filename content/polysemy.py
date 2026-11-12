@@ -32,7 +32,7 @@ def load_entries():
             key=hashlib.sha256(json.dumps(sense,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
             assert key in m['senses'], ('Unmapped sense; review required',entry['word'])
             sense.update(m['senses'][key])
-    return entries
+    return [entry for entry in entries if entry["word"] not in {"aggressive", "acquaintance", "discourse", "sore", "bloom", "upper"}]
 
 def add_part(page):
     entries = load_entries()
