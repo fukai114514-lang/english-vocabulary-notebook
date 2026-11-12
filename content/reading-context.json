@@ -444,5 +444,65 @@
       "休假；暂时不工作",
       "To spend time away from work."
     ]
+  ],
+  "business-travel-airfares-B": [
+    [
+      "account for",
+      "account for",
+      "控制、考虑（其他影响因素）",
+      "To allow for the effects of other factors in an analysis."
+    ]
+  ],
+  "business-travel-airfares-C": [
+    [
+      "explained away",
+      "explain away",
+      "解释掉；通过解释消除",
+      "To explain something so that it no longer appears to be a problem."
+    ],
+    [
+      "risk avoidance",
+      "risk avoidance",
+      "风险规避",
+      "A preference for avoiding uncertain or risky outcomes."
+    ]
+  ],
+  "business-travel-airfares-D": [
+    [
+      "negative reciprocity",
+      "negative reciprocity",
+      "负向互惠；以负面行为回应所感受到的不公平",
+      "Responding negatively to perceived unfair treatment."
+    ]
+  ],
+  "business-travel-airfares-E": [
+    [
+      "plug in",
+      "plug in",
+      "代入；纳入（变量）",
+      "To insert a value or variable into an analysis."
+    ]
+  ],
+  "business-travel-airfares-G": [
+    [
+      "manifest themselves",
+      "manifest themselves",
+      "表现出来；显现",
+      "To become noticeable through observable behavior."
+    ]
+  ],
+  "business-travel-airfares-H": [
+    [
+      "adds up",
+      "add up",
+      "累积起来形成可观数额",
+      "To accumulate into a substantial total."
+    ],
+    [
+      "translate into",
+      "translate into",
+      "转化为；带来",
+      "To lead to a particular result."
+    ]
   ]
 }

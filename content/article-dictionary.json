@@ -5450,5 +5450,345 @@
   "upper": {
     "中文意思": "上部的；较高位置的",
     "英文释义": "Located above another part or at a higher level."
+  },
+  "abnormal": {
+    "中文意思": "异常的",
+    "英文释义": "Different from what is usual or expected."
+  },
+  "add": {
+    "中文意思": "增加；累积",
+    "英文释义": "To increase an amount or provide something extra."
+  },
+  "adds": {
+    "中文意思": "增加；累积",
+    "英文释义": "To increase an amount or provide something extra."
+  },
+  "ahead": {
+    "中文意思": "提前；在前面",
+    "英文释义": "Before a future time or event."
+  },
+  "airfare": {
+    "中文意思": "机票价格",
+    "英文释义": "The price paid for travel by plane."
+  },
+  "airfares": {
+    "中文意思": "机票价格",
+    "英文释义": "The price paid for travel by plane."
+  },
+  "airline": {
+    "中文意思": "航空公司的；航空公司",
+    "英文释义": "A company providing regular flights, or relating to such a company."
+  },
+  "analysis": {
+    "中文意思": "分析",
+    "英文释义": "A detailed examination of information."
+  },
+  "applied": {
+    "中文意思": "运用；应用",
+    "英文释义": "Used something for a particular purpose."
+  },
+  "average": {
+    "中文意思": "平均；平均数",
+    "英文释义": "A typical value calculated from a set of amounts."
+  },
+  "avoidance": {
+    "中文意思": "规避；避免",
+    "英文释义": "The act of keeping away from something."
+  },
+  "behavior": {
+    "中文意思": "行为",
+    "英文释义": "The way someone acts."
+  },
+  "behaviors": {
+    "中文意思": "行为",
+    "英文释义": "The way someone acts."
+  },
+  "book": {
+    "中文意思": "预订；预订行为",
+    "英文释义": "To arrange and reserve a ticket or service; such an arrangement."
+  },
+  "booking": {
+    "中文意思": "预订；预订行为",
+    "英文释义": "To arrange and reserve a ticket or service; such an arrangement."
+  },
+  "bookings": {
+    "中文意思": "预订；预订行为",
+    "英文释义": "To arrange and reserve a ticket or service; such an arrangement."
+  },
+  "carefully": {
+    "中文意思": "谨慎地；仔细地",
+    "英文释义": "With attention and care."
+  },
+  "causing": {
+    "中文意思": "引起；造成",
+    "英文释义": "Making something happen."
+  },
+  "central": {
+    "中文意思": "核心的",
+    "英文释义": "Very important to something."
+  },
+  "choosing": {
+    "中文意思": "选择",
+    "英文释义": "Deciding which option to take."
+  },
+  "class": {
+    "中文意思": "舱等；等级",
+    "英文释义": "A category of travel service, such as economy or business class."
+  },
+  "colleagues": {
+    "中文意思": "同事",
+    "英文释义": "People who work together."
+  },
+  "collected": {
+    "中文意思": "收集的；收集了",
+    "英文释义": "Gathered information or objects together."
+  },
+  "company": {
+    "中文意思": "公司；公司的",
+    "英文释义": "A business organization; belonging to that organization."
+  },
+  "company's": {
+    "中文意思": "公司；公司的",
+    "英文释义": "A business organization; belonging to that organization."
+  },
+  "compared": {
+    "中文意思": "比较了",
+    "英文释义": "Examined things to identify similarities and differences."
+  },
+  "conclude": {
+    "中文意思": "得出结论",
+    "英文释义": "To reach a judgment after considering evidence."
+  },
+  "consistently": {
+    "中文意思": "一贯地；始终如一地",
+    "英文释义": "In a way that repeatedly follows the same pattern."
+  },
+  "consumer": {
+    "中文意思": "消费者",
+    "英文释义": "A person who buys or uses goods or services."
+  },
+  "decisions": {
+    "中文意思": "决策；决定",
+    "英文释义": "Choices made after consideration."
+  },
+  "differences": {
+    "中文意思": "差异",
+    "英文释义": "Ways in which things are unlike."
+  },
+  "disappears": {
+    "中文意思": "消失",
+    "英文释义": "Stops being present or noticeable."
+  },
+  "engage": {
+    "中文意思": "参与；从事",
+    "英文释义": "To take part in an activity, often followed by in."
+  },
+  "engages": {
+    "中文意思": "参与；从事",
+    "英文释义": "To take part in an activity, often followed by in."
+  },
+  "exhibit": {
+    "中文意思": "表现出",
+    "英文释义": "To show a quality or behavior."
+  },
+  "explained": {
+    "中文意思": "解释；说明",
+    "英文释义": "Made or makes the cause of something clear."
+  },
+  "explains": {
+    "中文意思": "解释；说明",
+    "英文释义": "Made or makes the cause of something clear."
+  },
+  "explanations": {
+    "中文意思": "解释",
+    "英文释义": "Accounts of why or how something happens."
+  },
+  "factors": {
+    "中文意思": "因素",
+    "英文释义": "Things that influence a result."
+  },
+  "feels": {
+    "中文意思": "觉得；感到",
+    "英文释义": "Experiences an emotion or has an impression."
+  },
+  "female": {
+    "中文意思": "女性的",
+    "英文释义": "Relating to women or girls."
+  },
+  "flights": {
+    "中文意思": "航班",
+    "英文释义": "Journeys made by aircraft."
+  },
+  "frequent": {
+    "中文意思": "经常的",
+    "英文释义": "Happening often."
+  },
+  "gap": {
+    "中文意思": "差距",
+    "英文释义": "A difference between groups or amounts."
+  },
+  "gender": {
+    "中文意思": "性别",
+    "英文释义": "A category such as woman or man, considered socially."
+  },
+  "inclined": {
+    "中文意思": "倾向于……的",
+    "英文释义": "Likely or willing to act in a particular way."
+  },
+  "investigation": {
+    "中文意思": "调查；研究",
+    "英文释义": "An examination intended to discover facts."
+  },
+  "large": {
+    "中文意思": "大的；大型的",
+    "英文释义": "Greater than usual in size or amount."
+  },
+  "largely": {
+    "中文意思": "在很大程度上",
+    "英文释义": "Mainly or to a great extent."
+  },
+  "lower": {
+    "中文意思": "更低的；降低",
+    "英文释义": "Smaller in amount or level; to reduce something."
+  },
+  "manifest": {
+    "中文意思": "表现；显现",
+    "英文释义": "To become apparent or show itself."
+  },
+  "means": {
+    "中文意思": "意味着",
+    "英文释义": "Has a particular meaning or consequence."
+  },
+  "million": {
+    "中文意思": "百万",
+    "英文释义": "The number one thousand thousand."
+  },
+  "money": {
+    "中文意思": "钱；资金",
+    "英文释义": "What is used to pay for goods or services."
+  },
+  "morale": {
+    "中文意思": "士气",
+    "英文释义": "The confidence and enthusiasm of a group."
+  },
+  "multinational": {
+    "中文意思": "跨国的",
+    "英文释义": "Operating in several countries."
+  },
+  "none": {
+    "中文意思": "没有一个；毫无",
+    "英文释义": "Not one or not any."
+  },
+  "patience": {
+    "中文意思": "耐心",
+    "英文释义": "The ability to wait calmly or accept delay."
+  },
+  "per": {
+    "中文意思": "每；按每……计算",
+    "英文释义": "For each unit or item."
+  },
+  "plan": {
+    "中文意思": "计划；规划",
+    "英文释义": "To decide in advance what to do."
+  },
+  "play": {
+    "中文意思": "发挥；起……作用",
+    "英文释义": "To have a particular role or effect in something."
+  },
+  "position": {
+    "中文意思": "职位",
+    "英文释义": "A job or rank within an organization."
+  },
+  "preferences": {
+    "中文意思": "偏好",
+    "英文释义": "Things or options someone favors over others."
+  },
+  "prior": {
+    "中文意思": "先前的",
+    "英文释义": "Existing or happening before something else."
+  },
+  "reciprocity": {
+    "中文意思": "互惠；相互回应",
+    "英文释义": "Responding to another person's actions with corresponding behavior."
+  },
+  "relatively": {
+    "中文意思": "相对地",
+    "英文释义": "In comparison with something else."
+  },
+  "savings": {
+    "中文意思": "节省的金额",
+    "英文释义": "Money that does not need to be spent."
+  },
+  "seem": {
+    "中文意思": "似乎；看起来",
+    "英文释义": "To give a particular impression."
+  },
+  "showed": {
+    "中文意思": "显示；表明",
+    "英文释义": "Made something clear or provided evidence of it."
+  },
+  "significant": {
+    "中文意思": "大量的；显著的",
+    "英文释义": "Large or important enough to be noticeable."
+  },
+  "spending": {
+    "中文意思": "花费",
+    "英文释义": "Using money to pay for something."
+  },
+  "statistical": {
+    "中文意思": "统计的",
+    "英文释义": "Relating to numerical data and their analysis."
+  },
+  "suggests": {
+    "中文意思": "表明；提示",
+    "英文释义": "Indicates that something may be true."
+  },
+  "sums": {
+    "中文意思": "金额",
+    "英文释义": "Amounts of money."
+  },
+  "surveys": {
+    "中文意思": "调查",
+    "英文释义": "Studies that collect information from people."
+  },
+  "technique": {
+    "中文意思": "方法；技术",
+    "英文释义": "A particular method of doing something."
+  },
+  "tended": {
+    "中文意思": "往往；倾向于",
+    "英文释义": "Was generally likely to do something."
+  },
+  "translate": {
+    "中文意思": "转化；转变",
+    "英文释义": "To lead to a different result, often followed by into."
+  },
+  "travel": {
+    "中文意思": "旅行；出行",
+    "英文释义": "The activity of going from one place to another."
+  },
+  "travelers": {
+    "中文意思": "旅行者；出差人员",
+    "英文释义": "People who make journeys."
+  },
+  "treated": {
+    "中文意思": "对待",
+    "英文释义": "Behaved toward someone in a particular way."
+  },
+  "unfairly": {
+    "中文意思": "不公平地",
+    "英文释义": "In a way that does not treat people justly."
+  },
+  "variable": {
+    "中文意思": "变量",
+    "英文释义": "A factor that can change or be included in an analysis."
+  },
+  "variety": {
+    "中文意思": "多种；多样性",
+    "英文释义": "A range of different things."
+  },
+  "within": {
+    "中文意思": "在……内部",
+    "英文释义": "Inside the limits of something."
   }
 }

@@ -136,5 +136,31 @@
       "D": "就我个人而言，别人再问我近况如何时，我不会再说“忙”了。这样的回答听起来自以为是，也传递了不恰当的态度。“我不方便经常查看邮件”和“我一回来就会回复”之类的话，听起来仿佛你是被迫无法工作，而不是在充分利用自己的休假时光。",
       "E": "这就是我们最近推出“休假自动回复邮件生成器”的原因。这是一款免费工具，你可以在下一次长周末或旅行前使用。你完全可以大大方方、自豪地告诉别人：回来之前，你不会查看邮件。管理者在周末给团队发邮件，或谈论自己有多忙之前，都应该三思。领导者应当自己带头休假，并鼓励员工也这样做。"
     }
+  },
+  {
+    "id": "business-travel-airfares",
+    "title": "Business Travel and the Gender Gap in Airfares",
+    "titleZh": "商务旅行中的机票价格性别差异",
+    "source": "User-provided CET-4 reading · December 2023 · Paper 1 · Passage Two. Descriptive title added for navigation.",
+    "paragraphs": {
+      "A": "Female employees consistently pay lower airfares than men do for the same flights because they tend to book earlier.",
+      "B": "We compared the airfare paid by employees in the same position within a company for the same class of travel and used a common statistical technique to account for other factors that might affect differences in airfares. We found that women paid on average $18 less per ticket than their male colleagues. Further investigation allowed us to conclude that this gap is largely explained by the fact that women tended to book earlier than men, 1.8 days on average.",
+      "C": "We wanted to determine what was causing these gender differences in booking business trips so we tested a variety of possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late. None of these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.",
+      "D": "We found that only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences. The surveys showed men tend to exhibit more of these negative behaviors than women.",
+      "E": "This isn’t to say that all men engage in these behaviors—or that booking relatively late is a sign of abnormal behavior. It only means that the gender gap disappears when we plug in the negative reciprocity variable.",
+      "F": "Prior research on negative reciprocity among workers found that it can result in lower employee motivation, business performance and workplace morale and culture.",
+      "G": "Our results show another way these negative behaviors can manifest themselves, like in airline bookings, and add to evidence that women are less likely to engage in them.",
+      "H": "Companies spend significant sums of money on business travel. While that $18 difference per ticket may seem small, it adds up. Our analysis suggests early booking by women can translate into savings of $1 million a year for a large multinational company with 20,000 regular travelers."
+    },
+    "translationZh": {
+      "A": "女性员工乘坐相同航班时，支付的机票价格通常比男性低，因为她们往往更早订票。",
+      "B": "我们比较了同一家公司中职位相同的员工乘坐相同舱等时支付的机票价格，并采用一种常见的统计方法，控制其他可能影响机票价格差异的因素。我们发现，女性每张机票平均比男同事少支付18美元。进一步调查使我们得出结论：这一差距在很大程度上可以用女性通常比男性更早订票来解释，平均提前1.8天。",
+      "C": "我们想确定，预订商务旅行时出现这些性别差异的原因是什么，因此检验了多种可能的解释，例如女性选择提前规划，或者经常出差的男性倾向于较晚订票。这些解释都未能消除性别差距，因此我们使用了调查收集的数据。这些数据反映了消费者的偏好，而耐心和风险规避等偏好在经济决策中起着核心作用。",
+      "D": "我们发现，只有“负向互惠”这一概念能够解释这些差异：当员工觉得自己受到不公平对待时，会采取负面行为，例如花公司的钱时不那么谨慎。调查显示，男性往往比女性表现出更多此类负面行为。",
+      "E": "这并不是说所有男性都会采取这些行为，也不是说相对较晚订票就是行为异常的表现。这仅仅意味着，当我们将负向互惠这一变量纳入分析时，性别差距就消失了。",
+      "F": "此前有关员工负向互惠的研究发现，它可能降低员工的工作积极性和企业的经营表现，并损害工作场所的士气和文化。",
+      "G": "我们的结果展示了这些负面行为的另一种表现方式，例如在预订机票方面；同时也提供了更多证据，表明女性较少采取这些行为。",
+      "H": "企业在商务旅行上花费大量资金。每张机票18美元的差价看似不大，但累积起来数额可观。我们的分析表明，对于一家拥有两万名经常出差员工的大型跨国公司来说，女性提前订票所带来的节省，一年可以达到100万美元。"
+    }
   }
 ]
