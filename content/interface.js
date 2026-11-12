@@ -26,6 +26,7 @@
  // pushState navigation does not emit hashchange; native Back/Forward does.
  // One handler avoids saving the destination position twice.
  history.scrollRestoration='manual';addEventListener('hashchange',route);route();}
+ document.addEventListener('toggle',ev=>{if(ev.target.matches('details.poly-entry')&&ev.target.open){for(const other of document.querySelectorAll('details.poly-entry[open]'))if(other!==ev.target)other.open=false}},true);
  document.addEventListener('toggle',ev=>{if(ev.target.tagName!=='DETAILS'||!ev.target.open||matchMedia('(prefers-reduced-motion: reduce)').matches)return;ev.target.querySelector(':scope>.body')?.animate([{opacity:.25},{opacity:1}],{duration:160,easing:'ease-out'})},true);
 
  // Keep destinations separate from actions, while retaining every existing route.

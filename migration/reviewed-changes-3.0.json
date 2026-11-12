@@ -8,8 +8,8 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "62c9a4b9d3233c3453f4615e33fb49d49fbb4f02861c88b10c64b9da749b6fb4",
-    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
+    "sha256": "47e9fbc51dab1977c7c2f253fc5eac4dcfac42338ce0128136191eb97ef0b332",
+    "reason": "Native details accordion: mutually exclusive polysemy entries, no learning content changes."
   },
   "content/polysemy.txt": {
     "sha256": "608f620d8b1fc640c3a920a620d67165d78baff7ba91f8f4e34d4a63fd31ecfa",
@@ -20,8 +20,8 @@
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "7e8439037527d4c7d1629900e59c2c5b25053c1959c58283a57860754d452902",
-    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
+    "sha256": "30e2b1258f135e391513472c0d72ec68c9b434324fc69891de089e4ee497e262",
+    "reason": "Native details accordion: mutually exclusive polysemy entries, no learning content changes."
   },
   "dist/polysemy.json": {
     "sha256": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
