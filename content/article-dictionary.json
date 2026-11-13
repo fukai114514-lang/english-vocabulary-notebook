@@ -5790,5 +5790,193 @@
   "within": {
     "中文意思": "在……内部",
     "英文释义": "Inside the limits of something."
+  },
+  "activities": {
+    "中文意思": "活动",
+    "英文释义": "Things that people do."
+  },
+  "authors": {
+    "中文意思": "作者；研究报告撰写者",
+    "英文释义": "The people who wrote a text or report."
+  },
+  "belief": {
+    "中文意思": "信念；看法",
+    "英文释义": "A feeling that something is true."
+  },
+  "boost": {
+    "中文意思": "增强；提高",
+    "英文释义": "To increase or improve something."
+  },
+  "career": {
+    "中文意思": "职业；职业生涯",
+    "英文释义": "A person's working life or profession."
+  },
+  "casually": {
+    "中文意思": "随意地；不认真地",
+    "英文释义": "Without much commitment or seriousness."
+  },
+  "ciara": {
+    "中文意思": "席亚拉（人名）",
+    "英文释义": "A given name; here, the researcher Ciara Kelly."
+  },
+  "climber": {
+    "中文意思": "攀登者；攀岩者",
+    "英文释义": "A person who climbs mountains or rocks."
+  },
+  "climbing": {
+    "中文意思": "攀登；攀岩",
+    "英文释义": "The activity of going up rocks or mountains."
+  },
+  "confidence": {
+    "中文意思": "自信；信心",
+    "英文释义": "Belief in one's own abilities."
+  },
+  "day-to-day": {
+    "中文意思": "日常的",
+    "英文释义": "Happening regularly as part of everyday life."
+  },
+  "decreased": {
+    "中文意思": "减少了；降低了",
+    "英文释义": "Became smaller or made something smaller."
+  },
+  "demands": {
+    "中文意思": "要求；消耗",
+    "英文释义": "Requirements that call for effort or resources."
+  },
+  "dissimilar": {
+    "中文意思": "不同的；不相似的",
+    "英文释义": "Not similar to something else."
+  },
+  "efficiency": {
+    "中文意思": "效率",
+    "英文释义": "The ability to work well without wasting time or energy."
+  },
+  "exhausted": {
+    "中文意思": "筋疲力尽的",
+    "英文释义": "Extremely tired."
+  },
+  "hobbies": {
+    "中文意思": "业余爱好（复数）",
+    "英文释义": "Activities done for enjoyment in one's free time."
+  },
+  "hobby": {
+    "中文意思": "业余爱好",
+    "英文释义": "An activity done for enjoyment in one's free time."
+  },
+  "hobbyists": {
+    "中文意思": "业余爱好者",
+    "英文释义": "People who pursue activities for enjoyment rather than as a job."
+  },
+  "influence": {
+    "中文意思": "影响",
+    "英文释义": "The effect something has on a person or situation."
+  },
+  "interfere": {
+    "中文意思": "干扰；妨碍",
+    "英文释义": "To prevent something from proceeding effectively."
+  },
+  "keen": {
+    "中文意思": "热衷的；热心的",
+    "英文释义": "Very interested in or enthusiastic about something."
+  },
+  "kelly": {
+    "中文意思": "凯利（姓氏）",
+    "英文释义": "A surname; here, the researcher Ciara Kelly."
+  },
+  "kinds": {
+    "中文意思": "种类",
+    "英文释义": "Types or categories of things."
+  },
+  "knowledge": {
+    "中文意思": "知识",
+    "英文释义": "Information and understanding gained through learning or experience."
+  },
+  "left": {
+    "中文意思": "被留下；处于（某种状态）",
+    "英文释义": "Caused to remain in a particular condition; past participle of leave."
+  },
+  "maintain": {
+    "中文意思": "维持；保持",
+    "英文释义": "To keep something continuing at the same level."
+  },
+  "normal": {
+    "中文意思": "通常的；正常的",
+    "英文释义": "Usual or typical."
+  },
+  "number": {
+    "中文意思": "数量",
+    "英文释义": "An amount or total; a number of means several or many."
+  },
+  "participants": {
+    "中文意思": "参与者",
+    "英文释义": "People who take part in an activity or study."
+  },
+  "plenty": {
+    "中文意思": "大量；充足",
+    "英文释义": "A large or sufficient amount."
+  },
+  "quite": {
+    "中文意思": "相当；颇为",
+    "英文释义": "To a considerable degree."
+  },
+  "recover": {
+    "中文意思": "恢复；复原",
+    "英文释义": "To regain strength or return to a normal condition."
+  },
+  "recruited": {
+    "中文意思": "招募了",
+    "英文释义": "Enlisted people to participate in an activity or study."
+  },
+  "removed": {
+    "中文意思": "远离的；被移开的",
+    "英文释义": "Distant or separated; far removed from means very different from."
+  },
+  "resources": {
+    "中文意思": "资源",
+    "英文释义": "Available supplies, abilities, or energy that can be drawn on."
+  },
+  "rock": {
+    "中文意思": "岩石",
+    "英文释义": "The solid natural material that forms much of the earth's surface."
+  },
+  "satisfaction": {
+    "中文意思": "满意；满足",
+    "英文释义": "A feeling of pleasure when expectations or needs are met."
+  },
+  "says": {
+    "中文意思": "说；指出",
+    "英文释义": "Expresses something in words; third-person singular of say."
+  },
+  "scientist": {
+    "中文意思": "科学家",
+    "英文释义": "A person who studies or works in science."
+  },
+  "serious": {
+    "中文意思": "认真的；投入的",
+    "英文释义": "Involving substantial commitment or effort."
+  },
+  "shaped": {
+    "中文意思": "影响了；塑造了",
+    "英文释义": "Influenced how something developed."
+  },
+  "similar": {
+    "中文意思": "相似的",
+    "英文释义": "Almost the same in some respects."
+  },
+  "skills": {
+    "中文意思": "技能",
+    "英文释义": "Abilities acquired through practice or learning."
+  },
+  "strengthened": {
+    "中文意思": "加强了；增强了",
+    "英文释义": "Made something stronger."
+  },
+  "surprisingly": {
+    "中文意思": "令人惊讶地",
+    "英文释义": "In an unexpected or astonishing way."
+  },
+  "unable": {
+    "中文意思": "不能的；无力的",
+    "英文释义": "Not having the ability or means to do something."
   }
 }
