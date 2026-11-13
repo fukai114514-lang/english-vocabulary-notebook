@@ -17,10 +17,7 @@
   "expanded_groups": [
     102
   ],
-  "new_phrases": [
-    "differ from",
-    "spur someone on / spur someone into action"
-  ],
+  "new_phrases": [],
   "polysemy": "Unchanged; no new entries.",
   "preservation": "Every prior word object and comparison entry unchanged; only group 102 membership and selection note extended. Other existing groups unchanged.",
   "counts": {
@@ -42,8 +39,8 @@
       "after": "614ed0f172d70bde28beebceafcdee283b7381726a89a01bbd54f79698e3aaa4"
     },
     "content/phrases.json": {
-      "before": "c04009cdbf68fe09108d29cb345f3dc8a501bdb4c0dccf97d256396607d7313e",
-      "after": "cf0ce039d4e8a2177406488dad72d5f300489ef0c3403e15381669448f4eec68"
+      "before": "cf0ce039d4e8a2177406488dad72d5f300489ef0c3403e15381669448f4eec68",
+      "after": "c04009cdbf68fe09108d29cb345f3dc8a501bdb4c0dccf97d256396607d7313e"
     },
     "content/selection-notes.txt": {
       "before": "64251a0e460792d044cae37a319c1fadaf11627a34ed14b25882c93390611434",
@@ -54,16 +51,16 @@
       "after": "cdc271de95d32247a361bc191aba005cf36fa2541ec38fee300c04bd66dc8129"
     },
     "dist/index.html": {
-      "before": "da6d089008622c88d479b23e28f02b5e84c485ba6b28082aa6ec525076d99a05",
-      "after": "edcb5801128f3051d2824dec961fc9d871a4f22a89185677b5b9f2ec41a8b316"
+      "before": "edcb5801128f3051d2824dec961fc9d871a4f22a89185677b5b9f2ec41a8b316",
+      "after": "9e07da708fed0892eac9f01d9e894fd917abf0dfe42556ff85834fdb9a11ac54"
     },
     "dist/search-index.json": {
-      "before": "5ef7b307be8e0f13949a00ef2e061c8f7f12398374bf8acfe3515bec520fe8ef",
-      "after": "27acaddf15aa9923d9a27a1fc2fa935c79a4a41c315c46e525ce25fde3773bcd"
+      "before": "27acaddf15aa9923d9a27a1fc2fa935c79a4a41c315c46e525ce25fde3773bcd",
+      "after": "6c830e317b63f9ce760626978324844076b9356171052aaf86f9db10403e66ee"
     },
     "dist/vocabulary.json": {
-      "before": "56dc3ec41dc41faba71acd29c399587170b1efac83ca8e96460ddea9294494e2",
-      "after": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f"
+      "before": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
+      "after": "7af7dc4b89e5c34fa4792212d98c18b2cd97f5170c2b2c4b00a66e232285cbf0"
     },
     "scripts/audit_baseline.py": {
       "before": "9bc80460c85b1043e83fc46841d04bc90e05fb0d105c42e016b62486526b4947",
@@ -78,12 +75,17 @@
       "after": "536c8e3300799c5f5052567722c56cd56db93d8db52166bd89eca005d1d2f1e0"
     },
     "migration/reviewed-changes-3.0.json": {
-      "before": "e7e6ea5f7abdace38ed0e898dad525d28860187549e81f5c7ba9c8ccbebd9074",
-      "after": "79e040e2685d343d090f3ab1a2107367de34adf04bcfe34dfe15b27deac6520d"
+      "before": "79e040e2685d343d090f3ab1a2107367de34adf04bcfe34dfe15b27deac6520d",
+      "after": "e49416df1cf8121863f354c09c2fb7af7b59bca9a5a80960bbbcdb94ed5bd918"
     },
     "migration/ui-content-baseline.json": {
-      "before": "3129c3725e879c19499eebd538f7985ad4ddba6a28563471fb79ec37a98095c6",
-      "after": "93499290d59cfb26216b1723e1f92e9c99417e8129aa7852eb1a4f6dfae839c7"
+      "before": "93499290d59cfb26216b1723e1f92e9c99417e8129aa7852eb1a4f6dfae839c7",
+      "after": "159ad49f7517b4f8d146e70bd4c73cb827eef07b31771ee43a09313ce4c0e064"
     }
-  }
+  },
+  "removed_phrases": [
+    "08 differ from",
+    "09 spur someone on / spur someone into action"
+  ],
+  "phrase_policy": "Only update Phrases when the user explicitly requests it; general website updates exclude Phrases."
 }

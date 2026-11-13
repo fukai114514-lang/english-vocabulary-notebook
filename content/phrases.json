@@ -150,64 +150,6 @@
       ],
       "noteEn": "Think twice before doing is another common construction.",
       "noteZh": "也常用 think twice before doing。"
-    },
-    {
-      "id": "phrase-differ-from",
-      "phrase": "differ from",
-      "meaningZh": "与……不同",
-      "definitionEn": "To be different from someone or something.",
-      "usageEn": "Use a full clause at the start, or an -ing clause with the same understood subject as the main clause.",
-      "usageZh": "可置于句首，但须结构完整。differ 是谓语动词，不能直接写 Differ from X, ...；分词结构可用 Differing from X, ...，且逻辑主语须与主句主语一致。differing 是 differ 的 -ing 形式，也可修饰名词，表示不同的，如 differing opinions。",
-      "collocations": [
-        "differ from someone in something",
-        "differ in size",
-        "differing opinions"
-      ],
-      "examples": [
-        {
-          "en": "How does this method differ from the old one?",
-          "zh": "这个方法与旧方法有什么不同？"
-        },
-        {
-          "en": "Differing from the earlier model in size, this model fits smaller desks.",
-          "zh": "这款型号的尺寸与旧款不同，适合较小的桌子。"
-        },
-        {
-          "en": "We have differing opinions on the proposal.",
-          "zh": "我们对这项提议有不同看法。"
-        }
-      ],
-      "noteEn": "For a simpler contrast, write Unlike the earlier model, this model is smaller. Different from can describe the subject too. Avoid a dangling modifier.",
-      "noteZh": "更简洁可说 Unlike the earlier model, this model is smaller. 或 Different from the earlier model, this model ...。不要写 Differing from the old model, the price is lower. 来比较型号，因为该句的主语变成了 price。"
-    },
-    {
-      "id": "phrase-spur-on",
-      "phrase": "spur someone on / spur someone into action",
-      "meaningZh": "激励某人继续努力；促使某人行动",
-      "definitionEn": "To encourage someone to keep trying or cause someone to take action.",
-      "usageEn": "Use spur someone on, spur someone to do something, or spur someone into action.",
-      "usageZh": "spur 强调刺激或推动行动；这里按短语收录。代词放在 spur 与 on 之间，如 spur them on。",
-      "collocations": [
-        "spur someone on",
-        "spur someone to do something",
-        "spur someone into action"
-      ],
-      "examples": [
-        {
-          "en": "Her encouragement spurred me on.",
-          "zh": "她的鼓励激励我继续努力。"
-        },
-        {
-          "en": "The setback spurred him to work harder.",
-          "zh": "这次挫折促使他更加努力。"
-        },
-        {
-          "en": "The warning spurred them into action.",
-          "zh": "这条警告促使他们采取行动。"
-        }
-      ],
-      "noteEn": "Spur can also take a thing as its object, as in spur growth. Spur of the moment belongs to the separate expression on the spur of the moment.",
-      "noteZh": "也可直接接事物，如 spur growth（促进增长）。on the spur of the moment 是一时冲动、临时起意，不能把 spur on 译成这个意思。"
     }
   ]
 }

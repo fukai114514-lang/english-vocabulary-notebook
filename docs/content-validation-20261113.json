@@ -9,7 +9,7 @@
         "content/render.py"
       ],
       "exit_code": 0,
-      "seconds": 1.305,
+      "seconds": 1.309,
       "stdout": "Nap archive: 20 paragraphs, 32 words, 33 phrases\n{\"groups\": 153, \"word_rows\": 372, \"tables\": 153, \"selection_notes\": 228}\nInterface: 153 groups, 75 words, 7 readers\n",
       "stderr": ""
     },
@@ -19,7 +19,7 @@
         "scripts/verify_migration.py"
       ],
       "exit_code": 0,
-      "seconds": 0.51,
+      "seconds": 0.544,
       "stdout": "PASS preservation: exact original groups/words; 349 retained sense records as multisets; all original article fields unchanged\nPASS: reviewed SHA-256 baseline; 153 groups, 372 entries, 365 unique IDs; 75 polysemy words/420 senses; 20 paragraphs, 32 words, 33 phrases.\nPASS interface: frozen data; 74 exact original and translated paragraphs; relative assets/routes; no inline legacy CSS\n",
       "stderr": ""
     },
@@ -29,7 +29,7 @@
         "scripts/verify_preservation.py"
       ],
       "exit_code": 0,
-      "seconds": 0.051,
+      "seconds": 0.068,
       "stdout": "PASS preservation: exact original groups/words; 349 retained sense records as multisets; all original article fields unchanged\n",
       "stderr": ""
     },
@@ -39,7 +39,7 @@
         "scripts/verify_interface.py"
       ],
       "exit_code": 0,
-      "seconds": 0.163,
+      "seconds": 0.134,
       "stdout": "PASS interface: frozen data; 74 exact original and translated paragraphs; relative assets/routes; no inline legacy CSS\n",
       "stderr": ""
     },
@@ -49,7 +49,7 @@
         "scripts/verify_upgrade.py"
       ],
       "exit_code": 0,
-      "seconds": 0.505,
+      "seconds": 0.483,
       "stdout": "PASS upgrade: all index records, all targets present; 420 unique stable sense IDs; A–T translations after complete English text; index fields found in HTML\n",
       "stderr": ""
     },
@@ -59,7 +59,7 @@
         "scripts/verify_article_dictionary.py"
       ],
       "exit_code": 0,
-      "seconds": 0.034,
+      "seconds": 0.03,
       "stdout": "PASS article dictionary: 1506 distinct tokens have Chinese and English definitions; source and deployment files match\n",
       "stderr": ""
     },
@@ -69,7 +69,7 @@
         "scripts/verify_reading_context.py"
       ],
       "exit_code": 0,
-      "seconds": 0.032,
+      "seconds": 0.033,
       "stdout": "PASS contextual senses, original and translated paragraph anchors, and font controls\n",
       "stderr": ""
     },
@@ -79,7 +79,7 @@
         "scripts/verify_routes.py"
       ],
       "exit_code": 0,
-      "seconds": 0.11,
+      "seconds": 0.103,
       "stdout": "{\"pages\": 8, \"links\": 111, \"resources\": 32, \"legacy_article_redirects\": 0, \"passed\": true}\n",
       "stderr": ""
     },
@@ -99,7 +99,7 @@
         "scripts/verify_design_tokens.py"
       ],
       "exit_code": 0,
-      "seconds": 0.022,
+      "seconds": 0.02,
       "stdout": "{\n  \"passed\": true,\n  \"pairs\": 48,\n  \"minimum_ratio\": 3.51,\n  \"results\": [\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--canvas\",\n      \"ratio\": 15.46\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--surface\",\n      \"ratio\": 16.83\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--inset\",\n      \"ratio\": 14.54\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--tint\",\n      \"ratio\": 14.56\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--hover\",\n      \"ratio\": 13.92\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--pressed\",\n      \"ratio\": 12.35\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--canvas\",\n      \"ratio\": 5.72\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--surface\",\n      \"ratio\": 6.22\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--inset\",\n      \"ratio\": 5.38\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--tint\",\n      \"ratio\": 5.38\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--hover\",\n      \"ratio\": 5.15\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--pressed\",\n      \"ratio\": 4.57\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--canvas\",\n      \"ratio\": 6.21\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--surface\",\n      \"ratio\": 6.76\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--inset\",\n      \"ratio\": 5.84\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--tint\",\n      \"ratio\": 5.85\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--hover\",\n      \"ratio\": 5.59\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--pressed\",\n      \"ratio\": 4.96\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--warm-ink\",\n      \"background\": \"--warm-surface\",\n      \"ratio\": 5.78\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--sage-ink\",\n      \"background\": \"--sage-surface\",\n      \"ratio\": 5.94\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--highlight\",\n      \"ratio\": 13.6\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--on-accent\",\n      \"background\": \"--accent\",\n      \"ratio\": 6.76\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--border-control\",\n      \"background\": \"--surface\",\n      \"ratio\": 3.51\n    },\n    {\n      \"theme\": \"light\",\n      \"foreground\": \"--focus\",\n      \"background\": \"--surface\",\n      \"ratio\": 6.76\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--canvas\",\n      \"ratio\": 16.6\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--surface\",\n      \"ratio\": 14.92\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--inset\",\n      \"ratio\": 12.77\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--tint\",\n      \"ratio\": 10.99\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--hover\",\n      \"ratio\": 11.34\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--pressed\",\n      \"ratio\": 9.41\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--canvas\",\n      \"ratio\": 8.99\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--surface\",\n      \"ratio\": 8.08\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--inset\",\n      \"ratio\": 6.91\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--tint\",\n      \"ratio\": 5.95\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--hover\",\n      \"ratio\": 6.14\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--secondary\",\n      \"background\": \"--pressed\",\n      \"ratio\": 5.09\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--canvas\",\n      \"ratio\": 10.16\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--surface\",\n      \"ratio\": 9.14\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--inset\",\n      \"ratio\": 7.82\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--tint\",\n      \"ratio\": 6.73\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--hover\",\n      \"ratio\": 6.94\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--accent\",\n      \"background\": \"--pressed\",\n      \"ratio\": 5.76\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--warm-ink\",\n      \"background\": \"--warm-surface\",\n      \"ratio\": 7.48\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--sage-ink\",\n      \"background\": \"--sage-surface\",\n      \"ratio\": 7.34\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--ink\",\n      \"background\": \"--highlight\",\n      \"ratio\": 7.1\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--on-accent\",\n      \"background\": \"--accent\",\n      \"ratio\": 8.83\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--border-control\",\n      \"background\": \"--surface\",\n      \"ratio\": 4.23\n    },\n    {\n      \"theme\": \"dark\",\n      \"foreground\": \"--focus\",\n      \"background\": \"--surface\",\n      \"ratio\": 9.14\n    }\n  ]\n}\n",
       "stderr": ""
     },
@@ -109,7 +109,7 @@
         "scripts/verify_asset_versions.py"
       ],
       "exit_code": 0,
-      "seconds": 0.109,
+      "seconds": 0.116,
       "stdout": "PASS 32 versioned asset references; deterministic output and selective cache invalidation\n",
       "stderr": ""
     },
@@ -120,7 +120,7 @@
         "content/app.js"
       ],
       "exit_code": 0,
-      "seconds": 0.064,
+      "seconds": 0.062,
       "stdout": "",
       "stderr": ""
     },
@@ -131,7 +131,7 @@
         "content/interface.js"
       ],
       "exit_code": 0,
-      "seconds": 0.064,
+      "seconds": 0.08,
       "stdout": "",
       "stderr": ""
     },
@@ -142,7 +142,7 @@
         "content/pronunciation.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.056,
       "stdout": "",
       "stderr": ""
     },
@@ -153,7 +153,7 @@
         "content/reader.js"
       ],
       "exit_code": 0,
-      "seconds": 0.09,
+      "seconds": 0.054,
       "stdout": "",
       "stderr": ""
     },
@@ -164,7 +164,7 @@
         "content/search.js"
       ],
       "exit_code": 0,
-      "seconds": 0.051,
+      "seconds": 0.062,
       "stdout": "",
       "stderr": ""
     },
@@ -175,7 +175,7 @@
         "content/theme.js"
       ],
       "exit_code": 0,
-      "seconds": 0.051,
+      "seconds": 0.059,
       "stdout": "",
       "stderr": ""
     },
@@ -185,7 +185,7 @@
         "scripts/test_search.cjs"
       ],
       "exit_code": 0,
-      "seconds": 0.158,
+      "seconds": 0.149,
       "stdout": "credit 8\nnap 30\nsleep 25\n学分 1\npower nap 3\nbrutal 2\nPASS search matcher: required queries, casing, prefix, documented inflections, ranking, nonmatches, special and hostile input\n",
       "stderr": ""
     },
@@ -195,7 +195,7 @@
         "content/render.py"
       ],
       "exit_code": 0,
-      "seconds": 1.22,
+      "seconds": 1.248,
       "stdout": "Nap archive: 20 paragraphs, 32 words, 33 phrases\n{\"groups\": 153, \"word_rows\": 372, \"tables\": 153, \"selection_notes\": 228}\nInterface: 153 groups, 75 words, 7 readers\n",
       "stderr": ""
     }
@@ -228,9 +228,9 @@
       "gzip_bytes": 12238
     },
     "index.html": {
-      "sha256": "edcb5801128f3051d2824dec961fc9d871a4f22a89185677b5b9f2ec41a8b316",
-      "bytes": 701991,
-      "gzip_bytes": 149106
+      "sha256": "9e07da708fed0892eac9f01d9e894fd917abf0dfe42556ff85834fdb9a11ac54",
+      "bytes": 697997,
+      "gzip_bytes": 148045
     },
     "interface.js": {
       "sha256": "ed720d55517bf7077ca63eee17df5ca04fb998a2b0f7ac59160cc9608f573d3c",
@@ -278,9 +278,9 @@
       "gzip_bytes": 20231
     },
     "search-index.json": {
-      "sha256": "27acaddf15aa9923d9a27a1fc2fa935c79a4a41c315c46e525ce25fde3773bcd",
-      "bytes": 795059,
-      "gzip_bytes": 176971
+      "sha256": "6c830e317b63f9ce760626978324844076b9356171052aaf86f9db10403e66ee",
+      "bytes": 791835,
+      "gzip_bytes": 175939
     },
     "search.css": {
       "sha256": "ef3a3074320ad4f572025cfeea0eedb031fdb0f82e2a150b13023af69ab6268e",
@@ -293,9 +293,9 @@
       "gzip_bytes": 3045
     },
     "vocabulary.json": {
-      "sha256": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
-      "bytes": 1012521,
-      "gzip_bytes": 200779
+      "sha256": "7af7dc4b89e5c34fa4792212d98c18b2cd97f5170c2b2c4b00a66e232285cbf0",
+      "bytes": 1009202,
+      "gzip_bytes": 199752
     },
     "vpn-privacy.html": {
       "sha256": "41624cff1ce9be386d91df8c442cedc4687914e397c3bdea49b7beabadf01c90",

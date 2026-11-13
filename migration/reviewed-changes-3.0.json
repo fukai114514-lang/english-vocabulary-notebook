@@ -20,16 +20,16 @@
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "16b7ec83f3aee6799455c6913187540d2c2068fe00b1811390aaea69938e33f4",
-    "reason": "Reviewed recent vocabulary additions; old word objects, entries, phrases and all article/polysemy data preserved. See docs/content-review-20261113.json."
+    "sha256": "001846460aff40da8539a69dc0e193cbb060152093354739cd6167964fe71fe8",
+    "reason": "User explicitly removed Phrases 08 and 09. First seven phrases, every comparison, polysemy entry and article preserved."
   },
   "dist/polysemy.json": {
     "sha256": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
     "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
   },
   "dist/vocabulary.json": {
-    "sha256": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
-    "reason": "Reviewed recent vocabulary additions; old word objects, entries, phrases and all article/polysemy data preserved. See docs/content-review-20261113.json."
+    "sha256": "7af7dc4b89e5c34fa4792212d98c18b2cd97f5170c2b2c4b00a66e232285cbf0",
+    "reason": "User explicitly removed Phrases 08 and 09. First seven phrases, every comparison, polysemy entry and article preserved."
   },
   "content/base.html": {
     "sha256": "c09d1301db2b86d520aaeeec2f67f4ad095cc6f46b12bd2046d698b7d0c9d001",
