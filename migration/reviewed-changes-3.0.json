@@ -20,8 +20,8 @@
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "001846460aff40da8539a69dc0e193cbb060152093354739cd6167964fe71fe8",
-    "reason": "User explicitly removed Phrases 08 and 09. First seven phrases, every comparison, polysemy entry and article preserved."
+    "sha256": "6f21bdbeb4666dc47a994c3a9956cc38658bd454f0df5c4212e629c9e0114f2d",
+    "reason": "Reviewed addition of Hobbies and Confidence at Work reading card and article metadata; existing content preserved."
   },
   "dist/polysemy.json": {
     "sha256": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
