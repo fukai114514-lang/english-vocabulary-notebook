@@ -5267,9 +5267,10 @@
       "number": 102,
       "wordIds": [
         "word-9300b4d2567aad13",
-        "word-3c1f2776b86f209e"
+        "word-3c1f2776b86f209e",
+        "word-d6173d8762a74114"
       ],
-      "selectionNote": "assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。",
+      "selectionNote": "assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。 designate 强调正式指定某人或某物的身份、用途，常用 designate someone as / designate an area for。appoint 偏正式任命职位（见第13组）；assign 偏分配任务；arrange 偏协调安排。designate 的指定不总等于任命。",
       "reviewStatus": "needs-review",
       "entries": [
         {
@@ -5303,6 +5304,22 @@
             {
               "en": "We arranged for a taxi to pick her up.",
               "zh": "我们安排了一辆出租车去接她。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-d6173d8762a74114",
+          "meaningZh": "v. 指定；选定",
+          "definitionEn": "To officially choose someone or mark something for a particular role or purpose.",
+          "scenario": "正式选定某人担任角色，或指定某处的用途",
+          "collocations": [
+            "designate someone as",
+            "designate an area for"
+          ],
+          "examples": [
+            {
+              "en": "The area was designated for study.",
+              "zh": "该区域被指定用于学习。"
             }
           ]
         }
@@ -7316,6 +7333,603 @@
         }
       ],
       "selectionNote": "bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-143",
+      "number": 143,
+      "wordIds": [
+        "word-e5b6a7364e8a1049",
+        "word-d37a24b801c6e2e3"
+      ],
+      "entries": [
+        {
+          "wordId": "word-e5b6a7364e8a1049",
+          "meaningZh": "v. 拖延；停滞；熄火",
+          "definitionEn": "To delay deliberately or stop making progress or operating.",
+          "scenario": "强调进展或运转中断，或故意拖时间",
+          "collocations": [
+            "stall for time",
+            "talks stall",
+            "the engine stalls"
+          ],
+          "examples": [
+            {
+              "en": "The negotiations stalled over funding.",
+              "zh": "谈判因资金问题陷入停滞。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-d37a24b801c6e2e3",
+          "meaningZh": "v. 站立；处于某状态",
+          "definitionEn": "To be upright or in a position; also to bear something unpleasant, often in negative statements.",
+          "scenario": "强调站着、位于某处或维持状态；本身不表示进展受阻",
+          "collocations": [
+            "stand still",
+            "stand by the door"
+          ],
+          "examples": [
+            {
+              "en": "Please stand by the door.",
+              "zh": "请站在门旁。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "stall 关注拖延、停滞或机器熄火；stand 关注站立、位置或状态。The car stalled 是车熄火；The car is standing outside 是车停在外面。stand still 的 still 才明确补充不动的意思。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-144",
+      "number": 144,
+      "wordIds": [
+        "word-d37a24b801c6e2e3",
+        "word-3913e8d04d35e5ee",
+        "word-072469151f645102"
+      ],
+      "entries": [
+        {
+          "wordId": "word-d37a24b801c6e2e3",
+          "meaningZh": "v. 忍受；受得了",
+          "definitionEn": "To be upright or in a position; also to bear something unpleasant, often in negative statements.",
+          "scenario": "忍受义常用于否定句或疑问句，口语常见",
+          "collocations": [
+            "cannot stand doing",
+            "cannot stand the noise"
+          ],
+          "examples": [
+            {
+              "en": "I can't stand waiting in long queues.",
+              "zh": "我受不了排长队。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-3913e8d04d35e5ee",
+          "meaningZh": "v. 容忍；耐受",
+          "definitionEn": "To allow or bear something unpleasant or something you disagree with.",
+          "scenario": "较中性或正式，既可忍受不适，也可允许不赞同的行为存在",
+          "collocations": [
+            "tolerate noise",
+            "tolerate doing",
+            "tolerate criticism"
+          ],
+          "examples": [
+            {
+              "en": "The school will not tolerate bullying.",
+              "zh": "学校不会容忍霸凌。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-072469151f645102",
+          "meaningZh": "v. 忍受（常用于否定）；遵守（abide by）",
+          "definitionEn": "To bear something, usually in cannot abide; abide by means to obey or accept.",
+          "scenario": "can't abide 表示无法忍受；abide by 是遵守，两种结构须分开",
+          "collocations": [
+            "can't abide doing",
+            "abide by the rules"
+          ],
+          "examples": [
+            {
+              "en": "I can't abide being interrupted.",
+              "zh": "我无法忍受被打断。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "忍受可用 stand 或 tolerate；stand 常出现在否定或疑问中，tolerate 也可表示允许某行为。can’t abide 语气通常强烈，不能把 abide 当作日常肯定句中 tolerate 的通用替换。abide by the rules 是遵守规则。三者的忍受义都可接动名词。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-145",
+      "number": 145,
+      "wordIds": [
+        "word-62bcdf5181440bb1",
+        "word-a2549841cabf2199"
+      ],
+      "entries": [
+        {
+          "wordId": "word-62bcdf5181440bb1",
+          "meaningZh": "adj. 强大得令人敬畏的；难对付的",
+          "definitionEn": "Powerful, impressive or difficult enough to inspire respect or fear.",
+          "scenario": "侧重对象本身实力强、规模大或很难应对，也可带赞赏",
+          "collocations": [
+            "a formidable opponent",
+            "a formidable task"
+          ],
+          "examples": [
+            {
+              "en": "She is a formidable opponent.",
+              "zh": "她是一个实力强劲、难以对付的对手。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-a2549841cabf2199",
+          "meaningZh": "adj. 令人畏惧的；使人却步的",
+          "definitionEn": "Making someone feel worried or less confident about a difficult task.",
+          "scenario": "侧重任务或前景使人感到困难、缺乏信心",
+          "collocations": [
+            "a daunting prospect",
+            "a daunting challenge"
+          ],
+          "examples": [
+            {
+              "en": "Writing my first report seemed daunting.",
+              "zh": "写第一份报告让我觉得很有压力。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "formidable 强调对象强大或难对付，daunting 强调它使人感到畏难。同一任务可同时 formidable 和 daunting；不是固定强弱等级，也不是“客观”与“主观”的绝对划分。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-146",
+      "number": 146,
+      "wordIds": [
+        "word-ec864fe99b539704",
+        "word-46a8f8f8697eb7b2"
+      ],
+      "entries": [
+        {
+          "wordId": "word-ec864fe99b539704",
+          "meaningZh": "v. 嘲笑；模仿取笑",
+          "definitionEn": "To make fun of someone, often unkindly or by imitating them.",
+          "scenario": "通常带不尊重意味，也可通过模仿取笑",
+          "collocations": [
+            "mock someone's accent",
+            "mock someone for"
+          ],
+          "examples": [
+            {
+              "en": "They mocked him for his accent.",
+              "zh": "他们因他的口音嘲笑他。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-46a8f8f8697eb7b2",
+          "meaningZh": "v. 逗弄；取笑",
+          "definitionEn": "To make jokes about someone or annoy them playfully or unkindly.",
+          "scenario": "可表示友好玩笑，也可带恶意；取决于关系、语气和感受",
+          "collocations": [
+            "tease someone about",
+            "tease someone for"
+          ],
+          "examples": [
+            {
+              "en": "My friends teased me about my new haircut.",
+              "zh": "朋友们拿我的新发型开玩笑。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "mock 通常更明显地带嘲讽、不尊重；tease 可以是亲近的逗趣，也能伤害人。不能一律把 tease 当成善意。两者都可用 for 表示取笑的原因。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-147",
+      "number": 147,
+      "wordIds": [
+        "word-d15690f08a575024",
+        "word-3eeb7e96e59ce40f",
+        "word-c1c58eabfe7be897",
+        "word-5d347fd948b66308",
+        "word-18a1083a0d063091"
+      ],
+      "entries": [
+        {
+          "wordId": "word-d15690f08a575024",
+          "meaningZh": "v. 指示；指导",
+          "definitionEn": "To tell someone what to do or guide an activity.",
+          "scenario": "较正式地指示行动，也可组织、引导过程；不一定带怒气",
+          "collocations": [
+            "direct someone to do",
+            "direct operations"
+          ],
+          "examples": [
+            {
+              "en": "The officer directed us to leave the building.",
+              "zh": "警官指示我们离开大楼。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-3eeb7e96e59ce40f",
+          "meaningZh": "v. 命令",
+          "definitionEn": "To tell someone authoritatively that they must do something.",
+          "scenario": "明确要求服从，常来自有权威的人",
+          "collocations": [
+            "order someone to do",
+            "order someone not to do"
+          ],
+          "examples": [
+            {
+              "en": "The officer ordered them to stop.",
+              "zh": "警官命令他们停下。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-c1c58eabfe7be897",
+          "meaningZh": "v. 指示；教授",
+          "definitionEn": "To give directions or teach someone how to do something.",
+          "scenario": "可给出明确操作要求，也可教人如何做",
+          "collocations": [
+            "instruct someone to do",
+            "instruct someone in"
+          ],
+          "examples": [
+            {
+              "en": "The nurse instructed me to take the medicine after meals.",
+              "zh": "护士嘱咐我饭后服药。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-5d347fd948b66308",
+          "meaningZh": "v. 下令；统率",
+          "definitionEn": "To give an authoritative order or have control over a group.",
+          "scenario": "常见于军事、正式权威或强势要求；并非只用于军队",
+          "collocations": [
+            "command someone to do",
+            "command troops"
+          ],
+          "examples": [
+            {
+              "en": "The captain commanded the soldiers to advance.",
+              "zh": "上尉命令士兵前进。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-18a1083a0d063091",
+          "meaningZh": "v. 强行规定；决定；口述",
+          "definitionEn": "To impose terms, determine an outcome, or speak words for someone to write down.",
+          "scenario": "强调单方面规定条件或由因素决定结果；口述是另一用法",
+          "collocations": [
+            "dictate terms",
+            "dictate that",
+            "dictate a letter"
+          ],
+          "examples": [
+            {
+              "en": "One person should not dictate the terms.",
+              "zh": "不应由一个人单方面规定条件。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-148",
+      "number": 148,
+      "wordIds": [
+        "word-3b36188cf95af067",
+        "word-28a4168b6d2ef6a5"
+      ],
+      "entries": [
+        {
+          "wordId": "word-3b36188cf95af067",
+          "meaningZh": "adj. 动荡的；汹涌的",
+          "definitionEn": "Marked by violent movement, conflict or unstable change.",
+          "scenario": "强调剧烈变化、冲突或流动不稳，未必完全失去秩序",
+          "collocations": [
+            "turbulent times",
+            "turbulent water",
+            "turbulent airflow"
+          ],
+          "examples": [
+            {
+              "en": "The country went through a turbulent period.",
+              "zh": "这个国家经历了一段动荡时期。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-28a4168b6d2ef6a5",
+          "meaningZh": "adj. 混乱无序的",
+          "definitionEn": "Completely disorganized or lacking order.",
+          "scenario": "强调缺乏秩序、组织或有效控制",
+          "collocations": [
+            "a chaotic situation",
+            "chaotic traffic"
+          ],
+          "examples": [
+            {
+              "en": "The station was chaotic after the cancellations.",
+              "zh": "列车取消后车站一片混乱。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "turbulent 侧重剧烈变化或冲突；chaotic 侧重无序。turbulent water 是湍急不稳的水流，chaotic traffic 是混乱的交通。两种性质可以同时存在。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-149",
+      "number": 149,
+      "wordIds": [
+        "word-1cf38705e1b507a4",
+        "word-dc726d0a525fdaf7",
+        "word-c3b290f1c5ba865d"
+      ],
+      "entries": [
+        {
+          "wordId": "word-1cf38705e1b507a4",
+          "meaningZh": "v. 表示；指称",
+          "definitionEn": "To stand for, refer to or be a sign of something.",
+          "scenario": "强调符号、词语等明确代表什么，常用于定义或说明",
+          "collocations": [
+            "denote something",
+            "be denoted by"
+          ],
+          "examples": [
+            {
+              "en": "The symbol x denotes an unknown value.",
+              "zh": "符号 x 表示一个未知数值。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-dc726d0a525fdaf7",
+          "meaningZh": "v. 暗示；表明；建议",
+          "definitionEn": "To indicate a possibility or put forward an idea for consideration.",
+          "scenario": "迹象使某种解释显得可能；也可提出建议，不表示结论必然正确",
+          "collocations": [
+            "suggest that",
+            "suggest doing"
+          ],
+          "examples": [
+            {
+              "en": "The evidence suggests that demand is falling.",
+              "zh": "证据表明需求可能正在下降。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-c3b290f1c5ba865d",
+          "meaningZh": "v. 暗示；意味着",
+          "definitionEn": "To communicate indirectly or involve something as a consequence.",
+          "scenario": "可指不明说却传达含义，也可指逻辑上蕴含某结果",
+          "collocations": [
+            "imply that",
+            "imply a connection"
+          ],
+          "examples": [
+            {
+              "en": "Her reply implied that she disagreed.",
+              "zh": "她的回答暗示她并不赞同。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-150",
+      "number": 150,
+      "wordIds": [
+        "word-b85b91c53558d46d",
+        "word-3562b1f264ebe8b3"
+      ],
+      "entries": [
+        {
+          "wordId": "word-b85b91c53558d46d",
+          "meaningZh": "n. 诉讼；官司",
+          "definitionEn": "A case brought before a court, usually a civil claim.",
+          "scenario": "通常指法院中的民事诉讼案件，强调一宗官司",
+          "collocations": [
+            "file a lawsuit",
+            "bring a lawsuit against"
+          ],
+          "examples": [
+            {
+              "en": "She filed a lawsuit against the company.",
+              "zh": "她对该公司提起了诉讼。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-3562b1f264ebe8b3",
+          "meaningZh": "n. 程序；诉讼程序",
+          "definitionEn": "A formal legal action or process, often used in the plural proceedings.",
+          "scenario": "法律语境常用复数 proceedings，侧重正式法律行动或程序，范围更广",
+          "collocations": [
+            "legal proceedings",
+            "criminal proceedings",
+            "institute proceedings"
+          ],
+          "examples": [
+            {
+              "en": "They began legal proceedings against the company.",
+              "zh": "他们对该公司启动了法律程序。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "lawsuit 通常指一宗民事官司；proceedings 可统指民事、刑事或其他正式程序，不一定是单独一场庭审。注意 criminal proceedings 和 file a lawsuit；在法律义下 proceeding 常以复数出现。这里只比较法律用法。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-151",
+      "number": 151,
+      "wordIds": [
+        "word-3371305232c8dc10",
+        "word-429bf78dbd9b9535"
+      ],
+      "entries": [
+        {
+          "wordId": "word-3371305232c8dc10",
+          "meaningZh": "n. 美德；优点",
+          "definitionEn": "A good moral quality, or a useful or desirable feature.",
+          "scenario": "道德义强调好品质；优点义也可形容方法或事物的好处",
+          "collocations": [
+            "a moral virtue",
+            "the virtues of",
+            "by virtue of"
+          ],
+          "examples": [
+            {
+              "en": "Patience is a virtue.",
+              "zh": "耐心是一种美德。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-429bf78dbd9b9535",
+          "meaningZh": "n. 优点；价值",
+          "definitionEn": "A quality deserving approval; as a verb, to be worthy of attention or a response.",
+          "scenario": "侧重值得肯定的品质或价值，不局限于道德",
+          "collocations": [
+            "have merit",
+            "on its merits",
+            "the merits of"
+          ],
+          "examples": [
+            {
+              "en": "The proposal has considerable merit.",
+              "zh": "这项提议很有价值。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-152",
+      "number": 152,
+      "wordIds": [
+        "word-d7f8d3e72469ce68",
+        "word-429bf78dbd9b9535"
+      ],
+      "entries": [
+        {
+          "wordId": "word-d7f8d3e72469ce68",
+          "meaningZh": "v. 值得；应得",
+          "definitionEn": "To be worthy of receiving something because of actions or qualities.",
+          "scenario": "通用表达，可接名词或不定式；好坏结果都可应得",
+          "collocations": [
+            "deserve praise",
+            "deserve to win",
+            "deserve punishment"
+          ],
+          "examples": [
+            {
+              "en": "You deserve to be treated with respect.",
+              "zh": "你应该受到尊重。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-429bf78dbd9b9535",
+          "meaningZh": "v. 值得；应受到",
+          "definitionEn": "A quality deserving approval; as a verb, to be worthy of attention or a response.",
+          "scenario": "较正式，通常直接接名词，强调足以得到某种评价或关注",
+          "collocations": [
+            "merit attention",
+            "merit consideration",
+            "merit further study"
+          ],
+          "examples": [
+            {
+              "en": "The issue merits further investigation.",
+              "zh": "这个问题值得进一步调查。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "deserve 通用，既可 deserve praise 也可 deserve punishment；deserve to do / deserve to be done 常用。merit 较正式，merit attention / consideration / investigation 更典型；不要机械写成 merit to do。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-153",
+      "number": 153,
+      "wordIds": [
+        "word-94e8566ddfc123ed",
+        "word-2053dbbf6ec7135c",
+        "word-790fe855007cd93a"
+      ],
+      "entries": [
+        {
+          "wordId": "word-94e8566ddfc123ed",
+          "meaningZh": "adj. 静止的；平静的",
+          "definitionEn": "Not moving or making a sound; as an adverb, continuing up to a time.",
+          "scenario": "此处比较形容词：强调当下没有运动；副词 still 可表示仍然",
+          "collocations": [
+            "keep still",
+            "stand still",
+            "still water"
+          ],
+          "examples": [
+            {
+              "en": "Keep still while I take the photo.",
+              "zh": "我拍照时请别动。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-2053dbbf6ec7135c",
+          "meaningZh": "adj. 静态的；不变的",
+          "definitionEn": "Not moving, developing or changing over time.",
+          "scenario": "强调一段时间内状态、数值或系统没有变化",
+          "collocations": [
+            "a static image",
+            "static prices",
+            "remain static"
+          ],
+          "examples": [
+            {
+              "en": "The population has remained static for years.",
+              "zh": "人口数量多年来一直没有变化。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-790fe855007cd93a",
+          "meaningZh": "adj. 静力学的；静态的（少见）",
+          "definitionEn": "Relating to statics; a less common form of static in technical use.",
+          "scenario": "多见于静力学等专业或较旧用法；日常静态通常用 static",
+          "collocations": [
+            "statical equilibrium",
+            "statical analysis"
+          ],
+          "examples": [
+            {
+              "en": "The textbook discusses statical equilibrium.",
+              "zh": "这本教材讨论静力平衡。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。",
       "reviewStatus": "reviewed"
     }
   ],
@@ -18908,6 +19522,936 @@
       ],
       "correctUsage": "Her confidence blossomed during the course.",
       "commonMistakes": "bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。"
+    },
+    {
+      "id": "word-e5b6a7364e8a1049",
+      "lemma": "stall",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-143"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 拖延；停滞；熄火",
+      "definitionEn": "To delay deliberately or stop making progress or operating.",
+      "scenario": "强调进展或运转中断，或故意拖时间",
+      "collocations": [
+        "stall for time",
+        "talks stall",
+        "the engine stalls"
+      ],
+      "examples": [
+        {
+          "en": "The negotiations stalled over funding.",
+          "zh": "谈判因资金问题陷入停滞。"
+        }
+      ],
+      "correctUsage": "The negotiations stalled over funding.",
+      "commonMistakes": "stall 关注拖延、停滞或机器熄火；stand 关注站立、位置或状态。The car stalled 是车熄火；The car is standing outside 是车停在外面。stand still 的 still 才明确补充不动的意思。"
+    },
+    {
+      "id": "word-d37a24b801c6e2e3",
+      "lemma": "stand",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-143",
+        "group-144"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 站立；处于某状态",
+      "definitionEn": "To be upright or in a position; also to bear something unpleasant, often in negative statements.",
+      "scenario": "强调站着、位于某处或维持状态；本身不表示进展受阻",
+      "collocations": [
+        "stand still",
+        "stand by the door"
+      ],
+      "examples": [
+        {
+          "en": "Please stand by the door.",
+          "zh": "请站在门旁。"
+        }
+      ],
+      "correctUsage": "Please stand by the door.",
+      "commonMistakes": "stall 关注拖延、停滞或机器熄火；stand 关注站立、位置或状态。The car stalled 是车熄火；The car is standing outside 是车停在外面。stand still 的 still 才明确补充不动的意思。"
+    },
+    {
+      "id": "word-3913e8d04d35e5ee",
+      "lemma": "tolerate",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-144"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 容忍；耐受",
+      "definitionEn": "To allow or bear something unpleasant or something you disagree with.",
+      "scenario": "较中性或正式，既可忍受不适，也可允许不赞同的行为存在",
+      "collocations": [
+        "tolerate noise",
+        "tolerate doing",
+        "tolerate criticism"
+      ],
+      "examples": [
+        {
+          "en": "The school will not tolerate bullying.",
+          "zh": "学校不会容忍霸凌。"
+        }
+      ],
+      "correctUsage": "The school will not tolerate bullying.",
+      "commonMistakes": "忍受可用 stand 或 tolerate；stand 常出现在否定或疑问中，tolerate 也可表示允许某行为。can’t abide 语气通常强烈，不能把 abide 当作日常肯定句中 tolerate 的通用替换。abide by the rules 是遵守规则。三者的忍受义都可接动名词。"
+    },
+    {
+      "id": "word-072469151f645102",
+      "lemma": "abide",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-144"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 忍受（常用于否定）；遵守（abide by）",
+      "definitionEn": "To bear something, usually in cannot abide; abide by means to obey or accept.",
+      "scenario": "can't abide 表示无法忍受；abide by 是遵守，两种结构须分开",
+      "collocations": [
+        "can't abide doing",
+        "abide by the rules"
+      ],
+      "examples": [
+        {
+          "en": "I can't abide being interrupted.",
+          "zh": "我无法忍受被打断。"
+        }
+      ],
+      "correctUsage": "I can't abide being interrupted.",
+      "commonMistakes": "忍受可用 stand 或 tolerate；stand 常出现在否定或疑问中，tolerate 也可表示允许某行为。can’t abide 语气通常强烈，不能把 abide 当作日常肯定句中 tolerate 的通用替换。abide by the rules 是遵守规则。三者的忍受义都可接动名词。"
+    },
+    {
+      "id": "word-62bcdf5181440bb1",
+      "lemma": "formidable",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-145"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 强大得令人敬畏的；难对付的",
+      "definitionEn": "Powerful, impressive or difficult enough to inspire respect or fear.",
+      "scenario": "侧重对象本身实力强、规模大或很难应对，也可带赞赏",
+      "collocations": [
+        "a formidable opponent",
+        "a formidable task"
+      ],
+      "examples": [
+        {
+          "en": "She is a formidable opponent.",
+          "zh": "她是一个实力强劲、难以对付的对手。"
+        }
+      ],
+      "correctUsage": "She is a formidable opponent.",
+      "commonMistakes": "formidable 强调对象强大或难对付，daunting 强调它使人感到畏难。同一任务可同时 formidable 和 daunting；不是固定强弱等级，也不是“客观”与“主观”的绝对划分。"
+    },
+    {
+      "id": "word-a2549841cabf2199",
+      "lemma": "daunting",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-145"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 令人畏惧的；使人却步的",
+      "definitionEn": "Making someone feel worried or less confident about a difficult task.",
+      "scenario": "侧重任务或前景使人感到困难、缺乏信心",
+      "collocations": [
+        "a daunting prospect",
+        "a daunting challenge"
+      ],
+      "examples": [
+        {
+          "en": "Writing my first report seemed daunting.",
+          "zh": "写第一份报告让我觉得很有压力。"
+        }
+      ],
+      "correctUsage": "Writing my first report seemed daunting.",
+      "commonMistakes": "formidable 强调对象强大或难对付，daunting 强调它使人感到畏难。同一任务可同时 formidable 和 daunting；不是固定强弱等级，也不是“客观”与“主观”的绝对划分。"
+    },
+    {
+      "id": "word-ec864fe99b539704",
+      "lemma": "mock",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-146"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 嘲笑；模仿取笑",
+      "definitionEn": "To make fun of someone, often unkindly or by imitating them.",
+      "scenario": "通常带不尊重意味，也可通过模仿取笑",
+      "collocations": [
+        "mock someone's accent",
+        "mock someone for"
+      ],
+      "examples": [
+        {
+          "en": "They mocked him for his accent.",
+          "zh": "他们因他的口音嘲笑他。"
+        }
+      ],
+      "correctUsage": "They mocked him for his accent.",
+      "commonMistakes": "mock 通常更明显地带嘲讽、不尊重；tease 可以是亲近的逗趣，也能伤害人。不能一律把 tease 当成善意。两者都可用 for 表示取笑的原因。"
+    },
+    {
+      "id": "word-46a8f8f8697eb7b2",
+      "lemma": "tease",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-146"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 逗弄；取笑",
+      "definitionEn": "To make jokes about someone or annoy them playfully or unkindly.",
+      "scenario": "可表示友好玩笑，也可带恶意；取决于关系、语气和感受",
+      "collocations": [
+        "tease someone about",
+        "tease someone for"
+      ],
+      "examples": [
+        {
+          "en": "My friends teased me about my new haircut.",
+          "zh": "朋友们拿我的新发型开玩笑。"
+        }
+      ],
+      "correctUsage": "My friends teased me about my new haircut.",
+      "commonMistakes": "mock 通常更明显地带嘲讽、不尊重；tease 可以是亲近的逗趣，也能伤害人。不能一律把 tease 当成善意。两者都可用 for 表示取笑的原因。"
+    },
+    {
+      "id": "word-d15690f08a575024",
+      "lemma": "direct",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-147"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 指示；指导",
+      "definitionEn": "To tell someone what to do or guide an activity.",
+      "scenario": "较正式地指示行动，也可组织、引导过程；不一定带怒气",
+      "collocations": [
+        "direct someone to do",
+        "direct operations"
+      ],
+      "examples": [
+        {
+          "en": "The officer directed us to leave the building.",
+          "zh": "警官指示我们离开大楼。"
+        }
+      ],
+      "correctUsage": "The officer directed us to leave the building.",
+      "commonMistakes": "direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。"
+    },
+    {
+      "id": "word-3eeb7e96e59ce40f",
+      "lemma": "order",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-147"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 命令",
+      "definitionEn": "To tell someone authoritatively that they must do something.",
+      "scenario": "明确要求服从，常来自有权威的人",
+      "collocations": [
+        "order someone to do",
+        "order someone not to do"
+      ],
+      "examples": [
+        {
+          "en": "The officer ordered them to stop.",
+          "zh": "警官命令他们停下。"
+        }
+      ],
+      "correctUsage": "The officer ordered them to stop.",
+      "commonMistakes": "direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。"
+    },
+    {
+      "id": "word-c1c58eabfe7be897",
+      "lemma": "instruct",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-147"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 指示；教授",
+      "definitionEn": "To give directions or teach someone how to do something.",
+      "scenario": "可给出明确操作要求，也可教人如何做",
+      "collocations": [
+        "instruct someone to do",
+        "instruct someone in"
+      ],
+      "examples": [
+        {
+          "en": "The nurse instructed me to take the medicine after meals.",
+          "zh": "护士嘱咐我饭后服药。"
+        }
+      ],
+      "correctUsage": "The nurse instructed me to take the medicine after meals.",
+      "commonMistakes": "direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。"
+    },
+    {
+      "id": "word-5d347fd948b66308",
+      "lemma": "command",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-147"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 下令；统率",
+      "definitionEn": "To give an authoritative order or have control over a group.",
+      "scenario": "常见于军事、正式权威或强势要求；并非只用于军队",
+      "collocations": [
+        "command someone to do",
+        "command troops"
+      ],
+      "examples": [
+        {
+          "en": "The captain commanded the soldiers to advance.",
+          "zh": "上尉命令士兵前进。"
+        }
+      ],
+      "correctUsage": "The captain commanded the soldiers to advance.",
+      "commonMistakes": "direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。"
+    },
+    {
+      "id": "word-18a1083a0d063091",
+      "lemma": "dictate",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-147"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 强行规定；决定；口述",
+      "definitionEn": "To impose terms, determine an outcome, or speak words for someone to write down.",
+      "scenario": "强调单方面规定条件或由因素决定结果；口述是另一用法",
+      "collocations": [
+        "dictate terms",
+        "dictate that",
+        "dictate a letter"
+      ],
+      "examples": [
+        {
+          "en": "One person should not dictate the terms.",
+          "zh": "不应由一个人单方面规定条件。"
+        }
+      ],
+      "correctUsage": "One person should not dictate the terms.",
+      "commonMistakes": "direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。"
+    },
+    {
+      "id": "word-3b36188cf95af067",
+      "lemma": "turbulent",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-148"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 动荡的；汹涌的",
+      "definitionEn": "Marked by violent movement, conflict or unstable change.",
+      "scenario": "强调剧烈变化、冲突或流动不稳，未必完全失去秩序",
+      "collocations": [
+        "turbulent times",
+        "turbulent water",
+        "turbulent airflow"
+      ],
+      "examples": [
+        {
+          "en": "The country went through a turbulent period.",
+          "zh": "这个国家经历了一段动荡时期。"
+        }
+      ],
+      "correctUsage": "The country went through a turbulent period.",
+      "commonMistakes": "turbulent 侧重剧烈变化或冲突；chaotic 侧重无序。turbulent water 是湍急不稳的水流，chaotic traffic 是混乱的交通。两种性质可以同时存在。"
+    },
+    {
+      "id": "word-28a4168b6d2ef6a5",
+      "lemma": "chaotic",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-148"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 混乱无序的",
+      "definitionEn": "Completely disorganized or lacking order.",
+      "scenario": "强调缺乏秩序、组织或有效控制",
+      "collocations": [
+        "a chaotic situation",
+        "chaotic traffic"
+      ],
+      "examples": [
+        {
+          "en": "The station was chaotic after the cancellations.",
+          "zh": "列车取消后车站一片混乱。"
+        }
+      ],
+      "correctUsage": "The station was chaotic after the cancellations.",
+      "commonMistakes": "turbulent 侧重剧烈变化或冲突；chaotic 侧重无序。turbulent water 是湍急不稳的水流，chaotic traffic 是混乱的交通。两种性质可以同时存在。"
+    },
+    {
+      "id": "word-1cf38705e1b507a4",
+      "lemma": "denote",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-149"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 表示；指称",
+      "definitionEn": "To stand for, refer to or be a sign of something.",
+      "scenario": "强调符号、词语等明确代表什么，常用于定义或说明",
+      "collocations": [
+        "denote something",
+        "be denoted by"
+      ],
+      "examples": [
+        {
+          "en": "The symbol x denotes an unknown value.",
+          "zh": "符号 x 表示一个未知数值。"
+        }
+      ],
+      "correctUsage": "The symbol x denotes an unknown value.",
+      "commonMistakes": "denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。"
+    },
+    {
+      "id": "word-dc726d0a525fdaf7",
+      "lemma": "suggest",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-149"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 暗示；表明；建议",
+      "definitionEn": "To indicate a possibility or put forward an idea for consideration.",
+      "scenario": "迹象使某种解释显得可能；也可提出建议，不表示结论必然正确",
+      "collocations": [
+        "suggest that",
+        "suggest doing"
+      ],
+      "examples": [
+        {
+          "en": "The evidence suggests that demand is falling.",
+          "zh": "证据表明需求可能正在下降。"
+        }
+      ],
+      "correctUsage": "The evidence suggests that demand is falling.",
+      "commonMistakes": "denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。"
+    },
+    {
+      "id": "word-c3b290f1c5ba865d",
+      "lemma": "imply",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-149"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 暗示；意味着",
+      "definitionEn": "To communicate indirectly or involve something as a consequence.",
+      "scenario": "可指不明说却传达含义，也可指逻辑上蕴含某结果",
+      "collocations": [
+        "imply that",
+        "imply a connection"
+      ],
+      "examples": [
+        {
+          "en": "Her reply implied that she disagreed.",
+          "zh": "她的回答暗示她并不赞同。"
+        }
+      ],
+      "correctUsage": "Her reply implied that she disagreed.",
+      "commonMistakes": "denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。"
+    },
+    {
+      "id": "word-b85b91c53558d46d",
+      "lemma": "lawsuit",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-150"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 诉讼；官司",
+      "definitionEn": "A case brought before a court, usually a civil claim.",
+      "scenario": "通常指法院中的民事诉讼案件，强调一宗官司",
+      "collocations": [
+        "file a lawsuit",
+        "bring a lawsuit against"
+      ],
+      "examples": [
+        {
+          "en": "She filed a lawsuit against the company.",
+          "zh": "她对该公司提起了诉讼。"
+        }
+      ],
+      "correctUsage": "She filed a lawsuit against the company.",
+      "commonMistakes": "lawsuit 通常指一宗民事官司；proceedings 可统指民事、刑事或其他正式程序，不一定是单独一场庭审。注意 criminal proceedings 和 file a lawsuit；在法律义下 proceeding 常以复数出现。这里只比较法律用法。"
+    },
+    {
+      "id": "word-3562b1f264ebe8b3",
+      "lemma": "proceeding",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-150"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 程序；诉讼程序",
+      "definitionEn": "A formal legal action or process, often used in the plural proceedings.",
+      "scenario": "法律语境常用复数 proceedings，侧重正式法律行动或程序，范围更广",
+      "collocations": [
+        "legal proceedings",
+        "criminal proceedings",
+        "institute proceedings"
+      ],
+      "examples": [
+        {
+          "en": "They began legal proceedings against the company.",
+          "zh": "他们对该公司启动了法律程序。"
+        }
+      ],
+      "correctUsage": "They began legal proceedings against the company.",
+      "commonMistakes": "lawsuit 通常指一宗民事官司；proceedings 可统指民事、刑事或其他正式程序，不一定是单独一场庭审。注意 criminal proceedings 和 file a lawsuit；在法律义下 proceeding 常以复数出现。这里只比较法律用法。"
+    },
+    {
+      "id": "word-3371305232c8dc10",
+      "lemma": "virtue",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-151"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 美德；优点",
+      "definitionEn": "A good moral quality, or a useful or desirable feature.",
+      "scenario": "道德义强调好品质；优点义也可形容方法或事物的好处",
+      "collocations": [
+        "a moral virtue",
+        "the virtues of",
+        "by virtue of"
+      ],
+      "examples": [
+        {
+          "en": "Patience is a virtue.",
+          "zh": "耐心是一种美德。"
+        }
+      ],
+      "correctUsage": "Patience is a virtue.",
+      "commonMistakes": "virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。"
+    },
+    {
+      "id": "word-429bf78dbd9b9535",
+      "lemma": "merit",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-151",
+        "group-152"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 优点；价值",
+      "definitionEn": "A quality deserving approval; as a verb, to be worthy of attention or a response.",
+      "scenario": "侧重值得肯定的品质或价值，不局限于道德",
+      "collocations": [
+        "have merit",
+        "on its merits",
+        "the merits of"
+      ],
+      "examples": [
+        {
+          "en": "The proposal has considerable merit.",
+          "zh": "这项提议很有价值。"
+        }
+      ],
+      "correctUsage": "The proposal has considerable merit.",
+      "commonMistakes": "virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。"
+    },
+    {
+      "id": "word-d7f8d3e72469ce68",
+      "lemma": "deserve",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-152"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 值得；应得",
+      "definitionEn": "To be worthy of receiving something because of actions or qualities.",
+      "scenario": "通用表达，可接名词或不定式；好坏结果都可应得",
+      "collocations": [
+        "deserve praise",
+        "deserve to win",
+        "deserve punishment"
+      ],
+      "examples": [
+        {
+          "en": "You deserve to be treated with respect.",
+          "zh": "你应该受到尊重。"
+        }
+      ],
+      "correctUsage": "You deserve to be treated with respect.",
+      "commonMistakes": "deserve 通用，既可 deserve praise 也可 deserve punishment；deserve to do / deserve to be done 常用。merit 较正式，merit attention / consideration / investigation 更典型；不要机械写成 merit to do。"
+    },
+    {
+      "id": "word-94e8566ddfc123ed",
+      "lemma": "still",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-153"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 静止的；平静的",
+      "definitionEn": "Not moving or making a sound; as an adverb, continuing up to a time.",
+      "scenario": "此处比较形容词：强调当下没有运动；副词 still 可表示仍然",
+      "collocations": [
+        "keep still",
+        "stand still",
+        "still water"
+      ],
+      "examples": [
+        {
+          "en": "Keep still while I take the photo.",
+          "zh": "我拍照时请别动。"
+        }
+      ],
+      "correctUsage": "Keep still while I take the photo.",
+      "commonMistakes": "still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。"
+    },
+    {
+      "id": "word-2053dbbf6ec7135c",
+      "lemma": "static",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-153"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 静态的；不变的",
+      "definitionEn": "Not moving, developing or changing over time.",
+      "scenario": "强调一段时间内状态、数值或系统没有变化",
+      "collocations": [
+        "a static image",
+        "static prices",
+        "remain static"
+      ],
+      "examples": [
+        {
+          "en": "The population has remained static for years.",
+          "zh": "人口数量多年来一直没有变化。"
+        }
+      ],
+      "correctUsage": "The population has remained static for years.",
+      "commonMistakes": "still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。"
+    },
+    {
+      "id": "word-790fe855007cd93a",
+      "lemma": "statical",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-153"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 静力学的；静态的（少见）",
+      "definitionEn": "Relating to statics; a less common form of static in technical use.",
+      "scenario": "多见于静力学等专业或较旧用法；日常静态通常用 static",
+      "collocations": [
+        "statical equilibrium",
+        "statical analysis"
+      ],
+      "examples": [
+        {
+          "en": "The textbook discusses statical equilibrium.",
+          "zh": "这本教材讨论静力平衡。"
+        }
+      ],
+      "correctUsage": "The textbook discusses statical equilibrium.",
+      "commonMistakes": "still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。"
+    },
+    {
+      "id": "word-d6173d8762a74114",
+      "lemma": "designate",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-102"
+      ],
+      "source": "Recent English discussions, 2026-11-13",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 指定；选定",
+      "definitionEn": "To officially choose someone or mark something for a particular role or purpose.",
+      "scenario": "正式选定某人担任角色，或指定某处的用途",
+      "collocations": [
+        "designate someone as",
+        "designate an area for"
+      ],
+      "examples": [
+        {
+          "en": "The area was designated for study.",
+          "zh": "该区域被指定用于学习。"
+        }
+      ],
+      "correctUsage": "The area was designated for study.",
+      "commonMistakes": "assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。 designate 强调正式指定某人或某物的身份、用途，常用 designate someone as / designate an area for。appoint 偏正式任命职位（见第13组）；assign 偏分配任务；arrange 偏协调安排。designate 的指定不总等于任命。"
     }
   ],
   "contentAudit": {

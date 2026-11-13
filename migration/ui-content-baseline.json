@@ -1,20 +1,20 @@
 {
   "content/polysemy.txt": "608f620d8b1fc640c3a920a620d67165d78baff7ba91f8f4e34d4a63fd31ecfa",
-  "content/comparisons.txt": "bb1517ab3048e7be38865bb55924932ea12aa025ffc2993f263443de7a3b24b5",
-  "content/english-captions.txt": "5d77ef51b0fc64f7ceb2036f224be862b16f1aaa25b3c5f6f4a482e170b66ca4",
+  "content/comparisons.txt": "8fa21f41d4c383bbfd31cc4b079686e46dc5609cdb2967f4bce33dea75ac3624",
+  "content/english-captions.txt": "614ed0f172d70bde28beebceafcdee283b7381726a89a01bbd54f79698e3aaa4",
   "content/polysemy-metadata.json": "8843e6f5804911e5db8d08ddae8e94448c0077a7272696505a461921fdcbd218",
-  "content/vocabulary.json": "dfc789237049c3a31edf6b207c2045cac9dcb0f3d4ed5a1e1c77d15f3cb432d6",
-  "content/selection-notes.txt": "64251a0e460792d044cae37a319c1fadaf11627a34ed14b25882c93390611434",
+  "content/vocabulary.json": "cdc271de95d32247a361bc191aba005cf36fa2541ec38fee300c04bd66dc8129",
+  "content/selection-notes.txt": "54cac13d18cd193b7205ee5d02646fbec8d8cbef0267aa2940c1a3d1bf2d261a",
   "content/nap_article.json": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
   "content/article-dictionary.json": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
   "content/reading_articles.json": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
   "content/reading-context.json": "61775b5e88a7c177258e64d5ff73b78fb3345d598bb652563908b4b59e8dc135",
-  "content/base.html": "e35780c8f9b7df58d94c6e1e1a02cd26f71442d9f090b0d915907cc2d815321c",
-  "dist/vocabulary.json": "56dc3ec41dc41faba71acd29c399587170b1efac83ca8e96460ddea9294494e2",
+  "content/base.html": "c09d1301db2b86d520aaeeec2f67f4ad095cc6f46b12bd2046d698b7d0c9d001",
+  "dist/vocabulary.json": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
   "dist/polysemy.json": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
   "dist/nap_article.json": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f",
   "dist/article-dictionary.json": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
   "dist/reading_articles.json": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
-  "dist/search-index.json": "5ef7b307be8e0f13949a00ef2e061c8f7f12398374bf8acfe3515bec520fe8ef",
-  "content/phrases.json": "c04009cdbf68fe09108d29cb345f3dc8a501bdb4c0dccf97d256396607d7313e"
+  "dist/search-index.json": "27acaddf15aa9923d9a27a1fc2fa935c79a4a41c315c46e525ce25fde3773bcd",
+  "content/phrases.json": "cf0ce039d4e8a2177406488dad72d5f300489ef0c3403e15381669448f4eec68"
 }

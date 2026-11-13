@@ -4453,12 +4453,26 @@
       }
     },
     {
-      "id": "comparison-body-102",
+      "id": "comparison-102-2",
       "kind": "词汇辨析",
-      "title": "assign / arrange",
+      "title": "designate",
       "target": "group-102",
       "fields": {
-        "正文": "102 assign / arrange assign ▷ 朗读 To give someone a task or role, or designate something for a particular use. arrange ▷ 朗读 To plan something or put things in a particular order. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 assign / arrange · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 assign v. 分配；指派；指定 把具体任务、角色或资源交给某人，也可给事物赋值或归类 assign sb a task; assign a task to sb; assign sb to a team The teacher assigned each student a topic. 老师给每名学生分配了一个题目。 arrange v. 安排；筹备；整理 协调时间、活动或摆放顺序，重点不在把任务交给谁 arrange a meeting; arrange for sb to do; arrange to do We arranged for a taxi to pick her up. 我们安排了一辆出租车去接她。 怎么选？易错点在哪？ assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。"
+        "词条": "designate",
+        "释义": "v. 指定；选定",
+        "英文释义": "To officially choose someone or mark something for a particular role or purpose.",
+        "搭配": "designate someone as; designate an area for",
+        "例句": "The area was designated for study.",
+        "例句译文": "该区域被指定用于学习。"
+      }
+    },
+    {
+      "id": "comparison-body-102",
+      "kind": "词汇辨析",
+      "title": "assign / arrange / designate",
+      "target": "group-102",
+      "fields": {
+        "正文": "102 assign / arrange / designate assign ▷ 朗读 To give someone a task or role, or designate something for a particular use. arrange ▷ 朗读 To plan something or put things in a particular order. designate ▷ 朗读 To officially choose someone or mark something for a particular role or purpose. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 assign / arrange / designate · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 assign v. 分配；指派；指定 把具体任务、角色或资源交给某人，也可给事物赋值或归类 assign sb a task; assign a task to sb; assign sb to a team The teacher assigned each student a topic. 老师给每名学生分配了一个题目。 arrange v. 安排；筹备；整理 协调时间、活动或摆放顺序，重点不在把任务交给谁 arrange a meeting; arrange for sb to do; arrange to do We arranged for a taxi to pick her up. 我们安排了一辆出租车去接她。 designate v. 指定；选定 正式选定某人担任角色，或指定某处的用途 designate someone as; designate an area for The area was designated for study. 该区域被指定用于学习。 怎么选？易错点在哪？ assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。 designate 强调正式指定某人或某物的身份、用途，常用 designate someone as / designate an area for。appoint 偏正式任命职位（见第13组）；assign 偏分配任务；arrange 偏协调安排。designate 的指定不总等于任命。"
       }
     },
     {
@@ -6079,6 +6093,497 @@
       "target": "group-142",
       "fields": {
         "正文": "142 bloom / blossom bloom ▷ 朗读 A flower or the state of flowering; to flower or develop well. blossom ▷ 朗读 A flower, especially on a tree or bush; to flower or develop successfully. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 bloom / blossom · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 bloom n./v. 花；开花；繁盛 可指花朵、开花状态，也可比喻发展或焕发光彩 in full bloom; come into bloom; bloom into The roses are in full bloom. 玫瑰正在盛开。 blossom n./v. 花；开花；成长 名词常指树木或灌木的花，尤其果树；动词也可比喻成长 cherry blossom; blossom into; blossom out Her confidence blossomed during the course. 她在课程期间变得越来越自信。 bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。 怎么选？易错点在哪？ bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。"
+      }
+    },
+    {
+      "id": "comparison-143-0",
+      "kind": "词汇辨析",
+      "title": "stall",
+      "target": "group-143",
+      "fields": {
+        "词条": "stall",
+        "释义": "v. 拖延；停滞；熄火",
+        "英文释义": "To delay deliberately or stop making progress or operating.",
+        "搭配": "stall for time; talks stall; the engine stalls",
+        "例句": "The negotiations stalled over funding.",
+        "例句译文": "谈判因资金问题陷入停滞。"
+      }
+    },
+    {
+      "id": "comparison-143-1",
+      "kind": "词汇辨析",
+      "title": "stand",
+      "target": "group-143",
+      "fields": {
+        "词条": "stand",
+        "释义": "v. 站立；处于某状态",
+        "英文释义": "To be upright or in a position; also to bear something unpleasant, often in negative statements.",
+        "搭配": "stand still; stand by the door",
+        "例句": "Please stand by the door.",
+        "例句译文": "请站在门旁。"
+      }
+    },
+    {
+      "id": "comparison-body-143",
+      "kind": "词汇辨析",
+      "title": "stall / stand",
+      "target": "group-143",
+      "fields": {
+        "正文": "143 stall / stand stall ▷ 朗读 To delay deliberately or stop making progress or operating. stand ▷ 朗读 To be upright or in a position; also to bear something unpleasant, often in negative statements. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 stall / stand · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 stall v. 拖延；停滞；熄火 强调进展或运转中断，或故意拖时间 stall for time; talks stall; the engine stalls The negotiations stalled over funding. 谈判因资金问题陷入停滞。 stand v. 站立；处于某状态 强调站着、位于某处或维持状态；本身不表示进展受阻 stand still; stand by the door Please stand by the door. 请站在门旁。 stall 关注拖延、停滞或机器熄火；stand 关注站立、位置或状态。The car stalled 是车熄火；The car is standing outside 是车停在外面。stand still 的 still 才明确补充不动的意思。 怎么选？易错点在哪？ stall 关注拖延、停滞或机器熄火；stand 关注站立、位置或状态。The car stalled 是车熄火；The car is standing outside 是车停在外面。stand still 的 still 才明确补充不动的意思。"
+      }
+    },
+    {
+      "id": "comparison-144-0",
+      "kind": "词汇辨析",
+      "title": "stand",
+      "target": "group-144",
+      "fields": {
+        "词条": "stand",
+        "释义": "v. 忍受；受得了",
+        "英文释义": "To be upright or in a position; also to bear something unpleasant, often in negative statements.",
+        "搭配": "cannot stand doing; cannot stand the noise",
+        "例句": "I can't stand waiting in long queues.",
+        "例句译文": "我受不了排长队。"
+      }
+    },
+    {
+      "id": "comparison-144-1",
+      "kind": "词汇辨析",
+      "title": "tolerate",
+      "target": "group-144",
+      "fields": {
+        "词条": "tolerate",
+        "释义": "v. 容忍；耐受",
+        "英文释义": "To allow or bear something unpleasant or something you disagree with.",
+        "搭配": "tolerate noise; tolerate doing; tolerate criticism",
+        "例句": "The school will not tolerate bullying.",
+        "例句译文": "学校不会容忍霸凌。"
+      }
+    },
+    {
+      "id": "comparison-144-2",
+      "kind": "词汇辨析",
+      "title": "abide",
+      "target": "group-144",
+      "fields": {
+        "词条": "abide",
+        "释义": "v. 忍受（常用于否定）；遵守（abide by）",
+        "英文释义": "To bear something, usually in cannot abide; abide by means to obey or accept.",
+        "搭配": "can't abide doing; abide by the rules",
+        "例句": "I can't abide being interrupted.",
+        "例句译文": "我无法忍受被打断。"
+      }
+    },
+    {
+      "id": "comparison-body-144",
+      "kind": "词汇辨析",
+      "title": "stand / tolerate / abide",
+      "target": "group-144",
+      "fields": {
+        "正文": "144 stand / tolerate / abide stand ▷ 朗读 To be upright or in a position; also to bear something unpleasant, often in negative statements. tolerate ▷ 朗读 To allow or bear something unpleasant or something you disagree with. abide ▷ 朗读 To bear something, usually in cannot abide; abide by means to obey or accept. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 stand / tolerate / abide · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 stand v. 忍受；受得了 忍受义常用于否定句或疑问句，口语常见 cannot stand doing; cannot stand the noise I can't stand waiting in long queues. 我受不了排长队。 tolerate v. 容忍；耐受 较中性或正式，既可忍受不适，也可允许不赞同的行为存在 tolerate noise; tolerate doing; tolerate criticism The school will not tolerate bullying. 学校不会容忍霸凌。 abide v. 忍受（常用于否定）；遵守（abide by） can't abide 表示无法忍受；abide by 是遵守，两种结构须分开 can't abide doing; abide by the rules I can't abide being interrupted. 我无法忍受被打断。 忍受可用 stand 或 tolerate；stand 常出现在否定或疑问中，tolerate 也可表示允许某行为。can’t abide 语气通常强烈，不能把 abide 当作日常肯定句中 tolerate 的通用替换。abide by the rules 是遵守规则。三者的忍受义都可接动名词。 怎么选？易错点在哪？ 忍受可用 stand 或 tolerate；stand 常出现在否定或疑问中，tolerate 也可表示允许某行为。can’t abide 语气通常强烈，不能把 abide 当作日常肯定句中 tolerate 的通用替换。abide by the rules 是遵守规则。三者的忍受义都可接动名词。"
+      }
+    },
+    {
+      "id": "comparison-145-0",
+      "kind": "词汇辨析",
+      "title": "formidable",
+      "target": "group-145",
+      "fields": {
+        "词条": "formidable",
+        "释义": "adj. 强大得令人敬畏的；难对付的",
+        "英文释义": "Powerful, impressive or difficult enough to inspire respect or fear.",
+        "搭配": "a formidable opponent; a formidable task",
+        "例句": "She is a formidable opponent.",
+        "例句译文": "她是一个实力强劲、难以对付的对手。"
+      }
+    },
+    {
+      "id": "comparison-145-1",
+      "kind": "词汇辨析",
+      "title": "daunting",
+      "target": "group-145",
+      "fields": {
+        "词条": "daunting",
+        "释义": "adj. 令人畏惧的；使人却步的",
+        "英文释义": "Making someone feel worried or less confident about a difficult task.",
+        "搭配": "a daunting prospect; a daunting challenge",
+        "例句": "Writing my first report seemed daunting.",
+        "例句译文": "写第一份报告让我觉得很有压力。"
+      }
+    },
+    {
+      "id": "comparison-body-145",
+      "kind": "词汇辨析",
+      "title": "formidable / daunting",
+      "target": "group-145",
+      "fields": {
+        "正文": "145 formidable / daunting formidable ▷ 朗读 Powerful, impressive or difficult enough to inspire respect or fear. daunting ▷ 朗读 Making someone feel worried or less confident about a difficult task. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 formidable / daunting · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 formidable adj. 强大得令人敬畏的；难对付的 侧重对象本身实力强、规模大或很难应对，也可带赞赏 a formidable opponent; a formidable task She is a formidable opponent. 她是一个实力强劲、难以对付的对手。 daunting adj. 令人畏惧的；使人却步的 侧重任务或前景使人感到困难、缺乏信心 a daunting prospect; a daunting challenge Writing my first report seemed daunting. 写第一份报告让我觉得很有压力。 formidable 强调对象强大或难对付，daunting 强调它使人感到畏难。同一任务可同时 formidable 和 daunting；不是固定强弱等级，也不是“客观”与“主观”的绝对划分。 怎么选？易错点在哪？ formidable 强调对象强大或难对付，daunting 强调它使人感到畏难。同一任务可同时 formidable 和 daunting；不是固定强弱等级，也不是“客观”与“主观”的绝对划分。"
+      }
+    },
+    {
+      "id": "comparison-146-0",
+      "kind": "词汇辨析",
+      "title": "mock",
+      "target": "group-146",
+      "fields": {
+        "词条": "mock",
+        "释义": "v. 嘲笑；模仿取笑",
+        "英文释义": "To make fun of someone, often unkindly or by imitating them.",
+        "搭配": "mock someone's accent; mock someone for",
+        "例句": "They mocked him for his accent.",
+        "例句译文": "他们因他的口音嘲笑他。"
+      }
+    },
+    {
+      "id": "comparison-146-1",
+      "kind": "词汇辨析",
+      "title": "tease",
+      "target": "group-146",
+      "fields": {
+        "词条": "tease",
+        "释义": "v. 逗弄；取笑",
+        "英文释义": "To make jokes about someone or annoy them playfully or unkindly.",
+        "搭配": "tease someone about; tease someone for",
+        "例句": "My friends teased me about my new haircut.",
+        "例句译文": "朋友们拿我的新发型开玩笑。"
+      }
+    },
+    {
+      "id": "comparison-body-146",
+      "kind": "词汇辨析",
+      "title": "mock / tease",
+      "target": "group-146",
+      "fields": {
+        "正文": "146 mock / tease mock ▷ 朗读 To make fun of someone, often unkindly or by imitating them. tease ▷ 朗读 To make jokes about someone or annoy them playfully or unkindly. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 mock / tease · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 mock v. 嘲笑；模仿取笑 通常带不尊重意味，也可通过模仿取笑 mock someone's accent; mock someone for They mocked him for his accent. 他们因他的口音嘲笑他。 tease v. 逗弄；取笑 可表示友好玩笑，也可带恶意；取决于关系、语气和感受 tease someone about; tease someone for My friends teased me about my new haircut. 朋友们拿我的新发型开玩笑。 mock 通常更明显地带嘲讽、不尊重；tease 可以是亲近的逗趣，也能伤害人。不能一律把 tease 当成善意。两者都可用 for 表示取笑的原因。 怎么选？易错点在哪？ mock 通常更明显地带嘲讽、不尊重；tease 可以是亲近的逗趣，也能伤害人。不能一律把 tease 当成善意。两者都可用 for 表示取笑的原因。"
+      }
+    },
+    {
+      "id": "comparison-147-0",
+      "kind": "词汇辨析",
+      "title": "direct",
+      "target": "group-147",
+      "fields": {
+        "词条": "direct",
+        "释义": "v. 指示；指导",
+        "英文释义": "To tell someone what to do or guide an activity.",
+        "搭配": "direct someone to do; direct operations",
+        "例句": "The officer directed us to leave the building.",
+        "例句译文": "警官指示我们离开大楼。"
+      }
+    },
+    {
+      "id": "comparison-147-1",
+      "kind": "词汇辨析",
+      "title": "order",
+      "target": "group-147",
+      "fields": {
+        "词条": "order",
+        "释义": "v. 命令",
+        "英文释义": "To tell someone authoritatively that they must do something.",
+        "搭配": "order someone to do; order someone not to do",
+        "例句": "The officer ordered them to stop.",
+        "例句译文": "警官命令他们停下。"
+      }
+    },
+    {
+      "id": "comparison-147-2",
+      "kind": "词汇辨析",
+      "title": "instruct",
+      "target": "group-147",
+      "fields": {
+        "词条": "instruct",
+        "释义": "v. 指示；教授",
+        "英文释义": "To give directions or teach someone how to do something.",
+        "搭配": "instruct someone to do; instruct someone in",
+        "例句": "The nurse instructed me to take the medicine after meals.",
+        "例句译文": "护士嘱咐我饭后服药。"
+      }
+    },
+    {
+      "id": "comparison-147-3",
+      "kind": "词汇辨析",
+      "title": "command",
+      "target": "group-147",
+      "fields": {
+        "词条": "command",
+        "释义": "v. 下令；统率",
+        "英文释义": "To give an authoritative order or have control over a group.",
+        "搭配": "command someone to do; command troops",
+        "例句": "The captain commanded the soldiers to advance.",
+        "例句译文": "上尉命令士兵前进。"
+      }
+    },
+    {
+      "id": "comparison-147-4",
+      "kind": "词汇辨析",
+      "title": "dictate",
+      "target": "group-147",
+      "fields": {
+        "词条": "dictate",
+        "释义": "v. 强行规定；决定；口述",
+        "英文释义": "To impose terms, determine an outcome, or speak words for someone to write down.",
+        "搭配": "dictate terms; dictate that; dictate a letter",
+        "例句": "One person should not dictate the terms.",
+        "例句译文": "不应由一个人单方面规定条件。"
+      }
+    },
+    {
+      "id": "comparison-body-147",
+      "kind": "词汇辨析",
+      "title": "direct / order / instruct / command / dictate",
+      "target": "group-147",
+      "fields": {
+        "正文": "147 direct / order / instruct / command / dictate direct ▷ 朗读 To tell someone what to do or guide an activity. order ▷ 朗读 To tell someone authoritatively that they must do something. instruct ▷ 朗读 To give directions or teach someone how to do something. command ▷ 朗读 To give an authoritative order or have control over a group. dictate ▷ 朗读 To impose terms, determine an outcome, or speak words for someone to write down. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 direct / order / instruct / command / dictate · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 direct v. 指示；指导 较正式地指示行动，也可组织、引导过程；不一定带怒气 direct someone to do; direct operations The officer directed us to leave the building. 警官指示我们离开大楼。 order v. 命令 明确要求服从，常来自有权威的人 order someone to do; order someone not to do The officer ordered them to stop. 警官命令他们停下。 instruct v. 指示；教授 可给出明确操作要求，也可教人如何做 instruct someone to do; instruct someone in The nurse instructed me to take the medicine after meals. 护士嘱咐我饭后服药。 command v. 下令；统率 常见于军事、正式权威或强势要求；并非只用于军队 command someone to do; command troops The captain commanded the soldiers to advance. 上尉命令士兵前进。 dictate v. 强行规定；决定；口述 强调单方面规定条件或由因素决定结果；口述是另一用法 dictate terms; dictate that; dictate a letter One person should not dictate the terms. 不应由一个人单方面规定条件。 direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。 怎么选？易错点在哪？ direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。"
+      }
+    },
+    {
+      "id": "comparison-148-0",
+      "kind": "词汇辨析",
+      "title": "turbulent",
+      "target": "group-148",
+      "fields": {
+        "词条": "turbulent",
+        "释义": "adj. 动荡的；汹涌的",
+        "英文释义": "Marked by violent movement, conflict or unstable change.",
+        "搭配": "turbulent times; turbulent water; turbulent airflow",
+        "例句": "The country went through a turbulent period.",
+        "例句译文": "这个国家经历了一段动荡时期。"
+      }
+    },
+    {
+      "id": "comparison-148-1",
+      "kind": "词汇辨析",
+      "title": "chaotic",
+      "target": "group-148",
+      "fields": {
+        "词条": "chaotic",
+        "释义": "adj. 混乱无序的",
+        "英文释义": "Completely disorganized or lacking order.",
+        "搭配": "a chaotic situation; chaotic traffic",
+        "例句": "The station was chaotic after the cancellations.",
+        "例句译文": "列车取消后车站一片混乱。"
+      }
+    },
+    {
+      "id": "comparison-body-148",
+      "kind": "词汇辨析",
+      "title": "turbulent / chaotic",
+      "target": "group-148",
+      "fields": {
+        "正文": "148 turbulent / chaotic turbulent ▷ 朗读 Marked by violent movement, conflict or unstable change. chaotic ▷ 朗读 Completely disorganized or lacking order. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 turbulent / chaotic · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 turbulent adj. 动荡的；汹涌的 强调剧烈变化、冲突或流动不稳，未必完全失去秩序 turbulent times; turbulent water; turbulent airflow The country went through a turbulent period. 这个国家经历了一段动荡时期。 chaotic adj. 混乱无序的 强调缺乏秩序、组织或有效控制 a chaotic situation; chaotic traffic The station was chaotic after the cancellations. 列车取消后车站一片混乱。 turbulent 侧重剧烈变化或冲突；chaotic 侧重无序。turbulent water 是湍急不稳的水流，chaotic traffic 是混乱的交通。两种性质可以同时存在。 怎么选？易错点在哪？ turbulent 侧重剧烈变化或冲突；chaotic 侧重无序。turbulent water 是湍急不稳的水流，chaotic traffic 是混乱的交通。两种性质可以同时存在。"
+      }
+    },
+    {
+      "id": "comparison-149-0",
+      "kind": "词汇辨析",
+      "title": "denote",
+      "target": "group-149",
+      "fields": {
+        "词条": "denote",
+        "释义": "v. 表示；指称",
+        "英文释义": "To stand for, refer to or be a sign of something.",
+        "搭配": "denote something; be denoted by",
+        "例句": "The symbol x denotes an unknown value.",
+        "例句译文": "符号 x 表示一个未知数值。"
+      }
+    },
+    {
+      "id": "comparison-149-1",
+      "kind": "词汇辨析",
+      "title": "suggest",
+      "target": "group-149",
+      "fields": {
+        "词条": "suggest",
+        "释义": "v. 暗示；表明；建议",
+        "英文释义": "To indicate a possibility or put forward an idea for consideration.",
+        "搭配": "suggest that; suggest doing",
+        "例句": "The evidence suggests that demand is falling.",
+        "例句译文": "证据表明需求可能正在下降。"
+      }
+    },
+    {
+      "id": "comparison-149-2",
+      "kind": "词汇辨析",
+      "title": "imply",
+      "target": "group-149",
+      "fields": {
+        "词条": "imply",
+        "释义": "v. 暗示；意味着",
+        "英文释义": "To communicate indirectly or involve something as a consequence.",
+        "搭配": "imply that; imply a connection",
+        "例句": "Her reply implied that she disagreed.",
+        "例句译文": "她的回答暗示她并不赞同。"
+      }
+    },
+    {
+      "id": "comparison-body-149",
+      "kind": "词汇辨析",
+      "title": "denote / suggest / imply",
+      "target": "group-149",
+      "fields": {
+        "正文": "149 denote / suggest / imply denote ▷ 朗读 To stand for, refer to or be a sign of something. suggest ▷ 朗读 To indicate a possibility or put forward an idea for consideration. imply ▷ 朗读 To communicate indirectly or involve something as a consequence. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 denote / suggest / imply · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 denote v. 表示；指称 强调符号、词语等明确代表什么，常用于定义或说明 denote something; be denoted by The symbol x denotes an unknown value. 符号 x 表示一个未知数值。 suggest v. 暗示；表明；建议 迹象使某种解释显得可能；也可提出建议，不表示结论必然正确 suggest that; suggest doing The evidence suggests that demand is falling. 证据表明需求可能正在下降。 imply v. 暗示；意味着 可指不明说却传达含义，也可指逻辑上蕴含某结果 imply that; imply a connection Her reply implied that she disagreed. 她的回答暗示她并不赞同。 denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。 怎么选？易错点在哪？ denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。"
+      }
+    },
+    {
+      "id": "comparison-150-0",
+      "kind": "词汇辨析",
+      "title": "lawsuit",
+      "target": "group-150",
+      "fields": {
+        "词条": "lawsuit",
+        "释义": "n. 诉讼；官司",
+        "英文释义": "A case brought before a court, usually a civil claim.",
+        "搭配": "file a lawsuit; bring a lawsuit against",
+        "例句": "She filed a lawsuit against the company.",
+        "例句译文": "她对该公司提起了诉讼。"
+      }
+    },
+    {
+      "id": "comparison-150-1",
+      "kind": "词汇辨析",
+      "title": "proceeding",
+      "target": "group-150",
+      "fields": {
+        "词条": "proceeding",
+        "释义": "n. 程序；诉讼程序",
+        "英文释义": "A formal legal action or process, often used in the plural proceedings.",
+        "搭配": "legal proceedings; criminal proceedings; institute proceedings",
+        "例句": "They began legal proceedings against the company.",
+        "例句译文": "他们对该公司启动了法律程序。"
+      }
+    },
+    {
+      "id": "comparison-body-150",
+      "kind": "词汇辨析",
+      "title": "lawsuit / proceeding",
+      "target": "group-150",
+      "fields": {
+        "正文": "150 lawsuit / proceeding lawsuit ▷ 朗读 A case brought before a court, usually a civil claim. proceeding ▷ 朗读 A formal legal action or process, often used in the plural proceedings. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 lawsuit / proceeding · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 lawsuit n. 诉讼；官司 通常指法院中的民事诉讼案件，强调一宗官司 file a lawsuit; bring a lawsuit against She filed a lawsuit against the company. 她对该公司提起了诉讼。 proceeding n. 程序；诉讼程序 法律语境常用复数 proceedings，侧重正式法律行动或程序，范围更广 legal proceedings; criminal proceedings; institute proceedings They began legal proceedings against the company. 他们对该公司启动了法律程序。 lawsuit 通常指一宗民事官司；proceedings 可统指民事、刑事或其他正式程序，不一定是单独一场庭审。注意 criminal proceedings 和 file a lawsuit；在法律义下 proceeding 常以复数出现。这里只比较法律用法。 怎么选？易错点在哪？ lawsuit 通常指一宗民事官司；proceedings 可统指民事、刑事或其他正式程序，不一定是单独一场庭审。注意 criminal proceedings 和 file a lawsuit；在法律义下 proceeding 常以复数出现。这里只比较法律用法。"
+      }
+    },
+    {
+      "id": "comparison-151-0",
+      "kind": "词汇辨析",
+      "title": "virtue",
+      "target": "group-151",
+      "fields": {
+        "词条": "virtue",
+        "释义": "n. 美德；优点",
+        "英文释义": "A good moral quality, or a useful or desirable feature.",
+        "搭配": "a moral virtue; the virtues of; by virtue of",
+        "例句": "Patience is a virtue.",
+        "例句译文": "耐心是一种美德。"
+      }
+    },
+    {
+      "id": "comparison-151-1",
+      "kind": "词汇辨析",
+      "title": "merit",
+      "target": "group-151",
+      "fields": {
+        "词条": "merit",
+        "释义": "n. 优点；价值",
+        "英文释义": "A quality deserving approval; as a verb, to be worthy of attention or a response.",
+        "搭配": "have merit; on its merits; the merits of",
+        "例句": "The proposal has considerable merit.",
+        "例句译文": "这项提议很有价值。"
+      }
+    },
+    {
+      "id": "comparison-body-151",
+      "kind": "词汇辨析",
+      "title": "virtue / merit",
+      "target": "group-151",
+      "fields": {
+        "正文": "151 virtue / merit virtue ▷ 朗读 A good moral quality, or a useful or desirable feature. merit ▷ 朗读 A quality deserving approval; as a verb, to be worthy of attention or a response. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 virtue / merit · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 virtue n. 美德；优点 道德义强调好品质；优点义也可形容方法或事物的好处 a moral virtue; the virtues of; by virtue of Patience is a virtue. 耐心是一种美德。 merit n. 优点；价值 侧重值得肯定的品质或价值，不局限于道德 have merit; on its merits; the merits of The proposal has considerable merit. 这项提议很有价值。 virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。 怎么选？易错点在哪？ virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。"
+      }
+    },
+    {
+      "id": "comparison-152-0",
+      "kind": "词汇辨析",
+      "title": "deserve",
+      "target": "group-152",
+      "fields": {
+        "词条": "deserve",
+        "释义": "v. 值得；应得",
+        "英文释义": "To be worthy of receiving something because of actions or qualities.",
+        "搭配": "deserve praise; deserve to win; deserve punishment",
+        "例句": "You deserve to be treated with respect.",
+        "例句译文": "你应该受到尊重。"
+      }
+    },
+    {
+      "id": "comparison-152-1",
+      "kind": "词汇辨析",
+      "title": "merit",
+      "target": "group-152",
+      "fields": {
+        "词条": "merit",
+        "释义": "v. 值得；应受到",
+        "英文释义": "A quality deserving approval; as a verb, to be worthy of attention or a response.",
+        "搭配": "merit attention; merit consideration; merit further study",
+        "例句": "The issue merits further investigation.",
+        "例句译文": "这个问题值得进一步调查。"
+      }
+    },
+    {
+      "id": "comparison-body-152",
+      "kind": "词汇辨析",
+      "title": "deserve / merit",
+      "target": "group-152",
+      "fields": {
+        "正文": "152 deserve / merit deserve ▷ 朗读 To be worthy of receiving something because of actions or qualities. merit ▷ 朗读 A quality deserving approval; as a verb, to be worthy of attention or a response. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 deserve / merit · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 deserve v. 值得；应得 通用表达，可接名词或不定式；好坏结果都可应得 deserve praise; deserve to win; deserve punishment You deserve to be treated with respect. 你应该受到尊重。 merit v. 值得；应受到 较正式，通常直接接名词，强调足以得到某种评价或关注 merit attention; merit consideration; merit further study The issue merits further investigation. 这个问题值得进一步调查。 deserve 通用，既可 deserve praise 也可 deserve punishment；deserve to do / deserve to be done 常用。merit 较正式，merit attention / consideration / investigation 更典型；不要机械写成 merit to do。 怎么选？易错点在哪？ deserve 通用，既可 deserve praise 也可 deserve punishment；deserve to do / deserve to be done 常用。merit 较正式，merit attention / consideration / investigation 更典型；不要机械写成 merit to do。"
+      }
+    },
+    {
+      "id": "comparison-153-0",
+      "kind": "词汇辨析",
+      "title": "still",
+      "target": "group-153",
+      "fields": {
+        "词条": "still",
+        "释义": "adj. 静止的；平静的",
+        "英文释义": "Not moving or making a sound; as an adverb, continuing up to a time.",
+        "搭配": "keep still; stand still; still water",
+        "例句": "Keep still while I take the photo.",
+        "例句译文": "我拍照时请别动。"
+      }
+    },
+    {
+      "id": "comparison-153-1",
+      "kind": "词汇辨析",
+      "title": "static",
+      "target": "group-153",
+      "fields": {
+        "词条": "static",
+        "释义": "adj. 静态的；不变的",
+        "英文释义": "Not moving, developing or changing over time.",
+        "搭配": "a static image; static prices; remain static",
+        "例句": "The population has remained static for years.",
+        "例句译文": "人口数量多年来一直没有变化。"
+      }
+    },
+    {
+      "id": "comparison-153-2",
+      "kind": "词汇辨析",
+      "title": "statical",
+      "target": "group-153",
+      "fields": {
+        "词条": "statical",
+        "释义": "adj. 静力学的；静态的（少见）",
+        "英文释义": "Relating to statics; a less common form of static in technical use.",
+        "搭配": "statical equilibrium; statical analysis",
+        "例句": "The textbook discusses statical equilibrium.",
+        "例句译文": "这本教材讨论静力平衡。"
+      }
+    },
+    {
+      "id": "comparison-body-153",
+      "kind": "词汇辨析",
+      "title": "still / static / statical",
+      "target": "group-153",
+      "fields": {
+        "正文": "153 still / static / statical still ▷ 朗读 Not moving or making a sound; as an adverb, continuing up to a time. static ▷ 朗读 Not moving, developing or changing over time. statical ▷ 朗读 Relating to statics; a less common form of static in technical use. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 still / static / statical · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 still adj. 静止的；平静的 此处比较形容词：强调当下没有运动；副词 still 可表示仍然 keep still; stand still; still water Keep still while I take the photo. 我拍照时请别动。 static adj. 静态的；不变的 强调一段时间内状态、数值或系统没有变化 a static image; static prices; remain static The population has remained static for years. 人口数量多年来一直没有变化。 statical adj. 静力学的；静态的（少见） 多见于静力学等专业或较旧用法；日常静态通常用 static statical equilibrium; statical analysis The textbook discusses statical equilibrium. 这本教材讨论静力平衡。 still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。 怎么选？易错点在哪？ still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。"
       }
     },
     {
@@ -13963,6 +14468,50 @@
         "用法释义": "about 后接名词或动名词；常暗示行动前应谨慎。",
         "辨析": "Think twice before doing is another common construction.",
         "辨析释义": "也常用 think twice before doing。"
+      }
+    },
+    {
+      "id": "phrase-differ-from",
+      "kind": "短语",
+      "title": "differ from",
+      "target": "phrase-differ-from",
+      "fields": {
+        "词条": "differ from",
+        "释义": "与……不同",
+        "英文释义": "To be different from someone or something.",
+        "搭配": "differ from someone in something · differ in size · differing opinions",
+        "Example 1": "How does this method differ from the old one?",
+        "Example 2": "Differing from the earlier model in size, this model fits smaller desks.",
+        "Example 3": "We have differing opinions on the proposal.",
+        "Translation 1": "这个方法与旧方法有什么不同？",
+        "Translation 2": "这款型号的尺寸与旧款不同，适合较小的桌子。",
+        "Translation 3": "我们对这项提议有不同看法。",
+        "用法": "Use a full clause at the start, or an -ing clause with the same understood subject as the main clause.",
+        "用法释义": "可置于句首，但须结构完整。differ 是谓语动词，不能直接写 Differ from X, ...；分词结构可用 Differing from X, ...，且逻辑主语须与主句主语一致。differing 是 differ 的 -ing 形式，也可修饰名词，表示不同的，如 differing opinions。",
+        "辨析": "For a simpler contrast, write Unlike the earlier model, this model is smaller. Different from can describe the subject too. Avoid a dangling modifier.",
+        "辨析释义": "更简洁可说 Unlike the earlier model, this model is smaller. 或 Different from the earlier model, this model ...。不要写 Differing from the old model, the price is lower. 来比较型号，因为该句的主语变成了 price。"
+      }
+    },
+    {
+      "id": "phrase-spur-on",
+      "kind": "短语",
+      "title": "spur someone on / spur someone into action",
+      "target": "phrase-spur-on",
+      "fields": {
+        "词条": "spur someone on / spur someone into action",
+        "释义": "激励某人继续努力；促使某人行动",
+        "英文释义": "To encourage someone to keep trying or cause someone to take action.",
+        "搭配": "spur someone on · spur someone to do something · spur someone into action",
+        "Example 1": "Her encouragement spurred me on.",
+        "Example 2": "The setback spurred him to work harder.",
+        "Example 3": "The warning spurred them into action.",
+        "Translation 1": "她的鼓励激励我继续努力。",
+        "Translation 2": "这次挫折促使他更加努力。",
+        "Translation 3": "这条警告促使他们采取行动。",
+        "用法": "Use spur someone on, spur someone to do something, or spur someone into action.",
+        "用法释义": "spur 强调刺激或推动行动；这里按短语收录。代词放在 spur 与 on 之间，如 spur them on。",
+        "辨析": "Spur can also take a thing as its object, as in spur growth. Spur of the moment belongs to the separate expression on the spur of the moment.",
+        "辨析释义": "也可直接接事物，如 spur growth（促进增长）。on the spur of the moment 是一时冲动、临时起意，不能把 spur on 译成这个意思。"
       }
     }
   ]

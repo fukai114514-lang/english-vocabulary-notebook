@@ -7,12 +7,23 @@ def read(p):return json.loads((ROOT/p).read_text())
 def canonical(x):return json.dumps(x,sort_keys=True,ensure_ascii=False)
 def verify():
  old=read('migration/original-vocabulary.json');new=read('dist/vocabulary.json')
- assert old['groups']==new['groups'][:len(old['groups'])], 'Original groups/entries/IDs/memberships changed'
+ retained=json.loads(json.dumps(new['groups'][:len(old['groups'])]))
+ # Reviewed additive extension: keep every original entry and membership intact.
+ original=old['groups'][101];extended=retained[101]
+ assert extended['wordIds'][:len(original['wordIds'])]==original['wordIds']
+ assert extended['entries'][:len(original['entries'])]==original['entries']
+ assert extended['selectionNote'].startswith(original['selectionNote'])
+ assert len(extended['entries'])==len(original['entries'])+1
+ assert extended['entries'][-1]['wordId']=='word-d6173d8762a74114'
+ extended['wordIds']=extended['wordIds'][:len(original['wordIds'])]
+ extended['entries']=extended['entries'][:len(original['entries'])]
+ extended['selectionNote']=original['selectionNote']
+ assert old['groups']==retained, 'Original groups/entries/IDs/memberships changed'
  assert old['words']==new['words'][:len(old['words'])], 'Original words changed'
- assert len(new['groups'])==142 and len(new['words'])==338
+ assert len(new['groups'])==153 and len(new['words'])==365
  assert [[w['lemma'] for w in new['words'] if w['id'] in g['wordIds']] for g in new['groups'][113:117]] == [['correspondent','journalist'],['contempt','scorn'],['constant','consistent'],['moist','wet','damp','humid']]
- assert len({g['id'] for g in new['groups']})==142
- assert len({w['id'] for w in new['words']})==338
+ assert len({g['id'] for g in new['groups']})==153
+ assert len({w['id'] for w in new['words']})==365
  oldp=read('migration/original-polysemy.json');newp=read('dist/polysemy.json')
  oldp['entries']=[e for e in oldp['entries'] if e['word'] not in {'itself','aggressive','acquaintance','discourse','sore','bloom','upper'}]
  assert all(e['word']!='itself' for e in newp['entries'])

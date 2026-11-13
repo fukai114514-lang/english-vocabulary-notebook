@@ -353,6 +353,7 @@ organizational|adj. 组织的；组织管理方面的|说明与组织结构、�
 # 102
 assign|v. 分配；指派；指定|把具体任务、角色或资源交给某人，也可给事物赋值或归类|assign sb a task; assign a task to sb; assign sb to a team|The teacher assigned each student a topic. → 老师给每名学生分配了一个题目。
 arrange|v. 安排；筹备；整理|协调时间、活动或摆放顺序，重点不在把任务交给谁|arrange a meeting; arrange for sb to do; arrange to do|We arranged for a taxi to pick her up. → 我们安排了一辆出租车去接她。
+designate|v. 指定；选定|正式选定某人担任角色，或指定某处的用途|designate someone as; designate an area for|The area was designated for study. → 该区域被指定用于学习。
 # 103
 property|n. 财产；房产；性质|所有物的总称；也指房地产或事物的特性，强调归属或性质|private property; a property owner; physical properties|This land is private property. → 这块土地是私人财产。
 asset|n. 资产；有价值的人或事物|强调具有经济价值、能带来益处；可包括现金、专利、技能等|financial assets; a valuable asset; an asset to the team|Her language skills are an asset to the team. → 她的语言能力是团队的一大优势。
@@ -483,3 +484,42 @@ discrimination|n. 歧视；辨别能力|常指基于群体身份的不公平待�
 # 142
 bloom|n./v. 花；开花；繁盛|可指花朵、开花状态，也可比喻发展或焕发光彩|in full bloom; come into bloom; bloom into|The roses are in full bloom. → 玫瑰正在盛开。
 blossom|n./v. 花；开花；成长|名词常指树木或灌木的花，尤其果树；动词也可比喻成长|cherry blossom; blossom into; blossom out|Her confidence blossomed during the course. → 她在课程期间变得越来越自信。
+# 143
+stall|v. 拖延；停滞；熄火|强调进展或运转中断，或故意拖时间|stall for time; talks stall; the engine stalls|The negotiations stalled over funding. → 谈判因资金问题陷入停滞。
+stand|v. 站立；处于某状态|强调站着、位于某处或维持状态；本身不表示进展受阻|stand still; stand by the door|Please stand by the door. → 请站在门旁。
+# 144
+stand|v. 忍受；受得了|忍受义常用于否定句或疑问句，口语常见|cannot stand doing; cannot stand the noise|I can't stand waiting in long queues. → 我受不了排长队。
+tolerate|v. 容忍；耐受|较中性或正式，既可忍受不适，也可允许不赞同的行为存在|tolerate noise; tolerate doing; tolerate criticism|The school will not tolerate bullying. → 学校不会容忍霸凌。
+abide|v. 忍受（常用于否定）；遵守（abide by）|can't abide 表示无法忍受；abide by 是遵守，两种结构须分开|can't abide doing; abide by the rules|I can't abide being interrupted. → 我无法忍受被打断。
+# 145
+formidable|adj. 强大得令人敬畏的；难对付的|侧重对象本身实力强、规模大或很难应对，也可带赞赏|a formidable opponent; a formidable task|She is a formidable opponent. → 她是一个实力强劲、难以对付的对手。
+daunting|adj. 令人畏惧的；使人却步的|侧重任务或前景使人感到困难、缺乏信心|a daunting prospect; a daunting challenge|Writing my first report seemed daunting. → 写第一份报告让我觉得很有压力。
+# 146
+mock|v. 嘲笑；模仿取笑|通常带不尊重意味，也可通过模仿取笑|mock someone's accent; mock someone for|They mocked him for his accent. → 他们因他的口音嘲笑他。
+tease|v. 逗弄；取笑|可表示友好玩笑，也可带恶意；取决于关系、语气和感受|tease someone about; tease someone for|My friends teased me about my new haircut. → 朋友们拿我的新发型开玩笑。
+# 147
+direct|v. 指示；指导|较正式地指示行动，也可组织、引导过程；不一定带怒气|direct someone to do; direct operations|The officer directed us to leave the building. → 警官指示我们离开大楼。
+order|v. 命令|明确要求服从，常来自有权威的人|order someone to do; order someone not to do|The officer ordered them to stop. → 警官命令他们停下。
+instruct|v. 指示；教授|可给出明确操作要求，也可教人如何做|instruct someone to do; instruct someone in|The nurse instructed me to take the medicine after meals. → 护士嘱咐我饭后服药。
+command|v. 下令；统率|常见于军事、正式权威或强势要求；并非只用于军队|command someone to do; command troops|The captain commanded the soldiers to advance. → 上尉命令士兵前进。
+dictate|v. 强行规定；决定；口述|强调单方面规定条件或由因素决定结果；口述是另一用法|dictate terms; dictate that; dictate a letter|One person should not dictate the terms. → 不应由一个人单方面规定条件。
+# 148
+turbulent|adj. 动荡的；汹涌的|强调剧烈变化、冲突或流动不稳，未必完全失去秩序|turbulent times; turbulent water; turbulent airflow|The country went through a turbulent period. → 这个国家经历了一段动荡时期。
+chaotic|adj. 混乱无序的|强调缺乏秩序、组织或有效控制|a chaotic situation; chaotic traffic|The station was chaotic after the cancellations. → 列车取消后车站一片混乱。
+# 149
+denote|v. 表示；指称|强调符号、词语等明确代表什么，常用于定义或说明|denote something; be denoted by|The symbol x denotes an unknown value. → 符号 x 表示一个未知数值。
+suggest|v. 暗示；表明；建议|迹象使某种解释显得可能；也可提出建议，不表示结论必然正确|suggest that; suggest doing|The evidence suggests that demand is falling. → 证据表明需求可能正在下降。
+imply|v. 暗示；意味着|可指不明说却传达含义，也可指逻辑上蕴含某结果|imply that; imply a connection|Her reply implied that she disagreed. → 她的回答暗示她并不赞同。
+# 150
+lawsuit|n. 诉讼；官司|通常指法院中的民事诉讼案件，强调一宗官司|file a lawsuit; bring a lawsuit against|She filed a lawsuit against the company. → 她对该公司提起了诉讼。
+proceeding|n. 程序；诉讼程序|法律语境常用复数 proceedings，侧重正式法律行动或程序，范围更广|legal proceedings; criminal proceedings; institute proceedings|They began legal proceedings against the company. → 他们对该公司启动了法律程序。
+# 151
+virtue|n. 美德；优点|道德义强调好品质；优点义也可形容方法或事物的好处|a moral virtue; the virtues of; by virtue of|Patience is a virtue. → 耐心是一种美德。
+merit|n. 优点；价值|侧重值得肯定的品质或价值，不局限于道德|have merit; on its merits; the merits of|The proposal has considerable merit. → 这项提议很有价值。
+# 152
+deserve|v. 值得；应得|通用表达，可接名词或不定式；好坏结果都可应得|deserve praise; deserve to win; deserve punishment|You deserve to be treated with respect. → 你应该受到尊重。
+merit|v. 值得；应受到|较正式，通常直接接名词，强调足以得到某种评价或关注|merit attention; merit consideration; merit further study|The issue merits further investigation. → 这个问题值得进一步调查。
+# 153
+still|adj. 静止的；平静的|此处比较形容词：强调当下没有运动；副词 still 可表示仍然|keep still; stand still; still water|Keep still while I take the photo. → 我拍照时请别动。
+static|adj. 静态的；不变的|强调一段时间内状态、数值或系统没有变化|a static image; static prices; remain static|The population has remained static for years. → 人口数量多年来一直没有变化。
+statical|adj. 静力学的；静态的（少见）|多见于静力学等专业或较旧用法；日常静态通常用 static|statical equilibrium; statical analysis|The textbook discusses statical equilibrium. → 这本教材讨论静力平衡。

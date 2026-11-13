@@ -54,6 +54,9 @@ with tempfile.TemporaryDirectory(prefix='wordbook-audit-') as folder:
 freeze = json.loads((ROOT / 'docs/audit-20261109-freeze.json').read_text())
 changed = [name for name, sha in freeze['frozen_files'].items()
            if not (ROOT / name).is_file() or digest(ROOT / name) != sha]
+review = json.loads((ROOT / 'docs/content-review-20261113.json').read_text())
+approved = review.get('reviewed_hash_changes', {})
+changed = [name for name in changed if approved.get(name, {}).get('after') != digest(ROOT / name)]
 checks = {'committed_output_matches_rebuild': reproducible,
           'clean_build_matches': clean_matches,
           'frozen_learning_content_and_guards_unchanged': not changed}

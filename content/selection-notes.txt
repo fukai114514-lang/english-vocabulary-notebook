@@ -99,7 +99,7 @@
 99|收到邀请用 receive，决定应邀用 accept。receive 不表示一定自愿接受；accept responsibility 又是承担责任，不能简单译为收到责任。
 100|possible 只说有可能，likely/probable 通常倾向很可能，但不能固定成百分比。说 He is likely to come；不说 He is possible/probable to come。
 101|形容“你很有条理”用 You are organized；说“组织协调能力”用 organizational skills。organized 是对状态或特点的评价，organizational 是“与组织管理有关”的关系形容词。organized activities 是有组织的活动；organizational changes 是组织层面的变动。
-102|assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。
+102|assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。 designate 强调正式指定某人或某物的身份、用途，常用 designate someone as / designate an area for。appoint 偏正式任命职位（见第13组）；assign 偏分配任务；arrange 偏协调安排。designate 的指定不总等于任命。
 103|同一栋房子可以是你的 property，也可以是你的 asset：前者强调所有权或房产类别，后者强调经济价值。property 作财产总称通常不可数，但 a property 可指一处房产；properties 也可指性质。asset 可数，常用复数 assets；名词 property 没有“团队优势”这个常见用法。
 104|“参加比赛”通常说 enter a contest 或 compete in a contest。compete 常接 in、for、with/against；contest 作动词可直接接 election、seat、decision 等。contest a decision 是质疑决定，不是参加决定；contest an election 可指参与竞选，具体含义要看宾语和语境。
 105|trash 与 garbage 在美式日常用法中有大量重叠，不能硬分成“干垃圾”和“湿垃圾”。junk 更突出废旧杂物或低质量东西。三者作这些总称时通常不可数，用 a piece of junk / a bag of garbage。英式英语常用 rubbish；junk food 并非字面上的垃圾。
@@ -140,3 +140,14 @@
 140|glamour 偏耀眼、时尚或令人向往的吸引力；charm 偏令人喜爱或愉悦的特质，也能形容地方和事物。两者不是“外表”和“内在”的绝对划分。glamour 也拼作 glamor；charm 还有护身符、小饰物及魔法等义。
 141|difference 最通用；distinction 强调区分或界限；discrepancy 常暗示本应一致却有出入。discrimination 通常指歧视，也可指辨别能力，不能一律翻译为歧视。make a difference 是产生影响；with distinction 是以优异成绩。
 142|bloom 和 blossom 的开花义及发展义有重叠。blossom 名词常见于树木或果树的花，如 cherry blossom；bloom 可指单朵花或开花状态。不能把 blossom 限定为只能用于果树。in full bloom 表示盛开。
+143|stall 关注拖延、停滞或机器熄火；stand 关注站立、位置或状态。The car stalled 是车熄火；The car is standing outside 是车停在外面。stand still 的 still 才明确补充不动的意思。
+144|忍受可用 stand 或 tolerate；stand 常出现在否定或疑问中，tolerate 也可表示允许某行为。can’t abide 语气通常强烈，不能把 abide 当作日常肯定句中 tolerate 的通用替换。abide by the rules 是遵守规则。三者的忍受义都可接动名词。
+145|formidable 强调对象强大或难对付，daunting 强调它使人感到畏难。同一任务可同时 formidable 和 daunting；不是固定强弱等级，也不是“客观”与“主观”的绝对划分。
+146|mock 通常更明显地带嘲讽、不尊重；tease 可以是亲近的逗趣，也能伤害人。不能一律把 tease 当成善意。两者都可用 for 表示取笑的原因。
+147|direct 偏指示或指导；order 明确命令；instruct 可给操作指示或教授；command 带正式权威，常见于军事；dictate 偏强行规定条件、决定或口述。不要排成固定语气等级。常说 dictate terms to someone，而非把 dictate someone to do 当作 order someone to do 的通用替换。
+148|turbulent 侧重剧烈变化或冲突；chaotic 侧重无序。turbulent water 是湍急不稳的水流，chaotic traffic 是混乱的交通。两种性质可以同时存在。
+149|denote 常用于符号或词语所指；suggest 可表示迹象使某事显得可能；imply 可表示言外之意或逻辑蕴含。imply 不要求说话者故意暗示；suggest 也可表示建议，常用 suggest doing 或 suggest that，通常不说 suggest someone to do。
+150|lawsuit 通常指一宗民事官司；proceedings 可统指民事、刑事或其他正式程序，不一定是单独一场庭审。注意 criminal proceedings 和 file a lawsuit；在法律义下 proceeding 常以复数出现。这里只比较法律用法。
+151|virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。
+152|deserve 通用，既可 deserve praise 也可 deserve punishment；deserve to do / deserve to be done 常用。merit 较正式，merit attention / consideration / investigation 更典型；不要机械写成 merit to do。
+153|still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。

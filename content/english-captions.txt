@@ -336,3 +336,30 @@ discrepancy|A difference between things that are expected to agree.
 discrimination|Unfair treatment based on group identity; also the ability to recognize differences.
 bloom|A flower or the state of flowering; to flower or develop well.
 blossom|A flower, especially on a tree or bush; to flower or develop successfully.
+stall|To delay deliberately or stop making progress or operating.
+stand|To be upright or in a position; also to bear something unpleasant, often in negative statements.
+tolerate|To allow or bear something unpleasant or something you disagree with.
+abide|To bear something, usually in cannot abide; abide by means to obey or accept.
+formidable|Powerful, impressive or difficult enough to inspire respect or fear.
+daunting|Making someone feel worried or less confident about a difficult task.
+mock|To make fun of someone, often unkindly or by imitating them.
+tease|To make jokes about someone or annoy them playfully or unkindly.
+direct|To tell someone what to do or guide an activity.
+order|To tell someone authoritatively that they must do something.
+instruct|To give directions or teach someone how to do something.
+command|To give an authoritative order or have control over a group.
+dictate|To impose terms, determine an outcome, or speak words for someone to write down.
+turbulent|Marked by violent movement, conflict or unstable change.
+chaotic|Completely disorganized or lacking order.
+denote|To stand for, refer to or be a sign of something.
+suggest|To indicate a possibility or put forward an idea for consideration.
+imply|To communicate indirectly or involve something as a consequence.
+lawsuit|A case brought before a court, usually a civil claim.
+proceeding|A formal legal action or process, often used in the plural proceedings.
+virtue|A good moral quality, or a useful or desirable feature.
+merit|A quality deserving approval; as a verb, to be worthy of attention or a response.
+deserve|To be worthy of receiving something because of actions or qualities.
+still|Not moving or making a sound; as an adverb, continuing up to a time.
+static|Not moving, developing or changing over time.
+statical|Relating to statics; a less common form of static in technical use.
+designate|To officially choose someone or mark something for a particular role or purpose.
