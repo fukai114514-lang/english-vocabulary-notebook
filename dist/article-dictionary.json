@@ -6662,5 +6662,329 @@
   "year's": {
     "中文意思": "某年的（year 的所有格）",
     "英文释义": "The possessive form of year."
+  },
+  "achieve": {
+    "中文意思": "实现；取得",
+    "英文释义": "To successfully reach a goal or obtain a result."
+  },
+  "achieving": {
+    "中文意思": "实现；取得（achieve 的现在分词）",
+    "英文释义": "Successfully reaching a goal or obtaining a result."
+  },
+  "actively": {
+    "中文意思": "主动地；积极地",
+    "英文释义": "With deliberate effort and involvement."
+  },
+  "analyses": {
+    "中文意思": "分析（analysis 的复数）",
+    "英文释义": "Detailed examinations of something."
+  },
+  "attentive": {
+    "中文意思": "留意的；专注的",
+    "英文释义": "Paying close attention to something."
+  },
+  "begin": {
+    "中文意思": "开始",
+    "英文释义": "To start doing or happening."
+  },
+  "behave": {
+    "中文意思": "表现；行为举止",
+    "英文释义": "To act in a particular way."
+  },
+  "cause": {
+    "中文意思": "导致；原因",
+    "英文释义": "To make something happen; a reason for an event."
+  },
+  "causes": {
+    "中文意思": "导致；原因（复数）",
+    "英文释义": "Makes something happen; reasons for events."
+  },
+  "committed": {
+    "中文意思": "坚定投入的；致力于的",
+    "英文释义": "Dedicated to a purpose or course of action."
+  },
+  "competitive": {
+    "中文意思": "竞争的；有竞争力的",
+    "英文释义": "Involving rivalry or the ability to compete successfully."
+  },
+  "conducting": {
+    "中文意思": "开展；进行",
+    "英文释义": "Carrying out an activity or investigation."
+  },
+  "consequences": {
+    "中文意思": "后果",
+    "英文释义": "Results or effects of an action."
+  },
+  "considering": {
+    "中文意思": "考虑",
+    "英文释义": "Thinking carefully about something."
+  },
+  "cost-benefit": {
+    "中文意思": "成本收益的",
+    "英文释义": "Comparing the costs and benefits of a decision."
+  },
+  "costly": {
+    "中文意思": "代价高昂的",
+    "英文释义": "Involving a large expense or serious loss."
+  },
+  "creates": {
+    "中文意思": "创造；产生",
+    "英文释义": "Brings something into existence."
+  },
+  "decision-making": {
+    "中文意思": "决策",
+    "英文释义": "The process of choosing what to do."
+  },
+  "drives": {
+    "中文意思": "促使；驱动",
+    "英文释义": "Motivates or causes someone to act."
+  },
+  "eagerness": {
+    "中文意思": "急切；热切",
+    "英文释义": "A strong desire to do or obtain something."
+  },
+  "effects": {
+    "中文意思": "影响；效果",
+    "英文释义": "Changes or results produced by a cause."
+  },
+  "emotional": {
+    "中文意思": "情绪的",
+    "英文释义": "Relating to feelings."
+  },
+  "endanger": {
+    "中文意思": "危及",
+    "英文释义": "To put someone or something at risk of harm."
+  },
+  "engaging": {
+    "中文意思": "参与；从事",
+    "英文释义": "Taking part in an activity."
+  },
+  "entrepreneur": {
+    "中文意思": "企业家；创业者",
+    "英文释义": "A person who starts or runs a business and takes its risks."
+  },
+  "entrepreneurial": {
+    "中文意思": "创业的；企业家精神的",
+    "英文释义": "Relating to starting and developing a business."
+  },
+  "examined": {
+    "中文意思": "考察；研究了",
+    "英文释义": "Looked at something carefully to understand it."
+  },
+  "excitement": {
+    "中文意思": "兴奋",
+    "英文释义": "A feeling of eager enthusiasm."
+  },
+  "feelings": {
+    "中文意思": "感受；情绪",
+    "英文释义": "Emotional experiences or reactions."
+  },
+  "finding": {
+    "中文意思": "找到；发现",
+    "英文释义": "Discovering or locating something."
+  },
+  "focused": {
+    "中文意思": "专注的",
+    "英文释义": "Directing attention towards a particular goal or activity."
+  },
+  "future": {
+    "中文意思": "未来",
+    "英文释义": "The time that has not yet come."
+  },
+  "goals": {
+    "中文意思": "目标",
+    "英文释义": "Results someone aims to achieve."
+  },
+  "group": {
+    "中文意思": "一组；团体",
+    "英文释义": "A number of people or things considered together."
+  },
+  "habit": {
+    "中文意思": "习惯",
+    "英文释义": "Something done regularly, often without much thought."
+  },
+  "harder": {
+    "中文意思": "更努力地；更困难的",
+    "英文释义": "With greater effort; more difficult."
+  },
+  "hinder": {
+    "中文意思": "妨碍；阻碍",
+    "英文释义": "To make progress or action more difficult."
+  },
+  "hurt": {
+    "中文意思": "损害；伤害",
+    "英文释义": "To cause damage or pain."
+  },
+  "ignore": {
+    "中文意思": "忽视",
+    "英文释义": "To pay no attention to something."
+  },
+  "impulsive": {
+    "中文意思": "冲动的",
+    "英文释义": "Acting suddenly without considering the consequences."
+  },
+  "insensible": {
+    "中文意思": "不明智的；无知觉的",
+    "英文释义": "Lacking good judgment in this passage; also unable to feel or perceive."
+  },
+  "integrity": {
+    "中文意思": "诚信；正直；完整性",
+    "英文释义": "Honesty and strong moral principles, or the state of being whole."
+  },
+  "intently": {
+    "中文意思": "专心地；一心一意地",
+    "英文释义": "With concentrated attention."
+  },
+  "link": {
+    "中文意思": "联系；连接",
+    "英文释义": "A connection between things."
+  },
+  "loss": {
+    "中文意思": "丧失；损失",
+    "英文释义": "The state or act of losing something."
+  },
+  "mentality": {
+    "中文意思": "心态；思维方式",
+    "英文释义": "A characteristic way of thinking."
+  },
+  "mistakes": {
+    "中文意思": "错误",
+    "英文释义": "Actions or judgments that are wrong."
+  },
+  "monitor": {
+    "中文意思": "监测；观察",
+    "英文释义": "To watch and check something over time."
+  },
+  "opposing": {
+    "中文意思": "相反的；对立的",
+    "英文释义": "Differing from or challenging another view or position."
+  },
+  "outcompete": {
+    "中文意思": "在竞争中胜过",
+    "英文释义": "To be more successful than a competitor."
+  },
+  "outcompeting": {
+    "中文意思": "在竞争中胜过（outcompete 的现在分词）",
+    "英文释义": "Being more successful than a competitor."
+  },
+  "outperforming": {
+    "中文意思": "表现优于",
+    "英文释义": "Performing better than another person or business."
+  },
+  "overall": {
+    "中文意思": "整体的；总体上",
+    "英文释义": "Considering everything together."
+  },
+  "overcome": {
+    "中文意思": "克服",
+    "英文释义": "To successfully deal with a difficulty."
+  },
+  "particularly": {
+    "中文意思": "尤其；特别是",
+    "英文释义": "Especially or to a notable degree."
+  },
+  "poorer": {
+    "中文意思": "更差的；更贫穷的",
+    "英文释义": "Of lower quality, or having less money."
+  },
+  "provide": {
+    "中文意思": "提供",
+    "英文释义": "To supply or make something available."
+  },
+  "push": {
+    "中文意思": "推动；促使",
+    "英文释义": "To move something forward or encourage progress."
+  },
+  "reason": {
+    "中文意思": "原因；理由",
+    "英文释义": "An explanation for why something happens."
+  },
+  "relationships": {
+    "中文意思": "关系",
+    "英文释义": "Connections between people or groups."
+  },
+  "remain": {
+    "中文意思": "保持；仍然是",
+    "英文释义": "To continue to be in a particular state."
+  },
+  "reputation": {
+    "中文意思": "声誉",
+    "英文释义": "The opinion others have of someone or something."
+  },
+  "risk-inducing": {
+    "中文意思": "诱发冒险的",
+    "英文释义": "Causing or encouraging people to take risks."
+  },
+  "rival": {
+    "中文意思": "竞争对手",
+    "英文释义": "A person or business competing for the same goal."
+  },
+  "rivalry": {
+    "中文意思": "竞争；竞争关系",
+    "英文释义": "Competition between people or groups pursuing the same goal."
+  },
+  "rivals": {
+    "中文意思": "竞争对手（复数）",
+    "英文释义": "People or businesses competing for the same goal."
+  },
+  "short-term": {
+    "中文意思": "短期的",
+    "英文释义": "Lasting or relating to a brief period."
+  },
+  "stain": {
+    "中文意思": "玷污；损害；污渍",
+    "英文释义": "To damage a reputation or leave a dirty mark."
+  },
+  "trap": {
+    "中文意思": "陷阱",
+    "英文释义": "A hidden danger or situation that leads to difficulty."
+  },
+  "traps": {
+    "中文意思": "陷阱（复数）",
+    "英文释义": "Hidden dangers or situations that lead to difficulty."
+  },
+  "ultimately": {
+    "中文意思": "最终",
+    "英文释义": "In the end."
+  },
+  "unethical": {
+    "中文意思": "不道德的",
+    "英文释义": "Contrary to accepted moral principles."
+  },
+  "unethically": {
+    "中文意思": "不道德地",
+    "英文释义": "In a way that violates moral principles."
+  },
+  "venture": {
+    "中文意思": "创业事业；企业；冒险尝试",
+    "英文释义": "A business undertaking or other activity involving risk."
+  },
+  "venture's": {
+    "中文意思": "企业的；创业事业的",
+    "英文释义": "The possessive form of venture."
+  },
+  "viewpoints": {
+    "中文意思": "观点；立场",
+    "英文释义": "Ways of thinking about a subject."
+  },
+  "what's": {
+    "中文意思": "什么是；什么（what is 的缩写）",
+    "英文释义": "The contraction of what is or what has."
+  },
+  "willing": {
+    "中文意思": "愿意的",
+    "英文释义": "Prepared or ready to do something."
+  },
+  "willingness": {
+    "中文意思": "意愿",
+    "英文释义": "Readiness to do something."
+  },
+  "win": {
+    "中文意思": "获胜",
+    "英文释义": "To succeed in a competition or achieve a desired result."
+  },
+  "win-at-all-costs": {
+    "中文意思": "不惜一切代价取胜的",
+    "英文释义": "Determined to win regardless of the methods or consequences."
   }
 }
