@@ -237,5 +237,25 @@
       "C": "竞争对手之所以能提升你的事业表现，一个原因是竞争会带来一定程度的兴奋，促使你更加努力。但这种求胜的急切心情也可能损害事业的成功，尤其是在它使你作出冲动、不明智的决定时。不过，你可以通过养成批判性思考的习惯来避免这些代价高昂的错误，例如考虑不同立场的观点、进行成本收益分析，尤其是在作出复杂且可能决定事业未来的决策时。",
       "D": "拥有竞争对手带来的急切感，不仅可能使你作出更糟糕的决定，还可能让你承担更大的风险，使事业陷入险境。要克服竞争所带来的、可能危及事业成功的冒险倾向，一种办法是始终留意自己的情绪状态，并主动观察这些感受正在如何影响你的决策。"
     }
+  },
+  {
+    "id": "multitasking-and-performance",
+    "title": "Multitasking: Ability, Perception, and Performance",
+    "titleZh": "多任务处理：能力、认知与表现",
+    "source": "User-provided CET-4 · December 2023 · Paper 2 · Passage Two. Descriptive title and paragraph labels added for navigation. Article only; examination questions and answers excluded.",
+    "paragraphs": {
+      "A": "A multitasker is one who can perform two or more tasks effectively at the same time, which—apart from the obvious differences—is similar to what a computer does. The concept does indeed come from the realms of technology, where it is used to refer to an operating system that can execute multiple tasks at the same time. However, the question is: can a person really be a multitasker?",
+      "B": "For most scientists, the answer is no. So much so that, according to experts in neuroscience (神经系统科学), our brains do not handle multitasking situations well. As soon as two tasks require our attention, productivity suffers. What we call multitasking, therefore, is in reality the ability to move more or less quickly from one task to another. This requires two essential conditions: that one of the tasks needs to be automatic, like walking or eating, and that they both need different mental processes. Answering the phone and writing at the same time, for example.",
+      "C": "However, on the other side of the coin there are people who maintain that it is possible to be, or at least seem to be, multitasking. A recent study concluded that regardless of whether people are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.",
+      "D": "The business perspective offers a different view: multitasking is understood as the ability to adapt to all types of environment within a company and effectively undertake different activities within a set time frame. Indeed, many companies look for people who are skilled in multitasking to improve their productivity. From this different perspective, you can not only be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.",
+      "E": "The benefits of multitasking are clear. Being quicker and more efficient increases our performance and the number of tasks completed. But having to pay attention to several things at once means that the powers of concentration are reduced and that can lead to more mistakes."
+    },
+    "translationZh": {
+      "A": "多任务处理者，是指能够同时有效完成两项或更多任务的人。除去显而易见的差异，这与计算机所做的事情相似。这一概念确实来自技术领域，在那里，它被用来指能够同时执行多项任务的操作系统。然而，问题是：一个人真的能成为多任务处理者吗？",
+      "B": "对多数科学家而言，答案是否定的。神经科学专家甚至指出，我们的大脑并不善于处理多任务情境。一旦两项任务都需要我们投入注意力，生产效率就会受到影响。因此，我们所谓的多任务处理，实际上是在不同任务之间或快或慢地切换的能力。这需要满足两个基本条件：其中一项任务必须能够自动进行，例如走路或吃饭；两项任务还必须需要不同的心理加工过程。比如，一边接电话，一边写字。",
+      "C": "然而，从另一方面看，也有人坚持认为，同时处理多项任务是可能的，或者至少可以表现得像在同时处理多项任务。最近一项研究得出结论：无论人们实际上是否在处理多项任务，只要他们把这种活动看作多任务处理，就会对其表现产生积极影响。",
+      "D": "商业领域提供了另一种视角：多任务处理被理解为，在公司内适应各种环境、并在规定时间内有效开展不同活动的能力。事实上，许多公司会寻找擅长多任务处理的人，以提高生产效率。从这一视角看，你不仅可以进行多任务处理，而且这种能力也能够通过教学培养出来。在灵活多变的组织中，做到这一点更容易，因为这类组织推崇灵活的工作方式。",
+      "E": "多任务处理的好处显而易见。速度更快、效率更高，可以提升我们的表现，并增加完成的任务数量。然而，同时关注几件事意味着专注力会下降，而这可能导致更多错误。"
+    }
   }
 ]

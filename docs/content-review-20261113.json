@@ -56,8 +56,8 @@
     },
     "dist/search-index.json": {
       "before": "6c830e317b63f9ce760626978324844076b9356171052aaf86f9db10403e66ee",
-      "after": "ed9ec227599256b92623f834c7556122f5f79883e9b09744e745a8ebcc5b9305",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "e091b60d43ca4e4c80e05f4a187d4e21b5f2c812aa19e706aee2f3011d35f74e",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "dist/vocabulary.json": {
       "before": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
@@ -77,38 +77,38 @@
     },
     "migration/reviewed-changes-3.0.json": {
       "before": "e49416df1cf8121863f354c09c2fb7af7b59bca9a5a80960bbbcdb94ed5bd918",
-      "after": "2ad209290b14005dc5c81a8095c44fa7ae0b22e50cf3884640cede0762c406c1",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "1d1439706fa05afd0da8e45ba22b21f8c2f7de4f8a0354131d743afa7c4d8ef5",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "migration/ui-content-baseline.json": {
       "before": "159ad49f7517b4f8d146e70bd4c73cb827eef07b31771ee43a09313ce4c0e064",
-      "after": "5824a13b0023bd71c1e411b7c0478dd7ecc2a11e728231c2dfa1b4f1b2852562",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "edd9507164ea3a617cb1e55dfbd73f1aa5ef9bbe2cc798132198058d9d9d4af6",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "content/article-dictionary.json": {
       "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
-      "after": "27343c9448da1d13079436b338a6c3a3fd5085c91487835ba56b667abfa3e993",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "15fcd0d1161b184f7ccf52a43fb984661e6cd33dff9403dca18f02cba6ec6cc2",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "content/reading-context.json": {
       "before": "61775b5e88a7c177258e64d5ff73b78fb3345d598bb652563908b4b59e8dc135",
-      "after": "1cf1cdb4fa45d2750d1a564122ffcaf2cab79dd49da17cfb4625ec48677d3e55",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "dbb35edd82e23744ed102f2386f5b69ac866e759b4bb30c8186b4e67128b5061",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "content/reading_articles.json": {
       "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
-      "after": "0d35841b897f0a79d8a506affb96fcfa1181b10157b257a2dac45b20e986828f",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "f722a77cd2f1e0040cb9e850964b811f6ba1dc830cbe92b531e1f0e2eedb3854",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "dist/article-dictionary.json": {
       "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
-      "after": "27343c9448da1d13079436b338a6c3a3fd5085c91487835ba56b667abfa3e993",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "15fcd0d1161b184f7ccf52a43fb984661e6cd33dff9403dca18f02cba6ec6cc2",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "dist/reading_articles.json": {
       "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
-      "after": "0d35841b897f0a79d8a506affb96fcfa1181b10157b257a2dac45b20e986828f",
-      "reason": "Reviewed additive rivalry article and lookup coverage. See docs/content-review-20261116-rivalry.json."
+      "after": "f722a77cd2f1e0040cb9e850964b811f6ba1dc830cbe92b531e1f0e2eedb3854",
+      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     }
   },
   "removed_phrases": [

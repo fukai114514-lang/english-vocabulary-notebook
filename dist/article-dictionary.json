@@ -6986,5 +6986,225 @@
   "win-at-all-costs": {
     "中文意思": "不惜一切代价取胜的",
     "英文释义": "Determined to win regardless of the methods or consequences."
+  },
+  "answering": {
+    "中文意思": "接听；回答",
+    "英文释义": "Responding to a call or question."
+  },
+  "apart": {
+    "中文意思": "分开；除外（apart from）",
+    "英文释义": "Separated; apart from means except for or aside from."
+  },
+  "automatic": {
+    "中文意思": "自动的；不需有意识控制的",
+    "英文释义": "Happening without deliberate thought or control."
+  },
+  "clear": {
+    "中文意思": "明显的；清楚的",
+    "英文释义": "Easy to see or understand."
+  },
+  "coin": {
+    "中文意思": "硬币",
+    "英文释义": "A flat piece of metal used as money; figuratively something with two aspects."
+  },
+  "completed": {
+    "中文意思": "已完成的；完成了",
+    "英文释义": "Finished or brought to an end."
+  },
+  "concentration": {
+    "中文意思": "专注；注意力集中",
+    "英文释义": "The ability to keep attention focused on something."
+  },
+  "concluded": {
+    "中文意思": "得出结论",
+    "英文释义": "Reached a judgment after considering evidence."
+  },
+  "conditions": {
+    "中文意思": "条件",
+    "英文释义": "Requirements that must be satisfied, or circumstances."
+  },
+  "eating": {
+    "中文意思": "吃东西",
+    "英文释义": "Taking food into the body through the mouth."
+  },
+  "effectively": {
+    "中文意思": "有效地",
+    "英文释义": "In a way that successfully produces an intended result."
+  },
+  "environment": {
+    "中文意思": "环境",
+    "英文释义": "The surroundings or conditions in which something happens."
+  },
+  "execute": {
+    "中文意思": "执行；实施",
+    "英文释义": "To carry out an instruction or task."
+  },
+  "favour": {
+    "中文意思": "支持；推崇（英式拼写）",
+    "英文释义": "To prefer or support; British spelling of favor."
+  },
+  "flexibility": {
+    "中文意思": "灵活性",
+    "英文释义": "The ability to adapt to different situations or requirements."
+  },
+  "fluid": {
+    "中文意思": "灵活多变的；流动的",
+    "英文释义": "Able to change easily; flowing rather than fixed."
+  },
+  "frame": {
+    "中文意思": "框架；范围（time frame：时间范围）",
+    "英文释义": "A structure or boundary; time frame means a period of time."
+  },
+  "handling": {
+    "中文意思": "处理；应对",
+    "英文释义": "Dealing with or managing something."
+  },
+  "increases": {
+    "中文意思": "增加；提高",
+    "英文释义": "Makes or becomes greater in amount or degree."
+  },
+  "indeed": {
+    "中文意思": "确实；的确",
+    "英文释义": "Used to confirm or emphasise a statement."
+  },
+  "mental": {
+    "中文意思": "心理的；心智的",
+    "英文释义": "Relating to the mind or thought processes."
+  },
+  "mere": {
+    "中文意思": "仅仅的；只不过的",
+    "英文释义": "Used to emphasise how small or simple something is."
+  },
+  "move": {
+    "中文意思": "移动；转移",
+    "英文释义": "To change position or shift from one thing to another."
+  },
+  "multiple": {
+    "中文意思": "多个的；多种的",
+    "英文释义": "More than one; involving several things."
+  },
+  "multitasker": {
+    "中文意思": "多任务处理者；多任务处理系统",
+    "英文释义": "A person or system able to perform more than one task at a time."
+  },
+  "multitasking": {
+    "中文意思": "多任务处理",
+    "英文释义": "Doing several tasks at once, or switching attention between tasks."
+  },
+  "needs": {
+    "中文意思": "需要",
+    "英文释义": "Requires something."
+  },
+  "operating": {
+    "中文意思": "运行的；操作的",
+    "英文释义": "Working or controlling how something functions."
+  },
+  "organisations": {
+    "中文意思": "组织；机构（英式复数）",
+    "英文释义": "Groups formed for particular purposes; British spelling of organizations."
+  },
+  "perceive": {
+    "中文意思": "认为；感知",
+    "英文释义": "To interpret or become aware of something."
+  },
+  "person": {
+    "中文意思": "人；个人",
+    "英文释义": "An individual human being."
+  },
+  "perspective": {
+    "中文意思": "视角；观点",
+    "英文释义": "A way of thinking about or viewing something."
+  },
+  "phone": {
+    "中文意思": "电话",
+    "英文释义": "A device used to speak to someone at a distance."
+  },
+  "positive": {
+    "中文意思": "积极的；正面的",
+    "英文释义": "Beneficial, favourable, or showing approval."
+  },
+  "practices": {
+    "中文意思": "惯常做法；实践",
+    "英文释义": "Usual or established ways of doing things."
+  },
+  "processes": {
+    "中文意思": "过程；加工过程",
+    "英文释义": "Series of actions or operations that produce a result."
+  },
+  "quicker": {
+    "中文意思": "更快的",
+    "英文释义": "Taking less time or moving at a greater speed."
+  },
+  "quickly": {
+    "中文意思": "迅速地",
+    "英文释义": "At a fast speed or within a short time."
+  },
+  "realms": {
+    "中文意思": "领域；范围",
+    "英文释义": "Areas of knowledge, activity, or experience."
+  },
+  "reduced": {
+    "中文意思": "减少的；降低了",
+    "英文释义": "Made smaller in amount, size, or degree."
+  },
+  "refer": {
+    "中文意思": "指；提及",
+    "英文释义": "To mention something or direct attention to it."
+  },
+  "require": {
+    "中文意思": "需要；要求",
+    "英文释义": "To need something or make it necessary."
+  },
+  "requires": {
+    "中文意思": "需要；要求（第三人称单数）",
+    "英文释义": "Needs something or makes it necessary."
+  },
+  "scientists": {
+    "中文意思": "科学家（复数）",
+    "英文释义": "People who study the world using scientific methods."
+  },
+  "set": {
+    "中文意思": "规定的；设定",
+    "英文释义": "Fixed or established; to put something in place."
+  },
+  "several": {
+    "中文意思": "几个；若干",
+    "英文释义": "More than two but not many."
+  },
+  "side": {
+    "中文意思": "方面；一侧",
+    "英文释义": "An aspect or part of something."
+  },
+  "situations": {
+    "中文意思": "情境；情况",
+    "英文释义": "Sets of circumstances in which something occurs."
+  },
+  "skilled": {
+    "中文意思": "熟练的；有技能的",
+    "英文释义": "Having the training or ability to do something well."
+  },
+  "suffers": {
+    "中文意思": "受损；受到影响",
+    "英文释义": "Becomes worse or experiences harm or difficulty."
+  },
+  "task": {
+    "中文意思": "任务",
+    "英文释义": "A piece of work to be done."
+  },
+  "therefore": {
+    "中文意思": "因此",
+    "英文释义": "For that reason; as a result."
+  },
+  "understood": {
+    "中文意思": "被理解为；理解了",
+    "英文释义": "Interpreted or recognised in a particular way."
+  },
+  "undertake": {
+    "中文意思": "承担；开展",
+    "英文释义": "To take responsibility for and carry out an activity."
+  },
+  "walking": {
+    "中文意思": "步行；走路",
+    "英文释义": "Moving on foot at a regular pace."
   }
 }

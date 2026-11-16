@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-16",
+  "base_commit": "d685a434b1e4943e3d76f4250c22a6b9dbdb0b8d",
+  "article": "multitasking-and-performance",
+  "scope": "Only the passage, with the existing bilingual reading format. No examination questions or answers. No Phrases, Word Meanings or comparison entries added.",
+  "source_review": "Five English paragraphs transcribed from the user photos. Third paragraph joined across the page break. Descriptive title and A–E labels added for navigation.",
+  "preservation": "Every prior article object, dictionary definition and contextual entry unchanged.",
+  "reviewed_ui_baseline_updates": {
+    "content/article-dictionary.json": {
+      "before": "27343c9448da1d13079436b338a6c3a3fd5085c91487835ba56b667abfa3e993",
+      "after": "15fcd0d1161b184f7ccf52a43fb984661e6cd33dff9403dca18f02cba6ec6cc2"
+    },
+    "content/reading_articles.json": {
+      "before": "0d35841b897f0a79d8a506affb96fcfa1181b10157b257a2dac45b20e986828f",
+      "after": "f722a77cd2f1e0040cb9e850964b811f6ba1dc830cbe92b531e1f0e2eedb3854"
+    },
+    "content/reading-context.json": {
+      "before": "1cf1cdb4fa45d2750d1a564122ffcaf2cab79dd49da17cfb4625ec48677d3e55",
+      "after": "dbb35edd82e23744ed102f2386f5b69ac866e759b4bb30c8186b4e67128b5061"
+    },
+    "dist/article-dictionary.json": {
+      "before": "27343c9448da1d13079436b338a6c3a3fd5085c91487835ba56b667abfa3e993",
+      "after": "15fcd0d1161b184f7ccf52a43fb984661e6cd33dff9403dca18f02cba6ec6cc2"
+    },
+    "dist/reading_articles.json": {
+      "before": "0d35841b897f0a79d8a506affb96fcfa1181b10157b257a2dac45b20e986828f",
+      "after": "f722a77cd2f1e0040cb9e850964b811f6ba1dc830cbe92b531e1f0e2eedb3854"
+    },
+    "dist/search-index.json": {
+      "before": "ed9ec227599256b92623f834c7556122f5f79883e9b09744e745a8ebcc5b9305",
+      "after": "e091b60d43ca4e4c80e05f4a187d4e21b5f2c812aa19e706aee2f3011d35f74e"
+    }
+  },
+  "validation": {
+    "offline_audit_passed": true,
+    "browser": {
+      "passed": true,
+      "cases": 90,
+      "checks": 11451,
+      "articleViews": 132,
+      "lookups": 2448,
+      "errors": [],
+      "overflow": []
+    },
+    "manual": [
+      "Five paragraphs; third paragraph complete across page break",
+      "Maintain contextual lookup means assert, not preserve"
+    ],
+    "limit": "Responsive Chromium checks; physical iPhone Safari not tested"
+  }
+}
