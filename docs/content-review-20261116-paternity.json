@@ -80,5 +80,6 @@
       "Paragraph selection to L"
     ],
     "scope": "Chromium responsive iframe regression; physical iPhone Safari not tested"
-  }
+  },
+  "final_lookup_review": "Added paragraph-specific noun sense for leave throughout the new passage and proper-name sense for American Civil Liberties Union, keeping every prior dictionary entry unchanged."
 }
