@@ -5978,5 +5978,689 @@
   "unable": {
     "中文意思": "不能的；无力的",
     "英文释义": "Not having the ability or means to do something."
+  },
+  "achievement": {
+    "中文意思": "成就",
+    "英文释义": "Something accomplished through effort."
+  },
+  "aclu": {
+    "中文意思": "美国公民自由联盟",
+    "英文释义": "The American Civil Liberties Union."
+  },
+  "across": {
+    "中文意思": "遍及；跨越",
+    "英文释义": "Throughout or from one side to another."
+  },
+  "adjustments": {
+    "中文意思": "调整",
+    "英文释义": "Changes made to adapt to a situation."
+  },
+  "admitted": {
+    "中文意思": "承认",
+    "英文释义": "Acknowledged something as true."
+  },
+  "advancement": {
+    "中文意思": "发展；晋升",
+    "英文释义": "Progress to a higher position or level."
+  },
+  "allegedly": {
+    "中文意思": "据称",
+    "英文释义": "According to a claim that has not been proved."
+  },
+  "america": {
+    "中文意思": "美国；美洲",
+    "英文释义": "The United States in this passage."
+  },
+  "amount": {
+    "中文意思": "数量",
+    "英文释义": "A quantity of something."
+  },
+  "announced": {
+    "中文意思": "宣布",
+    "英文释义": "Made something publicly known."
+  },
+  "answers": {
+    "中文意思": "回答",
+    "英文释义": "Responses to questions."
+  },
+  "apply": {
+    "中文意思": "适用；申请",
+    "英文释义": "To be relevant or request something formally."
+  },
+  "appropriate": {
+    "中文意思": "合适的",
+    "英文释义": "Suitable for a particular situation."
+  },
+  "arrangements": {
+    "中文意思": "安排",
+    "英文释义": "Plans or agreed ways of doing things."
+  },
+  "attitudes": {
+    "中文意思": "态度",
+    "英文释义": "Ways of thinking or feeling about something."
+  },
+  "babies": {
+    "中文意思": "婴儿",
+    "英文释义": "Very young children."
+  },
+  "becoming": {
+    "中文意思": "成为",
+    "英文释义": "Beginning to be something."
+  },
+  "behalf": {
+    "中文意思": "代表；利益（用于 on behalf of）",
+    "英文释义": "Used in on behalf of to mean as someone's representative."
+  },
+  "believed": {
+    "中文意思": "认为；相信",
+    "英文释义": "Thought something was true."
+  },
+  "bias": {
+    "中文意思": "偏见",
+    "英文释义": "An unfair preference for or against someone."
+  },
+  "boston": {
+    "中文意思": "波士顿",
+    "英文释义": "A city in Massachusetts in the United States."
+  },
+  "brad": {
+    "中文意思": "布拉德（人名）",
+    "英文释义": "A male given name."
+  },
+  "cannot": {
+    "中文意思": "不能",
+    "英文释义": "Is unable to; can not."
+  },
+  "caregiving": {
+    "中文意思": "照护",
+    "英文释义": "Looking after someone who needs assistance."
+  },
+  "cases": {
+    "中文意思": "案件；事例",
+    "英文释义": "Legal proceedings or particular instances."
+  },
+  "ceos": {
+    "中文意思": "首席执行官（复数）",
+    "英文释义": "Chief executive officers."
+  },
+  "chances": {
+    "中文意思": "机会；可能性",
+    "英文释义": "Opportunities or probabilities."
+  },
+  "changed": {
+    "中文意思": "改变了的；发生变化",
+    "英文释义": "Became or made something different."
+  },
+  "changes": {
+    "中文意思": "变化",
+    "英文释义": "Differences or alterations."
+  },
+  "chase": {
+    "中文意思": "蔡斯（摩根大通名称的一部分）；追逐",
+    "英文释义": "Part of the company name JPMorgan Chase; also to pursue."
+  },
+  "childbirth": {
+    "中文意思": "分娩；生育",
+    "英文释义": "The process of giving birth."
+  },
+  "childcare": {
+    "中文意思": "育儿；儿童照护",
+    "英文释义": "The care of children."
+  },
+  "class-action": {
+    "中文意思": "集体诉讼的",
+    "英文释义": "Relating to a lawsuit brought for a group of people."
+  },
+  "college": {
+    "中文意思": "学院；大学",
+    "英文释义": "An institution of higher education."
+  },
+  "columbus": {
+    "中文意思": "哥伦布市",
+    "英文释义": "The capital city of Ohio in this passage."
+  },
+  "come": {
+    "中文意思": "来；返回",
+    "英文释义": "To move towards or arrive at a place."
+  },
+  "comfortable": {
+    "中文意思": "感到自在的；舒适的",
+    "英文释义": "Feeling relaxed and free from worry."
+  },
+  "comparison": {
+    "中文意思": "比较",
+    "英文释义": "The act of examining similarities and differences."
+  },
+  "component": {
+    "中文意思": "组成部分",
+    "英文释义": "One part of a larger whole."
+  },
+  "considerably": {
+    "中文意思": "相当地；显著地",
+    "英文释义": "To a large or noticeable degree."
+  },
+  "considered": {
+    "中文意思": "认为；视为",
+    "英文释义": "Regarded or thought of in a particular way."
+  },
+  "corporate": {
+    "中文意思": "企业的",
+    "英文释义": "Relating to a company or companies."
+  },
+  "countries": {
+    "中文意思": "国家（复数）",
+    "英文释义": "Nations with their own governments."
+  },
+  "creating": {
+    "中文意思": "创造；建立",
+    "英文释义": "Bringing something into existence."
+  },
+  "dads": {
+    "中文意思": "爸爸们",
+    "英文释义": "An informal plural word for fathers."
+  },
+  "demonstrated": {
+    "中文意思": "表明；证明",
+    "英文释义": "Showed something clearly."
+  },
+  "denied": {
+    "中文意思": "拒绝给予；否认",
+    "英文释义": "Refused to allow or give; stated something was untrue."
+  },
+  "department": {
+    "中文意思": "部门",
+    "英文释义": "A division of an organisation."
+  },
+  "depends": {
+    "中文意思": "取决于",
+    "英文释义": "Is determined or affected by something else."
+  },
+  "derek": {
+    "中文意思": "德里克（人名）",
+    "英文释义": "A male given name."
+  },
+  "despite": {
+    "中文意思": "尽管",
+    "英文释义": "Without being prevented by something."
+  },
+  "district": {
+    "中文意思": "地区；区",
+    "英文释义": "An administrative or geographical area."
+  },
+  "divided": {
+    "中文意思": "分配；划分",
+    "英文释义": "Separated or shared into parts."
+  },
+  "domino": {
+    "中文意思": "多米诺骨牌",
+    "英文释义": "A small rectangular tile; used in domino effect for a chain reaction."
+  },
+  "double": {
+    "中文意思": "两倍；加倍",
+    "英文释义": "Twice as much or as many."
+  },
+  "downturn": {
+    "中文意思": "下降；衰退",
+    "英文释义": "A decline or reduction."
+  },
+  "duration": {
+    "中文意思": "持续时间",
+    "英文释义": "The length of time something lasts."
+  },
+  "endure": {
+    "中文意思": "持续存在；忍受",
+    "英文释义": "To continue to exist or bear something difficult."
+  },
+  "enhance": {
+    "中文意思": "提高；增强",
+    "英文释义": "To improve the quality or degree of something."
+  },
+  "enjoyed": {
+    "中文意思": "喜欢；享受",
+    "英文释义": "Took pleasure in something."
+  },
+  "equal": {
+    "中文意思": "相等的；平等的",
+    "英文释义": "The same in amount, status, or rights."
+  },
+  "equality": {
+    "中文意思": "平等",
+    "英文释义": "The state of having equal rights or opportunities."
+  },
+  "equally": {
+    "中文意思": "同样地；平等地",
+    "英文释义": "To the same degree or in the same way."
+  },
+  "essentially": {
+    "中文意思": "基本上；本质上",
+    "英文释义": "In the most basic or important sense."
+  },
+  "est": {
+    "中文意思": "雅诗兰黛名称中 Estée 的词元片段",
+    "英文释义": "A token fragment of Estée, the accented name in Estée Lauder."
+  },
+  "estimates": {
+    "中文意思": "估计",
+    "英文释义": "Makes an approximate judgment of an amount."
+  },
+  "estée": {
+    "中文意思": "雅诗（Estée Lauder／雅诗兰黛名称的一部分）",
+    "英文释义": "An accented given name in the company name Estée Lauder."
+  },
+  "executive": {
+    "中文意思": "管理人员；执行的",
+    "英文释义": "A senior manager; relating to managing an organisation."
+  },
+  "expectation": {
+    "中文意思": "期待；预期",
+    "英文释义": "A belief about what should or will happen."
+  },
+  "expectations": {
+    "中文意思": "期待；要求",
+    "英文释义": "Beliefs about what should or will happen."
+  },
+  "experiences": {
+    "中文意思": "经历；体验",
+    "英文释义": "Events that someone has lived through."
+  },
+  "extended": {
+    "中文意思": "延长的",
+    "英文释义": "Lasting longer than usual."
+  },
+  "father": {
+    "中文意思": "父亲",
+    "英文释义": "A male parent."
+  },
+  "feared": {
+    "中文意思": "担心；害怕",
+    "英文释义": "Felt worried or afraid about something."
+  },
+  "featured": {
+    "中文意思": "以……为特色；列有",
+    "英文释义": "Included or presented as a notable part."
+  },
+  "filed": {
+    "中文意思": "正式提交（诉状等）",
+    "英文释义": "Submitted a document or complaint officially."
+  },
+  "findings": {
+    "中文意思": "研究结果",
+    "英文释义": "Information discovered through research."
+  },
+  "finds": {
+    "中文意思": "认为；发现",
+    "英文释义": "Considers or discovers something."
+  },
+  "focus": {
+    "中文意思": "关注；重点",
+    "英文释义": "Attention directed towards something."
+  },
+  "following": {
+    "中文意思": "在……之后",
+    "英文释义": "After an event."
+  },
+  "fortune": {
+    "中文意思": "《财富》（杂志名）；财富",
+    "英文释义": "The business magazine in Fortune 500; also wealth or luck."
+  },
+  "fraction": {
+    "中文意思": "一小部分；分数",
+    "英文释义": "A small part of a whole, or a numerical ratio."
+  },
+  "gave": {
+    "中文意思": "给予（give 的过去式）",
+    "英文释义": "Past tense of give."
+  },
+  "genders": {
+    "中文意思": "性别（复数）",
+    "英文释义": "Categories associated with gender identity or social roles."
+  },
+  "golden": {
+    "中文意思": "戈尔登（机构名称的一部分）；金色的",
+    "英文释义": "Part of the firm name Outten & Golden; also gold in colour."
+  },
+  "harrington": {
+    "中文意思": "哈林顿（姓氏）",
+    "英文释义": "The surname of the researcher Brad Harrington."
+  },
+  "hasn't": {
+    "中文意思": "尚未；没有（has not）",
+    "英文释义": "The contraction of has not."
+  },
+  "his": {
+    "中文意思": "他的",
+    "英文释义": "Belonging or relating to a male person."
+  },
+  "historic": {
+    "中文意思": "具有历史意义的",
+    "英文释义": "Important in history."
+  },
+  "household": {
+    "中文意思": "家庭的；家务的",
+    "英文释义": "Relating to people living together in a home."
+  },
+  "hr": {
+    "中文意思": "人力资源（Human Resources）",
+    "英文释义": "Human resources, the department dealing with employees."
+  },
+  "illegally": {
+    "中文意思": "非法地",
+    "英文释义": "In a way that breaks the law."
+  },
+  "impact": {
+    "中文意思": "影响",
+    "英文释义": "An effect on someone or something."
+  },
+  "including": {
+    "中文意思": "包括",
+    "英文释义": "Having something as part of a group or whole."
+  },
+  "increasingly": {
+    "中文意思": "越来越多地",
+    "英文释义": "To a growing degree."
+  },
+  "investigator": {
+    "中文意思": "调查员",
+    "英文释义": "Someone who examines facts to discover the truth."
+  },
+  "involving": {
+    "中文意思": "涉及",
+    "英文释义": "Including or concerning something."
+  },
+  "jpmorgan": {
+    "中文意思": "摩根大通名称中的 JPMorgan",
+    "英文释义": "Part of the financial company's name JPMorgan Chase."
+  },
+  "key": {
+    "中文意思": "关键的；钥匙",
+    "英文释义": "Very important; also an object used to open a lock."
+  },
+  "lauder": {
+    "中文意思": "兰黛（姓氏／品牌名的一部分）",
+    "英文释义": "A surname in the company name Estée Lauder."
+  },
+  "laws": {
+    "中文意思": "法律（复数）",
+    "英文释义": "Rules established by a government."
+  },
+  "least": {
+    "中文意思": "最少（at least：至少）",
+    "英文释义": "The smallest amount; at least means not less than."
+  },
+  "legal": {
+    "中文意思": "法律的；合法的",
+    "英文释义": "Relating to law or permitted by law."
+  },
+  "liberties": {
+    "中文意思": "自由；自由权利",
+    "英文释义": "Freedoms protected as rights."
+  },
+  "limiting": {
+    "中文意思": "限制性的；造成限制的",
+    "英文释义": "Restricting what someone can do or achieve."
+  },
+  "list": {
+    "中文意思": "名单；列表",
+    "英文释义": "A series of names or items."
+  },
+  "llp": {
+    "中文意思": "有限责任合伙企业",
+    "英文释义": "Limited liability partnership."
+  },
+  "long-term": {
+    "中文意思": "长期的；长期而言",
+    "英文释义": "Continuing over or relating to a long period."
+  },
+  "majority": {
+    "中文意思": "多数",
+    "英文释义": "More than half of a group."
+  },
+  "manager": {
+    "中文意思": "经理；管理者",
+    "英文释义": "A person responsible for directing work or staff."
+  },
+  "maximum": {
+    "中文意思": "最大值；最多的",
+    "英文释义": "The greatest possible amount."
+  },
+  "meanwhile": {
+    "中文意思": "与此同时",
+    "英文释义": "At the same time."
+  },
+  "neutral": {
+    "中文意思": "中立的；无偏向的",
+    "英文释义": "Not favouring one side or group."
+  },
+  "numbers": {
+    "中文意思": "数字；数量",
+    "英文释义": "Figures expressing quantities."
+  },
+  "obvious": {
+    "中文意思": "明显的",
+    "英文释义": "Easy to see or understand."
+  },
+  "ohio": {
+    "中文意思": "俄亥俄州",
+    "英文释义": "A state in the United States."
+  },
+  "old": {
+    "中文意思": "旧的；年老的",
+    "英文释义": "Existing for a long time or belonging to the past."
+  },
+  "organisation": {
+    "中文意思": "组织；机构（英式拼写）",
+    "英文释义": "A group formed for a particular purpose; British spelling of organization."
+  },
+  "outten": {
+    "中文意思": "奥滕（律师事务所名称的一部分）",
+    "英文释义": "A surname in the law firm name Outten & Golden."
+  },
+  "painted": {
+    "中文意思": "描绘；涂上颜料",
+    "英文释义": "Presented an image or description; covered with paint."
+  },
+  "parent": {
+    "中文意思": "父亲或母亲",
+    "英文释义": "A mother or father."
+  },
+  "parents": {
+    "中文意思": "父母",
+    "英文释义": "Mothers and fathers."
+  },
+  "partner": {
+    "中文意思": "伴侣；伙伴",
+    "英文释义": "A person sharing a relationship or activity."
+  },
+  "paternity": {
+    "中文意思": "父亲身份；父亲的",
+    "英文释义": "Fatherhood; relating to being a father."
+  },
+  "percentages": {
+    "中文意思": "百分比（复数）",
+    "英文释义": "Proportions expressed as parts out of one hundred."
+  },
+  "persists": {
+    "中文意思": "持续存在",
+    "英文释义": "Continues despite difficulty or opposition."
+  },
+  "picture": {
+    "中文意思": "情况；图画",
+    "英文释义": "An account of a situation, or an image."
+  },
+  "positions": {
+    "中文意思": "职位；位置",
+    "英文释义": "Jobs, ranks, or locations."
+  },
+  "prefer": {
+    "中文意思": "更喜欢；宁愿",
+    "英文释义": "To like or want one thing more than another."
+  },
+  "pressure": {
+    "中文意思": "压力",
+    "英文释义": "Force or influence urging someone to act."
+  },
+  "previous": {
+    "中文意思": "以前的",
+    "英文释义": "Existing or happening before the present one."
+  },
+  "primary": {
+    "中文意思": "主要的；首要的",
+    "英文释义": "Most important or first in order."
+  },
+  "progress": {
+    "中文意思": "进步；发展",
+    "英文释义": "Movement towards improvement or a goal."
+  },
+  "prospects": {
+    "中文意思": "前景；可能性",
+    "英文释义": "Chances of future success or development."
+  },
+  "putting": {
+    "中文意思": "放置；投入",
+    "英文释义": "Placing something or directing effort towards it."
+  },
+  "qualified": {
+    "中文意思": "符合资格的",
+    "英文释义": "Having the required conditions or skills."
+  },
+  "reach": {
+    "中文意思": "达到；到达",
+    "英文释义": "To arrive at a place, position, or level."
+  },
+  "reality": {
+    "中文意思": "现实",
+    "英文释义": "The actual state of affairs."
+  },
+  "recognise": {
+    "中文意思": "认识到；承认（英式拼写）",
+    "英文释义": "To acknowledge or identify; British spelling of recognize."
+  },
+  "record": {
+    "中文意思": "创纪录的；记录",
+    "英文释义": "The highest level yet achieved, or a stored account."
+  },
+  "reflect": {
+    "中文意思": "反映",
+    "英文释义": "To show or represent something."
+  },
+  "reported": {
+    "中文意思": "报告；表示",
+    "英文释义": "Stated or gave information about something."
+  },
+  "represents": {
+    "中文意思": "代表；占",
+    "英文释义": "Stands for or amounts to something."
+  },
+  "rotondo": {
+    "中文意思": "罗通多（姓氏）",
+    "英文释义": "The surname of Derek Rotondo in the passage."
+  },
+  "saw": {
+    "中文意思": "认为；看见（see 的过去式）",
+    "英文释义": "Past tense of see; regarded something in a particular way."
+  },
+  "settlement": {
+    "中文意思": "和解；和解协议",
+    "英文释义": "An agreement ending a legal dispute."
+  },
+  "shocking": {
+    "中文意思": "令人震惊的",
+    "英文释义": "Causing great surprise or distress."
+  },
+  "showing": {
+    "中文意思": "显示；表明",
+    "英文释义": "Making something evident."
+  },
+  "six": {
+    "中文意思": "六",
+    "英文释义": "The number 6."
+  },
+  "standard": {
+    "中文意思": "标准；惯例",
+    "英文释义": "An accepted level, rule, or way of doing things."
+  },
+  "states": {
+    "中文意思": "州；陈述",
+    "英文释义": "Political divisions of a country; also expresses something."
+  },
+  "statutory": {
+    "中文意思": "法定的",
+    "英文释义": "Required or established by law."
+  },
+  "staying": {
+    "中文意思": "停留；待在",
+    "英文释义": "Remaining in a place or condition."
+  },
+  "strong": {
+    "中文意思": "强烈的；强壮的",
+    "英文释义": "Powerful in degree or physical ability."
+  },
+  "struggle": {
+    "中文意思": "斗争；艰难努力",
+    "英文释义": "A difficult effort to achieve something."
+  },
+  "subject": {
+    "中文意思": "话题；主题",
+    "英文释义": "A topic being discussed."
+  },
+  "substantial": {
+    "中文意思": "大量的；重大的",
+    "英文释义": "Large in amount or importance."
+  },
+  "supportive": {
+    "中文意思": "支持的",
+    "英文释义": "Giving help or encouragement."
+  },
+  "surveyed": {
+    "中文意思": "接受调查的；调查了",
+    "英文释义": "Questioned systematically to collect information."
+  },
+  "tasks": {
+    "中文意思": "任务",
+    "英文释义": "Pieces of work to be done."
+  },
+  "three-quarters": {
+    "中文意思": "四分之三",
+    "英文释义": "Three out of four equal parts, or 75 percent."
+  },
+  "thus": {
+    "中文意思": "因此",
+    "英文释义": "As a result."
+  },
+  "tiny": {
+    "中文意思": "极小的",
+    "英文释义": "Very small."
+  },
+  "top": {
+    "中文意思": "首要的；最高的",
+    "英文释义": "Highest in importance or position."
+  },
+  "towards": {
+    "中文意思": "对于；朝向",
+    "英文释义": "In relation to or in the direction of something."
+  },
+  "traditional": {
+    "中文意思": "传统的",
+    "英文释义": "Following long-established customs or beliefs."
+  },
+  "u.s.": {
+    "中文意思": "美国（缩写）",
+    "英文释义": "The United States."
+  },
+  "union": {
+    "中文意思": "联盟；联合会",
+    "英文释义": "An organisation or association of people or groups."
+  },
+  "unstated": {
+    "中文意思": "未明说的",
+    "英文释义": "Not explicitly expressed."
+  },
+  "witnessed": {
+    "中文意思": "见证；目睹",
+    "英文释义": "Observed an event happening."
+  },
+  "year's": {
+    "中文意思": "某年的（year 的所有格）",
+    "英文释义": "The possessive form of year."
   }
 }
