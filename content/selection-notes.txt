@@ -151,3 +151,16 @@
 151|virtue 常指美德，也可指事物的优点；merit 常指优点、价值或值得考虑之处。两词在优点义上重叠，不能绝对区分为“道德”和“能力”。by virtue of 是由于、凭借；on its merits 是根据事物本身的价值来判断。
 152|deserve 通用，既可 deserve praise 也可 deserve punishment；deserve to do / deserve to be done 常用。merit 较正式，merit attention / consideration / investigation 更典型；不要机械写成 merit to do。
 153|still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。
+154|reap 常见于收割庄稼，也常比喻获得成果或承受后果；harvest 侧重收获、采收的过程或收成，也可指采集数据等。reap the benefits 很常见。rip 是撕裂，不是 reap。
+155|exploration 侧重探索活动或过程；expedition 侧重为特定目的组织的一次远行。一次 expedition 可以开展 exploration，但探索不一定要远行，例如 space exploration、career exploration。
+156|accelerate 强调速度或变化速率增加；expedite 强调采取措施使任务或流程更快完成，较正式。accelerate 可不及物，expedite 通常直接接宾语。expedite an application 是加快申请处理。
+157|competent 强调具备胜任所需的技能；capable 强调有能力或潜力，常用 capable of doing；eligible 强调符合资格条件，不等于有实际能力。三者不能排成统一能力等级。
+158|magnify 常指视觉放大，也可夸大问题或影响；amplify 常指增强声音、信号或作用，也可进一步阐述。两者在影响增强的比喻用法中有重叠。
+159|firm 可指坚实、稳固或态度坚定；stout 可指物体结实粗壮，也可形容人身材粗壮，并用于 stout resistance。形容人时需注意语境，stout 不是 firm 的通用替换。
+160|magnificent 常强调壮丽、宏伟或令人赞叹；splendid 也可表示壮观，日常尤可表示极好的。两词有重叠，不宜固定区分为外观和品质。
+161|vital 常表示至关重要或生命必需；形容人也可表示充满活力。hearty 强调热情、精力充沛，或食物丰盛。a hearty meal 不是“健康餐”的同义说法；二者不能只按活力强弱区分。
+162|whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。
+163|fame 强调出名；reputation 强调别人如何评价，可好可坏；prestige 常指因成就、身份而获的声望；stature 此处指受认可的地位，也可指身高。出名不必然意味着受尊敬。
+164|mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。
+165|erode 指风、水等逐渐侵蚀，也可比喻信心或权利被削弱；rust 通常指铁或钢生锈。生锈是特定化学变化，不能把任何腐蚀都叫 rust；能力“生疏”常用 rusty。
+166|turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-16",
+  "base_commit": "19ec6d0b393174b7ee675ce017cff69039b5c8f2",
+  "new_groups": [
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+  ],
+  "new_comparison_rows": 37,
+  "groups": 166,
+  "word_records": 402,
+  "comparison_rows": 409,
+  "preservation": "All 153 published groups and 365 word objects unchanged; phrases, polysemy, reading articles, lookup code and CSS unchanged. Repeated words in new comparisons have group-scoped occurrence IDs.",
+  "content_review": [
+    "Correctly distinguish reap from rip.",
+    "Eligible describes qualification, not skill.",
+    "Revolve is not limited to orbital motion; wheel can describe circular flight.",
+    "Turmoil is a noun; turbulent and chaotic are adjectives.",
+    "No rigid strength rankings or exclusive sense boundaries."
+  ],
+  "sources": [
+    "https://dictionary.cambridge.org/dictionary/english/whirl"
+  ],
+  "validation": {
+    "audit_baseline": "passed",
+    "browser": {
+      "passed": true,
+      "cases": 90,
+      "checks": 11451,
+      "disclosures": 496,
+      "article_views": 132,
+      "lookups": 2448,
+      "errors": [],
+      "overflow": []
+    },
+    "limitations": [
+      "Chromium viewport checks; physical iPhone Safari and device voices not tested.",
+      "verify_release_diff.py targets the pre-upgrade main and rejects already-published changes; exact current-main vocabulary retention is independently checked by verify_preservation.py."
+    ]
+  }
+}
