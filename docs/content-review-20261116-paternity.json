@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-16",
+  "base_commit": "dd3a2a9777d326e3f917474ee70783aa99d709f0",
+  "article": "paternity-leave",
+  "source": "Two user-provided photos, CET-4 December 2023 Paper 2 Section B pp.13–14",
+  "paragraphs": "A–P, 16 English paragraphs and 16 Chinese translations. I joined across page break.",
+  "source_inconsistency": "L: more than double versus 30% and 15%. English preserved exactly; translation and contextual lookup clarify the discrepancy. Historical figures preserved, not presented as current statistics.",
+  "preservation": "All previously published article objects, contextual definitions and dictionary entries unchanged. Phrases, polysemy and comparisons unchanged.",
+  "reviewed_hash_changes": {
+    "content/article-dictionary.json": {
+      "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
+      "after": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6",
+      "reason": "Reviewed additive paternity reading, bilingual lookup coverage and generated asset hashes. Prior records unchanged. See docs/content-review-20261116-paternity.json."
+    },
+    "content/reading-context.json": {
+      "before": "61775b5e88a7c177258e64d5ff73b78fb3345d598bb652563908b4b59e8dc135",
+      "after": "e0a706870ff1e80fbec757efed3d6f7e4ce3cf0ba4c391664f4ee678e99bc195",
+      "reason": "Reviewed additive paternity reading, bilingual lookup coverage and generated asset hashes. Prior records unchanged. See docs/content-review-20261116-paternity.json."
+    },
+    "content/reading_articles.json": {
+      "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
+      "after": "e2607ceaf9e528e7a30afd56058fc7e1ee4198ee2be8744efdc10af13825fcea",
+      "reason": "Reviewed additive paternity reading, bilingual lookup coverage and generated asset hashes. Prior records unchanged. See docs/content-review-20261116-paternity.json."
+    },
+    "dist/article-dictionary.json": {
+      "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
+      "after": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6",
+      "reason": "Reviewed additive paternity reading, bilingual lookup coverage and generated asset hashes. Prior records unchanged. See docs/content-review-20261116-paternity.json."
+    },
+    "dist/reading_articles.json": {
+      "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
+      "after": "e2607ceaf9e528e7a30afd56058fc7e1ee4198ee2be8744efdc10af13825fcea",
+      "reason": "Reviewed additive paternity reading, bilingual lookup coverage and generated asset hashes. Prior records unchanged. See docs/content-review-20261116-paternity.json."
+    },
+    "dist/search-index.json": {
+      "before": "6c830e317b63f9ce760626978324844076b9356171052aaf86f9db10403e66ee",
+      "after": "729e97611ce0936ef2debe9fded2b6b1dfcdb79f3c77b09607c1a4a95a1c29f3",
+      "reason": "Reviewed additive paternity reading, bilingual lookup coverage and generated asset hashes. Prior records unchanged. See docs/content-review-20261116-paternity.json."
+    }
+  },
+  "reviewed_ui_baseline_updates": {
+    "content/article-dictionary.json": {
+      "before": "f7c16af1bf7bb0246ef3b094aa70b08c7bc3db8ff7f75eabd73921a490979095",
+      "after": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6"
+    },
+    "content/reading_articles.json": {
+      "before": "29e17d560fe419774d7c05d299ea94f40118a9fd072f34f1be0acb8634bd3333",
+      "after": "d5d03c1ae974d02f923a2fe9e8857713961a37f4658ed711d41bcff7395a1efc"
+    },
+    "content/reading-context.json": {
+      "before": "45770eff180ae35f743df085e3e82faa6092071ee414f899a4e6022b75adf604",
+      "after": "7b87c9fc21a92f85fd033250e8412132727eef7bf434c74b8cbb158b2226dba7"
+    },
+    "dist/article-dictionary.json": {
+      "before": "f7c16af1bf7bb0246ef3b094aa70b08c7bc3db8ff7f75eabd73921a490979095",
+      "after": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6"
+    },
+    "dist/reading_articles.json": {
+      "before": "29e17d560fe419774d7c05d299ea94f40118a9fd072f34f1be0acb8634bd3333",
+      "after": "d5d03c1ae974d02f923a2fe9e8857713961a37f4658ed711d41bcff7395a1efc"
+    },
+    "dist/search-index.json": {
+      "before": "753e67d441624cdfd09c58a435cc2c3e9d946272459c851aa4dfffb5a73f5791",
+      "after": "5f6b95a9c5feaa5ca46e38fd70d1e242e8c6f39d020f32c0bdfa25789d062c36"
+    }
+  },
+  "browser_validation": {
+    "passed": true,
+    "cases": 90,
+    "checks": 10471,
+    "disclosures": 470,
+    "articleViews": 108,
+    "lookups": 2232,
+    "errors": [],
+    "overflow": [],
+    "resourceChecks": 42,
+    "manual_checks": [
+      "New article paternity leave contextual definition",
+      "L more than double note",
+      "Paragraph selection to L"
+    ],
+    "scope": "Chromium responsive iframe regression; physical iPhone Safari not tested"
+  }
+}

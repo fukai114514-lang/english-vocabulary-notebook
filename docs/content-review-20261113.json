@@ -56,8 +56,8 @@
     },
     "dist/search-index.json": {
       "before": "6c830e317b63f9ce760626978324844076b9356171052aaf86f9db10403e66ee",
-      "after": "753e67d441624cdfd09c58a435cc2c3e9d946272459c851aa4dfffb5a73f5791",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "5f6b95a9c5feaa5ca46e38fd70d1e242e8c6f39d020f32c0bdfa25789d062c36",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "dist/vocabulary.json": {
       "before": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
@@ -77,38 +77,38 @@
     },
     "migration/reviewed-changes-3.0.json": {
       "before": "e49416df1cf8121863f354c09c2fb7af7b59bca9a5a80960bbbcdb94ed5bd918",
-      "after": "5ed2d820e5b871f4b2fc184fda7400f388ad0ed3d95226e096882ec345c4e16f",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "49089eeedee16a211ce2e6809d4ea0e7296f284eb37fdf66d0597ed2441e6643",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "migration/ui-content-baseline.json": {
       "before": "159ad49f7517b4f8d146e70bd4c73cb827eef07b31771ee43a09313ce4c0e064",
-      "after": "442ab648050ff20b7e69c21fdc7efd127aa5699cef8e4b90f1e01dfa97b9fef1",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "900bddfe29198fe7a611453c739de14c864e122588ca738405983a976bd95efc",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "content/article-dictionary.json": {
       "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
-      "after": "f7c16af1bf7bb0246ef3b094aa70b08c7bc3db8ff7f75eabd73921a490979095",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "content/reading-context.json": {
       "before": "61775b5e88a7c177258e64d5ff73b78fb3345d598bb652563908b4b59e8dc135",
-      "after": "45770eff180ae35f743df085e3e82faa6092071ee414f899a4e6022b75adf604",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "7b87c9fc21a92f85fd033250e8412132727eef7bf434c74b8cbb158b2226dba7",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "content/reading_articles.json": {
       "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
-      "after": "29e17d560fe419774d7c05d299ea94f40118a9fd072f34f1be0acb8634bd3333",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "d5d03c1ae974d02f923a2fe9e8857713961a37f4658ed711d41bcff7395a1efc",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "dist/article-dictionary.json": {
       "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
-      "after": "f7c16af1bf7bb0246ef3b094aa70b08c7bc3db8ff7f75eabd73921a490979095",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     },
     "dist/reading_articles.json": {
       "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
-      "after": "29e17d560fe419774d7c05d299ea94f40118a9fd072f34f1be0acb8634bd3333",
-      "reason": "Hobbies reading addition; all prior article objects, contextual entries, and dictionary definitions preserved; generated search entries only appended."
+      "after": "d5d03c1ae974d02f923a2fe9e8857713961a37f4658ed711d41bcff7395a1efc",
+      "reason": "Reviewed paternity article addition and baseline records, with additive semantic checks; see docs/content-review-20261116-paternity.json."
     }
   },
   "removed_phrases": [
