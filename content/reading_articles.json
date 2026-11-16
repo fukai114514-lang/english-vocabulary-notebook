@@ -219,5 +219,23 @@
       "O": "这位来自俄亥俄州哥伦布市的两个孩子的父亲，仍在该公司担任助理和调查员。他说，和解之后，他已看到各家公司之间出现“多米诺效应”，但在改变对陪产假的态度方面，仍有很大的进步空间。",
       "P": "“我确实认为还有一段路要走……人们仍会对新晋父亲抱有某种未明说的期待，认为他们基本上应该立即回去工作。不过，我认为研究表明，这种情况正在开始改变。”他说，平等的育儿假是实现职场性别平等的重要组成部分。“女性待在家里、生孩子、做饭的旧标准已经不适用了，而且早已不适用了。”"
     }
+  },
+  {
+    "id": "rivalry-and-entrepreneurship",
+    "title": "Rivalry and Entrepreneurial Decision-Making",
+    "titleZh": "竞争关系与创业决策",
+    "source": "User-provided CET-4 · December 2023 · Paper 2 · Passage One. Descriptive title and paragraph labels added for navigation; article body only, no questions or answers.",
+    "paragraphs": {
+      "A": "Having a rival can keep you committed to achieving your goals and enhance your overall performance. But before you go out and find an entrepreneur to outcompete, it’s important to understand and avoid the traps that often come with rivalry. After all, competitive rivalry can also hinder effective decision-making and increase your willingness to take risks, behaviors that can ultimately hurt your venture’s success.",
+      "B": "Finding someone you’re committed to outcompeting can be a great way to stay focused on your goals and push your venture to the next level. But when you’re intently focused on outperforming your rivals, you may begin to develop a “win-at-all-costs” mentality that causes you to ignore how you achieve success. One group of researchers, for example, examined the link between rivalry and unethical behavior. They found that when people compete against their rivals, they are more willing to behave unethically to win. But such behavior may stain your reputation and strain relationships important to your success. One way to avoid this trap is to stop and reflect on what’s important. While outperforming your rivals may provide short-term benefits, the loss of your integrity will have long-term consequences.",
+      "C": "One reason having a rival can enhance your venture’s performance is that it creates a level of excitement that drives you to work harder. But this eagerness to win may also hurt your venture’s success, particularly when it causes you to make impulsive, insensible decisions. But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of your venture.",
+      "D": "The sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril. One way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making."
+    },
+    "translationZh": {
+      "A": "有一个竞争对手，可以让你坚持实现目标，并提升整体表现。但在你着手寻找一位企业家作为超越对象之前，重要的是理解并避开竞争常常伴随的陷阱。毕竟，竞争也可能妨碍有效决策，增加你冒险的意愿，而这些行为最终可能损害你的创业事业。",
+      "B": "找到一个你决心超越的人，是保持目标专注、推动事业更上一层楼的好办法。但当你一心只想着胜过对手时，可能会逐渐形成一种“不惜一切代价取胜”的心态，让你忽视自己是如何取得成功的。例如，一组研究人员考察了竞争关系与不道德行为之间的联系。他们发现，人们与自己的竞争对手较量时，更愿意为了获胜而采取不道德的行为。然而，这样做可能损害你的声誉，使对成功至关重要的人际关系变得紧张。避免这一陷阱的一个办法，是停下来思考什么才真正重要。虽然胜过竞争对手可能带来短期利益，但丧失诚信会产生长期后果。",
+      "C": "竞争对手之所以能提升你的事业表现，一个原因是竞争会带来一定程度的兴奋，促使你更加努力。但这种求胜的急切心情也可能损害事业的成功，尤其是在它使你作出冲动、不明智的决定时。不过，你可以通过养成批判性思考的习惯来避免这些代价高昂的错误，例如考虑不同立场的观点、进行成本收益分析，尤其是在作出复杂且可能决定事业未来的决策时。",
+      "D": "拥有竞争对手带来的急切感，不仅可能使你作出更糟糕的决定，还可能让你承担更大的风险，使事业陷入险境。要克服竞争所带来的、可能危及事业成功的冒险倾向，一种办法是始终留意自己的情绪状态，并主动观察这些感受正在如何影响你的决策。"
+    }
   }
 ]

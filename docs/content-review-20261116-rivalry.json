@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-16",
+  "base_commit": "a22568375a2d03de4023d14e5f3a5c4468db4c16",
+  "article": "rivalry-and-entrepreneurship",
+  "scope": "Only the passage, with the existing bilingual reading format. No examination questions or answers. No Phrases, Word Meanings or comparison entries added.",
+  "source_review": "Four English paragraphs transcribed from the user photos. Final paragraph joined across the page break. Descriptive title and A–D labels added for navigation.",
+  "preservation": "Every prior article object, dictionary definition and contextual entry unchanged.",
+  "reviewed_ui_baseline_updates": {
+    "content/article-dictionary.json": {
+      "before": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6",
+      "after": "27343c9448da1d13079436b338a6c3a3fd5085c91487835ba56b667abfa3e993"
+    },
+    "content/reading_articles.json": {
+      "before": "d5d03c1ae974d02f923a2fe9e8857713961a37f4658ed711d41bcff7395a1efc",
+      "after": "0d35841b897f0a79d8a506affb96fcfa1181b10157b257a2dac45b20e986828f"
+    },
+    "content/reading-context.json": {
+      "before": "aec64035db4181ca2eb05c436fd3258f462699f16e4ec21c8c0afaab5fd03e10",
+      "after": "1cf1cdb4fa45d2750d1a564122ffcaf2cab79dd49da17cfb4625ec48677d3e55"
+    },
+    "dist/article-dictionary.json": {
+      "before": "f5fa994dc41671963dc8d207752794fba3cd026e045d39686a78bb2241e769d6",
+      "after": "27343c9448da1d13079436b338a6c3a3fd5085c91487835ba56b667abfa3e993"
+    },
+    "dist/reading_articles.json": {
+      "before": "d5d03c1ae974d02f923a2fe9e8857713961a37f4658ed711d41bcff7395a1efc",
+      "after": "0d35841b897f0a79d8a506affb96fcfa1181b10157b257a2dac45b20e986828f"
+    },
+    "dist/search-index.json": {
+      "before": "5f6b95a9c5feaa5ca46e38fd70d1e242e8c6f39d020f32c0bdfa25789d062c36",
+      "after": "ed9ec227599256b92623f834c7556122f5f79883e9b09744e745a8ebcc5b9305"
+    }
+  },
+  "validation": {
+    "offline_audit_passed": true,
+    "browser": {
+      "passed": true,
+      "cases": 90,
+      "checks": 10907,
+      "articleViews": 120,
+      "lookups": 2328,
+      "errors": [],
+      "overflow": []
+    },
+    "manual": [
+      "Four paragraphs; final paragraph complete across page break",
+      "Venture contextual lookup correct"
+    ],
+    "limit": "Responsive Chromium checks; physical iPhone Safari not tested"
+  }
+}

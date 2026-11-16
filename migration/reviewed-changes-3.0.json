@@ -20,8 +20,8 @@
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "b60646201b21c7c884a77cdd0de0f51e8f64405cabe534bed51ab35d9a3cd7f3",
-    "reason": "Reviewed additive paternity-leave article card and reading count; prior learning data preserved. See docs/content-review-20261116-paternity.json."
+    "sha256": "285b54d950c9e486d1256fdffa27578f983b1fce13a0517f19c47c189aebc3b1",
+    "reason": "Reviewed additive rivalry reading card; all prior learning data unchanged. See docs/content-review-20261116-rivalry.json."
   },
   "dist/polysemy.json": {
     "sha256": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
