@@ -956,6 +956,8 @@ td p {
   vertical-align:middle;
 }
 #reader .lookup-word {
+  -webkit-tap-highlight-color:transparent;
+  outline:none;
   appearance:none;
   border:0;
   border-radius:3px;
@@ -974,11 +976,11 @@ td p {
 }
 #reader .lookup-word:hover,#reader .lookup-word.phrase-active {
   color:var(--accent);
-  background:var(--tint);
+  background:transparent;
 }
 #reader .lookup-word:focus-visible {
-  outline-width:2px;
-  outline-offset:2px;
+  text-decoration:underline;
+  text-underline-offset:.18em;
 }
 .para-translation {
   margin:0 0 28px;
