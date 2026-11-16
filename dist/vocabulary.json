@@ -7931,6 +7931,765 @@
       ],
       "selectionNote": "still 强调当下不动；static 强调状态或数值不变。静态图片是 a static image；让人别动说 keep still。statical 不是 static 的副词，副词是 statically；statistical 才是统计的。statical 在专业语境可用，但多数日常场合优先 static。",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-154",
+      "number": 154,
+      "wordIds": [
+        "word-820c2cfb23233914",
+        "word-fbb1626792d623d8"
+      ],
+      "entries": [
+        {
+          "wordId": "word-820c2cfb23233914",
+          "meaningZh": "v. 收割；获得成果",
+          "definitionEn": "To cut a crop or receive the results of an action.",
+          "scenario": "常用于庄稼以及行动带来的收益或后果",
+          "collocations": [
+            "reap the benefits",
+            "reap rewards"
+          ],
+          "examples": [
+            {
+              "en": "You will reap the benefits of regular practice.",
+              "zh": "你会从经常练习中获益。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-fbb1626792d623d8",
+          "meaningZh": "v./n. 收获；采收；收成",
+          "definitionEn": "To gather crops, or the crops gathered.",
+          "scenario": "可指收集成熟农作物的过程，也可指收集其他资源",
+          "collocations": [
+            "harvest crops",
+            "a good harvest"
+          ],
+          "examples": [
+            {
+              "en": "The farmers harvested the rice in October.",
+              "zh": "农民们在十月收割了水稻。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "reap 常见于收割庄稼，也常比喻获得成果或承受后果；harvest 侧重收获、采收的过程或收成，也可指采集数据等。reap the benefits 很常见。rip 是撕裂，不是 reap。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-155",
+      "number": 155,
+      "wordIds": [
+        "word-1b2cba774a6f1eb9",
+        "word-81e297d0b0bef710"
+      ],
+      "entries": [
+        {
+          "wordId": "word-1b2cba774a6f1eb9",
+          "meaningZh": "n. 探索；勘探",
+          "definitionEn": "The activity of investigating unfamiliar places or ideas.",
+          "scenario": "侧重了解未知事物或地区的过程",
+          "collocations": [
+            "space exploration",
+            "oil exploration"
+          ],
+          "examples": [
+            {
+              "en": "The book encourages exploration of new ideas.",
+              "zh": "这本书鼓励探索新想法。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-81e297d0b0bef710",
+          "meaningZh": "n. 远征；考察队；考察旅行",
+          "definitionEn": "An organized journey for a particular purpose, or its participants.",
+          "scenario": "侧重有明确目的、经过组织的一次行程或团队",
+          "collocations": [
+            "a scientific expedition",
+            "an expedition to"
+          ],
+          "examples": [
+            {
+              "en": "They joined a scientific expedition to the Arctic.",
+              "zh": "他们参加了一次北极科学考察。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "exploration 侧重探索活动或过程；expedition 侧重为特定目的组织的一次远行。一次 expedition 可以开展 exploration，但探索不一定要远行，例如 space exploration、career exploration。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-156",
+      "number": 156,
+      "wordIds": [
+        "word-17df4429c22857fd",
+        "word-9c9cff9d22e3ba93"
+      ],
+      "entries": [
+        {
+          "wordId": "word-17df4429c22857fd",
+          "meaningZh": "v. 加速；促进",
+          "definitionEn": "To increase speed or make a process happen faster.",
+          "scenario": "可指车辆提速，也可指增长或变化加快",
+          "collocations": [
+            "accelerate growth",
+            "accelerate rapidly"
+          ],
+          "examples": [
+            {
+              "en": "The car accelerated as it left the village.",
+              "zh": "汽车驶离村庄时加速了。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-9c9cff9d22e3ba93",
+          "meaningZh": "v. 加快；促进办理",
+          "definitionEn": "To take action that helps a task or process finish sooner.",
+          "scenario": "通常指通过行动加快流程或任务的完成",
+          "collocations": [
+            "expedite the process",
+            "expedite delivery"
+          ],
+          "examples": [
+            {
+              "en": "We sent the missing documents to expedite the application.",
+              "zh": "我们寄出了缺失文件，以加快申请处理。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "accelerate 强调速度或变化速率增加；expedite 强调采取措施使任务或流程更快完成，较正式。accelerate 可不及物，expedite 通常直接接宾语。expedite an application 是加快申请处理。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-157",
+      "number": 157,
+      "wordIds": [
+        "word-e8982253091fa567",
+        "word-acd0e5db3cbd04f8",
+        "word-afb3718920034279"
+      ],
+      "entries": [
+        {
+          "wordId": "word-e8982253091fa567",
+          "meaningZh": "adj. 胜任的；合格的",
+          "definitionEn": "Having sufficient skill or knowledge to do something properly.",
+          "scenario": "具备完成工作所需的知识和技能",
+          "collocations": [
+            "competent at",
+            "competent to do"
+          ],
+          "examples": [
+            {
+              "en": "She is competent to manage the project.",
+              "zh": "她有能力管理这个项目。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-acd0e5db3cbd04f8",
+          "meaningZh": "adj. 有能力的",
+          "definitionEn": "Having the ability or potential to do something.",
+          "scenario": "可指实际能力或潜力，常与 of 搭配",
+          "collocations": [
+            "capable of doing",
+            "a capable leader"
+          ],
+          "examples": [
+            {
+              "en": "He is capable of solving the problem himself.",
+              "zh": "他能够独立解决这个问题。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-afb3718920034279",
+          "meaningZh": "adj. 符合资格的",
+          "definitionEn": "Meeting the conditions required to receive or do something.",
+          "scenario": "满足规定的年龄、身份或其他条件",
+          "collocations": [
+            "eligible for",
+            "eligible to apply"
+          ],
+          "examples": [
+            {
+              "en": "First-year students are eligible to apply.",
+              "zh": "大一学生符合申请资格。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "competent 强调具备胜任所需的技能；capable 强调有能力或潜力，常用 capable of doing；eligible 强调符合资格条件，不等于有实际能力。三者不能排成统一能力等级。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-158",
+      "number": 158,
+      "wordIds": [
+        "word-496192c2834187ff",
+        "word-cc769de9446adab4"
+      ],
+      "entries": [
+        {
+          "wordId": "word-496192c2834187ff",
+          "meaningZh": "v. 放大；夸大",
+          "definitionEn": "To make something appear larger or more important.",
+          "scenario": "突出看起来更大，或把问题显得更严重",
+          "collocations": [
+            "magnify an image",
+            "magnify a problem"
+          ],
+          "examples": [
+            {
+              "en": "The lens magnifies the tiny letters.",
+              "zh": "镜片把细小的字母放大了。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-cc769de9446adab4",
+          "meaningZh": "v. 增强；放大；详述",
+          "definitionEn": "To increase the strength of a sound, signal or effect, or add detail.",
+          "scenario": "突出声音、信号或效果增强，也可补充说明",
+          "collocations": [
+            "amplify a signal",
+            "amplify an effect"
+          ],
+          "examples": [
+            {
+              "en": "The microphone amplifies her voice.",
+              "zh": "麦克风放大了她的声音。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "magnify 常指视觉放大，也可夸大问题或影响；amplify 常指增强声音、信号或作用，也可进一步阐述。两者在影响增强的比喻用法中有重叠。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-159",
+      "number": 159,
+      "wordIds": [
+        "word-5c2d85053e971b4d",
+        "word-0d94582c13764a92"
+      ],
+      "entries": [
+        {
+          "wordId": "word-5c2d85053e971b4d",
+          "meaningZh": "adj. 坚实的；坚定的",
+          "definitionEn": "Solid or steady, or unlikely to change a decision.",
+          "scenario": "可指质地、支撑或决定稳定，不易改变",
+          "collocations": [
+            "a firm grip",
+            "a firm decision"
+          ],
+          "examples": [
+            {
+              "en": "The mattress is firm but comfortable.",
+              "zh": "这张床垫坚实而舒适。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-0d94582c13764a92",
+          "meaningZh": "adj. 结实的；粗壮的；坚决的",
+          "definitionEn": "Thick and strong, or determined in resisting something.",
+          "scenario": "常指粗厚结实的物体、体型或坚决的抵抗",
+          "collocations": [
+            "stout boots",
+            "stout resistance"
+          ],
+          "examples": [
+            {
+              "en": "We wore stout boots for the walk.",
+              "zh": "我们穿了结实的靴子去徒步。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "firm 可指坚实、稳固或态度坚定；stout 可指物体结实粗壮，也可形容人身材粗壮，并用于 stout resistance。形容人时需注意语境，stout 不是 firm 的通用替换。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-160",
+      "number": 160,
+      "wordIds": [
+        "word-7f668f018aaea3ee",
+        "word-42428c1464fe1d31"
+      ],
+      "entries": [
+        {
+          "wordId": "word-7f668f018aaea3ee",
+          "meaningZh": "adj. 壮丽的；出色的",
+          "definitionEn": "Very beautiful, impressive or excellent.",
+          "scenario": "常强调规模、美感或表现令人赞叹",
+          "collocations": [
+            "a magnificent view",
+            "a magnificent performance"
+          ],
+          "examples": [
+            {
+              "en": "The mountain scenery was magnificent.",
+              "zh": "山间景色十分壮丽。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-42428c1464fe1d31",
+          "meaningZh": "adj. 极好的；壮观的",
+          "definitionEn": "Excellent or impressive in appearance or quality.",
+          "scenario": "可赞赏经历、想法、表现或外观",
+          "collocations": [
+            "a splendid idea",
+            "a splendid view"
+          ],
+          "examples": [
+            {
+              "en": "We had a splendid afternoon by the lake.",
+              "zh": "我们在湖边度过了一个美好的下午。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "magnificent 常强调壮丽、宏伟或令人赞叹；splendid 也可表示壮观，日常尤可表示极好的。两词有重叠，不宜固定区分为外观和品质。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-161",
+      "number": 161,
+      "wordIds": [
+        "word-b356de50195508b8",
+        "word-66d72b7106bec8d6"
+      ],
+      "entries": [
+        {
+          "wordId": "word-b356de50195508b8",
+          "meaningZh": "adj. 至关重要的；充满活力的",
+          "definitionEn": "Extremely important or necessary for life or success.",
+          "scenario": "多强调不可缺少的重要性，也能形容活力",
+          "collocations": [
+            "vital for",
+            "vital signs"
+          ],
+          "examples": [
+            {
+              "en": "Sleep is vital for recovery.",
+              "zh": "睡眠对恢复至关重要。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-66d72b7106bec8d6",
+          "meaningZh": "adj. 热情的；精力充沛的；丰盛的",
+          "definitionEn": "Warm and enthusiastic, vigorous, or large and satisfying as a meal.",
+          "scenario": "常形容欢迎、笑声、食欲或饱足的一餐",
+          "collocations": [
+            "a hearty welcome",
+            "a hearty meal"
+          ],
+          "examples": [
+            {
+              "en": "They gave us a hearty welcome.",
+              "zh": "他们热情地欢迎了我们。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "vital 常表示至关重要或生命必需；形容人也可表示充满活力。hearty 强调热情、精力充沛，或食物丰盛。a hearty meal 不是“健康餐”的同义说法；二者不能只按活力强弱区分。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-162",
+      "number": 162,
+      "wordIds": [
+        "word-2256b1a6e45538fe",
+        "word-88f13db6d67bf707",
+        "word-2bc61b374eaf7fa9",
+        "word-612e29b20ca025a6",
+        "word-65552ab3f3c749a2"
+      ],
+      "entries": [
+        {
+          "wordId": "word-2256b1a6e45538fe",
+          "meaningZh": "v. 快速旋转；回旋",
+          "definitionEn": "To move, or make something move, in circles, often quickly.",
+          "scenario": "常呈现快速转动或纷乱运动的画面",
+          "collocations": [
+            "whirl around",
+            "whirl in the wind"
+          ],
+          "examples": [
+            {
+              "en": "Dry leaves whirled around the courtyard.",
+              "zh": "干树叶在院子里打着旋儿。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-88f13db6d67bf707",
+          "meaningZh": "v. 旋转",
+          "definitionEn": "To turn around quickly; also to make thread or present a particular version of events.",
+          "scenario": "常指连续转动，可强调速度",
+          "collocations": [
+            "spin around",
+            "spin a wheel"
+          ],
+          "examples": [
+            {
+              "en": "The top spun on the table.",
+              "zh": "陀螺在桌上旋转。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-2bc61b374eaf7fa9",
+          "meaningZh": "v. 旋转；绕转",
+          "definitionEn": "To turn around a central point or axis; to have something as the main focus.",
+          "scenario": "可绕中心或轴运动，搭配 around 可有围绕义",
+          "collocations": [
+            "revolve around",
+            "a revolving door"
+          ],
+          "examples": [
+            {
+              "en": "The Earth revolves around the Sun.",
+              "zh": "地球绕太阳运行。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-612e29b20ca025a6",
+          "meaningZh": "v. 转动；轮换",
+          "definitionEn": "To turn around an axis or take turns in a regular order.",
+          "scenario": "中性描述绕轴转动，也可表示轮流更换",
+          "collocations": [
+            "rotate on an axis",
+            "rotate duties"
+          ],
+          "examples": [
+            {
+              "en": "The Earth rotates on its axis.",
+              "zh": "地球绕地轴自转。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-65552ab3f3c749a2",
+          "meaningZh": "v. 盘旋；转身；推着走",
+          "definitionEn": "A circular part that turns on an axle; to move something on wheels, or turn and move in a curve or circle.",
+          "scenario": "动词可指大幅转向或盘旋，并非只指车轮转动",
+          "collocations": [
+            "wheel around",
+            "wheel overhead"
+          ],
+          "examples": [
+            {
+              "en": "Birds wheeled above the cliffs.",
+              "zh": "鸟儿在悬崖上空盘旋。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-163",
+      "number": 163,
+      "wordIds": [
+        "word-555cd47d7d2f1610",
+        "word-f26bacc61edab1c3",
+        "word-c31d30ad41ab324f",
+        "word-c48fc6d75ffae757"
+      ],
+      "entries": [
+        {
+          "wordId": "word-555cd47d7d2f1610",
+          "meaningZh": "n. 声望；威望",
+          "definitionEn": "Respect and admiration associated with achievements or status.",
+          "scenario": "强调获得的尊重与社会认可",
+          "collocations": [
+            "international prestige",
+            "gain prestige"
+          ],
+          "examples": [
+            {
+              "en": "The award brought the university greater prestige.",
+              "zh": "这个奖项提高了这所大学的声望。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-f26bacc61edab1c3",
+          "meaningZh": "n. 名声；出名",
+          "definitionEn": "The state of being known by many people.",
+          "scenario": "强调被很多人知道，不保证评价良好",
+          "collocations": [
+            "rise to fame",
+            "worldwide fame"
+          ],
+          "examples": [
+            {
+              "en": "The singer rose to fame at a young age.",
+              "zh": "这位歌手年少时就成名了。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-c31d30ad41ab324f",
+          "meaningZh": "n. 名声；评价",
+          "definitionEn": "The opinion people generally have of someone or something.",
+          "scenario": "强调公众对品质、行为或能力的看法，可正可负",
+          "collocations": [
+            "a reputation for",
+            "a bad reputation"
+          ],
+          "examples": [
+            {
+              "en": "The shop has a reputation for good service.",
+              "zh": "这家店以服务好著称。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-c48fc6d75ffae757",
+          "meaningZh": "n. 地位；声望；身高",
+          "definitionEn": "Recognized importance in a field; also a person's height.",
+          "scenario": "此处侧重在某领域受认可的地位，另有身高义",
+          "collocations": [
+            "a writer of international stature",
+            "gain stature"
+          ],
+          "examples": [
+            {
+              "en": "She is a scientist of international stature.",
+              "zh": "她是一位享有国际声望的科学家。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "fame 强调出名；reputation 强调别人如何评价，可好可坏；prestige 常指因成就、身份而获的声望；stature 此处指受认可的地位，也可指身高。出名不必然意味着受尊敬。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-164",
+      "number": 164,
+      "wordIds": [
+        "word-402a9c02ddb4eebf",
+        "word-54aa0f3d2efe2c99",
+        "word-510b0dbc0525f2ec",
+        "word-3bb63fa47f8f9d29",
+        "word-6bc0683fc0e5c1fc",
+        "word-a7f725069a025a67"
+      ],
+      "entries": [
+        {
+          "wordId": "word-402a9c02ddb4eebf",
+          "meaningZh": "v. 混合；与人交往",
+          "definitionEn": "To mix together or move among people and talk to them.",
+          "scenario": "既可指不同成分交织，也可指在社交场合走动交谈",
+          "collocations": [
+            "mingle with guests",
+            "mingle with"
+          ],
+          "examples": [
+            {
+              "en": "She mingled with the guests after dinner.",
+              "zh": "晚饭后她与宾客们交谈。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-54aa0f3d2efe2c99",
+          "meaningZh": "v. 混合；交往",
+          "definitionEn": "To combine things, which may remain distinguishable; a combination.",
+          "scenario": "通用词，是否完全融合取决于语境",
+          "collocations": [
+            "mix flour with water",
+            "mix with people"
+          ],
+          "examples": [
+            {
+              "en": "Mix the flour with water.",
+              "zh": "将面粉与水混合。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-510b0dbc0525f2ec",
+          "meaningZh": "v. 混合；融合",
+          "definitionEn": "To combine smoothly into a unified mixture.",
+          "scenario": "常强调混合均匀或彼此协调",
+          "collocations": [
+            "blend ingredients",
+            "blend in with"
+          ],
+          "examples": [
+            {
+              "en": "The colors blend well together.",
+              "zh": "这些颜色搭配得很协调。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-3bb63fa47f8f9d29",
+          "meaningZh": "v. 结合；组合",
+          "definitionEn": "To bring things together for a joint result or purpose.",
+          "scenario": "强调把部分或作用结合，未必消除各自特点",
+          "collocations": [
+            "combine A with B",
+            "combine efforts"
+          ],
+          "examples": [
+            {
+              "en": "The course combines theory with practice.",
+              "zh": "这门课程将理论与实践结合。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-6bc0683fc0e5c1fc",
+          "meaningZh": "v. 合并；融入",
+          "definitionEn": "To join together into one entity or flow.",
+          "scenario": "常指组织、道路或成分汇合成一体",
+          "collocations": [
+            "merge with",
+            "merge into"
+          ],
+          "examples": [
+            {
+              "en": "The two companies merged last year.",
+              "zh": "这两家公司去年合并了。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-a7f725069a025a67",
+          "meaningZh": "v. 联想；交往",
+          "definitionEn": "To connect ideas or people; a colleague; sometimes a lower-ranking title.",
+          "scenario": "associate A with B 是关联；associate with sb 是交往",
+          "collocations": [
+            "associate with",
+            "associate A with B"
+          ],
+          "examples": [
+            {
+              "en": "People associate the city with art.",
+              "zh": "人们把这座城市与艺术联系起来。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-165",
+      "number": 165,
+      "wordIds": [
+        "word-b28787ad09c98976",
+        "word-ee6952fb6afc61ed"
+      ],
+      "entries": [
+        {
+          "wordId": "word-b28787ad09c98976",
+          "meaningZh": "v. 侵蚀；逐渐削弱",
+          "definitionEn": "To wear away gradually or weaken over time.",
+          "scenario": "可指地表被磨蚀，也可指抽象事物逐渐受损",
+          "collocations": [
+            "erode soil",
+            "erode confidence"
+          ],
+          "examples": [
+            {
+              "en": "Repeated delays eroded their confidence.",
+              "zh": "一再延误逐渐削弱了他们的信心。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-ee6952fb6afc61ed",
+          "meaningZh": "v./n. 生锈；铁锈",
+          "definitionEn": "To develop a reddish-brown coating on iron or steel.",
+          "scenario": "通常指铁或钢与氧和水分反应形成铁锈",
+          "collocations": [
+            "rust in the rain",
+            "remove rust"
+          ],
+          "examples": [
+            {
+              "en": "The iron gate began to rust.",
+              "zh": "铁门开始生锈了。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "erode 指风、水等逐渐侵蚀，也可比喻信心或权利被削弱；rust 通常指铁或钢生锈。生锈是特定化学变化，不能把任何腐蚀都叫 rust；能力“生疏”常用 rusty。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-166",
+      "number": 166,
+      "wordIds": [
+        "word-48b2437f6253c44b",
+        "word-0a05681204e66741",
+        "word-ee3900b9d1decfde"
+      ],
+      "entries": [
+        {
+          "wordId": "word-48b2437f6253c44b",
+          "meaningZh": "n. 动荡；混乱；心绪不宁",
+          "definitionEn": "A state of confusion, unrest or emotional disturbance.",
+          "scenario": "可描述社会、局势或人的内心混乱",
+          "collocations": [
+            "in turmoil",
+            "political turmoil"
+          ],
+          "examples": [
+            {
+              "en": "His mind was in turmoil after the news.",
+              "zh": "听到消息后他心绪不宁。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-0a05681204e66741",
+          "meaningZh": "adj. 动荡的；汹涌的",
+          "definitionEn": "Marked by violent movement, conflict or unstable change.",
+          "scenario": "侧重不稳定、剧烈变化或冲突，也可形容水流气流",
+          "collocations": [
+            "turbulent times",
+            "turbulent water"
+          ],
+          "examples": [
+            {
+              "en": "It was a turbulent period in the country's history.",
+              "zh": "那是这个国家历史上一段动荡时期。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-ee3900b9d1decfde",
+          "meaningZh": "adj. 混乱无序的",
+          "definitionEn": "Completely disorganized or lacking order.",
+          "scenario": "侧重缺乏组织或秩序",
+          "collocations": [
+            "a chaotic situation",
+            "chaotic traffic"
+          ],
+          "examples": [
+            {
+              "en": "Traffic was chaotic after the storm.",
+              "zh": "暴风雨后交通混乱不堪。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -20452,6 +21211,1264 @@
       ],
       "correctUsage": "The area was designated for study.",
       "commonMistakes": "assign 回答“把什么交给谁”，arrange 回答“怎么安排好”。可以先 assign tasks to team members，再 arrange a meeting。安排某人做事常用 arrange for sb to do，不能机械套成 arrange sb to do。原网站的 appoint / arrange 仍保留，appoint 侧重正式任命。 designate 强调正式指定某人或某物的身份、用途，常用 designate someone as / designate an area for。appoint 偏正式任命职位（见第13组）；assign 偏分配任务；arrange 偏协调安排。designate 的指定不总等于任命。"
+    },
+    {
+      "id": "word-820c2cfb23233914",
+      "lemma": "reap",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-154"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 收割；获得成果",
+      "definitionEn": "To cut a crop or receive the results of an action.",
+      "scenario": "常用于庄稼以及行动带来的收益或后果",
+      "collocations": [
+        "reap the benefits",
+        "reap rewards"
+      ],
+      "examples": [
+        {
+          "en": "You will reap the benefits of regular practice.",
+          "zh": "你会从经常练习中获益。"
+        }
+      ],
+      "correctUsage": "You will reap the benefits of regular practice.",
+      "commonMistakes": "reap 常见于收割庄稼，也常比喻获得成果或承受后果；harvest 侧重收获、采收的过程或收成，也可指采集数据等。reap the benefits 很常见。rip 是撕裂，不是 reap。"
+    },
+    {
+      "id": "word-fbb1626792d623d8",
+      "lemma": "harvest",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-154"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 收获；采收；收成",
+      "definitionEn": "To gather crops, or the crops gathered.",
+      "scenario": "可指收集成熟农作物的过程，也可指收集其他资源",
+      "collocations": [
+        "harvest crops",
+        "a good harvest"
+      ],
+      "examples": [
+        {
+          "en": "The farmers harvested the rice in October.",
+          "zh": "农民们在十月收割了水稻。"
+        }
+      ],
+      "correctUsage": "The farmers harvested the rice in October.",
+      "commonMistakes": "reap 常见于收割庄稼，也常比喻获得成果或承受后果；harvest 侧重收获、采收的过程或收成，也可指采集数据等。reap the benefits 很常见。rip 是撕裂，不是 reap。"
+    },
+    {
+      "id": "word-1b2cba774a6f1eb9",
+      "lemma": "exploration",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-155"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 探索；勘探",
+      "definitionEn": "The activity of investigating unfamiliar places or ideas.",
+      "scenario": "侧重了解未知事物或地区的过程",
+      "collocations": [
+        "space exploration",
+        "oil exploration"
+      ],
+      "examples": [
+        {
+          "en": "The book encourages exploration of new ideas.",
+          "zh": "这本书鼓励探索新想法。"
+        }
+      ],
+      "correctUsage": "The book encourages exploration of new ideas.",
+      "commonMistakes": "exploration 侧重探索活动或过程；expedition 侧重为特定目的组织的一次远行。一次 expedition 可以开展 exploration，但探索不一定要远行，例如 space exploration、career exploration。"
+    },
+    {
+      "id": "word-81e297d0b0bef710",
+      "lemma": "expedition",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-155"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 远征；考察队；考察旅行",
+      "definitionEn": "An organized journey for a particular purpose, or its participants.",
+      "scenario": "侧重有明确目的、经过组织的一次行程或团队",
+      "collocations": [
+        "a scientific expedition",
+        "an expedition to"
+      ],
+      "examples": [
+        {
+          "en": "They joined a scientific expedition to the Arctic.",
+          "zh": "他们参加了一次北极科学考察。"
+        }
+      ],
+      "correctUsage": "They joined a scientific expedition to the Arctic.",
+      "commonMistakes": "exploration 侧重探索活动或过程；expedition 侧重为特定目的组织的一次远行。一次 expedition 可以开展 exploration，但探索不一定要远行，例如 space exploration、career exploration。"
+    },
+    {
+      "id": "word-17df4429c22857fd",
+      "lemma": "accelerate",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-156"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 加速；促进",
+      "definitionEn": "To increase speed or make a process happen faster.",
+      "scenario": "可指车辆提速，也可指增长或变化加快",
+      "collocations": [
+        "accelerate growth",
+        "accelerate rapidly"
+      ],
+      "examples": [
+        {
+          "en": "The car accelerated as it left the village.",
+          "zh": "汽车驶离村庄时加速了。"
+        }
+      ],
+      "correctUsage": "The car accelerated as it left the village.",
+      "commonMistakes": "accelerate 强调速度或变化速率增加；expedite 强调采取措施使任务或流程更快完成，较正式。accelerate 可不及物，expedite 通常直接接宾语。expedite an application 是加快申请处理。"
+    },
+    {
+      "id": "word-9c9cff9d22e3ba93",
+      "lemma": "expedite",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-156"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 加快；促进办理",
+      "definitionEn": "To take action that helps a task or process finish sooner.",
+      "scenario": "通常指通过行动加快流程或任务的完成",
+      "collocations": [
+        "expedite the process",
+        "expedite delivery"
+      ],
+      "examples": [
+        {
+          "en": "We sent the missing documents to expedite the application.",
+          "zh": "我们寄出了缺失文件，以加快申请处理。"
+        }
+      ],
+      "correctUsage": "We sent the missing documents to expedite the application.",
+      "commonMistakes": "accelerate 强调速度或变化速率增加；expedite 强调采取措施使任务或流程更快完成，较正式。accelerate 可不及物，expedite 通常直接接宾语。expedite an application 是加快申请处理。"
+    },
+    {
+      "id": "word-e8982253091fa567",
+      "lemma": "competent",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-157"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 胜任的；合格的",
+      "definitionEn": "Having sufficient skill or knowledge to do something properly.",
+      "scenario": "具备完成工作所需的知识和技能",
+      "collocations": [
+        "competent at",
+        "competent to do"
+      ],
+      "examples": [
+        {
+          "en": "She is competent to manage the project.",
+          "zh": "她有能力管理这个项目。"
+        }
+      ],
+      "correctUsage": "She is competent to manage the project.",
+      "commonMistakes": "competent 强调具备胜任所需的技能；capable 强调有能力或潜力，常用 capable of doing；eligible 强调符合资格条件，不等于有实际能力。三者不能排成统一能力等级。"
+    },
+    {
+      "id": "word-acd0e5db3cbd04f8",
+      "lemma": "capable",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-157"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 有能力的",
+      "definitionEn": "Having the ability or potential to do something.",
+      "scenario": "可指实际能力或潜力，常与 of 搭配",
+      "collocations": [
+        "capable of doing",
+        "a capable leader"
+      ],
+      "examples": [
+        {
+          "en": "He is capable of solving the problem himself.",
+          "zh": "他能够独立解决这个问题。"
+        }
+      ],
+      "correctUsage": "He is capable of solving the problem himself.",
+      "commonMistakes": "competent 强调具备胜任所需的技能；capable 强调有能力或潜力，常用 capable of doing；eligible 强调符合资格条件，不等于有实际能力。三者不能排成统一能力等级。"
+    },
+    {
+      "id": "word-afb3718920034279",
+      "lemma": "eligible",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-157"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 符合资格的",
+      "definitionEn": "Meeting the conditions required to receive or do something.",
+      "scenario": "满足规定的年龄、身份或其他条件",
+      "collocations": [
+        "eligible for",
+        "eligible to apply"
+      ],
+      "examples": [
+        {
+          "en": "First-year students are eligible to apply.",
+          "zh": "大一学生符合申请资格。"
+        }
+      ],
+      "correctUsage": "First-year students are eligible to apply.",
+      "commonMistakes": "competent 强调具备胜任所需的技能；capable 强调有能力或潜力，常用 capable of doing；eligible 强调符合资格条件，不等于有实际能力。三者不能排成统一能力等级。"
+    },
+    {
+      "id": "word-496192c2834187ff",
+      "lemma": "magnify",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-158"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 放大；夸大",
+      "definitionEn": "To make something appear larger or more important.",
+      "scenario": "突出看起来更大，或把问题显得更严重",
+      "collocations": [
+        "magnify an image",
+        "magnify a problem"
+      ],
+      "examples": [
+        {
+          "en": "The lens magnifies the tiny letters.",
+          "zh": "镜片把细小的字母放大了。"
+        }
+      ],
+      "correctUsage": "The lens magnifies the tiny letters.",
+      "commonMistakes": "magnify 常指视觉放大，也可夸大问题或影响；amplify 常指增强声音、信号或作用，也可进一步阐述。两者在影响增强的比喻用法中有重叠。"
+    },
+    {
+      "id": "word-cc769de9446adab4",
+      "lemma": "amplify",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-158"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 增强；放大；详述",
+      "definitionEn": "To increase the strength of a sound, signal or effect, or add detail.",
+      "scenario": "突出声音、信号或效果增强，也可补充说明",
+      "collocations": [
+        "amplify a signal",
+        "amplify an effect"
+      ],
+      "examples": [
+        {
+          "en": "The microphone amplifies her voice.",
+          "zh": "麦克风放大了她的声音。"
+        }
+      ],
+      "correctUsage": "The microphone amplifies her voice.",
+      "commonMistakes": "magnify 常指视觉放大，也可夸大问题或影响；amplify 常指增强声音、信号或作用，也可进一步阐述。两者在影响增强的比喻用法中有重叠。"
+    },
+    {
+      "id": "word-5c2d85053e971b4d",
+      "lemma": "firm",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-159"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 坚实的；坚定的",
+      "definitionEn": "Solid or steady, or unlikely to change a decision.",
+      "scenario": "可指质地、支撑或决定稳定，不易改变",
+      "collocations": [
+        "a firm grip",
+        "a firm decision"
+      ],
+      "examples": [
+        {
+          "en": "The mattress is firm but comfortable.",
+          "zh": "这张床垫坚实而舒适。"
+        }
+      ],
+      "correctUsage": "The mattress is firm but comfortable.",
+      "commonMistakes": "firm 可指坚实、稳固或态度坚定；stout 可指物体结实粗壮，也可形容人身材粗壮，并用于 stout resistance。形容人时需注意语境，stout 不是 firm 的通用替换。"
+    },
+    {
+      "id": "word-0d94582c13764a92",
+      "lemma": "stout",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-159"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 结实的；粗壮的；坚决的",
+      "definitionEn": "Thick and strong, or determined in resisting something.",
+      "scenario": "常指粗厚结实的物体、体型或坚决的抵抗",
+      "collocations": [
+        "stout boots",
+        "stout resistance"
+      ],
+      "examples": [
+        {
+          "en": "We wore stout boots for the walk.",
+          "zh": "我们穿了结实的靴子去徒步。"
+        }
+      ],
+      "correctUsage": "We wore stout boots for the walk.",
+      "commonMistakes": "firm 可指坚实、稳固或态度坚定；stout 可指物体结实粗壮，也可形容人身材粗壮，并用于 stout resistance。形容人时需注意语境，stout 不是 firm 的通用替换。"
+    },
+    {
+      "id": "word-7f668f018aaea3ee",
+      "lemma": "magnificent",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-160"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 壮丽的；出色的",
+      "definitionEn": "Very beautiful, impressive or excellent.",
+      "scenario": "常强调规模、美感或表现令人赞叹",
+      "collocations": [
+        "a magnificent view",
+        "a magnificent performance"
+      ],
+      "examples": [
+        {
+          "en": "The mountain scenery was magnificent.",
+          "zh": "山间景色十分壮丽。"
+        }
+      ],
+      "correctUsage": "The mountain scenery was magnificent.",
+      "commonMistakes": "magnificent 常强调壮丽、宏伟或令人赞叹；splendid 也可表示壮观，日常尤可表示极好的。两词有重叠，不宜固定区分为外观和品质。"
+    },
+    {
+      "id": "word-42428c1464fe1d31",
+      "lemma": "splendid",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-160"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 极好的；壮观的",
+      "definitionEn": "Excellent or impressive in appearance or quality.",
+      "scenario": "可赞赏经历、想法、表现或外观",
+      "collocations": [
+        "a splendid idea",
+        "a splendid view"
+      ],
+      "examples": [
+        {
+          "en": "We had a splendid afternoon by the lake.",
+          "zh": "我们在湖边度过了一个美好的下午。"
+        }
+      ],
+      "correctUsage": "We had a splendid afternoon by the lake.",
+      "commonMistakes": "magnificent 常强调壮丽、宏伟或令人赞叹；splendid 也可表示壮观，日常尤可表示极好的。两词有重叠，不宜固定区分为外观和品质。"
+    },
+    {
+      "id": "word-b356de50195508b8",
+      "lemma": "vital",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-161"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 至关重要的；充满活力的",
+      "definitionEn": "Extremely important or necessary for life or success.",
+      "scenario": "多强调不可缺少的重要性，也能形容活力",
+      "collocations": [
+        "vital for",
+        "vital signs"
+      ],
+      "examples": [
+        {
+          "en": "Sleep is vital for recovery.",
+          "zh": "睡眠对恢复至关重要。"
+        }
+      ],
+      "correctUsage": "Sleep is vital for recovery.",
+      "commonMistakes": "vital 常表示至关重要或生命必需；形容人也可表示充满活力。hearty 强调热情、精力充沛，或食物丰盛。a hearty meal 不是“健康餐”的同义说法；二者不能只按活力强弱区分。"
+    },
+    {
+      "id": "word-66d72b7106bec8d6",
+      "lemma": "hearty",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-161"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 热情的；精力充沛的；丰盛的",
+      "definitionEn": "Warm and enthusiastic, vigorous, or large and satisfying as a meal.",
+      "scenario": "常形容欢迎、笑声、食欲或饱足的一餐",
+      "collocations": [
+        "a hearty welcome",
+        "a hearty meal"
+      ],
+      "examples": [
+        {
+          "en": "They gave us a hearty welcome.",
+          "zh": "他们热情地欢迎了我们。"
+        }
+      ],
+      "correctUsage": "They gave us a hearty welcome.",
+      "commonMistakes": "vital 常表示至关重要或生命必需；形容人也可表示充满活力。hearty 强调热情、精力充沛，或食物丰盛。a hearty meal 不是“健康餐”的同义说法；二者不能只按活力强弱区分。"
+    },
+    {
+      "id": "word-2256b1a6e45538fe",
+      "lemma": "whirl",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-162"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 快速旋转；回旋",
+      "definitionEn": "To move, or make something move, in circles, often quickly.",
+      "scenario": "常呈现快速转动或纷乱运动的画面",
+      "collocations": [
+        "whirl around",
+        "whirl in the wind"
+      ],
+      "examples": [
+        {
+          "en": "Dry leaves whirled around the courtyard.",
+          "zh": "干树叶在院子里打着旋儿。"
+        }
+      ],
+      "correctUsage": "Dry leaves whirled around the courtyard.",
+      "commonMistakes": "whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。"
+    },
+    {
+      "id": "word-88f13db6d67bf707",
+      "lemma": "spin",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-162"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 旋转",
+      "definitionEn": "To turn around quickly; also to make thread or present a particular version of events.",
+      "scenario": "常指连续转动，可强调速度",
+      "collocations": [
+        "spin around",
+        "spin a wheel"
+      ],
+      "examples": [
+        {
+          "en": "The top spun on the table.",
+          "zh": "陀螺在桌上旋转。"
+        }
+      ],
+      "correctUsage": "The top spun on the table.",
+      "commonMistakes": "whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。"
+    },
+    {
+      "id": "word-2bc61b374eaf7fa9",
+      "lemma": "revolve",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-162"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 旋转；绕转",
+      "definitionEn": "To turn around a central point or axis; to have something as the main focus.",
+      "scenario": "可绕中心或轴运动，搭配 around 可有围绕义",
+      "collocations": [
+        "revolve around",
+        "a revolving door"
+      ],
+      "examples": [
+        {
+          "en": "The Earth revolves around the Sun.",
+          "zh": "地球绕太阳运行。"
+        }
+      ],
+      "correctUsage": "The Earth revolves around the Sun.",
+      "commonMistakes": "whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。"
+    },
+    {
+      "id": "word-612e29b20ca025a6",
+      "lemma": "rotate",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-162"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 转动；轮换",
+      "definitionEn": "To turn around an axis or take turns in a regular order.",
+      "scenario": "中性描述绕轴转动，也可表示轮流更换",
+      "collocations": [
+        "rotate on an axis",
+        "rotate duties"
+      ],
+      "examples": [
+        {
+          "en": "The Earth rotates on its axis.",
+          "zh": "地球绕地轴自转。"
+        }
+      ],
+      "correctUsage": "The Earth rotates on its axis.",
+      "commonMistakes": "whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。"
+    },
+    {
+      "id": "word-65552ab3f3c749a2",
+      "lemma": "wheel",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-162"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 盘旋；转身；推着走",
+      "definitionEn": "A circular part that turns on an axle; to move something on wheels, or turn and move in a curve or circle.",
+      "scenario": "动词可指大幅转向或盘旋，并非只指车轮转动",
+      "collocations": [
+        "wheel around",
+        "wheel overhead"
+      ],
+      "examples": [
+        {
+          "en": "Birds wheeled above the cliffs.",
+          "zh": "鸟儿在悬崖上空盘旋。"
+        }
+      ],
+      "correctUsage": "Birds wheeled above the cliffs.",
+      "commonMistakes": "whirl 常强调快速旋转或回旋；spin 常强调转动，rotate 较中性或技术化；revolve 可指绕中心运动，也可泛指转动，不能规定只能公转。wheel 作动词可指盘旋或转身。它们的运动范围有重叠。"
+    },
+    {
+      "id": "word-555cd47d7d2f1610",
+      "lemma": "prestige",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-163"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 声望；威望",
+      "definitionEn": "Respect and admiration associated with achievements or status.",
+      "scenario": "强调获得的尊重与社会认可",
+      "collocations": [
+        "international prestige",
+        "gain prestige"
+      ],
+      "examples": [
+        {
+          "en": "The award brought the university greater prestige.",
+          "zh": "这个奖项提高了这所大学的声望。"
+        }
+      ],
+      "correctUsage": "The award brought the university greater prestige.",
+      "commonMistakes": "fame 强调出名；reputation 强调别人如何评价，可好可坏；prestige 常指因成就、身份而获的声望；stature 此处指受认可的地位，也可指身高。出名不必然意味着受尊敬。"
+    },
+    {
+      "id": "word-f26bacc61edab1c3",
+      "lemma": "fame",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-163"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 名声；出名",
+      "definitionEn": "The state of being known by many people.",
+      "scenario": "强调被很多人知道，不保证评价良好",
+      "collocations": [
+        "rise to fame",
+        "worldwide fame"
+      ],
+      "examples": [
+        {
+          "en": "The singer rose to fame at a young age.",
+          "zh": "这位歌手年少时就成名了。"
+        }
+      ],
+      "correctUsage": "The singer rose to fame at a young age.",
+      "commonMistakes": "fame 强调出名；reputation 强调别人如何评价，可好可坏；prestige 常指因成就、身份而获的声望；stature 此处指受认可的地位，也可指身高。出名不必然意味着受尊敬。"
+    },
+    {
+      "id": "word-c31d30ad41ab324f",
+      "lemma": "reputation",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-163"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 名声；评价",
+      "definitionEn": "The opinion people generally have of someone or something.",
+      "scenario": "强调公众对品质、行为或能力的看法，可正可负",
+      "collocations": [
+        "a reputation for",
+        "a bad reputation"
+      ],
+      "examples": [
+        {
+          "en": "The shop has a reputation for good service.",
+          "zh": "这家店以服务好著称。"
+        }
+      ],
+      "correctUsage": "The shop has a reputation for good service.",
+      "commonMistakes": "fame 强调出名；reputation 强调别人如何评价，可好可坏；prestige 常指因成就、身份而获的声望；stature 此处指受认可的地位，也可指身高。出名不必然意味着受尊敬。"
+    },
+    {
+      "id": "word-c48fc6d75ffae757",
+      "lemma": "stature",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-163"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 地位；声望；身高",
+      "definitionEn": "Recognized importance in a field; also a person's height.",
+      "scenario": "此处侧重在某领域受认可的地位，另有身高义",
+      "collocations": [
+        "a writer of international stature",
+        "gain stature"
+      ],
+      "examples": [
+        {
+          "en": "She is a scientist of international stature.",
+          "zh": "她是一位享有国际声望的科学家。"
+        }
+      ],
+      "correctUsage": "She is a scientist of international stature.",
+      "commonMistakes": "fame 强调出名；reputation 强调别人如何评价，可好可坏；prestige 常指因成就、身份而获的声望；stature 此处指受认可的地位，也可指身高。出名不必然意味着受尊敬。"
+    },
+    {
+      "id": "word-402a9c02ddb4eebf",
+      "lemma": "mingle",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-164"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 混合；与人交往",
+      "definitionEn": "To mix together or move among people and talk to them.",
+      "scenario": "既可指不同成分交织，也可指在社交场合走动交谈",
+      "collocations": [
+        "mingle with guests",
+        "mingle with"
+      ],
+      "examples": [
+        {
+          "en": "She mingled with the guests after dinner.",
+          "zh": "晚饭后她与宾客们交谈。"
+        }
+      ],
+      "correctUsage": "She mingled with the guests after dinner.",
+      "commonMistakes": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。"
+    },
+    {
+      "id": "word-54aa0f3d2efe2c99",
+      "lemma": "mix",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-164"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 混合；交往",
+      "definitionEn": "To combine things, which may remain distinguishable; a combination.",
+      "scenario": "通用词，是否完全融合取决于语境",
+      "collocations": [
+        "mix flour with water",
+        "mix with people"
+      ],
+      "examples": [
+        {
+          "en": "Mix the flour with water.",
+          "zh": "将面粉与水混合。"
+        }
+      ],
+      "correctUsage": "Mix the flour with water.",
+      "commonMistakes": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。"
+    },
+    {
+      "id": "word-510b0dbc0525f2ec",
+      "lemma": "blend",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-164"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 混合；融合",
+      "definitionEn": "To combine smoothly into a unified mixture.",
+      "scenario": "常强调混合均匀或彼此协调",
+      "collocations": [
+        "blend ingredients",
+        "blend in with"
+      ],
+      "examples": [
+        {
+          "en": "The colors blend well together.",
+          "zh": "这些颜色搭配得很协调。"
+        }
+      ],
+      "correctUsage": "The colors blend well together.",
+      "commonMistakes": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。"
+    },
+    {
+      "id": "word-3bb63fa47f8f9d29",
+      "lemma": "combine",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-164"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 结合；组合",
+      "definitionEn": "To bring things together for a joint result or purpose.",
+      "scenario": "强调把部分或作用结合，未必消除各自特点",
+      "collocations": [
+        "combine A with B",
+        "combine efforts"
+      ],
+      "examples": [
+        {
+          "en": "The course combines theory with practice.",
+          "zh": "这门课程将理论与实践结合。"
+        }
+      ],
+      "correctUsage": "The course combines theory with practice.",
+      "commonMistakes": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。"
+    },
+    {
+      "id": "word-6bc0683fc0e5c1fc",
+      "lemma": "merge",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-164"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 合并；融入",
+      "definitionEn": "To join together into one entity or flow.",
+      "scenario": "常指组织、道路或成分汇合成一体",
+      "collocations": [
+        "merge with",
+        "merge into"
+      ],
+      "examples": [
+        {
+          "en": "The two companies merged last year.",
+          "zh": "这两家公司去年合并了。"
+        }
+      ],
+      "correctUsage": "The two companies merged last year.",
+      "commonMistakes": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。"
+    },
+    {
+      "id": "word-a7f725069a025a67",
+      "lemma": "associate",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-164"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 联想；交往",
+      "definitionEn": "To connect ideas or people; a colleague; sometimes a lower-ranking title.",
+      "scenario": "associate A with B 是关联；associate with sb 是交往",
+      "collocations": [
+        "associate with",
+        "associate A with B"
+      ],
+      "examples": [
+        {
+          "en": "People associate the city with art.",
+          "zh": "人们把这座城市与艺术联系起来。"
+        }
+      ],
+      "correctUsage": "People associate the city with art.",
+      "commonMistakes": "mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。"
+    },
+    {
+      "id": "word-b28787ad09c98976",
+      "lemma": "erode",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-165"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 侵蚀；逐渐削弱",
+      "definitionEn": "To wear away gradually or weaken over time.",
+      "scenario": "可指地表被磨蚀，也可指抽象事物逐渐受损",
+      "collocations": [
+        "erode soil",
+        "erode confidence"
+      ],
+      "examples": [
+        {
+          "en": "Repeated delays eroded their confidence.",
+          "zh": "一再延误逐渐削弱了他们的信心。"
+        }
+      ],
+      "correctUsage": "Repeated delays eroded their confidence.",
+      "commonMistakes": "erode 指风、水等逐渐侵蚀，也可比喻信心或权利被削弱；rust 通常指铁或钢生锈。生锈是特定化学变化，不能把任何腐蚀都叫 rust；能力“生疏”常用 rusty。"
+    },
+    {
+      "id": "word-ee6952fb6afc61ed",
+      "lemma": "rust",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-165"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v./n.",
+      "meaningZh": "v./n. 生锈；铁锈",
+      "definitionEn": "To develop a reddish-brown coating on iron or steel.",
+      "scenario": "通常指铁或钢与氧和水分反应形成铁锈",
+      "collocations": [
+        "rust in the rain",
+        "remove rust"
+      ],
+      "examples": [
+        {
+          "en": "The iron gate began to rust.",
+          "zh": "铁门开始生锈了。"
+        }
+      ],
+      "correctUsage": "The iron gate began to rust.",
+      "commonMistakes": "erode 指风、水等逐渐侵蚀，也可比喻信心或权利被削弱；rust 通常指铁或钢生锈。生锈是特定化学变化，不能把任何腐蚀都叫 rust；能力“生疏”常用 rusty。"
+    },
+    {
+      "id": "word-48b2437f6253c44b",
+      "lemma": "turmoil",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-166"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 动荡；混乱；心绪不宁",
+      "definitionEn": "A state of confusion, unrest or emotional disturbance.",
+      "scenario": "可描述社会、局势或人的内心混乱",
+      "collocations": [
+        "in turmoil",
+        "political turmoil"
+      ],
+      "examples": [
+        {
+          "en": "His mind was in turmoil after the news.",
+          "zh": "听到消息后他心绪不宁。"
+        }
+      ],
+      "correctUsage": "His mind was in turmoil after the news.",
+      "commonMistakes": "turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。"
+    },
+    {
+      "id": "word-0a05681204e66741",
+      "lemma": "turbulent",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-166"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 动荡的；汹涌的",
+      "definitionEn": "Marked by violent movement, conflict or unstable change.",
+      "scenario": "侧重不稳定、剧烈变化或冲突，也可形容水流气流",
+      "collocations": [
+        "turbulent times",
+        "turbulent water"
+      ],
+      "examples": [
+        {
+          "en": "It was a turbulent period in the country's history.",
+          "zh": "那是这个国家历史上一段动荡时期。"
+        }
+      ],
+      "correctUsage": "It was a turbulent period in the country's history.",
+      "commonMistakes": "turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。"
+    },
+    {
+      "id": "word-ee3900b9d1decfde",
+      "lemma": "chaotic",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-166"
+      ],
+      "source": "Recent English discussions, 2026-11-13 to 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "adj.",
+      "meaningZh": "adj. 混乱无序的",
+      "definitionEn": "Completely disorganized or lacking order.",
+      "scenario": "侧重缺乏组织或秩序",
+      "collocations": [
+        "a chaotic situation",
+        "chaotic traffic"
+      ],
+      "examples": [
+        {
+          "en": "Traffic was chaotic after the storm.",
+          "zh": "暴风雨后交通混乱不堪。"
+        }
+      ],
+      "correctUsage": "Traffic was chaotic after the storm.",
+      "commonMistakes": "turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。"
     }
   ],
   "contentAudit": {

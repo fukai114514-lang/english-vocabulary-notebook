@@ -20,10 +20,16 @@ def verify():
  extended['selectionNote']=original['selectionNote']
  assert old['groups']==retained, 'Original groups/entries/IDs/memberships changed'
  assert old['words']==new['words'][:len(old['words'])], 'Original words changed'
- assert len(new['groups'])==153 and len(new['words'])==365
+ assert len(new['groups'])==166 and len(new['words'])==402
  assert [[w['lemma'] for w in new['words'] if w['id'] in g['wordIds']] for g in new['groups'][113:117]] == [['correspondent','journalist'],['contempt','scorn'],['constant','consistent'],['moist','wet','damp','humid']]
- assert len({g['id'] for g in new['groups']})==153
- assert len({w['id'] for w in new['words']})==365
+ assert len({g['id'] for g in new['groups']})==166
+ assert len({w['id'] for w in new['words']})==402
+ # Exact retention of the entire previously published vocabulary, not only the 3.0 baseline.
+ import hashlib
+ snapshot=read('migration/published-vocabulary-20261116.json')
+ digest=lambda value:hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+ assert digest(new['groups'][:snapshot['groups']])==snapshot['groups_sha256']
+ assert digest(new['words'][:snapshot['words']])==snapshot['words_sha256']
  oldp=read('migration/original-polysemy.json');newp=read('dist/polysemy.json')
  oldp['entries']=[e for e in oldp['entries'] if e['word'] not in {'itself','aggressive','acquaintance','discourse','sore','bloom','upper'}]
  assert all(e['word']!='itself' for e in newp['entries'])

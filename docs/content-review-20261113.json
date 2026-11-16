@@ -28,15 +28,15 @@
   "reviewed_hash_changes": {
     "content/base.html": {
       "before": "e35780c8f9b7df58d94c6e1e1a02cd26f71442d9f090b0d915907cc2d815321c",
-      "after": "c09d1301db2b86d520aaeeec2f67f4ad095cc6f46b12bd2046d698b7d0c9d001"
+      "after": "1e9e872ee61784c6e6dda02eb0f71b0c6b5423e0386f773c7b594c1b1c347e19"
     },
     "content/comparisons.txt": {
       "before": "bb1517ab3048e7be38865bb55924932ea12aa025ffc2993f263443de7a3b24b5",
-      "after": "8fa21f41d4c383bbfd31cc4b079686e46dc5609cdb2967f4bce33dea75ac3624"
+      "after": "247d3aceaa9f6c8c85627a51ac540fc7409ec56082174eb973ad424d7b9189ec"
     },
     "content/english-captions.txt": {
       "before": "5d77ef51b0fc64f7ceb2036f224be862b16f1aaa25b3c5f6f4a482e170b66ca4",
-      "after": "614ed0f172d70bde28beebceafcdee283b7381726a89a01bbd54f79698e3aaa4"
+      "after": "dd894e303a7ce4ec2da923798fd5f0a0b132181905d38580cb15c174faa5f5d4"
     },
     "content/phrases.json": {
       "before": "cf0ce039d4e8a2177406488dad72d5f300489ef0c3403e15381669448f4eec68",
@@ -44,24 +44,24 @@
     },
     "content/selection-notes.txt": {
       "before": "64251a0e460792d044cae37a319c1fadaf11627a34ed14b25882c93390611434",
-      "after": "54cac13d18cd193b7205ee5d02646fbec8d8cbef0267aa2940c1a3d1bf2d261a"
+      "after": "b8a04e8bb271cac3a5041b72bd8afc6bc987927f3481ff46881b8e70a9be1d58"
     },
     "content/vocabulary.json": {
       "before": "dfc789237049c3a31edf6b207c2045cac9dcb0f3d4ed5a1e1c77d15f3cb432d6",
-      "after": "cdc271de95d32247a361bc191aba005cf36fa2541ec38fee300c04bd66dc8129"
+      "after": "e88d0a4bf241c282cee3eac8e9b8a1790bc8f669f121547600c30aec357de11f"
     },
     "dist/index.html": {
       "before": "edcb5801128f3051d2824dec961fc9d871a4f22a89185677b5b9f2ec41a8b316",
-      "after": "9e07da708fed0892eac9f01d9e894fd917abf0dfe42556ff85834fdb9a11ac54"
+      "after": "4c5390b39901d50ad7446116b94f5c6a8abd4acd153932562048f24470d902ca"
     },
     "dist/search-index.json": {
       "before": "6c830e317b63f9ce760626978324844076b9356171052aaf86f9db10403e66ee",
-      "after": "e091b60d43ca4e4c80e05f4a187d4e21b5f2c812aa19e706aee2f3011d35f74e",
+      "after": "50383951d7c90dbc5880e546ffff129d2a59da1efc037004ff70629b0fa9efed",
       "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
     },
     "dist/vocabulary.json": {
       "before": "4432b45978a33112bf003a7b06802123aa5226a2e308e03469b717801e6dd88f",
-      "after": "7af7dc4b89e5c34fa4792212d98c18b2cd97f5170c2b2c4b00a66e232285cbf0"
+      "after": "ce277ca857f25da54831156ab8ebf1a18a1fc7250b38084ea84bad35231181b1"
     },
     "scripts/audit_baseline.py": {
       "before": "9bc80460c85b1043e83fc46841d04bc90e05fb0d105c42e016b62486526b4947",
@@ -69,21 +69,19 @@
     },
     "scripts/verify_migration.py": {
       "before": "3dca9cdf47dae2e7549873e9a4c3053395ef022d62acc4beb014a2d4463aeb64",
-      "after": "906624946d3ae846fbaa5d7892d36abd2817fd8a84e2bfcc01edcebbd860ec00"
+      "after": "d9caeddb7a555b1c33d7bb332c400780f02c40a848b2c2cd615b166abc801d3a"
     },
     "scripts/verify_preservation.py": {
       "before": "87bf08cca7cae90bceff017cbd13b662c57963afe58ab67e585e44e6805c1220",
-      "after": "536c8e3300799c5f5052567722c56cd56db93d8db52166bd89eca005d1d2f1e0"
+      "after": "cf03f5a227ce2e704f8022c9a7eac8c2ed337a87c6b9a476a709f3578a89518c"
     },
     "migration/reviewed-changes-3.0.json": {
-      "before": "e49416df1cf8121863f354c09c2fb7af7b59bca9a5a80960bbbcdb94ed5bd918",
-      "after": "1d1439706fa05afd0da8e45ba22b21f8c2f7de4f8a0354131d743afa7c4d8ef5",
-      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
+      "after": "bb68b8051de68d425f4ceddc1ebe4d5f33d79c444f9cdc6a085817a2ccb6f0f2",
+      "reason": "Explicitly reviewed additive vocabulary update; see docs/content-review-20261116.json and exact prior vocabulary snapshot."
     },
     "migration/ui-content-baseline.json": {
-      "before": "159ad49f7517b4f8d146e70bd4c73cb827eef07b31771ee43a09313ce4c0e064",
-      "after": "edd9507164ea3a617cb1e55dfbd73f1aa5ef9bbe2cc798132198058d9d9d4af6",
-      "reason": "Reviewed additive multitasking article and lookup coverage. See docs/content-review-20261116-multitasking.json."
+      "after": "de33b89d2ee94987f2116338ec53954556d2d2e40d19b0e623fb3845895831ed",
+      "reason": "Explicitly reviewed additive vocabulary update; see docs/content-review-20261116.json and exact prior vocabulary snapshot."
     },
     "content/article-dictionary.json": {
       "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",

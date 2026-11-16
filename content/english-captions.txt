@@ -363,3 +363,28 @@ still|Not moving or making a sound; as an adverb, continuing up to a time.
 static|Not moving, developing or changing over time.
 statical|Relating to statics; a less common form of static in technical use.
 designate|To officially choose someone or mark something for a particular role or purpose.
+reap|To cut a crop or receive the results of an action.
+harvest|To gather crops, or the crops gathered.
+exploration|The activity of investigating unfamiliar places or ideas.
+expedition|An organized journey for a particular purpose, or its participants.
+accelerate|To increase speed or make a process happen faster.
+expedite|To take action that helps a task or process finish sooner.
+eligible|Meeting the conditions required to receive or do something.
+magnify|To make something appear larger or more important.
+amplify|To increase the strength of a sound, signal or effect, or add detail.
+firm|Solid or steady, or unlikely to change a decision.
+stout|Thick and strong, or determined in resisting something.
+magnificent|Very beautiful, impressive or excellent.
+splendid|Excellent or impressive in appearance or quality.
+hearty|Warm and enthusiastic, vigorous, or large and satisfying as a meal.
+whirl|To move, or make something move, in circles, often quickly.
+prestige|Respect and admiration associated with achievements or status.
+fame|The state of being known by many people.
+reputation|The opinion people generally have of someone or something.
+stature|Recognized importance in a field; also a person's height.
+mingle|To mix together or move among people and talk to them.
+combine|To bring things together for a joint result or purpose.
+merge|To join together into one entity or flow.
+erode|To wear away gradually or weaken over time.
+rust|To develop a reddish-brown coating on iron or steel.
+turmoil|A state of confusion, unrest or emotional disturbance.

@@ -523,3 +523,53 @@ merit|v. 值得；应受到|较正式，通常直接接名词，强调足以得�
 still|adj. 静止的；平静的|此处比较形容词：强调当下没有运动；副词 still 可表示仍然|keep still; stand still; still water|Keep still while I take the photo. → 我拍照时请别动。
 static|adj. 静态的；不变的|强调一段时间内状态、数值或系统没有变化|a static image; static prices; remain static|The population has remained static for years. → 人口数量多年来一直没有变化。
 statical|adj. 静力学的；静态的（少见）|多见于静力学等专业或较旧用法；日常静态通常用 static|statical equilibrium; statical analysis|The textbook discusses statical equilibrium. → 这本教材讨论静力平衡。
+# 154
+reap|v. 收割；获得成果|常用于庄稼以及行动带来的收益或后果|reap the benefits; reap rewards|You will reap the benefits of regular practice. → 你会从经常练习中获益。
+harvest|v./n. 收获；采收；收成|可指收集成熟农作物的过程，也可指收集其他资源|harvest crops; a good harvest|The farmers harvested the rice in October. → 农民们在十月收割了水稻。
+# 155
+exploration|n. 探索；勘探|侧重了解未知事物或地区的过程|space exploration; oil exploration|The book encourages exploration of new ideas. → 这本书鼓励探索新想法。
+expedition|n. 远征；考察队；考察旅行|侧重有明确目的、经过组织的一次行程或团队|a scientific expedition; an expedition to|They joined a scientific expedition to the Arctic. → 他们参加了一次北极科学考察。
+# 156
+accelerate|v. 加速；促进|可指车辆提速，也可指增长或变化加快|accelerate growth; accelerate rapidly|The car accelerated as it left the village. → 汽车驶离村庄时加速了。
+expedite|v. 加快；促进办理|通常指通过行动加快流程或任务的完成|expedite the process; expedite delivery|We sent the missing documents to expedite the application. → 我们寄出了缺失文件，以加快申请处理。
+# 157
+competent|adj. 胜任的；合格的|具备完成工作所需的知识和技能|competent at; competent to do|She is competent to manage the project. → 她有能力管理这个项目。
+capable|adj. 有能力的|可指实际能力或潜力，常与 of 搭配|capable of doing; a capable leader|He is capable of solving the problem himself. → 他能够独立解决这个问题。
+eligible|adj. 符合资格的|满足规定的年龄、身份或其他条件|eligible for; eligible to apply|First-year students are eligible to apply. → 大一学生符合申请资格。
+# 158
+magnify|v. 放大；夸大|突出看起来更大，或把问题显得更严重|magnify an image; magnify a problem|The lens magnifies the tiny letters. → 镜片把细小的字母放大了。
+amplify|v. 增强；放大；详述|突出声音、信号或效果增强，也可补充说明|amplify a signal; amplify an effect|The microphone amplifies her voice. → 麦克风放大了她的声音。
+# 159
+firm|adj. 坚实的；坚定的|可指质地、支撑或决定稳定，不易改变|a firm grip; a firm decision|The mattress is firm but comfortable. → 这张床垫坚实而舒适。
+stout|adj. 结实的；粗壮的；坚决的|常指粗厚结实的物体、体型或坚决的抵抗|stout boots; stout resistance|We wore stout boots for the walk. → 我们穿了结实的靴子去徒步。
+# 160
+magnificent|adj. 壮丽的；出色的|常强调规模、美感或表现令人赞叹|a magnificent view; a magnificent performance|The mountain scenery was magnificent. → 山间景色十分壮丽。
+splendid|adj. 极好的；壮观的|可赞赏经历、想法、表现或外观|a splendid idea; a splendid view|We had a splendid afternoon by the lake. → 我们在湖边度过了一个美好的下午。
+# 161
+vital|adj. 至关重要的；充满活力的|多强调不可缺少的重要性，也能形容活力|vital for; vital signs|Sleep is vital for recovery. → 睡眠对恢复至关重要。
+hearty|adj. 热情的；精力充沛的；丰盛的|常形容欢迎、笑声、食欲或饱足的一餐|a hearty welcome; a hearty meal|They gave us a hearty welcome. → 他们热情地欢迎了我们。
+# 162
+whirl|v. 快速旋转；回旋|常呈现快速转动或纷乱运动的画面|whirl around; whirl in the wind|Dry leaves whirled around the courtyard. → 干树叶在院子里打着旋儿。
+spin|v. 旋转|常指连续转动，可强调速度|spin around; spin a wheel|The top spun on the table. → 陀螺在桌上旋转。
+revolve|v. 旋转；绕转|可绕中心或轴运动，搭配 around 可有围绕义|revolve around; a revolving door|The Earth revolves around the Sun. → 地球绕太阳运行。
+rotate|v. 转动；轮换|中性描述绕轴转动，也可表示轮流更换|rotate on an axis; rotate duties|The Earth rotates on its axis. → 地球绕地轴自转。
+wheel|v. 盘旋；转身；推着走|动词可指大幅转向或盘旋，并非只指车轮转动|wheel around; wheel overhead|Birds wheeled above the cliffs. → 鸟儿在悬崖上空盘旋。
+# 163
+prestige|n. 声望；威望|强调获得的尊重与社会认可|international prestige; gain prestige|The award brought the university greater prestige. → 这个奖项提高了这所大学的声望。
+fame|n. 名声；出名|强调被很多人知道，不保证评价良好|rise to fame; worldwide fame|The singer rose to fame at a young age. → 这位歌手年少时就成名了。
+reputation|n. 名声；评价|强调公众对品质、行为或能力的看法，可正可负|a reputation for; a bad reputation|The shop has a reputation for good service. → 这家店以服务好著称。
+stature|n. 地位；声望；身高|此处侧重在某领域受认可的地位，另有身高义|a writer of international stature; gain stature|She is a scientist of international stature. → 她是一位享有国际声望的科学家。
+# 164
+mingle|v. 混合；与人交往|既可指不同成分交织，也可指在社交场合走动交谈|mingle with guests; mingle with|She mingled with the guests after dinner. → 晚饭后她与宾客们交谈。
+mix|v. 混合；交往|通用词，是否完全融合取决于语境|mix flour with water; mix with people|Mix the flour with water. → 将面粉与水混合。
+blend|v. 混合；融合|常强调混合均匀或彼此协调|blend ingredients; blend in with|The colors blend well together. → 这些颜色搭配得很协调。
+combine|v. 结合；组合|强调把部分或作用结合，未必消除各自特点|combine A with B; combine efforts|The course combines theory with practice. → 这门课程将理论与实践结合。
+merge|v. 合并；融入|常指组织、道路或成分汇合成一体|merge with; merge into|The two companies merged last year. → 这两家公司去年合并了。
+associate|v. 联想；交往|associate A with B 是关联；associate with sb 是交往|associate with; associate A with B|People associate the city with art. → 人们把这座城市与艺术联系起来。
+# 165
+erode|v. 侵蚀；逐渐削弱|可指地表被磨蚀，也可指抽象事物逐渐受损|erode soil; erode confidence|Repeated delays eroded their confidence. → 一再延误逐渐削弱了他们的信心。
+rust|v./n. 生锈；铁锈|通常指铁或钢与氧和水分反应形成铁锈|rust in the rain; remove rust|The iron gate began to rust. → 铁门开始生锈了。
+# 166
+turmoil|n. 动荡；混乱；心绪不宁|可描述社会、局势或人的内心混乱|in turmoil; political turmoil|His mind was in turmoil after the news. → 听到消息后他心绪不宁。
+turbulent|adj. 动荡的；汹涌的|侧重不稳定、剧烈变化或冲突，也可形容水流气流|turbulent times; turbulent water|It was a turbulent period in the country's history. → 那是这个国家历史上一段动荡时期。
+chaotic|adj. 混乱无序的|侧重缺乏组织或秩序|a chaotic situation; chaotic traffic|Traffic was chaotic after the storm. → 暴风雨后交通混乱不堪。
