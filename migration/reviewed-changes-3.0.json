@@ -20,7 +20,7 @@
     "reason": "Reviewed additive Part 04 Phrases: over time; existing catalog and search records unchanged."
   },
   "dist/index.html": {
-    "sha256": "54cc0d9fe77320160590980e927a54d7c91e820b9b8d915a2e8e86dd282feb83",
+    "sha256": "a65f682257787886becc1c642b366004ec360b8e7fd8d47ef035bda2094b1fb1",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "dist/polysemy.json": {
@@ -28,27 +28,27 @@
     "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
   },
   "dist/vocabulary.json": {
-    "sha256": "ce277ca857f25da54831156ab8ebf1a18a1fc7250b38084ea84bad35231181b1",
+    "sha256": "02c05b5bc2dcfa42327bf7073a3588d3af366c1ab0663cdf5a189c890194c45e",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "content/base.html": {
-    "sha256": "1e9e872ee61784c6e6dda02eb0f71b0c6b5423e0386f773c7b594c1b1c347e19",
+    "sha256": "76e69af628fee509998871b98bee3657b917ab0e63fe6dea314260a09b6f03a5",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "content/comparisons.txt": {
-    "sha256": "247d3aceaa9f6c8c85627a51ac540fc7409ec56082174eb973ad424d7b9189ec",
+    "sha256": "cfe1a8c6a9e72e5beac2db30c58af01269ca03b6571e6dbab20e32cc4d02f305",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "content/english-captions.txt": {
-    "sha256": "dd894e303a7ce4ec2da923798fd5f0a0b132181905d38580cb15c174faa5f5d4",
+    "sha256": "d63be9ae126d24f07e279c99d69d3df3a3d4eec3311418943baeedbb63dbc100",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "content/selection-notes.txt": {
-    "sha256": "b8a04e8bb271cac3a5041b72bd8afc6bc987927f3481ff46881b8e70a9be1d58",
+    "sha256": "5875b33f020f0aca439bb7965d58751fcb855ac0f90de1f5d25392cf77a5f053",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "content/vocabulary.json": {
-    "sha256": "e88d0a4bf241c282cee3eac8e9b8a1790bc8f669f121547600c30aec357de11f",
+    "sha256": "bfcd0fe3183330f1d71cf3120d3a8ebc6c0c6889a0433578491b8d4035af68ca",
     "reason": "Additive 13 recent comparison groups; all 153 published groups and 365 prior word objects retained byte-for-byte semantically. See docs/content-review-20261116.json."
   },
   "content/pronunciation.js": {

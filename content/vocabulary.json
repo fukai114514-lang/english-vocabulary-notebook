@@ -8690,6 +8690,52 @@
       ],
       "selectionNote": "turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-167",
+      "number": 167,
+      "wordIds": [
+        "word-e4d696e7dfcdd860",
+        "word-288c1fb2146dfda4"
+      ],
+      "entries": [
+        {
+          "wordId": "word-e4d696e7dfcdd860",
+          "meaningZh": "v. 避免；避开",
+          "definitionEn": "To keep away from someone or something, or prevent an unwanted event.",
+          "scenario": "通用词，强调不接触某人或某事，或防止不希望的事情发生",
+          "collocations": [
+            "avoid mistakes",
+            "avoid doing",
+            "avoid eye contact"
+          ],
+          "examples": [
+            {
+              "en": "We left early to avoid getting stuck in traffic.",
+              "zh": "我们提前出发，以免堵在路上。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-288c1fb2146dfda4",
+          "meaningZh": "v. 逃避；躲避；回避",
+          "definitionEn": "To escape or deliberately get around something, such as capture, a duty or a direct answer.",
+          "scenario": "常强调设法躲开追捕、责任或直接回答；不一定涉及违法",
+          "collocations": [
+            "evade capture",
+            "evade responsibility",
+            "evade a question"
+          ],
+          "examples": [
+            {
+              "en": "He evaded the question by changing the subject.",
+              "zh": "他通过转移话题回避了那个问题。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -22469,6 +22515,76 @@
       ],
       "correctUsage": "Traffic was chaotic after the storm.",
       "commonMistakes": "turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。"
+    },
+    {
+      "id": "word-e4d696e7dfcdd860",
+      "lemma": "avoid",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-167"
+      ],
+      "source": "Recent English discussion, 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 避免；避开",
+      "definitionEn": "To keep away from someone or something, or prevent an unwanted event.",
+      "scenario": "通用词，强调不接触某人或某事，或防止不希望的事情发生",
+      "collocations": [
+        "avoid mistakes",
+        "avoid doing",
+        "avoid eye contact"
+      ],
+      "examples": [
+        {
+          "en": "We left early to avoid getting stuck in traffic.",
+          "zh": "我们提前出发，以免堵在路上。"
+        }
+      ],
+      "correctUsage": "We left early to avoid getting stuck in traffic.",
+      "commonMistakes": "avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。"
+    },
+    {
+      "id": "word-288c1fb2146dfda4",
+      "lemma": "evade",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-167"
+      ],
+      "source": "Recent English discussion, 2026-11-16",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 逃避；躲避；回避",
+      "definitionEn": "To escape or deliberately get around something, such as capture, a duty or a direct answer.",
+      "scenario": "常强调设法躲开追捕、责任或直接回答；不一定涉及违法",
+      "collocations": [
+        "evade capture",
+        "evade responsibility",
+        "evade a question"
+      ],
+      "examples": [
+        {
+          "en": "He evaded the question by changing the subject.",
+          "zh": "他通过转移话题回避了那个问题。"
+        }
+      ],
+      "correctUsage": "He evaded the question by changing the subject.",
+      "commonMistakes": "avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。"
     }
   ],
   "contentAudit": {

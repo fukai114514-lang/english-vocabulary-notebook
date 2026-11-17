@@ -573,3 +573,6 @@ rust|v./n. 生锈；铁锈|通常指铁或钢与氧和水分反应形成铁锈|r
 turmoil|n. 动荡；混乱；心绪不宁|可描述社会、局势或人的内心混乱|in turmoil; political turmoil|His mind was in turmoil after the news. → 听到消息后他心绪不宁。
 turbulent|adj. 动荡的；汹涌的|侧重不稳定、剧烈变化或冲突，也可形容水流气流|turbulent times; turbulent water|It was a turbulent period in the country's history. → 那是这个国家历史上一段动荡时期。
 chaotic|adj. 混乱无序的|侧重缺乏组织或秩序|a chaotic situation; chaotic traffic|Traffic was chaotic after the storm. → 暴风雨后交通混乱不堪。
+# 167
+avoid|v. 避免；避开|通用词，强调不接触某人或某事，或防止不希望的事情发生|avoid mistakes; avoid doing; avoid eye contact|We left early to avoid getting stuck in traffic. → 我们提前出发，以免堵在路上。
+evade|v. 逃避；躲避；回避|常强调设法躲开追捕、责任或直接回答；不一定涉及违法|evade capture; evade responsibility; evade a question|He evaded the question by changing the subject. → 他通过转移话题回避了那个问题。

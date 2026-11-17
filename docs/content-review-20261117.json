@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "52c1a96",
+  "new_groups": [
+    167
+  ],
+  "groups": 167,
+  "word_records": 404,
+  "comparison_rows": 411,
+  "sources": [
+    "https://dictionary.cambridge.org/dictionary/english/avoid",
+    "https://dictionary.cambridge.org/dictionary/english/evade"
+  ],
+  "content_review": [
+    "Avoid and evade overlap; no absolute before/after distinction.",
+    "Evade does not invariably imply illegality.",
+    "Avoid doing, not avoid to do."
+  ],
+  "preservation": "All 166 previously published groups and 402 word records retained exactly; phrases, polysemy, articles and lookup styles unchanged.",
+  "validation": {
+    "audit_baseline": "passed",
+    "reproducible_build": "passed",
+    "published_content_retention": "All 166 groups and 402 word records match the prior main commit exactly."
+  }
+}

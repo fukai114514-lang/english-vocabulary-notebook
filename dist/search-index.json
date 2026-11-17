@@ -7222,6 +7222,43 @@
       }
     },
     {
+      "id": "comparison-167-0",
+      "kind": "词汇辨析",
+      "title": "avoid",
+      "target": "group-167",
+      "fields": {
+        "词条": "avoid",
+        "释义": "v. 避免；避开",
+        "英文释义": "To keep away from someone or something, or prevent an unwanted event.",
+        "搭配": "avoid mistakes; avoid doing; avoid eye contact",
+        "例句": "We left early to avoid getting stuck in traffic.",
+        "例句译文": "我们提前出发，以免堵在路上。"
+      }
+    },
+    {
+      "id": "comparison-167-1",
+      "kind": "词汇辨析",
+      "title": "evade",
+      "target": "group-167",
+      "fields": {
+        "词条": "evade",
+        "释义": "v. 逃避；躲避；回避",
+        "英文释义": "To escape or deliberately get around something, such as capture, a duty or a direct answer.",
+        "搭配": "evade capture; evade responsibility; evade a question",
+        "例句": "He evaded the question by changing the subject.",
+        "例句译文": "他通过转移话题回避了那个问题。"
+      }
+    },
+    {
+      "id": "comparison-body-167",
+      "kind": "词汇辨析",
+      "title": "avoid / evade",
+      "target": "group-167",
+      "fields": {
+        "正文": "167 avoid / evade avoid ▷ 朗读 To keep away from someone or something, or prevent an unwanted event. evade ▷ 朗读 To escape or deliberately get around something, such as capture, a duty or a direct answer. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 avoid / evade · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 avoid v. 避免；避开 通用词，强调不接触某人或某事，或防止不希望的事情发生 avoid mistakes; avoid doing; avoid eye contact We left early to avoid getting stuck in traffic. 我们提前出发，以免堵在路上。 evade v. 逃避；躲避；回避 常强调设法躲开追捕、责任或直接回答；不一定涉及违法 evade capture; evade responsibility; evade a question He evaded the question by changing the subject. 他通过转移话题回避了那个问题。 avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。 怎么选？易错点在哪？ avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。"
+      }
+    },
+    {
       "id": "sense-credit-01",
       "kind": "多义词",
       "title": "credit",

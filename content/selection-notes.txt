@@ -164,3 +164,4 @@
 164|mingle 强调混在一起，成分可仍可辨，也常指在聚会中与人交往；mix 最通用；blend 常强调融合协调；combine 强调组合成整体；merge 常指逐渐或正式合并；associate with 强调交往或关联，不表示物质混合。
 165|erode 指风、水等逐渐侵蚀，也可比喻信心或权利被削弱；rust 通常指铁或钢生锈。生锈是特定化学变化，不能把任何腐蚀都叫 rust；能力“生疏”常用 rusty。
 166|turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。
+167|avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。

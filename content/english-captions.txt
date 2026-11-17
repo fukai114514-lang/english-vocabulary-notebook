@@ -388,3 +388,5 @@ merge|To join together into one entity or flow.
 erode|To wear away gradually or weaken over time.
 rust|To develop a reddish-brown coating on iron or steel.
 turmoil|A state of confusion, unrest or emotional disturbance.
+avoid|To keep away from someone or something, or prevent an unwanted event.
+evade|To escape or deliberately get around something, such as capture, a duty or a direct answer.
