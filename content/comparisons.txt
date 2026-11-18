@@ -576,3 +576,17 @@ chaotic|adj. 混乱无序的|侧重缺乏组织或秩序|a chaotic situation; ch
 # 167
 avoid|v. 避免；避开|通用词，强调不接触某人或某事，或防止不希望的事情发生|avoid mistakes; avoid doing; avoid eye contact|We left early to avoid getting stuck in traffic. → 我们提前出发，以免堵在路上。
 evade|v. 逃避；躲避；回避|常强调设法躲开追捕、责任或直接回答；不一定涉及违法|evade capture; evade responsibility; evade a question|He evaded the question by changing the subject. → 他通过转移话题回避了那个问题。
+# 168
+bounce|v. 弹起；蹦跳|强调碰到表面后弹回，或有弹性地反复跳动|bounce a ball; bounce on a trampoline|The ball bounced twice on the floor. → 球在地板上弹了两下。
+leap|v. 跳跃；跃过|常强调幅度较大的跳跃，也可表示突然跃起|leap over; leap across|The deer leaped over the low fence. → 鹿跃过了矮栅栏。
+hop|v. 单脚跳；短距离跳跃|人可单脚跳，鸟和小动物也可短促跳动；并非一律单脚|hop on one foot; hop along|The sparrow hopped along the path. → 麻雀沿着小路蹦跳。
+spring|v. 突然跃起；弹起|强调迅速、有力地跳起或移动，带蓄力释放的感觉|spring to one's feet; spring out of|She sprang to her feet when the bell rang. → 铃声响起时，她一下站了起来。
+# 169
+grasp|v. 抓住；握住|强调抓牢对象；也可比喻理解或把握机会|grasp a handle; grasp the meaning|She grasped the rope and pulled herself up. → 她抓牢绳子，把自己拉了上去。
+grip|v. 紧握；紧抓|强调持续握紧，常为防止滑落或保持控制|grip tightly; grip the steering wheel|He gripped the rail as the boat rolled. → 船摇晃时，他紧抓着栏杆。
+grab|v. 突然抓住；赶紧拿取|强调动作快或急切，不一定粗暴，也不一定一直握紧|grab a bag; grab someone's arm|I grabbed my bag and ran to the bus. → 我一把拿起包，朝公交车跑去。
+clasp|v. 握紧；抱紧|常指紧握双手、握住别人的手或用双臂抱住|clasp one's hands; clasp someone in one's arms|She clasped her hands in front of her. → 她把双手紧握在身前。
+take|v. 拿；取；接过|此处是通用的拿取义，本身不强调速度、力度或握持方式|take a pen; take something from|Please take a pen from the box. → 请从盒子里拿一支笔。
+# 170
+symposium|n. 专题研讨会；学术讨论会|通常围绕特定专业议题，由多位专家作报告并讨论|a symposium on; an international symposium|Researchers presented their findings at a symposium on language learning. → 研究人员在语言学习专题研讨会上报告了研究成果。
+seminar|n. 研讨课；研讨会|可指教师带领学生讨论的课程，也可指专业培训或讨论活动|a seminar on; attend a seminar|We discussed the article in our weekly seminar. → 我们在每周的研讨课上讨论了这篇文章。

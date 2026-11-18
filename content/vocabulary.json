@@ -8736,6 +8736,223 @@
       ],
       "selectionNote": "avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-168",
+      "number": 168,
+      "wordIds": [
+        "word-ef2371ee7d8f5a62",
+        "word-ae90596088d523c7",
+        "word-4c15b4b8f3335a9b",
+        "word-7fd29ddb9043166f"
+      ],
+      "entries": [
+        {
+          "wordId": "word-ef2371ee7d8f5a62",
+          "meaningZh": "v. 弹起；蹦跳",
+          "definitionEn": "To rebound from a surface or move with repeated springy jumps.",
+          "scenario": "强调碰到表面后弹回，或有弹性地反复跳动",
+          "collocations": [
+            "bounce a ball",
+            "bounce on a trampoline"
+          ],
+          "examples": [
+            {
+              "en": "The ball bounced twice on the floor.",
+              "zh": "球在地板上弹了两下。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-ae90596088d523c7",
+          "meaningZh": "v. 跳跃；跃过",
+          "definitionEn": "To make a large jump or move suddenly through the air.",
+          "scenario": "常强调幅度较大的跳跃，也可表示突然跃起",
+          "collocations": [
+            "leap over",
+            "leap across"
+          ],
+          "examples": [
+            {
+              "en": "The deer leaped over the low fence.",
+              "zh": "鹿跃过了矮栅栏。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-4c15b4b8f3335a9b",
+          "meaningZh": "v. 单脚跳；短距离跳跃",
+          "definitionEn": "To jump on one foot or make short, small jumps.",
+          "scenario": "人可单脚跳，鸟和小动物也可短促跳动；并非一律单脚",
+          "collocations": [
+            "hop on one foot",
+            "hop along"
+          ],
+          "examples": [
+            {
+              "en": "The sparrow hopped along the path.",
+              "zh": "麻雀沿着小路蹦跳。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-7fd29ddb9043166f",
+          "meaningZh": "v. 突然跃起；弹起",
+          "definitionEn": "To jump or move suddenly and energetically.",
+          "scenario": "强调迅速、有力地跳起或移动，带蓄力释放的感觉",
+          "collocations": [
+            "spring to one's feet",
+            "spring out of"
+          ],
+          "examples": [
+            {
+              "en": "She sprang to her feet when the bell rang.",
+              "zh": "铃声响起时，她一下站了起来。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-169",
+      "number": 169,
+      "wordIds": [
+        "word-362b218da8c9f30e",
+        "word-e2c81f1ba3dd4609",
+        "word-4f76bcee0df80dd0",
+        "word-2d04271417891f4d",
+        "word-03709310c6a3d3ed"
+      ],
+      "entries": [
+        {
+          "wordId": "word-362b218da8c9f30e",
+          "meaningZh": "v. 抓住；握住",
+          "definitionEn": "To take a firm hold of something; also to understand an idea.",
+          "scenario": "强调抓牢对象；也可比喻理解或把握机会",
+          "collocations": [
+            "grasp a handle",
+            "grasp the meaning"
+          ],
+          "examples": [
+            {
+              "en": "She grasped the rope and pulled herself up.",
+              "zh": "她抓牢绳子，把自己拉了上去。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-e2c81f1ba3dd4609",
+          "meaningZh": "v. 紧握；紧抓",
+          "definitionEn": "To hold something tightly and keep a firm hold on it.",
+          "scenario": "强调持续握紧，常为防止滑落或保持控制",
+          "collocations": [
+            "grip tightly",
+            "grip the steering wheel"
+          ],
+          "examples": [
+            {
+              "en": "He gripped the rail as the boat rolled.",
+              "zh": "船摇晃时，他紧抓着栏杆。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-4f76bcee0df80dd0",
+          "meaningZh": "v. 突然抓住；赶紧拿取",
+          "definitionEn": "To take hold of something quickly or eagerly.",
+          "scenario": "强调动作快或急切，不一定粗暴，也不一定一直握紧",
+          "collocations": [
+            "grab a bag",
+            "grab someone's arm"
+          ],
+          "examples": [
+            {
+              "en": "I grabbed my bag and ran to the bus.",
+              "zh": "我一把拿起包，朝公交车跑去。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-2d04271417891f4d",
+          "meaningZh": "v. 握紧；抱紧",
+          "definitionEn": "To hold hands together or hold someone closely with the hands or arms.",
+          "scenario": "常指紧握双手、握住别人的手或用双臂抱住",
+          "collocations": [
+            "clasp one's hands",
+            "clasp someone in one's arms"
+          ],
+          "examples": [
+            {
+              "en": "She clasped her hands in front of her.",
+              "zh": "她把双手紧握在身前。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-03709310c6a3d3ed",
+          "meaningZh": "v. 拿；取；接过",
+          "definitionEn": "To pick up, receive or remove something from a place.",
+          "scenario": "此处是通用的拿取义，本身不强调速度、力度或握持方式",
+          "collocations": [
+            "take a pen",
+            "take something from"
+          ],
+          "examples": [
+            {
+              "en": "Please take a pen from the box.",
+              "zh": "请从盒子里拿一支笔。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-170",
+      "number": 170,
+      "wordIds": [
+        "word-ff4b759677264d33",
+        "word-6d3555c0ec8be765"
+      ],
+      "entries": [
+        {
+          "wordId": "word-ff4b759677264d33",
+          "meaningZh": "n. 专题研讨会；学术讨论会",
+          "definitionEn": "A meeting focused on a particular subject, with expert talks and discussion.",
+          "scenario": "通常围绕特定专业议题，由多位专家作报告并讨论",
+          "collocations": [
+            "a symposium on",
+            "an international symposium"
+          ],
+          "examples": [
+            {
+              "en": "Researchers presented their findings at a symposium on language learning.",
+              "zh": "研究人员在语言学习专题研讨会上报告了研究成果。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-6d3555c0ec8be765",
+          "meaningZh": "n. 研讨课；研讨会",
+          "definitionEn": "A class or meeting organized around study, discussion or training on a topic.",
+          "scenario": "可指教师带领学生讨论的课程，也可指专业培训或讨论活动",
+          "collocations": [
+            "a seminar on",
+            "attend a seminar"
+          ],
+          "examples": [
+            {
+              "en": "We discussed the article in our weekly seminar.",
+              "zh": "我们在每周的研讨课上讨论了这篇文章。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -22585,6 +22802,380 @@
       ],
       "correctUsage": "He evaded the question by changing the subject.",
       "commonMistakes": "avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。"
+    },
+    {
+      "id": "word-ef2371ee7d8f5a62",
+      "lemma": "bounce",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-168"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 弹起；蹦跳",
+      "definitionEn": "To rebound from a surface or move with repeated springy jumps.",
+      "scenario": "强调碰到表面后弹回，或有弹性地反复跳动",
+      "collocations": [
+        "bounce a ball",
+        "bounce on a trampoline"
+      ],
+      "examples": [
+        {
+          "en": "The ball bounced twice on the floor.",
+          "zh": "球在地板上弹了两下。"
+        }
+      ],
+      "correctUsage": "The ball bounced twice on the floor.",
+      "commonMistakes": "bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。"
+    },
+    {
+      "id": "word-ae90596088d523c7",
+      "lemma": "leap",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-168"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 跳跃；跃过",
+      "definitionEn": "To make a large jump or move suddenly through the air.",
+      "scenario": "常强调幅度较大的跳跃，也可表示突然跃起",
+      "collocations": [
+        "leap over",
+        "leap across"
+      ],
+      "examples": [
+        {
+          "en": "The deer leaped over the low fence.",
+          "zh": "鹿跃过了矮栅栏。"
+        }
+      ],
+      "correctUsage": "The deer leaped over the low fence.",
+      "commonMistakes": "bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。"
+    },
+    {
+      "id": "word-4c15b4b8f3335a9b",
+      "lemma": "hop",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-168"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 单脚跳；短距离跳跃",
+      "definitionEn": "To jump on one foot or make short, small jumps.",
+      "scenario": "人可单脚跳，鸟和小动物也可短促跳动；并非一律单脚",
+      "collocations": [
+        "hop on one foot",
+        "hop along"
+      ],
+      "examples": [
+        {
+          "en": "The sparrow hopped along the path.",
+          "zh": "麻雀沿着小路蹦跳。"
+        }
+      ],
+      "correctUsage": "The sparrow hopped along the path.",
+      "commonMistakes": "bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。"
+    },
+    {
+      "id": "word-7fd29ddb9043166f",
+      "lemma": "spring",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-168"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 突然跃起；弹起",
+      "definitionEn": "To jump or move suddenly and energetically.",
+      "scenario": "强调迅速、有力地跳起或移动，带蓄力释放的感觉",
+      "collocations": [
+        "spring to one's feet",
+        "spring out of"
+      ],
+      "examples": [
+        {
+          "en": "She sprang to her feet when the bell rang.",
+          "zh": "铃声响起时，她一下站了起来。"
+        }
+      ],
+      "correctUsage": "She sprang to her feet when the bell rang.",
+      "commonMistakes": "bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。"
+    },
+    {
+      "id": "word-362b218da8c9f30e",
+      "lemma": "grasp",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-169"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 抓住；握住",
+      "definitionEn": "To take a firm hold of something; also to understand an idea.",
+      "scenario": "强调抓牢对象；也可比喻理解或把握机会",
+      "collocations": [
+        "grasp a handle",
+        "grasp the meaning"
+      ],
+      "examples": [
+        {
+          "en": "She grasped the rope and pulled herself up.",
+          "zh": "她抓牢绳子，把自己拉了上去。"
+        }
+      ],
+      "correctUsage": "She grasped the rope and pulled herself up.",
+      "commonMistakes": "take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。"
+    },
+    {
+      "id": "word-e2c81f1ba3dd4609",
+      "lemma": "grip",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-169"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 紧握；紧抓",
+      "definitionEn": "To hold something tightly and keep a firm hold on it.",
+      "scenario": "强调持续握紧，常为防止滑落或保持控制",
+      "collocations": [
+        "grip tightly",
+        "grip the steering wheel"
+      ],
+      "examples": [
+        {
+          "en": "He gripped the rail as the boat rolled.",
+          "zh": "船摇晃时，他紧抓着栏杆。"
+        }
+      ],
+      "correctUsage": "He gripped the rail as the boat rolled.",
+      "commonMistakes": "take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。"
+    },
+    {
+      "id": "word-4f76bcee0df80dd0",
+      "lemma": "grab",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-169"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 突然抓住；赶紧拿取",
+      "definitionEn": "To take hold of something quickly or eagerly.",
+      "scenario": "强调动作快或急切，不一定粗暴，也不一定一直握紧",
+      "collocations": [
+        "grab a bag",
+        "grab someone's arm"
+      ],
+      "examples": [
+        {
+          "en": "I grabbed my bag and ran to the bus.",
+          "zh": "我一把拿起包，朝公交车跑去。"
+        }
+      ],
+      "correctUsage": "I grabbed my bag and ran to the bus.",
+      "commonMistakes": "take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。"
+    },
+    {
+      "id": "word-2d04271417891f4d",
+      "lemma": "clasp",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-169"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 握紧；抱紧",
+      "definitionEn": "To hold hands together or hold someone closely with the hands or arms.",
+      "scenario": "常指紧握双手、握住别人的手或用双臂抱住",
+      "collocations": [
+        "clasp one's hands",
+        "clasp someone in one's arms"
+      ],
+      "examples": [
+        {
+          "en": "She clasped her hands in front of her.",
+          "zh": "她把双手紧握在身前。"
+        }
+      ],
+      "correctUsage": "She clasped her hands in front of her.",
+      "commonMistakes": "take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。"
+    },
+    {
+      "id": "word-03709310c6a3d3ed",
+      "lemma": "take",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-169"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 拿；取；接过",
+      "definitionEn": "To pick up, receive or remove something from a place.",
+      "scenario": "此处是通用的拿取义，本身不强调速度、力度或握持方式",
+      "collocations": [
+        "take a pen",
+        "take something from"
+      ],
+      "examples": [
+        {
+          "en": "Please take a pen from the box.",
+          "zh": "请从盒子里拿一支笔。"
+        }
+      ],
+      "correctUsage": "Please take a pen from the box.",
+      "commonMistakes": "take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。"
+    },
+    {
+      "id": "word-ff4b759677264d33",
+      "lemma": "symposium",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-170"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 专题研讨会；学术讨论会",
+      "definitionEn": "A meeting focused on a particular subject, with expert talks and discussion.",
+      "scenario": "通常围绕特定专业议题，由多位专家作报告并讨论",
+      "collocations": [
+        "a symposium on",
+        "an international symposium"
+      ],
+      "examples": [
+        {
+          "en": "Researchers presented their findings at a symposium on language learning.",
+          "zh": "研究人员在语言学习专题研讨会上报告了研究成果。"
+        }
+      ],
+      "correctUsage": "Researchers presented their findings at a symposium on language learning.",
+      "commonMistakes": "symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。"
+    },
+    {
+      "id": "word-6d3555c0ec8be765",
+      "lemma": "seminar",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-170"
+      ],
+      "source": "Recent English discussion, 2026-11-17",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "n.",
+      "meaningZh": "n. 研讨课；研讨会",
+      "definitionEn": "A class or meeting organized around study, discussion or training on a topic.",
+      "scenario": "可指教师带领学生讨论的课程，也可指专业培训或讨论活动",
+      "collocations": [
+        "a seminar on",
+        "attend a seminar"
+      ],
+      "examples": [
+        {
+          "en": "We discussed the article in our weekly seminar.",
+          "zh": "我们在每周的研讨课上讨论了这篇文章。"
+        }
+      ],
+      "correctUsage": "We discussed the article in our weekly seminar.",
+      "commonMistakes": "symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。"
     }
   ],
   "contentAudit": {

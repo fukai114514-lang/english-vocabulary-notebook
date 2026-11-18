@@ -390,3 +390,14 @@ rust|To develop a reddish-brown coating on iron or steel.
 turmoil|A state of confusion, unrest or emotional disturbance.
 avoid|To keep away from someone or something, or prevent an unwanted event.
 evade|To escape or deliberately get around something, such as capture, a duty or a direct answer.
+bounce|To rebound from a surface or move with repeated springy jumps.
+leap|To make a large jump or move suddenly through the air.
+hop|To jump on one foot or make short, small jumps.
+spring|To jump or move suddenly and energetically.
+grasp|To take a firm hold of something; also to understand an idea.
+grip|To hold something tightly and keep a firm hold on it.
+grab|To take hold of something quickly or eagerly.
+clasp|To hold hands together or hold someone closely with the hands or arms.
+take@169|To pick up, receive or remove something from a place.
+symposium|A meeting focused on a particular subject, with expert talks and discussion.
+seminar|A class or meeting organized around study, discussion or training on a topic.
