@@ -13230,6 +13230,51 @@
       }
     },
     {
+      "id": "sense-sore-01",
+      "kind": "多义词",
+      "title": "sore",
+      "target": "sense-sore-01",
+      "fields": {
+        "词条": "sore",
+        "词性": "adj.",
+        "释义": "疼痛的；酸痛的",
+        "英文释义": "Painful or tender, especially after use, injury or infection.",
+        "搭配": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+        "例句": "My legs were sore after the race.",
+        "例句译文": "比赛后我的腿很酸痛。"
+      }
+    },
+    {
+      "id": "sense-sore-02",
+      "kind": "多义词",
+      "title": "sore",
+      "target": "sense-sore-02",
+      "fields": {
+        "词条": "sore",
+        "词性": "n.",
+        "释义": "疮；疼痛的破损处",
+        "英文释义": "A painful spot or open area on the skin or in the mouth.",
+        "搭配": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+        "例句": "She has a small sore inside her mouth.",
+        "例句译文": "她嘴里有一处小溃疡。"
+      }
+    },
+    {
+      "id": "sense-sore-03",
+      "kind": "多义词",
+      "title": "sore",
+      "target": "sense-sore-03",
+      "fields": {
+        "词条": "sore",
+        "词性": "adj. 口语",
+        "释义": "恼火的；心有不满的",
+        "英文释义": "Annoyed or upset about something.",
+        "搭配": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+        "例句": "He was still sore about losing the game.",
+        "例句译文": "他还在为输掉比赛而不高兴。"
+      }
+    },
+    {
       "id": "sense-flush-01",
       "kind": "多义词",
       "title": "flush",
@@ -13737,6 +13782,966 @@
         "搭配": "pattern 可指反复出现的规律或图案；trend 强调变化方向，habit 强调习惯，model 可指模型或范例。pattern A on/after B 表示以 B 为模仿对象。",
         "例句": "The programme was patterned on a successful local project.",
         "例句译文": "该计划仿照了一个成功的地方项目。"
+      }
+    },
+    {
+      "id": "sense-fairly-01",
+      "kind": "多义词",
+      "title": "fairly",
+      "target": "sense-fairly-01",
+      "fields": {
+        "词条": "fairly",
+        "词性": "adv.",
+        "释义": "相当；还算",
+        "英文释义": "To a noticeable but usually moderate degree.",
+        "搭配": "fairly easy 表示“还算容易”；fairly sure 表示“相当有把握”。在 treat people fairly 中，fairly 修饰做事的方式。",
+        "例句": "The instructions are fairly easy to follow.",
+        "例句译文": "这些说明还算容易照着做。"
+      }
+    },
+    {
+      "id": "sense-fairly-02",
+      "kind": "多义词",
+      "title": "fairly",
+      "target": "sense-fairly-02",
+      "fields": {
+        "词条": "fairly",
+        "词性": "adv.",
+        "释义": "公平地；公正地",
+        "英文释义": "In a way that treats people equally and reasonably.",
+        "搭配": "fairly easy 表示“还算容易”；fairly sure 表示“相当有把握”。在 treat people fairly 中，fairly 修饰做事的方式。",
+        "例句": "The teacher graded all the essays fairly.",
+        "例句译文": "老师公平地给所有作文打了分。"
+      }
+    },
+    {
+      "id": "sense-flourish-01",
+      "kind": "多义词",
+      "title": "flourish",
+      "target": "sense-flourish-01",
+      "fields": {
+        "词条": "flourish",
+        "词性": "v.",
+        "释义": "繁荣；茁壮成长",
+        "英文释义": "To grow, develop, or do very well.",
+        "搭配": "a business flourishes 指生意兴隆；with a flourish 指以引人注目的动作做某事。",
+        "例句": "These plants flourish in warm, humid conditions.",
+        "例句译文": "这些植物在温暖潮湿的环境里长得很好。"
+      }
+    },
+    {
+      "id": "sense-flourish-02",
+      "kind": "多义词",
+      "title": "flourish",
+      "target": "sense-flourish-02",
+      "fields": {
+        "词条": "flourish",
+        "词性": "v.",
+        "释义": "挥舞；炫示",
+        "英文释义": "To wave or hold up something to attract attention.",
+        "搭配": "a business flourishes 指生意兴隆；with a flourish 指以引人注目的动作做某事。",
+        "例句": "She flourished the letter as she entered the room.",
+        "例句译文": "她走进房间时，得意地挥了挥手中的信。"
+      }
+    },
+    {
+      "id": "sense-flourish-03",
+      "kind": "多义词",
+      "title": "flourish",
+      "target": "sense-flourish-03",
+      "fields": {
+        "词条": "flourish",
+        "词性": "n.",
+        "释义": "夸张而引人注目的动作",
+        "英文释义": "A bold or decorative gesture made to attract attention.",
+        "搭配": "a business flourishes 指生意兴隆；with a flourish 指以引人注目的动作做某事。",
+        "例句": "The waiter opened the bottle with a flourish.",
+        "例句译文": "服务员用一个夸张利落的动作打开了酒瓶。"
+      }
+    },
+    {
+      "id": "sense-flourish-04",
+      "kind": "多义词",
+      "title": "flourish",
+      "target": "sense-flourish-04",
+      "fields": {
+        "词条": "flourish",
+        "词性": "n.",
+        "释义": "装饰性的笔划或细节",
+        "英文释义": "A decorative addition to writing, music, or design.",
+        "搭配": "a business flourishes 指生意兴隆；with a flourish 指以引人注目的动作做某事。",
+        "例句": "He added a flourish to the first letter of his name.",
+        "例句译文": "他在名字的首字母上添了一笔花饰。"
+      }
+    },
+    {
+      "id": "sense-grim-01",
+      "kind": "多义词",
+      "title": "grim",
+      "target": "sense-grim-01",
+      "fields": {
+        "词条": "grim",
+        "词性": "adj.",
+        "释义": "严峻的；令人沮丧的",
+        "英文释义": "Very serious and giving little reason for hope.",
+        "搭配": "grim news 指令人沮丧的消息；a grim expression 指严肃或阴沉的表情；grim determination 指咬紧牙关的决心。",
+        "例句": "The forecast for small retailers looks grim.",
+        "例句译文": "小型零售商的前景看来很严峻。"
+      }
+    },
+    {
+      "id": "sense-grim-02",
+      "kind": "多义词",
+      "title": "grim",
+      "target": "sense-grim-02",
+      "fields": {
+        "词条": "grim",
+        "词性": "adj.",
+        "释义": "严肃的；阴沉的",
+        "英文释义": "Looking serious, worried, or unhappy.",
+        "搭配": "grim news 指令人沮丧的消息；a grim expression 指严肃或阴沉的表情；grim determination 指咬紧牙关的决心。",
+        "例句": "She listened with a grim expression.",
+        "例句译文": "她神情严肃地听着。"
+      }
+    },
+    {
+      "id": "sense-grim-03",
+      "kind": "多义词",
+      "title": "grim",
+      "target": "sense-grim-03",
+      "fields": {
+        "词条": "grim",
+        "词性": "adj.",
+        "释义": "阴暗的；令人不快的",
+        "英文释义": "Unpleasant or depressing in appearance or atmosphere.",
+        "搭配": "grim news 指令人沮丧的消息；a grim expression 指严肃或阴沉的表情；grim determination 指咬紧牙关的决心。",
+        "例句": "The empty station looked grim in the rain.",
+        "例句译文": "空荡荡的车站在雨中显得格外阴沉。"
+      }
+    },
+    {
+      "id": "sense-measure-01",
+      "kind": "多义词",
+      "title": "measure",
+      "target": "sense-measure-01",
+      "fields": {
+        "词条": "measure",
+        "词性": "v.",
+        "释义": "测量；量出",
+        "英文释义": "To find the size, amount, or degree of something.",
+        "搭配": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+        "例句": "Measure the desk before you buy a new cover.",
+        "例句译文": "买新桌布前先量一下桌子的尺寸。"
+      }
+    },
+    {
+      "id": "sense-measure-02",
+      "kind": "多义词",
+      "title": "measure",
+      "target": "sense-measure-02",
+      "fields": {
+        "词条": "measure",
+        "词性": "v.",
+        "释义": "尺寸为；长或宽达",
+        "英文释义": "To have a stated size or length.",
+        "搭配": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+        "例句": "The table measures two metres across.",
+        "例句译文": "这张桌子宽两米。"
+      }
+    },
+    {
+      "id": "sense-measure-03",
+      "kind": "多义词",
+      "title": "measure",
+      "target": "sense-measure-03",
+      "fields": {
+        "词条": "measure",
+        "词性": "v.",
+        "释义": "衡量；评估",
+        "英文释义": "To judge the effectiveness, value, or extent of something.",
+        "搭配": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+        "例句": "We use two indicators to measure progress.",
+        "例句译文": "我们用两个指标衡量进度。"
+      }
+    },
+    {
+      "id": "sense-measure-04",
+      "kind": "多义词",
+      "title": "measure",
+      "target": "sense-measure-04",
+      "fields": {
+        "词条": "measure",
+        "词性": "n.",
+        "释义": "措施；办法",
+        "英文释义": "An action taken to achieve a particular result.",
+        "搭配": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+        "例句": "The city introduced measures to reduce traffic.",
+        "例句译文": "市里出台了减少交通拥堵的措施。"
+      }
+    },
+    {
+      "id": "sense-measure-05",
+      "kind": "多义词",
+      "title": "measure",
+      "target": "sense-measure-05",
+      "fields": {
+        "词条": "measure",
+        "词性": "n.",
+        "释义": "衡量标准；指标",
+        "英文释义": "A way of judging the quality or extent of something.",
+        "搭配": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+        "例句": "Attendance alone is a poor measure of success.",
+        "例句译文": "单看出席人数很难衡量活动是否成功。"
+      }
+    },
+    {
+      "id": "sense-measure-06",
+      "kind": "多义词",
+      "title": "measure",
+      "target": "sense-measure-06",
+      "fields": {
+        "词条": "measure",
+        "词性": "n.",
+        "释义": "一定量；一份",
+        "英文释义": "A stated amount, especially of an ingredient or liquid.",
+        "搭配": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+        "例句": "Add one measure of syrup to three measures of water.",
+        "例句译文": "把一份糖浆加到三份水里。"
+      }
+    },
+    {
+      "id": "sense-force-01",
+      "kind": "多义词",
+      "title": "force",
+      "target": "sense-force-01",
+      "fields": {
+        "词条": "force",
+        "词性": "n.",
+        "释义": "力；力量",
+        "英文释义": "Physical strength, or an influence that changes motion.",
+        "搭配": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+        "例句": "The force of the impact bent the wheel.",
+        "例句译文": "撞击的力量使车轮变形了。"
+      }
+    },
+    {
+      "id": "sense-force-02",
+      "kind": "多义词",
+      "title": "force",
+      "target": "sense-force-02",
+      "fields": {
+        "词条": "force",
+        "词性": "n.",
+        "释义": "武力；暴力",
+        "英文释义": "Physical power used to make someone do something.",
+        "搭配": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+        "例句": "The door was opened by force.",
+        "例句译文": "门被强行打开了。"
+      }
+    },
+    {
+      "id": "sense-force-03",
+      "kind": "多义词",
+      "title": "force",
+      "target": "sense-force-03",
+      "fields": {
+        "词条": "force",
+        "词性": "n.",
+        "释义": "部队；执法队伍",
+        "英文释义": "An organized group of people trained for military or police work.",
+        "搭配": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+        "例句": "She joined the police force after university.",
+        "例句译文": "她大学毕业后加入了警队。"
+      }
+    },
+    {
+      "id": "sense-force-04",
+      "kind": "多义词",
+      "title": "force",
+      "target": "sense-force-04",
+      "fields": {
+        "词条": "force",
+        "词性": "n.",
+        "释义": "影响重大的力量或因素",
+        "英文释义": "A person or influence that brings about change.",
+        "搭配": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+        "例句": "Public opinion became a powerful force for reform.",
+        "例句译文": "公众舆论成为推动改革的重要力量。"
+      }
+    },
+    {
+      "id": "sense-force-05",
+      "kind": "多义词",
+      "title": "force",
+      "target": "sense-force-05",
+      "fields": {
+        "词条": "force",
+        "词性": "v.",
+        "释义": "强迫；迫使",
+        "英文释义": "To make someone do something or make something necessary.",
+        "搭配": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+        "例句": "The storm forced us to change our plans.",
+        "例句译文": "暴风雨迫使我们改变计划。"
+      }
+    },
+    {
+      "id": "sense-force-06",
+      "kind": "多义词",
+      "title": "force",
+      "target": "sense-force-06",
+      "fields": {
+        "词条": "force",
+        "词性": "v.",
+        "释义": "用力推开；强行移动",
+        "英文释义": "To make something move by applying physical pressure.",
+        "搭配": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+        "例句": "We had to force the window open.",
+        "例句译文": "我们只好用力把窗户推开。"
+      }
+    },
+    {
+      "id": "sense-lead-01",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-01",
+      "fields": {
+        "词条": "lead",
+        "词性": "v.",
+        "释义": "带领；引导",
+        "英文释义": "To show someone the way by going in front of them.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "She led us through a side entrance.",
+        "例句译文": "她带我们从侧门进去。"
+      }
+    },
+    {
+      "id": "sense-lead-02",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-02",
+      "fields": {
+        "词条": "lead",
+        "词性": "v.",
+        "释义": "领导；负责",
+        "英文释义": "To direct a group or be in charge of an activity.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "He leads a team of six engineers.",
+        "例句译文": "他带领一支由六名工程师组成的团队。"
+      }
+    },
+    {
+      "id": "sense-lead-03",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-03",
+      "fields": {
+        "词条": "lead",
+        "词性": "v.",
+        "释义": "通往；导致",
+        "英文释义": "To go to a place or produce a particular result.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "A lack of sleep can lead to poor concentration.",
+        "例句译文": "缺觉可能导致注意力不集中。"
+      }
+    },
+    {
+      "id": "sense-lead-04",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-04",
+      "fields": {
+        "词条": "lead",
+        "词性": "n./v.",
+        "释义": "领先地位；领先",
+        "英文释义": "A position ahead of others, or to be in that position.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "Our team took the lead in the second half.",
+        "例句译文": "我们队在下半场取得了领先。"
+      }
+    },
+    {
+      "id": "sense-lead-05",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-05",
+      "fields": {
+        "词条": "lead",
+        "词性": "n.",
+        "释义": "线索",
+        "英文释义": "A piece of information that may help someone find out more.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "The police followed a new lead in the case.",
+        "例句译文": "警方顺着案件的一条新线索展开调查。"
+      }
+    },
+    {
+      "id": "sense-lead-06",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-06",
+      "fields": {
+        "词条": "lead",
+        "词性": "n.",
+        "释义": "主角；主演",
+        "英文释义": "The most important part or performer in a play or film.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "She plays the lead in the school musical.",
+        "例句译文": "她在学校的音乐剧中担任主演。"
+      }
+    },
+    {
+      "id": "sense-lead-07",
+      "kind": "多义词",
+      "title": "lead",
+      "target": "sense-lead-07",
+      "fields": {
+        "词条": "lead",
+        "词性": "n.",
+        "释义": "铅",
+        "英文释义": "A heavy, soft metal, pronounced /led/.",
+        "搭配": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+        "例句": "The old pipes were made of lead.",
+        "例句译文": "这些旧管道是铅制的。"
+      }
+    },
+    {
+      "id": "sense-faculty-01",
+      "kind": "多义词",
+      "title": "faculty",
+      "target": "sense-faculty-01",
+      "fields": {
+        "词条": "faculty",
+        "词性": "n.",
+        "释义": "全体教师；教学人员",
+        "英文释义": "The teaching staff of a school, college, or university.",
+        "搭配": "the faculty 在美式英语中可统指全体教师；Faculty of Engineering 常见于英式用法，指工学院。the faculty of sight 指视觉能力。",
+        "例句": "Several faculty members helped design the course.",
+        "例句译文": "几位老师参与设计了这门课程。"
+      }
+    },
+    {
+      "id": "sense-faculty-02",
+      "kind": "多义词",
+      "title": "faculty",
+      "target": "sense-faculty-02",
+      "fields": {
+        "词条": "faculty",
+        "词性": "n.",
+        "释义": "学院；大学的学部",
+        "英文释义": "A division of a university that covers a group of related subjects.",
+        "搭配": "the faculty 在美式英语中可统指全体教师；Faculty of Engineering 常见于英式用法，指工学院。the faculty of sight 指视觉能力。",
+        "例句": "She studies in the Faculty of Engineering.",
+        "例句译文": "她在工学院学习。"
+      }
+    },
+    {
+      "id": "sense-faculty-03",
+      "kind": "多义词",
+      "title": "faculty",
+      "target": "sense-faculty-03",
+      "fields": {
+        "词条": "faculty",
+        "词性": "n.",
+        "释义": "官能；能力",
+        "英文释义": "A natural mental or physical ability.",
+        "搭配": "the faculty 在美式英语中可统指全体教师；Faculty of Engineering 常见于英式用法，指工学院。the faculty of sight 指视觉能力。",
+        "例句": "The illness affected his faculty of speech.",
+        "例句译文": "疾病影响了他的说话能力。"
+      }
+    },
+    {
+      "id": "sense-segment-01",
+      "kind": "多义词",
+      "title": "segment",
+      "target": "sense-segment-01",
+      "fields": {
+        "词条": "segment",
+        "词性": "n.",
+        "释义": "部分；片段",
+        "英文释义": "One part of something that is divided into sections.",
+        "搭配": "a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。",
+        "例句": "The last segment of the programme featured an interview.",
+        "例句译文": "节目最后一个环节是一段采访。"
+      }
+    },
+    {
+      "id": "sense-segment-02",
+      "kind": "多义词",
+      "title": "segment",
+      "target": "sense-segment-02",
+      "fields": {
+        "词条": "segment",
+        "词性": "n.",
+        "释义": "细分群体；细分市场",
+        "英文释义": "A group within a larger population or market that shares a characteristic.",
+        "搭配": "a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。",
+        "例句": "The company is targeting a younger market segment.",
+        "例句译文": "公司正在瞄准一个更年轻的细分市场。"
+      }
+    },
+    {
+      "id": "sense-segment-03",
+      "kind": "多义词",
+      "title": "segment",
+      "target": "sense-segment-03",
+      "fields": {
+        "词条": "segment",
+        "词性": "n.",
+        "释义": "线段",
+        "英文释义": "The part of a line between two points.",
+        "搭配": "a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。",
+        "例句": "Draw a line segment from A to B.",
+        "例句译文": "画一条从 A 到 B 的线段。"
+      }
+    },
+    {
+      "id": "sense-segment-04",
+      "kind": "多义词",
+      "title": "segment",
+      "target": "sense-segment-04",
+      "fields": {
+        "词条": "segment",
+        "词性": "n.",
+        "释义": "瓣；天然分隔的一部分",
+        "英文释义": "One of the naturally divided parts of a fruit or similar object.",
+        "搭配": "a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。",
+        "例句": "She gave me a segment of the orange.",
+        "例句译文": "她给了我一瓣橙子。"
+      }
+    },
+    {
+      "id": "sense-segment-05",
+      "kind": "多义词",
+      "title": "segment",
+      "target": "sense-segment-05",
+      "fields": {
+        "词条": "segment",
+        "词性": "v.",
+        "释义": "分割；划分",
+        "英文释义": "To divide something into separate parts or groups.",
+        "搭配": "a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。",
+        "例句": "The researchers segmented the data by age group.",
+        "例句译文": "研究人员按年龄组对数据进行了划分。"
+      }
+    },
+    {
+      "id": "sense-charge-01",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-01",
+      "fields": {
+        "词条": "charge",
+        "词性": "n./v.",
+        "释义": "费用；收费",
+        "英文释义": "An amount to pay, or to ask someone to pay it.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "The hotel charges guests for parking.",
+        "例句译文": "酒店向住客收取停车费。"
+      }
+    },
+    {
+      "id": "sense-charge-02",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-02",
+      "fields": {
+        "词条": "charge",
+        "词性": "v.",
+        "释义": "充电",
+        "英文释义": "To put electrical energy into a battery or device.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "I forgot to charge my phone last night.",
+        "例句译文": "我昨晚忘了给手机充电。"
+      }
+    },
+    {
+      "id": "sense-charge-03",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-03",
+      "fields": {
+        "词条": "charge",
+        "词性": "n.",
+        "释义": "电荷；电量",
+        "英文释义": "An electrical property of matter, or the energy stored in a battery.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "The battery still holds a charge.",
+        "例句译文": "电池还存有电量。"
+      }
+    },
+    {
+      "id": "sense-charge-04",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-04",
+      "fields": {
+        "词条": "charge",
+        "词性": "n./v.",
+        "释义": "正式指控；起诉",
+        "英文释义": "A formal accusation of a crime, or to accuse someone formally.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "He was charged with theft.",
+        "例句译文": "他被正式指控犯有盗窃罪。"
+      }
+    },
+    {
+      "id": "sense-charge-05",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-05",
+      "fields": {
+        "词条": "charge",
+        "词性": "n.",
+        "释义": "负责；掌管",
+        "英文释义": "Responsibility for directing or looking after something.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "Mia is in charge of the project.",
+        "例句译文": "米娅负责这个项目。"
+      }
+    },
+    {
+      "id": "sense-charge-06",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-06",
+      "fields": {
+        "词条": "charge",
+        "词性": "v./n.",
+        "释义": "猛冲；冲锋",
+        "英文释义": "To rush towards something, or a sudden rush or attack.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "The bull charged at the fence.",
+        "例句译文": "公牛猛地冲向围栏。"
+      }
+    },
+    {
+      "id": "sense-charge-07",
+      "kind": "多义词",
+      "title": "charge",
+      "target": "sense-charge-07",
+      "fields": {
+        "词条": "charge",
+        "词性": "v.",
+        "释义": "记在账上；刷卡支付",
+        "英文释义": "To add a cost to an account or payment card.",
+        "搭配": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+        "例句": "Could you charge the meal to my room?",
+        "例句译文": "能把这顿饭的费用记在我的房账上吗？"
+      }
+    },
+    {
+      "id": "sense-spur-01",
+      "kind": "多义词",
+      "title": "spur",
+      "target": "sense-spur-01",
+      "fields": {
+        "词条": "spur",
+        "词性": "v.",
+        "释义": "激励；促使",
+        "英文释义": "To encourage someone to act or try harder.",
+        "搭配": "spur sb on 表示激励某人继续行动；spur growth 表示推动增长；on the spur of the moment 表示一时兴起、临时起意。",
+        "例句": "Her coach's advice spurred her on to train harder.",
+        "例句译文": "教练的建议激励她更加刻苦地训练。"
+      }
+    },
+    {
+      "id": "sense-spur-02",
+      "kind": "多义词",
+      "title": "spur",
+      "target": "sense-spur-02",
+      "fields": {
+        "词条": "spur",
+        "词性": "v.",
+        "释义": "推动；促进",
+        "英文释义": "To cause an activity or process to develop faster.",
+        "搭配": "spur sb on 表示激励某人继续行动；spur growth 表示推动增长；on the spur of the moment 表示一时兴起、临时起意。",
+        "例句": "Lower fares could spur demand for train travel.",
+        "例句译文": "降低票价可能会带动铁路出行需求。"
+      }
+    },
+    {
+      "id": "sense-spur-03",
+      "kind": "多义词",
+      "title": "spur",
+      "target": "sense-spur-03",
+      "fields": {
+        "词条": "spur",
+        "词性": "n.",
+        "释义": "马刺",
+        "英文释义": "A small device on a rider's boot used to urge a horse forward.",
+        "搭配": "spur sb on 表示激励某人继续行动；spur growth 表示推动增长；on the spur of the moment 表示一时兴起、临时起意。",
+        "例句": "The rider wore a pair of spurs.",
+        "例句译文": "骑手的靴子上装着一对马刺。"
+      }
+    },
+    {
+      "id": "sense-spur-04",
+      "kind": "多义词",
+      "title": "spur",
+      "target": "sense-spur-04",
+      "fields": {
+        "词条": "spur",
+        "词性": "n.",
+        "释义": "支线；山体突出的支脊",
+        "英文释义": "A branch from a main route, or a ridge projecting from a mountain.",
+        "搭配": "spur sb on 表示激励某人继续行动；spur growth 表示推动增长；on the spur of the moment 表示一时兴起、临时起意。",
+        "例句": "A short rail spur connects the depot to the main line.",
+        "例句译文": "一段短铁路支线把车库与主线连在一起。"
+      }
+    },
+    {
+      "id": "sense-rake-01",
+      "kind": "多义词",
+      "title": "rake",
+      "target": "sense-rake-01",
+      "fields": {
+        "词条": "rake",
+        "词性": "n.",
+        "释义": "耙子",
+        "英文释义": "A long-handled tool with a row of teeth for gathering leaves or levelling soil.",
+        "搭配": "rake up leaves 是把落叶耙拢；rake up the past 是翻旧账；rake in money 是口语，表示赚进很多钱。",
+        "例句": "We need a rake to clear the leaves.",
+        "例句译文": "我们需要一把耙子来清理落叶。"
+      }
+    },
+    {
+      "id": "sense-rake-02",
+      "kind": "多义词",
+      "title": "rake",
+      "target": "sense-rake-02",
+      "fields": {
+        "词条": "rake",
+        "词性": "v.",
+        "释义": "用耙子耙拢；耙平",
+        "英文释义": "To gather things or level a surface with a rake.",
+        "搭配": "rake up leaves 是把落叶耙拢；rake up the past 是翻旧账；rake in money 是口语，表示赚进很多钱。",
+        "例句": "He raked the leaves into a pile.",
+        "例句译文": "他把落叶耙成了一堆。"
+      }
+    },
+    {
+      "id": "sense-rake-03",
+      "kind": "多义词",
+      "title": "rake",
+      "target": "sense-rake-03",
+      "fields": {
+        "词条": "rake",
+        "词性": "短语动词",
+        "释义": "重新提起令人不快的旧事",
+        "英文释义": "To bring up unpleasant facts or events from the past.",
+        "搭配": "rake up leaves 是把落叶耙拢；rake up the past 是翻旧账；rake in money 是口语，表示赚进很多钱。",
+        "例句": "There's no point in raking up that old argument.",
+        "例句译文": "没必要再提那次争吵。"
+      }
+    },
+    {
+      "id": "sense-rake-04",
+      "kind": "多义词",
+      "title": "rake",
+      "target": "sense-rake-04",
+      "fields": {
+        "词条": "rake",
+        "词性": "短语动词 口语",
+        "释义": "赚进大量金钱",
+        "英文释义": "To earn or take in a large amount of money.",
+        "搭配": "rake up leaves 是把落叶耙拢；rake up the past 是翻旧账；rake in money 是口语，表示赚进很多钱。",
+        "例句": "The film raked in millions in its first week.",
+        "例句译文": "这部电影第一周就赚了数百万。"
+      }
+    },
+    {
+      "id": "sense-rack-01",
+      "kind": "多义词",
+      "title": "rack",
+      "target": "sense-rack-01",
+      "fields": {
+        "词条": "rack",
+        "词性": "n.",
+        "释义": "架子；支架",
+        "英文释义": "A frame or structure for holding, storing, or displaying things.",
+        "搭配": "a bike rack 是自行车停放架；rack your brains 表示绞尽脑汁；rack up debts 或 rack up points 分别表示累积债务或积分。",
+        "例句": "Hang your coat on the rack by the door.",
+        "例句译文": "把外套挂在门边的架子上。"
+      }
+    },
+    {
+      "id": "sense-rack-02",
+      "kind": "多义词",
+      "title": "rack",
+      "target": "sense-rack-02",
+      "fields": {
+        "词条": "rack",
+        "词性": "n.",
+        "释义": "一排肋骨；连排肋骨肉",
+        "英文释义": "A set of ribs from an animal, especially as a cut of meat.",
+        "搭配": "a bike rack 是自行车停放架；rack your brains 表示绞尽脑汁；rack up debts 或 rack up points 分别表示累积债务或积分。",
+        "例句": "We ordered a rack of lamb to share.",
+        "例句译文": "我们点了一份连排羊肋骨一起吃。"
+      }
+    },
+    {
+      "id": "sense-rack-03",
+      "kind": "多义词",
+      "title": "rack",
+      "target": "sense-rack-03",
+      "fields": {
+        "词条": "rack",
+        "词性": "v.",
+        "释义": "使遭受剧痛或折磨",
+        "英文释义": "To cause severe physical or mental suffering.",
+        "搭配": "a bike rack 是自行车停放架；rack your brains 表示绞尽脑汁；rack up debts 或 rack up points 分别表示累积债务或积分。",
+        "例句": "She was racked with guilt after the accident.",
+        "例句译文": "事故发生后，她深受内疚折磨。"
+      }
+    },
+    {
+      "id": "sense-rack-04",
+      "kind": "多义词",
+      "title": "rack",
+      "target": "sense-rack-04",
+      "fields": {
+        "词条": "rack",
+        "词性": "短语动词",
+        "释义": "累积；累计获得",
+        "英文释义": "To accumulate a large amount of something such as points, costs, or debts.",
+        "搭配": "a bike rack 是自行车停放架；rack your brains 表示绞尽脑汁；rack up debts 或 rack up points 分别表示累积债务或积分。",
+        "例句": "The team racked up six wins in a row.",
+        "例句译文": "这支队伍接连拿下了六场胜利。"
+      }
+    },
+    {
+      "id": "sense-fancy-01",
+      "kind": "多义词",
+      "title": "fancy",
+      "target": "sense-fancy-01",
+      "fields": {
+        "词条": "fancy",
+        "词性": "adj.",
+        "释义": "精致的；讲究的",
+        "英文释义": "Decorative or more elaborate than usual.",
+        "搭配": "英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。",
+        "例句": "The invitation was printed in fancy lettering.",
+        "例句译文": "请柬上印着花体字。"
+      }
+    },
+    {
+      "id": "sense-fancy-02",
+      "kind": "多义词",
+      "title": "fancy",
+      "target": "sense-fancy-02",
+      "fields": {
+        "词条": "fancy",
+        "词性": "adj.",
+        "释义": "高档的；昂贵讲究的",
+        "英文释义": "Expensive or fashionable in appearance or style.",
+        "搭配": "英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。",
+        "例句": "They booked a table at a fancy restaurant.",
+        "例句译文": "他们在一家高档餐厅订了位。"
+      }
+    },
+    {
+      "id": "sense-fancy-03",
+      "kind": "多义词",
+      "title": "fancy",
+      "target": "sense-fancy-03",
+      "fields": {
+        "词条": "fancy",
+        "词性": "v. 英式口语",
+        "释义": "想要；想做",
+        "英文释义": "To feel like having or doing something.",
+        "搭配": "英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。",
+        "例句": "Do you fancy a cup of tea?",
+        "例句译文": "你想喝杯茶吗？"
+      }
+    },
+    {
+      "id": "sense-fancy-04",
+      "kind": "多义词",
+      "title": "fancy",
+      "target": "sense-fancy-04",
+      "fields": {
+        "词条": "fancy",
+        "词性": "v. 英式口语",
+        "释义": "喜欢；对某人有好感",
+        "英文释义": "To feel romantically or sexually attracted to someone.",
+        "搭配": "英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。",
+        "例句": "I think she fancies him.",
+        "例句译文": "我觉得她对他有好感。"
+      }
+    },
+    {
+      "id": "sense-fancy-05",
+      "kind": "多义词",
+      "title": "fancy",
+      "target": "sense-fancy-05",
+      "fields": {
+        "词条": "fancy",
+        "词性": "n.",
+        "释义": "一时的喜爱；心血来潮的念头",
+        "英文释义": "A liking or wish that can arise suddenly.",
+        "搭配": "英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。",
+        "例句": "She took a fancy to the little bookshop.",
+        "例句译文": "她一下子就喜欢上了那家小书店。"
+      }
+    },
+    {
+      "id": "sense-gauge-01",
+      "kind": "多义词",
+      "title": "gauge",
+      "target": "sense-gauge-01",
+      "fields": {
+        "词条": "gauge",
+        "词性": "v.",
+        "释义": "判断；估计",
+        "英文释义": "To form an estimate of someone's reaction, a situation, or an amount.",
+        "搭配": "gauge 读 /ɡeɪdʒ/；gauge public reaction 表示判断公众反应；a pressure gauge 指压力表；railway gauge 指轨距。",
+        "例句": "It was hard to gauge how interested the audience was.",
+        "例句译文": "很难判断听众有多感兴趣。"
+      }
+    },
+    {
+      "id": "sense-gauge-02",
+      "kind": "多义词",
+      "title": "gauge",
+      "target": "sense-gauge-02",
+      "fields": {
+        "词条": "gauge",
+        "词性": "v.",
+        "释义": "测定；量出",
+        "英文释义": "To measure a level or amount, often with an instrument.",
+        "搭配": "gauge 读 /ɡeɪdʒ/；gauge public reaction 表示判断公众反应；a pressure gauge 指压力表；railway gauge 指轨距。",
+        "例句": "The sensor gauges the depth of the water.",
+        "例句译文": "这个传感器可以测出水深。"
+      }
+    },
+    {
+      "id": "sense-gauge-03",
+      "kind": "多义词",
+      "title": "gauge",
+      "target": "sense-gauge-03",
+      "fields": {
+        "词条": "gauge",
+        "词性": "n.",
+        "释义": "量表；仪表",
+        "英文释义": "An instrument that measures and displays a level or quantity.",
+        "搭配": "gauge 读 /ɡeɪdʒ/；gauge public reaction 表示判断公众反应；a pressure gauge 指压力表；railway gauge 指轨距。",
+        "例句": "The fuel gauge showed that the tank was nearly empty.",
+        "例句译文": "油量表显示油箱快空了。"
+      }
+    },
+    {
+      "id": "sense-gauge-04",
+      "kind": "多义词",
+      "title": "gauge",
+      "target": "sense-gauge-04",
+      "fields": {
+        "词条": "gauge",
+        "词性": "n.",
+        "释义": "规格；轨距",
+        "英文释义": "A standard measure of thickness or size, or the distance between railway rails.",
+        "搭配": "gauge 读 /ɡeɪdʒ/；gauge public reaction 表示判断公众反应；a pressure gauge 指压力表；railway gauge 指轨距。",
+        "例句": "The two rail lines use different gauges.",
+        "例句译文": "这两条铁路线采用不同的轨距。"
       }
     },
     {

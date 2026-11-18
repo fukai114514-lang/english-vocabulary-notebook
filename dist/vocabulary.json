@@ -29615,6 +29615,60 @@
           "references": []
         },
         {
+          "word": "sore",
+          "notes": "a sore throat 是喉咙痛；sore muscles 是肌肉酸痛；be sore about sth 表示对某事心有不满。a sore spot 也可比喻敏感话题。",
+          "senses": [
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "疼痛的；酸痛的",
+              "definitionEn": "Painful or tender, especially after use, injury or infection.",
+              "example": {
+                "en": "My legs were sore after the race.",
+                "zh": "比赛后我的腿很酸痛。"
+              },
+              "id": "sense-sore-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "疮；疼痛的破损处",
+              "definitionEn": "A painful spot or open area on the skin or in the mouth.",
+              "example": {
+                "en": "She has a small sore inside her mouth.",
+                "zh": "她嘴里有一处小溃疡。"
+              },
+              "id": "sense-sore-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            },
+            {
+              "partOfSpeech": "adj. 口语",
+              "meaningZh": "恼火的；心有不满的",
+              "definitionEn": "Annoyed or upset about something.",
+              "example": {
+                "en": "He was still sore about losing the game.",
+                "zh": "他还在为输掉比赛而不高兴。"
+              },
+              "id": "sense-sore-03",
+              "register": "口语",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "needs-review"
+            }
+          ],
+          "reviewStatus": "needs-review",
+          "orderingBasis": "优先排列常见用法，再列语域或专业义项。",
+          "references": []
+        },
+        {
           "word": "flush",
           "notes": "flush with the wall 表示与墙面齐平；flush with cash 中的 flush 是“充裕的”；扑克牌 a flush 指同花牌型。",
           "senses": [
@@ -30184,6 +30238,1092 @@
           "references": [
             "https://dictionary.cambridge.org/dictionary/english/pattern"
           ]
+        },
+        {
+          "word": "fairly",
+          "notes": "fairly easy 表示“还算容易”；fairly sure 表示“相当有把握”。在 treat people fairly 中，fairly 修饰做事的方式。",
+          "senses": [
+            {
+              "partOfSpeech": "adv.",
+              "meaningZh": "相当；还算",
+              "definitionEn": "To a noticeable but usually moderate degree.",
+              "example": {
+                "en": "The instructions are fairly easy to follow.",
+                "zh": "这些说明还算容易照着做。"
+              },
+              "id": "sense-fairly-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adv.",
+              "meaningZh": "公平地；公正地",
+              "definitionEn": "In a way that treats people equally and reasonably.",
+              "example": {
+                "en": "The teacher graded all the essays fairly.",
+                "zh": "老师公平地给所有作文打了分。"
+              },
+              "id": "sense-fairly-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "flourish",
+          "notes": "a business flourishes 指生意兴隆；with a flourish 指以引人注目的动作做某事。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "繁荣；茁壮成长",
+              "definitionEn": "To grow, develop, or do very well.",
+              "example": {
+                "en": "These plants flourish in warm, humid conditions.",
+                "zh": "这些植物在温暖潮湿的环境里长得很好。"
+              },
+              "id": "sense-flourish-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "挥舞；炫示",
+              "definitionEn": "To wave or hold up something to attract attention.",
+              "example": {
+                "en": "She flourished the letter as she entered the room.",
+                "zh": "她走进房间时，得意地挥了挥手中的信。"
+              },
+              "id": "sense-flourish-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "夸张而引人注目的动作",
+              "definitionEn": "A bold or decorative gesture made to attract attention.",
+              "example": {
+                "en": "The waiter opened the bottle with a flourish.",
+                "zh": "服务员用一个夸张利落的动作打开了酒瓶。"
+              },
+              "id": "sense-flourish-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "装饰性的笔划或细节",
+              "definitionEn": "A decorative addition to writing, music, or design.",
+              "example": {
+                "en": "He added a flourish to the first letter of his name.",
+                "zh": "他在名字的首字母上添了一笔花饰。"
+              },
+              "id": "sense-flourish-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "grim",
+          "notes": "grim news 指令人沮丧的消息；a grim expression 指严肃或阴沉的表情；grim determination 指咬紧牙关的决心。",
+          "senses": [
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "严峻的；令人沮丧的",
+              "definitionEn": "Very serious and giving little reason for hope.",
+              "example": {
+                "en": "The forecast for small retailers looks grim.",
+                "zh": "小型零售商的前景看来很严峻。"
+              },
+              "id": "sense-grim-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "严肃的；阴沉的",
+              "definitionEn": "Looking serious, worried, or unhappy.",
+              "example": {
+                "en": "She listened with a grim expression.",
+                "zh": "她神情严肃地听着。"
+              },
+              "id": "sense-grim-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "阴暗的；令人不快的",
+              "definitionEn": "Unpleasant or depressing in appearance or atmosphere.",
+              "example": {
+                "en": "The empty station looked grim in the rain.",
+                "zh": "空荡荡的车站在雨中显得格外阴沉。"
+              },
+              "id": "sense-grim-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "measure",
+          "notes": "measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "测量；量出",
+              "definitionEn": "To find the size, amount, or degree of something.",
+              "example": {
+                "en": "Measure the desk before you buy a new cover.",
+                "zh": "买新桌布前先量一下桌子的尺寸。"
+              },
+              "id": "sense-measure-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "尺寸为；长或宽达",
+              "definitionEn": "To have a stated size or length.",
+              "example": {
+                "en": "The table measures two metres across.",
+                "zh": "这张桌子宽两米。"
+              },
+              "id": "sense-measure-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "衡量；评估",
+              "definitionEn": "To judge the effectiveness, value, or extent of something.",
+              "example": {
+                "en": "We use two indicators to measure progress.",
+                "zh": "我们用两个指标衡量进度。"
+              },
+              "id": "sense-measure-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "措施；办法",
+              "definitionEn": "An action taken to achieve a particular result.",
+              "example": {
+                "en": "The city introduced measures to reduce traffic.",
+                "zh": "市里出台了减少交通拥堵的措施。"
+              },
+              "id": "sense-measure-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "衡量标准；指标",
+              "definitionEn": "A way of judging the quality or extent of something.",
+              "example": {
+                "en": "Attendance alone is a poor measure of success.",
+                "zh": "单看出席人数很难衡量活动是否成功。"
+              },
+              "id": "sense-measure-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "一定量；一份",
+              "definitionEn": "A stated amount, especially of an ingredient or liquid.",
+              "example": {
+                "en": "Add one measure of syrup to three measures of water.",
+                "zh": "把一份糖浆加到三份水里。"
+              },
+              "id": "sense-measure-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "force",
+          "notes": "force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "力；力量",
+              "definitionEn": "Physical strength, or an influence that changes motion.",
+              "example": {
+                "en": "The force of the impact bent the wheel.",
+                "zh": "撞击的力量使车轮变形了。"
+              },
+              "id": "sense-force-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "武力；暴力",
+              "definitionEn": "Physical power used to make someone do something.",
+              "example": {
+                "en": "The door was opened by force.",
+                "zh": "门被强行打开了。"
+              },
+              "id": "sense-force-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "部队；执法队伍",
+              "definitionEn": "An organized group of people trained for military or police work.",
+              "example": {
+                "en": "She joined the police force after university.",
+                "zh": "她大学毕业后加入了警队。"
+              },
+              "id": "sense-force-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "影响重大的力量或因素",
+              "definitionEn": "A person or influence that brings about change.",
+              "example": {
+                "en": "Public opinion became a powerful force for reform.",
+                "zh": "公众舆论成为推动改革的重要力量。"
+              },
+              "id": "sense-force-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "强迫；迫使",
+              "definitionEn": "To make someone do something or make something necessary.",
+              "example": {
+                "en": "The storm forced us to change our plans.",
+                "zh": "暴风雨迫使我们改变计划。"
+              },
+              "id": "sense-force-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "用力推开；强行移动",
+              "definitionEn": "To make something move by applying physical pressure.",
+              "example": {
+                "en": "We had to force the window open.",
+                "zh": "我们只好用力把窗户推开。"
+              },
+              "id": "sense-force-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "lead",
+          "notes": "带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "带领；引导",
+              "definitionEn": "To show someone the way by going in front of them.",
+              "example": {
+                "en": "She led us through a side entrance.",
+                "zh": "她带我们从侧门进去。"
+              },
+              "id": "sense-lead-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "领导；负责",
+              "definitionEn": "To direct a group or be in charge of an activity.",
+              "example": {
+                "en": "He leads a team of six engineers.",
+                "zh": "他带领一支由六名工程师组成的团队。"
+              },
+              "id": "sense-lead-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "通往；导致",
+              "definitionEn": "To go to a place or produce a particular result.",
+              "example": {
+                "en": "A lack of sleep can lead to poor concentration.",
+                "zh": "缺觉可能导致注意力不集中。"
+              },
+              "id": "sense-lead-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n./v.",
+              "meaningZh": "领先地位；领先",
+              "definitionEn": "A position ahead of others, or to be in that position.",
+              "example": {
+                "en": "Our team took the lead in the second half.",
+                "zh": "我们队在下半场取得了领先。"
+              },
+              "id": "sense-lead-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "线索",
+              "definitionEn": "A piece of information that may help someone find out more.",
+              "example": {
+                "en": "The police followed a new lead in the case.",
+                "zh": "警方顺着案件的一条新线索展开调查。"
+              },
+              "id": "sense-lead-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "主角；主演",
+              "definitionEn": "The most important part or performer in a play or film.",
+              "example": {
+                "en": "She plays the lead in the school musical.",
+                "zh": "她在学校的音乐剧中担任主演。"
+              },
+              "id": "sense-lead-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "铅",
+              "definitionEn": "A heavy, soft metal, pronounced /led/.",
+              "example": {
+                "en": "The old pipes were made of lead.",
+                "zh": "这些旧管道是铅制的。"
+              },
+              "id": "sense-lead-07",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "faculty",
+          "notes": "the faculty 在美式英语中可统指全体教师；Faculty of Engineering 常见于英式用法，指工学院。the faculty of sight 指视觉能力。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "全体教师；教学人员",
+              "definitionEn": "The teaching staff of a school, college, or university.",
+              "example": {
+                "en": "Several faculty members helped design the course.",
+                "zh": "几位老师参与设计了这门课程。"
+              },
+              "id": "sense-faculty-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "学院；大学的学部",
+              "definitionEn": "A division of a university that covers a group of related subjects.",
+              "example": {
+                "en": "She studies in the Faculty of Engineering.",
+                "zh": "她在工学院学习。"
+              },
+              "id": "sense-faculty-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "官能；能力",
+              "definitionEn": "A natural mental or physical ability.",
+              "example": {
+                "en": "The illness affected his faculty of speech.",
+                "zh": "疾病影响了他的说话能力。"
+              },
+              "id": "sense-faculty-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "segment",
+          "notes": "a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "部分；片段",
+              "definitionEn": "One part of something that is divided into sections.",
+              "example": {
+                "en": "The last segment of the programme featured an interview.",
+                "zh": "节目最后一个环节是一段采访。"
+              },
+              "id": "sense-segment-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "细分群体；细分市场",
+              "definitionEn": "A group within a larger population or market that shares a characteristic.",
+              "example": {
+                "en": "The company is targeting a younger market segment.",
+                "zh": "公司正在瞄准一个更年轻的细分市场。"
+              },
+              "id": "sense-segment-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "线段",
+              "definitionEn": "The part of a line between two points.",
+              "example": {
+                "en": "Draw a line segment from A to B.",
+                "zh": "画一条从 A 到 B 的线段。"
+              },
+              "id": "sense-segment-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "瓣；天然分隔的一部分",
+              "definitionEn": "One of the naturally divided parts of a fruit or similar object.",
+              "example": {
+                "en": "She gave me a segment of the orange.",
+                "zh": "她给了我一瓣橙子。"
+              },
+              "id": "sense-segment-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "分割；划分",
+              "definitionEn": "To divide something into separate parts or groups.",
+              "example": {
+                "en": "The researchers segmented the data by age group.",
+                "zh": "研究人员按年龄组对数据进行了划分。"
+              },
+              "id": "sense-segment-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "charge",
+          "notes": "charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。",
+          "senses": [
+            {
+              "partOfSpeech": "n./v.",
+              "meaningZh": "费用；收费",
+              "definitionEn": "An amount to pay, or to ask someone to pay it.",
+              "example": {
+                "en": "The hotel charges guests for parking.",
+                "zh": "酒店向住客收取停车费。"
+              },
+              "id": "sense-charge-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "充电",
+              "definitionEn": "To put electrical energy into a battery or device.",
+              "example": {
+                "en": "I forgot to charge my phone last night.",
+                "zh": "我昨晚忘了给手机充电。"
+              },
+              "id": "sense-charge-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "电荷；电量",
+              "definitionEn": "An electrical property of matter, or the energy stored in a battery.",
+              "example": {
+                "en": "The battery still holds a charge.",
+                "zh": "电池还存有电量。"
+              },
+              "id": "sense-charge-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n./v.",
+              "meaningZh": "正式指控；起诉",
+              "definitionEn": "A formal accusation of a crime, or to accuse someone formally.",
+              "example": {
+                "en": "He was charged with theft.",
+                "zh": "他被正式指控犯有盗窃罪。"
+              },
+              "id": "sense-charge-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "负责；掌管",
+              "definitionEn": "Responsibility for directing or looking after something.",
+              "example": {
+                "en": "Mia is in charge of the project.",
+                "zh": "米娅负责这个项目。"
+              },
+              "id": "sense-charge-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v./n.",
+              "meaningZh": "猛冲；冲锋",
+              "definitionEn": "To rush towards something, or a sudden rush or attack.",
+              "example": {
+                "en": "The bull charged at the fence.",
+                "zh": "公牛猛地冲向围栏。"
+              },
+              "id": "sense-charge-06",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "记在账上；刷卡支付",
+              "definitionEn": "To add a cost to an account or payment card.",
+              "example": {
+                "en": "Could you charge the meal to my room?",
+                "zh": "能把这顿饭的费用记在我的房账上吗？"
+              },
+              "id": "sense-charge-07",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "spur",
+          "notes": "spur sb on 表示激励某人继续行动；spur growth 表示推动增长；on the spur of the moment 表示一时兴起、临时起意。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "激励；促使",
+              "definitionEn": "To encourage someone to act or try harder.",
+              "example": {
+                "en": "Her coach's advice spurred her on to train harder.",
+                "zh": "教练的建议激励她更加刻苦地训练。"
+              },
+              "id": "sense-spur-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "推动；促进",
+              "definitionEn": "To cause an activity or process to develop faster.",
+              "example": {
+                "en": "Lower fares could spur demand for train travel.",
+                "zh": "降低票价可能会带动铁路出行需求。"
+              },
+              "id": "sense-spur-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "马刺",
+              "definitionEn": "A small device on a rider's boot used to urge a horse forward.",
+              "example": {
+                "en": "The rider wore a pair of spurs.",
+                "zh": "骑手的靴子上装着一对马刺。"
+              },
+              "id": "sense-spur-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "支线；山体突出的支脊",
+              "definitionEn": "A branch from a main route, or a ridge projecting from a mountain.",
+              "example": {
+                "en": "A short rail spur connects the depot to the main line.",
+                "zh": "一段短铁路支线把车库与主线连在一起。"
+              },
+              "id": "sense-spur-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "rake",
+          "notes": "rake up leaves 是把落叶耙拢；rake up the past 是翻旧账；rake in money 是口语，表示赚进很多钱。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "耙子",
+              "definitionEn": "A long-handled tool with a row of teeth for gathering leaves or levelling soil.",
+              "example": {
+                "en": "We need a rake to clear the leaves.",
+                "zh": "我们需要一把耙子来清理落叶。"
+              },
+              "id": "sense-rake-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "用耙子耙拢；耙平",
+              "definitionEn": "To gather things or level a surface with a rake.",
+              "example": {
+                "en": "He raked the leaves into a pile.",
+                "zh": "他把落叶耙成了一堆。"
+              },
+              "id": "sense-rake-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "短语动词",
+              "meaningZh": "重新提起令人不快的旧事",
+              "definitionEn": "To bring up unpleasant facts or events from the past.",
+              "example": {
+                "en": "There's no point in raking up that old argument.",
+                "zh": "没必要再提那次争吵。"
+              },
+              "id": "sense-rake-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "短语动词 口语",
+              "meaningZh": "赚进大量金钱",
+              "definitionEn": "To earn or take in a large amount of money.",
+              "example": {
+                "en": "The film raked in millions in its first week.",
+                "zh": "这部电影第一周就赚了数百万。"
+              },
+              "id": "sense-rake-04",
+              "register": "informal",
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "rack",
+          "notes": "a bike rack 是自行车停放架；rack your brains 表示绞尽脑汁；rack up debts 或 rack up points 分别表示累积债务或积分。",
+          "senses": [
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "架子；支架",
+              "definitionEn": "A frame or structure for holding, storing, or displaying things.",
+              "example": {
+                "en": "Hang your coat on the rack by the door.",
+                "zh": "把外套挂在门边的架子上。"
+              },
+              "id": "sense-rack-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "一排肋骨；连排肋骨肉",
+              "definitionEn": "A set of ribs from an animal, especially as a cut of meat.",
+              "example": {
+                "en": "We ordered a rack of lamb to share.",
+                "zh": "我们点了一份连排羊肋骨一起吃。"
+              },
+              "id": "sense-rack-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "使遭受剧痛或折磨",
+              "definitionEn": "To cause severe physical or mental suffering.",
+              "example": {
+                "en": "She was racked with guilt after the accident.",
+                "zh": "事故发生后，她深受内疚折磨。"
+              },
+              "id": "sense-rack-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "短语动词",
+              "meaningZh": "累积；累计获得",
+              "definitionEn": "To accumulate a large amount of something such as points, costs, or debts.",
+              "example": {
+                "en": "The team racked up six wins in a row.",
+                "zh": "这支队伍接连拿下了六场胜利。"
+              },
+              "id": "sense-rack-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "fancy",
+          "notes": "英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。",
+          "senses": [
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "精致的；讲究的",
+              "definitionEn": "Decorative or more elaborate than usual.",
+              "example": {
+                "en": "The invitation was printed in fancy lettering.",
+                "zh": "请柬上印着花体字。"
+              },
+              "id": "sense-fancy-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "adj.",
+              "meaningZh": "高档的；昂贵讲究的",
+              "definitionEn": "Expensive or fashionable in appearance or style.",
+              "example": {
+                "en": "They booked a table at a fancy restaurant.",
+                "zh": "他们在一家高档餐厅订了位。"
+              },
+              "id": "sense-fancy-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v. 英式口语",
+              "meaningZh": "想要；想做",
+              "definitionEn": "To feel like having or doing something.",
+              "example": {
+                "en": "Do you fancy a cup of tea?",
+                "zh": "你想喝杯茶吗？"
+              },
+              "id": "sense-fancy-03",
+              "register": "informal",
+              "regionalUsage": "British English",
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v. 英式口语",
+              "meaningZh": "喜欢；对某人有好感",
+              "definitionEn": "To feel romantically or sexually attracted to someone.",
+              "example": {
+                "en": "I think she fancies him.",
+                "zh": "我觉得她对他有好感。"
+              },
+              "id": "sense-fancy-04",
+              "register": "informal",
+              "regionalUsage": "British English",
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "一时的喜爱；心血来潮的念头",
+              "definitionEn": "A liking or wish that can arise suddenly.",
+              "example": {
+                "en": "She took a fancy to the little bookshop.",
+                "zh": "她一下子就喜欢上了那家小书店。"
+              },
+              "id": "sense-fancy-05",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
+        },
+        {
+          "word": "gauge",
+          "notes": "gauge 读 /ɡeɪdʒ/；gauge public reaction 表示判断公众反应；a pressure gauge 指压力表；railway gauge 指轨距。",
+          "senses": [
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "判断；估计",
+              "definitionEn": "To form an estimate of someone's reaction, a situation, or an amount.",
+              "example": {
+                "en": "It was hard to gauge how interested the audience was.",
+                "zh": "很难判断听众有多感兴趣。"
+              },
+              "id": "sense-gauge-01",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "v.",
+              "meaningZh": "测定；量出",
+              "definitionEn": "To measure a level or amount, often with an instrument.",
+              "example": {
+                "en": "The sensor gauges the depth of the water.",
+                "zh": "这个传感器可以测出水深。"
+              },
+              "id": "sense-gauge-02",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "量表；仪表",
+              "definitionEn": "An instrument that measures and displays a level or quantity.",
+              "example": {
+                "en": "The fuel gauge showed that the tank was nearly empty.",
+                "zh": "油量表显示油箱快空了。"
+              },
+              "id": "sense-gauge-03",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            },
+            {
+              "partOfSpeech": "n.",
+              "meaningZh": "规格；轨距",
+              "definitionEn": "A standard measure of thickness or size, or the distance between railway rails.",
+              "example": {
+                "en": "The two rail lines use different gauges.",
+                "zh": "这两条铁路线采用不同的轨距。"
+              },
+              "id": "sense-gauge-04",
+              "register": null,
+              "regionalUsage": null,
+              "collocations": [],
+              "usageWarning": null,
+              "reviewStatus": "reviewed"
+            }
+          ],
+          "reviewStatus": "reviewed",
+          "orderingBasis": "Common learner senses first; specialized uses follow.",
+          "references": []
         }
       ]
     },

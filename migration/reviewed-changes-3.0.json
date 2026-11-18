@@ -8,28 +8,28 @@
     "reason": "3.0 audited increment: stable IDs / preserved Sites content / search and reading rendering; see docs/upgrade-3.0-audit.md and verify_preservation.py"
   },
   "content/polysemy.py": {
-    "sha256": "47e9fbc51dab1977c7c2f253fc5eac4dcfac42338ce0128136191eb97ef0b332",
-    "reason": "Native details accordion: mutually exclusive polysemy entries, no learning content changes."
+    "sha256": "635d66a2f48f18bd1e7c990bf9f5ecc51bb1d36ef3ad43327f23737763c096bb",
+    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
   },
   "content/polysemy.txt": {
-    "sha256": "608f620d8b1fc640c3a920a620d67165d78baff7ba91f8f4e34d4a63fd31ecfa",
-    "reason": "Reviewed recent-dialogue additions 2026-11-12; all previously published entries and article bytes preserved. See docs/content-review-20261112-recent.json."
+    "sha256": "4fcc884e56826e367db2bd68845316782a87a8ce495212751b35f2efe08b851e",
+    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
   },
   "content/render.py": {
     "sha256": "13a9ae2f854cd6b236c1f33c247034adf4c6c757d70da9961472d7716a01b0a8",
     "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
   },
   "dist/index.html": {
-    "sha256": "025acc286e92597f778f6130c4a2bec4cbc7887dc4d429e8258c548151e8bed2",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "ed0e3a52c2f0ae941c0631afd6136be7720958e8e0bbf37e55f6256288c4f920",
+    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
   },
   "dist/polysemy.json": {
-    "sha256": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
-    "reason": "User explicitly removed six polysemy entries on 2026-11-12; comparison groups preserved."
+    "sha256": "5e9f12f181ad72e7a12ccbea9b765dc400082bd05db4f74b65dc9b8969c3aa6b",
+    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
   },
   "dist/vocabulary.json": {
-    "sha256": "15e944826335fa080bdc6f01f2c1d883bf4b6dc039088eea9bc25d957e0ee82f",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "60ccceea5314e54bd1a186572fcb9bd6229ac5ccf8380b71b60d326a6a0265b8",
+    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
   },
   "content/base.html": {
     "sha256": "c84889b636a9ed4926ebccbe954425d5adb744d728c5c7cfcaf94d0989a1cb4c",

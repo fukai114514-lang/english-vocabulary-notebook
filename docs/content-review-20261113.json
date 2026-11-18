@@ -56,11 +56,13 @@
     },
     "dist/search-index.json": {
       "before": "5ef7b307be8e0f13949a00ef2e061c8f7f12398374bf8acfe3515bec520fe8ef",
-      "after": "7317444084d6e37b511d8d89cbaa8bb98ae74515dea88ab7405949ed93c9226f"
+      "after": "755eea91cfcb751403e15a457e3fe73c48f16409475aafe4c769aa2394358b11",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "dist/vocabulary.json": {
       "before": "56dc3ec41dc41faba71acd29c399587170b1efac83ca8e96460ddea9294494e2",
-      "after": "15e944826335fa080bdc6f01f2c1d883bf4b6dc039088eea9bc25d957e0ee82f"
+      "after": "60ccceea5314e54bd1a186572fcb9bd6229ac5ccf8380b71b60d326a6a0265b8",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "scripts/audit_baseline.py": {
       "before": "9bc80460c85b1043e83fc46841d04bc90e05fb0d105c42e016b62486526b4947",
@@ -76,11 +78,13 @@
     },
     "migration/reviewed-changes-3.0.json": {
       "before": "e7e6ea5f7abdace38ed0e898dad525d28860187549e81f5c7ba9c8ccbebd9074",
-      "after": "4c70fe0aefa2ff2598fb9b7dfecaf9ef2cb19b5378334b135133c7d72123a8d3"
+      "after": "9ffcf4cb28d6b89d4bea2d05f8a0af28b66c6756653e6ce6afec5737867a9ee6",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "migration/ui-content-baseline.json": {
       "before": "3129c3725e879c19499eebd538f7985ad4ddba6a28563471fb79ec37a98095c6",
-      "after": "cbeed1d91403a0020abc50a25e79f523ea4c724ddafbb0a9c02ccd9b489e4841"
+      "after": "0bc32293c2fee5a0d798339c80d9c426ae6348000183ba2c16cd03ceee5376b5",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "content/article-dictionary.json": {
       "before": "086cfe8e74f977d14abcf99c49144901b624cec1544f88170afbdc0380de9108",
@@ -101,6 +105,21 @@
     "dist/reading_articles.json": {
       "before": "8bf0266cdffbde60f3c987daaa2c7f7a2e76d0ae1be2c4e1daec8d084b57d37f",
       "after": "f722a77cd2f1e0040cb9e850964b811f6ba1dc830cbe92b531e1f0e2eedb3854"
+    },
+    "content/polysemy-metadata.json": {
+      "before": "8843e6f5804911e5db8d08ddae8e94448c0077a7272696505a461921fdcbd218",
+      "after": "d2e51cc53da3fc85105ba43dc84b8607b543baa5a07d3dcfbd09065ca5edaf83",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
+    },
+    "content/polysemy.txt": {
+      "before": "608f620d8b1fc640c3a920a620d67165d78baff7ba91f8f4e34d4a63fd31ecfa",
+      "after": "4fcc884e56826e367db2bd68845316782a87a8ce495212751b35f2efe08b851e",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
+    },
+    "dist/polysemy.json": {
+      "before": "61177f74d5ad8503f2b3bb97879ffea9d61e6b291536c63786cd5b3b7570f424",
+      "after": "5e9f12f181ad72e7a12ccbea9b765dc400082bd05db4f74b65dc9b8969c3aa6b",
+      "reason": "Reviewed screenshot update adds 14 words and restores sore."
     }
   },
   "removed_phrases": [

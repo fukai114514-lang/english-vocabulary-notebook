@@ -4065,5 +4065,615 @@
         "usageWarning": null
       }
     }
+  },
+  "fairly": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "599d2f7eef0ef4f6b7eb8383cdd7565f46bd51977452b384701301dd49186eb0": {
+        "id": "sense-fairly-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "9be956c69eaf911f46392dfe9e44763db346d01cc9bae85fa865317a64e2f1ad": {
+        "id": "sense-fairly-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "flourish": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "faeec8cfca45f1818d254ea50c20644c2218f6b3052afee11d6bb65f60804e73": {
+        "id": "sense-flourish-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "a8ff4c7320e0faaa68ae2ee0b8e0d49e593c744ca44c529aa0730b8bfa6d33c4": {
+        "id": "sense-flourish-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "44fc1d0c2cc43dd87a41561ac83dff9a190290db67d9acc762384210f651504d": {
+        "id": "sense-flourish-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "eba9ab219f5f2bbe028795664f9c44a295c8c9aaec43cac62ed5b9a8203c52ee": {
+        "id": "sense-flourish-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "grim": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "44b910a31ade3cfdf65f571211e67554ef037a2fc1d8fa74e8287adb108af1b4": {
+        "id": "sense-grim-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "fe388e5ab921ea86abe0f2e9da2cbdf201babd6e6a2b683d2f25d95f60b72b4b": {
+        "id": "sense-grim-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "d494c88c2d337637bae2f6d903687d95283c81237ad7f56ef496f1cb37eb6c8b": {
+        "id": "sense-grim-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "measure": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "70421eba3c3dd3a7397bc9c8ee18cf6eaf2f715ffb777cd905958bb6e71b9341": {
+        "id": "sense-measure-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "3ba8ae7ee134dbcae3da4484c83fe25ffdeb6ad9d6a15a0345121cf8803d0609": {
+        "id": "sense-measure-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "ecf84b16a3997fe5dd0e7cf0021e29ae22633439de20193015cfcb86334c94e1": {
+        "id": "sense-measure-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "e9da36bf5f89d215012cc18a708285397fde24dae64b3f23f01eb995bc8f1c80": {
+        "id": "sense-measure-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "1f6292a594664fc1a0b440c483ed99662c57a5170252bd92876e37cd029c8368": {
+        "id": "sense-measure-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "c7be1b95ec00dd0e7db07e201efe84177a8cf04cdd11171e7bc5dba372fc1e07": {
+        "id": "sense-measure-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "force": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "a58ced903906b739ffb62b41e4a155b99ffc6c369c85f884a29c923d900d13b8": {
+        "id": "sense-force-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "01df01b4e206c33facafc8efcf7158ef80e9df26eec2d2d569c19aaf1de40433": {
+        "id": "sense-force-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "1c6a162aff5fa7690bff257685f8cb2d5ca970470b928459c0e542bccf8e71a3": {
+        "id": "sense-force-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "7fc70e661a85582c5b57128f51282f30db7e21fc27f31fe19ba14d0bf4aeabbc": {
+        "id": "sense-force-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "8e33de00aa2644f67ddb272a78c99c9e9b7e74ecd054570163eac45a80b4f73e": {
+        "id": "sense-force-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "e45a75a2b1ae55a6c62140918ad2cc7786dea4eee71e601ec6ce79a2acbe40d6": {
+        "id": "sense-force-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "lead": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "89b7a8a7dc16511c00cf6efb4aa7964d18ab01776d9f9e184303b38681b9c511": {
+        "id": "sense-lead-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "814922ef811e8dbbb01f2725fd6a5578bdc3ebc54f96c7b9aeedfd7292644cbf": {
+        "id": "sense-lead-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "884b26ed722352490211319ab3af4f1189663135476b8830b4efef5f6bf39bbb": {
+        "id": "sense-lead-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "e762943720bef89d94a8d86324010a4568a08d46b5d616e90f079f6d639db7d7": {
+        "id": "sense-lead-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "daf3cd79162e80a13975e5e9c7a571f8f12a468edaa086477c99d4f5120364bf": {
+        "id": "sense-lead-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "ce2c7701336e5f79220fd3f90b1551e4d3c38e32fcbbedf98a487918ee22ca98": {
+        "id": "sense-lead-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "c46f32d196258d0952de508a83bc055c7b3e01e50d9ee407889490dab6eb67e9": {
+        "id": "sense-lead-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "faculty": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "88d8f9efe72cacb51de6f16196a7a52d0227b3bf8cdf474bee6c63d1239265b7": {
+        "id": "sense-faculty-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "11716dbd945ab8474dc306111605d81cc681d0e618d283629d29fba5dc024507": {
+        "id": "sense-faculty-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "c5a5238c31d0f92d3423f3fe85ebd2c7ce9efaea11af848a43f9e1c189008354": {
+        "id": "sense-faculty-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "segment": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "d6f7f368d65e1f0928dba4c2225a3817ad9f79fa63b24bc229893c078fa30aa0": {
+        "id": "sense-segment-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "4cdcca90cd3ccfcf4cc3e576b65b7cd6e21f48581b8b7b5a81d1302adbb4c3bf": {
+        "id": "sense-segment-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "8ce87adbaa2aadfe9d301a111eb679af1baf0769f4c8467b7f0ab2fcbec13540": {
+        "id": "sense-segment-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "5c40392f96a84e061c219474e6567e24eab8306735512544b7511402fc3029ed": {
+        "id": "sense-segment-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "8198459461063c16ed697acd73246f7addf961bef8b57c21548360a3d77d9f5a": {
+        "id": "sense-segment-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "charge": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "9247f8b25380766fc9fc8d7f126057763454826582f29869ebab5dfbebff4b1c": {
+        "id": "sense-charge-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "4b531adb0014db2970169b2e13150565c929356b85450afcb9a0eb4277a75268": {
+        "id": "sense-charge-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "0679ecf048f2451af6f29bd992e5eeefd3ec9139c7d9b880d4b6ef913b80ecb1": {
+        "id": "sense-charge-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "254f3a660ecc1ba5037a96329ae22e615feb6df2b34a77b1fe50324e7578f540": {
+        "id": "sense-charge-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "5ba96eb128625ee72df451d218fc90a9a43ba0ec1eed6b8a79a8b0fa0513d959": {
+        "id": "sense-charge-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "a0488c29badb2a8190138c8b78233850b9fddb0d82eb56a71006559cf9127d1b": {
+        "id": "sense-charge-06",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "4cbf2b44cced0d101121dce6ee0cd7baf7679b5ed713b3f82bfc2831d19894ff": {
+        "id": "sense-charge-07",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "spur": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "08041c31a177d69ea9315475e81fb168c8dad63e3a267ae02a7184888646e2c9": {
+        "id": "sense-spur-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "645f17fc11d371949eb7dae2317b091ea2af8d37cbf63f824ba0323dd3a51392": {
+        "id": "sense-spur-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "059b97781e0cec52f1aca2c6e5c02b9415ff5728336f015cb56a424692168082": {
+        "id": "sense-spur-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "9ce941d4313ab3108aa2f12bb6627813c56a3963b68beb9d1b0efc02debdf9a2": {
+        "id": "sense-spur-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "rake": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "012c8477a66dfd84a3eb2e70896e6f8783b6a7351c25998aa92abcf7c360a282": {
+        "id": "sense-rake-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "24a9f0aa4d5e2de3fc8196684a95d18b468de4fcc7a3c122b5bbe3d614b023c3": {
+        "id": "sense-rake-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "7639e383501a689f0c702debc7d4f60dde4ff5d0e9d73840587cfc5305a4b72a": {
+        "id": "sense-rake-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "380030be156c34cd8d24bbf2de5f891da5ad2b6d7dbdc13c81dc761b37d6f9f3": {
+        "id": "sense-rake-04",
+        "register": "informal",
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "rack": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "72f0867ec8f6e4becd87d9763cbf676a10daaa8dfc97f56cd4958e3ed98ec86b": {
+        "id": "sense-rack-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "bac939a9af93c53659e10eb7c29c2ad722e74e40bcb5a527e2979a06dca4c548": {
+        "id": "sense-rack-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "e32fc049eb1c01034dd9a7251faf836132d235258f3587f4bca585ebb1be4858": {
+        "id": "sense-rack-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "352399309aedbe6edf717331af6c546d2c46a47cf3058f23b73e8922a7df8bac": {
+        "id": "sense-rack-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "fancy": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "1f5ad3850ce9e175a3ec1d2c94dc3fe05a7af047d3d0b0483481c9c8221f076a": {
+        "id": "sense-fancy-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "dec4879b6f13644ced535e5504de4189ad1f5259a4f2fc51098be4b3679563d9": {
+        "id": "sense-fancy-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "2b31139ac3fcb278ef43dc3149c2b29bdadc2952c31a429a9ff6a5b3031fab8f": {
+        "id": "sense-fancy-03",
+        "register": "informal",
+        "regionalUsage": "British English",
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "77589ebaedf334bcdc967f1d5e1ad9715ac357f1f6dd6a05d617344bbb216ae1": {
+        "id": "sense-fancy-04",
+        "register": "informal",
+        "regionalUsage": "British English",
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "a089c95ca1542c01493818880651271581e359fee095eda6b1d99caaa5a02ced": {
+        "id": "sense-fancy-05",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "gauge": {
+    "reviewStatus": "reviewed",
+    "orderingBasis": "Common learner senses first; specialized uses follow.",
+    "references": [],
+    "senses": {
+      "6fe434245580d39393e01a66f95854567a1b8d8fd1343239323d4007baf8b363": {
+        "id": "sense-gauge-01",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "dc992c9b2a73e5f1a1b04a0332cd63f48c38dffb35a94620809bdd95f6f5bb28": {
+        "id": "sense-gauge-02",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "e6a7c05d90a8a5959e3f7d31a93fe74ce90da194f41b7b00768b438799cb3a28": {
+        "id": "sense-gauge-03",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      },
+      "13dc33463332ab1d66da43afb9619562e3a879dacf23c7be9edf5b2f38c7d848": {
+        "id": "sense-gauge-04",
+        "register": null,
+        "regionalUsage": null,
+        "collocations": [],
+        "usageWarning": null,
+        "reviewStatus": "reviewed"
+      }
+    }
   }
 }

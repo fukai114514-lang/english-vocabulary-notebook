@@ -32,8 +32,8 @@ nap = json.loads((ROOT / 'content/nap_article.json').read_text())
 assert len(catalog['groups']) == 170
 assert len(catalog['words']) == 415
 assert sum(len(g['entries']) for g in catalog['groups']) == 422
-assert len(poly['entries']) == 75
-assert sum(len(e['senses']) for e in poly['entries']) == 420
+assert len(poly['entries']) == 90
+assert sum(len(e['senses']) for e in poly['entries']) == 487
 assert catalog['parts'] == [poly, json.loads((ROOT/'content/phrases.json').read_text())]
 for e in poly['entries']:
     for s in e['senses']:
@@ -47,7 +47,7 @@ for row in nap['vocabulary'] + nap['phrases']:
 assert page.count('<table>') == 170
 assert not re.search(r'(?:src|href)=["\x27]https?://', page)
 assert 'content/app.js' not in page  # Historical learning app is intentionally inactive.
-print('PASS: reviewed SHA-256 baseline; 170 groups, 422 entries, 415 unique IDs; 75 polysemy words/420 senses; 20 paragraphs, 32 words, 33 phrases.')
+print('PASS: reviewed SHA-256 baseline; 170 groups, 422 entries, 415 unique IDs; 90 polysemy words/487 senses; 20 paragraphs, 32 words, 33 phrases.')
 
 from verify_interface import verify as verify_interface
 verify_interface()
