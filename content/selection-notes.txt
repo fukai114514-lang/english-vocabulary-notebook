@@ -165,3 +165,6 @@
 165|erode 指风、水等逐渐侵蚀，也可比喻信心或权利被削弱；rust 通常指铁或钢生锈。生锈是特定化学变化，不能把任何腐蚀都叫 rust；能力“生疏”常用 rusty。
 166|turmoil 是名词，强调混乱、动荡或内心不安；turbulent 和 chaotic 是形容词，分别侧重剧烈变化、冲突和无序。in turmoil、a turbulent period、a chaotic situation 是对应结构。formidable 和 daunting 主要说强大难对付或令人畏难，不是混乱的同义词。
 167|avoid 是通用的避免、避开，也可表示有意回避；evade 常强调设法躲避追捕、逃避责任或回避直接回答。avoid answering a question 和 evade a question 都可表示回避问题，不能绝对区分为事前与事后。avoid 后接动词通常用 doing，不用 to do；evade 不一定表示违法。
+168|bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。
+169|take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。
+170|symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。

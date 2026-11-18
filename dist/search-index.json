@@ -7259,6 +7259,187 @@
       }
     },
     {
+      "id": "comparison-168-0",
+      "kind": "词汇辨析",
+      "title": "bounce",
+      "target": "group-168",
+      "fields": {
+        "词条": "bounce",
+        "释义": "v. 弹起；蹦跳",
+        "英文释义": "To rebound from a surface or move with repeated springy jumps.",
+        "搭配": "bounce a ball; bounce on a trampoline",
+        "例句": "The ball bounced twice on the floor.",
+        "例句译文": "球在地板上弹了两下。"
+      }
+    },
+    {
+      "id": "comparison-168-1",
+      "kind": "词汇辨析",
+      "title": "leap",
+      "target": "group-168",
+      "fields": {
+        "词条": "leap",
+        "释义": "v. 跳跃；跃过",
+        "英文释义": "To make a large jump or move suddenly through the air.",
+        "搭配": "leap over; leap across",
+        "例句": "The deer leaped over the low fence.",
+        "例句译文": "鹿跃过了矮栅栏。"
+      }
+    },
+    {
+      "id": "comparison-168-2",
+      "kind": "词汇辨析",
+      "title": "hop",
+      "target": "group-168",
+      "fields": {
+        "词条": "hop",
+        "释义": "v. 单脚跳；短距离跳跃",
+        "英文释义": "To jump on one foot or make short, small jumps.",
+        "搭配": "hop on one foot; hop along",
+        "例句": "The sparrow hopped along the path.",
+        "例句译文": "麻雀沿着小路蹦跳。"
+      }
+    },
+    {
+      "id": "comparison-168-3",
+      "kind": "词汇辨析",
+      "title": "spring",
+      "target": "group-168",
+      "fields": {
+        "词条": "spring",
+        "释义": "v. 突然跃起；弹起",
+        "英文释义": "To jump or move suddenly and energetically.",
+        "搭配": "spring to one's feet; spring out of",
+        "例句": "She sprang to her feet when the bell rang.",
+        "例句译文": "铃声响起时，她一下站了起来。"
+      }
+    },
+    {
+      "id": "comparison-body-168",
+      "kind": "词汇辨析",
+      "title": "bounce / leap / hop / spring",
+      "target": "group-168",
+      "fields": {
+        "正文": "168 bounce / leap / hop / spring bounce ▷ 朗读 To rebound from a surface or move with repeated springy jumps. leap ▷ 朗读 To make a large jump or move suddenly through the air. hop ▷ 朗读 To jump on one foot or make short, small jumps. spring ▷ 朗读 To jump or move suddenly and energetically. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 bounce / leap / hop / spring · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 bounce v. 弹起；蹦跳 强调碰到表面后弹回，或有弹性地反复跳动 bounce a ball; bounce on a trampoline The ball bounced twice on the floor. 球在地板上弹了两下。 leap v. 跳跃；跃过 常强调幅度较大的跳跃，也可表示突然跃起 leap over; leap across The deer leaped over the low fence. 鹿跃过了矮栅栏。 hop v. 单脚跳；短距离跳跃 人可单脚跳，鸟和小动物也可短促跳动；并非一律单脚 hop on one foot; hop along The sparrow hopped along the path. 麻雀沿着小路蹦跳。 spring v. 突然跃起；弹起 强调迅速、有力地跳起或移动，带蓄力释放的感觉 spring to one's feet; spring out of She sprang to her feet when the bell rang. 铃声响起时，她一下站了起来。 bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。 怎么选？易错点在哪？ bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。"
+      }
+    },
+    {
+      "id": "comparison-169-0",
+      "kind": "词汇辨析",
+      "title": "grasp",
+      "target": "group-169",
+      "fields": {
+        "词条": "grasp",
+        "释义": "v. 抓住；握住",
+        "英文释义": "To take a firm hold of something; also to understand an idea.",
+        "搭配": "grasp a handle; grasp the meaning",
+        "例句": "She grasped the rope and pulled herself up.",
+        "例句译文": "她抓牢绳子，把自己拉了上去。"
+      }
+    },
+    {
+      "id": "comparison-169-1",
+      "kind": "词汇辨析",
+      "title": "grip",
+      "target": "group-169",
+      "fields": {
+        "词条": "grip",
+        "释义": "v. 紧握；紧抓",
+        "英文释义": "To hold something tightly and keep a firm hold on it.",
+        "搭配": "grip tightly; grip the steering wheel",
+        "例句": "He gripped the rail as the boat rolled.",
+        "例句译文": "船摇晃时，他紧抓着栏杆。"
+      }
+    },
+    {
+      "id": "comparison-169-2",
+      "kind": "词汇辨析",
+      "title": "grab",
+      "target": "group-169",
+      "fields": {
+        "词条": "grab",
+        "释义": "v. 突然抓住；赶紧拿取",
+        "英文释义": "To take hold of something quickly or eagerly.",
+        "搭配": "grab a bag; grab someone's arm",
+        "例句": "I grabbed my bag and ran to the bus.",
+        "例句译文": "我一把拿起包，朝公交车跑去。"
+      }
+    },
+    {
+      "id": "comparison-169-3",
+      "kind": "词汇辨析",
+      "title": "clasp",
+      "target": "group-169",
+      "fields": {
+        "词条": "clasp",
+        "释义": "v. 握紧；抱紧",
+        "英文释义": "To hold hands together or hold someone closely with the hands or arms.",
+        "搭配": "clasp one's hands; clasp someone in one's arms",
+        "例句": "She clasped her hands in front of her.",
+        "例句译文": "她把双手紧握在身前。"
+      }
+    },
+    {
+      "id": "comparison-169-4",
+      "kind": "词汇辨析",
+      "title": "take",
+      "target": "group-169",
+      "fields": {
+        "词条": "take",
+        "释义": "v. 拿；取；接过",
+        "英文释义": "To pick up, receive or remove something from a place.",
+        "搭配": "take a pen; take something from",
+        "例句": "Please take a pen from the box.",
+        "例句译文": "请从盒子里拿一支笔。"
+      }
+    },
+    {
+      "id": "comparison-body-169",
+      "kind": "词汇辨析",
+      "title": "grasp / grip / grab / clasp / take",
+      "target": "group-169",
+      "fields": {
+        "正文": "169 grasp / grip / grab / clasp / take grasp ▷ 朗读 To take a firm hold of something; also to understand an idea. grip ▷ 朗读 To hold something tightly and keep a firm hold on it. grab ▷ 朗读 To take hold of something quickly or eagerly. clasp ▷ 朗读 To hold hands together or hold someone closely with the hands or arms. take ▷ 朗读 To pick up, receive or remove something from a place. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 grasp / grip / grab / clasp / take · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 grasp v. 抓住；握住 强调抓牢对象；也可比喻理解或把握机会 grasp a handle; grasp the meaning She grasped the rope and pulled herself up. 她抓牢绳子，把自己拉了上去。 grip v. 紧握；紧抓 强调持续握紧，常为防止滑落或保持控制 grip tightly; grip the steering wheel He gripped the rail as the boat rolled. 船摇晃时，他紧抓着栏杆。 grab v. 突然抓住；赶紧拿取 强调动作快或急切，不一定粗暴，也不一定一直握紧 grab a bag; grab someone's arm I grabbed my bag and ran to the bus. 我一把拿起包，朝公交车跑去。 clasp v. 握紧；抱紧 常指紧握双手、握住别人的手或用双臂抱住 clasp one's hands; clasp someone in one's arms She clasped her hands in front of her. 她把双手紧握在身前。 take v. 拿；取；接过 此处是通用的拿取义，本身不强调速度、力度或握持方式 take a pen; take something from Please take a pen from the box. 请从盒子里拿一支笔。 take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。 怎么选？易错点在哪？ take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。"
+      }
+    },
+    {
+      "id": "comparison-170-0",
+      "kind": "词汇辨析",
+      "title": "symposium",
+      "target": "group-170",
+      "fields": {
+        "词条": "symposium",
+        "释义": "n. 专题研讨会；学术讨论会",
+        "英文释义": "A meeting focused on a particular subject, with expert talks and discussion.",
+        "搭配": "a symposium on; an international symposium",
+        "例句": "Researchers presented their findings at a symposium on language learning.",
+        "例句译文": "研究人员在语言学习专题研讨会上报告了研究成果。"
+      }
+    },
+    {
+      "id": "comparison-170-1",
+      "kind": "词汇辨析",
+      "title": "seminar",
+      "target": "group-170",
+      "fields": {
+        "词条": "seminar",
+        "释义": "n. 研讨课；研讨会",
+        "英文释义": "A class or meeting organized around study, discussion or training on a topic.",
+        "搭配": "a seminar on; attend a seminar",
+        "例句": "We discussed the article in our weekly seminar.",
+        "例句译文": "我们在每周的研讨课上讨论了这篇文章。"
+      }
+    },
+    {
+      "id": "comparison-body-170",
+      "kind": "词汇辨析",
+      "title": "symposium / seminar",
+      "target": "group-170",
+      "fields": {
+        "正文": "170 symposium / seminar symposium ▷ 朗读 A meeting focused on a particular subject, with expert talks and discussion. seminar ▷ 朗读 A class or meeting organized around study, discussion or training on a topic. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 symposium / seminar · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 symposium n. 专题研讨会；学术讨论会 通常围绕特定专业议题，由多位专家作报告并讨论 a symposium on; an international symposium Researchers presented their findings at a symposium on language learning. 研究人员在语言学习专题研讨会上报告了研究成果。 seminar n. 研讨课；研讨会 可指教师带领学生讨论的课程，也可指专业培训或讨论活动 a seminar on; attend a seminar We discussed the article in our weekly seminar. 我们在每周的研讨课上讨论了这篇文章。 symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。 怎么选？易错点在哪？ symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。"
+      }
+    },
+    {
       "id": "sense-credit-01",
       "kind": "多义词",
       "title": "credit",

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-18",
+  "base_commit": "be27dd2decf252c522b6227416c0e1989dae4793",
+  "new_groups": [
+    168,
+    169,
+    170
+  ],
+  "groups": 170,
+  "words": 415,
+  "rows": 422,
+  "preservation": "All 167 prior groups and 404 prior word records match exactly. Phrase, polysemy, reader and article sources unchanged.",
+  "review": [
+    "Hop is not restricted to one-foot jumps.",
+    "No fixed strength ranking for grasp and grip.",
+    "Grab need not imply violence.",
+    "Symposium and seminar cannot be distinguished solely by size.",
+    "Context-specific take caption preserves its existing time-expression definition."
+  ],
+  "sources": [
+    "https://dictionary.cambridge.org/thesaurus/articles/to-jump",
+    "https://dictionary.cambridge.org/dictionary/english/grasp",
+    "https://dictionary.cambridge.org/dictionary/english/symposium",
+    "https://dictionary.cambridge.org/dictionary/english/seminar"
+  ],
+  "validation": "Full audit_baseline gate passed; reproducible build, preservation, routes, dictionary, UI, search and JavaScript checks passed."
+}

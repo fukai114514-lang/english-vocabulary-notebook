@@ -22,7 +22,7 @@ for i,old in enumerate(blocks,1):
   rows.append('<tr><th scope="row">'+html.escape(word)+'</th><td><strong>'+html.escape(meaning)+'</strong><p>'+html.escape(focus)+'</p></td><td>'+html.escape(colloc)+'</td><td><div class="table-en">'+html.escape(en)+'</div><div class="zh">'+html.escape(zh)+'</div></td></tr>')
  table='<h2>逐词对比</h2><p class="table-hint">手机可左右滑动表格，横向比较用法与例句。</p><div class="table-scroll" tabindex="0" role="region" aria-label="'+html.escape(title,quote=True)+' 对比表"><table><caption>'+html.escape(title)+' · 用法对照</caption><thead><tr><th scope="col">单词 / 表达</th><th scope="col">词性、含义与侧重点</th><th scope="col">常见搭配 / 句型</th><th scope="col">中英例句</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>'
  note='<div class="selection"><h2>怎么选？易错点在哪？</h2><p>'+html.escape(notes[i])+'</p></div>'
- cards='<div class="word-cards">'+''.join('<article class="word-card"><div class="word-card-header"><h3 lang="en">'+html.escape(r[0])+'</h3><button type="button" class="speak" data-word="'+html.escape(r[0],quote=True)+'" aria-label="朗读 '+html.escape(r[0],quote=True)+'" aria-pressed="false">▷ 朗读</button></div><p class="word-caption" lang="en">'+html.escape(captions[r[0]])+'</p></article>' for r in groups[i])+'</div>'
+ cards='<div class="word-cards">'+''.join('<article class="word-card"><div class="word-card-header"><h3 lang="en">'+html.escape(r[0])+'</h3><button type="button" class="speak" data-word="'+html.escape(r[0],quote=True)+'" aria-label="朗读 '+html.escape(r[0],quote=True)+'" aria-pressed="false">▷ 朗读</button></div><p class="word-caption" lang="en">'+html.escape(captions.get(f'{r[0]}@{i}', captions.get(r[0], '')))+'</p></article>' for r in groups[i])+'</div>'
  anchored=old if re.search(r'<details[^>]*\bid=',old) else old.replace('<details', '<details id="group-'+str(i).zfill(3)+'"',1)
  new=anchored.replace('<div class="body">','<div class="body">'+cards+table,1)
  # Keep all original explanations/examples and add the group-specific decision note.
@@ -60,7 +60,7 @@ for g in catalog['groups']:
  for e,r in zip(g['entries'],groups[n]):
   en,zh=r[4].split(' → ',1)
   assert e['meaningZh']==r[1] and e['scenario']==r[2], ('stale meaning',n,r[0])
-  assert e['definitionEn']==captions[r[0]], ('stale definition',n,r[0])
+  assert e['definitionEn']==captions.get(f'{r[0]}@{n}', captions.get(r[0], '')), ('stale definition',n,r[0])
   assert e['collocations']==r[3].split('; ') and e['examples']==[{'en':en,'zh':zh}], ('stale example',n,r[0])
 from phrases import load as load_phrases
 catalog['parts'] = [polysemy_part, load_phrases()]
