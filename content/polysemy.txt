@@ -598,3 +598,95 @@ n.|模式；规律；行为方式|A repeated or regular way in which something h
 n.|图案|A repeated arrangement of shapes, lines, or colours.|The shirt has a striped pattern.|这件衬衫有条纹图案。
 n.|样板；纸样|A design or shape used as a guide for making something.|She used a paper pattern to make the dress.|她用纸样制作了这条连衣裙。
 v.|模仿；仿照|To design or make something by following a model.|The programme was patterned on a successful local project.|该计划仿照了一个成功的地方项目。
+# fairly
+提示：fairly easy 表示“还算容易”；fairly sure 表示“相当有把握”。在 treat people fairly 中，fairly 修饰做事的方式。
+adv.|相当；还算|To a noticeable but usually moderate degree.|The instructions are fairly easy to follow.|这些说明还算容易照着做。
+adv.|公平地；公正地|In a way that treats people equally and reasonably.|The teacher graded all the essays fairly.|老师公平地给所有作文打了分。
+# flourish
+提示：a business flourishes 指生意兴隆；with a flourish 指以引人注目的动作做某事。
+v.|繁荣；茁壮成长|To grow, develop, or do very well.|These plants flourish in warm, humid conditions.|这些植物在温暖潮湿的环境里长得很好。
+v.|挥舞；炫示|To wave or hold up something to attract attention.|She flourished the letter as she entered the room.|她走进房间时，得意地挥了挥手中的信。
+n.|夸张而引人注目的动作|A bold or decorative gesture made to attract attention.|The waiter opened the bottle with a flourish.|服务员用一个夸张利落的动作打开了酒瓶。
+n.|装饰性的笔划或细节|A decorative addition to writing, music, or design.|He added a flourish to the first letter of his name.|他在名字的首字母上添了一笔花饰。
+# grim
+提示：grim news 指令人沮丧的消息；a grim expression 指严肃或阴沉的表情；grim determination 指咬紧牙关的决心。
+adj.|严峻的；令人沮丧的|Very serious and giving little reason for hope.|The forecast for small retailers looks grim.|小型零售商的前景看来很严峻。
+adj.|严肃的；阴沉的|Looking serious, worried, or unhappy.|She listened with a grim expression.|她神情严肃地听着。
+adj.|阴暗的；令人不快的|Unpleasant or depressing in appearance or atmosphere.|The empty station looked grim in the rain.|空荡荡的车站在雨中显得格外阴沉。
+# measure
+提示：measure 70 cm 可直接表示尺寸；take measures to do sth 表示采取措施做某事；a measure of success 可作“衡量成功的标准”。
+v.|测量；量出|To find the size, amount, or degree of something.|Measure the desk before you buy a new cover.|买新桌布前先量一下桌子的尺寸。
+v.|尺寸为；长或宽达|To have a stated size or length.|The table measures two metres across.|这张桌子宽两米。
+v.|衡量；评估|To judge the effectiveness, value, or extent of something.|We use two indicators to measure progress.|我们用两个指标衡量进度。
+n.|措施；办法|An action taken to achieve a particular result.|The city introduced measures to reduce traffic.|市里出台了减少交通拥堵的措施。
+n.|衡量标准；指标|A way of judging the quality or extent of something.|Attendance alone is a poor measure of success.|单看出席人数很难衡量活动是否成功。
+n.|一定量；一份|A stated amount, especially of an ingredient or liquid.|Add one measure of syrup to three measures of water.|把一份糖浆加到三份水里。
+# force
+提示：force sb to do sth 指强迫某人做某事；by force 指用武力；come into force 指法规开始生效。
+n.|力；力量|Physical strength, or an influence that changes motion.|The force of the impact bent the wheel.|撞击的力量使车轮变形了。
+n.|武力；暴力|Physical power used to make someone do something.|The door was opened by force.|门被强行打开了。
+n.|部队；执法队伍|An organized group of people trained for military or police work.|She joined the police force after university.|她大学毕业后加入了警队。
+n.|影响重大的力量或因素|A person or influence that brings about change.|Public opinion became a powerful force for reform.|公众舆论成为推动改革的重要力量。
+v.|强迫；迫使|To make someone do something or make something necessary.|The storm forced us to change our plans.|暴风雨迫使我们改变计划。
+v.|用力推开；强行移动|To make something move by applying physical pressure.|We had to force the window open.|我们只好用力把窗户推开。
+# lead
+提示：带领、领先等义读 /liːd/，动词过去式和过去分词 led 读 /led/；金属“铅”的拼写也是 lead，但读 /led/。lead to 后接结果或目的地。
+v.|带领；引导|To show someone the way by going in front of them.|She led us through a side entrance.|她带我们从侧门进去。
+v.|领导；负责|To direct a group or be in charge of an activity.|He leads a team of six engineers.|他带领一支由六名工程师组成的团队。
+v.|通往；导致|To go to a place or produce a particular result.|A lack of sleep can lead to poor concentration.|缺觉可能导致注意力不集中。
+n./v.|领先地位；领先|A position ahead of others, or to be in that position.|Our team took the lead in the second half.|我们队在下半场取得了领先。
+n.|线索|A piece of information that may help someone find out more.|The police followed a new lead in the case.|警方顺着案件的一条新线索展开调查。
+n.|主角；主演|The most important part or performer in a play or film.|She plays the lead in the school musical.|她在学校的音乐剧中担任主演。
+n.|铅|A heavy, soft metal, pronounced /led/.|The old pipes were made of lead.|这些旧管道是铅制的。
+# faculty
+提示：the faculty 在美式英语中可统指全体教师；Faculty of Engineering 常见于英式用法，指工学院。the faculty of sight 指视觉能力。
+n.|全体教师；教学人员|The teaching staff of a school, college, or university.|Several faculty members helped design the course.|几位老师参与设计了这门课程。
+n.|学院；大学的学部|A division of a university that covers a group of related subjects.|She studies in the Faculty of Engineering.|她在工学院学习。
+n.|官能；能力|A natural mental or physical ability.|The illness affected his faculty of speech.|疾病影响了他的说话能力。
+# segment
+提示：a segment of the audience 是部分观众；a market segment 指细分市场；segment the market 指按特点划分市场。
+n.|部分；片段|One part of something that is divided into sections.|The last segment of the programme featured an interview.|节目最后一个环节是一段采访。
+n.|细分群体；细分市场|A group within a larger population or market that shares a characteristic.|The company is targeting a younger market segment.|公司正在瞄准一个更年轻的细分市场。
+n.|线段|The part of a line between two points.|Draw a line segment from A to B.|画一条从 A 到 B 的线段。
+n.|瓣；天然分隔的一部分|One of the naturally divided parts of a fruit or similar object.|She gave me a segment of the orange.|她给了我一瓣橙子。
+v.|分割；划分|To divide something into separate parts or groups.|The researchers segmented the data by age group.|研究人员按年龄组对数据进行了划分。
+# charge
+提示：charge sb for sth 是向某人收取某项费用；charge sb with a crime 是正式指控某人犯某罪；in charge of 表示负责。
+n./v.|费用；收费|An amount to pay, or to ask someone to pay it.|The hotel charges guests for parking.|酒店向住客收取停车费。
+v.|充电|To put electrical energy into a battery or device.|I forgot to charge my phone last night.|我昨晚忘了给手机充电。
+n.|电荷；电量|An electrical property of matter, or the energy stored in a battery.|The battery still holds a charge.|电池还存有电量。
+n./v.|正式指控；起诉|A formal accusation of a crime, or to accuse someone formally.|He was charged with theft.|他被正式指控犯有盗窃罪。
+n.|负责；掌管|Responsibility for directing or looking after something.|Mia is in charge of the project.|米娅负责这个项目。
+v./n.|猛冲；冲锋|To rush towards something, or a sudden rush or attack.|The bull charged at the fence.|公牛猛地冲向围栏。
+v.|记在账上；刷卡支付|To add a cost to an account or payment card.|Could you charge the meal to my room?|能把这顿饭的费用记在我的房账上吗？
+# spur
+提示：spur sb on 表示激励某人继续行动；spur growth 表示推动增长；on the spur of the moment 表示一时兴起、临时起意。
+v.|激励；促使|To encourage someone to act or try harder.|Her coach's advice spurred her on to train harder.|教练的建议激励她更加刻苦地训练。
+v.|推动；促进|To cause an activity or process to develop faster.|Lower fares could spur demand for train travel.|降低票价可能会带动铁路出行需求。
+n.|马刺|A small device on a rider's boot used to urge a horse forward.|The rider wore a pair of spurs.|骑手的靴子上装着一对马刺。
+n.|支线；山体突出的支脊|A branch from a main route, or a ridge projecting from a mountain.|A short rail spur connects the depot to the main line.|一段短铁路支线把车库与主线连在一起。
+# rake
+提示：rake up leaves 是把落叶耙拢；rake up the past 是翻旧账；rake in money 是口语，表示赚进很多钱。
+n.|耙子|A long-handled tool with a row of teeth for gathering leaves or levelling soil.|We need a rake to clear the leaves.|我们需要一把耙子来清理落叶。
+v.|用耙子耙拢；耙平|To gather things or level a surface with a rake.|He raked the leaves into a pile.|他把落叶耙成了一堆。
+短语动词|重新提起令人不快的旧事|To bring up unpleasant facts or events from the past.|There's no point in raking up that old argument.|没必要再提那次争吵。
+短语动词 口语|赚进大量金钱|To earn or take in a large amount of money.|The film raked in millions in its first week.|这部电影第一周就赚了数百万。
+# rack
+提示：a bike rack 是自行车停放架；rack your brains 表示绞尽脑汁；rack up debts 或 rack up points 分别表示累积债务或积分。
+n.|架子；支架|A frame or structure for holding, storing, or displaying things.|Hang your coat on the rack by the door.|把外套挂在门边的架子上。
+n.|一排肋骨；连排肋骨肉|A set of ribs from an animal, especially as a cut of meat.|We ordered a rack of lamb to share.|我们点了一份连排羊肋骨一起吃。
+v.|使遭受剧痛或折磨|To cause severe physical or mental suffering.|She was racked with guilt after the accident.|事故发生后，她深受内疚折磨。
+短语动词|累积；累计获得|To accumulate a large amount of something such as points, costs, or debts.|The team racked up six wins in a row.|这支队伍接连拿下了六场胜利。
+# fancy
+提示：英式口语常用 fancy doing sth，如 Fancy going for a walk?；fancy dress 在英式英语里指化装服；take a fancy to 表示喜欢上。
+adj.|精致的；讲究的|Decorative or more elaborate than usual.|The invitation was printed in fancy lettering.|请柬上印着花体字。
+adj.|高档的；昂贵讲究的|Expensive or fashionable in appearance or style.|They booked a table at a fancy restaurant.|他们在一家高档餐厅订了位。
+v. 英式口语|想要；想做|To feel like having or doing something.|Do you fancy a cup of tea?|你想喝杯茶吗？
+v. 英式口语|喜欢；对某人有好感|To feel romantically or sexually attracted to someone.|I think she fancies him.|我觉得她对他有好感。
+n.|一时的喜爱；心血来潮的念头|A liking or wish that can arise suddenly.|She took a fancy to the little bookshop.|她一下子就喜欢上了那家小书店。
+# gauge
+提示：gauge 读 /ɡeɪdʒ/；gauge public reaction 表示判断公众反应；a pressure gauge 指压力表；railway gauge 指轨距。
+v.|判断；估计|To form an estimate of someone's reaction, a situation, or an amount.|It was hard to gauge how interested the audience was.|很难判断听众有多感兴趣。
+v.|测定；量出|To measure a level or amount, often with an instrument.|The sensor gauges the depth of the water.|这个传感器可以测出水深。
+n.|量表；仪表|An instrument that measures and displays a level or quantity.|The fuel gauge showed that the tank was nearly empty.|油量表显示油箱快空了。
+n.|规格；轨距|A standard measure of thickness or size, or the distance between railway rails.|The two rail lines use different gauges.|这两条铁路线采用不同的轨距。

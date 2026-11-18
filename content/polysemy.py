@@ -18,7 +18,7 @@ def load_entries():
             pos, zh, definition, en, translation = line.split('|')
             entries[-1]['senses'].append({'partOfSpeech': pos, 'meaningZh': zh,
                 'definitionEn': definition, 'example': {'en': en, 'zh': translation}})
-    expected = '''credit aggressive acquaintance dash recourse discourse fly drop glow catch just throw point last page pass over break taste cross shuttle lie level lot ticket blow dive material reserve paper practice port junior consider used zoom cream figure full second sign balance stress due wave rank runner attachment spring live fork buck image universal strain bound band line lean post quarter bug forward instrument access moderate chip refresh tuck snap contrive sore flush routine stroke stiff parameter tone bloom upper pattern'''.split()
+    expected = '''credit aggressive acquaintance dash recourse discourse fly drop glow catch just throw point last page pass over break taste cross shuttle lie level lot ticket blow dive material reserve paper practice port junior consider used zoom cream figure full second sign balance stress due wave rank runner attachment spring live fork buck image universal strain bound band line lean post quarter bug forward instrument access moderate chip refresh tuck snap contrive sore flush routine stroke stiff parameter tone bloom upper pattern fairly flourish grim measure force lead faculty segment charge spur rake rack fancy gauge'''.split()
     assert [e['word'] for e in entries] == expected
     assert len(set(expected)) == len(entries)
     assert all(e['notes'] and len(e['senses']) >= 2 for e in entries)
@@ -32,7 +32,7 @@ def load_entries():
             key=hashlib.sha256(json.dumps(sense,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
             assert key in m['senses'], ('Unmapped sense; review required',entry['word'])
             sense.update(m['senses'][key])
-    return [entry for entry in entries if entry["word"] not in {"aggressive", "acquaintance", "discourse", "sore", "bloom", "upper"}]
+    return [entry for entry in entries if entry["word"] not in {"aggressive", "acquaintance", "discourse", "bloom", "upper"}]
 
 def add_part(page):
     entries = load_entries()
@@ -41,6 +41,7 @@ def add_part(page):
     variants = {'moderate': [('适度的', 'moderate exercise'), ('主持', 'She will moderate the debate.')],
                 'live': [('居住 /lɪv/', 'I live here.'), ('现场 /laɪv/', 'live music')],
                 'used': [('二手 /juːzd/', 'a used car'), ('过去常常', 'I used to walk to school.')],
+                'lead': [('Lead /liːd/', 'Please lead the way.'), ('Lead /led/', 'a pipe made of lead')],
                 'second': [('第二 /ˈsekənd/', 'the second time'), ('借调', 'She was seconded to the team.')]}
     for i, entry in enumerate(entries, 1):
         word = entry['word']
