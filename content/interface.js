@@ -31,14 +31,24 @@
 
  // Keep destinations separate from actions, while retaining every existing route.
  document.querySelectorAll('.primary-nav a').forEach(a=>a.setAttribute('aria-label',a.textContent.trim()));
- const searchAction=document.querySelector('.primary-nav [data-search]');
- if(searchAction){
-  searchAction.classList.add('sidebar-search');
-  document.querySelector('.primary-nav').after(searchAction);
-  const mobile=searchAction.cloneNode(true);
-  mobile.className='mobile-search';mobile.setAttribute('aria-label','Search library');
-  mobile.querySelector('kbd')?.remove();document.body.append(mobile);
+ const nav=$('.primary-nav');
+ const searchAction=nav.querySelector('[data-search]');
+ searchAction.classList.add('sidebar-search');
+ nav.after(searchAction);
+ nav.id='primary-navigation';
+
+ const navToggle=document.createElement('button');
+ navToggle.type='button';
+ navToggle.className='nav-toggle';
+ navToggle.setAttribute('aria-controls',nav.id);
+ function setNavigationExpanded(expanded){
+  root.classList.toggle('navigation-expanded',expanded);
+  navToggle.setAttribute('aria-expanded',String(expanded));
+  navToggle.setAttribute('aria-label',expanded?'Collapse navigation':'Expand navigation');
  }
+ setNavigationExpanded(false);
+ navToggle.onclick=()=>setNavigationExpanded(navToggle.getAttribute('aria-expanded')!=='true');
+ nav.before(navToggle);
  // Reuse table cells verbatim. Only presentation labels and a view control are added.
  for(const scroller of document.querySelectorAll('.table-scroll')){
   const table=scroller.querySelector('table');if(!table)continue;
@@ -69,13 +79,12 @@
   const vv=window.visualViewport;
   root.style.setProperty('--visual-top',(vv?.offsetTop||0)+'px');
   root.style.setProperty('--visual-height',(vv?.height||innerHeight)+'px');
-  root.classList.toggle('keyboard-open',!!vv&&innerHeight-vv.height>140&&/INPUT|TEXTAREA/.test(document.activeElement?.tagName||''));
  };
  new ResizeObserver(updateInsets).observe(topbar);
  window.visualViewport?.addEventListener('resize',updateInsets);
  window.visualViewport?.addEventListener('scroll',updateInsets);
  window.addEventListener('resize',updateInsets);
- document.addEventListener('focusin',updateInsets);document.addEventListener('focusout',()=>requestAnimationFrame(updateInsets));updateInsets();
+ updateInsets();
 
  if(reader)$('#paragraph-jump').onchange=ev=>{if(ev.target.value)location.hash=ev.target.value};
 })();

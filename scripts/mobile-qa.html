@@ -10,9 +10,9 @@ pre {white-space:pre-wrap;max-width:1000px}
 </style>
 <h1>Mobile regression checks</h1>
 <p>Local development only. Copy this file into dist as __qa.html; remove it before integrity checks or committing generated output.</p>
-<label>Viewport <select id="size"><option>390x844</option><option>320x568</option><option>375x667</option><option>430x932</option><option>844x390</option><option>1363x936</option></select></label>
+<label>Viewport <select id="size"><option>390x844</option><option>320x568</option><option>375x667</option><option>430x932</option><option>844x390</option><option>1024x768</option><option>1728x1117</option></select></label>
 <label>Theme <select id="theme"><option>light</option><option>dark</option></select></label>
-<label>Page <select id="page"><option value="index.html">Home</option><option value="index.html#original-heading">Comparisons</option><option value="index.html#poly-heading">Meanings</option><option value="index.html#nap-part">Reading</option><option value="nap.html">Article</option></select></label>
+<label>Page <select id="page"><option value="index.html">Home</option><option value="index.html#original-heading">Comparisons</option><option value="index.html#poly-heading">Meanings</option><option value="index.html#nap-part">Reading</option><option value="index.html#phrases-heading">Phrases</option><option value="nap.html">Article</option></select></label>
 <button id="run">Run regressions</button>
 <pre id="report" role="status">Ready. This exercises Chromium or Safari itself; it does not emulate an iPhone keyboard, safe area, touch hardware or OS accessibility settings.</pre>
 <iframe id="site" title="Site preview" width="390" height="844" src="index.html"></iframe>
@@ -33,19 +33,74 @@ run.onclick=async()=>{
   for(const viewport of [...size.options].map(o=>o.value))for(const mode of ['light','dark'])for(const url of [...page.options].map(o=>o.value)){
    report.textContent='Running '+viewport+' / '+mode+' / '+url;
    size.value=viewport;theme.value=mode;page.value=url;await load(url);
-   const d=doc(),root=d.documentElement,mobile=viewport!=='1363x936';
+   const d=doc(),root=d.documentElement,mobile=win().matchMedia('(max-width:760px), (max-width:1000px) and (max-height:500px)').matches;
    const detail=d.querySelector('#list>details:not([hidden])');if(!d.querySelector('#reference')?.hidden&&detail)detail.open=true;
    await frame();
-   const nav=[...d.querySelectorAll('.primary-nav a')].map(a=>a.getBoundingClientRect()),n=d.querySelector('.primary-nav').getBoundingClientRect(),s=d.querySelector('.mobile-search').getBoundingClientRect();
-   const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:!mobile||n.right<=s.left};results.push(row);
+   const links=[...d.querySelectorAll('.primary-nav a')],nav=links.map(a=>a.getBoundingClientRect());
+   const sidebar=d.querySelector('.sidebar').getBoundingClientRect(),search=d.querySelector('.topbar .search-trigger').getBoundingClientRect();
+   const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:sidebar.right<=search.left};results.push(row);
    check(`${viewport}/${mode}/${url}: no page overflow`,root.scrollWidth<=root.clientWidth);
    check(`${viewport}/${mode}/${url}: navigation targets`,row.minTarget>=44);
-   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0);
+   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0&&links.length===5);
+   check('one navigation region',d.querySelectorAll('.primary-nav').length===1);
+   check('accessible destinations',links.every(link=>!!link.getAttribute('aria-label'))&&links.filter(link=>link.getAttribute('aria-current')==='page').length===1);
+   check('left rail stays outside content',sidebar.left===0&&sidebar.right<=d.querySelector('main').getBoundingClientRect().left+1);
+   check('all links are inside the rail',nav.every(r=>r.left>=sidebar.left&&r.right<=sidebar.right&&r.top>=sidebar.top&&r.bottom<=sidebar.bottom));
+   check('no legacy floating Search',!d.querySelector('.mobile-search'));
+   if(mobile){
+    check('compact navigation width',sidebar.width>=56&&sidebar.width<=60);
+    check('icon-only navigation',links.every(link=>win().getComputedStyle(link.querySelector('span')).display==='none'));
+    check('main search control is 44 by 44',search.width>=44&&search.height>=44);
+   }
    if(url.includes('original-heading')){
     const scroller=d.querySelector('.table-scroll'),toggle=d.querySelector('.comparison-view');
     if(mobile){check('cards fit',scroller.scrollWidth<=scroller.clientWidth);toggle.click();await frame();check('full comparison retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table'&&scroller.scrollWidth>=680);toggle.click()}
     else check('desktop retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table');
    }
+  }
+  for(const viewport of [...size.options].map(o=>o.value))for(const mode of ['light','dark']){
+   size.value=viewport;theme.value=mode;await load('index.html#home');
+   const d=doc(),w=win();
+   const current=()=>d.querySelector('.primary-nav [aria-current="page"]')?.dataset.view;
+   const destinations=[['original','original-heading'],['poly','poly-heading'],['nap','nap-part'],['phrases','phrases-heading'],['home','home']];
+   for(const [view,hash] of destinations){
+    d.querySelector('.primary-nav [data-view="'+view+'"]').click();
+    check(viewport+'/'+mode+' activates '+view,current()===view&&w.location.hash==='#'+hash);
+   }
+   w.history.back();await waitFor(()=>current()==='phrases');
+   check('Back preserves route',w.location.hash==='#phrases-heading');
+   w.history.forward();await waitFor(()=>current()==='home');
+   check('Forward preserves route',w.location.hash==='#home');
+   const toggle=d.querySelector('.nav-toggle');
+   if(viewport==='844x390'){
+    check('landscape label control visible',toggle.getBoundingClientRect().height>=44);
+    toggle.click();await frame();
+    check('optional sidebar expands',toggle.getAttribute('aria-expanded')==='true'&&d.querySelector('.sidebar').getBoundingClientRect().width>=180);
+    check('expanded content fits',d.documentElement.scrollWidth<=d.documentElement.clientWidth);
+    check('expanded labels visible',w.getComputedStyle(d.querySelector('.primary-nav span')).display!=='none');
+    toggle.click();
+   }
+   d.querySelector('.topbar .search-trigger').click();
+   const search=d.querySelector('#search-dialog'),input=d.querySelector('#search');
+   check('Search focuses input',search.open&&d.activeElement===input);
+   const bounds=search.getBoundingClientRect();
+   check('Search fits viewport',bounds.left>=0&&bounds.right<=d.documentElement.clientWidth&&bounds.bottom<=w.innerHeight);
+   d.querySelector('#search-close').click();
+   check('close returns focus to Search',d.activeElement===d.querySelector('.topbar .search-trigger'));
+
+   await load('nap.html#nap-A');await waitFor(()=>doc().querySelector('#nap-A .lookup-word'));
+   const article=doc(),paragraph=article.querySelector('#nap-A'),word=paragraph.querySelector('.lookup-word');
+   check('reader retains Reading route',article.querySelector('.primary-nav [aria-current="page"]')?.dataset.view==='nap'&&win().location.hash==='#nap-A');
+   const translation=paragraph.nextElementSibling;
+   if(translation?.matches('details.para-translation'))translation.querySelector('summary').click();
+   const beforeLookup=win().scrollY;
+   word.click();await frame();
+   const sidebar=article.querySelector('.sidebar').getBoundingClientRect(),panel=article.querySelector('#lookup-card'),box=panel.getBoundingClientRect();
+   check('lookup remains outside sidebar',panel.open&&box.left>=sidebar.right&&box.right<=article.documentElement.clientWidth);
+   check('lookup preserves scroll',win().scrollY===beforeLookup);
+   check('article fits with translation',article.documentElement.scrollWidth<=article.documentElement.clientWidth);
+   panel.querySelector('button').click();
+   check('lookup close restores word focus',!panel.open&&article.activeElement===word);
   }
   size.value='390x844';theme.value='light';await load('index.html#poly-heading');
   const d=doc(),w=win(),summary=d.querySelector('.poly-entry>summary'),nav=v=>d.querySelector(`.primary-nav [data-view="${v}"]`);
@@ -56,7 +111,7 @@ run.onclick=async()=>{
   nav('home').click();nav('poly').click();check('return restores scroll',w.scrollY===y);
   w.history.back();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='home');check('Back restores Home',w.scrollY===0);
   w.history.forward();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='poly');check('Forward restores Meanings',w.scrollY===y);
-  d.querySelector('.mobile-search').click();const input=d.querySelector('#search');input.value='credit';input.dispatchEvent(new Event('input',{bubbles:true}));
+  d.querySelector('.topbar .search-trigger').click();const input=d.querySelector('#search');input.value='credit';input.dispatchEvent(new Event('input',{bubbles:true}));
   await waitFor(()=>d.querySelectorAll('#search-results a').length>0);check('Search returns results',d.querySelectorAll('#search-results a').length>0);
   d.querySelector('#search-close').click();check('Search close restores scroll',w.scrollY===y);
   await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));
