@@ -1,5 +1,6 @@
 (() => {
  'use strict';
+ const audio=window.notebookSpeech;
  const contexts=JSON.parse(document.querySelector('#reading-context').textContent);
  const paragraphs=[...document.querySelectorAll('#nap-text .nap-paragraph,.reading-text .nap-paragraph')];
  const font=document.querySelector('#reader-size');
@@ -32,7 +33,7 @@
   const response=await fetch(path);if(!response.ok)throw Error(path);
   return response.json();
  }
- Promise.all([fetchJSON('search-index.json'),fetchJSON('article-dictionary.json')])
+ Promise.all([window.notebook.loadSearchIndex(),fetchJSON('article-dictionary.json')])
   .then(([index,dictionary])=>setupLookup(index.records,dictionary))
   .catch(()=>{document.querySelector('#reader-status').textContent='Could not load the dictionary. Please refresh the page.'});
 
@@ -52,36 +53,50 @@
   const announcement=document.createElement('span');announcement.className='sr-only';announcement.setAttribute('role','status');document.body.append(announcement);
   let trigger,active=[];
   const help=addText(document.body,'span','Use Left and Right arrows to choose a word in this paragraph, Enter for definitions, and Escape to return.','sr-only');help.id='lookup-help';
+  const sidebar=document.querySelector('.sidebar');
+  const compactLayout=matchMedia('(max-width:760px), (max-width:1000px) and (max-height:500px)');
   function position(){
    if(!dialog.open||!trigger)return;
-   const r=trigger.getBoundingClientRect(),mobile=innerWidth<=760||(innerWidth<=1000&&innerHeight<=500),vv=window.visualViewport,top=vv?.offsetTop||0,height=vv?.height||innerHeight;
+   const r=trigger.getBoundingClientRect(),mobile=compactLayout.matches;
+   const vv=window.visualViewport,top=vv?.offsetTop||0,height=vv?.height||innerHeight;
    const viewportWidth=document.documentElement.clientWidth;
-   dialog.style.maxWidth=Math.max(0,viewportWidth-24)+'px';
+   dialog.style.maxWidth=mobile?'none':Math.max(0,viewportWidth-24)+'px';
+   if(mobile)dialog.style.left=sidebar.getBoundingClientRect().right+8+'px';
    const panelHeight=mobile?Math.min(height*.42,360):Math.min(height*.6,480);
    dialog.style.maxHeight=panelHeight+'px';
    dialog.style.height=mobile?panelHeight+'px':'auto';
    const h=dialog.offsetHeight,w=dialog.offsetWidth;
-   let y=mobile?top+height-h-8:r.bottom+10;
+   // The CSS right inset handles landscape cutouts. Measure the bottom safe area
+   // through the computed padding on the root's sidebar.
+   const bottom=mobile?Math.max(8,parseFloat(getComputedStyle(sidebar).paddingBottom)):8;
+   let y=mobile?top+height-h-bottom:r.bottom+10;
    if(!mobile&&y+h>top+height-12)y=r.top-h-10;
-   dialog.style.top=Math.max(top+8,Math.min(y,top+height-h-8))+'px';
+   dialog.style.top=Math.max(top+8,Math.min(y,top+height-h-bottom))+'px';
    const excerpt=body.querySelector('.lookup-source');if(excerpt)excerpt.hidden=!mobile||r.bottom<y;
-   dialog.style.left=(mobile?12:Math.max(12,Math.min(r.left,viewportWidth-w-12)))+'px';
+   if(!mobile)dialog.style.left=Math.max(12,Math.min(r.left,viewportWidth-w-12))+'px';
   }
   document.addEventListener('pointerdown',ev=>{if(dialog.open&&!dialog.contains(ev.target)&&!ev.target.closest('.lookup-word'))dismiss(false)});
   window.addEventListener('resize',position);window.visualViewport?.addEventListener('resize',position);window.visualViewport?.addEventListener('scroll',position);window.addEventListener('scroll',position,{passive:true});
-  dialog.addEventListener('toggle',position,true);new ResizeObserver(position).observe(body);
+  dialog.addEventListener('toggle',position,true);const lookupResize=new ResizeObserver(position);lookupResize.observe(body);lookupResize.observe(sidebar);
 
   function clearSelection(){
    for(const b of active)b.classList.remove('phrase-active');
    trigger?.removeAttribute('aria-expanded');active=[];
   }
-  function dismiss(focus=true){const y=scrollY;clearSelection();if('speechSynthesis' in window)speechSynthesis.cancel();dialog.close();document.documentElement.classList.remove('lookup-open');if(focus)trigger?.focus({preventScroll:true});window.scrollTo({top:y,behavior:'instant'})}
-  close.onclick=()=>dismiss();window.addEventListener('hashchange',()=>{if(dialog.open)dismiss(false)});window.addEventListener('pagehide',()=>{if('speechSynthesis' in window)speechSynthesis.cancel()});
+  function dismiss(focus=true){
+   const y=scrollY;
+   clearSelection();audio.stopWithin(dialog);dialog.close();
+   if(focus)trigger?.focus({preventScroll:true});
+   window.scrollTo({top:y,behavior:'instant'});
+  }
+  close.onclick=()=>dismiss();
+  window.addEventListener('hashchange',()=>{if(dialog.open)dismiss(false)});
+  document.addEventListener('notebook:search-open',()=>{if(dialog.open)dismiss()});
   dialog.oncancel=e=>{e.preventDefault();dismiss()};
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dialog.open){e.preventDefault();dismiss()}});
   function lookup(button,context,group){
    const readingY=scrollY;
-   if('speechSynthesis' in window)speechSynthesis.cancel();
+   audio.stop();
    clearSelection();trigger=button;active=group||[button];
    for(const b of active)b.classList.add('phrase-active');
    button.setAttribute('aria-expanded','true');body.replaceChildren();
@@ -98,7 +113,13 @@
     const excerpt=addText(body,'blockquote',(start?'…':'')+text.slice(start,end)+(end<text.length?'…':''),'lookup-source');excerpt.hidden=true;excerpt.setAttribute('aria-label','Selected passage');
    }
    const ipa=fields['音标']||fields['IPA'];if(ipa)addText(body,'p',ipa,'sense-note');
-   if('speechSynthesis' in window){const speak=addText(body,'button',window.notebookText.listen,'lookup-speech');speak.type='button';const speechStatus=addText(body,'p',' ','lookup-status');speechStatus.setAttribute('role','status');speechStatus.hidden=true;speak.onclick=()=>{speechStatus.hidden=false;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(context?.[0]||lemma);let accent='en-US';try{accent=localStorage.getItem('vocab-accent')||accent}catch{}u.lang=accent;u.rate=.85;u.onend=()=>speechStatus.textContent='Finished reading';u.onerror=()=>speechStatus.textContent='Could not read aloud. Check your device’s voice settings.';speechStatus.textContent='Reading aloud';speechSynthesis.speak(u)}}
+   if(audio.supported){
+    const speak=addText(body,'button',window.notebookText.listen,'lookup-speech');
+    speak.type='button';speak.setAttribute('aria-pressed','false');
+    const speechStatus=addText(body,'p',' ','lookup-status');
+    speechStatus.setAttribute('role','status');speechStatus.hidden=true;
+    speak.onclick=()=>audio.toggleWord(speak,speechStatus,context?.[0]||lemma);
+   }
 
    addText(body,'p',context?'In this sentence · '+context[1]:[fields['词性'],primary?.kind==='阅读词汇'?window.notebookText.articleMeaning:window.notebookText.commonMeaning].filter(Boolean).join(' · '),'sense-note');
    addText(body,'p',context?.[2]||fields['中文意思']||fields['释义'],'lookup-meaning');
@@ -119,7 +140,7 @@
    }
    if(more.childElementCount>1)body.append(more);
    if(!dialog.open){dialog.show();button.focus({preventScroll:true})}
-   document.documentElement.classList.add('lookup-open');body.scrollTop=0;position();window.scrollTo({top:readingY,behavior:'instant'});
+   body.scrollTop=0;position();window.scrollTo({top:readingY,behavior:'instant'});
   }
   const headings=document.querySelectorAll('.reading-title,#reader > .part-heading h1');
   for(const p of [...paragraphs,...headings]){

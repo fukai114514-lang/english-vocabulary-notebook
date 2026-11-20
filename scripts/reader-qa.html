@@ -36,11 +36,12 @@ run.onclick=async()=>{
    const d=doc(),root=d.documentElement,mobile=Number(viewport.split('x')[0])<=760||(Number(viewport.split('x')[0])<=1000&&Number(viewport.split('x')[1])<=500);
    const detail=d.querySelector('#list>details:not([hidden])');if(!d.querySelector('#reference')?.hidden&&detail)detail.open=true;
    await frame();
-   const nav=[...d.querySelectorAll('.primary-nav a')].map(a=>a.getBoundingClientRect()),n=d.querySelector('.primary-nav').getBoundingClientRect(),s=d.querySelector('.mobile-search').getBoundingClientRect();
-   const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:!mobile||n.right<=s.left};results.push(row);
+   const links=[...d.querySelectorAll('.primary-nav a')],nav=links.map(a=>a.getBoundingClientRect());
+   const sidebar=d.querySelector('.sidebar').getBoundingClientRect(),search=d.querySelector('.topbar .search-trigger').getBoundingClientRect();
+   const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:sidebar.right<=search.left};results.push(row);
    check(`${viewport}/${mode}/${url}: no page overflow`,root.scrollWidth<=root.clientWidth);
    check(`${viewport}/${mode}/${url}: navigation targets`,row.minTarget>=44);
-   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0);
+   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0&&links.length===5);
    if(url.includes('original-heading')){
     const scroller=d.querySelector('.table-scroll'),toggle=d.querySelector('.comparison-view');
     if(mobile){check('cards fit',scroller.scrollWidth<=scroller.clientWidth);toggle.click();await frame();check('full comparison retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table'&&scroller.scrollWidth>=680);toggle.click()}
@@ -56,7 +57,7 @@ run.onclick=async()=>{
   nav('home').click();nav('poly').click();check('return restores scroll',w.scrollY===y);
   w.history.back();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='home');check('Back restores Home',w.scrollY===0);
   w.history.forward();await waitFor(()=>d.querySelector('.primary-nav [aria-current]')?.dataset.view==='poly');check('Forward restores Meanings',w.scrollY===y);
-  d.querySelector('.mobile-search').click();const input=d.querySelector('#search');input.value='credit';input.dispatchEvent(new Event('input',{bubbles:true}));
+  d.querySelector('.topbar .search-trigger').click();const input=d.querySelector('#search');input.value='credit';input.dispatchEvent(new Event('input',{bubbles:true}));
   await waitFor(()=>d.querySelectorAll('#search-results a').length>0);check('Search returns results',d.querySelectorAll('#search-results a').length>0);
   d.querySelector('#search-close').click();check('Search close restores scroll',w.scrollY===y);
   await load('nap.html');await waitFor(()=>doc().querySelector('.lookup-word'));

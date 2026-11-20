@@ -9,6 +9,7 @@
  function show(view,{restore=true,historyMode='push'}={}){
   if(reader)return;
   if(view===current&&historyMode==='push')return;
+  document.dispatchEvent(new Event('notebook:navigate'));
   positions.set(current,scrollY);current=view;
   $('#home').hidden=view!=='home';$('#reference').hidden=!['all','original','poly','phrases'].includes(view);$('#nap-part').hidden=view!=='nap';
   items.forEach(d=>d.hidden=view==='original'?d.classList.contains('poly-entry')||d.classList.contains('phrase-entry'):view==='poly'?!d.classList.contains('poly-entry'):view==='phrases'?!d.classList.contains('phrase-entry'):false);
@@ -20,7 +21,21 @@
   if(restore)window.scrollTo({top:positions.get(view)||0,behavior:'instant'});
  }
  function reveal(id){if(reader)return;show(viewFor(id),{restore:false,historyMode:'none'});const target=document.getElementById(id);if(!target)return;for(let n=target;n;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;if(!Object.values(keys).includes(id)){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}))}}
- window.notebook={show,reveal,viewFor};
+ // The dictionary and Spotlight use the same search index within a page.
+ let indexRequest;
+ function loadSearchIndex(){
+  if(!indexRequest){
+   indexRequest=fetch('./search-index.json').then(response=>{
+    if(!response.ok)throw Error('Could not load the search index');
+    return response.json();
+   }).then(index=>{
+    if(index.schemaVersion!==1)throw Error('Unsupported search index');
+    return index;
+   }).catch(error=>{indexRequest=undefined;throw error});
+  }
+  return indexRequest;
+ }
+ window.notebook={show,reveal,viewFor,loadSearchIndex};
  if(!reader){document.addEventListener('click',ev=>{const a=ev.target.closest('[data-view]');if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();show(a.dataset.view)});$('#expand').onclick=()=>items.filter(d=>!d.hidden).forEach(d=>d.open=true);$('#collapse').onclick=()=>items.forEach(d=>d.open=false);
  const route=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(id==='main')return;if(!id||Object.values(keys).includes(id)){show(viewFor(id||'home'),{restore:true,historyMode:'none'})}else reveal(id)};
  // pushState navigation does not emit hashchange; native Back/Forward does.
@@ -31,14 +46,24 @@
 
  // Keep destinations separate from actions, while retaining every existing route.
  document.querySelectorAll('.primary-nav a').forEach(a=>a.setAttribute('aria-label',a.textContent.trim()));
- const searchAction=document.querySelector('.primary-nav [data-search]');
- if(searchAction){
-  searchAction.classList.add('sidebar-search');
-  document.querySelector('.primary-nav').after(searchAction);
-  const mobile=searchAction.cloneNode(true);
-  mobile.className='mobile-search';mobile.setAttribute('aria-label','Search library');
-  mobile.querySelector('kbd')?.remove();document.body.append(mobile);
+ const nav=$('.primary-nav');
+ const searchAction=nav.querySelector('[data-search]');
+ searchAction.classList.add('sidebar-search');
+ nav.after(searchAction);
+ nav.id='primary-navigation';
+
+ const navToggle=document.createElement('button');
+ navToggle.type='button';
+ navToggle.className='nav-toggle';
+ navToggle.setAttribute('aria-controls',nav.id);
+ function setNavigationExpanded(expanded){
+  root.classList.toggle('navigation-expanded',expanded);
+  navToggle.setAttribute('aria-expanded',String(expanded));
+  navToggle.setAttribute('aria-label',expanded?'Collapse navigation':'Expand navigation');
  }
+ setNavigationExpanded(false);
+ navToggle.onclick=()=>setNavigationExpanded(navToggle.getAttribute('aria-expanded')!=='true');
+ nav.before(navToggle);
  // Reuse table cells verbatim. Only presentation labels and a view control are added.
  for(const scroller of document.querySelectorAll('.table-scroll')){
   const table=scroller.querySelector('table');if(!table)continue;
@@ -69,13 +94,12 @@
   const vv=window.visualViewport;
   root.style.setProperty('--visual-top',(vv?.offsetTop||0)+'px');
   root.style.setProperty('--visual-height',(vv?.height||innerHeight)+'px');
-  root.classList.toggle('keyboard-open',!!vv&&innerHeight-vv.height>140&&/INPUT|TEXTAREA/.test(document.activeElement?.tagName||''));
  };
  new ResizeObserver(updateInsets).observe(topbar);
  window.visualViewport?.addEventListener('resize',updateInsets);
  window.visualViewport?.addEventListener('scroll',updateInsets);
  window.addEventListener('resize',updateInsets);
- document.addEventListener('focusin',updateInsets);document.addEventListener('focusout',()=>requestAnimationFrame(updateInsets));updateInsets();
+ updateInsets();
 
  if(reader)$('#paragraph-jump').onchange=ev=>{if(ev.target.value)location.hash=ev.target.value};
 })();
