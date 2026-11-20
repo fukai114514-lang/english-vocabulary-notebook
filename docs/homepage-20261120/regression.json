@@ -1,0 +1,326 @@
+{
+  "base": "bd196a6a7889b745eb3b2fa6d3786657045a867f",
+  "audit": {
+    "passed": true,
+    "commands": [
+      {
+        "command": [
+          "content/render.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_migration.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_preservation.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_interface.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_upgrade.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_article_dictionary.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_reading_context.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_routes.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/test_ui_labels.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_design_tokens.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "scripts/verify_asset_versions.py"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/app.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/interface.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/practice-recording.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/practice.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/pronunciation.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/reader.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/search.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/speech.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--check",
+          "content/theme.js"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/test_search.cjs"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "node",
+          "--test",
+          "scripts/test_speech.cjs"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "content/render.py"
+        ],
+        "exit": 0
+      }
+    ],
+    "checks": {
+      "committed_output_matches_rebuild": true,
+      "clean_build_matches": true,
+      "frozen_learning_content_and_guards_unchanged": true
+    }
+  },
+  "browser": {
+    "mobile": {
+      "passed": true,
+      "cases": 84,
+      "checks": 1104
+    },
+    "reader": {
+      "passed": true,
+      "cases": 90,
+      "checks": 332
+    },
+    "full": {
+      "exhaustive": {
+        "disclosures": 534,
+        "articleViews": 132,
+        "lookups": 2448,
+        "errors": [],
+        "overflow": [],
+        "resourceChecks": 46
+      },
+      "passed": true,
+      "cases": 90,
+      "checks": 11451
+    }
+  },
+  "crossFeature": [
+    "test_dictionary_hands_focus_and_audio_to_search (__main__.IntegratedUI.test_dictionary_hands_focus_and_audio_to_search) ... ok",
+    "test_landscape_safe_area_with_search_and_dictionary (__main__.IntegratedUI.test_landscape_safe_area_with_search_and_dictionary) ... ok",
+    "test_opening_another_meaning_stops_the_old_sentence (__main__.IntegratedUI.test_opening_another_meaning_stops_the_old_sentence) ... ok",
+    "test_permission_denial_preserves_listening (__main__.IntegratedUI.test_permission_denial_preserves_listening) ... ok",
+    "test_record_play_and_cancel_capture_from_search (__main__.IntegratedUI.test_record_play_and_cancel_capture_from_search) ... ok",
+    "test_reference_controls_fit_and_stop_on_navigation (__main__.IntegratedUI.test_reference_controls_fit_and_stop_on_navigation) ... ok",
+    "test_retry_index_after_network_failure (__main__.IntegratedUI.test_retry_index_after_network_failure) ... ok",
+    "test_shared_reader_index_routes_and_history (__main__.IntegratedUI.test_shared_reader_index_routes_and_history) ... ok",
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 8 tests in 9.131s",
+    "",
+    "OK"
+  ],
+  "liveResizeAndThemes": [
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.79",
+      "liveResizeWidths": 112,
+      "systemColorChange": true,
+      "geometryIdenticalOnThemeChange": true,
+      "persistedTheme": true,
+      "keyboardRailAndSearch": true
+    },
+    {
+      "engine": "webkit",
+      "version": "26.5",
+      "liveResizeWidths": 112,
+      "systemColorChange": true,
+      "geometryIdenticalOnThemeChange": true,
+      "persistedTheme": true,
+      "keyboardRailAndSearch": true
+    }
+  ],
+  "localPagesSubpath": {
+    "article-dictionary.json": {
+      "match": true,
+      "sha256": "15fcd0d1161b184f7ccf52a43fb984661e6cd33dff9403dca18f02cba6ec6cc2"
+    },
+    "business-travel-airfares.html": {
+      "match": true,
+      "sha256": "ba0b307e0c0259af341d3ca37f77df1a1d8aae56e73d7bf2a88f34c319fdd454"
+    },
+    "busyness-as-status.html": {
+      "match": true,
+      "sha256": "bee048e64b1b29243f9e60af535b3bf0d55c6ea71c7421a11dae8b143664402a"
+    },
+    "hobbies-and-work.html": {
+      "match": true,
+      "sha256": "cd5eec139a15e0822c0a08be8a7b6b5e541995daad9350587cf1145613553424"
+    },
+    "how-to-fix-the-internet.html": {
+      "match": true,
+      "sha256": "3680b3d98038116f564d06b3c48c4e4b6f17a182525649aed8aca7672cffa812"
+    },
+    "index.html": {
+      "match": true,
+      "sha256": "6eeec89fb12c8ea7232ec822b3a8371009ff5324cc94c01b3b37f3d3f78c95ff"
+    },
+    "interface.js": {
+      "match": true,
+      "sha256": "7c7a387386839b529925bc18e722d8d593f0ffd72a55031a4793ac99a3133f4a"
+    },
+    "motherhood.html": {
+      "match": true,
+      "sha256": "041ecb7e303ac720aef29b66d75250bf7d880959d3bdaa8e4bbb0c2e0c686035"
+    },
+    "multitasking-and-performance.html": {
+      "match": true,
+      "sha256": "2c0542e61c09beac63b10d2f504b6697beac22d082d6b541f49af65166a515bf"
+    },
+    "nap.html": {
+      "match": true,
+      "sha256": "0b18f73cfd594c818000608ec2249ac0d9d81f41ca50aacc156c9ba111b5be14"
+    },
+    "nap_article.json": {
+      "match": true,
+      "sha256": "6b90bbdef65e4884f96f30688b5b5e082ddb6b13b5a7c5e419232bd194b8284f"
+    },
+    "paternity-leave.html": {
+      "match": true,
+      "sha256": "6cb303525def4b3054a3eb64b990b889c022c7328061dc6ab4992e84b823f72c"
+    },
+    "politics-and-evidence.html": {
+      "match": true,
+      "sha256": "f799e705ee1c36125e56eec73e0813e69253b34efa96a2e681f5833c8a51c503"
+    },
+    "polysemy.json": {
+      "match": true,
+      "sha256": "5e9f12f181ad72e7a12ccbea9b765dc400082bd05db4f74b65dc9b8969c3aa6b"
+    },
+    "pronunciation.js": {
+      "match": true,
+      "sha256": "4cdf8211ed4654f282558e5529c295f0d24ce8160613a982fc91bcfd56c4c24f"
+    },
+    "reader.js": {
+      "match": true,
+      "sha256": "5d1694d87cb834b1b0d36e0149444dc5a734a5d748db7c85f088e05e25bd96f6"
+    },
+    "reading_articles.json": {
+      "match": true,
+      "sha256": "f722a77cd2f1e0040cb9e850964b811f6ba1dc830cbe92b531e1f0e2eedb3854"
+    },
+    "rivalry-and-entrepreneurship.html": {
+      "match": true,
+      "sha256": "867bb973ba8cbbfeabb7f079ba99f7b4727b9b49d3c0dd09a072759929c90dd3"
+    },
+    "search-index.json": {
+      "match": true,
+      "sha256": "755eea91cfcb751403e15a457e3fe73c48f16409475aafe4c769aa2394358b11"
+    },
+    "search.css": {
+      "match": true,
+      "sha256": "51ff8a3da8f165aa916aa4f81dcc8303729148296176b88afda1721b6f0f59de"
+    },
+    "search.js": {
+      "match": true,
+      "sha256": "4cd0f89899827b221bf7e67cff18d82ff2010915f62c2712ee3f1176f17259e4"
+    },
+    "vocabulary.json": {
+      "match": true,
+      "sha256": "60ccceea5314e54bd1a186572fcb9bd6229ac5ccf8380b71b60d326a6a0265b8"
+    },
+    "vpn-privacy.html": {
+      "match": true,
+      "sha256": "7b5106131d255069971e6895a8ab421830c55f5ac7ded1c0b550f61449c99a40"
+    }
+  }
+}

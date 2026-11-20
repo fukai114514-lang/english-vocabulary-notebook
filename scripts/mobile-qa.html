@@ -48,7 +48,7 @@ run.onclick=async()=>{
    check('all links are inside the rail',nav.every(r=>r.left>=sidebar.left&&r.right<=sidebar.right&&r.top>=sidebar.top&&r.bottom<=sidebar.bottom));
    check('no legacy floating Search',!d.querySelector('.mobile-search'));
    if(mobile){
-    check('compact navigation width',sidebar.width>=56&&sidebar.width<=60);
+    check('compact navigation width',sidebar.width>=48&&sidebar.width<=52);
     check('icon-only navigation',links.every(link=>win().getComputedStyle(link.querySelector('span')).display==='none'));
     check('main search control is 44 by 44',search.width>=44&&search.height>=44);
    }

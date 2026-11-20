@@ -1,0 +1,2237 @@
+{
+  "chromium": "156.0.8078.79",
+  "cases": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": {
+        "x": 72,
+        "y": 149.1,
+        "width": 234,
+        "height": 36.7
+      },
+      "intro": {
+        "x": 72,
+        "y": 205.9,
+        "width": 234,
+        "height": 53.2
+      },
+      "search": {
+        "x": 72,
+        "y": 283,
+        "width": 234,
+        "height": 67.6
+      },
+      "hero": {
+        "x": 72,
+        "y": 85,
+        "width": 234,
+        "height": 301.6
+      },
+      "grid": {
+        "x": 72,
+        "y": 426,
+        "width": 234,
+        "height": 821.6
+      },
+      "lower": {
+        "x": 72,
+        "y": 1279.7,
+        "width": 234,
+        "height": 527.8
+      },
+      "recent": {
+        "x": 72,
+        "y": 1342.5,
+        "width": 234,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 72,
+        "y": 1637.2,
+        "width": 234,
+        "height": 170.3
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 568
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 34,
+      "cards": [
+        {
+          "x": 72,
+          "y": 426,
+          "width": 234,
+          "height": 214.7
+        },
+        {
+          "x": 72,
+          "y": 652.7,
+          "width": 234,
+          "height": 214.7
+        },
+        {
+          "x": 72,
+          "y": 879.4,
+          "width": 234,
+          "height": 190
+        },
+        {
+          "x": 72,
+          "y": 1081.5,
+          "width": 234,
+          "height": 166.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1936,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 293,
+        "height": 41
+      },
+      "intro": {
+        "x": 70,
+        "y": 210.2,
+        "width": 293,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 287.4,
+        "width": 293,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 293,
+        "height": 289.5
+      },
+      "grid": {
+        "x": 70,
+        "y": 413.8,
+        "width": 293,
+        "height": 732.9
+      },
+      "lower": {
+        "x": 70,
+        "y": 1178.7,
+        "width": 293,
+        "height": 527.8
+      },
+      "recent": {
+        "x": 70,
+        "y": 1241.5,
+        "width": 293,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1536.3,
+        "width": 293,
+        "height": 170.3
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 667
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 38,
+      "cards": [
+        {
+          "x": 70,
+          "y": 413.8,
+          "width": 293,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 600.1,
+          "width": 293,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 786.3,
+          "width": 293,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 972.5,
+          "width": 293,
+          "height": 174.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1815,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 308,
+        "height": 41
+      },
+      "intro": {
+        "x": 70,
+        "y": 210.2,
+        "width": 308,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 287.4,
+        "width": 308,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 308,
+        "height": 289.5
+      },
+      "grid": {
+        "x": 70,
+        "y": 413.8,
+        "width": 308,
+        "height": 732.9
+      },
+      "lower": {
+        "x": 70,
+        "y": 1178.7,
+        "width": 308,
+        "height": 458.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1218.5,
+        "width": 308,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1513.3,
+        "width": 308,
+        "height": 124.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 844
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 38,
+      "cards": [
+        {
+          "x": 70,
+          "y": 413.8,
+          "width": 308,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 600.1,
+          "width": 308,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 786.3,
+          "width": 308,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 972.5,
+          "width": 308,
+          "height": 174.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1746,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 348,
+        "height": 41
+      },
+      "intro": {
+        "x": 70,
+        "y": 210.2,
+        "width": 348,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 287.4,
+        "width": 348,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 348,
+        "height": 289.5
+      },
+      "grid": {
+        "x": 70,
+        "y": 413.8,
+        "width": 348,
+        "height": 732.9
+      },
+      "lower": {
+        "x": 70,
+        "y": 1178.7,
+        "width": 348,
+        "height": 458.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1218.5,
+        "width": 348,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1513.3,
+        "width": 348,
+        "height": 124.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 932
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 38,
+      "cards": [
+        {
+          "x": 70,
+          "y": 413.8,
+          "width": 348,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 600.1,
+          "width": 348,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 786.3,
+          "width": 348,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 972.5,
+          "width": 348,
+          "height": 174.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1746,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        760,
+        800
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 678,
+        "height": 57.5
+      },
+      "intro": {
+        "x": 70,
+        "y": 226.6,
+        "width": 373.7,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 303.8,
+        "width": 510,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 678,
+        "height": 305.9
+      },
+      "grid": {
+        "x": 70,
+        "y": 430.3,
+        "width": 678,
+        "height": 637.7
+      },
+      "lower": {
+        "x": 70,
+        "y": 1100,
+        "width": 678,
+        "height": 430.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1139.8,
+        "width": 678,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1434.5,
+        "width": 678,
+        "height": 96.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 800
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 53.2,
+      "cards": [
+        {
+          "x": 70,
+          "y": 430.3,
+          "width": 678,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 592.7,
+          "width": 678,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 755.1,
+          "width": 678,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 917.5,
+          "width": 678,
+          "height": 150.4
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1639,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        761,
+        800
+      ],
+      "title": {
+        "x": 250.4,
+        "y": 178.1,
+        "width": 480.1,
+        "height": 41.1
+      },
+      "intro": {
+        "x": 250.4,
+        "y": 243.2,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 250.4,
+        "y": 332,
+        "width": 480.1,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 250.4,
+        "y": 102,
+        "width": 480.1,
+        "height": 335.1
+      },
+      "grid": {
+        "x": 250.4,
+        "y": 476.9,
+        "width": 480.1,
+        "height": 674.9
+      },
+      "lower": {
+        "x": 250.4,
+        "y": 1193.8,
+        "width": 480.1,
+        "height": 462.4
+      },
+      "recent": {
+        "x": 250.4,
+        "y": 1233.6,
+        "width": 480.1,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 250.4,
+        "y": 1520.8,
+        "width": 480.1,
+        "height": 135.4
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 800
+      },
+      "barLabel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "titleFont": 38.05,
+      "cards": [
+        {
+          "x": 250.4,
+          "y": 476.9,
+          "width": 480.1,
+          "height": 156.7
+        },
+        {
+          "x": 250.4,
+          "y": 649.6,
+          "width": 480.1,
+          "height": 156.7
+        },
+        {
+          "x": 250.4,
+          "y": 822.4,
+          "width": 480.1,
+          "height": 156.7
+        },
+        {
+          "x": 250.4,
+          "y": 995.1,
+          "width": 480.1,
+          "height": 156.7
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1821,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 680,
+        "height": 58.3
+      },
+      "intro": {
+        "x": 70,
+        "y": 227.5,
+        "width": 373.7,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 304.6,
+        "width": 510,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 680,
+        "height": 306.7
+      },
+      "grid": {
+        "x": 70,
+        "y": 431.1,
+        "width": 762,
+        "height": 637.7
+      },
+      "lower": {
+        "x": 70,
+        "y": 1100.8,
+        "width": 762,
+        "height": 430.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1140.6,
+        "width": 762,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1435.4,
+        "width": 762,
+        "height": 96.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 390
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 54,
+      "cards": [
+        {
+          "x": 70,
+          "y": 431.1,
+          "width": 762,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 593.5,
+          "width": 762,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 756,
+          "width": 762,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 918.4,
+          "width": 762,
+          "height": 150.4
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1640,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        900,
+        800
+      ],
+      "title": {
+        "x": 256,
+        "y": 178.1,
+        "width": 608,
+        "height": 48.6
+      },
+      "intro": {
+        "x": 256,
+        "y": 250.7,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 256,
+        "y": 339.5,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 256,
+        "y": 102,
+        "width": 608,
+        "height": 342.6
+      },
+      "grid": {
+        "x": 256,
+        "y": 484.4,
+        "width": 608,
+        "height": 674.9
+      },
+      "lower": {
+        "x": 256,
+        "y": 1201.3,
+        "width": 608,
+        "height": 431.6
+      },
+      "recent": {
+        "x": 256,
+        "y": 1241.1,
+        "width": 608,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 256,
+        "y": 1528.3,
+        "width": 608,
+        "height": 104.6
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 800
+      },
+      "barLabel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "titleFont": 45,
+      "cards": [
+        {
+          "x": 256,
+          "y": 484.4,
+          "width": 608,
+          "height": 156.7
+        },
+        {
+          "x": 256,
+          "y": 657.1,
+          "width": 608,
+          "height": 156.7
+        },
+        {
+          "x": 256,
+          "y": 829.9,
+          "width": 608,
+          "height": 156.7
+        },
+        {
+          "x": 256,
+          "y": 1002.6,
+          "width": 608,
+          "height": 156.7
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1798,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "title": {
+        "x": 261,
+        "y": 178.1,
+        "width": 680,
+        "height": 55.3
+      },
+      "intro": {
+        "x": 261,
+        "y": 257.4,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 261,
+        "y": 346.2,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 261,
+        "y": 102,
+        "width": 680,
+        "height": 349.3
+      },
+      "grid": {
+        "x": 261,
+        "y": 491.1,
+        "width": 722.1,
+        "height": 674.9
+      },
+      "lower": {
+        "x": 261,
+        "y": 1208,
+        "width": 722.1,
+        "height": 431.6
+      },
+      "recent": {
+        "x": 261,
+        "y": 1247.8,
+        "width": 722.1,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 261,
+        "y": 1535,
+        "width": 722.1,
+        "height": 104.6
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 768
+      },
+      "barLabel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "titleFont": 51.2,
+      "cards": [
+        {
+          "x": 261,
+          "y": 491.1,
+          "width": 722.1,
+          "height": 156.7
+        },
+        {
+          "x": 261,
+          "y": 663.8,
+          "width": 722.1,
+          "height": 156.7
+        },
+        {
+          "x": 261,
+          "y": 836.6,
+          "width": 722.1,
+          "height": 156.7
+        },
+        {
+          "x": 261,
+          "y": 1009.3,
+          "width": 722.1,
+          "height": 156.7
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1804,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        1366,
+        900
+      ],
+      "title": {
+        "x": 302.6,
+        "y": 178.1,
+        "width": 680,
+        "height": 73.4
+      },
+      "intro": {
+        "x": 302.6,
+        "y": 275.6,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 302.6,
+        "y": 364.4,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 302.6,
+        "y": 102,
+        "width": 680,
+        "height": 367.5
+      },
+      "grid": {
+        "x": 302.6,
+        "y": 509.3,
+        "width": 1008.8,
+        "height": 514.1
+      },
+      "lower": {
+        "x": 302.6,
+        "y": 1065.3,
+        "width": 1008.8,
+        "height": 265.2
+      },
+      "recent": {
+        "x": 302.6,
+        "y": 1105.1,
+        "width": 488.4,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 823,
+        "y": 1105.1,
+        "width": 488.4,
+        "height": 135.4
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 248,
+        "height": 900
+      },
+      "barLabel": {
+        "x": 286,
+        "y": 22.6,
+        "width": 171.2,
+        "height": 19.8
+      },
+      "titleFont": 68,
+      "cards": [
+        {
+          "x": 302.6,
+          "y": 509.3,
+          "width": 496.4,
+          "height": 249
+        },
+        {
+          "x": 815,
+          "y": 509.3,
+          "width": 496.4,
+          "height": 249
+        },
+        {
+          "x": 302.6,
+          "y": 774.3,
+          "width": 496.4,
+          "height": 249
+        },
+        {
+          "x": 815,
+          "y": 774.3,
+          "width": 496.4,
+          "height": 249
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1495,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        1728,
+        1117
+      ],
+      "title": {
+        "x": 452,
+        "y": 178.1,
+        "width": 680,
+        "height": 73.4
+      },
+      "intro": {
+        "x": 452,
+        "y": 275.6,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 452,
+        "y": 364.4,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 452,
+        "y": 102,
+        "width": 680,
+        "height": 367.5
+      },
+      "grid": {
+        "x": 452,
+        "y": 509.3,
+        "width": 1072,
+        "height": 514.1
+      },
+      "lower": {
+        "x": 452,
+        "y": 1065.3,
+        "width": 1072,
+        "height": 265.2
+      },
+      "recent": {
+        "x": 452,
+        "y": 1105.1,
+        "width": 520,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 1004,
+        "y": 1105.1,
+        "width": 520,
+        "height": 135.4
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 248,
+        "height": 1117
+      },
+      "barLabel": {
+        "x": 286,
+        "y": 22.6,
+        "width": 171.2,
+        "height": 19.8
+      },
+      "titleFont": 68,
+      "cards": [
+        {
+          "x": 452,
+          "y": 509.3,
+          "width": 528,
+          "height": 249
+        },
+        {
+          "x": 996,
+          "y": 509.3,
+          "width": 528,
+          "height": 249
+        },
+        {
+          "x": 452,
+          "y": 774.3,
+          "width": 528,
+          "height": 249
+        },
+        {
+          "x": 996,
+          "y": 774.3,
+          "width": 528,
+          "height": 249
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1495,
+      "theme": "light",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": {
+        "x": 72,
+        "y": 149.1,
+        "width": 234,
+        "height": 36.7
+      },
+      "intro": {
+        "x": 72,
+        "y": 205.9,
+        "width": 234,
+        "height": 53.2
+      },
+      "search": {
+        "x": 72,
+        "y": 283,
+        "width": 234,
+        "height": 67.6
+      },
+      "hero": {
+        "x": 72,
+        "y": 85,
+        "width": 234,
+        "height": 301.6
+      },
+      "grid": {
+        "x": 72,
+        "y": 426,
+        "width": 234,
+        "height": 821.6
+      },
+      "lower": {
+        "x": 72,
+        "y": 1279.7,
+        "width": 234,
+        "height": 527.8
+      },
+      "recent": {
+        "x": 72,
+        "y": 1342.5,
+        "width": 234,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 72,
+        "y": 1637.2,
+        "width": 234,
+        "height": 170.3
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 568
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 34,
+      "cards": [
+        {
+          "x": 72,
+          "y": 426,
+          "width": 234,
+          "height": 214.7
+        },
+        {
+          "x": 72,
+          "y": 652.7,
+          "width": 234,
+          "height": 214.7
+        },
+        {
+          "x": 72,
+          "y": 879.4,
+          "width": 234,
+          "height": 190
+        },
+        {
+          "x": 72,
+          "y": 1081.5,
+          "width": 234,
+          "height": 166.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1936,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 293,
+        "height": 41
+      },
+      "intro": {
+        "x": 70,
+        "y": 210.2,
+        "width": 293,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 287.4,
+        "width": 293,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 293,
+        "height": 289.5
+      },
+      "grid": {
+        "x": 70,
+        "y": 413.8,
+        "width": 293,
+        "height": 732.9
+      },
+      "lower": {
+        "x": 70,
+        "y": 1178.7,
+        "width": 293,
+        "height": 527.8
+      },
+      "recent": {
+        "x": 70,
+        "y": 1241.5,
+        "width": 293,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1536.3,
+        "width": 293,
+        "height": 170.3
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 667
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 38,
+      "cards": [
+        {
+          "x": 70,
+          "y": 413.8,
+          "width": 293,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 600.1,
+          "width": 293,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 786.3,
+          "width": 293,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 972.5,
+          "width": 293,
+          "height": 174.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1815,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 308,
+        "height": 41
+      },
+      "intro": {
+        "x": 70,
+        "y": 210.2,
+        "width": 308,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 287.4,
+        "width": 308,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 308,
+        "height": 289.5
+      },
+      "grid": {
+        "x": 70,
+        "y": 413.8,
+        "width": 308,
+        "height": 732.9
+      },
+      "lower": {
+        "x": 70,
+        "y": 1178.7,
+        "width": 308,
+        "height": 458.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1218.5,
+        "width": 308,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1513.3,
+        "width": 308,
+        "height": 124.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 844
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 38,
+      "cards": [
+        {
+          "x": 70,
+          "y": 413.8,
+          "width": 308,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 600.1,
+          "width": 308,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 786.3,
+          "width": 308,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 972.5,
+          "width": 308,
+          "height": 174.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1746,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 348,
+        "height": 41
+      },
+      "intro": {
+        "x": 70,
+        "y": 210.2,
+        "width": 348,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 287.4,
+        "width": 348,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 348,
+        "height": 289.5
+      },
+      "grid": {
+        "x": 70,
+        "y": 413.8,
+        "width": 348,
+        "height": 732.9
+      },
+      "lower": {
+        "x": 70,
+        "y": 1178.7,
+        "width": 348,
+        "height": 458.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1218.5,
+        "width": 348,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1513.3,
+        "width": 348,
+        "height": 124.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 932
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 38,
+      "cards": [
+        {
+          "x": 70,
+          "y": 413.8,
+          "width": 348,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 600.1,
+          "width": 348,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 786.3,
+          "width": 348,
+          "height": 174.2
+        },
+        {
+          "x": 70,
+          "y": 972.5,
+          "width": 348,
+          "height": 174.2
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1746,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        760,
+        800
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 678,
+        "height": 57.5
+      },
+      "intro": {
+        "x": 70,
+        "y": 226.6,
+        "width": 373.7,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 303.8,
+        "width": 510,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 678,
+        "height": 305.9
+      },
+      "grid": {
+        "x": 70,
+        "y": 430.3,
+        "width": 678,
+        "height": 637.7
+      },
+      "lower": {
+        "x": 70,
+        "y": 1100,
+        "width": 678,
+        "height": 430.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1139.8,
+        "width": 678,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1434.5,
+        "width": 678,
+        "height": 96.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 800
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 53.2,
+      "cards": [
+        {
+          "x": 70,
+          "y": 430.3,
+          "width": 678,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 592.7,
+          "width": 678,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 755.1,
+          "width": 678,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 917.5,
+          "width": 678,
+          "height": 150.4
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1639,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        761,
+        800
+      ],
+      "title": {
+        "x": 250.4,
+        "y": 178.1,
+        "width": 480.1,
+        "height": 41.1
+      },
+      "intro": {
+        "x": 250.4,
+        "y": 243.2,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 250.4,
+        "y": 332,
+        "width": 480.1,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 250.4,
+        "y": 102,
+        "width": 480.1,
+        "height": 335.1
+      },
+      "grid": {
+        "x": 250.4,
+        "y": 476.9,
+        "width": 480.1,
+        "height": 674.9
+      },
+      "lower": {
+        "x": 250.4,
+        "y": 1193.8,
+        "width": 480.1,
+        "height": 462.4
+      },
+      "recent": {
+        "x": 250.4,
+        "y": 1233.6,
+        "width": 480.1,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 250.4,
+        "y": 1520.8,
+        "width": 480.1,
+        "height": 135.4
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 800
+      },
+      "barLabel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "titleFont": 38.05,
+      "cards": [
+        {
+          "x": 250.4,
+          "y": 476.9,
+          "width": 480.1,
+          "height": 156.7
+        },
+        {
+          "x": 250.4,
+          "y": 649.6,
+          "width": 480.1,
+          "height": 156.7
+        },
+        {
+          "x": 250.4,
+          "y": 822.4,
+          "width": 480.1,
+          "height": 156.7
+        },
+        {
+          "x": 250.4,
+          "y": 995.1,
+          "width": 480.1,
+          "height": 156.7
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1821,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "title": {
+        "x": 70,
+        "y": 149.1,
+        "width": 680,
+        "height": 58.3
+      },
+      "intro": {
+        "x": 70,
+        "y": 227.5,
+        "width": 373.7,
+        "height": 53.2
+      },
+      "search": {
+        "x": 70,
+        "y": 304.6,
+        "width": 510,
+        "height": 51.1
+      },
+      "hero": {
+        "x": 70,
+        "y": 85,
+        "width": 680,
+        "height": 306.7
+      },
+      "grid": {
+        "x": 70,
+        "y": 431.1,
+        "width": 762,
+        "height": 637.7
+      },
+      "lower": {
+        "x": 70,
+        "y": 1100.8,
+        "width": 762,
+        "height": 430.7
+      },
+      "recent": {
+        "x": 70,
+        "y": 1140.6,
+        "width": 762,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 70,
+        "y": 1435.4,
+        "width": 762,
+        "height": 96.1
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 58,
+        "height": 390
+      },
+      "barLabel": {
+        "x": 68,
+        "y": 8,
+        "width": 112.7,
+        "height": 44
+      },
+      "titleFont": 54,
+      "cards": [
+        {
+          "x": 70,
+          "y": 431.1,
+          "width": 762,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 593.5,
+          "width": 762,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 756,
+          "width": 762,
+          "height": 150.4
+        },
+        {
+          "x": 70,
+          "y": 918.4,
+          "width": 762,
+          "height": 150.4
+        }
+      ],
+      "smallTargets": [
+        "View all"
+      ],
+      "navMin": 44,
+      "overflow": 0,
+      "pageHeight": 1640,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        900,
+        800
+      ],
+      "title": {
+        "x": 256,
+        "y": 178.1,
+        "width": 608,
+        "height": 48.6
+      },
+      "intro": {
+        "x": 256,
+        "y": 250.7,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 256,
+        "y": 339.5,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 256,
+        "y": 102,
+        "width": 608,
+        "height": 342.6
+      },
+      "grid": {
+        "x": 256,
+        "y": 484.4,
+        "width": 608,
+        "height": 674.9
+      },
+      "lower": {
+        "x": 256,
+        "y": 1201.3,
+        "width": 608,
+        "height": 431.6
+      },
+      "recent": {
+        "x": 256,
+        "y": 1241.1,
+        "width": 608,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 256,
+        "y": 1528.3,
+        "width": 608,
+        "height": 104.6
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 800
+      },
+      "barLabel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "titleFont": 45,
+      "cards": [
+        {
+          "x": 256,
+          "y": 484.4,
+          "width": 608,
+          "height": 156.7
+        },
+        {
+          "x": 256,
+          "y": 657.1,
+          "width": 608,
+          "height": 156.7
+        },
+        {
+          "x": 256,
+          "y": 829.9,
+          "width": 608,
+          "height": 156.7
+        },
+        {
+          "x": 256,
+          "y": 1002.6,
+          "width": 608,
+          "height": 156.7
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1798,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "title": {
+        "x": 261,
+        "y": 178.1,
+        "width": 680,
+        "height": 55.3
+      },
+      "intro": {
+        "x": 261,
+        "y": 257.4,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 261,
+        "y": 346.2,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 261,
+        "y": 102,
+        "width": 680,
+        "height": 349.3
+      },
+      "grid": {
+        "x": 261,
+        "y": 491.1,
+        "width": 722.1,
+        "height": 674.9
+      },
+      "lower": {
+        "x": 261,
+        "y": 1208,
+        "width": 722.1,
+        "height": 431.6
+      },
+      "recent": {
+        "x": 261,
+        "y": 1247.8,
+        "width": 722.1,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 261,
+        "y": 1535,
+        "width": 722.1,
+        "height": 104.6
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 768
+      },
+      "barLabel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "titleFont": 51.2,
+      "cards": [
+        {
+          "x": 261,
+          "y": 491.1,
+          "width": 722.1,
+          "height": 156.7
+        },
+        {
+          "x": 261,
+          "y": 663.8,
+          "width": 722.1,
+          "height": 156.7
+        },
+        {
+          "x": 261,
+          "y": 836.6,
+          "width": 722.1,
+          "height": 156.7
+        },
+        {
+          "x": 261,
+          "y": 1009.3,
+          "width": 722.1,
+          "height": 156.7
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1804,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        1366,
+        900
+      ],
+      "title": {
+        "x": 302.6,
+        "y": 178.1,
+        "width": 680,
+        "height": 73.4
+      },
+      "intro": {
+        "x": 302.6,
+        "y": 275.6,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 302.6,
+        "y": 364.4,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 302.6,
+        "y": 102,
+        "width": 680,
+        "height": 367.5
+      },
+      "grid": {
+        "x": 302.6,
+        "y": 509.3,
+        "width": 1008.8,
+        "height": 514.1
+      },
+      "lower": {
+        "x": 302.6,
+        "y": 1065.3,
+        "width": 1008.8,
+        "height": 265.2
+      },
+      "recent": {
+        "x": 302.6,
+        "y": 1105.1,
+        "width": 488.4,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 823,
+        "y": 1105.1,
+        "width": 488.4,
+        "height": 135.4
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 248,
+        "height": 900
+      },
+      "barLabel": {
+        "x": 286,
+        "y": 22.6,
+        "width": 171.2,
+        "height": 19.8
+      },
+      "titleFont": 68,
+      "cards": [
+        {
+          "x": 302.6,
+          "y": 509.3,
+          "width": 496.4,
+          "height": 249
+        },
+        {
+          "x": 815,
+          "y": 509.3,
+          "width": 496.4,
+          "height": 249
+        },
+        {
+          "x": 302.6,
+          "y": 774.3,
+          "width": 496.4,
+          "height": 249
+        },
+        {
+          "x": 815,
+          "y": 774.3,
+          "width": 496.4,
+          "height": 249
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1495,
+      "theme": "dark",
+      "scrollY": 0
+    },
+    {
+      "viewport": [
+        1728,
+        1117
+      ],
+      "title": {
+        "x": 452,
+        "y": 178.1,
+        "width": 680,
+        "height": 73.4
+      },
+      "intro": {
+        "x": 452,
+        "y": 275.6,
+        "width": 427.1,
+        "height": 60.8
+      },
+      "search": {
+        "x": 452,
+        "y": 364.4,
+        "width": 510,
+        "height": 57.1
+      },
+      "hero": {
+        "x": 452,
+        "y": 102,
+        "width": 680,
+        "height": 367.5
+      },
+      "grid": {
+        "x": 452,
+        "y": 509.3,
+        "width": 1072,
+        "height": 514.1
+      },
+      "lower": {
+        "x": 452,
+        "y": 1065.3,
+        "width": 1072,
+        "height": 265.2
+      },
+      "recent": {
+        "x": 452,
+        "y": 1105.1,
+        "width": 520,
+        "height": 225.4
+      },
+      "featured": {
+        "x": 1004,
+        "y": 1105.1,
+        "width": 520,
+        "height": 135.4
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 248,
+        "height": 1117
+      },
+      "barLabel": {
+        "x": 286,
+        "y": 22.6,
+        "width": 171.2,
+        "height": 19.8
+      },
+      "titleFont": 68,
+      "cards": [
+        {
+          "x": 452,
+          "y": 509.3,
+          "width": 528,
+          "height": 249
+        },
+        {
+          "x": 996,
+          "y": 509.3,
+          "width": 528,
+          "height": 249
+        },
+        {
+          "x": 452,
+          "y": 774.3,
+          "width": 528,
+          "height": 249
+        },
+        {
+          "x": 996,
+          "y": 774.3,
+          "width": 528,
+          "height": 249
+        }
+      ],
+      "smallTargets": [
+        "brand",
+        "View all"
+      ],
+      "navMin": 48,
+      "overflow": 0,
+      "pageHeight": 1495,
+      "theme": "dark",
+      "scrollY": 0
+    }
+  ]
+}

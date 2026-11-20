@@ -267,7 +267,7 @@ class IntegratedUI(unittest.TestCase):
         word.click()
         rail = self.page.locator('.sidebar').bounding_box()
         panel = self.page.locator('#lookup-card').bounding_box()
-        self.assertGreaterEqual(rail['width'], 102)
+        self.assertAlmostEqual(rail['width'] - 44, 50, delta=1)
         self.assertGreaterEqual(panel['x'], rail['width'])
         self.assertLessEqual(panel['x'] + panel['width'], 800)
         self.page.keyboard.press('Control+k')
