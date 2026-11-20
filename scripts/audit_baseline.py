@@ -42,6 +42,7 @@ for name in ['verify_migration', 'verify_preservation', 'verify_interface',
 for path in sorted((ROOT / 'content').glob('*.js')):
     run(['node', '--check', str(path.relative_to(ROOT))])
 run(['node', 'scripts/test_search.cjs'])
+run(['node', '--test', 'scripts/test_speech.cjs'])
 generated = manifest(ROOT / 'dist')
 reproducible = before == generated
 with tempfile.TemporaryDirectory(prefix='wordbook-audit-') as folder:

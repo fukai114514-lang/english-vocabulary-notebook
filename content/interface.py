@@ -37,8 +37,10 @@ def build():
   jump='<label class="paragraph-picker">段落 <select id="paragraph-jump"><option value="">Choose a paragraph</option>'+''.join(f'<option value="{a["id"]}-{letter}">{letter}</option>' for letter in a['paragraphs'])+'</select></label>'
   body=body.replace('<p id="reader-status"',jump+'<p id="reader-status"');context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))
- for name in ['interface.js','pronunciation.js']:
-  source=(ROOT/'content'/name).read_text()
-  if name=='interface.js':source='window.notebookText = '+json.dumps(ui['text'],ensure_ascii=False)+';\n'+source
-  (ROOT/'dist'/name).write_text(source)
+ # Bundle shared audio before the two page adapters while retaining versioned URLs.
+ shared = ['speech.js', 'practice-recording.js', 'practice.js', 'interface.js']
+ source = '\n'.join((ROOT/'content'/name).read_text() for name in shared)
+ (ROOT/'dist/interface.js').write_text('window.notebookText = '+json.dumps(ui['text'],ensure_ascii=False)+';\n'+source)
+ # The legacy build still reads pronunciation.js from the archived sources.
+ (ROOT/'dist/pronunciation.js').write_text('window.notebookSpeech.bindReferenceWords();\n')
  print('Interface:',len(catalog['groups']),'groups,',len(poly['entries']),'words,',len(articles),'readers')

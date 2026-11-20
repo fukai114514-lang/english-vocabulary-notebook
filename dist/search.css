@@ -1841,3 +1841,73 @@ html {scroll-padding-top:calc(var(--topbar-height,66px) + 16px)}
 
 /* Four collections share the existing responsive card layout. */
 @media(min-width:1100px){.collections{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Sentence practice stays in flow to keep the reading and dictionary layers clear. */
+.practice-trigger {
+  padding:4px 10px;
+  color:var(--accent);
+  background:transparent;
+  font-size:var(--text-callout);
+  font-weight:var(--weight-semibold);
+}
+.practice-trigger[aria-expanded="true"] {
+  background:var(--tint);
+}
+.practice-panel {
+  display:grid;
+  gap:var(--space-2);
+  max-width:100%;
+  margin:var(--space-2) 0 var(--space-3);
+  padding:var(--space-3);
+  border:1px solid var(--line);
+  border-radius:var(--radius-sm);
+  background:var(--surface);
+  font:var(--text-callout)/1.5 var(--font-ui);
+}
+.practice-actions,.practice-settings {
+  display:flex;
+  flex-wrap:wrap;
+  gap:var(--space-1) var(--space-2);
+}
+.practice-panel button,.practice-panel select {
+  min-width:var(--control-height);
+  padding:4px 8px;
+}
+.practice-panel button[aria-disabled="true"] {
+  background:var(--inset);
+  color:var(--secondary);
+  cursor:default;
+  transform:none;
+}
+.practice-picker {
+  display:inline-flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:var(--space-1);
+  min-width:0;
+  color:var(--secondary);
+}
+.practice-panel :is(.practice-status,.practice-availability,.practice-quote) {
+  margin:0;
+  font-size:var(--text-callout);
+  color:var(--secondary);
+}
+.practice-panel .practice-status {
+  min-height:1.5em;
+}
+.practice-panel .practice-quote {
+  font-family:var(--font-reading);
+  font-size:var(--text-base);
+  color:var(--ink);
+}
+.reader-page .practice-panel {
+  max-width:62ch;
+}
+@media(max-width:760px),(max-width:1000px) and (max-height:500px) {
+  .practice-panel select {
+    font-size:16px;
+  }
+}
+@media print {
+  .practice-trigger,.practice-panel {display:none!important}
+}

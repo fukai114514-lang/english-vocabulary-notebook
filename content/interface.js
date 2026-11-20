@@ -9,6 +9,7 @@
  function show(view,{restore=true,historyMode='push'}={}){
   if(reader)return;
   if(view===current&&historyMode==='push')return;
+  document.dispatchEvent(new Event('notebook:navigate'));
   positions.set(current,scrollY);current=view;
   $('#home').hidden=view!=='home';$('#reference').hidden=!['all','original','poly','phrases'].includes(view);$('#nap-part').hidden=view!=='nap';
   items.forEach(d=>d.hidden=view==='original'?d.classList.contains('poly-entry')||d.classList.contains('phrase-entry'):view==='poly'?!d.classList.contains('poly-entry'):view==='phrases'?!d.classList.contains('phrase-entry'):false);
