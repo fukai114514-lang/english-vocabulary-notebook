@@ -1841,3 +1841,20 @@ html {scroll-padding-top:calc(var(--topbar-height,66px) + 16px)}
 
 /* Four collections share the existing responsive card layout. */
 @media(min-width:1100px){.collections{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.search-filters {
+ display:flex;
+ gap:var(--space-1);
+ overflow-x:auto;
+ flex-shrink:0;
+ padding:4px 12px;
+ border-bottom:1px solid var(--line);
+}
+.search-filters button {
+ flex:none;
+ padding:6px 10px;
+ background:transparent;
+ font-size:var(--text-callout);
+}
+.search-filters [aria-pressed="true"] {background:var(--tint);color:var(--accent)}
+#search-results button {margin:4px}
