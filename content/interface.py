@@ -121,7 +121,7 @@ def build():
   )
   (ROOT/'dist'/f'{slug}.html').write_text(document(part['title'], body, part_description=part['description']))
  # Bundle shared audio before the two page adapters while retaining versioned URLs.
- shared = ['speech.js', 'practice-recording.js', 'practice.js', 'interface.js']
+ shared = ['speech.js', 'practice.js', 'interface.js']
  source = '\n'.join((ROOT/'content'/name).read_text() for name in shared)
  (ROOT/'dist/interface.js').write_text('window.notebookText = '+json.dumps(ui['text'],ensure_ascii=False)+';\n'+source)
  # The legacy build still reads pronunciation.js from the archived sources.

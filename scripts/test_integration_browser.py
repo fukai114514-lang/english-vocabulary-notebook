@@ -17,7 +17,6 @@ class StaticFiles(SimpleHTTPRequestHandler):
 
 
 # Hold utterances open so that cancellation and changes of owner can be observed.
-# Recording and HTML audio remain native. The media tests supply their own input.
 PROBES = """
 window.spoken = [];
 window.interruptions = 0;
@@ -29,11 +28,6 @@ Object.defineProperty(window, 'speechSynthesis', {value: {
 Object.defineProperty(window, 'SpeechSynthesisUtterance', {value: class {
     constructor(text) { this.text = text; }
 }});
-window.tracks = [];
-window.audioUrls = new Set();
-const create = URL.createObjectURL.bind(URL), revoke = URL.revokeObjectURL.bind(URL);
-URL.createObjectURL = blob => { const url = create(blob); audioUrls.add(url); return url; };
-URL.revokeObjectURL = url => { audioUrls.delete(url); revoke(url); };
 """
 
 
@@ -82,60 +76,24 @@ class IntegratedUI(unittest.TestCase):
     def action(self, name):
         self.panel.get_by_role('button', name=name, exact=True).click()
 
-    def start_recording(self):
-        self.action('Record your voice')
-        expect(self.status).to_contain_text('Recording…')
-        self.assertEqual(self.page.evaluate('tracks.at(-1).readyState'), 'live')
-
-    def test_record_play_and_cancel_capture_from_search(self):
+    def test_sentence_practice_has_no_recording_controls(self):
         self.context.add_init_script("""
-            navigator.mediaDevices.getUserMedia = async ({audio}) => {
-                if (!audio) throw Error('Expected an audio request');
-                const context = window.inputContext ||= new AudioContext();
-                await context.resume();
-                const output = context.createMediaStreamDestination();
-                const tone = context.createOscillator();
-                tone.connect(output);
-                tone.start();
-                tone.stop(context.currentTime + 1);
-                tracks.push(...output.stream.getAudioTracks());
-                return output.stream;
-            };
-        """)
-        writes = []
-        self.page.on('request', lambda req: writes.append(req.url) if req.method != 'GET' else None)
-        self.reader()
-        self.practice()
-        self.start_recording()
-        # The encoder needs actual sample time to produce a playable recording.
-        self.page.wait_for_timeout(450)
-        self.action('Stop audio or recording')
-        expect(self.status).to_contain_text('Recording ready.')
-        self.assertEqual(self.page.evaluate('tracks.at(-1).readyState'), 'ended')
-        self.action('Playback your recording')
-        expect(self.status).to_have_text('Playback finished.')
-        self.assertEqual(self.page.evaluate('audioUrls.size'), 0)
-        self.start_recording()
-        self.page.keyboard.press('Control+k')
-        expect(self.dialog).to_be_visible()
-        self.assertTrue(self.page.evaluate("tracks.every(t => t.readyState === 'ended')"))
-        self.page.keyboard.press('Escape')
-        expect(self.status).to_have_text('Recording canceled.')
-        self.assertEqual(writes, [])
-
-    def test_permission_denial_preserves_listening(self):
-        self.context.add_init_script("""
+            window.microphoneRequests = 0;
             navigator.mediaDevices.getUserMedia = async () => {
-                throw new DOMException('Permission denied', 'NotAllowedError');
+                window.microphoneRequests++;
+                throw Error('Unexpected microphone request');
             };
         """)
         self.reader()
         self.practice()
-        self.action('Record your voice')
-        expect(self.status).to_contain_text('Microphone access was denied.')
+        expect(self.panel.get_by_role('button')).to_have_count(3)
         self.action('Listen to the sentence')
         expect(self.status).to_contain_text('Reading aloud.')
-        self.assertEqual(self.page.evaluate('tracks.length'), 0)
+        self.action('Stop reading aloud')
+        expect(self.status).to_have_text('Reading stopped.')
+        self.action('Repeat the sentence')
+        expect(self.status).to_contain_text('Reading aloud.')
+        self.assertEqual(self.page.evaluate('microphoneRequests'), 0)
 
     def test_dictionary_hands_focus_and_audio_to_search(self):
         self.reader()

@@ -33,7 +33,7 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
     if (active && container.contains(active.owner)) stop();
   }
 
-  // Speech, microphone capture, and recorded audio share one active operation.
+  // Keep one active utterance across word and sentence controls.
   function claim(owner, interrupt) {
     stop();
     const task = { owner, interrupt };
@@ -164,144 +164,6 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
 (() => {
   'use strict';
 
-  function createPracticeRecording(environment, audio, owner, update) {
-    const devices = environment.navigator.mediaDevices;
-    const supported = typeof environment.MediaRecorder === 'function' &&
-      typeof devices?.getUserMedia === 'function';
-    let capture;
-    let clip;
-
-    function releaseStream(stream) {
-      stream?.getTracks().forEach(track => track.stop());
-    }
-
-    function releaseCapture(session, cancel) {
-      capture = null;
-      const { recorder, stream } = session;
-      if (recorder) {
-        recorder.ondataavailable = recorder.onstop = recorder.onerror = null;
-        if (cancel && recorder.state !== 'inactive') {
-          try { recorder.stop(); } catch {}
-        }
-      }
-      releaseStream(stream);
-      session.chunks.length = 0;
-    }
-
-    function recordError(error) {
-      if (error?.name === 'NotAllowedError' || error?.name === 'SecurityError') {
-        return 'Microphone access was denied. Allow it in your browser’s site settings and try again.';
-      }
-      if (error?.name === 'NotFoundError') return 'No microphone was found.';
-      return 'Could not record audio. Check your microphone and try again.';
-    }
-
-    async function record() {
-      if (!supported) return;
-      const session = { chunks: [] };
-      const job = audio.claim(owner, () => {
-        releaseCapture(session, true);
-        update('idle', 'Recording canceled.');
-      });
-      capture = session;
-      session.fail = error => {
-        if (!job.finish()) return;
-        releaseCapture(session, true);
-        update('idle', recordError(error));
-      };
-      update('requesting', 'Waiting for microphone permission…');
-      try {
-        const stream = await devices.getUserMedia({ audio: true });
-        if (!job.isCurrent()) {
-          releaseStream(stream);
-          return;
-        }
-        session.stream = stream;
-        const recorder = new environment.MediaRecorder(stream);
-        session.recorder = recorder;
-        recorder.ondataavailable = ({ data }) => {
-          if (job.isCurrent() && data.size) session.chunks.push(data);
-        };
-        recorder.onstop = () => {
-          if (!job.finish()) return;
-          const chunks = session.chunks;
-          const blob = new environment.Blob(chunks, { type: recorder.mimeType || chunks[0]?.type || '' });
-          releaseCapture(session, false);
-          if (blob.size) clip = blob;
-          update('idle', blob.size ? 'Recording ready. Tap Playback to hear it.' : 'No audio was captured. Try recording again.');
-        };
-        recorder.onerror = event => session.fail(event.error);
-        recorder.start();
-        update('recording', 'Recording… Tap Stop when finished.');
-      } catch (error) {
-        session.fail(error);
-      }
-    }
-
-    function stopRecording() {
-      if (!capture?.recorder) {
-        audio.stop(owner);
-        return;
-      }
-      const { recorder, fail } = capture;
-      update('saving', 'Preparing your recording…');
-      // The final dataavailable event precedes stop. Release the stream when it arrives.
-      try { recorder.stop(); } catch (error) { fail(error); }
-    }
-
-    function playback() {
-      if (!clip) return;
-      let url;
-      let player;
-      const cleanup = () => {
-        if (player) {
-          player.onended = player.onerror = null;
-          player.pause();
-          player.removeAttribute('src');
-          player.load();
-        }
-        if (url) environment.URL.revokeObjectURL(url);
-      };
-      const job = audio.claim(owner, () => {
-        cleanup();
-        update('idle', 'Playback stopped.');
-      });
-      const complete = message => {
-        if (!job.finish()) return;
-        cleanup();
-        update('idle', message);
-      };
-      const failed = () => complete('Could not play the recording. Try Playback again.');
-      try {
-        url = environment.URL.createObjectURL(clip);
-        player = new environment.Audio(url);
-        player.onended = () => complete('Playback finished.');
-        player.onerror = failed;
-        update('playback', 'Playing your recording…');
-        player.play().catch(failed);
-      } catch {
-        failed();
-      }
-    }
-
-    return {
-      supported, record, stopRecording, playback,
-      hasClip: () => !!clip,
-      clear() {
-        audio.stop(owner);
-        clip = null;
-        update('idle', '');
-      },
-    };
-  }
-
-  if (typeof module === 'object' && module.exports) module.exports = createPracticeRecording;
-  else window.createPracticeRecording = createPracticeRecording;
-})();
-
-(() => {
-  'use strict';
-
   const audio = window.notebookSpeech;
   const list = document.querySelector('#list');
   const paragraphs = document.querySelectorAll('#nap-text .nap-paragraph, .reading-text .nap-paragraph');
@@ -364,51 +226,36 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
   const status = element('p', 'practice-status');
   status.setAttribute('role', 'status');
   const availability = element('p', 'practice-availability');
-  const media = window.createPracticeRecording(window, audio, panel, render);
 
   let active;
-  let phase = 'idle';
   let listened = false;
   function speaking() {
     listened = true;
     audio.play(panel, active.sentences[sentencePicker.select.selectedIndex], {
-      onState: (state, message) => render(state === 'playing' ? 'speaking' : 'idle', message),
+      onState: (state, message) => render(state === 'playing', message),
     });
   }
 
   const listen = button('Listen', speaking);
   const repeat = button('Repeat', speaking);
-  const record = button('Record', media.record);
-  const stop = button('Stop', () => {
-    if (phase === 'recording') media.stopRecording();
-    else audio.stop(panel);
-  });
-  const playback = button('Playback', media.playback);
+  const stop = button('Stop', () => audio.stop(panel));
   listen.setAttribute('aria-label', 'Listen to the sentence');
   repeat.setAttribute('aria-label', 'Repeat the sentence');
-  record.setAttribute('aria-label', 'Record your voice');
-  stop.setAttribute('aria-label', 'Stop audio or recording');
-  playback.setAttribute('aria-label', 'Playback your recording');
-  actions.append(listen, repeat, record, stop, playback);
+  stop.setAttribute('aria-label', 'Stop reading aloud');
+  actions.append(listen, repeat, stop);
   panel.append(sentencePicker.wrap, quote, actions, settings, status, availability);
 
-  function render(next, message) {
-    phase = next;
-    const recording = phase === 'requesting' || phase === 'recording' || phase === 'saving';
-    const enabled = [
-      [listen, audio.supported && !recording],
-      [repeat, audio.supported && listened && !recording],
-      [record, media.supported && !recording],
-      [stop, phase !== 'idle' && phase !== 'saving'],
-      [playback, media.hasClip() && !recording],
-    ];
-    for (const [control, allow] of enabled) control.setAttribute('aria-disabled', String(!allow));
+  function render(playing, message) {
+    listen.setAttribute('aria-disabled', String(!audio.supported));
+    repeat.setAttribute('aria-disabled', String(!audio.supported || !listened));
+    stop.setAttribute('aria-disabled', String(!playing));
     status.textContent = message;
   }
 
   function chooseSentence() {
     listened = false;
-    media.clear();
+    audio.stop(panel);
+    render(false, '');
     quote.textContent = active.sentences[sentencePicker.select.selectedIndex];
   }
 
@@ -421,7 +268,7 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
     if (!active) return;
     active.trigger.setAttribute('aria-expanded', 'false');
     active.trigger.removeAttribute('aria-controls');
-    media.clear();
+    audio.stop(panel);
     panel.remove();
     active = undefined;
   }
@@ -439,11 +286,8 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
     accent.select.value = audio.getAccent();
     rate.select.value = String(audio.getRate());
     settings.hidden = !audio.supported;
-    availability.textContent = [
-      audio.supported ? '' : 'Read aloud is unavailable in this browser.',
-      media.supported ? '' : 'Recording is unavailable. Use a supported browser over HTTPS or localhost.',
-    ].filter(Boolean).join(' ');
-    availability.hidden = !availability.textContent;
+    availability.textContent = audio.supported ? '' : 'Read aloud is unavailable in this browser.';
+    availability.hidden = audio.supported;
     chooseSentence();
     trigger.setAttribute('aria-expanded', 'true');
     trigger.setAttribute('aria-controls', panel.id);

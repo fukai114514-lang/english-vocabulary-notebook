@@ -32,7 +32,7 @@
     if (active && container.contains(active.owner)) stop();
   }
 
-  // Speech, microphone capture, and recorded audio share one active operation.
+  // Keep one active utterance across word and sentence controls.
   function claim(owner, interrupt) {
     stop();
     const task = { owner, interrupt };
