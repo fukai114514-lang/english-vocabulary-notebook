@@ -20,36 +20,36 @@
     "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
   },
   "dist/index.html": {
-    "sha256": "632e52d6810242b154cde55017a4dd6cc38440f3a692e46fa37d3965e8e88782",
-    "reason": "Reviewed the library index and sidebar destinations. Existing reference and reading markup and learning data are unchanged."
+    "sha256": "af9066aed89d40fcd1475f32be939799d5f7345688d573347433ef82d68b32b5",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "dist/polysemy.json": {
     "sha256": "5e9f12f181ad72e7a12ccbea9b765dc400082bd05db4f74b65dc9b8969c3aa6b",
     "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
   },
   "dist/vocabulary.json": {
-    "sha256": "60ccceea5314e54bd1a186572fcb9bd6229ac5ccf8380b71b60d326a6a0265b8",
-    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
+    "sha256": "86c271d2c5eb38a7d73bd5e064de7ecc8ab0406364cc09de13f87297cbcb370b",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "content/base.html": {
-    "sha256": "c84889b636a9ed4926ebccbe954425d5adb744d728c5c7cfcaf94d0989a1cb4c",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "39f0c630f473bdadfd5dc90e868b19275fd5315cd51b63a6853ea439ea22dfc0",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "content/comparisons.txt": {
-    "sha256": "1a82563007e2091739df28987e409c9dea777446e0404757a8f96c6c66ac291c",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "5f99bce7d3dd29830fd6ac35ae0dd9a1e5350105076813ce2dc3c3fdff2d9cc3",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "content/english-captions.txt": {
-    "sha256": "2ac9c261dc1c5e2bab7b30905e4695e11b1784357735f817f51883d7b5fd7741",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "2836a48592efa3b2b08e8f47f2749a417398b6ba923ff4caf3f357ea54ee7bdc",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "content/selection-notes.txt": {
-    "sha256": "47e53935b663d34293ef5f6b86e15231c15503b0e444e2330b3b99776f43bd61",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "1fce2b09d2f211153d177bc8c41ad6b67e35d07dab5febb3f2d642174409ead3",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "content/vocabulary.json": {
-    "sha256": "82940dc48a164daac62961b035e6eef7cb832a371240dfe29f32c46f044f8821",
-    "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
+    "sha256": "b8b0e5646643a0f3457efca6d8e96eea403e41869b7c45857400f2dd0f55f398",
+    "reason": "Reviewed additive comparison group 171. All previously published groups and word records retained."
   },
   "content/pronunciation.js": {
     "sha256": "000c956ed80d25f35ee9feab24e3928fd228e1f50fa3a1c85379bb2e60a9f760",

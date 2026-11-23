@@ -168,3 +168,4 @@
 168|bounce 侧重弹性、反弹或反复蹦跳；leap 常是幅度较大的跃动；hop 可指人的单脚跳，也可指鸟或小动物的短促跳动；spring 强调突然、有力地跃起。它们有重叠，不能仅按跳跃高度排序。leap 的过去式可用 leaped 或 leapt，spring 的过去式和过去分词是 sprang、sprung。
 169|take 是拿取的通用表达；grab 突出迅速抓取；grasp 突出抓住抓牢；grip 突出持续紧握；clasp 常用于双手相握、握手或抱紧。grasp 与 grip 可以重叠，不存在固定力度等级；grab 也不必然粗暴。grasp an idea 是理解想法，不能按抓握动作直译。
 170|symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。
+171|设定一个前提再推理或行动，常用 assume；依据常理、线索或规则作出推定，常用 presume；委婉说“我想……”或提出假设，常用 suppose；信息不足只能猜或估，常用 guess。assume 和 presume 在不少语境里可以互换；这四个词没有固定的把握度排名。

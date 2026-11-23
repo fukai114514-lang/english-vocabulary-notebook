@@ -7440,6 +7440,71 @@
       }
     },
     {
+      "id": "comparison-171-0",
+      "kind": "词汇辨析",
+      "title": "suppose",
+      "target": "group-171",
+      "fields": {
+        "词条": "suppose",
+        "释义": "v. 想；猜想；假设",
+        "英文释义": "To think something is probably true, or to consider a situation as a possibility.",
+        "搭配": "I suppose so; suppose that; suppose for a moment",
+        "例句": "I suppose we could take the earlier train.",
+        "例句译文": "我想我们可以坐早一点的那班火车。"
+      }
+    },
+    {
+      "id": "comparison-171-1",
+      "kind": "词汇辨析",
+      "title": "presume",
+      "target": "group-171",
+      "fields": {
+        "词条": "presume",
+        "释义": "v. 推定；认为很可能",
+        "英文释义": "To take something as probably true based on what seems reasonable or on an established rule.",
+        "搭配": "presume that; presume someone to be; be presumed innocent",
+        "例句": "I presumed the event was still on, since nobody had announced a cancellation.",
+        "例句译文": "既然没人宣布取消，我就推断活动会照常举行。"
+      }
+    },
+    {
+      "id": "comparison-171-2",
+      "kind": "词汇辨析",
+      "title": "assume",
+      "target": "group-171",
+      "fields": {
+        "词条": "assume",
+        "释义": "v. 假定；想当然地认为",
+        "英文释义": "To accept something as true without confirming it, often as a basis for thinking or acting.",
+        "搭配": "assume that; assume for now; assume the worst",
+        "例句": "We assumed the room had Wi-Fi and brought no cables.",
+        "例句译文": "我们以为房间里有 Wi-Fi，所以没带线。"
+      }
+    },
+    {
+      "id": "comparison-171-3",
+      "kind": "词汇辨析",
+      "title": "guess",
+      "target": "group-171",
+      "fields": {
+        "词条": "guess",
+        "释义": "v. 猜；估计",
+        "英文释义": "To give an answer or estimate without knowing it for sure.",
+        "搭配": "guess the answer; guess how many; I guess so",
+        "例句": "I didn’t know the exact number, so I guessed.",
+        "例句译文": "我不知道确切数字，就猜了一个。"
+      }
+    },
+    {
+      "id": "comparison-body-171",
+      "kind": "词汇辨析",
+      "title": "suppose / presume / assume / guess",
+      "target": "group-171",
+      "fields": {
+        "正文": "171 suppose / presume / assume / guess suppose ▷ 朗读 To think something is probably true, or to consider a situation as a possibility. presume ▷ 朗读 To take something as probably true based on what seems reasonable or on an established rule. assume ▷ 朗读 To accept something as true without confirming it, often as a basis for thinking or acting. guess ▷ 朗读 To give an answer or estimate without knowing it for sure. 逐词对比 手机可左右滑动表格，横向比较用法与例句。 suppose / presume / assume / guess · 用法对照 单词 / 表达 词性、含义与侧重点 常见搭配 / 句型 中英例句 suppose v. 想；猜想；假设 I suppose 常用来委婉表达看法或勉强同意；Suppose … 可引出假设 I suppose so; suppose that; suppose for a moment I suppose we could take the earlier train. 我想我们可以坐早一点的那班火车。 presume v. 推定；认为很可能 常根据常理、间接线索或既有规则推定；语气常比 guess 正式 presume that; presume someone to be; be presumed innocent I presumed the event was still on, since nobody had announced a cancellation. 既然没人宣布取消，我就推断活动会照常举行。 assume v. 假定；想当然地认为 常把未经确认的情况当作前提，据此推理或行动；也可以是有意设定的工作假设 assume that; assume for now; assume the worst We assumed the room had Wi-Fi and brought no cables. 我们以为房间里有 Wi-Fi，所以没带线。 guess v. 猜；估计 在信息不足时给出答案或估计；I guess 在口语里也可用来弱化语气 guess the answer; guess how many; I guess so I didn’t know the exact number, so I guessed. 我不知道确切数字，就猜了一个。 常见句型：Let’s assume the data is correct. 用于设定推理前提；I suppose so. 常用于委婉同意；Guess what! 常用于引出消息。 怎么选？易错点在哪？ 设定一个前提再推理或行动，常用 assume；依据常理、线索或规则作出推定，常用 presume；委婉说“我想……”或提出假设，常用 suppose；信息不足只能猜或估，常用 guess。assume 和 presume 在不少语境里可以互换；这四个词没有固定的把握度排名。"
+      }
+    },
+    {
       "id": "sense-credit-01",
       "kind": "多义词",
       "title": "credit",

@@ -28,15 +28,15 @@
   "reviewed_hash_changes": {
     "content/base.html": {
       "before": "e35780c8f9b7df58d94c6e1e1a02cd26f71442d9f090b0d915907cc2d815321c",
-      "after": "c84889b636a9ed4926ebccbe954425d5adb744d728c5c7cfcaf94d0989a1cb4c"
+      "after": "39f0c630f473bdadfd5dc90e868b19275fd5315cd51b63a6853ea439ea22dfc0"
     },
     "content/comparisons.txt": {
       "before": "bb1517ab3048e7be38865bb55924932ea12aa025ffc2993f263443de7a3b24b5",
-      "after": "1a82563007e2091739df28987e409c9dea777446e0404757a8f96c6c66ac291c"
+      "after": "5f99bce7d3dd29830fd6ac35ae0dd9a1e5350105076813ce2dc3c3fdff2d9cc3"
     },
     "content/english-captions.txt": {
       "before": "5d77ef51b0fc64f7ceb2036f224be862b16f1aaa25b3c5f6f4a482e170b66ca4",
-      "after": "2ac9c261dc1c5e2bab7b30905e4695e11b1784357735f817f51883d7b5fd7741"
+      "after": "2836a48592efa3b2b08e8f47f2749a417398b6ba923ff4caf3f357ea54ee7bdc"
     },
     "content/phrases.json": {
       "before": "cf0ce039d4e8a2177406488dad72d5f300489ef0c3403e15381669448f4eec68",
@@ -44,24 +44,24 @@
     },
     "content/selection-notes.txt": {
       "before": "64251a0e460792d044cae37a319c1fadaf11627a34ed14b25882c93390611434",
-      "after": "47e53935b663d34293ef5f6b86e15231c15503b0e444e2330b3b99776f43bd61"
+      "after": "1fce2b09d2f211153d177bc8c41ad6b67e35d07dab5febb3f2d642174409ead3"
     },
     "content/vocabulary.json": {
       "before": "dfc789237049c3a31edf6b207c2045cac9dcb0f3d4ed5a1e1c77d15f3cb432d6",
-      "after": "82940dc48a164daac62961b035e6eef7cb832a371240dfe29f32c46f044f8821"
+      "after": "b8b0e5646643a0f3457efca6d8e96eea403e41869b7c45857400f2dd0f55f398"
     },
     "dist/index.html": {
       "before": "edcb5801128f3051d2824dec961fc9d871a4f22a89185677b5b9f2ec41a8b316",
-      "after": "57e5e69a15aaa32bd2c6d5dd8b5d8e26263c5938bfca3327d3f9e375bc451372"
+      "after": "6a43e5a81f550a81e67889de76f7024542a716de9bf55a4908351192c94bcad0"
     },
     "dist/search-index.json": {
       "before": "5ef7b307be8e0f13949a00ef2e061c8f7f12398374bf8acfe3515bec520fe8ef",
-      "after": "755eea91cfcb751403e15a457e3fe73c48f16409475aafe4c769aa2394358b11",
+      "after": "8aa9e09f7c30acd67904574f6a70ee75690c8a3cd8bc238f448dd3862f1d2cf6",
       "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "dist/vocabulary.json": {
       "before": "56dc3ec41dc41faba71acd29c399587170b1efac83ca8e96460ddea9294494e2",
-      "after": "60ccceea5314e54bd1a186572fcb9bd6229ac5ccf8380b71b60d326a6a0265b8",
+      "after": "86c271d2c5eb38a7d73bd5e064de7ecc8ab0406364cc09de13f87297cbcb370b",
       "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "scripts/audit_baseline.py": {
@@ -70,20 +70,20 @@
     },
     "scripts/verify_migration.py": {
       "before": "3dca9cdf47dae2e7549873e9a4c3053395ef022d62acc4beb014a2d4463aeb64",
-      "after": "9796e4ee51e1858e6cac45b96d8390b50effb01a51cb1c8b41ef1d4a5bf14c22"
+      "after": "3e3ae99d606e8f70c35ad43906714b40833c47e7038170228f7f5308b861d350"
     },
     "scripts/verify_preservation.py": {
       "before": "87bf08cca7cae90bceff017cbd13b662c57963afe58ab67e585e44e6805c1220",
-      "after": "88f9c28ef41c916dc8c074baeda3fafbc83ab32e2dbcca3fbd11d93b72b584cc"
+      "after": "73a5ad3ac42da23c17634b9df677900cc68af660a74b7d0f47348df14dc562e0"
     },
     "migration/reviewed-changes-3.0.json": {
       "before": "e7e6ea5f7abdace38ed0e898dad525d28860187549e81f5c7ba9c8ccbebd9074",
-      "after": "96e9bb5a4da8a2c06086feb6b4a131167455ce22cc83cbef8489badc8ab9822c",
+      "after": "25510131df24767557ef92f8b9a9d07489ac0226d46800fa6c0841dacbd3570c",
       "reason": "Reviewed ledger update for the homepage library index and shared sidebar destinations."
     },
     "migration/ui-content-baseline.json": {
       "before": "3129c3725e879c19499eebd538f7985ad4ddba6a28563471fb79ec37a98095c6",
-      "after": "0bc32293c2fee5a0d798339c80d9c426ae6348000183ba2c16cd03ceee5376b5",
+      "after": "190dc423b72adb702c0e60f66af440dfe253a8a138c24129f6c1527519118af9",
       "reason": "Reviewed screenshot update adds 14 words and restores sore."
     },
     "content/article-dictionary.json": {
