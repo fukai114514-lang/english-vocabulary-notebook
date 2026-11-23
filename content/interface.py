@@ -4,11 +4,31 @@ import re,json,html
 ROOT=Path(__file__).resolve().parents[1]
 e=html.escape
 ICONS={'home':'<path d="m3 10 9-7 9 7v10H3z"/><path d="M9 20v-7h6v7"/>','original':'<path d="M4 6h7M4 12h5M4 18h7M15 6h5M13 12h7M15 18h5"/><path d="m12 8 3-2-3-2M12 16l-3 2 3 2"/>','poly':'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h5M8 16h7"/>','nap':'<path d="M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1zm0 0v15"/>','phrases':'<path d="M4 5h16v12H9l-5 4z"/><path d="M8 9h8M8 13h5"/>','search':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>'}
+ICONS['library'] = '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M12 8h6m-6 4h6m-6 4h6"/>'
+LEARNING_AREAS = (
+ ('Word Knowledge', ('original', 'poly', 'word-families')),
+ ('Language in Use', ('collocations', 'word-patterns', 'phrasal-verbs', 'common-mistakes',
+                      'register-and-tone', 'idioms-and-expressions', 'phrases')),
+ ('Practice & Reading', ('nap', 'pronunciation-lab')),
+)
 def icon(k):return '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+ICONS[k]+'</svg>'
 def themes():return '<select class="theme-picker" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>'
 def shell(current_view):
- links=''.join(f'<a href="index.html#{target}" data-view="{key}"'+(' aria-current="page"' if key==current_view else '')+f'>{icon(key)}<span>{label}</span></a>' for key,target,label in [('home','home','Home'),('original','original-heading','Word Comparisons'),('poly','poly-heading','Word Meanings'),('nap','nap-part','Reading'),('phrases','phrases-heading','Phrases')])
- return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+links+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><label>Appearance'+themes()+'</label></div></aside><div class="topbar"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">Personal library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
+ destinations = (
+  ('home', 'home', 'Home'),
+  ('library', 'library-title', 'Library index'),
+  ('original', 'original-heading', 'Word Comparisons'),
+  ('poly', 'poly-heading', 'Word Meanings'),
+  ('nap', 'nap-part', 'Reading'),
+  ('phrases', 'phrases-heading', 'Phrases'),
+ )
+ links = []
+ for key, target, label in destinations:
+  prefix = '' if key == 'library' and current_view == 'home' else 'index.html'
+  view = '' if key == 'library' else f' data-view="{key}"'
+  current = ' aria-current="page"' if key == current_view else ''
+  links.append(f'<a href="{prefix}#{target}"{view}{current}>{icon(key)}<span>{label}</span></a>')
+ return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+''.join(links)+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><label>Appearance'+themes()+'</label></div></aside><div class="topbar"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">Personal library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
 def search_dialog():return '<dialog id="search-dialog" class="glass" aria-labelledby="search-title"><div class="search-head">'+icon('search')+'<h2 id="search-title" class="sr-only">Search library</h2><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Words, Chinese meanings, articles…" aria-label="Search library" aria-controls="search-results"><button id="search-close" aria-label="Close search">Cancel</button></div><section id="search-results" aria-label="Search results"><p role="status" id="search-status">Search words, examples, and articles</p><div id="search-groups"></div></section><div class="search-foot">↑ ↓ Navigate · Enter Open · Esc Close</div></dialog>'
 def build():
  catalog=json.loads((ROOT/'dist/vocabulary.json').read_text());poly=json.loads((ROOT/'dist/polysemy.json').read_text());articles=[{'id':'nap',**json.loads((ROOT/'content/nap_article.json').read_text())}]+json.loads((ROOT/'content/reading_articles.json').read_text())
@@ -26,24 +46,41 @@ def build():
  p=ROOT/'dist/index.html';page=p.read_text();listing=re.search(r'<section id="list">(.*?)</section><section id="nap-part"',page,re.S)[1]
  from phrases import render as render_phrases
  listing+=render_phrases()
- total_senses=sum(len(x['senses']) for x in poly['entries'])
- phrase_count = len(catalog['parts'][1]['entries'])
- collections = [
-  (1, 'original', 'original-heading', 'Word Comparisons', 'Find the right expression among similar words.',
-   f"{len(catalog['groups'])} comparisons"),
-  (2, 'poly', 'poly-heading', 'Word Meanings', 'Explore common meanings and extended uses.',
-   f"{len(poly['entries'])} words · {total_senses} meanings"),
-  (3, 'nap', 'nap-part', 'Reading', 'Understand language through complete articles.',
-   f"{len(articles)} bilingual articles"),
-  (4, 'phrases', 'phrases-heading', 'Phrases', 'Explore everyday expressions in context.',
-   f"{phrase_count} {'phrase' if phrase_count == 1 else 'phrases'}"),
- ]
- cards = ''.join(
-  f'<a class="collection-card" href="#{target}" data-view="{key}">'
-  f'<span class="part-number">{n:02}</span><h3>{title}</h3>'
-  f'<p>{desc}</p><span class="collection-count">{count}</span></a>'
-  for n, key, target, title, desc, count in collections
- )
+ parts = {}
+ reserved_slugs = {'index', *(a['id'] for a in articles)}
+ for source_path in sorted((ROOT/'content/learning-parts').glob('*.json')):
+  part = json.loads(source_path.read_text())
+  slug = part['id']
+  if slug != source_path.stem or not re.fullmatch(r'[a-z]+(?:-[a-z]+)*', slug):
+   raise ValueError(f'Invalid learning part ID: {source_path.name}')
+  if slug in reserved_slugs:
+   raise ValueError(f'Learning part conflicts with an existing page: {slug}')
+  parts[slug] = part
+
+ existing_collections = {
+  'original': ('original-heading', 'Word Comparisons'),
+  'poly': ('poly-heading', 'Word Meanings'),
+  'nap': ('nap-part', 'Reading'),
+  'phrases': ('phrases-heading', 'Phrases'),
+ }
+ part_areas = {key: area for area, keys in LEARNING_AREAS for key in keys if key not in existing_collections}
+ if parts.keys() != part_areas.keys():
+  raise ValueError('Every learning part needs a library area')
+ collections = []
+ for area, keys in LEARNING_AREAS:
+  links = []
+  for key in keys:
+   if key in existing_collections:
+    target, title = existing_collections[key]
+    attributes = f'href="#{target}" data-view="{key}"'
+   else:
+    title = parts[key]['title']
+    attributes = f'href="{key}.html"'
+   links.append(f'<li><a {attributes}>{e(title)}</a></li>')
+  collections.append(
+   f'<section class="collection-group"><h3 class="eyebrow">{e(area)}</h3>'
+   '<ul class="collection-links" role="list">' + ''.join(links) + '</ul></section>'
+  )
  reading_links=[f'<a class="reading-link" href="{a["id"]}.html"><span class="reading-number">{n:02}</span><span><strong lang="en">{e(a["title"])}</strong><small>{e(a.get("titleZh","Reading"))} · {len(a["paragraphs"])} paragraphs</small></span><span aria-hidden="true">↗</span></a>' for n,a in enumerate(articles,1)]
  latest=''.join(f'<a href="#{g["id"]}"><span>{e(" / ".join(w["lemma"] for w in catalog["words"] if w["id"] in g["wordIds"]))}</span><span aria-hidden="true">›</span></a>' for g in catalog['groups'][-4:][::-1])
  body = (
@@ -54,7 +91,7 @@ def build():
   '<button type="button" class="home-search" data-search>'+icon('search')+
   '<span>Search library</span><kbd>⌘ K</kbd></button></div></header>'
   '<section aria-labelledby="library-title"><div class="section-title"><h2 id="library-title">Library index</h2>'
-  f'<span>{len(collections)} collections</span></div><div class="collections">{cards}</div></section>'
+  '</div><div class="collections">'+''.join(collections)+'</div></section>'
   '<div class="home-bottom"><section><div class="section-title"><h2>Recently added comparisons</h2>'
   '<a href="#original-heading" data-view="original">View all</a></div><div class="recent-list">'+latest+
   '</div></section><section><div class="section-title"><h2>Featured reading</h2></div>'+
@@ -70,22 +107,19 @@ def build():
   body='<div class="reader-tools">'+body.replace('<p id="reader-status"',jump+'</div><p id="reader-status"',1)
   context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))
- for source_path in sorted((ROOT/'content/learning-parts').glob('*.json')):
-  part = json.loads(source_path.read_text())
-  slug = part['id']
-  if slug != source_path.stem or not re.fullmatch(r'[a-z]+(?:-[a-z]+)*', slug):
-   raise ValueError(f'Invalid learning part ID: {source_path.name}')
-  output = ROOT/'dist'/f'{slug}.html'
-  if slug in {'index', *(a['id'] for a in articles)}:
-   raise ValueError(f'Learning part conflicts with an existing page: {slug}')
+ for slug, part in parts.items():
   body = (
-   '<a class="back-link" href="index.html#home">Back to library</a>'
-   '<header class="page-header"><h1>'+e(part['title'])+'</h1>'
-   '<p>'+e(part['description'])+'</p></header>'
-   '<p><strong>No entries yet.</strong></p>'
+   '<article class="learning-part">'
+   '<a class="back-link" href="index.html#library-title">Back to library</a>'
+   '<header class="learning-part-header">'
+   '<p class="eyebrow">'+e(part_areas[slug])+'</p>'
+   '<h1>'+e(part['title'])+'</h1><p class="learning-part-intro">'+e(part['description'])+'</p>'
+   '</header><section class="learning-part-empty" aria-labelledby="empty-title">'
+   '<h2 id="empty-title">No entries yet.</h2>'
    '<p>This section is ready for future additions.</p>'
+   '</section></article>'
   )
-  output.write_text(document(part['title'], body, part_description=part['description']))
+  (ROOT/'dist'/f'{slug}.html').write_text(document(part['title'], body, part_description=part['description']))
  # Bundle shared audio before the two page adapters while retaining versioned URLs.
  shared = ['speech.js', 'practice-recording.js', 'practice.js', 'interface.js']
  source = '\n'.join((ROOT/'content'/name).read_text() for name in shared)

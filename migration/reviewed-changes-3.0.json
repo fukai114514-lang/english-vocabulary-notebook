@@ -20,8 +20,8 @@
     "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
   },
   "dist/index.html": {
-    "sha256": "c26a13e4530a0041a0f3275df4b2dde09383b768ab00539aee5f6ed63ac8c6ff",
-    "reason": "Reviewed Swiss homepage and shared shell. The entire reference and reading directory fragment is byte-identical to 3449cd43. All previous IDs, generated data and learning records are preserved."
+    "sha256": "151946eef00b76fd66fc31edef6bc810d3e33e7ec483fb9de9e96f945b139b5f",
+    "reason": "Reviewed Phase 03 library index and shared navigation. All other homepage markup apart from cache keys, including the existing reference and reading directory, is byte-identical to ed6c5a06."
   },
   "dist/polysemy.json": {
     "sha256": "5e9f12f181ad72e7a12ccbea9b765dc400082bd05db4f74b65dc9b8969c3aa6b",

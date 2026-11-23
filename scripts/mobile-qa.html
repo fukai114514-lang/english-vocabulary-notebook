@@ -41,7 +41,7 @@ run.onclick=async()=>{
    const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:sidebar.right<=search.left};results.push(row);
    check(`${viewport}/${mode}/${url}: no page overflow`,root.scrollWidth<=root.clientWidth);
    check(`${viewport}/${mode}/${url}: navigation targets`,row.minTarget>=44);
-   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0&&links.length===5);
+   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0&&links.length===6&&links.some(a=>a.hash==='#library-title'));
    check('one navigation region',d.querySelectorAll('.primary-nav').length===1);
    check('accessible destinations',links.every(link=>!!link.getAttribute('aria-label'))&&links.filter(link=>link.getAttribute('aria-current')==='page').length===1);
    check('left rail stays outside content',sidebar.left===0&&sidebar.right<=d.querySelector('main').getBoundingClientRect().left+1);
