@@ -63,51 +63,36 @@
   const status = element('p', 'practice-status');
   status.setAttribute('role', 'status');
   const availability = element('p', 'practice-availability');
-  const media = window.createPracticeRecording(window, audio, panel, render);
 
   let active;
-  let phase = 'idle';
   let listened = false;
   function speaking() {
     listened = true;
     audio.play(panel, active.sentences[sentencePicker.select.selectedIndex], {
-      onState: (state, message) => render(state === 'playing' ? 'speaking' : 'idle', message),
+      onState: (state, message) => render(state === 'playing', message),
     });
   }
 
   const listen = button('Listen', speaking);
   const repeat = button('Repeat', speaking);
-  const record = button('Record', media.record);
-  const stop = button('Stop', () => {
-    if (phase === 'recording') media.stopRecording();
-    else audio.stop(panel);
-  });
-  const playback = button('Playback', media.playback);
+  const stop = button('Stop', () => audio.stop(panel));
   listen.setAttribute('aria-label', 'Listen to the sentence');
   repeat.setAttribute('aria-label', 'Repeat the sentence');
-  record.setAttribute('aria-label', 'Record your voice');
-  stop.setAttribute('aria-label', 'Stop audio or recording');
-  playback.setAttribute('aria-label', 'Playback your recording');
-  actions.append(listen, repeat, record, stop, playback);
+  stop.setAttribute('aria-label', 'Stop reading aloud');
+  actions.append(listen, repeat, stop);
   panel.append(sentencePicker.wrap, quote, actions, settings, status, availability);
 
-  function render(next, message) {
-    phase = next;
-    const recording = phase === 'requesting' || phase === 'recording' || phase === 'saving';
-    const enabled = [
-      [listen, audio.supported && !recording],
-      [repeat, audio.supported && listened && !recording],
-      [record, media.supported && !recording],
-      [stop, phase !== 'idle' && phase !== 'saving'],
-      [playback, media.hasClip() && !recording],
-    ];
-    for (const [control, allow] of enabled) control.setAttribute('aria-disabled', String(!allow));
+  function render(playing, message) {
+    listen.setAttribute('aria-disabled', String(!audio.supported));
+    repeat.setAttribute('aria-disabled', String(!audio.supported || !listened));
+    stop.setAttribute('aria-disabled', String(!playing));
     status.textContent = message;
   }
 
   function chooseSentence() {
     listened = false;
-    media.clear();
+    audio.stop(panel);
+    render(false, '');
     quote.textContent = active.sentences[sentencePicker.select.selectedIndex];
   }
 
@@ -120,7 +105,7 @@
     if (!active) return;
     active.trigger.setAttribute('aria-expanded', 'false');
     active.trigger.removeAttribute('aria-controls');
-    media.clear();
+    audio.stop(panel);
     panel.remove();
     active = undefined;
   }
@@ -138,11 +123,8 @@
     accent.select.value = audio.getAccent();
     rate.select.value = String(audio.getRate());
     settings.hidden = !audio.supported;
-    availability.textContent = [
-      audio.supported ? '' : 'Read aloud is unavailable in this browser.',
-      media.supported ? '' : 'Recording is unavailable. Use a supported browser over HTTPS or localhost.',
-    ].filter(Boolean).join(' ');
-    availability.hidden = !availability.textContent;
+    availability.textContent = audio.supported ? '' : 'Read aloud is unavailable in this browser.';
+    availability.hidden = audio.supported;
     chooseSentence();
     trigger.setAttribute('aria-expanded', 'true');
     trigger.setAttribute('aria-controls', panel.id);

@@ -3,12 +3,18 @@
  const $=s=>document.querySelector(s),root=document.documentElement;
  const pickers=[...document.querySelectorAll('.theme-picker')];
  pickers.forEach(p=>{p.value=root.dataset.theme||'system';p.addEventListener('change',()=>{root.dataset.theme=p.value;pickers.forEach(o=>o.value=p.value);try{localStorage.setItem('vocab.theme',p.value)}catch{}})});
- const reader=!!$('#reader'),positions=new Map();let current='home';
+ const indexPage=!!$('#home'),positions=new Map();let current='home';
  const items=[...document.querySelectorAll('#list>details')],keys={home:'home',original:'original-heading',poly:'poly-heading',nap:'nap-part',phrases:'phrases-heading',all:'list'};
  function viewFor(id){if(id==='list')return'all';if(id.startsWith('phrase-')||id==='phrases-heading')return'phrases';if(id.startsWith('group-')||id==='original-heading')return'original';if(id.startsWith('sense-')||id.startsWith('poly-'))return'poly';return id==='nap-part'?'nap':'home'}
  function show(view,{restore=true,historyMode='push'}={}){
-  if(reader)return;
-  if(view===current&&historyMode==='push')return;
+  if(!indexPage)return;
+  if(view===current&&historyMode==='push'){
+   if(view==='home'&&location.hash==='#library-title'){
+    history.pushState({view},'','#'+keys.home);
+    window.scrollTo({top:0,behavior:'instant'});
+   }
+   return;
+  }
   document.dispatchEvent(new Event('notebook:navigate'));
   positions.set(current,scrollY);current=view;
   $('#home').hidden=view!=='home';$('#reference').hidden=!['all','original','poly','phrases'].includes(view);$('#nap-part').hidden=view!=='nap';
@@ -20,7 +26,7 @@
   if(historyMode==='push')history.pushState({view},'','#'+keys[view]);
   if(restore)window.scrollTo({top:positions.get(view)||0,behavior:'instant'});
  }
- function reveal(id){if(reader)return;show(viewFor(id),{restore:false,historyMode:'none'});const target=document.getElementById(id);if(!target)return;for(let n=target;n;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;if(!Object.values(keys).includes(id)){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}))}}
+ function reveal(id){if(!indexPage)return;show(viewFor(id),{restore:false,historyMode:'none'});const target=document.getElementById(id);if(!target)return;for(let n=target;n;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;if(!Object.values(keys).includes(id)){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}))}}
  // The dictionary and Spotlight use the same search index within a page.
  let indexRequest;
  function loadSearchIndex(){
@@ -36,8 +42,20 @@
   return indexRequest;
  }
  window.notebook={show,reveal,viewFor,loadSearchIndex};
- if(!reader){document.addEventListener('click',ev=>{const a=ev.target.closest('[data-view]');if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();show(a.dataset.view)});$('#expand').onclick=()=>items.filter(d=>!d.hidden).forEach(d=>d.open=true);$('#collapse').onclick=()=>items.forEach(d=>d.open=false);
- const route=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(id==='main')return;if(!id||Object.values(keys).includes(id)){show(viewFor(id||'home'),{restore:true,historyMode:'none'})}else reveal(id)};
+ if(indexPage){document.addEventListener('click',ev=>{const a=ev.target.closest('[data-view]');if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();show(a.dataset.view)});$('#expand').onclick=()=>items.filter(d=>!d.hidden).forEach(d=>d.open=true);$('#collapse').onclick=()=>items.forEach(d=>d.open=false);
+ const route=event=>{
+  let id;
+  try{id=decodeURIComponent(location.hash.slice(1))}catch{return}
+  if(id==='main')return;
+  if(id==='home'&&event?.oldURL.endsWith('#library-title')){
+   show('home',{restore:false,historyMode:'none'});
+   requestAnimationFrame(()=>{
+    if(location.hash==='#home')window.scrollTo({top:0,behavior:'instant'});
+   });
+  }else if(!id||Object.values(keys).includes(id)){
+   show(viewFor(id||'home'),{restore:true,historyMode:'none'});
+  }else reveal(id);
+ };
  // pushState navigation does not emit hashchange; native Back/Forward does.
  // One handler avoids saving the destination position twice.
  history.scrollRestoration='manual';addEventListener('hashchange',route);route();}
@@ -64,6 +82,9 @@
  setNavigationExpanded(false);
  navToggle.onclick=()=>setNavigationExpanded(navToggle.getAttribute('aria-expanded')!=='true');
  nav.before(navToggle);
+ nav.addEventListener('click', event=>{
+  if(event.target.closest('a')&&matchMedia('(max-width:639px)').matches)setNavigationExpanded(false);
+ });
  // Reuse table cells verbatim. Only presentation labels and a view control are added.
  for(const scroller of document.querySelectorAll('.table-scroll')){
   const table=scroller.querySelector('table');if(!table)continue;
@@ -101,5 +122,6 @@
  window.addEventListener('resize',updateInsets);
  updateInsets();
 
- if(reader)$('#paragraph-jump').onchange=ev=>{if(ev.target.value)location.hash=ev.target.value};
+ const paragraphJump=$('#paragraph-jump');
+ if(paragraphJump)paragraphJump.onchange=ev=>{if(ev.target.value)location.hash=ev.target.value};
 })();

@@ -24,7 +24,9 @@ MEASURE = """() => {
   }).map(([key,s]) => [key,rect($(s))]));
   const controls = [...document.querySelectorAll('.sidebar a,.sidebar button,.sidebar select,.topbar a,.topbar select,.topbar button,#home a,#home button')].filter(el => el.offsetWidth);
   return {...boxes, titleFont:parseFloat(getComputedStyle($('.home-header h1')).fontSize),
-    cards:[...document.querySelectorAll('.collection-card')].map(rect),
+    groups:[...document.querySelectorAll('.collection-group')].map(rect),
+    targets:[...document.querySelectorAll('.collection-links a')].map(a => a.getAttribute('href')),
+    linksFit:[...document.querySelectorAll('.collection-links a')].every(a => a.scrollWidth <= a.clientWidth),
     smallTargets:controls.filter(el => el.offsetWidth < 44 || el.offsetHeight < 44).map(el => el.className || el.textContent.trim()),
     navMin:Math.min(...[...document.querySelectorAll('.primary-nav a')].flatMap(el => [el.offsetWidth,el.offsetHeight])),
     overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth, pageHeight:document.documentElement.scrollHeight,
@@ -65,14 +67,20 @@ def main():
                 assert data['theme'] == theme and data['scrollY'] == 0
                 if args.verify:
                     assert data['overflow'] == 0 and not data['smallTargets'], (w, h, data)
-                    assert len(data['cards']) == 4 and data['navMin'] >= 44
+                    assert data['navMin'] >= 44 and data['linksFit']
+                    assert data['targets'] == [
+                        '#original-heading', '#poly-heading', 'word-families.html',
+                        'collocations.html', 'word-patterns.html', 'phrasal-verbs.html',
+                        'common-mistakes.html', 'register-and-tone.html', 'idioms-and-expressions.html',
+                        '#phrases-heading', '#nap-part', 'pronunciation-lab.html',
+                    ]
                     grid = data['grid']
                     for key in ['title', 'barLabel', 'lower']:
                         assert abs(data[key]['x'] - grid['x']) < 1, (w, key)
-                    # The two headline lines and single-column index persist at every size.
+                    # The two headline lines and full-width group separators persist at every size.
                     assert 1.8 < data['title']['height'] / data['titleFont'] < 2.15, w
                     assert all(abs(row['x'] - grid['x']) < 1
-                               and abs(row['width'] - grid['width']) < 1 for row in data['cards'])
+                               and abs(row['width'] - grid['width']) < 1 for row in data['groups'])
                     assert abs(data['intro']['x'] - data['search']['x']) < 1
                     if grid['width'] >= 576:
                         assert data['intro']['x'] >= data['title']['x'] + data['title']['width']

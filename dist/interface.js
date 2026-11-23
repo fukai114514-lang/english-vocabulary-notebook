@@ -33,7 +33,7 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
     if (active && container.contains(active.owner)) stop();
   }
 
-  // Speech, microphone capture, and recorded audio share one active operation.
+  // Keep one active utterance across word and sentence controls.
   function claim(owner, interrupt) {
     stop();
     const task = { owner, interrupt };
@@ -164,144 +164,6 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
 (() => {
   'use strict';
 
-  function createPracticeRecording(environment, audio, owner, update) {
-    const devices = environment.navigator.mediaDevices;
-    const supported = typeof environment.MediaRecorder === 'function' &&
-      typeof devices?.getUserMedia === 'function';
-    let capture;
-    let clip;
-
-    function releaseStream(stream) {
-      stream?.getTracks().forEach(track => track.stop());
-    }
-
-    function releaseCapture(session, cancel) {
-      capture = null;
-      const { recorder, stream } = session;
-      if (recorder) {
-        recorder.ondataavailable = recorder.onstop = recorder.onerror = null;
-        if (cancel && recorder.state !== 'inactive') {
-          try { recorder.stop(); } catch {}
-        }
-      }
-      releaseStream(stream);
-      session.chunks.length = 0;
-    }
-
-    function recordError(error) {
-      if (error?.name === 'NotAllowedError' || error?.name === 'SecurityError') {
-        return 'Microphone access was denied. Allow it in your browser’s site settings and try again.';
-      }
-      if (error?.name === 'NotFoundError') return 'No microphone was found.';
-      return 'Could not record audio. Check your microphone and try again.';
-    }
-
-    async function record() {
-      if (!supported) return;
-      const session = { chunks: [] };
-      const job = audio.claim(owner, () => {
-        releaseCapture(session, true);
-        update('idle', 'Recording canceled.');
-      });
-      capture = session;
-      session.fail = error => {
-        if (!job.finish()) return;
-        releaseCapture(session, true);
-        update('idle', recordError(error));
-      };
-      update('requesting', 'Waiting for microphone permission…');
-      try {
-        const stream = await devices.getUserMedia({ audio: true });
-        if (!job.isCurrent()) {
-          releaseStream(stream);
-          return;
-        }
-        session.stream = stream;
-        const recorder = new environment.MediaRecorder(stream);
-        session.recorder = recorder;
-        recorder.ondataavailable = ({ data }) => {
-          if (job.isCurrent() && data.size) session.chunks.push(data);
-        };
-        recorder.onstop = () => {
-          if (!job.finish()) return;
-          const chunks = session.chunks;
-          const blob = new environment.Blob(chunks, { type: recorder.mimeType || chunks[0]?.type || '' });
-          releaseCapture(session, false);
-          if (blob.size) clip = blob;
-          update('idle', blob.size ? 'Recording ready. Tap Playback to hear it.' : 'No audio was captured. Try recording again.');
-        };
-        recorder.onerror = event => session.fail(event.error);
-        recorder.start();
-        update('recording', 'Recording… Tap Stop when finished.');
-      } catch (error) {
-        session.fail(error);
-      }
-    }
-
-    function stopRecording() {
-      if (!capture?.recorder) {
-        audio.stop(owner);
-        return;
-      }
-      const { recorder, fail } = capture;
-      update('saving', 'Preparing your recording…');
-      // The final dataavailable event precedes stop. Release the stream when it arrives.
-      try { recorder.stop(); } catch (error) { fail(error); }
-    }
-
-    function playback() {
-      if (!clip) return;
-      let url;
-      let player;
-      const cleanup = () => {
-        if (player) {
-          player.onended = player.onerror = null;
-          player.pause();
-          player.removeAttribute('src');
-          player.load();
-        }
-        if (url) environment.URL.revokeObjectURL(url);
-      };
-      const job = audio.claim(owner, () => {
-        cleanup();
-        update('idle', 'Playback stopped.');
-      });
-      const complete = message => {
-        if (!job.finish()) return;
-        cleanup();
-        update('idle', message);
-      };
-      const failed = () => complete('Could not play the recording. Try Playback again.');
-      try {
-        url = environment.URL.createObjectURL(clip);
-        player = new environment.Audio(url);
-        player.onended = () => complete('Playback finished.');
-        player.onerror = failed;
-        update('playback', 'Playing your recording…');
-        player.play().catch(failed);
-      } catch {
-        failed();
-      }
-    }
-
-    return {
-      supported, record, stopRecording, playback,
-      hasClip: () => !!clip,
-      clear() {
-        audio.stop(owner);
-        clip = null;
-        update('idle', '');
-      },
-    };
-  }
-
-  if (typeof module === 'object' && module.exports) module.exports = createPracticeRecording;
-  else window.createPracticeRecording = createPracticeRecording;
-})();
-
-(() => {
-  'use strict';
-
   const audio = window.notebookSpeech;
   const list = document.querySelector('#list');
   const paragraphs = document.querySelectorAll('#nap-text .nap-paragraph, .reading-text .nap-paragraph');
@@ -364,51 +226,36 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
   const status = element('p', 'practice-status');
   status.setAttribute('role', 'status');
   const availability = element('p', 'practice-availability');
-  const media = window.createPracticeRecording(window, audio, panel, render);
 
   let active;
-  let phase = 'idle';
   let listened = false;
   function speaking() {
     listened = true;
     audio.play(panel, active.sentences[sentencePicker.select.selectedIndex], {
-      onState: (state, message) => render(state === 'playing' ? 'speaking' : 'idle', message),
+      onState: (state, message) => render(state === 'playing', message),
     });
   }
 
   const listen = button('Listen', speaking);
   const repeat = button('Repeat', speaking);
-  const record = button('Record', media.record);
-  const stop = button('Stop', () => {
-    if (phase === 'recording') media.stopRecording();
-    else audio.stop(panel);
-  });
-  const playback = button('Playback', media.playback);
+  const stop = button('Stop', () => audio.stop(panel));
   listen.setAttribute('aria-label', 'Listen to the sentence');
   repeat.setAttribute('aria-label', 'Repeat the sentence');
-  record.setAttribute('aria-label', 'Record your voice');
-  stop.setAttribute('aria-label', 'Stop audio or recording');
-  playback.setAttribute('aria-label', 'Playback your recording');
-  actions.append(listen, repeat, record, stop, playback);
+  stop.setAttribute('aria-label', 'Stop reading aloud');
+  actions.append(listen, repeat, stop);
   panel.append(sentencePicker.wrap, quote, actions, settings, status, availability);
 
-  function render(next, message) {
-    phase = next;
-    const recording = phase === 'requesting' || phase === 'recording' || phase === 'saving';
-    const enabled = [
-      [listen, audio.supported && !recording],
-      [repeat, audio.supported && listened && !recording],
-      [record, media.supported && !recording],
-      [stop, phase !== 'idle' && phase !== 'saving'],
-      [playback, media.hasClip() && !recording],
-    ];
-    for (const [control, allow] of enabled) control.setAttribute('aria-disabled', String(!allow));
+  function render(playing, message) {
+    listen.setAttribute('aria-disabled', String(!audio.supported));
+    repeat.setAttribute('aria-disabled', String(!audio.supported || !listened));
+    stop.setAttribute('aria-disabled', String(!playing));
     status.textContent = message;
   }
 
   function chooseSentence() {
     listened = false;
-    media.clear();
+    audio.stop(panel);
+    render(false, '');
     quote.textContent = active.sentences[sentencePicker.select.selectedIndex];
   }
 
@@ -421,7 +268,7 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
     if (!active) return;
     active.trigger.setAttribute('aria-expanded', 'false');
     active.trigger.removeAttribute('aria-controls');
-    media.clear();
+    audio.stop(panel);
     panel.remove();
     active = undefined;
   }
@@ -439,11 +286,8 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
     accent.select.value = audio.getAccent();
     rate.select.value = String(audio.getRate());
     settings.hidden = !audio.supported;
-    availability.textContent = [
-      audio.supported ? '' : 'Read aloud is unavailable in this browser.',
-      media.supported ? '' : 'Recording is unavailable. Use a supported browser over HTTPS or localhost.',
-    ].filter(Boolean).join(' ');
-    availability.hidden = !availability.textContent;
+    availability.textContent = audio.supported ? '' : 'Read aloud is unavailable in this browser.';
+    availability.hidden = audio.supported;
     chooseSentence();
     trigger.setAttribute('aria-expanded', 'true');
     trigger.setAttribute('aria-controls', panel.id);
@@ -498,12 +342,18 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
  const $=s=>document.querySelector(s),root=document.documentElement;
  const pickers=[...document.querySelectorAll('.theme-picker')];
  pickers.forEach(p=>{p.value=root.dataset.theme||'system';p.addEventListener('change',()=>{root.dataset.theme=p.value;pickers.forEach(o=>o.value=p.value);try{localStorage.setItem('vocab.theme',p.value)}catch{}})});
- const reader=!!$('#reader'),positions=new Map();let current='home';
+ const indexPage=!!$('#home'),positions=new Map();let current='home';
  const items=[...document.querySelectorAll('#list>details')],keys={home:'home',original:'original-heading',poly:'poly-heading',nap:'nap-part',phrases:'phrases-heading',all:'list'};
  function viewFor(id){if(id==='list')return'all';if(id.startsWith('phrase-')||id==='phrases-heading')return'phrases';if(id.startsWith('group-')||id==='original-heading')return'original';if(id.startsWith('sense-')||id.startsWith('poly-'))return'poly';return id==='nap-part'?'nap':'home'}
  function show(view,{restore=true,historyMode='push'}={}){
-  if(reader)return;
-  if(view===current&&historyMode==='push')return;
+  if(!indexPage)return;
+  if(view===current&&historyMode==='push'){
+   if(view==='home'&&location.hash==='#library-title'){
+    history.pushState({view},'','#'+keys.home);
+    window.scrollTo({top:0,behavior:'instant'});
+   }
+   return;
+  }
   document.dispatchEvent(new Event('notebook:navigate'));
   positions.set(current,scrollY);current=view;
   $('#home').hidden=view!=='home';$('#reference').hidden=!['all','original','poly','phrases'].includes(view);$('#nap-part').hidden=view!=='nap';
@@ -515,7 +365,7 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
   if(historyMode==='push')history.pushState({view},'','#'+keys[view]);
   if(restore)window.scrollTo({top:positions.get(view)||0,behavior:'instant'});
  }
- function reveal(id){if(reader)return;show(viewFor(id),{restore:false,historyMode:'none'});const target=document.getElementById(id);if(!target)return;for(let n=target;n;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;if(!Object.values(keys).includes(id)){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}))}}
+ function reveal(id){if(!indexPage)return;show(viewFor(id),{restore:false,historyMode:'none'});const target=document.getElementById(id);if(!target)return;for(let n=target;n;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;if(!Object.values(keys).includes(id)){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}))}}
  // The dictionary and Spotlight use the same search index within a page.
  let indexRequest;
  function loadSearchIndex(){
@@ -531,8 +381,20 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
   return indexRequest;
  }
  window.notebook={show,reveal,viewFor,loadSearchIndex};
- if(!reader){document.addEventListener('click',ev=>{const a=ev.target.closest('[data-view]');if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();show(a.dataset.view)});$('#expand').onclick=()=>items.filter(d=>!d.hidden).forEach(d=>d.open=true);$('#collapse').onclick=()=>items.forEach(d=>d.open=false);
- const route=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(id==='main')return;if(!id||Object.values(keys).includes(id)){show(viewFor(id||'home'),{restore:true,historyMode:'none'})}else reveal(id)};
+ if(indexPage){document.addEventListener('click',ev=>{const a=ev.target.closest('[data-view]');if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();show(a.dataset.view)});$('#expand').onclick=()=>items.filter(d=>!d.hidden).forEach(d=>d.open=true);$('#collapse').onclick=()=>items.forEach(d=>d.open=false);
+ const route=event=>{
+  let id;
+  try{id=decodeURIComponent(location.hash.slice(1))}catch{return}
+  if(id==='main')return;
+  if(id==='home'&&event?.oldURL.endsWith('#library-title')){
+   show('home',{restore:false,historyMode:'none'});
+   requestAnimationFrame(()=>{
+    if(location.hash==='#home')window.scrollTo({top:0,behavior:'instant'});
+   });
+  }else if(!id||Object.values(keys).includes(id)){
+   show(viewFor(id||'home'),{restore:true,historyMode:'none'});
+  }else reveal(id);
+ };
  // pushState navigation does not emit hashchange; native Back/Forward does.
  // One handler avoids saving the destination position twice.
  history.scrollRestoration='manual';addEventListener('hashchange',route);route();}
@@ -559,6 +421,9 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
  setNavigationExpanded(false);
  navToggle.onclick=()=>setNavigationExpanded(navToggle.getAttribute('aria-expanded')!=='true');
  nav.before(navToggle);
+ nav.addEventListener('click', event=>{
+  if(event.target.closest('a')&&matchMedia('(max-width:639px)').matches)setNavigationExpanded(false);
+ });
  // Reuse table cells verbatim. Only presentation labels and a view control are added.
  for(const scroller of document.querySelectorAll('.table-scroll')){
   const table=scroller.querySelector('table');if(!table)continue;
@@ -596,5 +461,6 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
  window.addEventListener('resize',updateInsets);
  updateInsets();
 
- if(reader)$('#paragraph-jump').onchange=ev=>{if(ev.target.value)location.hash=ev.target.value};
+ const paragraphJump=$('#paragraph-jump');
+ if(paragraphJump)paragraphJump.onchange=ev=>{if(ev.target.value)location.hash=ev.target.value};
 })();
