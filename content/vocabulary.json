@@ -8953,6 +8953,88 @@
       ],
       "selectionNote": "symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。",
       "reviewStatus": "reviewed"
+    },
+    {
+      "id": "group-171",
+      "number": 171,
+      "wordIds": [
+        "word-190ab894c1cba955",
+        "word-b241cdb850732316",
+        "word-82e05dae00a818a3",
+        "word-f1abe1b083d12d18"
+      ],
+      "entries": [
+        {
+          "wordId": "word-190ab894c1cba955",
+          "meaningZh": "v. 想；猜想；假设",
+          "definitionEn": "To think something is probably true, or to consider a situation as a possibility.",
+          "scenario": "I suppose 常用来委婉表达看法或勉强同意；Suppose … 可引出假设",
+          "collocations": [
+            "I suppose so",
+            "suppose that",
+            "suppose for a moment"
+          ],
+          "examples": [
+            {
+              "en": "I suppose we could take the earlier train.",
+              "zh": "我想我们可以坐早一点的那班火车。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-b241cdb850732316",
+          "meaningZh": "v. 推定；认为很可能",
+          "definitionEn": "To take something as probably true based on what seems reasonable or on an established rule.",
+          "scenario": "常根据常理、间接线索或既有规则推定；语气常比 guess 正式",
+          "collocations": [
+            "presume that",
+            "presume someone to be",
+            "be presumed innocent"
+          ],
+          "examples": [
+            {
+              "en": "I presumed the event was still on, since nobody had announced a cancellation.",
+              "zh": "既然没人宣布取消，我就推断活动会照常举行。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-82e05dae00a818a3",
+          "meaningZh": "v. 假定；想当然地认为",
+          "definitionEn": "To accept something as true without confirming it, often as a basis for thinking or acting.",
+          "scenario": "常把未经确认的情况当作前提，据此推理或行动；也可以是有意设定的工作假设",
+          "collocations": [
+            "assume that",
+            "assume for now",
+            "assume the worst"
+          ],
+          "examples": [
+            {
+              "en": "We assumed the room had Wi-Fi and brought no cables.",
+              "zh": "我们以为房间里有 Wi-Fi，所以没带线。"
+            }
+          ]
+        },
+        {
+          "wordId": "word-f1abe1b083d12d18",
+          "meaningZh": "v. 猜；估计",
+          "definitionEn": "To give an answer or estimate without knowing it for sure.",
+          "scenario": "在信息不足时给出答案或估计；I guess 在口语里也可用来弱化语气",
+          "collocations": [
+            "guess the answer",
+            "guess how many",
+            "I guess so"
+          ],
+          "examples": [
+            {
+              "en": "I didn’t know the exact number, so I guessed.",
+              "zh": "我不知道确切数字，就猜了一个。"
+            }
+          ]
+        }
+      ],
+      "selectionNote": "设定一个前提再推理或行动，常用 assume；依据常理、线索或规则作出推定，常用 presume；委婉说“我想……”或提出假设，常用 suppose；信息不足只能猜或估，常用 guess。assume 和 presume 在不少语境里可以互换；这四个词没有固定的把握度排名。",
+      "reviewStatus": "reviewed"
     }
   ],
   "words": [
@@ -23176,6 +23258,111 @@
       ],
       "correctUsage": "We discussed the article in our weekly seminar.",
       "commonMistakes": "symposium 通常偏正式的专题学术交流，常有多位专家报告；seminar 既可指大学研讨课，也可指专业研讨或培训活动。两者都可有演讲和讨论，不能绝对按人数、规模或互动程度划分。symposium 的复数可用 symposia 或 symposiums；seminar 的复数是 seminars。"
+    },
+    {
+      "id": "word-b241cdb850732316",
+      "lemma": "presume",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-171"
+      ],
+      "source": "Recent English discussion, 2026-11-23",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 推定；认为很可能",
+      "definitionEn": "To take something as probably true based on what seems reasonable or on an established rule.",
+      "scenario": "常根据常理、间接线索或既有规则推定；语气常比 guess 正式",
+      "collocations": [
+        "presume that",
+        "presume someone to be",
+        "be presumed innocent"
+      ],
+      "examples": [
+        {
+          "en": "I presumed the event was still on, since nobody had announced a cancellation.",
+          "zh": "既然没人宣布取消，我就推断活动会照常举行。"
+        }
+      ],
+      "correctUsage": "I presumed the event was still on, since nobody had announced a cancellation.",
+      "commonMistakes": "设定一个前提再推理或行动，常用 assume；依据常理、线索或规则作出推定，常用 presume；委婉说“我想……”或提出假设，常用 suppose；信息不足只能猜或估，常用 guess。assume 和 presume 在不少语境里可以互换；这四个词没有固定的把握度排名。"
+    },
+    {
+      "id": "word-82e05dae00a818a3",
+      "lemma": "assume",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-171"
+      ],
+      "source": "Recent English discussion, 2026-11-23",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 假定；想当然地认为",
+      "definitionEn": "To accept something as true without confirming it, often as a basis for thinking or acting.",
+      "scenario": "常把未经确认的情况当作前提，据此推理或行动；也可以是有意设定的工作假设",
+      "collocations": [
+        "assume that",
+        "assume for now",
+        "assume the worst"
+      ],
+      "examples": [
+        {
+          "en": "We assumed the room had Wi-Fi and brought no cables.",
+          "zh": "我们以为房间里有 Wi-Fi，所以没带线。"
+        }
+      ],
+      "correctUsage": "We assumed the room had Wi-Fi and brought no cables.",
+      "commonMistakes": "设定一个前提再推理或行动，常用 assume；依据常理、线索或规则作出推定，常用 presume；委婉说“我想……”或提出假设，常用 suppose；信息不足只能猜或估，常用 guess。assume 和 presume 在不少语境里可以互换；这四个词没有固定的把握度排名。"
+    },
+    {
+      "id": "word-f1abe1b083d12d18",
+      "lemma": "guess",
+      "explanationEn": "",
+      "ipa": {
+        "us": null,
+        "uk": null
+      },
+      "derivatives": [],
+      "relatedWords": [],
+      "cet4Tags": [],
+      "difficulty": "unrated",
+      "groupIds": [
+        "group-171"
+      ],
+      "source": "Recent English discussion, 2026-11-23",
+      "reviewStatus": "reviewed",
+      "partOfSpeech": "v.",
+      "meaningZh": "v. 猜；估计",
+      "definitionEn": "To give an answer or estimate without knowing it for sure.",
+      "scenario": "在信息不足时给出答案或估计；I guess 在口语里也可用来弱化语气",
+      "collocations": [
+        "guess the answer",
+        "guess how many",
+        "I guess so"
+      ],
+      "examples": [
+        {
+          "en": "I didn’t know the exact number, so I guessed.",
+          "zh": "我不知道确切数字，就猜了一个。"
+        }
+      ],
+      "correctUsage": "I didn’t know the exact number, so I guessed.",
+      "commonMistakes": "设定一个前提再推理或行动，常用 assume；依据常理、线索或规则作出推定，常用 presume；委婉说“我想……”或提出假设，常用 suppose；信息不足只能猜或估，常用 guess。assume 和 presume 在不少语境里可以互换；这四个词没有固定的把握度排名。"
     }
   ],
   "contentAudit": {

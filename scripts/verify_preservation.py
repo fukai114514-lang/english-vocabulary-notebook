@@ -20,10 +20,10 @@ def verify():
  extended['selectionNote']=original['selectionNote']
  assert old['groups']==retained, 'Original groups/entries/IDs/memberships changed'
  assert old['words']==new['words'][:len(old['words'])], 'Original words changed'
- assert len(new['groups'])==170 and len(new['words'])==415
+ assert len(new['groups'])==171 and len(new['words'])==418
  assert [[w['lemma'] for w in new['words'] if w['id'] in g['wordIds']] for g in new['groups'][113:117]] == [['correspondent','journalist'],['contempt','scorn'],['constant','consistent'],['moist','wet','damp','humid']]
- assert len({g['id'] for g in new['groups']})==170
- assert len({w['id'] for w in new['words']})==415
+ assert len({g['id'] for g in new['groups']})==171
+ assert len({w['id'] for w in new['words']})==418
  # Exact retention of the entire previously published vocabulary, not only the 3.0 baseline.
  import hashlib
  snapshot=read('migration/published-vocabulary-20261116.json')

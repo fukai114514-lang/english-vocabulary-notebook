@@ -590,3 +590,8 @@ take|v. 拿；取；接过|此处是通用的拿取义，本身不强调速度�
 # 170
 symposium|n. 专题研讨会；学术讨论会|通常围绕特定专业议题，由多位专家作报告并讨论|a symposium on; an international symposium|Researchers presented their findings at a symposium on language learning. → 研究人员在语言学习专题研讨会上报告了研究成果。
 seminar|n. 研讨课；研讨会|可指教师带领学生讨论的课程，也可指专业培训或讨论活动|a seminar on; attend a seminar|We discussed the article in our weekly seminar. → 我们在每周的研讨课上讨论了这篇文章。
+# 171
+suppose|v. 想；猜想；假设|I suppose 常用来委婉表达看法或勉强同意；Suppose … 可引出假设|I suppose so; suppose that; suppose for a moment|I suppose we could take the earlier train. → 我想我们可以坐早一点的那班火车。
+presume|v. 推定；认为很可能|常根据常理、间接线索或既有规则推定；语气常比 guess 正式|presume that; presume someone to be; be presumed innocent|I presumed the event was still on, since nobody had announced a cancellation. → 既然没人宣布取消，我就推断活动会照常举行。
+assume|v. 假定；想当然地认为|常把未经确认的情况当作前提，据此推理或行动；也可以是有意设定的工作假设|assume that; assume for now; assume the worst|We assumed the room had Wi-Fi and brought no cables. → 我们以为房间里有 Wi-Fi，所以没带线。
+guess|v. 猜；估计|在信息不足时给出答案或估计；I guess 在口语里也可用来弱化语气|guess the answer; guess how many; I guess so|I didn’t know the exact number, so I guessed. → 我不知道确切数字，就猜了一个。

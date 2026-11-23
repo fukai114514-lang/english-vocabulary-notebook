@@ -401,3 +401,7 @@ clasp|To hold hands together or hold someone closely with the hands or arms.
 take@169|To pick up, receive or remove something from a place.
 symposium|A meeting focused on a particular subject, with expert talks and discussion.
 seminar|A class or meeting organized around study, discussion or training on a topic.
+presume|To take something as probably true based on what seems reasonable or on an established rule.
+assume|To accept something as true without confirming it, often as a basis for thinking or acting.
+guess|To give an answer or estimate without knowing it for sure.
+suppose@171|To think something is probably true, or to consider a situation as a possibility.
