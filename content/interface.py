@@ -43,6 +43,27 @@ def shell(current_view, learning_links):
   links.append(f'<a class="learning-nav-link" href="{key}.html"{current}>{icon(key)}<span>{e(title)}</span></a>')
  return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+''.join(links)+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><label>Appearance'+themes()+'</label></div></aside><div class="topbar"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">Personal library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
 def search_dialog():return '<dialog id="search-dialog" class="glass" aria-labelledby="search-title"><div class="search-head">'+icon('search')+'<h2 id="search-title" class="sr-only">Search library</h2><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Words, Chinese meanings, articles…" aria-label="Search library" aria-controls="search-results"><button id="search-close" aria-label="Close search">Cancel</button></div><section id="search-results" aria-label="Search results"><p role="status" id="search-status">Search words, examples, and articles</p><div id="search-groups"></div></section><div class="search-foot">↑ ↓ Navigate · Enter Open · Esc Close</div></dialog>'
+def collocation_rows(entries, articles):
+ by_id = {article['id']: article for article in articles}
+ rows = []
+ for number, entry in enumerate(entries, 1):
+  article = by_id[entry['article']]
+  letter = entry['paragraph']
+  excerpt = entry['excerpt']
+  if not excerpt or excerpt not in article['paragraphs'][letter]:
+   raise ValueError(f"Collocation excerpt must match its source: {entry['phrase']}")
+  anchor = f"{article['id']}.html#{article['id']}-{letter}"
+  rows.append(
+   f'<a class="reading-link" href="{e(anchor)}">'
+   f'<span class="reading-number" aria-hidden="true">{number:02}</span>'
+   f'<span><strong lang="en">{e(entry["phrase"])}</strong>'
+   f'<small lang="zh-Hans">{e(entry["meaningZh"])}</small>'
+   f'<small lang="en"><q>{e(excerpt)}</q></small>'
+   f'<small lang="en">{e(article["title"])} · Paragraph {e(letter)}</small></span>'
+   '<span aria-hidden="true">↗</span></a>'
+  )
+ return '<section aria-label="Article collocations" class="reading-directory">' + ''.join(rows) + '</section>'
+
 def build():
  catalog=json.loads((ROOT/'dist/vocabulary.json').read_text());poly=json.loads((ROOT/'dist/polysemy.json').read_text());articles=[{'id':'nap',**json.loads((ROOT/'content/nap_article.json').read_text())}]+json.loads((ROOT/'content/reading_articles.json').read_text())
  meta=json.dumps({'articles':[a['id'] for a in articles]});boot=(ROOT/'content/theme.js').read_text()+'\n'
@@ -122,16 +143,20 @@ def build():
   context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))
  for slug, part in parts.items():
+  section = (
+   '<section class="learning-part-empty" aria-labelledby="empty-title">'
+   '<h2 id="empty-title">No entries yet.</h2>'
+   '<p>This section is ready for future additions.</p></section>'
+  )
+  if slug == 'collocations' and part['entries']:
+   section = collocation_rows(part['entries'], articles)
   body = (
    '<article class="learning-part">'
    '<a class="back-link" href="index.html#library-title">Back to library</a>'
    '<header class="learning-part-header">'
    '<p class="eyebrow">'+e(part_areas[slug])+'</p>'
    '<h1>'+e(part['title'])+'</h1><p class="learning-part-intro">'+e(part['description'])+'</p>'
-   '</header><section class="learning-part-empty" aria-labelledby="empty-title">'
-   '<h2 id="empty-title">No entries yet.</h2>'
-   '<p>This section is ready for future additions.</p>'
-   '</section></article>'
+   '</header>'+section+'</article>'
   )
   (ROOT/'dist'/f'{slug}.html').write_text(document(part['title'], body, part=part))
  # Bundle shared audio before the two page adapters while retaining versioned URLs.
