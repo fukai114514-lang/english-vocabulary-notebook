@@ -8,7 +8,7 @@ def icon(k):return '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" 
 def themes():return '<select class="theme-picker" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>'
 def shell(reader):
  links=''.join(f'<a href="index.html#{target}" data-view="{key}"'+(' aria-current="page"' if key==('nap' if reader else 'home') else '')+f'>{icon(key)}<span>{label}</span></a>' for key,target,label in [('home','home','Home'),('original','original-heading','Word Comparisons'),('poly','poly-heading','Word Meanings'),('nap','nap-part','Reading'),('phrases','phrases-heading','Phrases')])
- return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+links+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><span>A clearer understanding of every word.</span><label>Appearance'+themes()+'</label></div></aside><div class="topbar glass"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">TAsLEXICON · Personal Library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
+ return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+links+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><label>Appearance'+themes()+'</label></div></aside><div class="topbar"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">Personal library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
 def search_dialog():return '<dialog id="search-dialog" class="glass" aria-labelledby="search-title"><div class="search-head">'+icon('search')+'<h2 id="search-title" class="sr-only">Search library</h2><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Words, Chinese meanings, articles…" aria-label="Search library" aria-controls="search-results"><button id="search-close" aria-label="Close search">Cancel</button></div><section id="search-results" aria-label="Search results"><p role="status" id="search-status">Search words, examples, and articles</p><div id="search-groups"></div></section><div class="search-foot">↑ ↓ Navigate · Enter Open · Esc Close</div></dialog>'
 def build():
  catalog=json.loads((ROOT/'dist/vocabulary.json').read_text());poly=json.loads((ROOT/'dist/polysemy.json').read_text());articles=[{'id':'nap',**json.loads((ROOT/'content/nap_article.json').read_text())}]+json.loads((ROOT/'content/reading_articles.json').read_text())
@@ -24,18 +24,48 @@ def build():
  from phrases import render as render_phrases
  listing+=render_phrases()
  total_senses=sum(len(x['senses']) for x in poly['entries'])
- cards=''.join(f'<a class="collection-card" href="#{target}" data-view="{key}"><span class="collection-icon">{icon(key)}</span><span class="eyebrow">PART {n:02}</span><h2>{title}</h2><p>{desc}</p><span class="collection-count">{count}<span aria-hidden="true">↗</span></span></a>' for n,key,target,title,desc,count in [(1,'original','original-heading','Word Comparisons','Find the right expression among similar words.',str(len(catalog['groups']))+' comparisons'),(2,'poly','poly-heading','Word Meanings','Explore common meanings and extended uses.',str(len(poly['entries']))+' words · '+str(total_senses)+' meanings'),(3,'nap','nap-part','Reading','Understand language through complete articles.',str(len(articles))+' bilingual articles'),(4,'phrases','phrases-heading','Phrases','Explore everyday expressions in context.',str(len(catalog['parts'][1]['entries']))+(' phrase' if len(catalog['parts'][1]['entries'])==1 else ' phrases'))])
+ phrase_count = len(catalog['parts'][1]['entries'])
+ collections = [
+  (1, 'original', 'original-heading', 'Word Comparisons', 'Find the right expression among similar words.',
+   f"{len(catalog['groups'])} comparisons"),
+  (2, 'poly', 'poly-heading', 'Word Meanings', 'Explore common meanings and extended uses.',
+   f"{len(poly['entries'])} words · {total_senses} meanings"),
+  (3, 'nap', 'nap-part', 'Reading', 'Understand language through complete articles.',
+   f"{len(articles)} bilingual articles"),
+  (4, 'phrases', 'phrases-heading', 'Phrases', 'Explore everyday expressions in context.',
+   f"{phrase_count} {'phrase' if phrase_count == 1 else 'phrases'}"),
+ ]
+ cards = ''.join(
+  f'<a class="collection-card" href="#{target}" data-view="{key}">'
+  f'<span class="part-number">{n:02}</span><h3>{title}</h3>'
+  f'<p>{desc}</p><span class="collection-count">{count}</span></a>'
+  for n, key, target, title, desc, count in collections
+ )
  reading_links=[f'<a class="reading-link" href="{a["id"]}.html"><span class="reading-number">{n:02}</span><span><strong lang="en">{e(a["title"])}</strong><small>{e(a.get("titleZh","Reading"))} · {len(a["paragraphs"])} paragraphs</small></span><span aria-hidden="true">↗</span></a>' for n,a in enumerate(articles,1)]
  latest=''.join(f'<a href="#{g["id"]}"><span>{e(" / ".join(w["lemma"] for w in catalog["words"] if w["id"] in g["wordIds"]))}</span><span aria-hidden="true">›</span></a>' for g in catalog['groups'][-4:][::-1])
- body='<section id="home"><header class="home-header"><p class="eyebrow">YOUR PERSONAL REFERENCE</p><h1>Words, refined.</h1><p class="home-intro">Discover meanings. Explore differences. Build understanding.</p><button type="button" class="home-search" data-search>'+icon('search')+'<span>Look up a word or find an article</span><kbd>⌘ K</kbd></button></header><div class="section-title"><h2>Browse your library</h2><span>Explore at your own pace</span></div><div class="collections">'+cards+'</div><div class="home-bottom"><section><div class="section-title"><h2>Recently added comparisons</h2><a href="#original-heading" data-view="original">View all</a></div><div class="recent-list">'+latest+'</div></section><section><div class="section-title"><h2>Keep exploring</h2><span>Featured reading</span></div>'+reading_links[-1]+'</section></div></section>'
+ body = (
+  '<section id="home"><header class="home-header">'
+  '<p class="eyebrow">English vocabulary notebook</p>'
+  '<h1><span>Words,</span> <span>refined.</span></h1>'
+  '<div class="home-aside"><p class="home-intro">Discover meanings. Explore differences. Build understanding.</p>'
+  '<button type="button" class="home-search" data-search>'+icon('search')+
+  '<span>Search library</span><kbd>⌘ K</kbd></button></div></header>'
+  '<section aria-labelledby="library-title"><div class="section-title"><h2 id="library-title">Library index</h2>'
+  f'<span>{len(collections)} collections</span></div><div class="collections">{cards}</div></section>'
+  '<div class="home-bottom"><section><div class="section-title"><h2>Recently added comparisons</h2>'
+  '<a href="#original-heading" data-view="original">View all</a></div><div class="recent-list">'+latest+
+  '</div></section><section><div class="section-title"><h2>Featured reading</h2></div>'+
+  reading_links[-1]+'</section></div></section>'
+ )
  body+='<section id="reference" hidden><div class="reference-head"><h1 id="view-title">Word Comparisons</h1><p id="count" role="status"></p></div><div class="reference-tools"><div class="speech-settings"><label for="accent">Pronunciation</label><select id="accent"><option value="en-US">American · US</option><option value="en-GB">British · UK</option></select></div><div><button id="expand">Expand all</button><button id="collapse">Collapse all</button></div></div><p id="speech-status" role="status">Uses your device’s English voices</p><section id="list">'+listing+'</section></section><section id="nap-part" hidden><header class="page-header"><p class="eyebrow">PART 03 · READING</p><h1>Reading</h1><p>Read at your own pace. Let context guide your understanding.</p></header><div class="reading-directory">'+''.join(reading_links)+'</div><p class="reading-hint">Tap any English word for English and Chinese definitions.</p></section><footer>TAsLEXICON · Made for reference and reading</footer>'
  p.write_text(document('English Vocabulary & Reading',body))
  for a in articles:
   p=ROOT/'dist'/f'{a["id"]}.html';old=p.read_text();body=re.search(r'<main>(.*?)</main>',old,re.S)[1]
-  body=body.replace('<a href="index.html#nap-part">← Reading library</a>','<a class="back-link" href="index.html#nap-part">← Reading library</a>').replace('<div id="nap-text" class="nap-paper">','<div id="nap-text" class="nap-paper" lang="en">')
+  body=body.replace('<a href="index.html#nap-part">', '<a class="back-link" href="index.html#nap-part">').replace('<div id="nap-text" class="nap-paper">','<div id="nap-text" class="nap-paper" lang="en">')
   body=re.sub(r'<h2([^>]*)>(.*?)</h2>', r'<h1\1>\2</h1>', body, count=1, flags=re.S)
   jump='<label class="paragraph-picker">段落 <select id="paragraph-jump"><option value="">Choose a paragraph</option>'+''.join(f'<option value="{a["id"]}-{letter}">{letter}</option>' for letter in a['paragraphs'])+'</select></label>'
-  body=body.replace('<p id="reader-status"',jump+'<p id="reader-status"');context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
+  body='<div class="reader-tools">'+body.replace('<p id="reader-status"',jump+'</div><p id="reader-status"',1)
+  context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))
  # Bundle shared audio before the two page adapters while retaining versioned URLs.
  shared = ['speech.js', 'practice-recording.js', 'practice.js', 'interface.js']

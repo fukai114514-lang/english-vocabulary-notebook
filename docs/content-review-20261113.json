@@ -78,8 +78,8 @@
     },
     "migration/reviewed-changes-3.0.json": {
       "before": "e7e6ea5f7abdace38ed0e898dad525d28860187549e81f5c7ba9c8ccbebd9074",
-      "after": "9ffcf4cb28d6b89d4bea2d05f8a0af28b66c6756653e6ce6afec5737867a9ee6",
-      "reason": "Reviewed screenshot update adds 14 words and restores sore."
+      "after": "232227e8996285a0196027be1f66ca9176254071e678a790d0620d90409844b5",
+      "reason": "Reviewed migration ledger now records the Swiss homepage digest. Its other entries and all learning data match 3449cd43."
     },
     "migration/ui-content-baseline.json": {
       "before": "3129c3725e879c19499eebd538f7985ad4ddba6a28563471fb79ec37a98095c6",

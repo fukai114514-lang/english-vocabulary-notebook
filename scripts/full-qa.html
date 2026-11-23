@@ -108,11 +108,11 @@ run.onclick=async()=>{
   query.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));check('Escape closes Search',!dd.querySelector('#search-dialog').open);
   dd.dispatchEvent(new KeyboardEvent('keydown',{key:'k',metaKey:true,bubbles:true}));query.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));await frame();check('Enter reveals result',!dd.querySelector('#search-dialog').open&&dd.querySelector('#poly-credit').open);
   let picker=dd.querySelector('.theme-picker');picker.value='dark';picker.dispatchEvent(new Event('change'));await load('index.html',true);dd=doc();ww=win();check('dark persists across refresh',dd.documentElement.dataset.theme==='dark');
-  const darkCanvas=ww.getComputedStyle(dd.documentElement).getPropertyValue('--canvas');check('dark remains dark at compact desktop width',darkCanvas.trim()==='#161618');
+  const darkCanvas=ww.getComputedStyle(dd.documentElement).getPropertyValue('--canvas');check('dark remains dark at compact desktop width',darkCanvas.trim()==='#171917');
   await load('nap.html',true);check('theme persists across article navigation',doc().documentElement.dataset.theme==='dark');
   picker=doc().querySelector('.theme-picker');picker.value='light';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('light persists across refresh',doc().documentElement.dataset.theme==='light');
   picker=doc().querySelector('.theme-picker');picker.value='system';picker.dispatchEvent(new Event('change'));await load('nap.html',true);check('system choice persists',doc().documentElement.dataset.theme==='system');
-  check('system palette follows browser preference',win().getComputedStyle(doc().documentElement).getPropertyValue('--canvas').trim()===(win().matchMedia('(prefers-color-scheme: dark)').matches?'#161618':'#f5f5f7'));
+  check('system palette follows browser preference',win().getComputedStyle(doc().documentElement).getPropertyValue('--canvas').trim()===(win().matchMedia('(prefers-color-scheme: dark)').matches?'#171917':'#f8f8f5'));
   // Search must leave a clean source document for Back/Forward cache restores.
   await load('index.html#nap-part');
   let source=doc(),sourceWindow=win(),searchDialog=source.querySelector('#search-dialog');

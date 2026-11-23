@@ -20,8 +20,8 @@
     "reason": "Reviewed additions 168–170 and contextual take caption; exact prior 167 groups and 404 word records preserved. See docs/content-review-20261118.json."
   },
   "dist/index.html": {
-    "sha256": "ed0e3a52c2f0ae941c0631afd6136be7720958e8e0bbf37e55f6256288c4f920",
-    "reason": "Screenshot update introduces 14 words, restores sore, and preserves existing entries and stable sense IDs."
+    "sha256": "c26a13e4530a0041a0f3275df4b2dde09383b768ab00539aee5f6ed63ac8c6ff",
+    "reason": "Reviewed Swiss homepage and shared shell. The entire reference and reading directory fragment is byte-identical to 3449cd43. All previous IDs, generated data and learning records are preserved."
   },
   "dist/polysemy.json": {
     "sha256": "5e9f12f181ad72e7a12ccbea9b765dc400082bd05db4f74b65dc9b8969c3aa6b",

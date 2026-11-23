@@ -11,7 +11,7 @@ from threading import Thread
 from playwright.sync_api import sync_playwright
 
 SIZES = [(320, 568), (375, 667), (390, 844), (430, 932), (760, 800),
-         (761, 800), (844, 390), (900, 800), (1024, 768), (1366, 900), (1728, 1117)]
+         (761, 800), (768, 1024), (844, 390), (900, 800), (1024, 768), (1366, 900), (1440, 900), (1728, 1117)]
 MEASURE = """() => {
   const $ = s => document.querySelector(s);
   const rect = el => Object.fromEntries(['x','y','width','height'].map(key =>
@@ -27,7 +27,7 @@ MEASURE = """() => {
     cards:[...document.querySelectorAll('.collection-card')].map(rect),
     smallTargets:controls.filter(el => el.offsetWidth < 44 || el.offsetHeight < 44).map(el => el.className || el.textContent.trim()),
     navMin:Math.min(...[...document.querySelectorAll('.primary-nav a')].flatMap(el => [el.offsetWidth,el.offsetHeight])),
-    overflow:document.documentElement.scrollWidth-innerWidth, pageHeight:document.documentElement.scrollHeight,
+    overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth, pageHeight:document.documentElement.scrollHeight,
     theme:document.documentElement.dataset.theme, scrollY};
 }"""
 
@@ -66,11 +66,18 @@ def main():
                 if args.verify:
                     assert data['overflow'] == 0 and not data['smallTargets'], (w, h, data)
                     assert len(data['cards']) == 4 and data['navMin'] >= 44
-                    assert max(abs(data[key]['x'] - data['grid']['x'])
-                               for key in ['title', 'intro', 'search', 'barLabel', 'lower']) < 1
-                    assert data['title']['height'] < 1.2 * data['titleFont'], ('title wraps', w)
-                    columns = len({card['x'] for card in data['cards']})
-                    assert columns == (2 if data['grid']['width'] >= 600 else 1), (w, columns)
+                    grid = data['grid']
+                    for key in ['title', 'barLabel', 'lower']:
+                        assert abs(data[key]['x'] - grid['x']) < 1, (w, key)
+                    # The two headline lines and single-column index persist at every size.
+                    assert 1.8 < data['title']['height'] / data['titleFont'] < 2.15, w
+                    assert all(abs(row['x'] - grid['x']) < 1
+                               and abs(row['width'] - grid['width']) < 1 for row in data['cards'])
+                    assert abs(data['intro']['x'] - data['search']['x']) < 1
+                    if grid['width'] >= 576:
+                        assert data['intro']['x'] >= data['title']['x'] + data['title']['width']
+                    else:
+                        assert data['intro']['y'] >= data['title']['y'] + data['title']['height']
                     if w == 761:
                         previous = rows[-1]
                         for key in ['hero', 'grid', 'lower']:
