@@ -158,7 +158,7 @@
   close();
   const url=readerURL(target,articles);
   if(url){location.href=url;return}
-  if(document.querySelector('#reader')){location.href='index.html#'+target;return}
+  if(!document.querySelector('#home')){location.href='index.html#'+target;return}
   history.pushState(null,'','#'+target);window.notebook.reveal(target);
  }
  let index, loading, failed=false, opener, lastScroll=0, timer, composing=false;

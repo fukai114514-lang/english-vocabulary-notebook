@@ -5,7 +5,7 @@ const vm=require('node:vm');
 const data=require('../dist/search-index.json');
 const labels=require('../content/ui-labels.json').text;
 const source=fs.readFileSync(require.resolve('../dist/search.js'),'utf8');
-async function run(reader=false) {
+async function run(page='index') {
  let active, top=123, requests=0, grant, timer, revealed;
  class Element extends EventTarget {
   constructor(tag) {super();this.tag=tag;this.children=[];this.value='';this.style={setProperty(){}};this.classList={add(){},remove(){}}}
@@ -21,7 +21,8 @@ async function run(reader=false) {
   querySelectorAll(tag){return this.children.flatMap(n=>[...(n.tag===tag?[n]:[]),...n.querySelectorAll(tag)])}
  }
  const elements=Object.fromEntries(['#search-dialog','#search','#search-groups','#search-status','#site-meta','#search-close','.search-head','#search-results'].map(k=>[k,new Element(k)]));
- if(reader)elements['#reader']=new Element('reader');
+ if(page==='index')elements['#home']=new Element('section');
+ if(page==='reader')elements['#reader']=new Element('section');
  elements['#site-meta'].textContent=JSON.stringify({articles:['nap']});
  const launch=new Element('button'), doc=new Element('document');
  Object.defineProperty(doc,'activeElement',{get:()=>active});
@@ -75,12 +76,13 @@ async function run(reader=false) {
  assert.equal(q.value,'creidt');assert.ok(dialog.open);assert.equal(location.href,'');
  const suggestion=elements['#search-status'].next.children.find(n=>n.textContent.includes('credit?'));
  assert.ok(suggestion);suggestion.click();assert.equal(q.value,'credit');
- input(reader?'credit':'Take Naps');q.focus();key(dialog,'Enter');
+ const indexPage=page==='index';
+ input(indexPage?'Take Naps':'credit');q.focus();key(dialog,'Enter');
  assert.equal(dialog.open,false);assert.equal(doc.body.style.position,'');assert.equal(active,launch);assert.equal(top,123);
- assert.match(location.href,reader?/^index.html#sense-credit/:/^nap.html#nap-/);
- if(!reader){
+ assert.match(location.href,indexPage?/^nap.html#nap-/:/^index.html#sense-credit/);
+ if(indexPage){
   launch.click();input('credit');key(dialog,'Enter');
   assert.equal(location.hash,'#'+revealed);
  }
 }
-module.exports=async()=>{await run();await run(true);console.log('PASS production dialog handlers: fetch coalescing, fast input, IME, filters, pagination, explicit suggestions, keyboard, routes, scroll and focus restoration')};
+module.exports=async()=>{await run();await run('reader');await run('learning part');console.log('PASS production dialog handlers: fetch coalescing, fast input, IME, filters, pagination, explicit suggestions, keyboard, routes, scroll and focus restoration')};

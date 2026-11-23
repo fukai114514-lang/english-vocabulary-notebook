@@ -6,8 +6,8 @@ e=html.escape
 ICONS={'home':'<path d="m3 10 9-7 9 7v10H3z"/><path d="M9 20v-7h6v7"/>','original':'<path d="M4 6h7M4 12h5M4 18h7M15 6h5M13 12h7M15 18h5"/><path d="m12 8 3-2-3-2M12 16l-3 2 3 2"/>','poly':'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h5M8 16h7"/>','nap':'<path d="M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1zm0 0v15"/>','phrases':'<path d="M4 5h16v12H9l-5 4z"/><path d="M8 9h8M8 13h5"/>','search':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>'}
 def icon(k):return '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+ICONS[k]+'</svg>'
 def themes():return '<select class="theme-picker" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>'
-def shell(reader):
- links=''.join(f'<a href="index.html#{target}" data-view="{key}"'+(' aria-current="page"' if key==('nap' if reader else 'home') else '')+f'>{icon(key)}<span>{label}</span></a>' for key,target,label in [('home','home','Home'),('original','original-heading','Word Comparisons'),('poly','poly-heading','Word Meanings'),('nap','nap-part','Reading'),('phrases','phrases-heading','Phrases')])
+def shell(current_view):
+ links=''.join(f'<a href="index.html#{target}" data-view="{key}"'+(' aria-current="page"' if key==current_view else '')+f'>{icon(key)}<span>{label}</span></a>' for key,target,label in [('home','home','Home'),('original','original-heading','Word Comparisons'),('poly','poly-heading','Word Meanings'),('nap','nap-part','Reading'),('phrases','phrases-heading','Phrases')])
  return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+links+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><label>Appearance'+themes()+'</label></div></aside><div class="topbar"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">Personal library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
 def search_dialog():return '<dialog id="search-dialog" class="glass" aria-labelledby="search-title"><div class="search-head">'+icon('search')+'<h2 id="search-title" class="sr-only">Search library</h2><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Words, Chinese meanings, articles…" aria-label="Search library" aria-controls="search-results"><button id="search-close" aria-label="Close search">Cancel</button></div><section id="search-results" aria-label="Search results"><p role="status" id="search-status">Search words, examples, and articles</p><div id="search-groups"></div></section><div class="search-foot">↑ ↓ Navigate · Enter Open · Esc Close</div></dialog>'
 def build():
@@ -15,11 +15,14 @@ def build():
  meta=json.dumps({'articles':[a['id'] for a in articles]});boot=(ROOT/'content/theme.js').read_text()+'\n'
  ui=json.loads((ROOT/'content/ui-labels.json').read_text())
  boot+='window.notebookUILabel = text => ('+json.dumps({k:ui['labels'][k] for k in ui['legacyRuntimeKeys']},ensure_ascii=False)+')[text] || text;\n'
- def document(title,body,reader=False,context=''):
-  page_title = title+' — TAsLEXICON' if reader else 'TAsLEXICON — Words, refined.'
-  description = 'TAsLEXICON: a personal language library for word meanings, comparisons, and bilingual reading.'
+ def document(title,body,reader=False,context='',part_description=None):
+  standalone = part_description is not None
+  page_title = title+' — TAsLEXICON' if reader or standalone else 'TAsLEXICON — Words, refined.'
+  description = part_description or 'TAsLEXICON: a personal language library for word meanings, comparisons, and bilingual reading.'
   metadata = '<meta property="og:site_name" content="TAsLEXICON"><meta property="og:type" content="website"><meta property="og:title" content="'+e(page_title)+'"><meta property="og:description" content="'+e(description)+'">'
-  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="'+e(description)+'"><title>'+e(page_title)+'</title>'+metadata+'<link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css"></head><body'+(' class="reader-page"' if reader else '')+'>'+shell(reader)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script><script src="./'+('reader' if reader else 'pronunciation')+'.js" defer></script></body></html>'
+  current_view = 'nap' if reader else None if standalone else 'home'
+  adapter = '' if standalone else '<script src="./'+('reader' if reader else 'pronunciation')+'.js" defer></script>'
+  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="'+e(description)+'"><title>'+e(page_title)+'</title>'+metadata+'<link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css"></head><body'+(' class="reader-page"' if reader else '')+'>'+shell(current_view)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script>'+adapter+'</body></html>'
  p=ROOT/'dist/index.html';page=p.read_text();listing=re.search(r'<section id="list">(.*?)</section><section id="nap-part"',page,re.S)[1]
  from phrases import render as render_phrases
  listing+=render_phrases()
@@ -67,6 +70,22 @@ def build():
   body='<div class="reader-tools">'+body.replace('<p id="reader-status"',jump+'</div><p id="reader-status"',1)
   context=re.search(r'<script id="reading-context".*?</script>',old,re.S)[0]
   p.write_text(document(a['title'],body,True,context))
+ for source_path in sorted((ROOT/'content/learning-parts').glob('*.json')):
+  part = json.loads(source_path.read_text())
+  slug = part['id']
+  if slug != source_path.stem or not re.fullmatch(r'[a-z]+(?:-[a-z]+)*', slug):
+   raise ValueError(f'Invalid learning part ID: {source_path.name}')
+  output = ROOT/'dist'/f'{slug}.html'
+  if slug in {'index', *(a['id'] for a in articles)}:
+   raise ValueError(f'Learning part conflicts with an existing page: {slug}')
+  body = (
+   '<a class="back-link" href="index.html#home">Back to library</a>'
+   '<header class="page-header"><h1>'+e(part['title'])+'</h1>'
+   '<p>'+e(part['description'])+'</p></header>'
+   '<p><strong>No entries yet.</strong></p>'
+   '<p>This section is ready for future additions.</p>'
+  )
+  output.write_text(document(part['title'], body, part_description=part['description']))
  # Bundle shared audio before the two page adapters while retaining versioned URLs.
  shared = ['speech.js', 'practice-recording.js', 'practice.js', 'interface.js']
  source = '\n'.join((ROOT/'content'/name).read_text() for name in shared)
