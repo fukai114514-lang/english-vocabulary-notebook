@@ -5,6 +5,16 @@ ROOT=Path(__file__).resolve().parents[1]
 e=html.escape
 ICONS={'home':'<path d="m3 10 9-7 9 7v10H3z"/><path d="M9 20v-7h6v7"/>','original':'<path d="M4 6h7M4 12h5M4 18h7M15 6h5M13 12h7M15 18h5"/><path d="m12 8 3-2-3-2M12 16l-3 2 3 2"/>','poly':'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h5M8 16h7"/>','nap':'<path d="M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1zm0 0v15"/>','phrases':'<path d="M4 5h16v12H9l-5 4z"/><path d="M8 9h8M8 13h5"/>','search':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>'}
 ICONS['library'] = '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M12 8h6m-6 4h6m-6 4h6"/>'
+ICONS.update({
+ 'word-families': '<path d="M12 7v5m-7 5v-5h14v5"/><circle cx="12" cy="4" r="3"/><circle cx="5" cy="20" r="3"/><circle cx="19" cy="20" r="3"/>',
+ 'collocations': '<path d="M10 13a4 4 0 0 0 6 0l4-4a4 4 0 0 0-6-6l-2 2m2 6a4 4 0 0 0-6 0l-4 4a4 4 0 0 0 6 6l2-2"/>',
+ 'word-patterns': '<path d="M5 4H3v16h2m14-16h2v16h-2M8 8h8m-8 4h8m-8 4h5"/>',
+ 'phrasal-verbs': '<path d="M4 18 18 4m-8 0h8v8M4 11v7h7"/>',
+ 'common-mistakes': '<path d="m12 3 10 18H2L12 3zm0 6v5m0 3h.01"/>',
+ 'register-and-tone': '<path d="M4 6h16M4 12h16M4 18h16M8 4v4m8 2v4m-6 2v4"/>',
+ 'idioms-and-expressions': '<path d="M10 6H5l-2 6v5h7v-5H6m15-6h-5l-2 6v5h7v-5h-4"/>',
+ 'pronunciation-lab': '<path d="M3 10v4m4-7v10m5-14v18m5-14v10m4-7v4"/>',
+})
 LEARNING_AREAS = (
  ('Word Knowledge', ('original', 'poly', 'word-families')),
  ('Language in Use', ('collocations', 'word-patterns', 'phrasal-verbs', 'common-mistakes',
@@ -13,7 +23,7 @@ LEARNING_AREAS = (
 )
 def icon(k):return '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+ICONS[k]+'</svg>'
 def themes():return '<select class="theme-picker" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>'
-def shell(current_view):
+def shell(current_view, learning_links):
  destinations = (
   ('home', 'home', 'Home'),
   ('library', 'library-title', 'Library index'),
@@ -28,6 +38,9 @@ def shell(current_view):
   view = '' if key == 'library' else f' data-view="{key}"'
   current = ' aria-current="page"' if key == current_view else ''
   links.append(f'<a href="{prefix}#{target}"{view}{current}>{icon(key)}<span>{label}</span></a>')
+ for key, title in learning_links:
+  current = ' aria-current="page"' if key == current_view else ''
+  links.append(f'<a class="learning-nav-link" href="{key}.html"{current}>{icon(key)}<span>{e(title)}</span></a>')
  return ('<a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="index.html#home"><span>TAsLEXICON</span></a><p class="sidebar-label">Library</p><nav class="primary-nav" aria-label="Main navigation">'+''.join(links)+'<button type="button" data-search>'+icon('search')+'<span>Search</span><kbd>⌘ K</kbd></button></nav><div class="sidebar-foot"><label>Appearance'+themes()+'</label></div></aside><div class="topbar"><a href="index.html#home" class="mobile-brand">TAsLEXICON</a><span class="desktop-context">Personal library</span><div><label class="mobile-theme"><span class="sr-only">Appearance</span>'+themes()+'</label><button type="button" class="search-trigger" aria-label="Search library" data-search>'+icon('search')+'<span>Search library</span><kbd>⌘ K</kbd></button></div></div>')
 def search_dialog():return '<dialog id="search-dialog" class="glass" aria-labelledby="search-title"><div class="search-head">'+icon('search')+'<h2 id="search-title" class="sr-only">Search library</h2><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Words, Chinese meanings, articles…" aria-label="Search library" aria-controls="search-results"><button id="search-close" aria-label="Close search">Cancel</button></div><section id="search-results" aria-label="Search results"><p role="status" id="search-status">Search words, examples, and articles</p><div id="search-groups"></div></section><div class="search-foot">↑ ↓ Navigate · Enter Open · Esc Close</div></dialog>'
 def build():
@@ -35,14 +48,14 @@ def build():
  meta=json.dumps({'articles':[a['id'] for a in articles]});boot=(ROOT/'content/theme.js').read_text()+'\n'
  ui=json.loads((ROOT/'content/ui-labels.json').read_text())
  boot+='window.notebookUILabel = text => ('+json.dumps({k:ui['labels'][k] for k in ui['legacyRuntimeKeys']},ensure_ascii=False)+')[text] || text;\n'
- def document(title,body,reader=False,context='',part_description=None):
-  standalone = part_description is not None
+ def document(title,body,reader=False,context='',part=None):
+  standalone = part is not None
   page_title = title+' — TAsLEXICON' if reader or standalone else 'TAsLEXICON — Words, refined.'
-  description = part_description or 'TAsLEXICON: a personal language library for word meanings, comparisons, and bilingual reading.'
+  description = part['description'] if standalone else 'TAsLEXICON: a personal language library for word meanings, comparisons, and bilingual reading.'
   metadata = '<meta property="og:site_name" content="TAsLEXICON"><meta property="og:type" content="website"><meta property="og:title" content="'+e(page_title)+'"><meta property="og:description" content="'+e(description)+'">'
-  current_view = 'nap' if reader else None if standalone else 'home'
+  current_view = part['id'] if standalone else 'nap' if reader else 'home'
   adapter = '' if standalone else '<script src="./'+('reader' if reader else 'pronunciation')+'.js" defer></script>'
-  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="'+e(description)+'"><title>'+e(page_title)+'</title>'+metadata+'<link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css"></head><body'+(' class="reader-page"' if reader else '')+'>'+shell(current_view)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script>'+adapter+'</body></html>'
+  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="'+e(description)+'"><title>'+e(page_title)+'</title>'+metadata+'<link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css"></head><body'+(' class="reader-page"' if reader else '')+'>'+shell(current_view, learning_links)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script>'+adapter+'</body></html>'
  p=ROOT/'dist/index.html';page=p.read_text();listing=re.search(r'<section id="list">(.*?)</section><section id="nap-part"',page,re.S)[1]
  from phrases import render as render_phrases
  listing+=render_phrases()
@@ -66,6 +79,7 @@ def build():
  part_areas = {key: area for area, keys in LEARNING_AREAS for key in keys if key not in existing_collections}
  if parts.keys() != part_areas.keys():
   raise ValueError('Every learning part needs a library area')
+ learning_links = [(key, parts[key]['title']) for key in part_areas]
  collections = []
  for area, keys in LEARNING_AREAS:
   links = []
@@ -119,7 +133,7 @@ def build():
    '<p>This section is ready for future additions.</p>'
    '</section></article>'
   )
-  (ROOT/'dist'/f'{slug}.html').write_text(document(part['title'], body, part_description=part['description']))
+  (ROOT/'dist'/f'{slug}.html').write_text(document(part['title'], body, part=part))
  # Bundle shared audio before the two page adapters while retaining versioned URLs.
  shared = ['speech.js', 'practice.js', 'interface.js']
  source = '\n'.join((ROOT/'content'/name).read_text() for name in shared)

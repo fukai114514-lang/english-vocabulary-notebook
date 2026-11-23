@@ -41,7 +41,7 @@ run.onclick=async()=>{
    const row={viewport,mode,url,width:root.clientWidth,scrollWidth:root.scrollWidth,minTarget:Math.min(...nav.flatMap(r=>[r.width,r.height])),separate:sidebar.right<=search.left};results.push(row);
    check(`${viewport}/${mode}/${url}: no page overflow`,root.scrollWidth<=root.clientWidth);
    check(`${viewport}/${mode}/${url}: navigation targets`,row.minTarget>=44);
-   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0&&links.length===6&&links.some(a=>a.hash==='#library-title'));
+   check(`${viewport}/${mode}/${url}: separate Search`,row.separate&&d.querySelectorAll('.primary-nav button').length===0&&links.length===14&&links.some(a=>a.hash==='#library-title'));
    if(url.includes('original-heading')){
     const scroller=d.querySelector('.table-scroll'),toggle=d.querySelector('.comparison-view');
     if(mobile){check('cards fit',scroller.scrollWidth<=scroller.clientWidth);toggle.click();await frame();check('full comparison retains table layout',win().getComputedStyle(scroller.querySelector('table')).display==='table'&&scroller.scrollWidth>=680);toggle.click()}

@@ -78,8 +78,8 @@
     },
     "migration/reviewed-changes-3.0.json": {
       "before": "e7e6ea5f7abdace38ed0e898dad525d28860187549e81f5c7ba9c8ccbebd9074",
-      "after": "80147183850765b5af9049d741b88f97fad7725caed453402ed95822859ff41e",
-      "reason": "Reviewed ledger change covers only the Phase 03 homepage index and shared navigation. Compared generated learning markup and data with ed6c5a06."
+      "after": "96e9bb5a4da8a2c06086feb6b4a131167455ce22cc83cbef8489badc8ab9822c",
+      "reason": "Reviewed ledger update for the homepage library index and shared sidebar destinations."
     },
     "migration/ui-content-baseline.json": {
       "before": "3129c3725e879c19499eebd538f7985ad4ddba6a28563471fb79ec37a98095c6",

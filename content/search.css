@@ -301,6 +301,7 @@ body {
   text-decoration:none;
   background:var(--inset);
 }
+.primary-nav a:not(.learning-nav-link) + .learning-nav-link {margin-top:var(--space-2)}
 .primary-nav kbd {
   margin-left:auto;
   font-size:10px;
@@ -1619,13 +1620,18 @@ html {scroll-padding-top:calc(var(--topbar-height,66px) + 16px)}
 }
 @media(min-width:640px) and (max-width:869px), (min-width:640px) and (max-width:1000px) and (max-height:500px) {
  .navigation-expanded {--sidebar:calc(188px + env(safe-area-inset-left))}
+}
+@media(max-width:869px),(max-width:1000px) and (max-height:500px) {
  .nav-toggle {
    display:grid;
    place-items:center;
    align-self:flex-start;
    flex:none;
    margin-bottom:4px;
-   background:transparent;
+   position:sticky;
+   top:0;
+   z-index:1;
+   background:var(--surface);
    color:var(--secondary);
  }
  .nav-toggle::before {
@@ -1639,6 +1645,12 @@ html {scroll-padding-top:calc(var(--topbar-height,66px) + 16px)}
  .navigation-expanded .nav-toggle::before {transform:rotate(-135deg)}
  .navigation-expanded .primary-nav a {justify-content:flex-start;padding-inline:8px;gap:8px}
  .navigation-expanded .primary-nav a span {display:inline}
+}
+@media(max-width:639px) {
+ .navigation-expanded .sidebar {
+   width:calc(200px + env(safe-area-inset-left));
+   box-shadow:var(--shadow-float);
+ }
 }
 @media print {.sidebar-search,.comparison-view {display:none!important}}
 

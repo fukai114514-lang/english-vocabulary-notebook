@@ -421,6 +421,9 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
  setNavigationExpanded(false);
  navToggle.onclick=()=>setNavigationExpanded(navToggle.getAttribute('aria-expanded')!=='true');
  nav.before(navToggle);
+ nav.addEventListener('click', event=>{
+  if(event.target.closest('a')&&matchMedia('(max-width:639px)').matches)setNavigationExpanded(false);
+ });
  // Reuse table cells verbatim. Only presentation labels and a view control are added.
  for(const scroller of document.querySelectorAll('.table-scroll')){
   const table=scroller.querySelector('table');if(!table)continue;

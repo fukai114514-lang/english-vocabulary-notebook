@@ -124,6 +124,23 @@ class IntegratedUI(unittest.TestCase):
         expect(self.panel.get_by_role('combobox', name='Voice', exact=True)).to_have_value('en-GB')
         expect(self.panel.get_by_role('combobox', name='Speed', exact=True)).to_have_value('0.75')
 
+    def test_sidebar_links_open_independent_learning_parts(self):
+        self.page.goto(self.url)
+        nav = self.page.get_by_role('navigation', name='Main navigation')
+        links = nav.locator('.learning-nav-link')
+        expect(links).to_have_count(8)
+        for name in ('Word Families', 'Collocations', 'Word Patterns', 'Phrasal Verbs',
+                     'Common Mistakes', 'Register & Tone', 'Idioms & Expressions', 'Pronunciation Lab'):
+            self.page.get_by_role('button', name='Expand navigation').click()
+            link = nav.get_by_role('link', name=name, exact=True)
+            expect(link.locator('span')).to_be_visible()
+            self.assertGreaterEqual(link.bounding_box()['height'], 44)
+            self.assertTrue(self.page.evaluate('document.documentElement.scrollWidth === innerWidth'))
+            link.click()
+            expect(self.page.get_by_role('heading', name=name, exact=True)).to_be_visible()
+            expect(nav.get_by_role('link', name=name, exact=True)).to_have_attribute('aria-current', 'page')
+            expect(self.page.get_by_role('heading', name='No entries yet.')).to_be_visible()
+
     def test_home_returns_to_top_from_library_index(self):
         self.page.goto(self.url + 'index.html#home')
         nav = self.page.get_by_role('navigation', name='Main navigation')
