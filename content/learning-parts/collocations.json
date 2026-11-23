@@ -2,5 +2,174 @@
   "id": "collocations",
   "title": "Collocations",
   "description": "Explore words that commonly go together in English.",
-  "entries": []
+  "entries": [
+    {
+      "phrase": "take a nap",
+      "meaningZh": "小睡一下",
+      "excerpt": "taken three naps at work",
+      "article": "nap",
+      "paragraph": "A"
+    },
+    {
+      "phrase": "work-life balance",
+      "meaningZh": "工作与生活的平衡",
+      "excerpt": "a work-life balance course",
+      "article": "nap",
+      "paragraph": "D"
+    },
+    {
+      "phrase": "scream with delight",
+      "meaningZh": "高兴得尖叫起来",
+      "excerpt": "scream with delight while riding the roller coaster",
+      "article": "motherhood",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "sense of self",
+      "meaningZh": "自我认同",
+      "excerpt": "her time, ambition and sense of self",
+      "article": "motherhood",
+      "paragraph": "D"
+    },
+    {
+      "phrase": "protect your privacy",
+      "meaningZh": "保护自己的隐私",
+      "excerpt": "to protect your privacy",
+      "article": "vpn-privacy",
+      "paragraph": "A"
+    },
+    {
+      "phrase": "personal data",
+      "meaningZh": "个人数据",
+      "excerpt": "track and sell your personal data",
+      "article": "vpn-privacy",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "hard evidence",
+      "meaningZh": "确凿的证据",
+      "excerpt": "match the hard evidence",
+      "article": "politics-and-evidence",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "interpret new information",
+      "meaningZh": "解读新信息",
+      "excerpt": "interpret new information",
+      "article": "politics-and-evidence",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "attention span",
+      "meaningZh": "注意力能维持的时间",
+      "excerpt": "the nervous attention span",
+      "article": "how-to-fix-the-internet",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "conduct a study",
+      "meaningZh": "开展一项研究",
+      "excerpt": "conducted a study to figure it out",
+      "article": "busyness-as-status",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "be at risk of burnout",
+      "meaningZh": "有倦怠的风险",
+      "excerpt": "are at risk of burnout",
+      "article": "busyness-as-status",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "set the wrong tone",
+      "meaningZh": "给人不恰当的印象",
+      "excerpt": "sets the wrong tone",
+      "article": "busyness-as-status",
+      "paragraph": "D"
+    },
+    {
+      "phrase": "statistical technique",
+      "meaningZh": "统计方法",
+      "excerpt": "used a common statistical technique",
+      "article": "business-travel-airfares",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "play a central role in",
+      "meaningZh": "在……中起核心作用",
+      "excerpt": "play a central role in economic decisions",
+      "article": "business-travel-airfares",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "perform your job",
+      "meaningZh": "履行工作职责",
+      "excerpt": "their ability to perform their job",
+      "article": "hobbies-and-work",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "boost your confidence",
+      "meaningZh": "增强自信",
+      "excerpt": "boost their confidence at work",
+      "article": "hobbies-and-work",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "career prospects",
+      "meaningZh": "职业前景",
+      "excerpt": "career prospects and the home",
+      "article": "paternity-leave",
+      "paragraph": "A"
+    },
+    {
+      "phrase": "take parental leave",
+      "meaningZh": "休育儿假",
+      "excerpt": "taking parental leave",
+      "article": "paternity-leave",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "take risks",
+      "meaningZh": "冒险",
+      "excerpt": "increase your willingness to take risks",
+      "article": "rivalry-and-entrepreneurship",
+      "paragraph": "A"
+    },
+    {
+      "phrase": "strain relationships",
+      "meaningZh": "使关系紧张",
+      "excerpt": "strain relationships important to your success",
+      "article": "rivalry-and-entrepreneurship",
+      "paragraph": "B"
+    },
+    {
+      "phrase": "make impulsive decisions",
+      "meaningZh": "冲动地做决定",
+      "excerpt": "make impulsive, insensible decisions",
+      "article": "rivalry-and-entrepreneurship",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "perform a task",
+      "meaningZh": "执行任务",
+      "excerpt": "perform two or more tasks effectively",
+      "article": "multitasking-and-performance",
+      "paragraph": "A"
+    },
+    {
+      "phrase": "have a positive effect on",
+      "meaningZh": "对……产生积极影响",
+      "excerpt": "has a positive effect on their performance",
+      "article": "multitasking-and-performance",
+      "paragraph": "C"
+    },
+    {
+      "phrase": "within a set time frame",
+      "meaningZh": "在规定的时间范围内",
+      "excerpt": "within a set time frame",
+      "article": "multitasking-and-performance",
+      "paragraph": "D"
+    }
+  ]
 }
