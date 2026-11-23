@@ -166,6 +166,48 @@ class IntegratedUI(unittest.TestCase):
         expect(self.panel.get_by_role('combobox', name='Voice', exact=True)).to_have_value('en-GB')
         expect(self.panel.get_by_role('combobox', name='Speed', exact=True)).to_have_value('0.75')
 
+    def test_home_returns_to_top_from_library_index(self):
+        self.page.goto(self.url + 'index.html#home')
+        nav = self.page.get_by_role('navigation', name='Main navigation')
+        library = self.page.locator('#library-title')
+        nav.get_by_role('link', name='Library index').click()
+        expect(library).to_be_focused()
+        self.assertGreater(self.page.evaluate('scrollY'), 0)
+        nav.get_by_role('link', name='Home', exact=True).click()
+        self.page.wait_for_url('**/index.html#home')
+        self.page.wait_for_function('scrollY === 0')
+        self.page.go_back()
+        self.page.wait_for_url('**/index.html#library-title')
+        expect(library).to_be_focused()
+        self.page.go_forward()
+        self.page.wait_for_url('**/index.html#home')
+        self.page.wait_for_function('scrollY === 0')
+
+    def test_consecutive_lookups_reuse_open_dictionary(self):
+        self.reader()
+        words = self.page.locator('#nap-A .lookup-word')
+        first, second = words.nth(0), words.nth(1)
+        dictionary = self.page.locator('#lookup-card')
+        first.click()
+        expect(dictionary).to_be_visible()
+        first_title = dictionary.locator('#lookup-title').text_content()
+        scroll_y = self.page.evaluate('scrollY')
+        dictionary.evaluate("""
+            panel => {
+                window.dictionaryChanges = [];
+                const observer = new MutationObserver(records =>
+                    window.dictionaryChanges.push(...records));
+                observer.observe(panel, {attributes: true, attributeFilter: ['open']});
+            }
+        """)
+        second.click()
+        expect(second).to_have_attribute('aria-expanded', 'true')
+        expect(first).not_to_have_attribute('aria-expanded', 'true')
+        expect(dictionary.locator('#lookup-title')).not_to_have_text(first_title)
+        expect(dictionary).to_be_visible()
+        self.assertEqual(self.page.evaluate('window.dictionaryChanges.length'), 0)
+        self.assertEqual(self.page.evaluate('scrollY'), scroll_y)
+
     def test_shared_reader_index_routes_and_history(self):
         requests = []
         self.page.on('request', lambda request: requests.append(request.url)

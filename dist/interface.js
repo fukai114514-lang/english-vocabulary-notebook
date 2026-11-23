@@ -503,7 +503,13 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
  function viewFor(id){if(id==='list')return'all';if(id.startsWith('phrase-')||id==='phrases-heading')return'phrases';if(id.startsWith('group-')||id==='original-heading')return'original';if(id.startsWith('sense-')||id.startsWith('poly-'))return'poly';return id==='nap-part'?'nap':'home'}
  function show(view,{restore=true,historyMode='push'}={}){
   if(!indexPage)return;
-  if(view===current&&historyMode==='push')return;
+  if(view===current&&historyMode==='push'){
+   if(view==='home'&&location.hash==='#library-title'){
+    history.pushState({view},'','#'+keys.home);
+    window.scrollTo({top:0,behavior:'instant'});
+   }
+   return;
+  }
   document.dispatchEvent(new Event('notebook:navigate'));
   positions.set(current,scrollY);current=view;
   $('#home').hidden=view!=='home';$('#reference').hidden=!['all','original','poly','phrases'].includes(view);$('#nap-part').hidden=view!=='nap';
@@ -532,7 +538,19 @@ window.notebookText = {"comparisonFull": "Full comparison", "comparisonCards": "
  }
  window.notebook={show,reveal,viewFor,loadSearchIndex};
  if(indexPage){document.addEventListener('click',ev=>{const a=ev.target.closest('[data-view]');if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey)return;ev.preventDefault();show(a.dataset.view)});$('#expand').onclick=()=>items.filter(d=>!d.hidden).forEach(d=>d.open=true);$('#collapse').onclick=()=>items.forEach(d=>d.open=false);
- const route=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}if(id==='main')return;if(!id||Object.values(keys).includes(id)){show(viewFor(id||'home'),{restore:true,historyMode:'none'})}else reveal(id)};
+ const route=event=>{
+  let id;
+  try{id=decodeURIComponent(location.hash.slice(1))}catch{return}
+  if(id==='main')return;
+  if(id==='home'&&event?.oldURL.endsWith('#library-title')){
+   show('home',{restore:false,historyMode:'none'});
+   requestAnimationFrame(()=>{
+    if(location.hash==='#home')window.scrollTo({top:0,behavior:'instant'});
+   });
+  }else if(!id||Object.values(keys).includes(id)){
+   show(viewFor(id||'home'),{restore:true,historyMode:'none'});
+  }else reveal(id);
+ };
  // pushState navigation does not emit hashchange; native Back/Forward does.
  // One handler avoids saving the destination position twice.
  history.scrollRestoration='manual';addEventListener('hashchange',route);route();}
