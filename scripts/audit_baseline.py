@@ -35,6 +35,7 @@ def run(command, cwd=ROOT):
 
 before = manifest(ROOT / 'dist')
 run([sys.executable, 'content/render.py'])
+run([sys.executable, 'content/collection_inbox.py'])
 for name in ['verify_migration', 'verify_preservation', 'verify_interface',
              'verify_upgrade', 'verify_article_dictionary', 'verify_reading_context',
              'verify_routes', 'test_ui_labels', 'verify_design_tokens', 'verify_asset_versions']:
@@ -51,6 +52,7 @@ with tempfile.TemporaryDirectory(prefix='wordbook-audit-') as folder:
                     ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
     (clean / 'dist').mkdir()
     run([sys.executable, 'content/render.py'], cwd=clean)
+    run([sys.executable, 'content/collection_inbox.py'], cwd=clean)
     clean_matches = generated == manifest(clean / 'dist')
 freeze = json.loads((ROOT / 'docs/audit-20261109-freeze.json').read_text())
 changed = [name for name, sha in freeze['frozen_files'].items()

@@ -39,3 +39,9 @@ python3 -m http.server 8000 --directory dist
 ## 构建与发布
 
 运行 `python3 content/render.py`，将 `dist/` 作为静态目录部署。现有 Sites 项目通过 `.openai/hosting.json` 保持项目身份及原网址。项目没有依赖安装、lint 或 typecheck 命令。
+
+## Collection Inbox
+
+The independent extension integration candidate includes a private Inbox at `/inbox/` relative to the site root. Run `python3 content/collection_inbox.py` after the public build, serve with the commands above, then open `http://localhost:8000/inbox/`. Import a TAsLEXICON Extension JSON archive, review the preview, then edit, reclassify, accept privately or reject the imported entries. Use Export to take the records to another browser. The Inbox has its own on-device database and the browser can clear it as site data.
+
+The public navigation, article reader and search index keep their existing paths. Inbox acceptance updates the local review state. See [Collection integration](docs/collection-inbox.md) for the draft field mappings, data boundaries and verification commands.

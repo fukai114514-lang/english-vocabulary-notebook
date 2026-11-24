@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-theme="system" data-mode="inbox">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="robots" content="noindex, nofollow">
+  <title>TAsLEXICON · Collection Inbox</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="collection.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <main>
+    <header><a id="home-link" href="../index.html">TAsLEXICON</a>
+      <h1 id="title">Collection Inbox</h1><p id="privacy">Private collection on this device.</p>
+    </header>
+    <p id="message" role="status"></p>
+    <p id="error" role="alert" hidden></p>
+    <section id="capture" aria-labelledby="capture-title" hidden>
+      <h2 id="capture-title">Article Preview</h2>
+      <p>Extract from the page you chose. Review the text before saving it privately.</p>
+      <button type="button" id="extract">Extract current article</button>
+    </section>
+    <section id="editor" aria-labelledby="editor-title" hidden></section>
+    <section id="controls" aria-labelledby="collection-title">
+      <h2 id="collection-title">Saved items</h2>
+      <div class="toolbar" id="filters">
+        <label>Search<input id="search" type="search" placeholder="Words, articles, tags"></label>
+        <label>Collection type<select id="filter"><option value="">All collections</option></select></label>
+        <label>Order<select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+        <label>Appearance<select id="theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+      </div>
+      <p id="count" role="status"></p>
+      <ul id="entries"></ul>
+    </section>
+    <section id="transfer" aria-labelledby="transfer-title">
+      <h2 id="transfer-title">Import / Export</h2>
+      <p>Use a TAsLEXICON JSON archive to move private records between browsers. Exported files can contain private excerpts and source links.</p>
+      <div class="actions">
+        <label>JSON archive<input id="file" type="file" accept=".json,application/json"></label>
+        <button type="button" id="export">Export all</button>
+        <button type="button" id="export-filtered">Export filtered</button>
+      </div>
+      <div id="preview" hidden>
+        <h3>Import preview</h3>
+        <p id="preview-count"></p>
+        <ul id="preview-records"></ul>
+        <button type="button" id="import-confirm">Import new items</button>
+        <button type="button" id="import-cancel">Cancel</button>
+      </div>
+    </section>
+    <section id="sync" aria-labelledby="sync-title">
+      <h2 id="sync-title">Sync Status</h2>
+      <p id="sync-label">Local Only. Cloud sync is unavailable.</p>
+    </section>
+    <dialog id="remove-dialog" aria-labelledby="remove-title">
+      <h2 id="remove-title">Remove item?</h2>
+      <p id="remove-label"></p>
+      <form method="dialog"><button value="cancel">Cancel</button><button value="confirm" id="remove-confirm">Remove</button></form>
+    </dialog>
+  </main>
+</body>
+</html>

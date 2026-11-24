@@ -1,5 +1,6 @@
 """Cross-feature checks. Run with Python Playwright and its Chromium, or set CHROMIUM_PATH."""
 
+import json
 import os
 import tempfile
 import threading
@@ -139,7 +140,16 @@ class IntegratedUI(unittest.TestCase):
             link.click()
             expect(self.page.get_by_role('heading', name=name, exact=True)).to_be_visible()
             expect(nav.get_by_role('link', name=name, exact=True)).to_have_attribute('aria-current', 'page')
-            expect(self.page.get_by_role('heading', name='No entries yet.')).to_be_visible()
+            if name == 'Collocations':
+                data = Path(__file__).resolve().parents[1] / 'content/learning-parts/collocations.json'
+                expected = json.loads(data.read_text())['entries']
+                entries = self.page.get_by_role('region', name='Article collocations').get_by_role('link')
+                expect(entries).to_have_count(len(expected))
+                first = expected[0]
+                expect(entries.first).to_contain_text(first['phrase'])
+                expect(entries.first).to_have_attribute('href', f"{first['article']}.html#{first['article']}-{first['paragraph']}")
+            else:
+                expect(self.page.get_by_role('heading', name='No entries yet.')).to_be_visible()
 
     def test_home_returns_to_top_from_library_index(self):
         self.page.goto(self.url + 'index.html#home')
