@@ -6,3 +6,5 @@
 .netlify/
 __pycache__/
 *.pyc
+
+/build/lookup-core/

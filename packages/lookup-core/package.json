@@ -1,0 +1,12 @@
+{
+  "name": "@taslexicon/lookup-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./index.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node build.mjs ../../dist ../../build/lookup-core",
+    "benchmark": "node benchmark.mjs ../../build/lookup-core"
+  }
+}
