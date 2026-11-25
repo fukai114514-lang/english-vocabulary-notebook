@@ -1,6 +1,6 @@
 import { normalizeExpression, normalizeToken } from './tokens.mjs';
 
-export const coreVersion = '0.1.0';
+export const coreVersion = '0.2.0';
 export const schemaVersion = 1;
 const hash = (value) => typeof value === 'string' && /^[a-f0-9]{64}$/.test(value);
 const present = (value) => typeof value === 'string' && value.trim().length > 0;
@@ -37,11 +37,33 @@ export function validateDictionary(data) {
     const scope = entry.scope;
     requireValid(list(entry.inflectedForms, (value) => present(value) && normalize(value) === value && value !== lemma) &&
       new Set(entry.inflectedForms).size === entry.inflectedForms.length &&
+      (entry.lexicalClasses === undefined || list(entry.lexicalClasses, (part) => ['verb', 'noun', 'adj', 'adv'].includes(part))) &&
       list(entry.ipa, ipa) && list(entry.groupIds, present) && list(entry.relatedWords, present) &&
       (scope === null || record(scope) && present(scope.articleId) && present(scope.paragraphId)) &&
       (entry.morphologySourceId === null || Object.hasOwn(data.sources, entry.morphologySourceId)) &&
       validProvenance(entry.provenance), `metadata for ${entry.id}`);
     requireValid(Array.isArray(entry.senses) && entry.senses.length > 0, `senses for ${entry.id}`);
+    if (entry.usageEvidence !== undefined) {
+      const { sourceId, annotated, total } = entry.usageEvidence;
+      requireValid(Object.hasOwn(data.sources, sourceId) && Number.isSafeInteger(annotated) &&
+        Number.isSafeInteger(total) && annotated > 0 && annotated <= total, 'expression attestation');
+    }
+    if (entry.nounClasses !== undefined) {
+      requireValid(record(entry.nounClasses) && Object.entries(entry.nounClasses).every(([word, groups]) =>
+        /^[a-z]+(?:-[a-z]+)*$/.test(word) && list(groups, group =>
+          ['organization', 'equipment', 'route', 'distance', 'person'].includes(group))), 'semantic noun classes');
+    }
+    if (entry.contextModel !== undefined) {
+      const model = entry.contextModel;
+      const positive = n => Number.isSafeInteger(n) && n > 0;
+      requireValid(record(model) && Object.hasOwn(data.sources, model.sourceId) &&
+        positive(model.documents) && positive(model.examples) && model.documents <= model.examples &&
+        record(model.counts) && Object.entries(model.counts).every(([id, n]) => /^\d{8}$/.test(id) && positive(n)) &&
+        Object.values(model.counts).reduce((a, b) => a + b, 0) === model.examples && record(model.features) &&
+        Object.entries(model.features).every(([key, hits]) => /^[LR][12]?:[a-z'-]+$/.test(key) && record(hits) &&
+          Object.entries(hits).every(([id, n]) => Object.hasOwn(model.counts, id) && positive(n) && n <= model.counts[id])),
+      'context model for ' + entry.id);
+    }
     for (const sense of entry.senses) {
       requireValid(record(sense) && present(sense.id) && !senseIds.has(sense.id) && validProvenance(sense.provenance) &&
         optionalText(sense.partOfSpeech) && optionalText(sense.usageRegister) && optionalText(sense.definitionEn) &&

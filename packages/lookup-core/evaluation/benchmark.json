@@ -1,0 +1,25 @@
+{
+  "node": "v24.22.3",
+  "os": "linux",
+  "arch": "x64",
+  "dataVersion": "627e5c96098567043a2c2eae0175cf6e574a2d9e47bc15c5f430792a8529fa3c",
+  "entries": 5517,
+  "senses": 6781,
+  "dictionaryBytes": 4483429,
+  "gzipBytes": 521751,
+  "coldIntegrityParseIndex": {
+    "samples": 30,
+    "p50Ms": 132.387487,
+    "p95Ms": 279.826459
+  },
+  "warmWordLookup": {
+    "samples": 10000,
+    "p50Ms": 0.000871,
+    "p95Ms": 0.001091
+  },
+  "contextualLookup": {
+    "samples": 10000,
+    "p50Ms": 0.013661,
+    "p95Ms": 0.035674
+  }
+}

@@ -1,3 +1,4 @@
+import { constructions } from './constructions.mjs';
 import { buildForms, explicitGrammar } from './forms.mjs';
 import { normalizeExpression, normalizeToken } from './tokens.mjs';
 
@@ -5,6 +6,8 @@ const repository = 'https://github.com/fukai114514-lang/english-vocabulary-noteb
 const wordnet = 'https://github.com/globalwordnet/english-wordnet/releases/tag/2025-edition';
 
 export const SOURCES = {
+  'streusle-5': { name: 'STREUSLE v5.0 MWE annotation counts', url: 'https://github.com/nert-nlp/streusle/tree/8ba61fe4f216e7967500a862554a4fff79d25f5d', license: 'CC BY-SA 4.0', notice: 'STREUSLE-LICENSE.txt' },
+  semcor: { name: 'Princeton SemCor, disjoint training documents', url: 'https://www.nltk.org/nltk_data/', license: 'Princeton Semantic Concordance license', notice: 'SEMCOR-LICENSE.txt' },
   site: { name: 'TAsLEXICON', url: repository, license: null, notice: null },
   'oewn-2025': {
     name: 'Open English Wordnet 2025 and Princeton WordNet',
@@ -31,7 +34,7 @@ function sense(id, data, provenance) {
   };
 }
 
-export function adaptSiteData({ catalog, polysemy, search, articleWords, nap, phrases, contexts, collocations, oewn }) {
+export function adaptSiteData({ catalog, polysemy, search, articleWords, nap, phrases, contexts, collocations, oewn, runContext, multiword, nounClasses, expressionSupport }) {
   const entries = [];
   const indexById = new Map(search.records.map((record) => [record.id, record]));
   const wordsById = new Map(catalog.words.map((word) => [word.id, word]));
@@ -45,6 +48,7 @@ export function adaptSiteData({ catalog, polysemy, search, articleWords, nap, ph
     const morphology = scope || kind !== 'word' ? [] : buildForms(key, explicitGrammar(senses.map((item) => item.partOfSpeech), observed));
     entries.push({
       id, lemma, kind, category, scope, ipa, senses, groupIds, relatedWords, provenance,
+      lexicalClasses: Object.keys(observed),
       inflectedForms: [...new Set([...morphology, ...forms])],
       morphologySourceId: Object.keys(observed).length && kind === 'word' && !scope ? 'oewn-2025' : null,
     });
@@ -115,14 +119,33 @@ export function adaptSiteData({ catalog, polysemy, search, articleWords, nap, ph
       senses: [sense(id, { meaningZh: item.meaningZh }, source)] });
   }
 
-  for (const [lemma, parts] of Object.entries(oewn.extraEntries)) {
+  const specialized = new Set(constructions.map(c => c.lemma));
+  for (const [lemma, parts] of Object.entries({ ...oewn.extraEntries, ...multiword })) {
+    if (specialized.has(lemma)) continue;
     const source = { sourceId: 'oewn-2025', file: 'WNDB', recordId: lemma, href: null };
     const senses = Object.entries(parts).flatMap(([part, rows]) => rows.map(([offset, definitionEn, examples]) => {
       const recordId = `${part}:${offset}`;
       return sense(`oewn-2025:${lemma}:${recordId}`, { partOfSpeech: part, definitionEn, examples: examples.map((en) => ({ en })) },
         { ...source, file: `data.${part}`, recordId });
     }));
-    add({ id: `oewn-2025:${lemma}`, lemma, category: 'open-wordnet', provenance: source, senses });
+    const [head, ...tail] = lemma.split(' ');
+    const forms = tail.length && parts.verb ? buildForms(head, { verb: oewn.grammar[head]?.verb ?? [] })
+      .map(form => [form, ...tail].join(' ')) : [];
+    add({ id: `oewn-2025:${lemma}`, lemma, category: 'open-wordnet', provenance: source, senses, forms });
+  }
+  for (const item of constructions) {
+    const source = site('packages/lookup-core/constructions.mjs', item.id);
+    add({ id: item.id, lemma: item.lemma, category: item.category, provenance: source,
+      senses: [sense(item.id, item, source)] });
+  }
+  const run = entries.find(entry => entry.id === 'oewn-2025:run');
+  run.contextModel = runContext;
+  run.nounClasses = nounClasses;
+  for (const entry of entries) {
+    const counts = expressionSupport.counts[entry.lemma];
+    if (entry.category === 'open-wordnet' && Array.isArray(counts)) {
+      entry.usageEvidence = { sourceId: expressionSupport.sourceId, annotated: counts[0], total: counts[1] };
+    }
   }
   return entries;
 }

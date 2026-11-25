@@ -1,0 +1,612 @@
+{
+  "core": "0.2.0",
+  "dataVersion": "627e5c96098567043a2c2eae0175cf6e574a2d9e47bc15c5f430792a8529fa3c",
+  "engine": "v24.22.3",
+  "platform": "linux",
+  "arch": "x64",
+  "distribution": {
+    "ordinary": 18,
+    "confusable": 25,
+    "discontinuous": 5,
+    "continuous": 65,
+    "sense": 76
+  },
+  "detection": {
+    "tp": 70,
+    "fp": 0,
+    "fn": 0,
+    "tn": 43
+  },
+  "precision": 1,
+  "recall": 1,
+  "f1": 1,
+  "supportedSense": {
+    "correct": 7,
+    "incorrect": 1,
+    "abstained": 68,
+    "byClass": {
+      "motion": {
+        "correct": 1,
+        "total": 25
+      },
+      "operate": {
+        "correct": 1,
+        "total": 11
+      },
+      "extend": {
+        "correct": 3,
+        "total": 21
+      },
+      "manage": {
+        "correct": 2,
+        "total": 19
+      }
+    }
+  },
+  "supportedCorrectOverAll": 0.09210526315789473,
+  "rankedSense": {
+    "correct": 19,
+    "incorrect": 43,
+    "abstained": 14
+  },
+  "top1SenseAccuracy": 0.25,
+  "latencyMs": {
+    "anchors": 286,
+    "p50": 0.09061699999995199,
+    "p95": 0.4289269999999874
+  },
+  "errors": [
+    {
+      "i": 62,
+      "source": "SemCor/semcor/brown1/tagfiles/br-a12.xml#64",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 63,
+      "source": "SemCor/semcor/brown1/tagfiles/br-a12.xml#66",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 64,
+      "source": "SemCor/semcor/brown1/tagfiles/br-a13.xml#58",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 68,
+      "source": "SemCor/semcor/brown1/tagfiles/br-c02.xml#36",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 71,
+      "source": "SemCor/semcor/brown1/tagfiles/br-e24.xml#60",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 76,
+      "source": "SemCor/semcor/brown1/tagfiles/br-g15.xml#33",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "extend",
+      "outcome": "abstained"
+    },
+    {
+      "i": 80,
+      "source": "SemCor/semcor/brown1/tagfiles/br-j55.xml#6",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 81,
+      "source": "SemCor/semcor/brown1/tagfiles/br-j55.xml#21",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 82,
+      "source": "SemCor/semcor/brown1/tagfiles/br-j55.xml#66",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 83,
+      "source": "SemCor/semcor/brown1/tagfiles/br-j56.xml#61",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 84,
+      "source": "SemCor/semcor/brown1/tagfiles/br-j60.xml#23",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 87,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k02.xml#113",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 88,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k05.xml#60",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 90,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k06.xml#130",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 92,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k06.xml#172",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 93,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k08.xml#82",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 94,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k09.xml#45",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 95,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k09.xml#56",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 96,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k09.xml#70",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 97,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k10.xml#152",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 99,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k11.xml#140",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 100,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k15.xml#90",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 102,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k16.xml#41",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 103,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k16.xml#42",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 105,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k21.xml#23",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 106,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k21.xml#81",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 107,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k23.xml#8",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 108,
+      "source": "SemCor/semcor/brown1/tagfiles/br-k23.xml#55",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 114,
+      "source": "SemCor/semcor/brown1/tagfiles/br-p01.xml#83",
+      "gold": "motion",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 118,
+      "source": "SemCor/semcor/brown2/tagfiles/br-e30.xml#127",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 124,
+      "source": "SemCor/semcor/brown2/tagfiles/br-g12.xml#75",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 133,
+      "source": "SemCor/semcor/brown2/tagfiles/br-l10.xml#171",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 134,
+      "source": "SemCor/semcor/brown2/tagfiles/br-l10.xml#171",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 136,
+      "source": "SemCor/semcor/brown2/tagfiles/br-l16.xml#115",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 137,
+      "source": "SemCor/semcor/brown2/tagfiles/br-l17.xml#88",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 141,
+      "source": "SemCor/semcor/brown2/tagfiles/br-n14.xml#16",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 142,
+      "source": "SemCor/semcor/brown2/tagfiles/br-n14.xml#49",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 147,
+      "source": "SemCor/semcor/brownv/tagfiles/br-a09.xml#69",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 148,
+      "source": "SemCor/semcor/brownv/tagfiles/br-a09.xml#70",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 149,
+      "source": "SemCor/semcor/brownv/tagfiles/br-a20.xml#18",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 150,
+      "source": "SemCor/semcor/brownv/tagfiles/br-a25.xml#74",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 151,
+      "source": "SemCor/semcor/brownv/tagfiles/br-a28.xml#4",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 155,
+      "source": "SemCor/semcor/brownv/tagfiles/br-b09.xml#2",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 156,
+      "source": "SemCor/semcor/brownv/tagfiles/br-b14.xml#92",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 158,
+      "source": "SemCor/semcor/brownv/tagfiles/br-c06.xml#55",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 160,
+      "source": "SemCor/semcor/brownv/tagfiles/br-c15.xml#89",
+      "gold": "extend",
+      "prediction": "motion",
+      "ranked": "motion",
+      "outcome": "incorrect"
+    },
+    {
+      "i": 163,
+      "source": "SemCor/semcor/brownv/tagfiles/br-d13.xml#23",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 164,
+      "source": "SemCor/semcor/brownv/tagfiles/br-d13.xml#25",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 165,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e07.xml#51",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 166,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e13.xml#46",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 167,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e16.xml#62",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 168,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e16.xml#112",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 169,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e17.xml#93",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 170,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e20.xml#61",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 171,
+      "source": "SemCor/semcor/brownv/tagfiles/br-e20.xml#89",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 172,
+      "source": "SemCor/semcor/brownv/tagfiles/br-f05.xml#66",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 173,
+      "source": "SemCor/semcor/brownv/tagfiles/br-f06.xml#143",
+      "gold": "extend",
+      "prediction": null,
+      "ranked": "extend",
+      "outcome": "abstained"
+    },
+    {
+      "i": 174,
+      "source": "SemCor/semcor/brownv/tagfiles/br-f09.xml#125",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 175,
+      "source": "SemCor/semcor/brownv/tagfiles/br-h02.xml#26",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 179,
+      "source": "SemCor/semcor/brownv/tagfiles/br-l02.xml#99",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 180,
+      "source": "SemCor/semcor/brownv/tagfiles/br-l07.xml#119",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 181,
+      "source": "SemCor/semcor/brownv/tagfiles/br-m03.xml#41",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 182,
+      "source": "SemCor/semcor/brownv/tagfiles/br-m05.xml#15",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 183,
+      "source": "SemCor/semcor/brownv/tagfiles/br-m05.xml#15",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "motion",
+      "outcome": "abstained"
+    },
+    {
+      "i": 184,
+      "source": "SemCor/semcor/brownv/tagfiles/br-n07.xml#164",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 185,
+      "source": "SemCor/semcor/brownv/tagfiles/br-n07.xml#181",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 186,
+      "source": "SemCor/semcor/brownv/tagfiles/br-p02.xml#33",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    },
+    {
+      "i": 187,
+      "source": "SemCor/semcor/brownv/tagfiles/br-p02.xml#72",
+      "gold": "operate",
+      "prediction": null,
+      "ranked": null,
+      "outcome": "abstained"
+    },
+    {
+      "i": 188,
+      "source": "SemCor/semcor/brownv/tagfiles/br-r03.xml#46",
+      "gold": "manage",
+      "prediction": null,
+      "ranked": "other",
+      "outcome": "abstained"
+    }
+  ]
+}

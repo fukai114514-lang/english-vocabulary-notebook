@@ -1,6 +1,6 @@
 # TAsLEXICON Shared Lookup Core
 
-依赖为零的 ECMAScript 模块。网站和扩展从同一份源码、词典和测试夹具消费。当前候选使用 core 0.1.0、schema 1，适配阶段可以按需加载。
+依赖为零的 ECMAScript 模块。网站和扩展从同一份源码、词典和测试夹具消费。当前候选使用 core 0.2.0、schema 1，适配阶段可以按需加载。
 
 ## 构建与测试
 
@@ -13,7 +13,7 @@ npm --prefix packages/lookup-core test
 npm --prefix packages/lookup-core run benchmark
 ```
 
-构建写入 `build/lookup-core/`，包含 `lookup-dictionary.json`、`lookup-manifest.json` 和 `OEWN-LICENSE.md`。应用宿主读取这组生成物。源码构建使用仓库中固定的词库摘录，可断网执行。生成器可以接收任意已生成的站点目录和单独的输出目录。
+构建写入 `build/lookup-core/`，包含 `lookup-dictionary.json`、`lookup-manifest.json` 和三个来源许可文件。应用宿主读取这组生成物。源码构建使用仓库中固定的词库摘录，可断网执行。生成器可以接收任意已生成的站点目录和单独的输出目录。
 
 ## Dictionary Schema v1
 
@@ -29,7 +29,7 @@ npm --prefix packages/lookup-core run benchmark
 
 现有 Phrases 保留原 ID，Word Meanings 保留每个 Sense ID 及原顺序。比较记录使用原组 ID 和原词 ID 的组合，保留同一个词在不同组里的释义和链接。原始正文、词条附注、分类页面与完整记录继续由现有生成器维护，派生词典只投影查词字段。无现成 ID 的来源按原文键或段落 ID 加词面建立稳定键。站点其他学习栏继续沿用各自的数据结构。
 
-Open English Wordnet 2025 提供站点词表的 POS/不规则词形元数据，并补足 incur、phenomenon、assumption、well 的英文义项。发行源压缩包 SHA-256 为 `38b16326159f51853626b7d24a44c453fa88ab33f06fce5ec8fc5996d1c2be93`。需要刷新词形或重建摘录时，先生成网站，再运行 `python3 packages/lookup-core/import-wordnet.py <official-wndb.zip>`。摘录转换字段、保留例句与上游标识。CC BY 4.0 和 Princeton WordNet 通知随词库交付。发布时保留完整 notice。 [上游发行版本](https://github.com/globalwordnet/english-wordnet/releases/tag/2025-edition)
+Open English Wordnet 2025 提供站点词表的 POS/不规则词形元数据，并提供 run、account 等单词的英文义项和多词词条。发行源压缩包 SHA-256 为 `38b16326159f51853626b7d24a44c453fa88ab33f06fce5ec8fc5996d1c2be93`。需要刷新词形或重建摘录时，先生成网站，再运行 `python3 packages/lookup-core/import-wordnet.py <official-wndb.zip>`。摘录转换字段、保留例句与上游标识。CC BY 4.0 和 Princeton WordNet 通知随词库交付。发布时保留完整 notice。 [上游发行版本](https://github.com/globalwordnet/english-wordnet/releases/tag/2025-edition)
 
 ## API
 
@@ -41,12 +41,13 @@ Open English Wordnet 2025 提供站点词表的 POS/不规则词形元数据，�
 | `engine.lookupWord(text)` | `{ status, query, matches }`。保留精确词面和词形候选，精确结果在前。每个 match 包含不可变 `entry` 和 `reason`，义项保留原顺序 |
 | `engine.lemmatize(text)` | `{ status, query, lemmas }`。词形还原候选在前，已有精确词面随后，去重。同形歧义可有多个词元，例如 better 的 good、well、better |
 | `engine.lookupExpression(text, scope?)` | 同查词结果结构。段落义随可信 scope 返回，再列通用表达及有证据的词形。无匹配时 `status: 'not-listed'` |
+| `engine.analyzeContext({text, anchor, scope?})` | 接收一个完整阅读块，返回原始句界、表达候选、词义候选和普通查词结果。字段、示例、置信状态及限度见[上下文接口与验收](../../docs/universal-lookup/phase-03.md) |
 | `engine.getRelatedEntries(entryId)` | 根据现有相关词和分组关系返回收录条目。调用方使用查词结果的 `entry.id` |
 | `engine.getContextualCandidates({windowText, anchor, scope?})` | `{ status, candidates, wordFallback }`。每项候选含 `entry`、`reason`、`span`、`surface` 和 `tokenCount`。首项是优先结果，其余包含重叠或并列候选 |
 
 单词的 `status` 为 `found` 或 `not-listed`，非法输入的 `query` 为 null。语料缺少时直接报告未收录。词形规则须匹配已收录且具对应词性的词元，覆盖常见规则与不规则变化、复数、时态、分词、比较级和常见连字符形式。词表、词性及经过确认的形态规则决定实际覆盖率，同形义项由调用者呈现为备选。
 
-上下文窗口最多 256 个 UTF-16 单元，anchor 与 span 均是以原始窗口为准的半开区间 `{start, end}`。锚点可为词内光标位置，或位于单个词中的非空选择。匹配只检查锚点左右各 8 个词。标点和换行阻断匹配，NBSP 与普通词间空白可连接同一表达。候选依次按段落标注、来源明确的文章搭配、通用精确表达、通用词形排序，同层级长匹配优先。网页适配器负责在编辑区、隐藏区、不同块、链接、控件和 frame 边界停止采集，以及把 UTF-16 范围再映射到原始位置。普通行内标签的相邻文字可以用同一文本窗口传入。
+旧接口 `getContextualCandidates` 的窗口最多 256 个 UTF-16 单元，anchor 与 span 均是以原始窗口为准的半开区间 `{start, end}`。锚点可为词内光标位置，或位于单个词中的非空选择。静态词串索引检查锚点左右各 8 个词，构式索引检查最长 16 个词。标点和换行阻断匹配，NBSP 与普通词间空白可连接同一表达。候选结合段落来源、语法槽位、习惯用法证据和语义线索排序。相同证据分数后才比较长度。网页适配器负责在编辑区、隐藏区、不同块、链接、控件和 frame 边界停止采集，以及把 UTF-16 范围再映射到原始位置。普通行内标签的相邻文字可以用同一文本窗口传入。
 
 ```js
 import { createDictionaryStore } from './packages/lookup-core/index.mjs';

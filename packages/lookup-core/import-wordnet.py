@@ -8,7 +8,7 @@ from zipfile import ZipFile
 
 ARCHIVE_SHA = '38b16326159f51853626b7d24a44c453fa88ab33f06fce5ec8fc5996d1c2be93'
 PARTS = ('noun', 'verb', 'adj', 'adv')
-EXTRA = {'incur', 'phenomenon', 'assumption', 'well'}
+EXTRA = {'incur', 'phenomenon', 'assumption', 'well', 'run', 'account', 'prevent', 'pick', 'put', 'granted', 'odds'}
 ROOT = Path(__file__).resolve().parents[2]
 WORD = re.compile(r"[a-z]+(?:['-][a-z]+)*\Z")
 

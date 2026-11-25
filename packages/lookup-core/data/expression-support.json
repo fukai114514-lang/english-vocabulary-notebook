@@ -1,0 +1,167 @@
+{
+  "sourceId": "streusle-5",
+  "documents": 320,
+  "sentences": 2418,
+  "counts": {
+    "a few": [
+      10,
+      19
+    ],
+    "a little": [
+      12,
+      18
+    ],
+    "a lot": [
+      23,
+      24
+    ],
+    "all over": [
+      3,
+      3
+    ],
+    "as well": [
+      11,
+      14
+    ],
+    "ask for": [
+      13,
+      14
+    ],
+    "at all": [
+      6,
+      9
+    ],
+    "at least": [
+      10,
+      10
+    ],
+    "call back": [
+      4,
+      4
+    ],
+    "check out": [
+      8,
+      8
+    ],
+    "come in": [
+      7,
+      14
+    ],
+    "come out": [
+      5,
+      5
+    ],
+    "come over": [
+      3,
+      3
+    ],
+    "end up": [
+      6,
+      6
+    ],
+    "find out": [
+      3,
+      3
+    ],
+    "get to": [
+      3,
+      6
+    ],
+    "give up": [
+      5,
+      5
+    ],
+    "go in": [
+      4,
+      6
+    ],
+    "go on": [
+      3,
+      5
+    ],
+    "go through": [
+      6,
+      7
+    ],
+    "go to": [
+      23,
+      65
+    ],
+    "in fact": [
+      8,
+      8
+    ],
+    "just about": [
+      3,
+      4
+    ],
+    "last minute": [
+      5,
+      5
+    ],
+    "look at": [
+      3,
+      6
+    ],
+    "look for": [
+      10,
+      17
+    ],
+    "look to": [
+      3,
+      6
+    ],
+    "make sure": [
+      5,
+      6
+    ],
+    "mental health": [
+      3,
+      3
+    ],
+    "on time": [
+      8,
+      8
+    ],
+    "out of": [
+      14,
+      26
+    ],
+    "pass away": [
+      3,
+      3
+    ],
+    "phone call": [
+      4,
+      4
+    ],
+    "right away": [
+      3,
+      3
+    ],
+    "show up": [
+      6,
+      6
+    ],
+    "take out": [
+      3,
+      3
+    ],
+    "test drive": [
+      5,
+      5
+    ],
+    "turn out": [
+      3,
+      3
+    ],
+    "work on": [
+      3,
+      4
+    ],
+    "work out": [
+      3,
+      3
+    ]
+  }
+}

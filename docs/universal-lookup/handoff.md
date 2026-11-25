@@ -25,3 +25,7 @@
 ## Phase 02 候选交接
 
 共享代码、网站数据适配、数据版本和 API 说明位于 [packages/lookup-core](../../packages/lookup-core/README.md)。进入 Phase 03 时从已核实的 Phase 02 候选固定提交开始，使用该提交上的清单规范生成同源词库，并接入网站 reader 适配。依据 Phase 01 的原生范围继续验收 Safari 和其他扩展平台。Phase 02 的数据、恢复点、运行结果和剩余条件见 [Phase 02 验收记录](phase-02.md)。
+
+## Phase 03 候选交接
+
+从 Phase 02 完整提交 `6c35477dd72bde37e0e44984c86d995e704228e1` 建立网站候选 `feature/contextual-expression-engine`。阅读器接入位于单独的本地预览构建。后续适配器传入单个可读块、UTF-16 锚点和可信段落 ID；保留单词回退与不确定选项。扩展端消费前核对候选 Git SHA、词典版本和三份许可。下一阶段补验项、错误样例及两端恢复方式见 [Phase 03 报告](phase-03.md)。

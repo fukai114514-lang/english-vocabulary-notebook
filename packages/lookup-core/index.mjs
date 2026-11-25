@@ -1,3 +1,6 @@
+import { compilePatterns, anchoredPatterns } from './pattern-matcher.mjs';
+import { sentenceAt } from './sentence.mjs';
+import { rankSenses } from './sense-ranker.mjs';
 import { validateDictionary, readVerifiedDictionary } from './dictionary.mjs';
 import { normalizeExpression, normalizeToken, tokenize, gapAllowed } from './tokens.mjs';
 
@@ -24,6 +27,7 @@ function makeIndexes(entries) {
   let maxExpressionTokens = 1;
   for (const entry of entries) {
     const lemma = normalizeExpression(entry.lemma);
+    if (entry.id.startsWith('construction:')) continue; // Grammar, including ambiguity checks, owns these contextual matches.
     const scope = entry.scope;
     let index = entry.kind === 'word' ? words : expressions;
     if (scope) {
@@ -36,6 +40,20 @@ function makeIndexes(entries) {
     }
   }
   return { words, expressions, scoped, maxExpressionTokens };
+}
+
+const functionWords = new Set('a an the at as and by for from in into of off on out up to with without it all some any this that one'.split(' '));
+const commonContext = new Set('about also another are been being can could did does had has have here her his how its more most much must once one other our should some such than that the their them then there these they this those very was well were what when where which who will with would you your'.split(' '));
+
+function lexicalSupport(entry, tokens, start, end, first, last) {
+  const phrase = new Set(tokens.slice(start, end + 1).map(t => t.key));
+  const near = [...tokens.slice(Math.max(first, start - 4), start), ...tokens.slice(end + 1, Math.min(last, end + 4) + 1)];
+  const clues = [...new Set(near.map(t => t.key).filter(k => k.length >= 3 &&
+    !phrase.has(k) && !commonContext.has(k) && !functionWords.has(k)))];
+  if (!clues.length) return [];
+  const words = new Set(entry.senses.flatMap(s => [s.definitionEn, ...s.examples.map(ex => ex.en)])
+    .filter(Boolean).join(' ').toLowerCase().match(/[a-z]+/g));
+  return clues.filter(k => words.has(k));
 }
 
 const ranks = { 'reading-context': 0, collocations: 1, exact: 2, inflected: 3 };
@@ -64,6 +82,9 @@ function buildEngine(data, { cacheSize = 256 } = {}) {
   const dictionary = freezeTree(data);
   const { words, expressions, scoped, maxExpressionTokens } = makeIndexes(dictionary.entries);
   const byId = new Map(dictionary.entries.map((entry) => [entry.id, entry]));
+  const patterns = compilePatterns(byId);
+  const lexicalClasses = memoize(256, (key) => new Set((words.get(key) ?? []).flatMap(({ entry }) => entry.lexicalClasses ?? [])));
+  const constructionLemmas = new Map(dictionary.entries.filter(e => e.id.startsWith('construction:')).map(e => [e.lemma, e]));
   const findWord = memoize(cacheSize, (query) => result(query, [...words.get(query) ?? []].sort((a, b) => rank(a) - rank(b))));
 
   function lookupWord(text) {
@@ -90,6 +111,8 @@ function buildEngine(data, { cacheSize = 256 } = {}) {
     const query = normalizeExpression(text);
     if (!query) return invalid();
     const matches = [...inScope(query, scope), ...expressions.get(query) ?? []];
+    const construction = constructionLemmas.get(query);
+    if (construction) matches.push({ entry: construction, reason: 'exact' });
     return result(query, matches.filter(({ entry }) => entry.kind === 'expression').sort((a, b) => rank(a) - rank(b)));
   }
 
@@ -106,21 +129,23 @@ function buildEngine(data, { cacheSize = 256 } = {}) {
     return result(entryId, [...matches.values()]);
   }
 
-  function getContextualCandidates(input) {
-    const { windowText, anchor, scope } = input ?? {};
-    const valid = typeof windowText === 'string' && windowText.length <= 256 &&
-      Number.isSafeInteger(anchor?.start) && Number.isSafeInteger(anchor?.end) &&
-      anchor.start >= 0 && anchor.end >= anchor.start && anchor.end <= windowText.length;
-    if (!valid) return freezeTree({ status: 'not-listed', candidates: [], wordFallback: invalid() });
-    const tokens = tokenize(windowText);
+  function analyzeContext(input) {
+    const { text, anchor, scope } = input ?? {};
+    const sentence = sentenceAt(text, anchor);
+    const empty = () => freezeTree({ status: 'not-listed', sentence, candidates: [], senses: [], wordFallback: invalid() });
+    if (!sentence) return empty();
+    const tokens = tokenize(sentence.text).map(token => ({
+      ...token, surface: sentence.text.slice(token.start, token.end),
+      start: token.start + sentence.start, end: token.end + sentence.start,
+    }));
     const index = tokens.findIndex(({ start, end }) => start <= anchor.start && anchor.start < end && anchor.end <= end);
-    if (index === -1) return freezeTree({ status: 'not-listed', candidates: [], wordFallback: invalid() });
+    if (index === -1) return empty();
     const wordFallback = findWord(tokens[index].key);
-    const candidates = [];
+    const candidates = anchoredPatterns(patterns, tokens, index, text, lexicalClasses);
 
     let first = index;
     let last = index;
-    const connected = (left) => gapAllowed(windowText.slice(tokens[left].end, tokens[left + 1].start));
+    const connected = (left) => gapAllowed(text.slice(tokens[left].end, tokens[left + 1].start));
     while (first > Math.max(0, index - 8) && connected(first - 1)) first--;
     while (last < Math.min(tokens.length - 1, index + 8) && connected(last)) last++;
 
@@ -128,20 +153,54 @@ function buildEngine(data, { cacheSize = 256 } = {}) {
       for (let end = index; end <= last && end - start < maxExpressionTokens; end++) {
         const span = { start: tokens[start].start, end: tokens[end].end };
         const key = tokens.slice(start, end + 1).map((token) => token.key).join(' ');
-        const matches = end === start ? inScope(key, scope) : lookupExpression(key, scope).matches;
+        const matches = [...inScope(key, scope), ...(end === start ? [] : expressions.get(key) ?? [])];
         for (const match of matches) {
-          candidates.push({ ...match, span, surface: windowText.slice(span.start, span.end), tokenCount: end - start + 1 });
+          let score = { 'reading-context': 100, collocations: 92, exact: 80, inflected: 72 }[match.reason];
+          const lexicalOnly = match.entry.category === 'open-wordnet';
+          const clues = lexicalOnly ? lexicalSupport(match.entry, tokens, start, end, first, last) : [];
+          const freq = match.entry.usageEvidence;
+          const attested = freq && freq.annotated >= 3 && freq.annotated / freq.total >= 0.8;
+          const weak = lexicalOnly && ((!clues.length && !attested) || key.split(' ').every(w => functionWords.has(w)) ||
+            / (?:it|them|him|her)$/.test(key));
+          if (lexicalOnly) score -= 10;
+          if (weak) score = 40;
+          candidates.push({ ...match, span, surface: text.slice(span.start, span.end), tokenCount: end - start + 1,
+            components: tokens.slice(start, end + 1).map(({ start, end }) => ({ start, end })), slots: [],
+            score, confidence: weak ? 'possible' : 'supported', evidence: [match.reason, match.entry.provenance.file,
+              ...(attested ? [`STREUSLE training reviews: ${freq.annotated}/${freq.total} occurrences annotated`] : []),
+              ...(clues.length ? ['nearby dictionary definition/example terms: ' + clues.join(', ')] : []),
+              ...(weak ? ['dictionary form also permits a compositional reading'] : [])] });
         }
       }
     }
-    candidates.sort((a, b) => rank(a) - rank(b) || b.tokenCount - a.tokenCount ||
+    candidates.sort((a, b) => b.score - a.score || b.tokenCount - a.tokenCount ||
       a.span.start - b.span.start || Number(a.entry.id > b.entry.id) - Number(a.entry.id < b.entry.id));
-    return freezeTree({ status: candidates.length || wordFallback.status === 'found' ? 'found' : 'not-listed', candidates, wordFallback });
+    const seen = new Set();
+    const ranked = candidates.filter(candidate => {
+      if (seen.has(candidate.entry.id)) return false;
+      seen.add(candidate.entry.id);
+      return true;
+    });
+    if (ranked.length > 1 && ranked[0].score === ranked[1].score &&
+        ranked[0].tokenCount === ranked[1].tokenCount && ranked[0].entry.lemma !== ranked[1].entry.lemma) {
+      for (const candidate of ranked.filter(c => c.score === ranked[0].score && c.tokenCount === ranked[0].tokenCount)) {
+        candidate.confidence = 'possible';
+        candidate.evidence.push('competing expression with equal evidence');
+      }
+    }
+    const senses = rankSenses(wordFallback, tokens, index, text, ranked[0]);
+    return freezeTree({ status: ranked.length || wordFallback.status === 'found' ? 'found' : 'not-listed',
+      sentence, candidates: ranked, senses, wordFallback });
+  }
+
+  function getContextualCandidates(input) {
+    return analyzeContext({ text: input?.windowText?.length <= 256 ? input.windowText : null,
+      anchor: input?.anchor, scope: input?.scope });
   }
 
   return Object.freeze({
     dataVersion: dictionary.dataVersion, sources: dictionary.sources,
-    lookupWord, normalizeToken, lemmatize, lookupExpression, getRelatedEntries, getContextualCandidates,
+    lookupWord, normalizeToken, lemmatize, lookupExpression, getRelatedEntries, getContextualCandidates, analyzeContext,
   });
 }
 
