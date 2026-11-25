@@ -19,6 +19,8 @@ for page in (ROOT/'dist').glob('*.html'):
  expected={'./search.css', './interface.js', './search.js'}
  if page.name not in learning_pages:
   expected.add('./pronunciation.js' if page.name=='index.html' else './reader.js')
+ if page.name != 'index.html' and page.name not in learning_pages:
+  expected.add('./dictionary-ui.css')
  assert sorted(urlsplit(u).path for u in p.urls)==sorted(expected),(page.name,p.urls)
  for u in p.urls:
   split=urlsplit(u);assert parse_qs(split.query).get('v')==[hashlib.sha256((page.parent/split.path).read_bytes()).hexdigest()],(page.name,u)

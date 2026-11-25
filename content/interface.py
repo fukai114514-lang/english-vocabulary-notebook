@@ -76,7 +76,8 @@ def build():
   metadata = '<meta property="og:site_name" content="TAsLEXICON"><meta property="og:type" content="website"><meta property="og:title" content="'+e(page_title)+'"><meta property="og:description" content="'+e(description)+'">'
   current_view = part['id'] if standalone else 'nap' if reader else 'home'
   adapter = '' if standalone else '<script src="./'+('reader' if reader else 'pronunciation')+'.js" defer></script>'
-  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="'+e(description)+'"><title>'+e(page_title)+'</title>'+metadata+'<link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css"></head><body'+(' class="reader-page"' if reader else '')+'>'+shell(current_view, learning_links)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script>'+adapter+'</body></html>'
+  dictionary_css = '<link rel="stylesheet" href="./dictionary-ui.css">' if reader else ''
+  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="description" content="'+e(description)+'"><title>'+e(page_title)+'</title>'+metadata+'<link rel="icon" href="data:,"><script>'+boot+'</script><link rel="stylesheet" href="./search.css">'+dictionary_css+'</head><body'+(' class="reader-page"' if reader else '')+'>'+shell(current_view, learning_links)+'<main id="main" tabindex="-1">'+body+'</main>'+search_dialog()+'<script id="site-meta" type="application/json">'+meta+'</script>'+context+'<script src="./interface.js" defer></script><script src="./search.js" defer></script>'+adapter+'</body></html>'
  p=ROOT/'dist/index.html';page=p.read_text();listing=re.search(r'<section id="list">(.*?)</section><section id="nap-part"',page,re.S)[1]
  from phrases import render as render_phrases
  listing+=render_phrases()
@@ -165,4 +166,7 @@ def build():
  (ROOT/'dist/interface.js').write_text('window.notebookText = '+json.dumps(ui['text'],ensure_ascii=False)+';\n'+source)
  # The legacy build still reads pronunciation.js from the archived sources.
  (ROOT/'dist/pronunciation.js').write_text('window.notebookSpeech.bindReferenceWords();\n')
+ # Reader data is built after the shared catalog, index and article assets exist.
+ import subprocess
+ subprocess.run(['node', str(ROOT/'packages/lookup-core/reader-assets.mjs')], check=True)
  print('Interface:',len(catalog['groups']),'groups,',len(poly['entries']),'words,',len(articles),'readers')

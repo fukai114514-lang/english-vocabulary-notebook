@@ -29,3 +29,7 @@
 ## Phase 03 候选交接
 
 从 Phase 02 完整提交 `6c35477dd72bde37e0e44984c86d995e704228e1` 建立网站候选 `feature/contextual-expression-engine`。阅读器接入位于单独的本地预览构建。后续适配器传入单个可读块、UTF-16 锚点和可信段落 ID；保留单词回退与不确定选项。扩展端消费前核对候选 Git SHA、词典版本和三份许可。下一阶段补验项、错误样例及两端恢复方式见 [Phase 03 报告](phase-03.md)。
+
+## Phase 05 字典界面
+
+网站 `packages/dictionary-ui/` 维护跨端面板与设计令牌，扩展锁定同一份源码用于打包。保持宿主权限和内容数据边界。交互、视觉、设备验收和恢复记录见 [Phase 05](phase-05.md)。

@@ -22,7 +22,7 @@ PROBES = """
 window.spoken = [];
 window.interruptions = 0;
 Object.defineProperty(window, 'speechSynthesis', {value: {
-    getVoices: () => [],
+    getVoices: () => ['en-US', 'en-GB'].map(lang => ({ lang, localService: true })),
     speak: u => spoken.push({text:u.text, lang:u.lang, rate:u.rate}),
     cancel: () => { interruptions++; }
 }});

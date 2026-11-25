@@ -49,6 +49,7 @@ with tempfile.TemporaryDirectory(prefix='wordbook-audit-') as folder:
     clean = Path(folder)
     shutil.copytree(ROOT / 'content', clean / 'content',
                     ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
+    shutil.copytree(ROOT / 'packages', clean / 'packages')
     (clean / 'dist').mkdir()
     run([sys.executable, 'content/render.py'], cwd=clean)
     clean_matches = generated == manifest(clean / 'dist')

@@ -35,3 +35,6 @@ def add_readings():
  p.write_text(page)
  for name in ['reader.js','reading_articles.json']:
   (ROOT/'dist'/name).write_bytes((ROOT/'content'/name).read_bytes())
+
+ for source, name in [('panel.mjs','dictionary-ui.mjs'),('style.css','dictionary-ui.css')]:
+  (ROOT/'dist'/name).write_bytes((ROOT/'packages/dictionary-ui'/source).read_bytes())

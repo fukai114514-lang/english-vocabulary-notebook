@@ -42,7 +42,7 @@ try {
         external.push(route.request().url());
         return route.abort();
       });
-      const result = page.locator('#smart-lookup-result');
+      const result = page.locator('#lookup-title');
       const word = key => page.locator('#vpn-privacy-B [data-lookup="' + key + '"]').first();
       const section = async key => {
         await result.filter({ hasText: key }).waitFor();
@@ -51,9 +51,9 @@ try {
       await page.goto(origin + '/vpn-privacy.html#vpn-privacy-B');
       await word('back').click();
       await section('rolled back');
-      assert.equal(await page.locator('.context-expression').count(), 2);
+      assert.equal(await page.locator('.lex-aware').count(), 0);
       await page.keyboard.press('Escape');
-      await page.waitForFunction(() => !document.querySelector('#lookup-card').open && !document.querySelector('.context-expression'));
+      await page.waitForFunction(() => !document.querySelector('#lookup-card').open && !document.querySelector('.lex-aware'));
       await word('rules').click();
       await section('rules');
       assert.ok(!(await result.innerText()).includes('rolled back'));
@@ -64,7 +64,7 @@ try {
       const top = await page.evaluate(() => scrollY);
       await word('meeting').click();
       await section('put the meeting off');
-      assert.equal(await page.locator('.context-expression').count(), 4);
+      assert.equal(await page.locator('.lex-aware').count(), 0);
       assert.equal(await page.evaluate(() => scrollY), top);
       await page.keyboard.press('Escape');
       await word('off').evaluate(button => {
